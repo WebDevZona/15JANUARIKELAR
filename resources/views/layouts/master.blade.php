@@ -193,6 +193,23 @@
                             </p>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a href="/artikel/index" class="nav-link">
+                            <i class="nav-icon fas fa-layer-group"></i>
+                            <p>
+                               Artikel                     
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/video/index" class="nav-link">
+                            <i class="nav-icon fas fa-layer-group"></i>
+                            <p>
+                               Video                     
+                            </p>
+                        </a>
+                    </li>
                     {{-- <li class="nav-item has-treeview">
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-sharp fa-light fa-pen"></i>

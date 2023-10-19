@@ -46,6 +46,12 @@ class tampilanController extends Controller
         
         return view('skripsi');
     }
+
+    public function artikel(){
+        
+        return view('artikel');
+    }
+    
     public function nonaktif(){
         
         return view('nonaktif');

@@ -168,12 +168,14 @@
       <div class="date-box" id="date-box">
         <p id="popup-date">21</p>
       </div>
+      <row>
       <div class="popup-text" id="popup-text">
         <p><strong>Selamat Sobat Insans Telah Mendaftar</strong></p>
         <p>Nama: Vabindra Bimasvara</p>
         <p>Paket: Silver</p>
         <p>5 menit yang lalu</p>
       </div>
+      </row>
     </div>
   
   <script src="script.js"></script>
