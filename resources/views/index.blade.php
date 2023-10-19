@@ -285,19 +285,26 @@
 
           
           <div class="icon-box" data-aos="fade-up" data-aos-delay="100"style="background: url(assets/img/bg/bg4.png);background-size: cover;">           
-            <div class="label"style="margin-top:30px">
-              {{-- <span class="icon">
-                <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px">
-              </span> --}}
-              <span class="label-text" style="font-family:'Manrope';font-size:12px">Bimbingan online & privat</span>
+            <div class="labels"style="margin-left:-20px">
+              <span class="icon">
+                <img src="assets/img/bg/ico4.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:30px;position:absolute;margin-left:-10px">
+              </span>
+              <span class="label-text" style="font-family:'Manrope';font-size:12px; white-space: normal;word-wrap: break-word;margin-left:20px;margin-top:-10px">Bimbingan online & privat</span>
             </div>
             <h4 class="title">
-              {{-- <p style="color:black;font-size:11px;margin-bottom:5px;font-family: 'Manrope';margin-top:-7px">Ruang Belajar</p> --}}
-              <a href=""style="font-family: 'Manrope';font-weight:700;font-size:14px">Kamu akan dibimbing secara intensif melalui online dan privat, sehingga bisa lebih fokus dan mudah paham.</a></h4>
+              <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
+              <p href=""style="color: #1E1E1E;
+              font-family: Manrope;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+              margin-top:-13px">Puluhan ribu video belajar adaptif dan latihan soal</p> </h4>
+              {{-- Kamu akan dibimbing secara intensif melalui online dan privat, sehingga bisa lebih fokus dan mudah paham. --}}
               {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
              <div class="icon">
               </div>
-              <img src="assets/img/bg/gmb4.png" alt="Deskripsi Gambar"style=" margin-top: -155px;">
+              <img src="assets/img/bg/gmb4.png" alt="Deskripsi Gambar"style=" margin-top: -165px;">
             </div>
           
 
@@ -305,59 +312,81 @@
           
           
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200"style="background: url(assets/img/bg/bg3.png);background-size: cover;">           
-              <div class="label"style="margin-top:30px">
-                {{-- <span class="icon">
-                  <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px">
-                </span> --}}
-                <span class="label-text" style="font-family:'Manrope';font-size:12px">Durasi sampai 4 jam</span>
+              <div class="label"style="margin-top:10px">
+                <span class="icon">
+                  <img src="assets/img/bg/ico2.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px">
+                </span>
+                <span class="label-text" style="font-family:'Manrope';font-size:12px; white-space: normal;word-wrap: break-word;margin-top:-20px">Durasi sampai 4 jam</span>
               </div>
               <h4 class="title">
-                {{-- <p style="color:black;font-size:11px;margin-bottom:5px;font-family: 'Manrope';margin-top:-7px;">Ruang Belajar</p> --}}
-                <a href=""style="font-family: 'Manrope';font-weight:700;font-size:13px">Durasi bimbingan hingga 4 jam di setiap pertemuannya membuatmu semakin puas tanpa takut dikejar waktu.</a>
+                <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
+                <p href=""style="color: #1E1E1E;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top:-13px">Puluhan ribu video belajar adaptif dan latihan soal</p>
               </h4>
+              {{-- Durasi bimbingan hingga 4 jam di setiap pertemuannya membuatmu semakin puas tanpa takut dikejar waktu --}}
               {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
              <div class="icon">
               </div>
-              <img src="assets/img/bg/gmb3.png" alt="Deskripsi Gambar">
+              <img src="assets/img/bg/gmb3.png" alt="Deskripsi Gambar"style=" margin-top: -185px;">
             </div>
          
 
           
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300"style="background: url(assets/img/bg/bg2.png);background-size: cover;">        
-              <div class="label"style="margin-top:30px">
-                {{-- <span class="icon">
-                  <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px">
-                </span> --}}
-                <span class="label-text" style="font-family:'Manrope';font-size:12px">Mendapat 24× pertemuan                </span>
+              <div class="label"style="margin-top:10px">
+                <span class="icon">
+                  <img src="assets/img/bg/ico3.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px">
+                </span>
+                <span class="label-text" style="font-family:'Manrope';font-size:12px">24x Pertemuan</span>
+                {{-- Mendapat 24 pertemuan --}}
               </div>  
               <h4 class="title" >
-                {{-- <p style="color:black;font-size:11px;margin-bottom:5px;font-family: 'Manrope';">Ruang Belajar</p> --}}
-                <a href=""style="font-family: 'Manrope';font-weight:700;font-size:14px"> Kesempatan bimbingan hingga 24x pertemuan dalam 2 bulan, jadi kamu bisa lebih detail saat konsultasi.</a></h4>
+                <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
+                <p href=""style="color: #1E1E1E;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top:-13px"> Puluhan ribu video belajar adaptif dan latihan soal</p></h4>
+                {{-- Kesempatan bimbingan hingga 24x pertemuan dalam 2 bulan, jadi kamu bisa lebih detail saat konsultasi. --}}
               {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
              <div class="icon">
               </div>
-              <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar"style=" margin-top: -70px;">
+              <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar"style=" margin-top: -125px;">
             </div>
         
 
 
          
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400"style="background: url(assets/img/bg/bg1.png);background-size: cover;">        
-              <div class="label"style="margin-top:30px">
-                {{-- <span class="icon">
+              <div class="label"style="margin-top:10px">
+                <span class="icon">
                   <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px">
-                </span> --}}
+                </span>
                 <span class="label-text" style="font-family:'Manrope';font-size:12px">Fasilitas Lengkap</span>
               </div>
               
               <h4 class="title" >
-                {{-- <p style="color:black;font-size:11px;margin-bottom:5px;font-family: 'Manrope';">Ruang Belajar</p> --}}
-                <a href="" style="font-family: 'Manrope';font-weight:700;font-size:14px">Selain dibimbing Mentor profesional yang ahli di bidangnya juga didukung materi pembelajaran, seritifikat dll</a>
+                <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
+                <p style="color: #1E1E1E;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top:-13px">Puluhan ribu video belajar adaptif dan latihan soal</p>
+                {{-- Selain dibimbing Mentor profesional yang ahli di bidangnya juga didukung materi pembelajaran, seritifikat dll --}}
               </h4>
               {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
              <div class="icon">
               </div>
-              <img src="assets/img/bg/gmb1.png" alt="Deskripsi Gambar"style=" margin-top: -120px;">
+              <img src="assets/img/bg/gmb1.png" alt="Deskripsi Gambar"style=" margin-top: -155px;">
             </div>
         
 
@@ -365,21 +394,33 @@
 
          
             <div class="icon-box" data-aos="fade-up" data-aos-delay="500"style="background: url(assets/img/bg/bg5.png);background-size: cover;">       
-              <div class="label"style="margin-top:35px">
-                {{-- <span class="icon">
+              <div class="label"style="margin-top:10px">
+                <span class="icon">
                   <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px">
-                </span> --}}
-                <span class="label-text" style="font-family:'Manrope';font-size:11px;letter-spacing: 1px;">Termurah Se-Indonesia
+                </span>
+                <span class="label-text" style="color: #FFF;
+                font-family: 'Manrope';
+                font-size: 11px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;">Termurah Se-Indonesia
                 </span>
               </div>
               <h4 class="title" >
-                {{-- <p style="color:black;font-size:11px;margin-bottom:5px;font-family: 'Manrope';">Ruang Belajar</p> --}}
-                <a href=""style="font-family: 'Manrope';font-weight:700;font-size:14px">Kamu nggak perlu takut mahal, karena sudah sesuai bugdet mahasiswa dan garansi termurah Se-Indonesia</a>
+                <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
+                <p href=""style="color: #1E1E1E;
+                font-family: Manrope;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top:-13px">Puluhan ribu video belajar adaptif dan latihan soal</p>
+                {{-- Kamu nggak perlu takut mahal, karena sudah sesuai bugdet mahasiswa dan garansi termurah Se-Indonesia --}}
               </h4>
               {{-- <p class="description">Sobat Insans akanarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
              <div class="icon">
               </div>
-              <img src="assets/img/bg/gmb5.png" alt="Deskripsi Gambar"style=" margin-top: -40px;">
+              <img src="assets/img/bg/gmb5.png" alt="Deskripsi Gambar"style=" margin-top: -80px;">
             </div>
           
 
@@ -543,15 +584,15 @@
 
 
 <!-- ======= Pricing Section ======= -->
-<section id="pricing" class="pricing" >
+<section id="pricing" class="pricing" style="margin-top: -100px">
   <div class="container" data-aos="fade-up">
 
-    <div class="section-title judul">
+    {{-- <div class="section-title judul">
       <!-- <h2>Produk</h2> -->
       <h3>Program</h3>
       <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
       
-    </div>
+    </div> --}}
     <div class="row">
         <!-- <img src="assets/img/garis.jpg" class="img-fluid" alt=""> -->
         
@@ -831,12 +872,12 @@
 
   <!-- ======= Pricing Section ======= -->
  
-  <section id="berita" class="berita">
+  <section id="berita" class="berita"style="margin-top:-35px">
  <div class="content_area">
   
    <div class="main_content floatleft">
      <div class="left_coloum floatleft">        
-          <h4>Rekomedasi untukmu</h4> 
+          <h4>Class Program on Youtube</h4> 
           <div class="single_left_coloum_wrapper" id="scrollableColumn">           
             <div class="scrollable_left_coloum">
               <!-- Article 1 -->
@@ -873,6 +914,18 @@ SBY Bertemu di Pacitan Jawa
               <!-- Add more articles as needed -->
             </div>
           </div>
+          <span class="left-scroll-buttonn" onclick="scrollLeft()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+              <g filter="url(#filter0_b_229_15)">
+                <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                <!-- Mengubah path panah ke kiri -->
+                <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="white" />
+              </g>
+              <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+            </svg>
+          </span>
+
+          
           <span class="right-scroll-button" onclick="scrollRight()">
             <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
               <g filter="url(#filter0_b_229_15)">
@@ -893,7 +946,7 @@ SBY Bertemu di Pacitan Jawa
 
           <hr style="border: 1px solid rgba(0, 0, 0, 0.48);;">
 
-          <h4>Judul Konten</h4> 
+          <h4>Class Program on Instagram</h4> 
           <div class="single_left_coloum_wrapper" id="scrollableColumn1">
             <div class="scrollable_left_coloum">
               <div class="single_left_coloumb long-image">
@@ -931,6 +984,16 @@ SBY Bertemu di Pacitan Jawa
               <!-- Add more content here -->
             </div>          
           </div>
+          <span class="left-scroll-button1" onclick="scrollLeft()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+              <g filter="url(#filter0_b_229_15)">
+                <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                <!-- Mengubah path panah ke kiri -->
+                <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="white" />
+              </g>
+              <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+            </svg>
+          </span>
           <span class="right-scroll-button1" onclick="scrollRight1()">
             <!-- Add right-scroll icon here --> 
             <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
@@ -956,7 +1019,7 @@ SBY Bertemu di Pacitan Jawa
       
       <div class="right_coloum floatright">
         <div class="single_right_coloum">           
-            <h4>Video Terpopuler</h4> 
+            <h4 style="margin-left: -5px">Terpopuler</h4> 
             <ul>
               <li>
                  <div class="single_cat_right_content">
@@ -1103,7 +1166,7 @@ line-height: normal;"> 3 hours ago</p>
 
 
   <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials"style="margin-top:10px;margin-bottom:30px; ">
+  <section id="testimonials" class="testimonials"style="margin-top:-120px;margin-bottom:30px; ">
     <div class="container" data-aos="zoom-in">
       <div class="section-title">
         {{-- <h2>Team</h2> --}}
@@ -1119,19 +1182,19 @@ line-height: normal;"> 3 hours ago</p>
                 <div class="member">
                   <div class="member-img">
                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                    <img src="assets/img/team/1.png" class="img-fluid" alt="">
+                    <img src="assets/img/team/mentor2.png" class="img-fluid" alt="">
                   </div>
                   <div class="member-info"><br>
-                    <h4 class="name">Ali Bin Abithalib Salman</h4>
-                    {{-- <span class="position">Technical Support</span> --}}
+                    <h4 class="name">Ali Bin Abithalib Salman <br>S.Hut, M.Si</h4>
+                    <span class="position">Master Teacher Biologi</span>
                     <div class="line"></div>
                     <p class="achievement">Keahlian dan Prestasi :</p>
                     <ul>
-                      <li>1. Teknologi Hasil Hutan </li>
-                      <li>2. Mikrobiologi </li>
-                      <li>3. SPSS </li>
-                      <li>3. SPSS </li>
-                      <li>4. Asisten Riset dan Publikasi Ilmiah Internasional </li>
+                      <li>Experimental Research and Laboratory</li>
+                      <li>Mikrobiologi </li>
+                      <li>SPSS </li>
+                      <li>Teknologi Hasil Hutan</li>
+                      {{-- <li>4. Asisten Riset dan Publikasi Ilmiah Internasional </li> --}}
                       <br>
                      {{-- <br><br> --}}
                     </ul>
@@ -1205,21 +1268,21 @@ line-height: normal;"> 3 hours ago</p>
                 <div class="member">
                   <div class="member-img">
                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                    <img src="assets/img/team/1.png" class="img-fluid" alt="">
+                    <img src="assets/img/team/mentor3.png" class="img-fluid" alt="">
                   </div>
                   <div class="member-info"><br>
-                    <h4 class="name">Faidatul Ainiyah</h4>
-                    {{-- <span class="position">Master Teacher Management --}}
+                    <h4 class="name">Faidatul Ainiyah, S.E., M.E<br></h4>
+                    <span class="position"> Master teacher of Economics
                     </span>
                     <div class="line"></div>
                     <p class="achievement">Keahlian dan Prestasi :</p>
                     <ul>
-                      <li>1. Akuntansi dan Keuangan</li>
-                    <li> 2. Ekonomi dan Ekonomi Pembangunan</li>   
+                      <li>Master of Economics</li>
+                    <li> Penerima Beasiswa Dinas pendidikan Lamongan Jawa Timur 2014-2018</li>   
                     {{-- <li> 3. Ekonomi Syariah dan Perbankan Syariah</li>   --}}
-                    <li> 4. SPSS,SEM,PLS, dan E-View</li>  
-                    <li> 4. SPSS,SEM,PLS, dan E-View</li>  
-                    <li> 4. SPSS,SEM,PLS, dan E-View</li>  
+                    <li>Penerima Dana Penelitian Lembaga Penelitian dan Pengabdian kepada Masyarakat 2017/2018</li>  
+                    <li> Asisten research</li>  
+                    <li> Publish berbagai hasil penelitian</li>  
                      <br>
                     {{-- <li> 7. Asisten Riset</li>   --}}
                     {{-- <li> - Pendamping PPH </li>  

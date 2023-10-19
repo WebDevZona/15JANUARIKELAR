@@ -144,7 +144,7 @@
     <!--<div id="whatsapp-button" onclick="togglePopup();">
       <img src="assets/img/logo/wa3.png" alt="WhatsApp" />
     </div>-->
-    <div id="whatsapp-button" onclick="togglePopupok();">
+    <div id="whatsapp-button" onclick="togglePopup();">
       <img src="{{ asset('assets/img/logo/wa3.png') }}" alt="WhatsApp" />
     </div>
     <div id="message-popup" onclick="preventPopupClose(event);">
@@ -162,26 +162,29 @@
       </button>
     </div>
     <div class="popup-bro" id="popup-bro">
+      <p style="color: black;    font-family: Manrope;    font-size: 15px;    font-style: normal;      font-weight: 800;      line-height: normal;">
+        <strong>Selamat Sobat Insans Telah Mendaftar</strong></p>
       <div class="month-box" id="month-box">
         <p id="popup-month">Oct</p>
+        <div class="date-box" id="date-box">
+          <p id="popup-date">21</p>
+        </div>
       </div>
-      <div class="date-box" id="date-box">
-        <p id="popup-date">21</p>
-      </div>
-      <div class="popup-text" id="popup-text">
-        <p><strong>Selamat Sobat Insans Telah Mendaftar</strong></p>
-        <p>Nama: Vabindra Bimasvara</p>
-        <p>Paket: Silver</p>
-        <p>5 menit yang lalu</p>
+      <div class="row">
+        <div class="popup-text" id="popup-text">
+          <p><strong>Nama:</strong> Vabindra Bimasvara</p>
+          <p>Paket: Silver</p>
+          <p>5 menit yang lalu</p>
+        </div>
       </div>
     </div>
-  
+    
   <script src="script.js"></script>
   
     <script>
       var popupActive = false;
   
-      function togglePopupok() {
+      function togglePopup() {
         var whatsappButton = document.getElementById('whatsapp-button');
         var messagePopup = document.getElementById('message-popup');
         popupActive = !popupActive;
@@ -219,43 +222,45 @@
 
       }
     </script>
-    <script>
- const popupMessages = [
+   <script>
+    
+    const popupMessages = [
       {
-        date: "21", // Date
-        month: "Oct", // Month
-        text: "Selamat Sobat Insans Telah Mendaftar\nNama: Vabindra Bimasvara\nPaket: Silver\n5 menit yang lalu",
-      },
-      {
-        date: "22", // Date
-        month: "Nov", // Month
-        text: "Selamat Sobat Insans Telah Mendaftar\nNama: John Doe\nPaket: Bronze\n10 menit yang lalu",
-      },
-      // Add more messages with their respective date, month, and text here
- ];
-
-    const popupbro = document.getElementById('popup-bro');
-    const popupDate = document.getElementById('popup-date');
-    const popupMonth = document.getElementById('popup-month');
-    const popupText = document.getElementById('popup-text');
-
-    let currentIndex = 0;
-
-    function togglePopup() {
-      const message = popupMessages[currentIndex];
-      popupDate.textContent = message.date;
-      popupMonth.textContent = message.month;
-      popupText.innerHTML = message.text;
-      popupbro.style.display = 'block';
-
-      currentIndex = (currentIndex + 1) % popupMessages.length;
-
-      setTimeout(() => {
-        popupbro.style.display = 'none';
-        togglePopup();
-      }, 5000);
-    }
-
-    togglePopup();
-    </script>
+    date: "21",
+    month: "Oct",
+    text: "<strong>Yohanes Hernandes S</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+  },
+  {
+    date: "22",
+    month: "Nov",
+    text: "<strong>Dimas wildan </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+  },
+         // Add more messages with their respective date, month, and text here
+    ];
+   
+       const popupbro = document.getElementById('popup-bro');
+       const popupDate = document.getElementById('popup-date');
+       const popupMonth = document.getElementById('popup-month');
+       const popupText = document.getElementById('popup-text');
+   
+       let currentIndex = 0;
+   
+       function togglePopup() {
+         const message = popupMessages[currentIndex];
+         popupDate.textContent = message.date;
+         popupMonth.textContent = message.month;
+         popupText.innerHTML = message.text;
+         popupbro.style.display = 'block';
+   
+         currentIndex = (currentIndex + 1) % popupMessages.length;
+   
+         setTimeout(() => {
+           popupbro.style.display = 'none';
+           togglePopup();
+         }, 5000);
+       }
+   
+       togglePopup();
+       
+       </script>
   </footer>

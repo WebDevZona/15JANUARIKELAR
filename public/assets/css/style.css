@@ -984,13 +984,15 @@ section {
 }
 .featured-services  .icon-box {
   /* padding: 30px; */
-  margin-right: 25px;
+  margin-right: 10px;
   position: relative;
   overflow: hidden;
   background-color:transparent;
+  border-radius: 14px;
   /* box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12); */
  /* height: 270px; */
-  width: 200px;
+ width: 218px;
+ height: 310px;
   /* border-radius: 8px; */
   z-index: 1;
   
@@ -1050,7 +1052,9 @@ section {
 
 
 .featured-services .icon-box .label {
-  text-align: center;
+  display: flex;
+    justify-content: center;
+    align-items: center;
   background-color: #106eea;
   color: #fff;
   padding: 5px 15px;
@@ -1060,6 +1064,25 @@ section {
 }
 
 .featured-services .icon-box .label-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.featured-services .icon-box .labels {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  /* background-color: #106eea; */
+  color: #fff;
+  padding: 5px 20px;
+  /* border-radius: 50px; */
+  border-radius: 29px 0px 66px 29px;
+background: #E62A36;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.featured-services .icon-box .labels-text {
   font-size: 14px;
   font-weight: bold;
 }
@@ -1146,7 +1169,7 @@ section {
 
 .about .content ul p {
   /* font-size: 15px; */
-  font-family: Cambria, Georgia, serif; 
+  font-family: 'Cambria', Georgia, serif; 
   font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 25px;
   text-shadow: 1px 1px 2px #000000;
   
@@ -1335,8 +1358,9 @@ section {
   align-items: center;
   z-index:999; /* Atur z-index lebih tinggi dari elemen #popup */
   border-radius: 23.292px;
-background: rgba(255, 255, 255, 0.438);
-backdrop-filter: blur(12.5px);/* Sudut melengkung kotak */
+background: rgba(255, 255, 255, 0.79);
+
+backdrop-filter: blur(12.5px);
   /* margin: 10px; Jarak dari tepi halaman */
   margin-top: 30px; /* Jarak dari tepi halaman */
   /* Sesuaikan tinggi dan lebar sesuai kebutuhan */
@@ -1683,15 +1707,23 @@ line-height: bold;
 #testimonials li {
   word-wrap: break-word; 
   margin-bottom: 5px;
-  font-family: "Manrope";
-/* font-size: 18.266px;  */
+  color: #FFF;
+
+font-family: "Manrope";
+/* font-size: 18.266px; */
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
 
 #testimonials .achievement {
-  font-weight: bold;
+  color: #FFF;
+
+  font-family: 'Manrope';
+  /* font-size: 18.266px  ; */
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
   margin-bottom: 5px;
   /* text-align: left; Remove this line to keep the text centered */
   margin: 10px;
@@ -1707,7 +1739,7 @@ line-height: normal;
   content: ""; /* Empty content for pseudo-element */
   width: 16px; /* Adjust the width and height as needed for your checkmark image */
   height: 16px;
-  background: url("../img/bg/centang2.png") no-repeat; /* Use the checkmark image as a background */
+  background: url("../img/bg/centang3.png") no-repeat; /* Use the checkmark image as a background */
   background-size: contain; /* Ensure the image fits in the space */
   display: inline-block;
   position: absolute; /* Position the checkmark absolutely */
@@ -1724,13 +1756,14 @@ line-height: normal;
   /* padding: 1; */
   /* text-align: left; */
   /* margin: 0px; */
+  color: white ;
 }
 
 
 #testimonials .member-info {
  border-radius: 33px;
 background:transparent;
-background-image: url("../img/bg/mentor.png");
+background-image: url("../img/bg/mentor1.png");
 background-size: cover;
   /* border-bottom: 1px solid #007bff; Warna dan jenis garis di bawah */
   padding: 0px;
@@ -2059,7 +2092,7 @@ background-size: cover;
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #222222;
+  color: #ffffff;
   margin: 0 3px;
   padding-top: 7px;
   border-radius: 4px;
@@ -2095,7 +2128,31 @@ background-size: cover;
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #222222;
+  color: #ffffff;
+}
+.team-member .member .member-info .name {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+color: #FFF;
+
+text-align: center;
+font-family: 'Manrope';
+/* font-size: 27px; */
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.team-member .member .member-info .position {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #FFF;
+  font-family: 'Manrope';
+  font-size: 21.858px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .team .member .member-info span {
@@ -3982,7 +4039,7 @@ backdrop-filter: blur(41.5px);
 .popup {
   
   /* font-family: Arial, sans-serif; */
-  margin-top: -70px;
+  margin-top: -80px;
 }
 
 .popup .button-container {
@@ -4774,73 +4831,112 @@ line-height: normal;
 }
 
 
-
-/* popup bawah  */
+/* Styles for the popup container at the bottom-right corner */
 .popup-bro {
   position: fixed;
+  padding: 5px 20px;
   bottom: 10px;
   right: 15px;
   border-radius: 26px 26px 0px 26px;
-  background: rgba(255, 255, 255, 0.76);
+  background: rgba(255, 255, 255, 0.76);  
   box-shadow: 0px 10px 23px 0px rgba(0, 0, 0, 0.29), 0px 42px 42px 0px rgba(0, 0, 0, 0.26), 0px 94px 56px 0px rgba(0, 0, 0, 0.15), 0px 167px 67px 0px rgba(0, 0, 0, 0.04), 0px 261px 73px 0px rgba(0, 0, 0, 0.01);
   backdrop-filter: blur(25px);
-  z-index: 9999; /* Menempatkan popup di atas elemen lain */
+  z-index: 9999; /* Puts the popup above other elements */
   display: none;
-  width: 300px; /* Lebar popup */
-  height: 120px;
+  width: 347px;
+height: 120px;
+flex-shrink: 0;
   color: #000;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 400px; /* Adjust the width to your needs */
-  background: #fff;
-  padding: 20px;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  z-index: 9999;
-  display: flex; /* Display content in a flex container */
 }
-
-/* Add CSS for the month and date boxes */
+#popup-text {
+  color: #3C3C3C;
+  font-family: 'Manrope';
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.popup-text strong {
+  color: #3C3C3C;
+  font-family: 'Manrope';
+  font-size: 17px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: bold;
+}
+/* Styles for the month and date boxes */
 .month-box, .date-box {
   flex: 1;
+  margin-top: -15px;
   padding: 10px;
   text-align: center;
-  border: 1px solid #ccc;
+  border: transparent;
+  float: left;
 }
 
-/* Add CSS for the text on the right */
+/* Styling for the month box */
+.month-box {
+  color: #3C3C3C;
+  font-family: 'Manrope';
+  font-size: 15.286px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* Styling for the date box */
+.date-box {
+  text-align: center;
+  width: 86px;
+  height: 39px;
+  flex-shrink: 0;
+  /* border-radius: 16px; */
+  border-radius: 16px 0px 16px 16px;
+  background: #FBCC62;
+  color: #3C3C3C;
+  font-family: 'Manrope';
+  font-size: 20.526px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 39px; /* Mengatur posisi angka tanggal secara vertikal */
+  padding: 0 5px; /* Mengatur posisi angka tanggal secara horizontal */
+}
+
+/* Styling for the text on the right */
 .popup-text {
   flex: 2;
-  padding: 10px;
+  /* padding: 10px; */
+  margin-top: -10px;
   text-align: left;
 }
 
-
+/* Additional styling for popup content */
 .popup-content-bro {
   padding: 20px;
   margin-top: -13px;
 }
 
+/* Header styling */
 .popup-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* Title styling */
 .popup-title {
   font-size: 20px;
   font-weight: bold;
   color: #3C3C3C;
-
-font-family: "Manrope";
-font-size: 20.526px;
-font-style: normal;
-font-weight: 800;
-/* line-height: normal; */
+  font-family: "Manrope";
+  font-size: 20.526px;
+  font-style: normal;
+  font-weight: 800;
+  /* line-height: normal; */
   margin: 0;
 }
 
+/* Close button styling */
 .popup-close {
   font-size: 24px;
   cursor: pointer;
@@ -4851,22 +4947,23 @@ font-weight: 800;
   color: #000000;
 }
 
+/* Styling for text within popup content */
 .popup-content-bro p {
   font-size: 16px;
   margin: 10px 0;
   color: #000;
-
 }
 
+/* Styling for strong text within popup content */
 .popup-content-bro p strong {
   font-weight: bold;
   margin-right: 5px;
   color: #3C3C3C;
-font-family: "Manrope";
-font-size: 20.526px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-family: "Manrope";
+  font-size: 20.526px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   /* color: #3498db; */
 }
 
@@ -5023,6 +5120,21 @@ line-height: normal;
   line-height: normal;
   margin-top: 10px; 
 }
+.left-scroll-button, .left-scroll-buttonn {
+  cursor: pointer;
+  position: absolute;
+  top: 15%;
+  transform: translateY(-50%);
+  opacity: 0.7; /* Mengatur tingkat transparansi */
+  background-color: transparent; /* Menghapus latar belakang */
+  font-size: 50px; /* Mengatur ukuran font */
+  border-radius: 50%;
+  color: red;
+}
+.left-scroll-button {
+  border-radius: 50%;
+  left: 0;
+}
 .left-scroll-button, .right-scroll-button {
   cursor: pointer;
   position: absolute;
@@ -5070,6 +5182,17 @@ line-height: normal;
 
 
 .right-scroll-button1 {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  opacity: 0.7; /* Mengatur tingkat transparansi */
+  background-color: transparent; /* Menghapus latar belakang */
+  font-size: 50px; /* Mengatur ukuran font */
+  border-radius: 50%;
+  color: red;
+}
+.left-scroll-button1 {
   cursor: pointer;
   position: absolute;
   top: 70%;
