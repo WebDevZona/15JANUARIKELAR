@@ -316,7 +316,7 @@
                 <span class="icon">
                   <img src="assets/img/bg/ico2.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px">
                 </span>
-                <span class="label-text" style="font-family:'Manrope';font-size:12px; white-space: normal;word-wrap: break-word;margin-top:-20px">Durasi sampai 4 jam</span>
+                <span class="label-text" style="font-family:'Manrope';font-size:12px; white-space: normal;word-wrap: break-word;margin-top:-10px">Durasi sampai 4 jam</span>
               </div>
               <h4 class="title">
                 <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
@@ -473,7 +473,7 @@
 
 <section id="paketmentor" class="paketmentor">
   <div class="paketmentorbg">
-  <h2 class="judul-tengah"style="margin-top:20px;">Paket Bimbingan Skripsi Per Sesi</h2>
+  <h2 class="judul-tengah"style="margin-top:20px;;font-family: Manrope;">Paket Bimbingan Skripsi Per Sesi</h2>
   <div class="container">
       <div class="kotak">
           <div class="segitiga">
@@ -481,8 +481,9 @@
                   <h3><span style="color: #1E1E1E;
                     font-family: Manrope;                  
                     font-style: normal;
+                    font-size: 27.644px;
                     font-weight: 700;
-                    line-height: bold;">paket</span> <br> Super  </h3>
+                    line-height: bold;">PAKET</span> <br> Super  </h3>
               </div>
               <div class="kanan-atas">
                   <p style="color:#0539b1">Harga per sesi: <span style="color:#0539b1"> Rp 18.000</span></p>
@@ -515,15 +516,16 @@
               <span style="color: #1E1E1E;
                 font-family: Manrope;                  
                 font-style: normal;
+                font-size: 27.644px;
                 font-weight: 700;
                 line-height: bold;">
-                paket
+                PAKET
               </span> <br>Super
             </h3>
           </div>
           <div class="kanan-atas">
             <p style="color: #0539b1">
-              Harga: <span style="color: #0539b1"> Rp20.000</span> per sesi
+              Harga per sesi: <span style="color: #0539b1"> Rp20.000</span> 
             </p>
           </div>
         </div>
@@ -553,11 +555,12 @@
               <h3><span style="color: #1E1E1E;
                     font-family: Manrope;                  
                     font-style: normal;
+                    font-size: 27.644px;
                     font-weight: 700;
-                    line-height: bold;">paket </span><br> Super</h3>
+                    line-height: bold;">PAKET </span><br> Super</h3>
           </div>
           <div class="kanan-atas">
-              <p style="color:#0539b1">Harga:<span style="color:#0539b1"> Rp 33.000 </span> per sesi</p>
+              <p style="color:#0539b1">Harga per sesi:<span style="color:#0539b1"> Rp 33.000 </span></p>
           </div>
           </div>
           <div class="keterangan">
@@ -1409,7 +1412,6 @@ line-height: normal;"> 3 hours ago</p>
       <div class="section-title "style=" font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   font-size: 48px;
-  
   position: relative;
   letter-spacing: 2px;
   padding-bottom: 10px;

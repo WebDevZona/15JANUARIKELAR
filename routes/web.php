@@ -29,6 +29,8 @@ Route::get('/checkout/{id_produk}/{id}/{nama_voucher?}/{judulskripsi}/{problem}/
 Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
 Route::get('/pembelian/{id_produk}', 'tampilanController@Pengertian')->name('pembelian');
 
+Route::get('/artikel', 'tampilanController@artikel')->name('artikel');
+
 
 Route::post('/pembelian', 'tampilanController@validateVoucher')->name('validateVoucher');
 
@@ -233,6 +235,24 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     Route::get('/pengumuman/{id}/edit', 'PengumumanController@edit');
     Route::post('/pengumuman/{id}/update', 'PengumumanController@update');
     Route::get('/pengumuman/{id}/delete', 'PengumumanController@delete');
+
+    Route::get('/artikel/index', 'ArtikelController@index')->name('artikel');
+    Route::get('/artikel/create', 'ArtikelController@create');
+    Route::get('/artikel/{id}/show', 'ArtikelController@show');
+    Route::post('/artikel/store', 'ArtikelController@store');
+    Route::get('/artikel/{id}/edit', 'ArtikelController@edit');
+    Route::post('/artikel/{id}/update', 'ArtikelController@update');
+    Route::get('/artikel/{id}/delete', 'ArtikelController@delete');
+
+
+    Route::get('/video/index', 'VideoController@index')->name('video');
+    Route::get('/video/create', 'VideoController@create');
+    Route::get('/video/{id}/show', 'VideoController@show');
+    Route::post('/video/store', 'VideoController@store');
+    Route::get('/video/{id}/edit', 'VideoController@edit');
+    Route::post('/video/{id}/update', 'VideoController@update');
+    Route::get('/video/{id}/delete', 'VideoController@delete');
+
 
     //Route delete untuk admin
     Route::get('/suratmasuk/{id}/delete', 'SuratMasukController@delete');

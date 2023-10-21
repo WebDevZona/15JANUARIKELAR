@@ -1074,9 +1074,9 @@ section {
     align-items: center;
   /* background-color: #106eea; */
   color: #fff;
-  padding: 5px 20px;
+  padding: 5px 15px;
   /* border-radius: 50px; */
-  border-radius: 29px 0px 66px 29px;
+  border-radius: 29px 1px 66px 29px;
 background: #E62A36;
   margin-bottom: 10px;
   display: inline-block;
@@ -1268,7 +1268,8 @@ background: #E62A36;
 
   .foto .boxz .content {
     display: flex;
-    flex-direction: column; /* Stack image and text vertically on mobile */
+    flex-direction: column; 
+    /* Stack image and text vertically on mobile */
     /* align-items: center; */
   }
 
@@ -2182,9 +2183,10 @@ line-height: normal;
   border-radius: 5%;
   /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(26%2c 78%2c 147%2c 1)'%3e%3c/rect%3e%3cpath d='M1494.7351209714502 163.9073647720977L1354.2265788787538 141.6529979719294 1472.480754171282 304.4159068647941z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M922.4115702712303-29.36709543450198L847.7619173781741-13.49982188569333 908.8876541479151 90.54102067948662z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1425.5259521926016 503.31710931870487L1460.0632338754067 390.7346072769715 1359.3711551857216 412.1373693106583z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M325.1900613028785 554.168561741336L431.8697449773547 552.3064609362764 323.3279604978188 447.48887806685985z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1311.2113056977278 90.48050861479426L1235.123628482446 65.75812364693752 1236.0838896383018 192.25083195378835z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1177.4241899415113 545.4605526068375L1262.5985188544823 398.25844425094346 1113.9549756666418 395.66386155343946z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1286.8296019680222 183.1830604743766L1249.0028162847375 346.31939514828434 1389.722141419967 305.9687779786637z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1110.4536850082334 240.7754022675023L1030.529208148378 163.59323213161233 953.347038012488 243.51770899146766 1033.2715148723435 320.69987912735763z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M255.87743695833962 157.01852538503L279.5724253664738 278.9186731584667 377.7775847317763 133.3235369768958z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M607.8715552513595 190.77644458270854L666.3412380245837 300.74192439471585 776.306717836591 242.27224162149162 717.8370350633668 132.30676180948433z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e"); */
 }
+
 .pricingan {
-  width:200px;margin-right:38px
- 
+  width: 200px;
+  margin-right: 38px
 }
 
 .pricing .judul {
@@ -2231,7 +2233,7 @@ line-height: normal;
 }
 
 .pricing .box {
-  width:220px;
+  width: 220px;
   padding: 20px;
   /* background: #f8f8f8; */
   text-align: center;
@@ -3058,63 +3060,78 @@ line-height: normal;
 .menu .content {
   display: none;
 }
-.menu .content     p {
+
+.menu .content p {
   color: black;
-font-family: "Manrope";
-font-size: 19px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-  }
-.menu .content     ul {
+  font-family: "Manrope";
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.menu .content ul {
   list-style-type: none;
-    padding: 0;
-    margin-top: -20px;
-    
-  }
-  .menu .content li {
-    border-radius: 21px;
-    background: #FEFEFE;
-    box-shadow: -1px 7px 15px 0px rgba(0, 0, 0, 0.10), -5px 27px 28px 0px rgba(0, 0, 0, 0.09), -10px 61px 37px 0px rgba(0, 0, 0, 0.05), -18px 108px 44px 0px rgba(0, 0, 0, 0.01), -29px 169px 48px 0px rgba(0, 0, 0, 0.00);
-    color: #3C3C3C;
-font-family: "Manrope";
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-    position: relative;
-    /* font-weight: normal;  */
-    width: 559px;
-    padding: 15px; /* Jarak antara centang dan teks */
-    padding-left: 45px; /* Jarak antara centang dan teks */
-    margin-top: 30px;
-    max-width: 100%; /* Lebar maksimum */
-  }
-  
-  
-  .menu .content .circle {
-    position: absolute;
-  left: 0;
+  padding: 0;
+  margin-top: -20px;
+
+}
+
+.menu .content li {
+  border-radius: 21px;
+  background: #FEFEFE;
+  box-shadow: -1px 7px 15px 0px rgba(0, 0, 0, 0.10), -5px 27px 28px 0px rgba(0, 0, 0, 0.09), -10px 61px 37px 0px rgba(0, 0, 0, 0.05), -18px 108px 44px 0px rgba(0, 0, 0, 0.01), -29px 169px 48px 0px rgba(0, 0, 0, 0.00);
+  color: #3C3C3C;
+  font-family: "Manrope";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  /* font-weight: normal;  */
+  width: 559px;
+  padding: 20px;
+  /* Jarak antara centang dan teks */
+  padding-left: 70px;
+  /* Jarak antara centang dan teks */
+  margin-top: 30px;
+  max-width: 100%;
+  /* Lebar maksimum */
+}
+
+
+.menu .content .circle {
+  position: absolute;
+  left: 15px;
   /* width: 20px; Lebar lingkaran */
   /* height: 20px; Tinggi lingkaran */
-  top: 50%; /* Posisi vertikal tengah */
-  transform: translateY(-50%); /* Untuk mengatur lingkaran ke tengah vertikal */
-  display: flex; 
-  align-items: center; /* Memposisikan gambar ke tengah vertikal dalam lingkaran */
-  justify-content: center; /* Memposisikan gambar ke tengah horizontal dalam lingkaran */
-  border-radius: 50%; /* Bentuk lingkaran */
-  }
-  
-  .menu .content .circle img {
-    max-width: 40px; /* Maksimum lebar gambar adalah lebar lingkaran */
-    max-height: 100%; /* Maksimum tinggi gambar adalah tinggi lingkaran */
-  }
-  
+  top: 50%;
+  /* Posisi vertikal tengah */
+  transform: translateY(-50%);
+  /* Untuk mengatur lingkaran ke tengah vertikal */
+  display: flex;
+  align-items: center;
+  /* Memposisikan gambar ke tengah vertikal dalam lingkaran */
+  justify-content: center;
+  /* Memposisikan gambar ke tengah horizontal dalam lingkaran */
+  border-radius: 50%;
+  /* Bentuk lingkaran */
+}
+
+.menu .content .circle img {
+  max-width: 40px;
+  /* Maksimum lebar gambar adalah lebar lingkaran */
+  max-height: 100%;
+  /* Maksimum tinggi gambar adalah tinggi lingkaran */
+}
+
 
 /* style.css */
 .btn-selected {
-  background-color: green; /* Ubah warna latar belakang saat tombol dipilih */
-  color: white; /* Ubah warna teks saat tombol dipilih */
+  background-color: green;
+  /* Ubah warna latar belakang saat tombol dipilih */
+  color: white;
+  /* Ubah warna teks saat tombol dipilih */
 }
 
 
@@ -3158,9 +3175,9 @@ line-height: normal;
   }
 }
 
- /* box */
- 
- .content-box {
+/* box */
+
+.content-box {
   background-color: #f1f1f1;
   border-radius: 8px;
   padding: 15px;
@@ -3346,7 +3363,8 @@ li.left-aligned {
 /* Styles for the message popup */
 #message-popup {
   position: fixed;
-  bottom: 90px; /* Adjust this value to move the popup up or down */
+  bottom: 90px;
+  /* Adjust this value to move the popup up or down */
   left: 20px;
   background-color: #ffffff;
   border-radius: 10px;
@@ -4241,9 +4259,9 @@ backdrop-filter: blur(41.5px);
   align-items: center;
   justify-content: center;
   /* border-radius: 50px; */
-  
+
   z-index: 2;
- 
+
 }
 .video-container2 {
   /* border: 2px solid #000; */
@@ -4254,9 +4272,11 @@ backdrop-filter: blur(41.5px);
   align-items: center;
   justify-content: center; */
   /* border-radius: 50px; */
-  order: 2; /* Set the order to 2 to display it behind .video-description */
+  order: 2;
+  /* Set the order to 2 to display it behind .video-description */
   border-radius: 27px;
-  flex: 1; /* Membuat elemen ini memenuhi sebagian besar ruang tersedia */
+  flex: 1;
+  /* Membuat elemen ini memenuhi sebagian besar ruang tersedia */
   margin-bottom: -23px;
   background-color: white;
   height: 150%;
@@ -4289,19 +4309,24 @@ iframe {
 .video-description {
   /* border-radius: 27px; */
   margin-top: -70px;
-  order: 1; /* Set the order to 1 to display it in front */
+  order: 1;
+  /* Set the order to 1 to display it in front */
   border-radius: 27px;
-    background: linear-gradient(269deg, #1C4CF2 0.4%, #4692EB 50.97%);
-    width: 913px;
-    height: 159px;
-    flex-shrink: 0;
-    z-index: -99;
-    display: grid;
-    grid-template-columns: 1fr auto; /* Kolom teks dan tombol */
-    align-items: center; /* Memposisikan konten ke tengah vertikal */
-    padding: 20px;
-    /* height: 100%; */
-    width: 100%; /* Lebar deskripsi */
+  background: linear-gradient(269deg, #1C4CF2 0.4%, #4692EB 50.97%);
+  width: 913px;
+  height: 159px;
+  flex-shrink: 0;
+  z-index: -99;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  /* Kolom teks dan tombol */
+  align-items: center;
+  /* Memposisikan konten ke tengah vertikal */
+  padding: 30px;
+  /* height: 100%; */
+  width: 100%;
+  /* Lebar deskripsi */
+
 }
 
 .video-description p {
@@ -4312,59 +4337,71 @@ iframe {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   color: #fff;
-  grid-column: 1; /* Menempatkan paragraf di kolom pertama */
+  grid-column: 1;
+  /* Menempatkan paragraf di kolom pertama */
 }
 
 .join-button {
   display: inline-block;
-margin-right: 12px;
+  margin-right: 12px;
   padding: 8px 8px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: rgb(232, 230, 230);
+  color: #100f0f;
   border-radius: 50px;
   text-decoration: none;
   font-size: 15px;
   align-self: flex-end;
-  margin-top: 4px;
+  margin-bottom: -9px;
   grid-column: 2;
-  border: 8px solid rgba(255, 255, 255, 0.5); 
+  border: 8px solid rgba(74, 143, 166, 0.5);
+font-family: "Manrope";
+/* font-size: 22.076px; */
+font-style: normal;
+font-weight: 700;
+line-height: normal;
   /* Menambahkan bayangan */
   /* box-shadow:  0px 0px 6px rgb(255, 255, 255); Horisontal offset, Vertical offset, Blur radius, Warna bayangan */
 }
 
 
-.join-button:hover {
-  background-color: #0056b3;
-}
+/* .join-button:hover {
+  background-color: #afb1b2;
+
+} */
 
 
 .left-background,
 .right-background {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 50%; /* Half of the container width for each side */
-    background-size: cover;
-    background-position: center;
-    opacity: 1; /* Adjust opacity as needed, make sure it's not too low */
-    z-index: -1; /* Ensure that the background images are behind other content */
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  /* Half of the container width for each side */
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  /* Adjust opacity as needed, make sure it's not too low */
+  z-index: -1;
+  /* Ensure that the background images are behind other content */
 }
 .left-background {
-    left: 0;
-    background-image: url("../img/bg/yt2.png"); /* Replace with your left image path */
+  left: 0;
+  background-image: url("../img/bg/yt2.png");
+  /* Replace with your left image path */
 }
 
 .right-background {
-    right: 0;
-    background-image: url("../img/bg/yt3.png"); /* Replace with your right image path */
+  right: 0;
+  background-image: url("../img/bg/yt3.png");
+  /* Replace with your right image path */
 }
 #youtube .left-image,
 #youtube .right-image {
-   
-    /* width: 50%; */
-    /* z-index: -1; */
+
+  /* width: 50%; */
+  /* z-index: -1; */
 }
 
 #youtube .left-image {
@@ -4377,14 +4414,15 @@ margin-right: 12px;
   /* You can adjust the top, right, width, and height as needed */
   width: 410px;
   height: auto;
-  z-index: 1; /* Adjust the z-index as needed */
+  z-index: 1;
+  /* Adjust the z-index as needed */
   /* Add any other styles you want for the image */
 }
 
 #youtube .right-image {
   position: absolute;
   float: right;
-  margin-top: -90px;
+  margin-top: -50px;
   /* top: 0; */
   right: 0; /* Position the image on the right side */
   /* You can adjust the top, right, width, and height as needed */
@@ -5239,4 +5277,10 @@ font-size: 25px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+color: #3C3C3C;
+  font-family: "Manrope";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
