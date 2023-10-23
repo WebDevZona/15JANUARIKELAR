@@ -637,8 +637,8 @@ h6 {
 #hero .container h2 {
   color: #FFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: 'Inter';
-  font-size: 21px;
+  font-family: 'Manrope';
+  font-size: 20.801px;
   font-style: normal;
   font-weight: 500;
   line-height: 100%; /* 25.801px */
@@ -1054,9 +1054,7 @@ section {
 
 
 .featured-services .icon-box .label {
-  display: flex;
-    justify-content: center;
-    align-items: center;
+  text-align: center;
   background-color: #106eea;
   color: #fff;
   padding: 5px 15px;
@@ -1072,14 +1070,14 @@ section {
 
 .featured-services .icon-box .labels {
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
   /* background-color: #106eea; */
   color: #fff;
   padding: 5px 15px;
   /* border-radius: 50px; */
   border-radius: 29px 1px 66px 29px;
-background: #E62A36;
+  background: #E62A36;
   margin-bottom: 10px;
   display: inline-block;
 }
@@ -1745,13 +1743,7 @@ line-height: normal;
 }
 
 #testimonials .achievement {
-  color: #FFF;
-
-  font-family: 'Manrope';
-  /* font-size: 18.266px  ; */
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
+  font-weight: bold;
   margin-bottom: 5px;
   /* text-align: left; Remove this line to keep the text centered */
   margin: 10px;
@@ -1784,7 +1776,6 @@ line-height: normal;
   /* padding: 1; */
   /* text-align: left; */
   /* margin: 0px; */
-  color: white ;
 }
 
 
@@ -2125,7 +2116,7 @@ flex-shrink: 0;
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #ffffff;
+  color: #222222;
   margin: 0 3px;
   padding-top: 7px;
   border-radius: 4px;
@@ -4122,7 +4113,7 @@ backdrop-filter: blur(41.5px);
 .popup {
   
   /* font-family: Arial, sans-serif; */
-  margin-top: -80px;
+  margin-top: -70px;
 }
 
 .popup .button-container {
@@ -4179,35 +4170,74 @@ backdrop-filter: blur(41.5px);
 
 .popup .modal-content {
   border-radius: 10px;
-  padding: 20px;
+  padding: 40px;
 }
 
 .popup .modal-title {
   font-size: 24px;
   font-weight: bold;
-  color: #333;
-  text-transform: uppercase;
+  font-family: "Poppins";
+  /* color: #333; */
+  /* text-transform: uppercase; */
   margin-bottom: 20px;
+  /* text-align: center; */
+  color: #09326F;
+  text-align: center;
+  font-family: Poppins;
+  /* font-size: 50px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  /* 130% */
 }
 
 .popup .btn-group {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+
 }
 
+/* .popup .btn-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 234px; 
+  height: 150px;
+  
+} */
 /* Atur tombol */
 .popup .btn-primary {
   flex: 1;
   background-color: transparent;
   color: black;
-  border: 2px solid #007BFF;
-  border-radius: 5px;
+  border: transparent;
+  font-family: "Poppins";
+  border-radius: 51px;
+  background: #F9F9F9;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.20);
   padding: 10px;
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
+  /* transition: background-color 0.3s, color 0.3s; */
+}
+
+.popup .btn-list {
+  flex: 1;
+  background-color: transparent;
+  color: white;
+  border: 0px solid white;
+  font-family: "Poppins";
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.20);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+  /* font-weight: bold; */
+  cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  width: 234px;
+  height: 180px;
 }
 
 .popup .btn-primary:hover {
@@ -4224,9 +4254,10 @@ backdrop-filter: blur(41.5px);
 .popup p {
   font-size: 20px;
   font-weight: bold;
-  color: #333;
-  text-transform: uppercase;
+  color: #09326F;
+  /* text-transform: uppercase; */
   margin-bottom: 20px;
+  font-family: "Poppins";
 }
 
 .popup .custom-button {
@@ -4272,11 +4303,14 @@ backdrop-filter: blur(41.5px);
 
   .popup .btn-group {
     flex-direction: column;
+
+
   }
 
   .popup .btn-group button {
     margin-right: 0;
     margin-bottom: 10px;
+
   }
 
   .popup .modal-content {
@@ -4935,7 +4969,8 @@ line-height: normal;
 }
 
 
-/* Styles for the popup container at the bottom-right corner */
+
+/* popup bawah  */
 .popup-bro {
   position: fixed;
   padding: 5px 20px;
@@ -4948,10 +4983,15 @@ backdrop-filter: blur(25px);
   z-index: 9999; /* Puts the popup above other elements */
   display: none;
   width: 347px;
-height: 120px;
-flex-shrink: 0;
+  height: 120px;
+  flex-shrink: 0;
   color: #000;
 }
+
+/* Add CSS for the month and date boxes */
+/* .month-box,
+.date-box {
+} */
 #popup-text {
   color: #3C3C3C;
 font-family: 'Manrope';
@@ -4960,6 +5000,7 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 }
+
 .popup-text strong {
   color: #000000;
   font-family: 'Manrope';
@@ -4968,6 +5009,7 @@ line-height: normal;
   font-weight: 700;
   line-height: normal;
 }
+
 /* Styles for the month and date boxes */
 .month-box, .date-box {
   flex: 1;
@@ -4976,7 +5018,18 @@ line-height: normal;
   text-align: center;
   border: transparent;
   float: left;
+
+
+
+  /* border: 1px solid #ccc;
+  float: left;
+  margin-top: 30px; */
 }
+
+/* Add CSS for the text on the right */
+/* border: transparent;
+  float: left;
+} */
 
 /* Styling for the month box */
 .month-box {
@@ -5002,36 +5055,36 @@ line-height: normal;
   font-size: 20.526px;
   font-style: normal;
   font-weight: 800;
-  line-height: 39px; /* Mengatur posisi angka tanggal secara vertikal */
-  padding: 0 5px; /* Mengatur posisi angka tanggal secara horizontal */
+  line-height: 39px;
+  /* Mengatur posisi angka tanggal secara vertikal */
+  padding: 0 5px;
+  /* Mengatur posisi angka tanggal secara horizontal */
 }
 
 /* Styling for the text on the right */
 .popup-text {
   flex: 2;
-  /* padding: 10px; */
   margin-top: -10px;
   text-align: left;
 }
 
-/* Additional styling for popup content */
+
 .popup-content-bro {
   padding: 20px;
   margin-top: -13px;
 }
 
-/* Header styling */
 .popup-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Title styling */
 .popup-title {
   font-size: 20px;
   font-weight: bold;
   color: #3C3C3C;
+
   font-family: "Manrope";
   font-size: 20.526px;
   font-style: normal;
@@ -5040,7 +5093,6 @@ line-height: normal;
   margin: 0;
 }
 
-/* Close button styling */
 .popup-close {
   font-size: 24px;
   cursor: pointer;
@@ -5051,14 +5103,13 @@ line-height: normal;
   color: #000000;
 }
 
-/* Styling for text within popup content */
 .popup-content-bro p {
   font-size: 16px;
   margin: 10px 0;
   color: #000;
+
 }
 
-/* Styling for strong text within popup content */
 .popup-content-bro p strong {
   font-weight: bold;
   margin-right: 5px;
@@ -5229,12 +5280,16 @@ line-height: normal;
   position: absolute;
   top: 15%;
   transform: translateY(-50%);
-  opacity: 0.7; /* Mengatur tingkat transparansi */
-  background-color: transparent; /* Menghapus latar belakang */
-  font-size: 50px; /* Mengatur ukuran font */
+  opacity: 0.7;
+  /* Mengatur tingkat transparansi */
+  background-color: transparent;
+  /* Menghapus latar belakang */
+  font-size: 50px;
+  /* Mengatur ukuran font */
   border-radius: 50%;
   color: red;
 }
+
 .left-scroll-button {
   border-radius: 50%;
   left: 0;
@@ -5301,12 +5356,31 @@ line-height: normal;
   position: absolute;
   top: 70%;
   transform: translateY(-50%);
-  opacity: 0.7; /* Mengatur tingkat transparansi */
-  background-color: transparent; /* Menghapus latar belakang */
-  font-size: 50px; /* Mengatur ukuran font */
+  opacity: 0.7;
+  /* Mengatur tingkat transparansi */
+  background-color: transparent;
+  /* Menghapus latar belakang */
+  font-size: 50px;
+  /* Mengatur ukuran font */
   border-radius: 50%;
   color: red;
 }
+
+.left-scroll-button1 {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  opacity: 0.7;
+  /* Mengatur tingkat transparansi */
+  background-color: transparent;
+  /* Menghapus latar belakang */
+  font-size: 50px;
+  /* Mengatur ukuran font */
+  border-radius: 50%;
+  color: red;
+}
+
 .left-scroll-button {
   border-radius: 50%;
   left: 0;

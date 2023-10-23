@@ -433,43 +433,57 @@
       </div>
     </section>
 
-    <section id="popup" class="popup">
-      <div class="button-container">
-        <span style="float: left; margin-left: 6%;"><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:11px;margin-right:5px"></span>
-        <h1 class="custom-text" style=" font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; margin-left: 5px;">Paket populer untuk kamu</h1>
-        <button type="button" class="custom-button" data-toggle="modal" data-target="#tulis" aria-hidden="true" style="margin-top: 2px;">Tombol</button>
-      </div>
-      
-  
-      <div class="modal fade custom-modal" id="tulis" tabindex="-1" role="dialog" aria-labelledby="tulisTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg custom-modal-dialog" role="document">
-            <div class="modal-content custom-modal-content">
-                <div class="modal-header custom-modal-header">
-                    <h5 class="modal-title custom-modal-title">Selamat datang di Class Program Ingin cari produk untuk semester berapa?</h5>
-                    <button type="button" class="btn-close custom-btn-close" data-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body custom-modal-body">
-                    <div class="btn-group custom-btn-group">
-                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">1 dan 2</button>
-                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">3 dan 4</button>
-                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">5 dan 6</button>
-                    </div>
-                    <p class="custom-modal-text">Pilihan paket bimbingan skripsi</p>
-                    <div class="btn-group custom-btn-group">
-                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">Pembuatan judul skripsi</button>
-                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">Bab 1 sampai bab 3</button>
-                    </div>
-                    <div class="btn-group custom-btn-group">
-                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">Bab 4 sampai bab 5</button>
-                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">Persiapan materi sempro dan sidang</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <section id="popup" class="popup">
+    <div class="button-container">
+      <span style="float: left; margin-left: 6%;"><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:11px;margin-right:5px"></span>
+      <h1 class="custom-text" style=" font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; margin-left: 5px;">Paket populer untuk kamu</h1>
+      <button type="button" class="custom-button" data-toggle="modal" data-target="#tulis" aria-hidden="true" style="margin-top: 2px;">Tombol</button>
     </div>
-    
-  
-</section>
+
+
+    <div class="modal fade" id="tulis" tabindex="-1" role="dialog" aria-labelledby="tulisTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content" style="background: url(assets/img/bg/frame16.png);background-size: cover;">
+          <div class="modal-header">
+            <h5 class="modal-title">Selamat datang di Class Program Ingin cari produk untuk semester berapa?</h5>
+            <!-- <p>Ingin cari produk untuk semester berapa?</p> -->
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary" style="border-radius: 50px;">Satu dan Dua</button>
+              <button type="button" class="btn btn-primary" style="border-radius: 50px;">Tiga dan Empat</button>
+              <button type="button" class="btn btn-primary" style="border-radius: 50px;">Lima dan Enam</button>
+              <!-- Tambahkan tombol-tombol produk lainnya sesuai kebutuhan -->
+            </div>
+            <!-- <hr> Garis pemisah -->
+            <br>
+            <p>Pilihan Paket Bimbingan Skripsi</p>
+            <div class="btn-group" style="">
+              <button type="button" class="btn btn-list" style="background: #3E87F8; border-radius: 25px;"><span class="icon">
+                  <img src="assets/img/bg/bookmark.png" alt="Deskripsi Gambar" style="width: 55px;position:center;">
+                </span><div style="margin-top: 10px;">Pembuatan <br>Judul Skripsi</div></button>
+              <button type="button" class="btn btn-list" style="background: #6770E9; border-radius: 25px;"><span class="icon">
+                  <img src="assets/img/bg/edit.png" alt="Deskripsi Gambar" style="width:55px;position:center;">
+                 </span><div style="margin-top: 10px;">Bab 1 - bab 3</div></button>
+              <button type="button" class="btn btn-list" style="background: #41BAAC; border-radius: 25px;"><span class="icon">
+                  <img src="assets/img/bg/notes.png" alt="Deskripsi Gambar" style="width:45px;position:center;"></span>
+                  <div style="margin-top: 10px;">Bab 4 - bab 5</div></button>
+              <button type="button" class="btn btn-list" style="background: #F7965A; border-radius: 25px;"><span class="icon">
+                  <img src="assets/img/bg/group.png" alt="Deskripsi Gambar" style="width:60px;position:center;">
+                  </span><div style="margin-top: 10px;">Persiapan Materi,<br> Sempro dan Sidang</div></button>
+
+            </div>
+            <!-- <div class="btn-group">
+              <button type="button" class="btn btn-primary" style="  border-radius: 50px;">Bab 4 sampai bab 5</button>
+              <button type="button" class="btn btn-primary" style="  border-radius: 50px;">Persiapan materi sempro dan sidang</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
 
 
 <section id="paketmentor" class="paketmentor">
@@ -875,14 +889,14 @@
 </section>
 
   <!-- ======= Pricing Section ======= -->
- 
-  <section id="berita" class="berita"style="margin-top:-35px">
- <div class="content_area">
-  
-   <div class="main_content floatleft">
-     <div class="left_coloum floatleft">        
-          <h4 style="margin-bottom: 30px">Class Program on Youtube</h4> 
-          <div class="single_left_coloum_wrapper" id="scrollableColumn">           
+
+  <section id="berita" class="berita" style="margin-top:-35px">
+    <div class="content_area">
+
+      <div class="main_content floatleft">
+        <div class="left_coloum floatleft">
+          <h4 style="margin-bottom: 30px">Class Program on Youtube</h4>
+          <div class="single_left_coloum_wrapper" id="scrollableColumn">
             <div class="scrollable_left_coloum">
               <!-- Article 1 -->
               <div class="single_left_coloum">
