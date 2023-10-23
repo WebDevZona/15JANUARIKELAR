@@ -670,7 +670,7 @@ h6 {
   margin-top: 20px;
   color: #FFF;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: 'Manrope';
+  font-family: 'Red Hat Text';
   font-size: 20.801px;
   font-style: normal;
   font-weight: 500;
@@ -1033,14 +1033,14 @@ section {
   position: relative;
   overflow: hidden;
   background-color: transparent;
-  background-color:transparent;
+  background-color: transparent;
   border-radius: 14px;
   /* box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12); */
   /* height: 270px; */
   width: 200px;
- /* height: 270px; */
- width: 218px;
- height: 310px;
+  /* height: 270px; */
+  width: 218px;
+  height: 310px;
   /* border-radius: 8px; */
   z-index: 1;
 
@@ -1119,14 +1119,14 @@ section {
 
 .featured-services .icon-box .labels {
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
   /* background-color: #106eea; */
   color: #fff;
   padding: 5px 20px;
   /* border-radius: 50px; */
   border-radius: 29px 0px 66px 29px;
-background: #E62A36;
+  background: #E62A36;
   margin-bottom: 10px;
   display: inline-block;
 }
@@ -1237,8 +1237,12 @@ background: #E62A36;
   font-variant: normal;
   font-weight: 400;
   line-height: 25px;
-  font-family: 'Cambria', Georgia, serif; 
-  font-size: 20px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 25px;
+  font-family: 'Cambria', Georgia, serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 25px;
   text-shadow: 1px 1px 2px #000000;
 
 }
@@ -1435,9 +1439,9 @@ background: #E62A36;
   background: rgba(255, 255, 255, 0.438);
   backdrop-filter: blur(12.5px);
   /* Sudut melengkung kotak */
-background: rgba(255, 255, 255, 0.79);
+  background: rgba(255, 255, 255, 0.79);
 
-backdrop-filter: blur(12.5px);
+  backdrop-filter: blur(12.5px);
   /* margin: 10px; Jarak dari tepi halaman */
   margin-top: 30px;
   /* Jarak dari tepi halaman */
@@ -1825,11 +1829,11 @@ backdrop-filter: blur(12.5px);
   line-height: normal;
   color: #FFF;
 
-font-family: "Manrope";
-/* font-size: 18.266px; */
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-family: "Manrope";
+  /* font-size: 18.266px; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 #testimonials .achievement {
@@ -1857,8 +1861,10 @@ line-height: normal;
   /* Use the checkmark image as a background */
   background-size: contain;
   /* Ensure the image fits in the space */
-  background: url("../img/bg/centang3.png") no-repeat; /* Use the checkmark image as a background */
-  background-size: contain; /* Ensure the image fits in the space */
+  background: url("../img/bg/centang3.png") no-repeat;
+  /* Use the checkmark image as a background */
+  background-size: contain;
+  /* Ensure the image fits in the space */
   display: inline-block;
   position: absolute;
   /* Position the checkmark absolutely */
@@ -4340,35 +4346,74 @@ td {
 
 .popup .modal-content {
   border-radius: 10px;
-  padding: 20px;
+  padding: 40px;
 }
 
 .popup .modal-title {
   font-size: 24px;
   font-weight: bold;
-  color: #333;
-  text-transform: uppercase;
+  font-family: "Poppins";
+  /* color: #333; */
+  /* text-transform: uppercase; */
   margin-bottom: 20px;
+  /* text-align: center; */
+  color: #09326F;
+  text-align: center;
+  font-family: Poppins;
+  /* font-size: 50px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  /* 130% */
 }
 
 .popup .btn-group {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
+
 }
 
+/* .popup .btn-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 234px; 
+  height: 150px;
+  
+} */
 /* Atur tombol */
 .popup .btn-primary {
   flex: 1;
   background-color: transparent;
   color: black;
-  border: 2px solid #007BFF;
-  border-radius: 5px;
+  border: transparent;
+  font-family: "Poppins";
+  border-radius: 51px;
+  background: #F9F9F9;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.20);
   padding: 10px;
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
+  /* transition: background-color 0.3s, color 0.3s; */
+}
+
+.popup .btn-list {
+  flex: 1;
+  background-color: transparent;
+  color: white;
+  border: 0px solid white;
+  font-family: "Poppins";
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.20);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 12px;
+  /* font-weight: bold; */
+  cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  width: 234px;
+  height: 180px;
 }
 
 .popup .btn-primary:hover {
@@ -4385,9 +4430,10 @@ td {
 .popup p {
   font-size: 20px;
   font-weight: bold;
-  color: #333;
-  text-transform: uppercase;
+  color: #09326F;
+  /* text-transform: uppercase; */
   margin-bottom: 20px;
+  font-family: "Poppins";
 }
 
 .popup .custom-button {
@@ -4434,11 +4480,14 @@ td {
 
   .popup .btn-group {
     flex-direction: column;
+
+
   }
 
   .popup .btn-group button {
     margin-right: 0;
     margin-bottom: 10px;
+
   }
 
   .popup .modal-content {
@@ -5153,8 +5202,8 @@ iframe {
   /* Lebar popup */
   height: 120px;
   width: 347px;
-height: 120px;
-flex-shrink: 0;
+  height: 120px;
+  flex-shrink: 0;
   color: #000;
 }
 
@@ -5170,6 +5219,7 @@ flex-shrink: 0;
   font-weight: 300;
   line-height: normal;
 }
+
 .popup-text strong {
   color: #3C3C3C;
   font-family: 'Manrope';
@@ -5178,8 +5228,10 @@ flex-shrink: 0;
   font-weight: 700;
   line-height: bold;
 }
+
 /* Styles for the month and date boxes */
-.month-box, .date-box {
+.month-box,
+.date-box {
   flex: 1;
   margin-top: -15px;
   padding: 10px;
@@ -5195,7 +5247,7 @@ flex-shrink: 0;
 }
 
 /* Add CSS for the text on the right */
-  /* border: transparent;
+/* border: transparent;
   float: left;
 } */
 
@@ -5223,8 +5275,10 @@ flex-shrink: 0;
   font-size: 20.526px;
   font-style: normal;
   font-weight: 800;
-  line-height: 39px; /* Mengatur posisi angka tanggal secara vertikal */
-  padding: 0 5px; /* Mengatur posisi angka tanggal secara horizontal */
+  line-height: 39px;
+  /* Mengatur posisi angka tanggal secara vertikal */
+  padding: 0 5px;
+  /* Mengatur posisi angka tanggal secara horizontal */
 }
 
 /* Styling for the text on the right */
@@ -5561,17 +5615,23 @@ flex-shrink: 0;
   line-height: normal;
   margin-top: 10px;
 }
-.left-scroll-button, .left-scroll-buttonn {
+
+.left-scroll-button,
+.left-scroll-buttonn {
   cursor: pointer;
   position: absolute;
   top: 15%;
   transform: translateY(-50%);
-  opacity: 0.7; /* Mengatur tingkat transparansi */
-  background-color: transparent; /* Menghapus latar belakang */
-  font-size: 50px; /* Mengatur ukuran font */
+  opacity: 0.7;
+  /* Mengatur tingkat transparansi */
+  background-color: transparent;
+  /* Menghapus latar belakang */
+  font-size: 50px;
+  /* Mengatur ukuran font */
   border-radius: 50%;
   color: red;
 }
+
 .left-scroll-button {
   border-radius: 50%;
   left: 0;
@@ -5647,14 +5707,18 @@ flex-shrink: 0;
   border-radius: 50%;
   color: red;
 }
+
 .left-scroll-button1 {
   cursor: pointer;
   position: absolute;
   top: 70%;
   transform: translateY(-50%);
-  opacity: 0.7; /* Mengatur tingkat transparansi */
-  background-color: transparent; /* Menghapus latar belakang */
-  font-size: 50px; /* Mengatur ukuran font */
+  opacity: 0.7;
+  /* Mengatur tingkat transparansi */
+  background-color: transparent;
+  /* Menghapus latar belakang */
+  font-size: 50px;
+  /* Mengatur ukuran font */
   border-radius: 50%;
   color: red;
 }
@@ -5664,12 +5728,16 @@ flex-shrink: 0;
   position: absolute;
   top: 70%;
   transform: translateY(-50%);
-  opacity: 0.7; /* Mengatur tingkat transparansi */
-  background-color: transparent; /* Menghapus latar belakang */
-  font-size: 50px; /* Mengatur ukuran font */
+  opacity: 0.7;
+  /* Mengatur tingkat transparansi */
+  background-color: transparent;
+  /* Menghapus latar belakang */
+  font-size: 50px;
+  /* Mengatur ukuran font */
   border-radius: 50%;
   color: red;
 }
+
 .left-scroll-button {
   border-radius: 50%;
   left: 0;
