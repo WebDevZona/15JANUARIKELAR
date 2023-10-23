@@ -289,7 +289,11 @@
               <span class="icon">
                 <img src="assets/img/bg/ico4.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:30px;position:absolute;margin-left:-10px">
               </span>
-              <span class="label-text" style="font-family:'Manrope';font-size:12px; white-space: normal;word-wrap: break-word;margin-left:20px;margin-top:-10px">Bimbingan online & privat</span>
+
+              <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;margin-left:20px;margin-top:-10px">Termurah Se-Indonesia</span>
+
+              {{-- <span class="label-text" style="font-family:'Manrope';font-size:12px; white-space: normal;word-wrap: break-word;margin-left:20px;margin-top:-10px;float: center;">Bimbingan online & privat</span> --}}
+
             </div>
             <h4 class="title">
               <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
@@ -314,9 +318,9 @@
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200"style="background: url(assets/img/bg/bg3.png);background-size: cover;">           
               <div class="label"style="margin-top:10px">
                 <span class="icon">
-                  <img src="assets/img/bg/ico2.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px">
+                  <img src="assets/img/bg/ico2.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px;margin-right:5px">
                 </span>
-                <span class="label-text" style="font-family:'Manrope';font-size:12px; white-space: normal;word-wrap: break-word;margin-top:-10px">Durasi sampai 4 jam</span>
+                <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;">Durasi sampai 4 jam</span>
               </div>
               <h4 class="title">
                 <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
@@ -332,7 +336,7 @@
               {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
              <div class="icon">
               </div>
-              <img src="assets/img/bg/gmb3.png" alt="Deskripsi Gambar"style=" margin-top: -185px;">
+              <img src="assets/img/bg/gmb3.png" alt="Deskripsi Gambar"style=" margin-top: -175px;">
             </div>
          
 
@@ -340,9 +344,9 @@
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300"style="background: url(assets/img/bg/bg2.png);background-size: cover;">        
               <div class="label"style="margin-top:10px">
                 <span class="icon">
-                  <img src="assets/img/bg/ico3.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px">
+                  <img src="assets/img/bg/ico3.png" alt="Deskripsi Gambar"style="margin-top:-3px;width:15px;margin-right:5px">
                 </span>
-                <span class="label-text" style="font-family:'Manrope';font-size:12px">24x Pertemuan</span>
+                <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;">24x Pertemuan</span>
                 {{-- Mendapat 24 pertemuan --}}
               </div>  
               <h4 class="title" >
@@ -358,7 +362,7 @@
               {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
              <div class="icon">
               </div>
-              <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar"style=" margin-top: -125px;">
+              <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar"style=" margin-top: -115px;">
             </div>
         
 
@@ -367,9 +371,9 @@
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400"style="background: url(assets/img/bg/bg1.png);background-size: cover;">        
               <div class="label"style="margin-top:10px">
                 <span class="icon">
-                  <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px">
+                  <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-0px;width: 17px;margin-right:5px">
                 </span>
-                <span class="label-text" style="font-family:'Manrope';font-size:12px">Fasilitas Lengkap</span>
+                <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;">Fasilitas Lengkap</span>
               </div>
               
               <h4 class="title" >
@@ -396,14 +400,13 @@
             <div class="icon-box" data-aos="fade-up" data-aos-delay="500"style="background: url(assets/img/bg/bg5.png);background-size: cover;">       
               <div class="label"style="margin-top:10px">
                 <span class="icon">
-                  <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px">
+                  <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-0px;width:17px;margin-right:5px">
                 </span>
                 <span class="label-text" style="color: #FFF;
-                font-family: 'Manrope';
-                font-size: 11px;
+                font-family: 'Manrope';                
                 font-style: normal;
                 font-weight: 800;
-                line-height: normal;">Termurah Se-Indonesia
+                line-height: normal;">Termurah Didunia
                 </span>
               </div>
               <h4 class="title" >
@@ -438,35 +441,33 @@
       </div>
       
   
-  <div class="modal fade" id="tulis" tabindex="-1" role="dialog" aria-labelledby="tulisTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-          <div class="modal-content">
-              <div class="modal-header">
-                  <h5 class="modal-title">Selamat datang di Class Program Ingin cari produk untuk semester berapa?</h5>
-                  <!-- <p>Ingin cari produk untuk semester berapa?</p> -->
-                  <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-      <div class="btn-group">
-          <button type="button" class="btn btn-primary" style="border-radius: 50px;">1 dan 2</button>
-          <button type="button" class="btn btn-primary" style="border-radius: 50px;">3 dan 4</button>
-          <button type="button" class="btn btn-primary" style="border-radius: 50px;">5 dan 6</button>
-          <!-- Tambahkan tombol-tombol produk lainnya sesuai kebutuhan -->
-      </div>
-      <!-- <hr> Garis pemisah -->
-                  <p>Pilihan paket bimbingan skripsi</p>
-                  <div class="btn-group">
-                      <button type="button" class="btn btn-primary"style="  border-radius: 50px;">Pembuatan judul skripsi</button>
-                      <button type="button" class="btn btn-primary"style="  border-radius: 50px;">Bab 1 sampai bab 3</button>
-                  </div>
-                  <div class="btn-group">
-                      <button type="button" class="btn btn-primary"style="  border-radius: 50px;">Bab 4 sampai bab 5</button>
-                      <button type="button" class="btn btn-primary"style="  border-radius: 50px;">Persiapan materi sempro dan sidang</button>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
+      <div class="modal fade custom-modal" id="tulis" tabindex="-1" role="dialog" aria-labelledby="tulisTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg custom-modal-dialog" role="document">
+            <div class="modal-content custom-modal-content">
+                <div class="modal-header custom-modal-header">
+                    <h5 class="modal-title custom-modal-title">Selamat datang di Class Program Ingin cari produk untuk semester berapa?</h5>
+                    <button type="button" class="btn-close custom-btn-close" data-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body custom-modal-body">
+                    <div class="btn-group custom-btn-group">
+                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">1 dan 2</button>
+                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">3 dan 4</button>
+                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">5 dan 6</button>
+                    </div>
+                    <p class="custom-modal-text">Pilihan paket bimbingan skripsi</p>
+                    <div class="btn-group custom-btn-group">
+                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">Pembuatan judul skripsi</button>
+                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">Bab 1 sampai bab 3</button>
+                    </div>
+                    <div class="btn-group custom-btn-group">
+                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">Bab 4 sampai bab 5</button>
+                        <button type="button" class="btn btn-primary custom-btn-primary" style="border-radius: 50px;">Persiapan materi sempro dan sidang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
   
 </section>
 
@@ -479,14 +480,14 @@
           <div class="segitiga">
               <div class="kiri-atas">
                   <h3><span style="color: #1E1E1E;
-                    font-family: Manrope;                  
-                    font-style: normal;
+                    font-family: 'Manrope';
                     font-size: 27.644px;
+                    font-style: normal;
                     font-weight: 700;
-                    line-height: bold;">PAKET</span> <br> Super  </h3>
+                    line-height: normal;">PAKET</span> <br> Super  </h3>
               </div>
               <div class="kanan-atas">
-                  <p style="color:#0539b1">Harga per sesi: <span style="color:#0539b1"> Rp 18.000</span></p>
+                  <p style="">Harga per sesi: <br> <span style="color:#0539b1"> Rp 18.000</span></p>
               </div>
           </div>
           <div class="keterangan">
@@ -514,18 +515,18 @@
           <div class="kiri-atas">
             <h3>
               <span style="color: #1E1E1E;
-                font-family: Manrope;                  
-                font-style: normal;
-                font-size: 27.644px;
-                font-weight: 700;
-                line-height: bold;">
+              font-family: 'Manrope';
+              font-size: 27.644px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;">
                 PAKET
               </span> <br>Super
             </h3>
           </div>
           <div class="kanan-atas">
-            <p style="color: #0539b1">
-              Harga per sesi: <span style="color: #0539b1"> Rp20.000</span> 
+            <p style="">
+              Harga per sesi: <br><span style="color: #0539b1"> Rp20.000</span> 
             </p>
           </div>
         </div>
@@ -553,14 +554,14 @@
           <div class="segitiga">
             <div class="kiri-atas">
               <h3><span style="color: #1E1E1E;
-                    font-family: Manrope;                  
-                    font-style: normal;
-                    font-size: 27.644px;
-                    font-weight: 700;
-                    line-height: bold;">PAKET </span><br> Super</h3>
+                font-family: 'Manrope';
+                font-size: 27.644px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;">PAKET </span><br> Super</h3>
           </div>
           <div class="kanan-atas">
-              <p style="color:#0539b1">Harga per sesi:<span style="color:#0539b1"> Rp 33.000 </span></p>
+              <p style="">Harga per sesi: <br><span style="color:#0539b1"> Rp 33.000 </span></p>
           </div>
           </div>
           <div class="keterangan">
@@ -880,7 +881,7 @@
   
    <div class="main_content floatleft">
      <div class="left_coloum floatleft">        
-          <h4>Class Program on Youtube</h4> 
+          <h4 style="margin-bottom: 30px">Class Program on Youtube</h4> 
           <div class="single_left_coloum_wrapper" id="scrollableColumn">           
             <div class="scrollable_left_coloum">
               <!-- Article 1 -->
@@ -889,7 +890,7 @@
                 
                 <p>
                   Anies Baswedan dan 
-SBY Bertemu di Pacitan Jawa
+                  SBY Bertemu di Pacitan Jawa
                 </p>
                 
               </div>
@@ -918,7 +919,7 @@ SBY Bertemu di Pacitan Jawa
             </div>
           </div>
           <span class="left-scroll-buttonn" onclick="scrollLeft()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 53 53" fill="none">
               <g filter="url(#filter0_b_229_15)">
                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                 <!-- Mengubah path panah ke kiri -->
@@ -930,7 +931,7 @@ SBY Bertemu di Pacitan Jawa
 
           
           <span class="right-scroll-button" onclick="scrollRight()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 53 53" fill="none">
               <g filter="url(#filter0_b_229_15)">
                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                 <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
@@ -946,10 +947,12 @@ SBY Bertemu di Pacitan Jawa
               </defs>
             </svg>
           </span>
+          <hr style="border: 1px solid rgba(0, 0, 0, 0.48);margin-top:10px;margin-bottom:20px;">
 
-          <hr style="border: 1px solid rgba(0, 0, 0, 0.48);;">
 
-          <h4>Class Program on Instagram</h4> 
+
+          <h4 style="margin-bottom: 30px">Class Program on Instagram</h4> 
+
           <div class="single_left_coloum_wrapper" id="scrollableColumn1">
             <div class="scrollable_left_coloum">
               <div class="single_left_coloumb long-image">
@@ -1022,7 +1025,7 @@ SBY Bertemu di Pacitan Jawa
       
       <div class="right_coloum floatright">
         <div class="single_right_coloum">           
-            <h4 style="margin-left: -5px">Terpopuler</h4> 
+            <h4 style="margin-left: -5px;margin-bottom: 30px">Terpopuler</h4> 
             <ul>
               <li>
                  <div class="single_cat_right_content">
@@ -1209,22 +1212,22 @@ line-height: normal;"> 3 hours ago</p>
                 <div class="member">
                   <div class="member-img">
                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                    <img src="assets/img/team/1.png" class="img-fluid" alt="">
+                    <img src="assets/img/team/team4.png" class="img-fluid" alt=""style="margin-left: -65px;">
                   </div>
                   <div class="member-info"> <br>
-                    <h4 class="name">Maya Ulyani</h4>
-                    {{-- <span class="position">Partner Support Care Lazada and --}}
-                      {{-- Lecturer of English Language Education</span> --}}
+                    <h4 class="name">Maya Ulyani,M.Pd</h4> <br>
+                    <span class="position">Master English Language Educationn</span>
                     {{-- <br> --}}
                     <div class="line"></div>
                     <p class="achievement">Keahlian dan Prestasi :</p>
                     <ul>
-                      <li>1. Sastra Inggris</li>
-                      <li>2. SPSS</li>
-                      <li>2. SPSS</li>
-                      <li>2. SPSS</li>
-                      <li>2. SPSS</li>
-                      <li>3.Peneliti Pendidikan dan Literatur</li>
+                      <li>S1 & S2 Pendidikan Bahasa Inggris</li>
+                      <li>Outbound Educational Ruangguru</li>
+                      <li>Partner Support Care Lazada</li>
+                      <li>Lecturer of English Language Education</li>
+                      <li>Lecturer English for specific purposes/li>
+                      <li>Teacher in Vocational High School</li>
+                      <li>Content Writer Quena</li>
                      <br>
                       {{-- <li>4.Teacher in Vocational High School</li> --}}
                     </ul>
@@ -1236,23 +1239,19 @@ line-height: normal;"> 3 hours ago</p>
                 <div class="member">
                   <div class="member-img">
                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                    <img src="assets/img/team/mentor1.png" class="img-fluid" alt=""style="margin-left:-50px;">
+                    <img src="assets/img/team/mentor1.png" class="img-fluid" alt=""sgtyle="margin-left: -15px;margin-top:5xpx;">
                   </div>
                   <div class="member-info"><br>
                     <h4 class="name">Bayu Ade Candra, <br>
                       S.Kom., M.M.</h4>
-                    <span class="position"style="font-family: Manrope;
-                    font-size: 21.858px;
-                    font-style: normal;
-                    font-weight: 500;
-                    line-height: normal;">Master Teacher Biologi</span>
+                    <span class="position">Master Teacher Biologi</span>
                     <div class="line"></div>
                     <p class="achievement">Keahlian dan Prestasi :</p>
                     <ul>
                       <li>9 tahun bekerja di Multinational Company and Government Institution</li>
                       <li>2018 - 1st Winner, Indonesia Independence Run 10K Limitless RaceID</li>
                       <li>2016 - 1st Winner, Creativity Idea Competition Great Giant Pineapple Co.</li>
-                      <li>2016 - 3rd Winner, Best Employee Of The Year Great Giant Pineapple Co</li>
+                      {{-- <li>2016 - 3rd Winner, Best Employee Of The Year Great Giant Pineapple Co</li> --}}
                       <br>
                       {{-- <li>4. Lecturer of English Language Education</li> --}}
                       {{-- <li>5. Lecturer English for specific purposes</li>
@@ -1299,20 +1298,20 @@ line-height: normal;"> 3 hours ago</p>
                 <div class="member">
                   <div class="member-img">
                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                    <img src="assets/img/team/1.png" class="img-fluid" alt="">
+                    <img src="assets/img/team/mentor4.png" class="img-fluid" alt="">
                   </div>
                   <div class="member-info"> <br>
-                    <h4 class="name">Aci Meidayanti</h4>
-                    {{-- <span class="position">Master Teacher Management</span> --}}
+                    <h4 class="name">Aci Meidayanti, S.Pd., M.M.</h4>
+                    <span class="position">Master Teacher Management</span>
                     <div class="line"></div>
                     <p class="achievement">Keahlian dan Prestasi :</p>
                     <ul>
-                      <li>Prestasi 1</li>
-                      <li>Prestasi 2</li>
-                      <li>Prestasi 3</li>
-                      <li>Prestasi 3</li>
-                      <li>Prestasi 3</li>
-                      <li>Prestasi 3</li>
+                      <li>D1 Prodistik</li>
+                      <li>S1 Teknik Informatika</li>
+                      <li> S2 Management Marketing</li>
+                      <li>Pendamping Proses Produk Halal</li>
+                      <li>Bisnis Owner</li>
+                      {{-- <li>Prestasi 3</li> --}}
                       <br>
                     </ul>
                   </div>
@@ -1394,19 +1393,28 @@ line-height: normal;"> 3 hours ago</p>
 
   <!-- Tautkan ke file JavaScript Anda di sini -->
 
-<section id="blockx" class="blockx">
-  <div class="box">
-    <h2>Lebih Dekat dengan Class program</h2>
-    <!-- <p>Silakan masuk untuk melanjutkan.</p> -->
-    <button class="button">
-      <i class="bx bxl-youtube"></i> 
-    </button>
-    
-  </div>
-  <div class="background-box" ></div> <!-- Ini adalah kotak latar belakang -->
-</section>
-
+  <section id="blockx" class="blockx">
+    <div class="box">
+      <div class="text-content">
+        <button class="button">
+          <svg xmlns="http://www.w3.org/2000/svg" width="57" height="41" viewBox="0 0 57 41" fill="none">
+            <path d="M33.2675 20.4998L24.1478 25.711V15.2886L33.2675 20.4998Z" fill="black" stroke="white" stroke-width="3.90842" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2 22.3436V18.6564C2 11.1122 2 7.34018 4.35936 4.91313C6.71874 2.48608 10.4332 2.38102 17.8622 2.1709C21.3825 2.07134 24.9784 2 28.0562 2C31.1339 2 34.7299 2.07134 38.2501 2.1709C45.679 2.38102 49.3935 2.48608 51.7529 4.91313C54.1123 7.34018 54.1123 11.1122 54.1123 18.6564V22.3436C54.1123 29.8876 54.1123 33.6598 51.7529 36.0867C49.3935 38.5138 45.6792 38.6188 38.2504 38.8291C34.7299 38.9286 31.1339 39 28.0562 39C24.9784 39 21.3823 38.9286 17.8619 38.8291C10.4331 38.6188 6.71869 38.5138 4.35933 36.0867C2 33.6598 2 29.8876 2 22.3436Z" stroke="white" stroke-width="3.90842"/>
+          </svg>
+        </button>
+        <h2>Lebih Dekat dengan <br>
+          Class Program</h2>
+       
+      </div>
+      {{-- <div class="image"> --}}
+        {{-- </div> --}}
+      </div>
+      <img src="assets/img/bg/gambar.png" class="" alt="">
+    <div class="background-box"></div> <!-- Ini adalah kotak latar belakang -->
   </section>
+  
+  
+  
 
     <section id="galeri" class="galeri">
       <div class="section-title "style=" font-family: 'Roboto', sans-serif;

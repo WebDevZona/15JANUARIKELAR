@@ -162,8 +162,14 @@
       </button>
     </div>
     <div class="popup-bro" id="popup-bro">
-      <p style="color: black;    font-family: Manrope;    font-size: 15px;    font-style: normal;      font-weight: 800;      line-height: normal;">
-        <strong>Selamat Sobat Insans Telah Mendaftar</strong></p>
+      <p>
+        <strong style="color: black;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        margin:bottom :50px">Selamat Sobat Insans Telah Mendaftar</strong></p>
       <div class="month-box" id="month-box">
         <p id="popup-month">Oct</p>
         <div class="date-box" id="date-box">
@@ -171,7 +177,8 @@
         </div>
       </div>
       <div class="row">
-        <div class="popup-text" id="popup-text">
+        <row>
+      <div class="popup-text" id="popup-text">
           <p><strong>Nama:</strong> Vabindra Bimasvara</p>
           <p>Paket: Silver</p>
           <p>5 menit yang lalu</p>
@@ -227,12 +234,12 @@
       {
     date: "21",
     month: "Oct",
-    text: "<strong>Yohanes Hernandes S</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+    text: "have registered<br><strong>Yohanes Hernandes S</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
   },
   {
     date: "22",
     month: "Nov",
-    text: "<strong>Dimas wildan </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+    text: "have registered<br><strong>Dimas wildan </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
   },
          // Add more messages with their respective date, month, and text here
     ];
