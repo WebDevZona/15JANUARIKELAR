@@ -1191,7 +1191,7 @@ line-height: normal;"> 3 hours ago</p>
 
 
   <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials"style="margin-top:-100px;margin-bottom:30px;">
+  <section id="testimonials" class="testimonials"style="margin-top:-100px ;margin-bottom:30px;">
     <div class="container" data-aos="zoom-in"style="background: url(assets/img/bg/bgtest.png);background-size: cover;">
       <div class="section-title">
         {{-- <h2>Team</h2> --}}
