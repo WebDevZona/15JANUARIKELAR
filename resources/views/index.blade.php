@@ -1626,7 +1626,7 @@ line-height: normal;"> 3 hours ago</p>
     <!-- </section> -->
 <!-- End Clients Section -->
     <!-- ======= Services Section ======= -->
-    <section id="testibaru" class="testibaru section-bg">
+    <!--<section id="testibaru" class="testibaru section-bg">
       <div class="profile-container">
         <div class="profile-slider">
           <div class="profile">
@@ -1636,15 +1636,15 @@ line-height: normal;"> 3 hours ago</p>
             </div>
             <div class="gabung">
               <img class="profile-image" src="assets/img/kampus/3.png" alt="Gambar Profil"> <!-- Ganti dengan path gambar profil Anda -->
-              <div class="profile-info">
+              {{-- <div class="profile-info">
                 <h1>Nama Anda</h1>
                 <p>Jurusan Anda</p>
-              </div>
+              </div> --}}
               <!-- Tambahkan elemen tambahan di sini -->
               {{-- <div class="additional-info">
                 <p>Informasi tambahan yang hanya muncul saat dihover.</p>
               </div> --}}
-            </div>
+            {{-- </div>
           </div>
           <div class="profile">
             <div class="comment">
@@ -1656,12 +1656,12 @@ line-height: normal;"> 3 hours ago</p>
               <div class="profile-info">
                 <h1>Nama Anda</h1>
                 <p>Jurusan Anda</p>
-              </div>
+              </div> --}}
               <!-- Tambahkan elemen tambahan di sini -->
               {{-- <div class="additional-info">
                 <p>Informasi tambahan yang hanya muncul saat dihover.</p>
               </div> --}}
-            </div>
+            {{-- </div>
           </div>
           <div class="profile">
             <div class="comment">
@@ -1673,12 +1673,12 @@ line-height: normal;"> 3 hours ago</p>
               <div class="profile-info">
                 <h1>Nama Anda</h1>
                 <p>Jurusan Anda</p>
-              </div>
+              </div> --}}
               <!-- Tambahkan elemen tambahan di sini -->
               {{-- <div class="additional-info">
                 <p>Informasi tambahan yang hanya muncul saat dihover.</p>
               </div> --}}
-            </div>
+            {{-- </div>
           </div>
           <div class="profile">
             <div class="comment">
@@ -1690,16 +1690,16 @@ line-height: normal;"> 3 hours ago</p>
               <div class="profile-info">
                 <h1>Nama Anda</h1>
                 <p>Jurusan Anda</p>
-              </div>
+              </div> --}}
               <!-- Tambahkan elemen tambahan di sini -->
               {{-- <div class="additional-info">
                 <p>Informasi tambahan yang hanya muncul saat dihover.</p>
               </div> --}}
-            </div>
+            {{-- </div>
           </div>
-    
+     --}}
           <!-- Tambahkan profil tambahan dengan struktur yang sama -->
-          <div class="profile">
+          {{-- <div class="profile">
             <div class="comment">
               <div class="triangle"></div>
               <p>Komentar profil tambahan.</p>
@@ -1709,12 +1709,12 @@ line-height: normal;"> 3 hours ago</p>
               <div class="profile-info">
                 <h1>Nama Lain</h1>
                 <p>Jurusan Lain</p>
-              </div>
+              </div> --}}
               <!-- Tambahkan elemen tambahan di sini -->
               {{-- <div class="additional-info">
                 <p>Informasi tambahan profil lainnya.</p>
               </div> --}}
-            </div>
+            {{-- </div>
           </div>
         </div>
         <div class="profile-navigation">
@@ -1723,19 +1723,84 @@ line-height: normal;"> 3 hours ago</p>
         </div>
       </div>
     </section>
+  --> --}}
     
-    
-    
+ 
 
 
+  <section id="testibaru" class="testibaru section-bg" >
+    <div class="profile-container">
+      <p>Cerita Sobat Insans</p>
+      <p1>Master English Language Education</p1>
+      <br>
+      <div class="profile-slider">
+        <div class="profile">
+          <!-- <div class="comment">
+            <div class="triangle"></div>
+            <p>Ini adalah komentar yang akan Anda tambahkan di sini.</p>
+          </div> -->
+          <div class="gabung">
+            <img class="profile-image" src="assets/img/team/team-2.jpg" alt="Gambar Profil"> <!-- Ganti dengan path gambar profil Anda -->
+            <div class="profile-info">
+              <h1>Emilia Puspita</h1>
+              <p2>" Menurut Saya belajar disini sangat menyenangkan dimana saya banyak sekali belajar tentang mata kuliah yang sedang saya dalami, pokoknya seru dan harus ikutan</p2>
+            </div>
+            <!-- Tambahkan elemen tambahan di sini -->
+            {{-- <div class="additional-info">
+                <p>Informasi tambahan yang hanya muncul saat dihover.</p>
+              </div> --}}
+          </div>
+        </div>
+        <div class="profile">
+          <!-- <div class="comment">
+            <div class="triangle"></div>
+            <p>Ini adalah komentar yang akan Anda tambahkan di sini.</p>
+          </div> -->
+          <div class="gabung">
+            <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil"> <!-- Ganti dengan path gambar profil Anda -->
+            <div class="profile-info">
+              <h1>ELouis Patric</h1>
+              <p2>" Menurut Saya belajar disini sangat menyenangkan dimana saya banyak sekali belajar tentang mata kuliah yang sedang saya dalami, pokoknya seru dan harus ikutan</p2>
+            </div>
+               <!-- Tambahkan elemen tambahan di sini -->
+            {{-- <div class="additional-info">
+                <p>Informasi tambahan yang hanya muncul saat dihover.</p>
+              </div> --}}
+              </div>
+            </div>
 
-     <section id="konsultasi" class="konsultasi section-bg" style="font-family: 'Manrope', sans-serif;">
-       <div class="container" data-aos="fade-up">
-      <div class="section-title">
-        {{-- <h2>Team</h2> --}}
-        <h3> Alur bimbingan</h3>
-        {{-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> --}}
+              <div class="profile">
+                <!-- <div class="comment">
+                  <div class="triangle"></div>
+                  <p>Ini adalah komentar yang akan Anda tambahkan di sini.</p>
+                </div> -->
+                <div class="gabung">
+                  <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil"> <!-- Ganti dengan path gambar profil Anda -->
+                  <div class="profile-info">
+                    <h1>Vincen Manuell</h1>
+                    <p2>" Menurut Saya belajar disini sangat menyenangkan dimana saya banyak sekali belajar tentang mata kuliah yang sedang saya dalami, pokoknya seru dan harus ikutan</p2>
+                  </div>
+ {{-- <div class="additional-info">
+                <p>Informasi tambahan yang hanya muncul saat dihover.</p>
+              </div> --}}
+            </div>
+          </div>
+        </div>
+        <div class="profile-navigation">
+          <button id="prevProfile">
+            {{-- << /button> --}}
+              <button id="nextProfile">></button>
+        </div>
       </div>
+    </section>
+
+
+    <section id="konsultasi" class="konsultasi section-bg" style="font-family: 'Manrope', sans-serif;margin-top: -100px;">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          {{-- <h2>Team</h2> --}}
+          <h3> Alur bimbingan</h3>
+          {{-- <h3> Alur Konsultasi</h3> --}}
       
       <div class="team-slider">
         <div class="row" id="team-members">
@@ -1744,13 +1809,13 @@ line-height: normal;"> 3 hours ago</p>
             <div class="konsultasi-content">
               <div class="member-img">
                 <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                <img src="assets/img/logo/pesen-produk.png" class="img-fluid" style="width: 200px;" alt="">
               </div>
               <div class="member-info">
-                <h4>1. Pilih produk</h4>
+                <h4>1. Pesen Produk</h4>
                 <br>
                 {{-- <span>Chief Executive Officer</span> --}}
-                <p>Memilih paket bimbingan sesuai dengan kebutuhanmu</p><br>
+                <p>Pilih paket bimbingan yang <br>sesuai dengan kebutuhanmu</p><br>
                 {{-- <ul>
                   <li>Prestasi 1</li>
                   <li>Prestasi 2</li>
@@ -1765,13 +1830,13 @@ line-height: normal;"> 3 hours ago</p>
             <div class="konsultasi-content">
               <div class="member-img">
                 <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                <img src="assets/img/logo/pana.png" class="img-fluid" style="width: 140px;" alt="">
               </div>
               <div class="member-info">
-                <h4>2. Lakukan pendaftaran</h4>
+                <h4>2. Lakukan Pembayaran</h4>
                 <br>
                 {{-- <span>Product Manager</span> --}}
-                <p>Mengisi formulir pendaftaran sesuai dengan data diri yang <br> lengkap dan benar</p>
+                <p>Pilih paket bimbingan yang <br>sesuai dengan kebutuhanmu</p><br>
                 {{-- <ul>
                   <li>Prestasi 1</li>
                   <li>Prestasi 2</li>
@@ -1785,10 +1850,10 @@ line-height: normal;"> 3 hours ago</p>
             <div class="konsultasi-content">
               <div class="member-img">
                 <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                <img src="assets/img/logo/paid.png" class="img-fluid" style="width: 155px;" alt="">
               </div>
               <div class="member-info">
-                <h4>3. Selesaikan Pembayaran</h4>
+                <h4>3. Jadwalkan Sesi</h4>
                 <br>
                 {{-- <span>Product Manager</span> --}}
                 <p>Mengirim bukti pembayaran dan menunggu verifikasi</p><br>
@@ -1806,10 +1871,10 @@ line-height: normal;"> 3 hours ago</p>
             <div class="konsultasi-content">
               <div class="member-img">
                 <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+                <img src="assets/img/logo/bimbingan.png" class="img-fluid" style="width: 280px; margin-bottom: 8px;margin-top:12px;" alt="">
               </div>
               <div class="member-info">
-                <h4>4. Mulai bimbingan</h4>
+                <h4>4. Mulai Konsultasi</h4>
                 <br>
                 {{-- <span>CTO</span> --}}
                 <p>Kamu siap melakukan bimbingan bersama mentor</p><br>
