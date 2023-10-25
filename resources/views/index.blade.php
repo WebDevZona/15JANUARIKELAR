@@ -189,7 +189,7 @@
       <div class="count-separator"style="margin-left:20px"></div>
       <div class="count-box">
         <div class="left-content">
-            <span>23+</span>
+            <span>23</span><span style="font-size: 30px">+</span>
         </div>
         <div class="right-content">
           <p >Kampus</p>
@@ -290,7 +290,7 @@
                 <img src="assets/img/bg/ico4.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:30px;position:absolute;margin-left:-10px">
               </span>
 
-              <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;margin-left:20px;margin-top:-10px">Termurah Se-Indonesia</span>
+              <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;margin-left:15px;margin-top:-10px;margin-right:10px">Termurah Se-Indonesia</span>
 
               {{-- <span class="label-text" style="font-family:'Manrope';font-size:12px; white-space: normal;word-wrap: break-word;margin-left:20px;margin-top:-10px;float: center;">Bimbingan online & privat</span> --}}
 
@@ -423,7 +423,7 @@
               {{-- <p class="description">Sobat Insans akanarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
              <div class="icon">
               </div>
-              <img src="assets/img/bg/gmb5.png" alt="Deskripsi Gambar"style=" margin-top: -80px;">
+              <img src="assets/img/bg/wshop2.png" alt="Deskripsi Gambar"style=" margin-top: -60px;">
             </div>
           
 
@@ -809,7 +809,12 @@
       <div class="content" id="content1">
           <div class="row blok">             
               <div class="col-lg-6 pt-4 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
-                  <h3 style=" font-family: 'Red Hat Text', sans-serif;font-weight: bold;font-size:40px">WORKSHOP CLASS PROGRAM</h3>
+                  <h3 style=" color: black;
+                  font-family: Manrope;
+                  font-size: 50.279px;
+                  font-style: bold;
+                  font-weight: 800;
+                  line-height: 100%; /* 64.279px */">WORKSHOP CLASS PROGRAM</h3>
                   <div class="content-selector  mb-4" style="margin-top: 10px;">
                       <button id="content1Btn" class="btn btn-primary active">Skripsi</button>
                       <button id="content2Btn" class="btn btn-primary">KTI</button>
@@ -890,7 +895,7 @@
 
   <!-- ======= Pricing Section ======= -->
 
-  <section id="berita" class="berita" style="margin-top:-35px">
+  <section id="berita" class="berita container" style="margin-top:-35px">
     <div class="content_area">
 
       <div class="main_content floatleft">
@@ -1186,14 +1191,14 @@ line-height: normal;"> 3 hours ago</p>
 
 
   <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials"style="margin-top:-120px;margin-bottom:30px; ">
-    <div class="container" data-aos="zoom-in">
+  <section id="testimonials" class="testimonials"style="margin-top:-100px;margin-bottom:30px;">
+    <div class="container" data-aos="zoom-in"style="background: url(assets/img/bg/bgtest.png);background-size: cover;">
       <div class="section-title">
         {{-- <h2>Team</h2> --}}
         <h3>Mentor Profesional Class Program</h3>
         {{-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> --}}
       </div>
-      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100" style="background-color:">
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100" >
         <div class="swiper-wrapper">
 
           <div class="swiper-slide">
@@ -1205,12 +1210,12 @@ line-height: normal;"> 3 hours ago</p>
                     <img src="assets/img/team/mentor2.png" class="img-fluid" alt="">
                   </div>
                   <div class="member-info"><br>
-                    <h4 class="name">Ali Bin Abithalib Salman <br>S.Hut, M.Si</h4>
+                    <h4 class="name">Ali Bin Abithalib Salman <br>S.Hut, M.Si</h4>
                     <span class="position">Master Teacher Biologi</span>
                     <div class="line"></div>
                     <p class="achievement">Keahlian dan Prestasi :</p>
                     <ul>
-                      <li>Experimental Research and Laboratory</li>
+                      <li>Experimental Research and Laboratory</li>
                       <li>Mikrobiologi </li>
                       <li>SPSS </li>
                       <li>Teknologi Hasil Hutan</li>
@@ -1253,7 +1258,7 @@ line-height: normal;"> 3 hours ago</p>
                 <div class="member">
                   <div class="member-img">
                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                    <img src="assets/img/team/mentor1.png" class="img-fluid" alt=""sgtyle="margin-left: -15px;margin-top:5xpx;">
+                    <img src="assets/img/team/mentor1.png" class="img-fluid" alt=""sgtyle="margin-left: -15px;margin-top:5xpx;width: 300px;">
                   </div>
                   <div class="member-info"><br>
                     <h4 class="name">Bayu Ade Candra, <br>
@@ -1282,12 +1287,12 @@ line-height: normal;"> 3 hours ago</p>
             <div class="centered-content">
                 <div class="team-member" data-aos="fade-up" data-aos-delay="200">
                 <div class="member">
-                  <div class="member-img">
+                  <div class="member-img"style="width:400px;margin-left:-35px">
                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                    <img src="assets/img/team/mentor3.png" class="img-fluid" alt="">
+                    <img src="assets/img/team/mentor3.png" class="img-fluid" alt=""style="width:600px;">
                   </div>
                   <div class="member-info"><br>
-                    <h4 class="name">Faidatul Ainiyah, S.E., M.E<br></h4>
+                    <h4 class="name">Faidatul Ainiyah, S.E., M.E <br><br></h4>
                     <span class="position"> Master teacher of Economics
                     </span>
                     <div class="line"></div>
@@ -1310,12 +1315,12 @@ line-height: normal;"> 3 hours ago</p>
           
                 <div class="team-member" data-aos="fade-up" data-aos-delay="200">
                 <div class="member">
-                  <div class="member-img">
+                  <div class="member-img"style="width:400px;margin-left:-35px">
                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                    <img src="assets/img/team/mentor4.png" class="img-fluid" alt="">
+                    <img src="assets/img/team/mentor4.png" class="img-fluid" alt=""style="width:500px;">
                   </div>
                   <div class="member-info"> <br>
-                    <h4 class="name">Aci Meidayanti, S.Pd., M.M.</h4>
+                    <h4 class="name">Aci Meidayanti, S.Pd., M.M.  <br>            <br></h4> 
                     <span class="position">Master Teacher Management</span>
                     <div class="line"></div>
                     <p class="achievement">Keahlian dan Prestasi :</p>
@@ -1339,8 +1344,8 @@ line-height: normal;"> 3 hours ago</p>
                       <img src="assets/img/team/1.png" class="img-fluid" alt="">
                     </div>
                   <div class="member-info"> <br>
-                    <h4 class="name">Sarah Jhonson</h4>
-                    {{-- <span class="position">Product Manager</span> --}}
+                    <h4 class="name">Sarah Jhonson <br><br>  </h4>
+                    <span class="position">Master Teacher Management</span>
                     <div class="line"></div>
                     <p class="achievement">Keahlian dan Prestasi :</p>
                     <ul>
@@ -1863,6 +1868,7 @@ line-height: normal;"> 3 hours ago</p>
     <!-- ======= Frequently Asked Questions Section ======= -->
 
     <section id="faq" class="faq section-bg">
+      <div class="background-faq"></div>
       <div class="container" data-aos="fade-up">
           <div class="row">
               <div class="col-xl-6">
@@ -1932,11 +1938,11 @@ Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft sk
                 </div>
               </li> --}}
             </ul>
-            <button id="showMoreBtn" class="btn ">Baca Selengkapnya</button>
+            <button id="showMoreBtn" class="btn btn-faq">Baca Selengkapnya</button>
         </div>
         <div class="col-xl-6">
             <div class="image-container">
-                <img src="assets/img/g.png" alt="Deskripsi gambar" class="img-fluid">
+                <img src="assets/img/bg/faq2.png" alt="Deskripsi gambar" class="img-fluid-bos">
             </div>
         </div>
     </div>

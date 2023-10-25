@@ -636,17 +636,19 @@ h6 {
 } */
 #hero .container h2 {
   color: #FFF;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: 'Manrope';
-  font-size: 20.801px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 100%; /* 25.801px */
+/* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+font-family: 'Inter';
+font-size: 20.801px;
+font-style: normal;
+font-weight: 100;
+line-height: 100%; /* 25.801px */
+
+  letter-spacing: 0.5px;
   margin-top: 30px;
   /* letter-spacing: -0.29px; */
 /* 25.801px */
 /* letter-spacing: -1.29px; */
-  max-width:  500px; /* Maksimum lebar 400px sebelum pindah baris */
+  max-width:  550px; /* Maksimum lebar 400px sebelum pindah baris */
   /* max-height: 3em; Maksimum tinggi setara dengan 3 baris teks sebelum pindah baris */
   /* overflow: hidden;
   white-space: nowrap;
@@ -1359,7 +1361,7 @@ section {
   align-items: center;
   z-index:999; /* Atur z-index lebih tinggi dari elemen #popup */
   border-radius: 23.292px;
-background: rgba(255, 255, 255, 0.79);
+  background: rgba(255, 255, 255, 0.925);
 
 backdrop-filter: blur(12.5px);
   /* margin: 10px; Jarak dari tepi halaman */
@@ -1424,14 +1426,14 @@ backdrop-filter: blur(12.5px);
   letter-spacing: -2.184px;
   margin-top: -10px;
 }
-.right-content {  
+.right-content  p{  
   color: #1E1E1E;
   font-family: "Inter";
   font-size: 30.419px;
   font-style: 'normal';
-  font-weight: 500;
-  line-height: 100%; /* 24.419px */
-  letter-spacing: -1.221px;
+  /* font-weight: 100; */
+  /* line-height: 100%;  */
+  letter-spacing: -1px;
   text-align: center;
   padding: 0 0px; /* Tambahkan padding di sini untuk memberi jarak antara kiri dan kanan */
   margin-top: 5px;
@@ -1461,7 +1463,7 @@ letter-spacing: -2.184px;/* Atur ketebalan teks jika perlu */
   /* font-size: 14px; */
   color: #000000;
   font-family: 'Manrope';
-  font-size: 17.419px;
+  font-size: 19.419px;
   font-style: bold  ;
   font-weight: 1000;
   line-height: 100%; /* 24.419px */
@@ -1691,16 +1693,27 @@ letter-spacing: -2.184px;/* Atur ketebalan teks jika perlu */
 
 #testimonials.name {
   font-size: 24px; /* Sesuaikan ukuran font nama */
-  margin-bottom: 5px;
-  font-family: "Manrope";
+  color: #FFF;
+  text-align: center;
+  font-family: 'Manrope';
+  /* font-size: 27px; */
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 /* font-size: 32.721px; */
-font-style: bold;
+/* font-style: bold;
 font-weight: 1000;
-line-height: bold;
+line-height: bold; */
 }
 
 #testimonials.position {
   font-size: 18px; /* Sesuaikan ukuran font jurusan */
+  color: #FFF;
+font-family: 'Manrope';
+/* font-size: 21.858px; */
+font-style: normal;
+font-weight: 500;
+line-height: normal;
   margin-bottom: 10px;
 }
 
@@ -1743,7 +1756,12 @@ line-height: normal;
 }
 
 #testimonials .achievement {
-  font-weight: bold;
+  font-weight: bold;color: #FFF;
+  font-family: 'Manrope';
+  font-size: 18.266px;
+  /* font-style: normal; */
+  font-weight: 800;
+  line-height: normal;
   margin-bottom: 5px;
   /* text-align: left; Remove this line to keep the text centered */
   margin: 10px;
@@ -1795,10 +1813,10 @@ background-size: cover;
 }
 #testimonials .member-img{
   /* margin-bottom: -30px; */
-  margin-left: 40px;
+  margin-left: 30px;
   z-index: -99;
- width: 260px;
-height: 300px;
+ width: 280px;
+height: 260px;
 flex-shrink: 0; 
 }
 
@@ -2098,7 +2116,7 @@ flex-shrink: 0;
 }
 
 .team .member .member-img {
-  width: 200px;
+  width: 260px;
   height: auto;
   border-radius: 50%; /* Jika diperlukan, ubah sesuai kebutuhan Anda */
   background-color: transparent; /* Latar belakang gambar tetap transparan */
@@ -2180,8 +2198,8 @@ line-height: normal;
   line-height: normal;
 }
 .team-member .member .member-img  img{
-  width: 300px;
-  height: 400px;
+  width: 260px;
+  height: 320px;
   flex-shrink: 0;
 }
 
@@ -2465,9 +2483,9 @@ line-height: normal;
 --------------------------------------------------------------*/
 /* style.css */
 .faq {
-  padding: 60px 0;
-  background-color: rgb(152, 152, 170);
-  border-radius: 50px;
+  /* padding: 60px 0; */
+  background-color: rgb(255, 255, 255);
+  /* border-radius: 50px; */
   font-family: "Inter", sans-serif;
 }
 
@@ -2545,9 +2563,18 @@ line-height: normal;
 }
 
 .faq .faq-list .collapsed {
-  background-color: white;
-  color: black;
+  border-radius: 20px;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.15));
+
+
+  color: #000;
+  font-family: 'Raleway';  
   font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin-right: 10px;
 }
 
 .faq .faq-list .collapsed:hover {
@@ -2561,15 +2588,49 @@ line-height: normal;
 }
 
 .faq .container .image-container {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
 }
 
-.faq .container .image-container img {
-    width: 100%;
-    height: auto;
+.faq .container .image-container .img-fluid-bos {
+    width: 700px;
+    height: 700px;
+    margin-left: -200px;
+}
+
+.btn-faq{
+  border-radius: 20px;
+background: #3E87F8;
+box-shadow: 16px 16px 50px 0px rgba(0, 0, 0, 0.20);
+
+width: 259px;
+height: 64px;
+flex-shrink: 0;
+
+color: #FFF;
+font-family: 'Raleway';
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.btn-faq:hover{
+  border-radius: 20px;
+background: #3E87F8;
+box-shadow: 16px 16px 50px 0px rgba(0, 0, 0, 0.20);
+
+width: 259px;
+height: 64px;
+flex-shrink: 0;
+
+color: #FFF;
+font-family: 'Raleway';
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 
@@ -3097,9 +3158,9 @@ line-height: normal;
 }
 
 .menu .content p {
-  color: black;
+  color: #3C3C3C;
   font-family: "Manrope";
-  font-size: 19px;
+  font-size: 21px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -5278,7 +5339,7 @@ line-height: normal;
 .left-scroll-button, .left-scroll-buttonn {
   cursor: pointer;
   position: absolute;
-  top: 15%;
+  top: 17%;
   transform: translateY(-50%);
   opacity: 0.7;
   /* Mengatur tingkat transparansi */
@@ -5297,7 +5358,7 @@ line-height: normal;
 .left-scroll-button, .right-scroll-button {
   cursor: pointer;
   position: absolute;
-  top: 15%;
+  top: 17%;
   transform: translateY(-50%);
   opacity: 0.7; /* Mengatur tingkat transparansi */
   background-color: transparent; /* Menghapus latar belakang */

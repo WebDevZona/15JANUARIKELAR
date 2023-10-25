@@ -6,7 +6,7 @@
             </div>
             <form class="search-form" action="#" method="get">
               {{-- <label class="form-label" for="query">Masukkan kata kunci:</label> --}}
-              <input class="search-input" type="text" id="query" name="query"placeholder="apa yang sedang kamu cari?">
+              <input class="search-input" type="text" id="query" name="query"placeholder="Apa yang sedang kamu cari?">
               <button class="search-button" type="submit">CARI</button>
           </form>
             {{-- <a href="/tentang" class=""><i style="padding:10px;">Tentang</i>|</a>
