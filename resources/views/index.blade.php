@@ -540,7 +540,7 @@
           </div>
           <div class="kanan-atas">
             <p style="">
-              Harga per sesi: <br><span style="color: #0539b1"> Rp20.000</span> 
+              Harga per sesi: <br><span style="color: #0539b1"> Rp 20.000</span> 
             </p>
           </div>
         </div>
@@ -1801,7 +1801,7 @@ line-height: normal;"> 3 hours ago</p>
           {{-- <h2>Team</h2> --}}
           <h3> Alur bimbingan</h3>
           {{-- <h3> Alur Konsultasi</h3> --}}
-      
+          <br>
       <div class="team-slider">
         <div class="row" id="team-members">
           <!-- Anggota Tim 1 -->
@@ -1809,13 +1809,13 @@ line-height: normal;"> 3 hours ago</p>
             <div class="konsultasi-content">
               <div class="member-img">
                 <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                <img src="assets/img/logo/pesen-produk.png" class="img-fluid" style="width: 200px;" alt="">
+                <img src="assets/img/logo/pesen-produk.png" class="img-fluid" style="width: 165px;" alt="">
               </div>
               <div class="member-info">
                 <h4>1. Pesen Produk</h4>
                 <br>
                 {{-- <span>Chief Executive Officer</span> --}}
-                <p>Pilih paket bimbingan yang <br>sesuai dengan kebutuhanmu</p><br>
+                <p>Pilih paket bimbingan yang sesuai dengan kebutuhanmu</p>
                 {{-- <ul>
                   <li>Prestasi 1</li>
                   <li>Prestasi 2</li>
@@ -1836,7 +1836,7 @@ line-height: normal;"> 3 hours ago</p>
                 <h4>2. Lakukan Pembayaran</h4>
                 <br>
                 {{-- <span>Product Manager</span> --}}
-                <p>Pilih paket bimbingan yang <br>sesuai dengan kebutuhanmu</p><br>
+                <p>Pilih paket bimbingan yang sesuai dengan kebutuhanmu</p><br>
                 {{-- <ul>
                   <li>Prestasi 1</li>
                   <li>Prestasi 2</li>
@@ -1871,7 +1871,7 @@ line-height: normal;"> 3 hours ago</p>
             <div class="konsultasi-content">
               <div class="member-img">
                 <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                <img src="assets/img/logo/bimbingan.png" class="img-fluid" style="width: 280px; margin-bottom: 8px;margin-top:12px;" alt="">
+                <img src="assets/img/logo/bimbingan.png" class="img-fluid" style="width: 270px; margin-bottom: 8px;margin-top:12px;" alt="">
               </div>
               <div class="member-info">
                 <h4>4. Mulai Konsultasi</h4>
@@ -1937,12 +1937,12 @@ line-height: normal;"> 3 hours ago</p>
       <div class="container" data-aos="fade-up">
           <div class="row">
               <div class="col-xl-6">
-                  <div class="section-title">
+                  <div class="section-title" >
                       <h3>Paling Sering Ditanyakan</h3>
                   </div>
                   <ul class="faq-list" id="faq-list">
                       <li>
-                          <div data-bs-toggle="collapse" class="collapsed question" href="#faq1"> Apa itu Class Program?</div>
+                          <div data-bs-toggle="collapse" class="collapsed question" href="#faq1" style="font-size: 30px;"> Apa itu Class Program?</div>
                           <div id="faq1" class="collapse" data-bs-parent=".faq-list">
                               <p>
                                   Class Program adalah platform belajar online perkuliahan dan persiapan karir dengan sistem kenaikan kelas pertama di indonesia yang menyediakan berbagai macam program kelas serta akan dibimbing langsung oleh mentor yang ahli di bidangnya.
@@ -1987,8 +1987,7 @@ Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft sk
               <li>
                 <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Bagaimana cara bimbingan di Class Program?</div>
                 <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Sobat Insan perlu melakukan registrasi terlebih dahulu. Lengkapi data diri, kemudian login menggunakan akun yang telah terdaftar. Setelah itu memilih program yang tersedia sesuai dengan kebutuhan sobat insan. Lalu lakukan pembayaran sesuai pesanan dan Sobat insan akan diarahkan ke Minma untuk mendapatkan mentor. Setelah semua proses selesai, Sobat Insans siap untuk belajar di Class Program.
+                  <p>Sobat Insan perlu melakukan registrasi terlebih dahulu. Lengkapi data diri, kemudian login menggunakan akun yang telah terdaftar. Setelah itu memilih program yang tersedia sesuai dengan kebutuhan sobat insan. Lalu lakukan pembayaran sesuai pesanan dan Sobat insan akan diarahkan ke Minma untuk mendapatkan mentor. Setelah semua proses selesai, Sobat Insans siap untuk belajar di Class Program.
 
                   </p>
                 </div>
@@ -2003,7 +2002,7 @@ Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft sk
                 </div>
               </li> --}}
             </ul>
-            <button id="showMoreBtn" class="btn btn-faq">Baca Selengkapnya</button>
+            <button id="showMoreBtn" class="btn btn-faq" style="font-family: 'Manrope';">Baca Selengkapnya</button>
         </div>
         <div class="col-xl-6">
             <div class="image-container">
@@ -2184,8 +2183,8 @@ Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft sk
   <div class="container">
     <div class="row">
         <img src="assets/img/kampus/13.png" alt="Gambar 1" class="image">
-        <img src="assets/img/kampus/20.png" alt="Gambar 2" class="image">
-        <img src="assets/img/kampus/27.png" alt="Gambar 3" class="image"style="width:115px;">
+        <img src="assets/img/kampus/20.png" alt="Gambar 2" class="image" style="width:105px;">
+        <img src="assets/img/kampus/logo-unpad1.png" alt="Gambar 3" class="image" style="width:110px;height: 75px;">
     </div>
     <div class="row">
         <img src="assets/img/kampus/3.png" alt="Gambar 4" class="image">
@@ -2193,8 +2192,8 @@ Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft sk
         <img src="assets/img/kampus/26.png" alt="Gambar 6" class="image">
     </div>
     <div class="row">
-        <img src="assets/img/kampus/21.png" alt="Gambar 4" class="image"style=" width: 100px;">
-        <img src="assets/img/kampus/29.png" alt="Gambar 5" class="image">
+        <img src="assets/img/kampus/unesa-logo.png" alt="Gambar 4" class="image">
+        <img src="assets/img/kampus/uda-logo.png" alt="Gambar 5" class="image" style="width:103px;height: 80px;">
         <img src="assets/img/kampus/28.png" alt="Gambar 6" class="image">
     </div>
     <div class="row">
