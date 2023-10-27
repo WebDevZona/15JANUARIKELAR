@@ -1499,7 +1499,7 @@ section {
 .left-content {
 
   color: #141414;
-  font-family: 'Manrope';
+  /* font-family: 'Manrope'; */
   font-size: 50.672px;
   font-style: normal;
   font-weight: 800;
@@ -1508,14 +1508,12 @@ section {
   letter-spacing: -2.184px;
   margin-top: -10px;
 }
-.right-content  p{  
-  color: #1E1E1E;
-  font-family: "Inter";
-  font-size: 30.419px;
+.right-content  p{    
+  font-size: 50.419px;
   font-style: 'normal';
   /* font-weight: 100; */
   /* line-height: 100%;  */
-  letter-spacing: -1px;
+  /* letter-spacing: -1px; */
   text-align: center;
   padding: 0 0px;
   /* Tambahkan padding di sini untuk memberi jarak antara kiri dan kanan */
@@ -1528,10 +1526,10 @@ section {
   /* color: #062b5b; */
   /* display: block;   */
   color: #141414;
-  font-family: "Manrope";
+  /* font-family: "Manrope"; */
   font-size: 35px;
   font-style: bold;
-  font-weight: 10000;
+  font-weight: 700;
   line-height: 100%;
   /* 43.672px */
   letter-spacing: -2.184px;
@@ -1546,15 +1544,16 @@ section {
   text-align: left;
   /* font-family: "Cambria", serif; */
   /* font-size: 14px; */
-  color: #000000;
-  font-family: 'Manrope';
-  font-size: 19.419px;
-  font-style: bold  ;
-  font-weight: 1000;
+  -webkit-text-size-adjust: 100%;
+  color: #333;
+  font-family: 'Rosa Sans',sans-serif;
+  font-size: 14px;
+  /* font-style: bold  ; */
+  /* font-weight: 1000; */
   line-height: 100%;
   /* 24.419px */
   /* letter-spacing: -1.221px; */
-  margin-left: -15px;
+  margin-left: -20px;
   /* margin-right:1px ; */
 }
 
@@ -5215,7 +5214,7 @@ iframe {
 .profile-container p {
   color: #09326F;
   text-align: center;
-  font-family: 'Poppins';
+  font-family: Poppins;
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
@@ -5255,7 +5254,7 @@ margin-top: -20px;
   align-items: flex-start;
   padding: 20px;
   margin-right: 20px;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease;  
   min-height: 280px;
 }
 

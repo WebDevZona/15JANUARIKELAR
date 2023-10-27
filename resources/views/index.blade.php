@@ -172,7 +172,7 @@
                   <span >5000+</span>
                 </div>
                 <div class="right-content">
-                  <p style="margin-left:0px">Sobat Insans</p>
+                  <p style="margin-left:0px">Sobat Insans lulus kuliah bersama Class Program</p>
                 </div>
               </div>
               
@@ -182,7 +182,7 @@
           <span >115+</span>
         </div>
         <div class="right-content">
-          <p style="margin-left:0">Mentor Class Program</p>
+          <p style="margin-left:0">Mentor profesional siap membimbingmu</p>
         </div>
       </div>
 
@@ -192,7 +192,7 @@
             <span>23</span><span style="font-size: 30px">+</span>
         </div>
         <div class="right-content">
-          <p >Kampus</p>
+          <p >Kampus menggunakan layanan kami</p>
         </div>
       </div>
 
