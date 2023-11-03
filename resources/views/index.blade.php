@@ -140,7 +140,7 @@
   <!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center"style="background: url(assets/img/bg/dekstop1.png);background-size: cover;">
+  <section id="hero" class="d-flex align-items-center"style="background: url(assets/img/bg/dekstop2.png);background-size: cover;">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
         {{-- <span><img src="assets/img/logo/p.jpeg" class="foto" style="float:right;width:50%" alt=""></span> --}}
         {{-- <h1 style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 31.4px;">Sukses & Bertalenta</h1><br> --}}
@@ -169,48 +169,51 @@
             <div class="count-boxes">
               <div class="count-box">
                 <div class="left-content">
-                  <span >5000+</span>
+                  <span >5000</span><span style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
                 </div>
-                <div class="right-content">
+                <div class="right-content"style="margin-left:0px">
+                  {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
                   <p style="margin-left:0px">Sobat Insans lulus kuliah bersama Class Program</p>
                 </div>
               </div>
               
-              <div class="count-separator"style="margin-left:20px"></div> <!-- Garis vertikal -->
+              <div class="count-separator"style=""></div> <!-- Garis vertikal -->
       <div class="count-box">
         <div class="left-content">
-          <span >115+</span>
+          <span >115</span><span style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
         </div>
-        <div class="right-content">
-          <p style="margin-left:0">Mentor profesional siap membimbingmu</p>
+        <div class="right-content" style="margin-left:1px">
+          {{-- <p >Mentor Class Program</p> --}}
+          <p style="margin-left:0px">Mentor profesional siap membimbingmu</p>
         </div>
       </div>
 
       <div class="count-separator"style="margin-left:20px"></div>
       <div class="count-box">
         <div class="left-content">
-            <span>23</span><span style="font-size: 30px">+</span>
+            <span>23</span><span style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
         </div>
-        <div class="right-content">
-          <p >Kampus menggunakan layanan kami</p>
+        <div class="right-content"style="margin-left:-1px">
+          <p style="margin-left:0px;margin-right:10px;">Kampus menggunakan layanan kami</p>
+          {{-- <p >Kampus menggunakan layanan kami</p> --}}
         </div>
       </div>
 
       <div class="count-separator"></div>
       <div class="count-box">
         <div class="left-content">
-            <span >23+</span>
+            <span >23</span><span style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
         </div>
-        <div class="right-content">
+        <div class="right-content"style="margin-left:1px">
           <p>Jurusan</p>
         </div>
       </div>
       <div class="count-separator"></div>
       <div class="count-box">
         <div class="left-content">
-            <span>23+</span>
+            <span>23</span><span style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
         </div>
-        <div class="right-content">
+        <div class="right-content"style="margin-left:1px">
           <p>Total Program</p>
         </div>
       </div>
@@ -445,7 +448,7 @@
       <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content" style="background: url(assets/img/bg/frame16.png);background-size: cover;">
           <div class="modal-header">
-            <h5 class="modal-title">Selamat datang di Class Program Ingin cari produk untuk semester berapa?</h5>
+            <h5 class="modal-title">Selamat datang di Class Program Ingin <br> cari produk untuk semester berapa?</h5>
             <!-- <p>Ingin cari produk untuk semester berapa?</p> -->
             <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
           </div>
@@ -486,7 +489,7 @@
   </section>
 
 
-<section id="paketmentor" class="paketmentor">
+  <section id="paketmentor" class="paketmentor">
   <div class="paketmentorbg">
   <h2 class="judul-tengah"style="margin-top:20px;;font-family: Manrope;">Paket Bimbingan Skripsi Per Sesi</h2>
   <div class="container">
@@ -510,7 +513,7 @@
               <div class="clear"></div>
           </div>
           <ul class="deskripsi">
-            <strong>   Materi: </strong> 
+            <strong> Materi: </strong> 
              
                       
               <li> Bimbingan instensif pembuatan   judul skripsi.</li>
@@ -540,7 +543,7 @@
           </div>
           <div class="kanan-atas">
             <p style="">
-              Harga per sesi: <br><span style="color: #0539b1"> Rp20.000</span> 
+              Harga per sesi: <br><span style="color: #0539b1"> Rp 20.000</span> 
             </p>
           </div>
         </div>
@@ -697,9 +700,9 @@
 </section ><!-- End Pricing Section -->
 
   
-   
+
    <!-- HTML -->
-   <section id="youtube" class="youtube">
+   <section id="youtube" class="youtube"style="background: url(assets/img/bg/halo.png);background-size: cover;">
      <div class="section-title judul">
        <h3>Coba gratis Kelas Tugas Kuliah (KTK) sekarang!  <span style=""><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:-10px;margin-right:5px"></span></h3>
       </div>
@@ -813,7 +816,7 @@
                   font-family: Manrope;
                   font-size: 50.279px;
                   font-style: bold;
-                  font-weight: 800;
+                  font-weight: 1000;
                   line-height: 100%; /* 64.279px */">WORKSHOP CLASS PROGRAM</h3>
                   <div class="content-selector  mb-4" style="margin-top: 10px;">
                       <button id="content1Btn" class="btn btn-primary active">Skripsi</button>
@@ -844,8 +847,10 @@
                       <button type="button" class="btn btn-primary btn-get-started scrolltolo"style="margin-top:15px;margin-bottom:15px">Lihat Selengkapnya</button>
                   </div>
               </div>
-              <div class="gambare col-lg-6" data-aos="fade-right" data-aos-delay="100">
-                <img src="assets/img/bg/wshop1.png" class="img-fluid" alt="" style="width: 100%; ">
+              
+              <div class="gambareo col-lg-6" data-aos="fade-right" data-aos-delay="100"style="margin-bottom:-100px;">
+                <br> <br>
+                <img src="assets/img/bg/wshop1.png" class="img-fluid" alt="" style="width: 100%; margin-bottom:-100px;">
             </div>
           </div>
       </div>
@@ -853,7 +858,12 @@
       <div class="content" id="content2">
           <div class="row">             
               <div class="col-lg-6 pt-4 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
-                  <h3 style=" font-family: 'Red Hat Text', sans-serif;font-weight: bold;font-size:40px">WORKSHOP CLASS PROGRAM</h3>
+                  <h3 style=" color: black;
+                  font-family: Manrope;
+                  font-size: 50.279px;
+                  font-style: bold;
+                  font-weight: 1000;
+                  line-height: 100%; /* 64.279px */">WORKSHOP CLASS PROGRAM</h3>
                   <div class="content-selector  mb-4" style="margin-top: 10px;">
                       <button id="content3Btn" class="btn btn-primary">Skripsi</button>
                       <button id="content4Btn" class="btn btn-primary">KTI</button>
@@ -883,7 +893,8 @@
                     <button type="button" class="btn btn-primary btn-get-started scrolltolo"style="margin-top:15px;margin-bottom:15px">Lihat Selengkapnya</button>
                 </div>
             </div>
-            <div class="gambare col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <div class="x col-lg-6" data-aos="fade-right" data-aos-delay="100">
+              <br> <br>
               <img src="assets/img/bg/wshop3.png" class="img-fluid" alt="" style="width: 100%; ">
           </div>
           </div>
@@ -966,11 +977,11 @@
               </defs>
             </svg>
           </span>
-          <hr style="border: 1px solid rgba(0, 0, 0, 0.48);margin-top:10px;margin-bottom:20px;">
+          <hr style="border: 1px solid rgba(0, 0, 0, 0.48);margin-top:10px;margin-bottom:10px;">
 
 
 
-          <h4 style="margin-bottom: 30px">Class Program on Instagram</h4> 
+          <h4 style="margin-bottom: 20px">Class Program on Instagram</h4> 
 
           <div class="single_left_coloum_wrapper" id="scrollableColumn1">
             <div class="scrollable_left_coloum">
@@ -1192,7 +1203,7 @@ line-height: normal;"> 3 hours ago</p>
 
   <!-- ======= Testimonials Section ======= -->
   <section id="testimonials" class="testimonials"style="margin-top:-100px ;margin-bottom:30px;">
-    <div class="container" data-aos="zoom-in"style="background: url(assets/img/bg/bgtest.png);background-size: cover;">
+    <div class="container" data-aos="zoom-in"style="background: url(assets/img/bg/.png);background-size: cover;">
       <div class="section-title">
         {{-- <h2>Team</h2> --}}
         <h3>Mentor Profesional Class Program</h3>
@@ -1258,7 +1269,7 @@ line-height: normal;"> 3 hours ago</p>
                 <div class="member">
                   <div class="member-img">
                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                    <img src="assets/img/team/mentor1.png" class="img-fluid" alt=""sgtyle="margin-left: -15px;margin-top:5xpx;width: 300px;">
+                    <img src="assets/img/team/mentor1.png" class="img-fluid" alt=""sgtyle="margin-left: -15px;margin-top:5xpx;width: 280px;height: 100px;">
                   </div>
                   <div class="member-info"><br>
                     <h4 class="name">Bayu Ade Candra, <br>
@@ -1339,22 +1350,22 @@ line-height: normal;"> 3 hours ago</p>
           
                 <div class="team-member" data-aos="fade-up" data-aos-delay="200">
                 <div class="member">
-                    <div class="member-img">
+                    <div class="member-img"style="width:400px;margin-left:-20px;height: 260px;">
                       <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                      <img src="assets/img/team/1.png" class="img-fluid" alt="">
+                      <img src="assets/img/team/team5.png" class="img-fluid" alt=""style="width:500px;margin-top:-10px">
                     </div>
-                  <div class="member-info"> <br>
-                    <h4 class="name">Sarah Jhonson <br><br>  </h4>
-                    <span class="position">Master Teacher Management</span>
+                  <div class="member-info"style="margin-bottom:20px"> <br>
+                    <h4 class="name">Denny Iswanto, S.AP., M.AP <br><br>  </h4>
+                    <span class="position">Master English Language Education</span>
                     <div class="line"></div>
                     <p class="achievement">Keahlian dan Prestasi :</p>
                     <ul>
-                      <li>Prestasi 1</li>
-                      <li>Prestasi 2</li>
-                      <li>Prestasi 3</li>
-                      <li>Prestasi 3</li>
-                      <li>Prestasi 3</li>
-                      <li>Prestasi 3</li>
+                      <li>Publish jurnal terindeks Sinta 2, Sinta 3, dan Sinta 4 (Proceeding International)</li>
+                      <li>Peneliti di program Lembaga Penelitian dan Pengabdian Kepada Masyarakat (LPPM)</li>
+                      <li>Presentator di konferensi nasional dan internasional</li>
+                      <li>Analisis data SPSS, SEM, PLS</li>
+                      {{-- <li>Prestasi 3</li>
+                      <li>Prestasi 3</li> --}}
                       <br>
                     </ul>
                   </div>
@@ -1742,8 +1753,8 @@ line-height: normal;"> 3 hours ago</p>
           <div class="gabung">
             <img class="profile-image" src="assets/img/team/team-2.jpg" alt="Gambar Profil"> <!-- Ganti dengan path gambar profil Anda -->
             <div class="profile-info">
-              <h1>Emilia Puspita</h1>
-              <p2>" Menurut Saya belajar disini sangat menyenangkan dimana saya banyak sekali belajar tentang mata kuliah yang sedang saya dalami, pokoknya seru dan harus ikutan</p2>
+              <h1>Magdalena Melisa</h1>
+              <p2>"Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir gitu aja banyak ide muncul"</p2>
             </div>
             <!-- Tambahkan elemen tambahan di sini -->
             {{-- <div class="additional-info">
@@ -1760,7 +1771,8 @@ line-height: normal;"> 3 hours ago</p>
             <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil"> <!-- Ganti dengan path gambar profil Anda -->
             <div class="profile-info">
               <h1>ELouis Patric</h1>
-              <p2>" Menurut Saya belajar disini sangat menyenangkan dimana saya banyak sekali belajar tentang mata kuliah yang sedang saya dalami, pokoknya seru dan harus ikutan</p2>
+              <p2>" gan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir gitu aja banyak ide muncul."
+              </p2>
             </div>
                <!-- Tambahkan elemen tambahan di sini -->
             {{-- <div class="additional-info">
@@ -1777,8 +1789,8 @@ line-height: normal;"> 3 hours ago</p>
                 <div class="gabung">
                   <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil"> <!-- Ganti dengan path gambar profil Anda -->
                   <div class="profile-info">
-                    <h1>Vincen Manuell</h1>
-                    <p2>" Menurut Saya belajar disini sangat menyenangkan dimana saya banyak sekali belajar tentang mata kuliah yang sedang saya dalami, pokoknya seru dan harus ikutan</p2>
+                    <h1>Adinda Cahayani Supriyanto</h1>
+                    <p2>" Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan skripsi online yang berkualitas dan juga ramah dikantong"</p2>
                   </div>
  {{-- <div class="additional-info">
                 <p>Informasi tambahan yang hanya muncul saat dihover.</p>
@@ -1801,7 +1813,7 @@ line-height: normal;"> 3 hours ago</p>
           {{-- <h2>Team</h2> --}}
           <h3> Alur bimbingan</h3>
           {{-- <h3> Alur Konsultasi</h3> --}}
-      
+          <br>
       <div class="team-slider">
         <div class="row" id="team-members">
           <!-- Anggota Tim 1 -->
@@ -1809,13 +1821,13 @@ line-height: normal;"> 3 hours ago</p>
             <div class="konsultasi-content">
               <div class="member-img">
                 <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                <img src="assets/img/logo/pesen-produk.png" class="img-fluid" style="width: 200px;" alt="">
+                <img src="assets/img/bg/cuate.png" class="img-fluid" style="width: 180px;" alt="">
               </div>
               <div class="member-info">
                 <h4>1. Pesen Produk</h4>
                 <br>
                 {{-- <span>Chief Executive Officer</span> --}}
-                <p>Pilih paket bimbingan yang <br>sesuai dengan kebutuhanmu</p><br>
+                <p>Pilih paket bimbingan yang sesuai dengan kebutuhanmu</p>
                 {{-- <ul>
                   <li>Prestasi 1</li>
                   <li>Prestasi 2</li>
@@ -1830,13 +1842,13 @@ line-height: normal;"> 3 hours ago</p>
             <div class="konsultasi-content">
               <div class="member-img">
                 <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                <img src="assets/img/logo/pana.png" class="img-fluid" style="width: 140px;" alt="">
+                <img src="assets/img/bg/bro.png" class="img-fluid"  style="width: 165px;" alt="">
               </div>
               <div class="member-info">
                 <h4>2. Lakukan Pembayaran</h4>
                 <br>
                 {{-- <span>Product Manager</span> --}}
-                <p>Pilih paket bimbingan yang <br>sesuai dengan kebutuhanmu</p><br>
+                <p>Pilih paket bimbingan yang sesuai dengan kebutuhanmu</p><br>
                 {{-- <ul>
                   <li>Prestasi 1</li>
                   <li>Prestasi 2</li>
@@ -1850,7 +1862,7 @@ line-height: normal;"> 3 hours ago</p>
             <div class="konsultasi-content">
               <div class="member-img">
                 <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                <img src="assets/img/logo/paid.png" class="img-fluid" style="width: 155px;" alt="">
+                <img src="assets/img/bg/cuatei.png" class="img-fluid"  style="width: 255px;" alt="">
               </div>
               <div class="member-info">
                 <h4>3. Jadwalkan Sesi</h4>
@@ -1871,7 +1883,7 @@ line-height: normal;"> 3 hours ago</p>
             <div class="konsultasi-content">
               <div class="member-img">
                 <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                <img src="assets/img/logo/bimbingan.png" class="img-fluid" style="width: 280px; margin-bottom: 8px;margin-top:12px;" alt="">
+                <img src="assets/img/bg/rafiki.png" class="img-fluid"  style="width: 240px;" alt="">
               </div>
               <div class="member-info">
                 <h4>4. Mulai Konsultasi</h4>
@@ -1937,12 +1949,12 @@ line-height: normal;"> 3 hours ago</p>
       <div class="container" data-aos="fade-up">
           <div class="row">
               <div class="col-xl-6">
-                  <div class="section-title">
+                  <div class="section-title" >
                       <h3>Paling Sering Ditanyakan</h3>
                   </div>
                   <ul class="faq-list" id="faq-list">
                       <li>
-                          <div data-bs-toggle="collapse" class="collapsed question" href="#faq1"> Apa itu Class Program?</div>
+                          <div data-bs-toggle="collapse" class="collapsed question" href="#faq1" style="font-size: 30px;"> Apa itu Class Program?</div>
                           <div id="faq1" class="collapse" data-bs-parent=".faq-list">
                               <p>
                                   Class Program adalah platform belajar online perkuliahan dan persiapan karir dengan sistem kenaikan kelas pertama di indonesia yang menyediakan berbagai macam program kelas serta akan dibimbing langsung oleh mentor yang ahli di bidangnya.
@@ -1987,8 +1999,7 @@ Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft sk
               <li>
                 <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Bagaimana cara bimbingan di Class Program?</div>
                 <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Sobat Insan perlu melakukan registrasi terlebih dahulu. Lengkapi data diri, kemudian login menggunakan akun yang telah terdaftar. Setelah itu memilih program yang tersedia sesuai dengan kebutuhan sobat insan. Lalu lakukan pembayaran sesuai pesanan dan Sobat insan akan diarahkan ke Minma untuk mendapatkan mentor. Setelah semua proses selesai, Sobat Insans siap untuk belajar di Class Program.
+                  <p>Sobat Insan perlu melakukan registrasi terlebih dahulu. Lengkapi data diri, kemudian login menggunakan akun yang telah terdaftar. Setelah itu memilih program yang tersedia sesuai dengan kebutuhan sobat insan. Lalu lakukan pembayaran sesuai pesanan dan Sobat insan akan diarahkan ke Minma untuk mendapatkan mentor. Setelah semua proses selesai, Sobat Insans siap untuk belajar di Class Program.
 
                   </p>
                 </div>
@@ -2003,7 +2014,7 @@ Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft sk
                 </div>
               </li> --}}
             </ul>
-            <button id="showMoreBtn" class="btn btn-faq">Baca Selengkapnya</button>
+            <button id="showMoreBtn" class="btn btn-faq" >Baca Selengkapnya</button>
         </div>
         <div class="col-xl-6">
             <div class="image-container">
@@ -2184,8 +2195,8 @@ Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft sk
   <div class="container">
     <div class="row">
         <img src="assets/img/kampus/13.png" alt="Gambar 1" class="image">
-        <img src="assets/img/kampus/20.png" alt="Gambar 2" class="image">
-        <img src="assets/img/kampus/27.png" alt="Gambar 3" class="image"style="width:115px;">
+        <img src="assets/img/kampus/20.png" alt="Gambar 2" class="image" style="width:105px;">
+        <img src="assets/img/kampus/logo-unpad1.png" alt="Gambar 3" class="image" style="width:110px;height: 75px;">
     </div>
     <div class="row">
         <img src="assets/img/kampus/3.png" alt="Gambar 4" class="image">
@@ -2193,8 +2204,8 @@ Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft sk
         <img src="assets/img/kampus/26.png" alt="Gambar 6" class="image">
     </div>
     <div class="row">
-        <img src="assets/img/kampus/21.png" alt="Gambar 4" class="image"style=" width: 100px;">
-        <img src="assets/img/kampus/29.png" alt="Gambar 5" class="image">
+        <img src="assets/img/kampus/unesa-logo.png" alt="Gambar 4" class="image">
+        <img src="assets/img/kampus/uda-logo.png" alt="Gambar 5" class="image" style="width:103px;height: 80px;">
         <img src="assets/img/kampus/28.png" alt="Gambar 6" class="image">
     </div>
     <div class="row">

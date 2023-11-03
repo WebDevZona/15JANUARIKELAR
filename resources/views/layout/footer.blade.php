@@ -31,8 +31,11 @@
         <!-- Left Section with Logo and Text -->
         <div class="col-lg-3 col-md-3">
           <a href="index.php"><img src="{{ asset('assets/img/logo/logo3.png') }}" style="width:80%" alt=""></a>
-          {{-- <p style="margin-top:10px; color: white">Bimbingan Belajar Online Perkuliahan dan Persiapan Karir dengan Sistem Kenaikan Kelas Pertama di Indonesia.</p> --}}
-        </div>
+          <div class="text-container">
+              {{-- <p>Bimbingan Belajar Online Perkuliahan dan Persiapan Karir dengan Sistem Kenaikan Kelas Pertama di Indonesia.</p> --}}
+          </div>
+      </div>
+      
         <!-- Right Section with Social Media Links -->
         <div class="col-lg-4 col-md-3 ml-auto">
           <div class="social-links" style="text-align: right;">
@@ -144,7 +147,7 @@
     <!--<div id="whatsapp-button" onclick="togglePopup();">
       <img src="assets/img/logo/wa3.png" alt="WhatsApp" />
     </div>-->
-    <div id="whatsapp-button" onclick="togglePopup();">
+    {{-- <div id="whatsapp-button" onclick="togglePopupp();">
       <img src="{{ asset('assets/img/logo/wa3.png') }}" alt="WhatsApp" />
     </div>
     <div id="message-popup" onclick="preventPopupClose(event);">
@@ -160,7 +163,13 @@
         <img id="send-icon" src="assets/img/logo/kirim.png" alt="Kirim Pesan" />
         Kirim Pesan
       </button>
-    </div>
+    </div> --}}
+
+    <div id="whatsapp-button" onclick="openWhatsApp()">
+      <img src="{{ asset('assets/img/bg/cs.png') }}" alt="WhatsApp" />
+      <span id="whatsapp-text">Ada Pertanyaan? <br> Hubungi Minma</span>
+  </div>
+
     <div class="popup-bro" id="popup-bro">
       <p>
         <strong style="color: black;
@@ -188,45 +197,44 @@
   <script src="script.js"></script>
   
     <script>
-      var popupActive = false;
+      // var popupActive = false;
   
-      function togglePopup() {
-        var whatsappButton = document.getElementById('whatsapp-button');
-        var messagePopup = document.getElementById('message-popup');
-        popupActive = !popupActive;
+      // function togglePopupp() {
+      //   var whatsappButton = document.getElementById('whatsapp-button');
+      //   var messagePopup = document.getElementById('message-popup');
+      //   popupActive = !popupActive;
   
-        if (popupActive) {
-          whatsappButton.classList.add('active');
-          messagePopup.style.display = 'block';
-        } else {
-          whatsappButton.classList.remove('active');
-          messagePopup.style.display = 'none';
+      //   if (popupActive) {
+      //     whatsappButton.classList.add('active');
+      //     messagePopup.style.display = 'block';
+      //   } else {
+      //     whatsappButton.classList.remove('active');
+      //     messagePopup.style.display = 'none';
+      //   }
+      // }
+  
+      // function closePopup() {
+      //   var whatsappButton = document.getElementById('whatsapp-button');
+      //   var messagePopup = document.getElementById('message-popup');
+      //   popupActive = false;
+      //   whatsappButton.classList.remove('active');
+      //   messagePopup.style.display = 'none';
+      // }
+  
+      // function preventPopupClose(event) {
+      //   event.stopPropagation();
+      // }
+  
+     function openWhatsApp() {
+            var message = "Hallo Minma. Saya mau tanya-tanya nih mengenai Program Kelas di Class Program."; // Pesan yang ingin Anda kirim
+            var phoneNumber = "6281234361959"; // Nomor WhatsApp yang dituju (tanpa tanda '+')
+
+            // Membuat URL untuk mengarahkan pengguna ke halaman WhatsApp
+            var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+
+            // Membuka halaman WhatsApp di jendela baru
+            window.open(whatsappURL, "_blank");
         }
-      }
-  
-      function closePopup() {
-        var whatsappButton = document.getElementById('whatsapp-button');
-        var messagePopup = document.getElementById('message-popup');
-        popupActive = false;
-        whatsappButton.classList.remove('active');
-        messagePopup.style.display = 'none';
-      }
-  
-      function preventPopupClose(event) {
-        event.stopPropagation();
-      }
-  
-      function sendMessage() {
-        var message = encodeURIComponent("Hallo Minma. Saya mau tanya-tanya nih mengenai Program Kelas di Class Program."); // Ganti pesan dengan yang Anda inginkan
-  var phoneNumber = "6281234361959"; // Ganti dengan nomor WhatsApp yang dituju (tanpa tanda '+')
-
-  // URL untuk mengarahkan pengguna ke halaman WhatsApp
-  var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + message;
-
-  // Buka halaman WhatsApp di jendela baru
-  window.open(whatsappURL, "_blank");
-
-      }
     </script>
    <script>
     
