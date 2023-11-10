@@ -291,8 +291,7 @@
             <div class="col-md-7 col-lg-4 d-flex align-items-stretch mb-9 mb-lg-1">
               <div class="icon-box" data-aos="fade-up" data-aos-delay="300" >
                 <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
-                <h4 class="title"><a href="">
-  Paket KTK Excellent</a></h4>
+                <h4 class="title"><a href="#">Paket KTK Excellent</a></h4>
                 <p class="description">Program kelas yang disediakan untuk Sobat Insans dari semester 5-selesai dengan materi cara mencari topik skripsi sampai materi cara penyusunan skripsi.</p>
                 <a href="#" class="btn btn-secondary change-content" data-target="bso" style="position: absolute; bottom: 10px; right: 10px;">Selengkapnya</a>
              <br>
@@ -1099,6 +1098,9 @@ Bimbingan Mata Kuliah Jurusan (BMJ)</a></h4>
   </footer> --> 
   <!-- End Footer -->
 
+  {{-- <p>Lebar layar: <span id="lebarLayar"></span> piksel</p>
+    <p>Tinggi layar: <span id="tinggiLayar"></span> piksel</p> --}}
+
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -1114,6 +1116,23 @@ Bimbingan Mata Kuliah Jurusan (BMJ)</a></h4>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+//   <script>
+//     // Mendapatkan ukuran layar saat halaman dimuat
+//     var lebarLayar = window.innerWidth;
+//     var tinggiLayar = window.innerHeight;
+
+//     // Menampilkan ukuran layar ke dalam elemen HTML
+//     document.getElementById("lebarLayar").textContent = lebarLayar;
+//     document.getElementById("tinggiLayar").textContent = tinggiLayar;
+
+//     // Menampilkan ukuran layar saat ukuran layar berubah (misalnya, saat jendela diubah ukurannya)
+//     window.addEventListener("resize", function() {
+//         lebarLayar = window.innerWidth;
+//         tinggiLayar = window.innerHeight;
+//         document.getElementById("lebarLayar").textContent = lebarLayar;
+//         document.getElementById("tinggiLayar").textContent = tinggiLayar;
+//     });
+// </script>
 
 </body>
 

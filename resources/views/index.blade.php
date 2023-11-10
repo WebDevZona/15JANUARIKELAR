@@ -173,7 +173,8 @@
                 </div>
                 <div class="right-content"style="margin-left:0px">
                   {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
-                  <p style="margin-left:0px">Sobat Insans lulus kuliah bersama Class Program</p>
+                  <p style="margin-left: 0px; color: #000;">Sobat Insans lulus kuliah bersama Class Program</p>
+
                 </div>
               </div>
               
@@ -184,7 +185,7 @@
         </div>
         <div class="right-content" style="margin-left:1px">
           {{-- <p >Mentor Class Program</p> --}}
-          <p style="margin-left:0px">Mentor profesional siap membimbingmu</p>
+          <p style="margin-left:0px color: #000;">Mentor profesional siap membimbingmu</p>
         </div>
       </div>
 
@@ -194,7 +195,7 @@
             <span>23</span><span style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
         </div>
         <div class="right-content"style="margin-left:-1px">
-          <p style="margin-left:0px;margin-right:10px;">Kampus menggunakan layanan kami</p>
+          <p style="margin-left:0px;margin-right:10px; color: #000;">Kampus menggunakan layanan kami</p>
           {{-- <p >Kampus menggunakan layanan kami</p> --}}
         </div>
       </div>
@@ -204,7 +205,7 @@
         <div class="left-content">
             <span >23</span><span style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
         </div>
-        <div class="right-content"style="margin-left:1px">
+        <div class="right-content"style="margin-left:1px color: #000;">
           <p>Jurusan</p>
         </div>
       </div>
@@ -224,6 +225,7 @@
         <div class=""style="margin-bottom:100px;"></div>
       </div>
     </section>
+
 <!-- <audio hidden autoplay loop>
     <source src="https://github.com/petanikode/belajar-html/raw/master/audio/Ngoni.mp3" type="audio/mpeg">
     Browsermu tidak mendukung tag audio, upgrade donk!
@@ -278,219 +280,217 @@
     </section>End Counts Section -->
   
 
-       <!-- ======= Featured Services Section ======= -->
-       <section id="featured-services" class="featured-services">      
-      <div class="container" data-aos="fade-up"style="">
- <div class="section-title judul">      
-        </div>
-        <div class="row justify-content-center">      
-
-
-          
-          <div class="icon-box" data-aos="fade-up" data-aos-delay="100"style="background: url(assets/img/bg/bg4.png);background-size: cover;">           
-            <div class="labels"style="margin-left:-20px">
-              <span class="icon">
-                <img src="assets/img/bg/ico4.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:30px;position:absolute;margin-left:-10px">
-              </span>
-
-              <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;margin-left:15px;margin-top:-10px;margin-right:10px">Termurah Se-Indonesia</span>
-
-              {{-- <span class="label-text" style="font-family:'Manrope';font-size:12px; white-space: normal;word-wrap: break-word;margin-left:20px;margin-top:-10px;float: center;">Bimbingan online & privat</span> --}}
-
-            </div>
-            <h4 class="title">
-              <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
-              <p href=""style="color: #1E1E1E;
-              font-family: Manrope;
-              font-size: 16px;
-              font-style: normal;
-              font-weight: 700;
-              line-height: normal;
-              margin-top:-13px">Puluhan ribu video belajar adaptif dan latihan soal</p> </h4>
-              {{-- Kamu akan dibimbing secara intensif melalui online dan privat, sehingga bisa lebih fokus dan mudah paham. --}}
-              {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
-             <div class="icon">
-              </div>
-              <img src="assets/img/bg/gmb4.png" alt="Deskripsi Gambar"style=" margin-top: -165px;">
-            </div>
-          
-
-          
-          
-          
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200"style="background: url(assets/img/bg/bg3.png);background-size: cover;">           
-              <div class="label"style="margin-top:10px">
-                <span class="icon">
-                  <img src="assets/img/bg/ico2.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px;margin-right:5px">
-                </span>
-                <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;">Durasi sampai 4 jam</span>
-              </div>
-              <h4 class="title">
-                <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
-                <p href=""style="color: #1E1E1E;
-                font-family: Manrope;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: normal;
-                margin-top:-13px">Puluhan ribu video belajar adaptif dan latihan soal</p>
-              </h4>
-              {{-- Durasi bimbingan hingga 4 jam di setiap pertemuannya membuatmu semakin puas tanpa takut dikejar waktu --}}
-              {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
-             <div class="icon">
-              </div>
-              <img src="assets/img/bg/gmb3.png" alt="Deskripsi Gambar"style=" margin-top: -175px;">
-            </div>
-         
-
-          
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="300"style="background: url(assets/img/bg/bg2.png);background-size: cover;">        
-              <div class="label"style="margin-top:10px">
-                <span class="icon">
-                  <img src="assets/img/bg/ico3.png" alt="Deskripsi Gambar"style="margin-top:-3px;width:15px;margin-right:5px">
-                </span>
-                <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;">24x Pertemuan</span>
-                {{-- Mendapat 24 pertemuan --}}
-              </div>  
-              <h4 class="title" >
-                <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
-                <p href=""style="color: #1E1E1E;
-                font-family: Manrope;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: normal;
-                margin-top:-13px"> Puluhan ribu video belajar adaptif dan latihan soal</p></h4>
-                {{-- Kesempatan bimbingan hingga 24x pertemuan dalam 2 bulan, jadi kamu bisa lebih detail saat konsultasi. --}}
-              {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
-             <div class="icon">
-              </div>
-              <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar"style=" margin-top: -115px;">
-            </div>
-        
-
-
-         
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="400"style="background: url(assets/img/bg/bg1.png);background-size: cover;">        
-              <div class="label"style="margin-top:10px">
-                <span class="icon">
-                  <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-0px;width: 17px;margin-right:5px">
-                </span>
-                <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;">Fasilitas Lengkap</span>
-              </div>
-              
-              <h4 class="title" >
-                <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
-                <p style="color: #1E1E1E;
-                font-family: Manrope;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: normal;
-                margin-top:-13px">Puluhan ribu video belajar adaptif dan latihan soal</p>
-                {{-- Selain dibimbing Mentor profesional yang ahli di bidangnya juga didukung materi pembelajaran, seritifikat dll --}}
-              </h4>
-              {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
-             <div class="icon">
-              </div>
-              <img src="assets/img/bg/gmb1.png" alt="Deskripsi Gambar"style=" margin-top: -155px;">
-            </div>
-        
-
-
-
-         
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="500"style="background: url(assets/img/bg/bg5.png);background-size: cover;">       
-              <div class="label"style="margin-top:10px">
-                <span class="icon">
-                  <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-0px;width:17px;margin-right:5px">
-                </span>
-                <span class="label-text" style="color: #FFF;
-                font-family: 'Manrope';                
-                font-style: normal;
-                font-weight: 800;
-                line-height: normal;">Termurah Didunia
-                </span>
-              </div>
-              <h4 class="title" >
-                <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
-                <p href=""style="color: #1E1E1E;
-                font-family: Manrope;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: normal;
-                margin-top:-13px">Puluhan ribu video belajar adaptif dan latihan soal</p>
-                {{-- Kamu nggak perlu takut mahal, karena sudah sesuai bugdet mahasiswa dan garansi termurah Se-Indonesia --}}
-              </h4>
-              {{-- <p class="description">Sobat Insans akanarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
-             <div class="icon">
-              </div>
-              <img src="assets/img/bg/wshop2.png" alt="Deskripsi Gambar"style=" margin-top: -60px;">
-            </div>
-          
-
-
-        </div>
-
-      </div>
-    </section>
-
-  <section id="popup" class="popup">
-    <div class="button-container">
-      <span style="float: left; margin-left: 6%;"><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:11px;margin-right:5px"></span>
-      <h1 class="custom-text" style=" font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; margin-left: 5px;">Paket populer untuk kamu</h1>
-      <button type="button" class="custom-button" data-toggle="modal" data-target="#tulis" aria-hidden="true" style="margin-top: 2px;">Tombol</button>
+<!-- ======= Featured Services Section ======= -->
+<section id="featured-services" class="featured-services">      
+  <div class="container" data-aos="fade-up"style="">
+<div class="section-title judul">      
     </div>
+    <div class="row justify-content-center">      
 
 
-    <div class="modal fade" id="tulis" tabindex="-1" role="dialog" aria-labelledby="tulisTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content" style="background: url(assets/img/bg/frame16.png);background-size: cover;">
-          <div class="modal-header">
-            <h5 class="modal-title">Selamat datang di Class Program Ingin <br> cari produk untuk semester berapa?</h5>
-            <!-- <p>Ingin cari produk untuk semester berapa?</p> -->
-            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+      
+      <div class="icon-box" data-aos="fade-up" data-aos-delay="100"style="background: url(assets/img/bg/bg4.png);background-size: cover;">           
+        <div class="labels"style="margin-left:-20px">
+          <span class="icon">
+            <img src="assets/img/bg/ico4.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:30px;position:absolute;margin-left:-10px">
+          </span>
+
+          <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;margin-left:15px;margin-top:-10px;margin-right:10px">Termurah Se-Indonesia</span>
+
+          {{-- <span class="label-text" style="font-family:'Manrope';font-size:12px; white-space: normal;word-wrap: break-word;margin-left:20px;margin-top:-10px;float: center;">Bimbingan online & privat</span> --}}
+
+        </div>
+        <h4 class="title">
+          <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
+          <p href=""style="color: #1E1E1E;
+          font-family: Manrope;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          margin-top:-13px">Puluhan ribu video belajar adaptif dan latihan soal</p> </h4>
+          {{-- Kamu akan dibimbing secara intensif melalui online dan privat, sehingga bisa lebih fokus dan mudah paham. --}}
+          {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
+         <div class="icon">
           </div>
-          <div class="modal-body">
-            <div class="btn-group">
-              <button type="button" class="btn btn-primary" style="border-radius: 50px;">Satu dan Dua</button>
-              <button type="button" class="btn btn-primary" style="border-radius: 50px;">Tiga dan Empat</button>
-              <button type="button" class="btn btn-primary" style="border-radius: 50px;">Lima dan Enam</button>
-              <!-- Tambahkan tombol-tombol produk lainnya sesuai kebutuhan -->
-            </div>
-            <!-- <hr> Garis pemisah -->
-            <br>
-            <p>Pilihan Paket Bimbingan Skripsi</p>
-            <div class="btn-group" style="">
-              <button type="button" class="btn btn-list" style="background: #3E87F8; border-radius: 25px;"><span class="icon">
-                  <img src="assets/img/bg/bookmark.png" alt="Deskripsi Gambar" style="width: 55px;position:center;">
-                </span><div style="margin-top: 10px;">Pembuatan <br>Judul Skripsi</div></button>
-              <button type="button" class="btn btn-list" style="background: #6770E9; border-radius: 25px;"><span class="icon">
-                  <img src="assets/img/bg/edit.png" alt="Deskripsi Gambar" style="width:55px;position:center;">
-                 </span><div style="margin-top: 10px;">Bab 1 - bab 3</div></button>
-              <button type="button" class="btn btn-list" style="background: #41BAAC; border-radius: 25px;"><span class="icon">
-                  <img src="assets/img/bg/notes.png" alt="Deskripsi Gambar" style="width:45px;position:center;"></span>
-                  <div style="margin-top: 10px;">Bab 4 - bab 5</div></button>
-              <button type="button" class="btn btn-list" style="background: #F7965A; border-radius: 25px;"><span class="icon">
-                  <img src="assets/img/bg/group.png" alt="Deskripsi Gambar" style="width:60px;position:center;">
-                  </span><div style="margin-top: 10px;">Persiapan Materi,<br> Sempro dan Sidang</div></button>
+          <img src="assets/img/bg/gmb4.png" alt="Deskripsi Gambar"style=" margin-top: -165px;">
+        </div>
+      
 
-            </div>
-            <!-- <div class="btn-group">
-              <button type="button" class="btn btn-primary" style="  border-radius: 50px;">Bab 4 sampai bab 5</button>
-              <button type="button" class="btn btn-primary" style="  border-radius: 50px;">Persiapan materi sempro dan sidang</button>
-            </div> -->
+      
+      
+      
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="200"style="background: url(assets/img/bg/bg3.png);background-size: cover;">           
+          <div class="label"style="margin-top:10px">
+            <span class="icon">
+              <img src="assets/img/bg/ico2.png" alt="Deskripsi Gambar"style="margin-top:-5px;width:20px;margin-right:5px">
+            </span>
+            <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;">Durasi sampai 4 jam</span>
           </div>
+          <h4 class="title">
+            <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
+            <p href=""style="color: #1E1E1E;
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-top:-13px">Puluhan ribu video belajar adaptif dan latihan soal</p>
+          </h4>
+          {{-- Durasi bimbingan hingga 4 jam di setiap pertemuannya membuatmu semakin puas tanpa takut dikejar waktu --}}
+          {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
+         <div class="icon">
+          </div>
+          <img src="assets/img/bg/gmb3.png" alt="Deskripsi Gambar"style=" margin-top: -175px;">
+        </div>
+     
+
+      
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="300"style="background: url(assets/img/bg/bg2.png);background-size: cover;">        
+          <div class="label"style="margin-top:10px">
+            <span class="icon">
+              <img src="assets/img/bg/ico3.png" alt="Deskripsi Gambar"style="margin-top:-3px;width:15px;margin-right:5px">
+            </span>
+            <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;">24x Pertemuan</span>
+            {{-- Mendapat 24 pertemuan --}}
+          </div>  
+          <h4 class="title" >
+            <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
+            <p href=""style="color: #1E1E1E;
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-top:-13px"> Puluhan ribu video belajar adaptif dan latihan soal</p></h4>
+            {{-- Kesempatan bimbingan hingga 24x pertemuan dalam 2 bulan, jadi kamu bisa lebih detail saat konsultasi. --}}
+          {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
+         <div class="icon">
+          </div>
+          <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar"style=" margin-top: -115px;">
+        </div>
+    
+
+
+     
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="400"style="background: url(assets/img/bg/bg1.png);background-size: cover;">        
+          <div class="label"style="margin-top:10px">
+            <span class="icon">
+              <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-0px;width: 17px;margin-right:5px">
+            </span>
+            <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;">Fasilitas Lengkap</span>
+          </div>
+          
+          <h4 class="title" >
+            <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
+            <p style="color: #1E1E1E;
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-top:-13px">Puluhan ribu video belajar adaptif dan latihan soal</p>
+            {{-- Selain dibimbing Mentor profesional yang ahli di bidangnya juga didukung materi pembelajaran, seritifikat dll --}}
+          </h4>
+          {{-- <p class="description">Sobat Insans akan mendapatkan fasilitas menarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
+         <div class="icon">
+          </div>
+          <img src="assets/img/bg/gmb1.png" alt="Deskripsi Gambar"style=" margin-top: -155px;">
+        </div>
+    
+
+
+
+     
+        <div class="icon-box" data-aos="fade-up" data-aos-delay="500"style="background: url(assets/img/bg/bg5.png);background-size: cover;">       
+          <div class="label"style="margin-top:10px">
+            <span class="icon">
+              <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar"style="margin-top:-0px;width:17px;margin-right:5px">
+            </span>
+            <span class="label-text" style="color: #FFF;
+            font-family: 'Manrope';                
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;">Termurah Didunia
+            </span>
+          </div>
+          <h4 class="title" >
+            <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">Ruang Belajar</p>
+            <p href=""style="color: #1E1E1E;
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-top:-13px">Puluhan ribu video belajar adaptif dan latihan soal</p>
+            {{-- Kamu nggak perlu takut mahal, karena sudah sesuai bugdet mahasiswa dan garansi termurah Se-Indonesia --}}
+          </h4>
+          {{-- <p class="description">Sobat Insans akanarik berupa materi pembelajaran, modul, sertifikat, dan masih banyak lagi fasilitas lainnya.</p> --}}
+         <div class="icon">
+          </div>
+          <img src="assets/img/bg/wshop2.png" alt="Deskripsi Gambar"style=" margin-top: -60px;">
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ======= PAKET POPULER UNTUK KAMU ======= -->
+<section id="popup" class="popup">
+  <div class="button-container mt-4 ">
+    <span style="float: left; margin-left: 6%;"><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:11px;margin-right:5px"></span>
+    <h1 class="custom-text" style=" font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; margin-left: 5px;">Paket populer untuk kamu</h1>
+    <button type="button" class="custom-button" data-toggle="modal" data-target="#tulis" aria-hidden="true" style="margin-top: 2px;">Tombol</button>
+  </div>
+
+
+  <div class="modal fade" id="tulis" tabindex="-1" role="dialog" aria-labelledby="tulisTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content" style="background: url(assets/img/bg/frame16.png);background-size: cover;">
+        <div class="modal-header">
+          <h5 class="modal-title">Selamat datang di Class Program Ingin <br> cari produk untuk semester berapa?</h5>
+          <!-- <p>Ingin cari produk untuk semester berapa?</p> -->
+          <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="btn-group">
+            <button type="button" class="btn btn-primary" style="border-radius: 50px;">Satu dan Dua</button>
+            <button type="button" class="btn btn-primary" style="border-radius: 50px;">Tiga dan Empat</button>
+            <button type="button" class="btn btn-primary" style="border-radius: 50px;">Lima dan Enam</button>
+            <!-- Tambahkan tombol-tombol produk lainnya sesuai kebutuhan -->
+          </div>
+          <!-- <hr> Garis pemisah -->
+          <br>
+          <p>Pilihan Paket Bimbingan Skripsi</p>
+          <div class="btn-group" style="">
+            <button type="button" class="btn btn-list" style="background: #3E87F8; border-radius: 25px;"><span class="icon">
+                <img src="assets/img/bg/bookmark.png" alt="Deskripsi Gambar" style="width: 55px;position:center;">
+              </span><div style="margin-top: 10px;">Pembuatan <br>Judul Skripsi</div></button>
+            <button type="button" class="btn btn-list" style="background: #6770E9; border-radius: 25px;"><span class="icon">
+                <img src="assets/img/bg/edit.png" alt="Deskripsi Gambar" style="width:55px;position:center;">
+               </span><div style="margin-top: 10px;">Bab 1 - bab 3</div></button>
+            <button type="button" class="btn btn-list" style="background: #41BAAC; border-radius: 25px;"><span class="icon">
+                <img src="assets/img/bg/notes.png" alt="Deskripsi Gambar" style="width:45px;position:center;"></span>
+                <div style="margin-top: 10px;">Bab 4 - bab 5</div></button>
+            <button type="button" class="btn btn-list" style="background: #F7965A; border-radius: 25px;"><span class="icon">
+                <img src="assets/img/bg/group.png" alt="Deskripsi Gambar" style="width:60px;position:center;">
+                </span><div style="margin-top: 10px;">Persiapan Materi,<br> Sempro dan Sidang</div></button>
+
+          </div>
+          <!-- <div class="btn-group">
+            <button type="button" class="btn btn-primary" style="  border-radius: 50px;">Bab 4 sampai bab 5</button>
+            <button type="button" class="btn btn-primary" style="  border-radius: 50px;">Persiapan materi sempro dan sidang</button>
+          </div> -->
         </div>
       </div>
     </div>
+  </div>
 
-  </section>
+</section>
 
 
   <section id="paketmentor" class="paketmentor">
-  <div class="paketmentorbg">
+  <div class="paketmentorbg mb-5">
   <h2 class="judul-tengah"style="margin-top:20px;;font-family: Manrope;">Paket Bimbingan Skripsi Per Sesi</h2>
   <div class="container">
       <div class="kotak">
@@ -605,7 +605,7 @@
 
 
 <!-- ======= Pricing Section ======= -->
-<section id="pricing" class="pricing" style="margin-top: -100px">
+<section id="pricing" class="pricing" style="margin-top: -100px margin-bottom: 50px">
   <div class="container" data-aos="fade-up">
 
     {{-- <div class="section-title judul">
@@ -617,7 +617,7 @@
     <div class="row">
         <!-- <img src="assets/img/garis.jpg" class="img-fluid" alt=""> -->
         
-      <div class="pricingan col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="100">
+      <div class="pricingan mt-2 col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="box">
           <!-- <h3>Kelas Tugas Kuliah <br>(KTK)</h3> -->
           <h4><img src="assets/img/bg/program1.png" class="img-fluid" alt=""style=""></h4>
@@ -698,12 +698,9 @@
 
   </div>
 </section ><!-- End Pricing Section -->
-
-  
-
    <!-- HTML -->
-   <section id="youtube" class="youtube"style="background: url(assets/img/bg/halo.png);background-size: cover;">
-     <div class="section-title judul">
+   <section id="youtube" class="youtube"style="margin-top: 50px background: url(assets/img/bg/halo.png);background-size: cover;">
+     <div class="section-title judul" >
        <h3>Coba gratis Kelas Tugas Kuliah (KTK) sekarang!  <span style=""><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:-10px;margin-right:5px"></span></h3>
       </div>
       <img src="assets/img/bg/yt2.png" alt="Left Image" class="left-image">
@@ -902,7 +899,7 @@
   </div>
 
   <script src="script.js"></script>
-</section>
+</section>  
 
   <!-- ======= Pricing Section ======= -->
 
@@ -1952,9 +1949,9 @@ line-height: normal;"> 3 hours ago</p>
                   <div class="section-title" >
                       <h3>Paling Sering Ditanyakan</h3>
                   </div>
-                  <ul class="faq-list" id="faq-list">
+                  <ul  class="faq-list" id="faq-list">
                       <li>
-                          <div data-bs-toggle="collapse" class="collapsed question" href="#faq1" style="font-size: 30px;"> Apa itu Class Program?</div>
+                          <div data-bs-toggle="collapse" class="collapsed question" href="#faq1" style="font-size: 30px; > Apa itu Class Program?</div>
                           <div id="faq1" class="collapse" data-bs-parent=".faq-list">
                               <p>
                                   Class Program adalah platform belajar online perkuliahan dan persiapan karir dengan sistem kenaikan kelas pertama di indonesia yang menyediakan berbagai macam program kelas serta akan dibimbing langsung oleh mentor yang ahli di bidangnya.
@@ -2259,6 +2256,8 @@ const images = [
     "assets/img/clients/client-3.png",
 ];
 
+
+
 const imageTexts = [
     "Lega banget bisa curhatin masalah skripsiku.",
     "Tidak merasa sendiri saat terbebani revisi",
@@ -2267,6 +2266,8 @@ const imageTexts = [
     "Sebelumnya suka murung karena sulit nemuin judul, tapi ternyata aku bisa lebih cepat sidang skripsinya",
     "Sudah nggak pernah bingung ngerjain skripsi, karena semua kesulitanku dibantuin",
 ];
+
+
 
 let currentImageIndex = 0;
 

@@ -467,9 +467,9 @@
 
       <section id="blockx" class="blockx">
       <div class="box">
-    <h2>Batch 5 Telah Dibuka</h2>
+    <h2 style="margin-left: 5px">Batch 5 Telah Dibuka</h2>
     <!-- <p>Silakan masuk untuk melanjutkan.</p> -->
-    <button class="button">Daftar Sekarang</button>
+    <button style="background-color: white" class="button">Daftar Sekarang</button>
   </div>
   </div>
       </section>

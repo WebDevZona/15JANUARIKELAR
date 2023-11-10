@@ -49,98 +49,82 @@
 @extends('layout.header')
 @section('content')
 
-<body>
-	<!-- Section Searching -->
-	<section id="search" class="search">
-		<div style="background-color:  #d3d3d3; padding: 20px;">
-			<div class="container">
-				<form>
-					<div class="mb-2">
-					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search talks....">
-					<!-- <span style="posisition : absolute">
-						<button class="search-button" type="submit"><i class="bi bi-search"></i></button>
-					</span> -->
-					</div>
 
 
-					{{--<form class="search-form" action="#" method="get">
-
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search talks....">
-						<button class="search-button" type="submit"><i class="bi bi-search"></i></button>
-						<!-- <span style="posisition : absolute">
-							
-						</span> -->
-						<!-- <button class="search-button" type="submit">CARI</button> -->
-					</form>--}}
-
-					<div class="row g-2">
-						<div class="col-md">
-							<div class="form">
-								<select class="form-select">
-									<option selected>Open this select menu</option>
-									<option value="1">One</option>
-									<option value="2">Two</option>
-									<option value="3">Three</option>
-								</select>
-								<!-- <label for="floatingSelectGrid">Works with selects</label> -->
-							</div>
-						</div>
-
-						<div class="col-md">
-							<div class="form">
-								<select class="form-select">
-									<option selected>Open this select menu</option>
-									<option value="1">One</option>
-									<option value="2">Two</option>
-									<option value="3">Three</option>
-								</select>
-								<!-- <label for="floatingSelectGrid">Works with selects</label> -->
-							</div>
-						</div>
-
-						<div class="col-md">
-							<div class="form">
-								<select class="form-select">
-									<option selected>Open this select menu</option>
-									<option value="1">One</option>
-									<option value="2">Two</option>
-									<option value="3">Three</option>
-								</select>
-								<!-- <label for="floatingSelectGrid">Works with selects</label> -->
-							</div>
-						</div>
-
-
-					</div>
-					</div>
-				</form>
-			</div>
+<body >
+	<p class="text-center mt-2 mb-2">
+		<b style="font-size: 30px">4300+ talks to Zona Media Group</b>
+	  </p>
+	  <p class="text-center">
+		Jl. Band.Palmerah IV No.D 11B, Cemorokandang, Kec. Kedungkandang, Kota Malang, Jawa Timur 65139s
+	  </p>	
+	  {{-- <section id="search" class="search"> --}}
+		<div style="background-color: #d3d3d3; padding: 20px;">
+		  <div class="container">
+			<form>
+			  <div class="input-group mb-2">
+				<input type="email" class="form-control" id="exampleInputEmail1" name="search" aria-describedby="emailHelp" placeholder="Search talks....">
+				<button class="search-button" type="submit"><i class="bi bi-search"></i></button>
+			  </div>
+	  
+			  <div class="row g-2">
+				<div class="col-md">
+				  <div class="form">
+					<select class="form-select">
+					  <option selected>Open this select menu</option>
+					  <option value="1">One</option>
+					  <option value="2">Two</option>
+					  <option value="3">Three</option>
+					</select>
+				  </div>
+				</div>
+	  
+				<div class="col-md">
+				  <div class="form">
+					<select class="form-select">
+					  <option selected>Open this select menu</option>
+					  <option value="1">One</option>
+					  <option value="2">Two</option>
+					  <option value="3">Three</option>
+					</select>
+				  </div>
+				</div>
+	  
+				<div class="col-md">
+				  <div class="form">
+					<select class="form-select">
+					  <option selected>Open this select menu</option>
+					  <option value="1">One</option>
+					  <option value="2">Two</option>
+					  <option value="3">Three</option>
+					</select>
+				  </div>
+				</div>
+			  </div>
+			</form>
+		  </div>
 		</div>
 		<br>
-
+	  {{-- Short By --}}
 		<div class="container">
-			<div class="sortby">
-				<div class="row g-3 align-items-center">
-					<div class="col-auto">
-						<label for="sortby" class="col-form-label">Sort by :</label>
-					</div>
-					<div class="col-auto">
-						<select id="sortby" class="form-select">
-							<option selected>Open this select menu</option>
-							<option value="1">One</option>
-							<option value="2">Two</option>
-							<option value="3">Three</option>
-						</select>
-					</div>
-					<!-- <div class="col-md-4">
-					<label for="inputState" class="form-label">State</label>
-					
-				</div> -->
-				</div>
+		  <div class="sortby">
+			<div class="row g-3 align-items-center">
+			  <div class="col-auto">
+				<label for="sortby" class="col-form-label">Sort by :</label>
+			  </div>
+			  <div class="col-auto">
+				<select id="sortby" class="form-select">
+				  <option selected>Open this select menu</option>
+				  <option value="1">One</option>
+				  <option value="2">Two</option>
+				  <option value="3">Three</option>
+				</select>
+			  </div>
 			</div>
+		  </div>
 		</div>
-	</section>
 
+{{-- Artikel --}}
 	<section id="artikels" class="artikels">
 		<div class="container">
 			<div class="artikel-box">
@@ -588,6 +572,17 @@
 			</div>
 		</div>
 	</section>
+
+	{{-- Pervious --}}
+	<div class="page-number mb-2">
+		<a class="previous-page" href="previous-page.html">Previous</a>
+		<span>1</span>
+		<span>2</span>
+		<span>3</span>
+		<a class="next-page" style="margin-right: 8px" href="next-page.html">Next</a>
+	</div>
+	
+	
 
 	<!-- Vendor JS Files -->
 	<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>

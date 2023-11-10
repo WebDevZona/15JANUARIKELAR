@@ -130,7 +130,7 @@
             @if (auth()->user()->role == 'admin' || auth()->user()->role == 'user' )
             <a href="#" class="brand-link bg-info">
                 <center>
-                {{-- "<img src="/logo.png" alt="Logo" class="brand-image" style="opacity: .;"> --}}
+                "<img src="/logo.png" alt="Logo" class="brand-image" > 
             </center>
                 <span class="brand-text font-weight-white">Beranda</span>
             </a>

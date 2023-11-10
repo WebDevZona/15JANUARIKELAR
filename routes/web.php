@@ -66,7 +66,7 @@ Route::post('/kirim-ulang-email', 'AuthController@kirimUlang')->name('proses-kir
 
 //Route untuk user Admin
 Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
-    Route::get('/kirimemail','MalasngodingController@index');
+    Route::get('/kirimemail', 'MalasngodingController@index');
 
 
     Route::get('/beli/index', 'BeliController@index')->name('beli');
@@ -198,7 +198,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     Route::post('/perpus/anggota/{id}/update', 'AnggotaPerpusController@update');
     Route::get('/perpus/anggota/{id}/delete', 'AnggotaPerpusController@delete');
     Route::get('/perpus/anggota/{id}/show', 'AnggotaController@show');
-    
+
 
     Route::get('/perpus/buku/index', 'BukuController@index')->name('buku');
     Route::get('/perpus/buku/create', 'BukuController@create');
@@ -415,7 +415,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
     //     return view('/dashboard');
     // });
 
-Route::get('/dashboard', 'DashboardController@index');
+    Route::get('/dashboard', 'DashboardController@index');
 
     Route::get('/pengumuman/index', 'PengumumanController@index');
     Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
