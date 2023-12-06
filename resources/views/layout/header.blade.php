@@ -8,6 +8,8 @@
               {{-- <label class="form-label" for="query">Masukkan kata kunci:</label> --}}
               <input class="search-input" type="text" id="query" name="query"placeholder="Apa yang sedang kamu cari?">
               <button class="search-button" type="submit">CARI</button>
+              {{-- <button class="search-white" type="submit">MASUK</button> --}}
+            </ul>
           </form>
             {{-- <a href="/tentang" class=""><i style="padding:10px;">Tentang</i>|</a>
             <a href="#" class="facebook"><i style="padding:10px;">FAQ</i> |</a>
@@ -44,13 +46,13 @@
                 </li>
             </ul>
             @endauth
-            
+
             {{-- <div class="countdown">
               <span style="font-size: 15px;color: #e4dbdb; margin-right:15px;">Workshop Skripsi </span>
               <span id="days">00</span> :
               <span id="hours">00</span> :
               <span id="minutes">00</span> :
-              <span id="seconds">00</span> 
+              <span id="seconds">00</span>
           </div> --}}
           <script src="script.js"></script>
             <!-- <i class="bi bi-envelope d-flex align-items-center"style="margin-right:-35px;"><a href="https://mail.google.com/"></i>classprogram.id@gmail.com</a> -->
@@ -62,10 +64,10 @@
       <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
 
-        
+
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <img src="assets/img/logo/logo1.png"class="img-fluid" alt=""> -->
-        
+
           {{-- <a href="index.php" ><img src="/public/assets/img/logo/logo1.png"class="logo" alt="Deskripsi Gambar"></a> --}}
 
           <nav id="navbar" class="navbar">
@@ -73,7 +75,7 @@
               <li><a class="nav-link scrollto" href="/"style="margin-right:30px">Home</a></li>
               <li class="dropdown"><a style="cursor: pointer;"><span>Produk</span> <i class="bi bi-chevron-down nav-link scrollto active"style="margin-left:-10px;"></i></a>
                 <ul style="border-radius: 15px;">
-                  <li><a class="nav-link scrollto" href="Kelas-Tugas-Kuliah">Kelas Tugas Kuliah (KTK)</a></li>            
+                  <li><a class="nav-link scrollto" href="Kelas-Tugas-Kuliah">Kelas Tugas Kuliah (KTK)</a></li>
                   <li><a class="nav-link scrollto" href="bimbangan-mata-kuliah-jurusan">Bimbingan Mata Kuliah Jurusan (BMJ)</a></li>
                   <li><a class="nav-link scrollto" href="bimbingan-skripsi-online">Bimbingan Skripsi Online (BSO)</a></li>
                   <li><a class="nav-link scrollto" href="#">Kelas Persiapan Karir (KPK)</a></li>
@@ -81,26 +83,26 @@
               </li>
               <li class="dropdown"><a style="cursor: pointer;"><span>Workshop</span> <i class="bi bi-chevron-down nav-link scrollto active"style="margin-left:-10px;"></i></a>
                 <ul style="border-radius: 15px;">
-                  <li><a class="nav-link scrollto" href="kti">KTI</a></li>            
-                  <li><a class="nav-link scrollto" href="skripsi">Skripsi</a></li>           
+                  <li><a class="nav-link scrollto" href="kti">KTI</a></li>
+                  <li><a class="nav-link scrollto" href="skripsi">Skripsi</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a style="cursor: pointer;"><span>Creative Class</span> <i class="bi bi-chevron-down nav-link scrollto active"style="margin-left:-10px;"></i></a>
                 <ul style="border-radius: 15px;">
-                  <li><a class="nav-link scrollto" href="nonaktif">Kelas Adobe Photoshop</a></li>                          
+                  <li><a class="nav-link scrollto" href="nonaktif">Kelas Adobe Photoshop</a></li>
                 </ul>
               </li>
               {{-- <li class="dropdown"><a style="cursor: pointer;"><span>Lainnya</span> <i class="bi bi-chevron-down nav-link scrollto active"></i></a>
                 <ul style="border-radius: 15px;">
-                  <li><a class="nav-link scrollto" href="/tentang">Tentang Kami</a></li>            
+                  <li><a class="nav-link scrollto" href="/tentang">Tentang Kami</a></li>
                   <li><a class="nav-link scrollto" href="/kontak">Kontak</a></li>
-                  <li><a class="nav-link scrollto" href="#">FAQ</a></li>           
+                  <li><a class="nav-link scrollto" href="#">FAQ</a></li>
                 </ul>
               </li>               --}}
-             
+
               <li><a class="nav-link scrollto" href="/artikel"style="margin-right:30px">Artikel</a></li>
                   <li><a class="nav-link scrollto" href="#konsultasi"style="margin-right:30px">Alur bimbingan</a></li>
-               
+
                   <li><a class="nav-link scrollto" href="#testimonials"style="margin-right:30px">Mentor</a></li>
                   <li><a class="nav-link scrollto" href="#testibaru"style="margin-right:30px">Testimoni</a></li>
                   <li><a class="nav-link scrollto" href="#faq"style="margin-right:30px">FAQ</a></li>
@@ -180,24 +182,24 @@
                     </div>
                 </div>
                 </li> --}}
-        
-              
+
+
                <!--<ul style="border-radius: 2px;">
-                <li><a class="nav-link scrollto" href="/tentang">Login</a></li>            
+                <li><a class="nav-link scrollto" href="/tentang">Login</a></li>
                   <li><a class="nav-link scrollto" href="/kontak">logout</a></li>
-                </ul>      -->  
-              </li>           
+                </ul>      -->
+              </li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
           </nav><!-- .navbar -->
           {{-- <div class="content">
         </div> --}}
-        
+
       </header>
-      <header id="marquee-container" >
+      <header id="marquee-container">
         <div class="stop">
         <div class="ok">
-          <div class="stopp">Testimoni:</div>
+          <div class="stopp" ><b>TESTIMONI </b></div>
         </div>
       </div>
       <marquee id="marquee">
@@ -209,12 +211,12 @@
           <li>Puji: Menambah ilmu baru, wawasan, santai, disiplin, manajemen waktu baik.</li>
         </ul>
       </marquee>
-      
+
       </header>
     </div>
-    
+
       <script>
-     
+
 
 
       // document.addEventListener('DOMContentLoaded', function() {

@@ -4,8 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Pengeluaran;
 use App\Kategori;
-use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\DB;
 
 class PengeluaranController extends Controller
