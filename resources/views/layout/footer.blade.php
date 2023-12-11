@@ -51,15 +51,15 @@
                                 class="bx bxl-youtube"></i></a>
                     </div>
                 </div>
-                <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1"
+                <img src="assets/img/bg/footergaris.png" height="200px;" alt="Background Image" class="garis1"
                     style=" stroke: #003EB5;
         position: absolute;
-               width: 2000px;
+               width: 1100px;
                margin-inline-start: -130px;
-               /* margin-top: -100; */
+               margin-top: 260px;
+               left:0;
                height: 400px;
                display: block;
-
               ">
             </div>
         </div>

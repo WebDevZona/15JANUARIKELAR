@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Video;
 use App\PengertianProduk;
 use App\Produk;
 use App\User;
@@ -15,54 +15,60 @@ use Illuminate\Support\Facades\Hash;
 class tampilanController extends Controller
 {
     public function index(){
-        
-        return view('index');
+
+        // return view('index');
+        $data = Video::get();
+        return view('index', compact('data'));
     }
     public function ktk(){
-        
+
         return view('Kelas-Tugas-Kuliah');
     }
     public function bmj(){
-        
+
         return view('bimbangan-mata-kuliah-jurusan');
     }
     public function tentang(){
-        
+
         return view('tentang');
     }
     public function bso(){
-        
+
         return view('bimbingan-skripsi-online');
     }
+    public function kpk(){
+
+        return view('kelas-persiapan-karir');
+    }
     public function kontak(){
-        
+
         return view('kontak');
     }
     public function kti(){
-        
+
         return view('kti');
     }
     public function skripsi(){
-        
+
         return view('skripsi');
     }
 
     public function artikel(){
-        
+
         return view('artikel');
     }
-    
+
     public function nonaktif(){
-        
+
         return view('nonaktif');
     }
     public function pembelian(){
-        
+
         return view('pembelian');
     }
 public function checkout(Request $request, $id_produk, $id, $nama_voucher = null, $judulskripsi, $problem, $jurusan)
     {
-        dd("Checkpoint"); 
+        dd("Checkpoint");
         $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
         $User = \App\User::where('id', $id)->get();
         $Users = $User->first();
@@ -75,12 +81,12 @@ public function checkout(Request $request, $id_produk, $id, $nama_voucher = null
         $voucher = \App\voucher::get();
         // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
         $namaVoucher = $request->input('nama_voucher', '');
-    
+
         // Cari voucher berdasarkan nama yang telah diterima
         $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
-    
 
-  
+
+
         return view('pembayaran', compact('id_produk', 'Users', 'pengertian', 'User', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login', 'response'));
 
         // return view('checkout');
@@ -104,7 +110,7 @@ public function checkout(Request $request, $id_produk, $id, $nama_voucher = null
         }
         return view('header.blade.php');
     }
-    
+
     public function pembayaran($id_produk, $id, Request $request)
     {
         $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
@@ -119,16 +125,16 @@ public function checkout(Request $request, $id_produk, $id, $nama_voucher = null
         $voucher = \App\voucher::get();
         // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
         $namaVoucher = $request->input('nama_voucher', '');
-    
+
         // Cari voucher berdasarkan nama yang telah diterima
         $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
-    
+
         return view('/pembayaran', compact('Users', 'pengertian', 'User', 'datas', 'Produk', 'voucher','Produks','id_pesdik_login'));
     }
-    
+
         public function Pengertian($id_produk , Request $request)
         {
-          
+
             $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
             $User = \App\User::get();
             $Users = $User->first();
@@ -136,23 +142,23 @@ public function checkout(Request $request, $id_produk, $id, $nama_voucher = null
             $datas = \App\jurusan::get();
             // $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
             $id_pesdik_login = $pengertian->first();
-    
+
             $Produks = \App\Produk::where('produk', $id_produk)->first();
             $voucher = \App\voucher::get();
             // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
             $namaVoucher = $request->input('nama_voucher', '');
-        
+
             // Cari voucher berdasarkan nama yang telah diterima
             $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
-        
+
             return view('/pembelian', compact('Users', 'pengertian', 'User', 'datas', 'Produk', 'voucher','Produks','id_pesdik_login'));
         }
-        
+
         public function validateVoucher(Request $request)
         {
             $voucherCode = $request->input('voucher_code');
             $voucher = voucher::where('nama', $voucherCode)->first();
-        
+
             if ($voucher) {
                 // Jika kode voucher benar, kembalikan respons JSON dengan informasi voucher
                 return response()->json(['message' => 'Kode voucher valid.','voucher' => $voucher]);
@@ -161,6 +167,6 @@ public function checkout(Request $request, $id_produk, $id, $nama_voucher = null
                 return response()->json(['message' => 'Kode voucher tidak valid.']);
             }
         }
-        
+
 
 }

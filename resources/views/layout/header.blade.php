@@ -75,10 +75,10 @@
               <li><a class="nav-link scrollto" href="/"style="margin-right:30px">Home</a></li>
               <li class="dropdown"><a style="cursor: pointer;"><span>Produk</span> <i class="bi bi-chevron-down nav-link scrollto active"style="margin-left:-10px;"></i></a>
                 <ul style="border-radius: 15px;">
-                  <li><a class="nav-link scrollto" href="Kelas-Tugas-Kuliah">Kelas Tugas Kuliah (KTK)</a></li>
+                  <li><a class="nav-link scrollto" href="nonaktif">Kelas Tugas Kuliah (KTK)</a></li>
                   <li><a class="nav-link scrollto" href="bimbangan-mata-kuliah-jurusan">Bimbingan Mata Kuliah Jurusan (BMJ)</a></li>
                   <li><a class="nav-link scrollto" href="bimbingan-skripsi-online">Bimbingan Skripsi Online (BSO)</a></li>
-                  <li><a class="nav-link scrollto" href="#">Kelas Persiapan Karir (KPK)</a></li>
+                  <li><a class="nav-link scrollto" href="nonaktif">Kelas Persiapan Karir (KPK)</a></li>
                 </ul>
               </li>
               <li class="dropdown"><a style="cursor: pointer;"><span>Workshop</span> <i class="bi bi-chevron-down nav-link scrollto active"style="margin-left:-10px;"></i></a>
@@ -100,7 +100,7 @@
                 </ul>
               </li>               --}}
 
-              <li><a class="nav-link scrollto" href="/artikel"style="margin-right:30px">Artikel</a></li>
+              {{-- <li><a class="nav-link scrollto" href="/artikel"style="margin-right:30px">Artikel</a></li> --}}
                   <li><a class="nav-link scrollto" href="#konsultasi"style="margin-right:30px">Alur bimbingan</a></li>
 
                   <li><a class="nav-link scrollto" href="#testimonials"style="margin-right:30px">Mentor</a></li>

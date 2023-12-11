@@ -12,11 +12,12 @@
 */
 
 
-
+// Route::get('/vidio/index', 'VideoController@index')->name('video');
 
 // tampilannya
 Route::get('/index', 'tampilanController@index')->name('index');
 Route::get('/Kelas-Tugas-Kuliah', 'tampilanController@ktk')->name('Kelas-Tugas-Kuliah');
+Route::get('/kelas-persiapan-karir', 'tampilanController@kpk')->name('Kelas-persiapan-karir');
 Route::get('/bimbangan-mata-kuliah-jurusan', 'tampilanController@bmj')->name('bimbangan-mata-kuliah-jurusan');
 Route::get('/tentang', 'tampilanController@tentang')->name('tentang');
 Route::get('/kontak', 'tampilanController@kontak')->name('kontak');
@@ -245,6 +246,16 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     Route::get('/artikel/{id}/delete', 'ArtikelController@delete');
 
 
+
+    // frondend
+// iki rote index langsung
+//bagian ini kalau buat admin beda in nama nya aja
+    Route::get('index', 'VideoController@vide')->name('index');
+
+    // backend
+
+    // Route::get('/video/index', [VideoController::class, 'index'])->name('video.index');
+    // iki index vidio admin
     Route::get('/video/index', 'VideoController@index')->name('video');
     Route::get('/video/create', 'VideoController@create');
     Route::get('/video/{id}/show', 'VideoController@show');
@@ -411,6 +422,9 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
     Route::get('/', function () {
         return view('/index');
     });
+
+        
+
     // Route::get('/', function () {
     //     return view('/dashboard');
     // });
@@ -430,3 +444,8 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
 Route::get('/ok', function () {
     return view('/emails/lupapasword');
 });
+
+// Route::get('/videos', 'VideoController@index')->name('video.index');
+// tampilan
+
+

@@ -5,18 +5,39 @@ namespace App\Http\Controllers;
 use App\Video;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use RealRashid\SweetAlert\Facades\Alert;
 
 class VideoController extends Controller
 {
-    
+    // iki index admin
     public function index()
     {
-
-        $data = Video::get();
+        $data = Video::all();
+        // dd($data);
+        // return view('index', compact(['data']));
         return view('video.index', compact('data'));
     }
+
+
+// iki index langsung
+    public function vide()
+    {
+        $data = Video::all();
+        // dd($data);
+        return view('index',  compact('data'));
+
+    }
+
+
+    // // view frondend
+    // public function vidiofrondend()
+    // {
+    //     $data = Video::all();
+    //     return view('index', compact('data'));
+    // }
+
 
     public function create()
     {
@@ -28,7 +49,7 @@ class VideoController extends Controller
         $image           = $request->file('foto');
         //mengambil nama image
         $nama_image      = $image->getClientOriginalName();
-        
+
         //memindahkan cover ke folder tujuan
         $image->move('foto_upload',$image->getClientOriginalName());
 
@@ -40,25 +61,25 @@ class VideoController extends Controller
         $video->tampilan   = $request->input('tampilan');
         $video->save();
         return redirect()->route('video')->with('Data Video Berhasil Ditambahkan');
-    
+
     }
 
 
     public function show($id)
     {
        $data = Video::findOrFail($id);
-    
+
         return view('video/show', compact('data'));
     }
 
     public function edit(Request $request,$id)
-    {   
-        
+    {
+
         $video = Video::findOrFail($id);
-    
+
         return view('video/edit', compact('video'));
 
-    
+
     }
 
 
@@ -72,7 +93,7 @@ class VideoController extends Controller
         $video->tampilan   = $request->input('tampilan');
         $video->update();
         return redirect()->to('video/index')->with('Data Video Berhasil Diubah');;
-       
+
     }
 
 
@@ -80,6 +101,6 @@ class VideoController extends Controller
     {
         Video::findOrFail($id)->delete();
             return redirect()->route('video')->with('Data Viddeo Berhasil Dihapus');
-        
+
     }
 }

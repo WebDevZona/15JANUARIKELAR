@@ -237,11 +237,7 @@ h6 {
   margin-top: 2px;
   margin-left: 15px;
   margin-right: 15px;
-
   color:#09326f;
-  /* margin: 5px 5px 5px; */
-
-
 
 }
 
@@ -722,10 +718,18 @@ h6 {
 }
 
 
+.custom-card {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 300px; /* Set a maximum width if necessary */
+    margin: auto;
+}
 
-
-
-
+/* brouser */
+.my-element {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
 
 #hero2 .container .juduldua h3 {
     color: #000;
@@ -2031,8 +2035,18 @@ line-height: 125%; /* 100px */
   justify-content: center;
   align-items: center;
   height: 100%;
+
   /* Sesuaikan dengan tinggi slide Anda */
 }
+
+
+#testimonials .centered-ktk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* Sesuaikan dengan tinggi slide Anda */
+  }
 
 #testimonials .team-member {
   text-align: center;
@@ -2611,11 +2625,18 @@ line-height: 125%; /* 100px */
 --------------------------------------------------------------*/
 .pricing {
   margin-top: -50px;
-  border-radius: 5%;
+  /* border-radius: 5%; */
 
   /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(26%2c 78%2c 147%2c 1)'%3e%3c/rect%3e%3cpath d='M1494.7351209714502 163.9073647720977L1354.2265788787538 141.6529979719294 1472.480754171282 304.4159068647941z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M922.4115702712303-29.36709543450198L847.7619173781741-13.49982188569333 908.8876541479151 90.54102067948662z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1425.5259521926016 503.31710931870487L1460.0632338754067 390.7346072769715 1359.3711551857216 412.1373693106583z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M325.1900613028785 554.168561741336L431.8697449773547 552.3064609362764 323.3279604978188 447.48887806685985z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1311.2113056977278 90.48050861479426L1235.123628482446 65.75812364693752 1236.0838896383018 192.25083195378835z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1177.4241899415113 545.4605526068375L1262.5985188544823 398.25844425094346 1113.9549756666418 395.66386155343946z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1286.8296019680222 183.1830604743766L1249.0028162847375 346.31939514828434 1389.722141419967 305.9687779786637z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1110.4536850082334 240.7754022675023L1030.529208148378 163.59323213161233 953.347038012488 243.51770899146766 1033.2715148723435 320.69987912735763z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M255.87743695833962 157.01852538503L279.5724253664738 278.9186731584667 377.7775847317763 133.3235369768958z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M607.8715552513595 190.77644458270854L666.3412380245837 300.74192439471585 776.306717836591 242.27224162149162 717.8370350633668 132.30676180948433z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e"); */
 }
 
+
+.pricingg {
+    margin-top: -50px;
+    border-radius: 5%;
+
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(26%2c 78%2c 147%2c 1)'%3e%3c/rect%3e%3cpath d='M1494.7351209714502 163.9073647720977L1354.2265788787538 141.6529979719294 1472.480754171282 304.4159068647941z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M922.4115702712303-29.36709543450198L847.7619173781741-13.49982188569333 908.8876541479151 90.54102067948662z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1425.5259521926016 503.31710931870487L1460.0632338754067 390.7346072769715 1359.3711551857216 412.1373693106583z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M325.1900613028785 554.168561741336L431.8697449773547 552.3064609362764 323.3279604978188 447.48887806685985z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1311.2113056977278 90.48050861479426L1235.123628482446 65.75812364693752 1236.0838896383018 192.25083195378835z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1177.4241899415113 545.4605526068375L1262.5985188544823 398.25844425094346 1113.9549756666418 395.66386155343946z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1286.8296019680222 183.1830604743766L1249.0028162847375 346.31939514828434 1389.722141419967 305.9687779786637z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1110.4536850082334 240.7754022675023L1030.529208148378 163.59323213161233 953.347038012488 243.51770899146766 1033.2715148723435 320.69987912735763z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M255.87743695833962 157.01852538503L279.5724253664738 278.9186731584667 377.7775847317763 133.3235369768958z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M607.8715552513595 190.77644458270854L666.3412380245837 300.74192439471585 776.306717836591 242.27224162149162 717.8370350633668 132.30676180948433z' fill='rgba(13%2c 54%2c 96%2c 0.31)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e"); */
+  }
 
 
 .pricingan {
@@ -2655,6 +2676,7 @@ line-height: 125%; /* 100px */
   background-size: 300% 300%;
   border-radius: 5px;
   animation: gradientAnimation 4s ease infinite;
+
 }
 
 @keyframes gradientAnimation {
@@ -6134,17 +6156,21 @@ iframe {
     height: 120px;
     flex-shrink: 0;
     color: #000;
-    animation: slideUpDown 5s ease-in-out infinite;
-  }
+    animation: slideUpDown 8s ease-in-out infinite; /* Adjusted total duration to 8 seconds */
+}
 
-  @keyframes slideUpDown {
-    0%, 100% {
-      bottom: -120px;
+@keyframes slideUpDown {
+    0%, 37.5% {
+        bottom: -120px;
     }
-    50% {
-      bottom: 10px;
+    50%, 87.5% {
+        bottom: 10px;
     }
-  }
+    100% {
+        bottom: -120px;
+    }
+}
+
 
 
 /* Add CSS for the month and date boxes */
@@ -6779,23 +6805,51 @@ iframe {
   padding-left: 10px; /* Jarak antara garis dan teks */
 }
 
-.member-infoo {
+/* .member-infoo {
     border-radius: 80px;
     background: linear-gradient(180deg, #3E87F8 0%, #09326F 100%);
     height: 30px;
     width: 300px;
     position: relative;
     width: 240px;
+
+  } */
+
+  .konsultasi-content h4 {
+    color: #3E87F8;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 700;
+    left:0;
+    line-height: 46.25px;
+    word-wrap: break-word;
+
   }
 
-  .member-infoo h4 {
-    color: #fff; /* Warna teks disesuaikan dengan kebutuhan Anda */
-    margin: 0;
-    margin-top: 25px;
-    font-size: 20px;
-    position: relative;
-    justify-content: center;
-  }
+  .konsultasi-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Pusatkan kontennya secara horizontal */
+}
+
+.konsultasi-content h4,
+.konsultasi-content p {
+    text-align: center; /* Pusatkan teks secara horizontal */
+    margin: 0; /* Hapus margin bawaan dari <h4> dan <p> */
+}
+
+.member-img {
+    text-align: center; /* Pusatkan gambar secara horizontal */
+}
+
+.member-img img {
+    max-width: 100%; /* Pastikan gambar tidak melebihi lebar container */
+    height: auto; /* Pertahankan rasio aspek gambar */
+}
+
+
+
+
 
   .member-infoo p {
     margin-top: 10px;
@@ -7015,24 +7069,24 @@ svg {
     flex-direction: row;
 }
 
-.accordion-header{
+/* .accordion-header{
     margin-bottom: 25px;
     border-radius: 100%;
 }
 
-/* Tambahkan CSS berikut ke dalam file atau tag style Anda */
 
-.accordion-item {
+
+/* .accordion-item {
     margin-bottom: 20px;
-    border: 1px solid #ddd; /* Tambahkan border untuk memisahkan setiap accordion item */
-    border-radius: 8px; /* Atur border-radius sesuai kebutuhan */
-}
+    border: 1px solid #ddd;
+    border-radius: 8px;
+} */
 
-.accordion-button {
-    background-color: #f8f9fa; /* Warna latar belakang button */
-    color: #343a40; /* Warna teks button */
+/* .accordion-button {
+    background-color: #f8f9fa;
+    color: #343a40;
     border: none;
-    text-align: left; /* Atur teks agar berada di sisi kiri */
+    text-align: left;
     padding: 15px;
     width: 100%;
     cursor: pointer;
@@ -7040,15 +7094,70 @@ svg {
 }
 
 .accordion-button:hover {
-    background-color: #3e87f8; /* Warna latar belakang button saat dihover */
+    background-color: #3e87f8;
     color: white;
-}
+} */
 
-.accordion-collapse {
+/* .accordion-collapse {
     padding: 15px;
 }
 
 .accordion-body {
     margin-top: -30px;
-    
+
+}  */
+
+
+.myaccordion {
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 0 1px rgba(0,0,0,0.1);
+  }
+  .myaccordion .card,
+  .myaccordion .card:last-child .card-header {
+    border: none;
+  }
+  .myaccordion .card-header {
+    border-bottom-color: #EDEFF0;
+    background: transparent;
+  }
+  .myaccordion .fa-stack {
+    font-size: 18px;
+  }
+  .myaccordion .btn {
+    width: 100%;
+    font-weight: bold;
+    color: #004987;
+    padding: 0;
+  }
+  .myaccordion .btn-link:hover,
+  .myaccordion .btn-link:focus {
+    text-decoration: none;
+  }
+  .myaccordion li + li {
+    margin-top: 10px;
+  }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300vh;
+}
+
+.container {
+    position: relative;
+
+}
+
+.testimonials-slider {
+    /* Pastikan untuk menyesuaikan propertinya sesuai kebutuhan Anda */
+    margin-top: 20px;
+}
+
+/* Style untuk gambar di dalam .container */
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
 }

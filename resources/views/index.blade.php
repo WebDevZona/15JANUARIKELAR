@@ -108,11 +108,11 @@
                             <div class="count-separator"style="margin-left:20px"></div>
                             <div class="count-box">
                                 <div class="left-content">
-                                    <span style="font-family: Manrope; " ><b>23</b></span><span
+                                    <span style="font-family: Manrope; " ><b>27</b></span><span
                                         style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
                                 </div>
                                 <div class="right-content"style="margin-left:-1px">
-                                    <p style="margin-left:0px;margin-right:10px; margin-top:-4px; color: #000;">Kampus</p>
+                                    <p style="margin-left:0px;margin-right:10px;  color: #000;">Kampus terdaftar bersama kami</p>
                                 </div>
                             </div>
 
@@ -123,7 +123,7 @@
                                         style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
                                 </div>
                                 <div class="right-content"style="margin-left:-1px">
-                                    <p style="margin-left:0px;margin-right:10px; margin-top:-4px;color: #000;">Jurusan</p>
+                                    <p style="margin-left:0px;margin-right:10px; color: #000;">Jurusan terdaftar bersama kami</p>
                                 </div>
                             </div>
                             <div class="count-separator"></div>
@@ -155,7 +155,7 @@
                         <div class="labels"style="margin-left:-20px">
                             <span class="icon">
                                 <img src="assets/img/bg/ico4.png"
-                                    alt="Deskripsi Gambar"style="margin-top:-5px;width:30px;position:absolute;margin-left:-10px">
+                                    alt="Deskripsi Gambar"style="margin-top:-5px; width:30px;position:absolute;margin-left:-10px">
                             </span>
 
                             <span class="label-text"
@@ -192,7 +192,7 @@
                             class="label"style="line-height:22px; margin-top:10px; text-align:left; padding-left:11px; padding-right:11px;">
                             <span class="icon">
                                 <img src="assets/img/bg/ke2.png" alt="Deskripsi Gambar"
-                                    style="margin-top: -5px; width:20px; margin-right:5px; margin-left:0px">
+                                    style="margin-top: -5px; width:20px; margin-right:5px; margin-left:0px;  display:inline;">
                             </span>
                             <span class="label-text"
                                 style="color: #FFF;
@@ -225,14 +225,12 @@
                         <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar" width="200px;" style=" margin-top: -40px;">
                     </div>
 
-
-
                     <div class="icon-box" data-aos="fade-up"
                         data-aos-delay="300"style="background: url(assets/img/bg/bg2.png);background-size: cover;">
                         <div class="label"style="line-height:19px; margin-top:10px">
                             <span class="icon">
                                 <img src="assets/img/bg/ico3.png"
-                                    alt="Deskripsi Gambar"style="margin-top:-3px;width:15px;margin-right:5px">
+                                    alt="Deskripsi Gambar"style="margin-top:-3px;width:15px;margin-right:5px;  display:inline;">
                             </span>
                             <span class="label-text"
                                 style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;
@@ -262,7 +260,7 @@
                         <div class="label"style="line-height:19px; margin-top:10px">
                             <span class="icon">
                                 <img src="assets/img/bg/ico1.png"
-                                    alt="Deskripsi Gambar"style="margin-top:-0px;width: 17px;margin-right:5px">
+                                    alt="Deskripsi Gambar"style="margin-top:-0px;width: 17px;margin-right:5px;  display:inline;">
                             </span>
                             <span class="label-text"
                                 style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;
@@ -296,7 +294,7 @@
                         <div class="label"style="line-height:19px; margin-top:10px">
                             <span class="icon">
                                 <img src="assets/img/bg/akhir.png"
-                                    alt="Deskripsi Gambar"style="margin-top:-0px;width:17px;margin-right:5px">
+                                    alt="Deskripsi Gambar"style="margin-top:-0px;width:17px;margin-right:5px; display:inline;">
                             </span>
                             <span class="label-text"
                                 style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;
@@ -730,8 +728,11 @@
                         <div class="video-container">
                             <div class="video-container2">
                                 <div class="video-wrapper">
-                                    <iframe width="500" height="280" src="https://www.youtube.com/embed/Az6oaKyQZt8"
-                                        frameborder="0" allowfullscreen></iframe>
+                                    <iframe width="560" height="315"
+                                    src="https://www.youtube.com/embed/puKINTRTDZk?si=3ZqaSjYv1Yl6XsnG"
+                                     title="YouTube video player" frameborder="0" allow="accelerometer;
+                                     autoplay; clipboard-write; encrypted-media; gyroscope;
+                                      picture-in-picture; web-share" allowfullscreen></iframe>
                                 </div>
                             </div>
                             <div class="video-description">
@@ -873,385 +874,281 @@
         <section id="berita" class="berita container" style="margin-top:-35px">
             <div class="content_area">
 
-                <div class="main_content floatleft">
-                    <div class="left_coloum floatleft">
-                        <h4 style="margin-bottom: 30px">Class Program on Youtube</h4>
-                        <div class="single_left_coloum_wrapper" id="scrollableColumn">
-                            <div class="scrollable_left_coloum">
-                                <!-- Article 1 -->
-                                <div class="single_left_coloum">
-                                    <img src="assets/img/berita.png" alt="Article 1 Image" />
+              <div class="main_content floatleft">
+                <div class="left_coloum floatleft">
+                  <h4 style="margin-bottom: 30px">Class Program on Youtube</h4>
+                  <div class="single_left_coloum_wrapper" id="scrollableColumn">
+                    <div class="scrollable_left_coloum">
+                      <!-- Article 1 -->
+                      <div class="single_left_coloum">
+                        <img src="assets/img/berita.png" alt="Article 1 Image" />
 
-                                    <p>
-                                        Anies Baswedan dan
-                                        SBY Bertemu di Pacitan Jawa
-                                    </p>
+                        <p>
+                          Anies Baswedan dan
+                          SBY Bertemu di Pacitan Jawa
+                        </p>
 
-                                </div>
-                                <!-- Article 2 -->
-                                <div class="single_left_coloum">
-                                    <img src="assets/img/berita.png" alt="Article 2 Image" />
+                      </div>
+                      <!-- Article 2 -->
+                      <div class="single_left_coloum">
+                        <img src="assets/img/berita.png" alt="Article 2 Image" />
 
-                                    <p>Nulla quis lorem</p>
+                        <p>Nulla quis lorem</p>
 
-                                </div>
-                                <!-- Article 3 -->
-                                <div class="single_left_coloum">
-                                    <img src="assets/img/berita.png" alt="Article 3 Image" />
+                      </div>
+                      <!-- Article 3 -->
+                      <div class="single_left_coloum">
+                        <img src="assets/img/berita.png" alt="Article 3 Image" />
 
-                                    <p>Nulla quis lorem</p>
+                        <p>Nulla quis lorem</p>
 
-                                </div>
-                                <!-- Article 4 -->
-                                <div class="single_left_coloum">
-                                    <img src="assets/img/berita.png" alt="Article 4 Image" />
+                      </div>
+                      <!-- Article 4 -->
+                      <div class="single_left_coloum">
+                        <img src="assets/img/berita.png" alt="Article 4 Image" />
 
-                                    <p>Nulla quis lorem</p>
+                        <p>Nulla quis lorem</p>
 
-                                </div>
-                                <!-- Add more articles as needed -->
-                            </div>
-                        </div>
-                        <span class="left-scroll-buttonn" onclick="scrollLeft()">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 53 53"
-                                fill="none">
-                                <g filter="url(#filter0_b_229_15)">
-                                    <path opacity="0.4"
-                                        d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z"
-                                        fill="black" />
-                                    <!-- Mengubah path panah ke kiri -->
-                                    <path
-                                        d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z"
-                                        fill="white" />
-                                </g>
-                                <path
-                                    d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z"
-                                    fill="none" stroke="white" stroke-width="3" />
-                            </svg>
-                        </span>
-
-
-                        <span class="right-scroll-button" onclick="scrollRight()">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 53 53"
-                                fill="none">
-                                <g filter="url(#filter0_b_229_15)">
-                                    <path opacity="0.4"
-                                        d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z"
-                                        fill="black" />
-                                    <path
-                                        d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z"
-                                        fill="white" />
-                                </g>
-                                <path
-                                    d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z"
-                                    fill="none" stroke="white" stroke-width="3" />
-                                <defs>
-                                    <filter id="filter0_b_229_15" x="-5" y="-5" width="63" height="63"
-                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="2" result="BackgroundImageFix" />
-                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.5" />
-                                        <feComposite in2="SourceAlpha" operator="in"
-                                            result="effect1_backgroundBlur_229_15" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_229_15"
-                                            result="shape" />
-                                    </filter>
-                                </defs>
-                            </svg>
-                        </span>
-                        <hr style="border: 1px solid rgba(0, 0, 0, 0.48);margin-top:10px;margin-bottom:10px;">
-
-
-
-                        <h4 style="margin-bottom: 20px">Class Program on Instagram</h4>
-
-                        <div class="single_left_coloum_wrapper" id="scrollableColumn1">
-                            <div class="scrollable_left_coloum">
-                                <div class="single_left_coloumb long-image">
-                                    <img src="assets/img/vidio.png" alt="Article 1 Image" class="custom-image" />
-                                    <div class="left_content">
-
-                                    </div>
-                                </div>
-                                <div class="single_left_coloumb long-image">
-                                    <img src="assets/img/vidio.png" alt="Article 1 Image" class="custom-image" />
-                                    <div class="left_content">
-                                        <p>
-
-                                    </div>
-                                </div>
-                                <div class="single_left_coloumb long-image">
-                                    <img src="assets/img/vidio.png" alt="Article 1 Image" class="custom-image" />
-                                    <div class="left_content">
-                                        <p>
-
-                                    </div>
-                                </div>
-                                <div class="single_left_coloumb long-image">
-                                    <img src="assets/img/vidio.png" alt="Article 1 Image" class="custom-image" />
-                                    <div class="left_content">
-
-                                    </div>
-                                </div>
-                                <div class="single_left_coloumb long-image">
-                                    <img src="assets/img/vidio.png" alt="Article 1 Image" class="custom-image" />
-                                    <div class="left_content">
-
-                                    </div>
-                                </div>
-                                <!-- Add more content here -->
-                            </div>
-                        </div>
-                        <span class="left-scroll-button1" onclick="scrollLeft()">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53"
-                                fill="none">
-                                <g filter="url(#filter0_b_229_15)">
-                                    <path opacity="0.4"
-                                        d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z"
-                                        fill="black" />
-                                    <!-- Mengubah path panah ke kiri -->
-                                    <path
-                                        d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z"
-                                        fill="white" />
-                                </g>
-                                <path
-                                    d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z"
-                                    fill="none" stroke="white" stroke-width="3" />
-                            </svg>
-                        </span>
-                        <span class="right-scroll-button1" onclick="scrollRight1()">
-                            <!-- Add right-scroll icon here -->
-                            <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53"
-                                fill="none">
-                                <g filter="url(#filter0_b_229_15)">
-                                    <path opacity="0.4"
-                                        d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z"
-                                        fill="black" />
-                                    <path
-                                        d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z"
-                                        fill="white" />
-                                </g>
-                                <path
-                                    d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z"
-                                    fill="none" stroke="white" stroke-width="3" />
-                                <defs>
-                                    <filter id="filter0_b_229_15" x="-5" y="-5" width="63" height="63"
-                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="2" result="BackgroundImageFix" />
-                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.5" />
-                                        <feComposite in2="SourceAlpha" operator="in"
-                                            result="effect1_backgroundBlur_229_15" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_229_15"
-                                            result="shape" />
-                                    </filter>
-                                </defs>
-                            </svg>
-
-                        </span>
-                        {{-- </div> --}}
+                      </div>
+                      <!-- Add more articles as needed -->
                     </div>
+                  </div>
+                  <span class="left-scroll-buttonn" onclick="scrollLeft()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 53 53" fill="none">
+                      <g filter="url(#filter0_b_229_15)">
+                        <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                        <!-- Mengubah path panah ke kiri -->
+                        <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="white" />
+                      </g>
+                      <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+                    </svg>
+                  </span>
 
 
-                    <div class="right_coloum floatright">
-                        <div class="single_right_coloum">
-                            <h4 style="margin-left: -5px;margin-bottom: 30px">Terpopuler</h4>
-                            <ul>
-                                <li>
-                                    <div class="single_cat_right_content">
-                                        <div class="right_image">
-                                            <img src="assets/img/berita.png" alt="Your Image">
-                                        </div>
-                                        <div class="left_content">
-                                            <h3><svg xmlns="http://www.w3.org/2000/svg" width="18" height="23"
-                                                    viewBox="0 0 18 23" fill="none"style=" float: left; /* Gambar akan muncul di sebelah kiri teks */
-                                          margin-right: 5px;width: 14px;height: 19px;">
-                                                    <path
-                                                        d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z"
-                                                        stroke="#696969" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </svg>adipiscing</h3>
-                                            <p><strong
-                                                    style="color: #3C3C3C;
-font-family: Manrope;
-font-style: normal;
-font-weight: 700;
-line-height: normal;">VIDEO
-                                                    : Anies Baswedan
-                                                    SBY Bertemu di Pacitan</strong></p>
-                                            <p class="single_cat_right_content_meta"style="color: #696969;
-
-                            font-family: Manrope;
-                            font-style: normal;
-
-                            line-height: normal;"> 3 hours ago</p>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single_cat_right_content">
-                                        <div class="right_image">
-                                            <img src="assets/img/berita.png" alt="Your Image">
-                                        </div>
-                                        <div class="left_content">
-
-                                            <h3> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23"
-                                                    viewBox="0 0 18 23" fill="none"style=" float: left; /* Gambar akan muncul di sebelah kiri teks */
-                                          margin-right: 5px;width: 14px;height: 19px;">
-                                                    <path
-                                                        d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z"
-                                                        stroke="#696969" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </svg>detikupdate</h3>
-                                            <p> <strong
-                                                    style="color: #3C3C3C;
-font-family: Manrope;
-font-style: normal;
-font-weight: 700;
-line-height: normal;">VIDEO
-                                                    : Anies Baswedan
-                                                    SBY Bertemu di Pacitan</strong></p>
-                                            <p class="single_cat_right_content_meta"style="color: #696969;
-
-                            font-family: Manrope;
-                            font-style: normal;
-
-                            line-height: normal;"> 3 hours ago</p>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single_cat_right_content">
-                                        <div class="right_image">
-                                            <img src="assets/img/berita.png" alt="Your Image">
-                                        </div>
-                                        <div class="left_content">
-
-                                            <h3> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23"
-                                                    viewBox="0 0 18 23" fill="none"style=" float: left; /* Gambar akan muncul di sebelah kiri teks */
-                                          margin-right: 5px;width: 14px;height: 19px;">
-                                                    <path
-                                                        d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z"
-                                                        stroke="#696969" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </svg>detikupdate</h3>
-                                            <p> <strong
-                                                    style="color: #3C3C3C;
-font-family: Manrope;
-font-style: normal;
-font-weight: 700;
-line-height: normal;">VIDEO
-                                                    : Anies Baswedan
-                                                    SBY Bertemu di Pacitan</strong></p>
-                                            <p class="single_cat_right_content_meta"style="color: #696969;
-
-                            font-family: Manrope;
-                            font-style: normal;
-
-                            line-height: normal;"> 3 hours ago</p>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single_cat_right_content">
-                                        <div class="right_image">
-                                            <img src="assets/img/berita.png" alt="Your Image">
-                                        </div>
-                                        <div class="left_content">
-
-                                            <h3> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23"
-                                                    viewBox="0 0 18 23" fill="none"style=" float: left; /* Gambar akan muncul di sebelah kiri teks */
-                                          margin-right: 5px;width: 14px;height: 19px;">
-                                                    <path
-                                                        d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z"
-                                                        stroke="#696969" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </svg>detikupdate</h3>
-                                            <p> <strong
-                                                    style="color: #3C3C3C;
-font-family: Manrope;
-font-style: normal;
-font-weight: 700;
-line-height: normal;">VIDEO
-                                                    : Anies Baswedan
-                                                    SBY Bertemu di Pacitan</strong></p>
-                                            <p class="single_cat_right_content_meta"style="color: #696969;
-
-                            font-family: Manrope;
-                            font-style: normal;
-
-                            line-height: normal;"> 3 hours ago</p>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="single_cat_right_content">
-                                        <div class="right_image">
-                                            <img src="assets/img/berita.png" alt="Your Image">
-                                        </div>
-                                        <div class="left_content">
-                                            <h3><svg xmlns="http://www.w3.org/2000/svg" width="18" height="23"
-                                                    viewBox="0 0 18 23" fill="none"style=" float: left; /* Gambar akan muncul di sebelah kiri teks */
-                                          margin-right: 5px;width: 14px;height: 19px;">
-                                                    <path
-                                                        d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z"
-                                                        stroke="#696969" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round" />
-                                                </svg>
-                                                adipiscing elit</h3>
-                                            <p><strong
-                                                    style="color: #3C3C3C;
-font-family: Manrope;
-font-style: normal;
-font-weight: 700;
-line-height: normal;">VIDEO
-                                                    : Anies Baswedan
-                                                    SBY Bertemu di Pacitan</strong></p>
-                                            <p class="single_cat_right_content_meta"style="color: #696969;
-
-                            font-family: Manrope;
-                            font-style: normal;
-
-                            line-height: normal;"> 3 hours ago</p>
-                                        </div>
-
-                                    </div>
-                                </li>
+                  <span class="right-scroll-button" onclick="scrollRight()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 53 53" fill="none">
+                      <g filter="url(#filter0_b_229_15)">
+                        <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                        <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
+                      </g>
+                      <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+                      <defs>
+                        <filter id="filter0_b_229_15" x="-5" y="-5" width="63" height="63" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="2" result="BackgroundImageFix" />
+                          <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.5" />
+                          <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_229_15" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_229_15" result="shape" />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </span>
+                  <hr style="border: 1px solid rgba(0, 0, 0, 0.48);margin-top:10px;margin-bottom:10px;">
 
 
-                            </ul>
 
+                  <h4 style="margin-bottom: 20px">Class Program on Instagram</h4>
+
+                  <div class="single_left_coloum_wrapper" id="scrollableColumn1">
+                        {{-- <a href="{{ route('index') }}">Ke Halaman Video</a>                 <a href="{{ route('index') }}">Ke Halaman Video</a> --}}
+                    {{-- @foreach($data as $video)
+                        <div class="single_left_coloum">
+                            <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail" />
+                           <a href="https://www.instagram.com/reel/CzbEX7lpniE/?utm_source=ig_web_copy_link">{{ $video->judul }}</a>
+                            <p></p>
+                            <p>{{ $video->tampilan }}</p>
                         </div>
-                    </div>
+                    @endforeach --}}
+                    @foreach($data as $video)
+                        <div class="single_left_coloum">
+                            <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail" />
+                            <a href="https://www.instagram.com/reel/{{ rand() }}/?utm_source=ig_web_copy_link">{{ $video->judul }}</a>
+                            <p></p>
+                            <p>{{ $video->tampilan }}</p>
+                        </div>
+                    @endforeach
+
+
+                      <!-- Add more content here -->
+                  </div>
+                  <span class="left-scroll-button1" onclick="scrollLeft()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+                      <g filter="url(#filter0_b_229_15)">
+                        <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                        <!-- Mengubah path panah ke kiri -->
+                        <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="white" />
+                      </g>
+                      <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+                    </svg>
+                  </span>
+                  <span class="right-scroll-button1" onclick="scrollRight1()">
+                    <!-- Add right-scroll icon here -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+                      <g filter="url(#filter0_b_229_15)">
+                        <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                        <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
+                      </g>
+                      <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+                      <defs>
+                        <filter id="filter0_b_229_15" x="-5" y="-5" width="63" height="63" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="2" result="BackgroundImageFix" />
+                          <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.5" />
+                          <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_229_15" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_229_15" result="shape" />
+                        </filter>
+                      </defs>
+                    </svg>
+
+                  </span>
+                {{-- </div> --}}
+              </div>
+
+
+              <div class="right_coloum floatright">
+                <div class="single_right_coloum">
+                    <h4 style="margin-left: -5px;margin-bottom: 30px">Terpopuler</h4>
+                    <ul>
+                      <li>
+                         <div class="single_cat_right_content">
+                  <div class="right_image">
+                    <img src="assets/img/berita.png" alt="Your Image">
+                  </div>
+                  <div class="left_content">
+                    <h3><svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none"style=" float: left; /* Gambar akan muncul di sebelah kiri teks */
+                      margin-right: 5px;width: 14px;height: 19px;">
+                        <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>adipiscing</h3>
+                    <p><strong style="color: #3C3C3C;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;">VIDEO : Anies Baswedan
+        SBY Bertemu di Pacitan</strong></p>
+                    <p class="single_cat_right_content_meta"style="color: #696969;
+
+        font-family: Manrope;
+        font-style: normal;
+
+        line-height: normal;"> 3 hours ago</p>
+                  </div>
+
                 </div>
+                      </li>
+                      <li>
+                         <div class="single_cat_right_content">
+                  <div class="right_image">
+                    <img src="assets/img/berita.png" alt="Your Image">
+                  </div>
+                  <div class="left_content">
+
+                    <h3> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none"style=" float: left; /* Gambar akan muncul di sebelah kiri teks */
+                      margin-right: 5px;width: 14px;height: 19px;">
+                        <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>detikupdate</h3>
+                    <p> <strong style="color: #3C3C3C;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;">VIDEO : Anies Baswedan
+                      SBY Bertemu di Pacitan</strong></p>
+                    <p class="single_cat_right_content_meta"style="color: #696969;
+
+        font-family: Manrope;
+        font-style: normal;
+
+        line-height: normal;"> 3 hours ago</p>
+                  </div>
+
+                </div>
+                      </li>
+                      <li>
+                         <div class="single_cat_right_content">
+                  <div class="right_image">
+                    <img src="assets/img/berita.png" alt="Your Image">
+                  </div>
+                  <div class="left_content">
+
+                    <h3> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none"style=" float: left; /* Gambar akan muncul di sebelah kiri teks */
+                      margin-right: 5px;width: 14px;height: 19px;">
+                        <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>detikupdate</h3>
+                    <p> <strong style="color: #3C3C3C;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;">VIDEO : Anies Baswedan
+                      SBY Bertemu di Pacitan</strong></p>
+                    <p class="single_cat_right_content_meta"style="color: #696969;
+
+        font-family: Manrope;
+        font-style: normal;
+
+        line-height: normal;"> 3 hours ago</p>
+                  </div>
+
+                </div>
+                      </li>
+                      <li>
+                         <div class="single_cat_right_content">
+                  <div class="right_image">
+                    <img src="assets/img/berita.png" alt="Your Image">
+                  </div>
+                  <div class="left_content">
+
+                    <h3> <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none"style=" float: left; /* Gambar akan muncul di sebelah kiri teks */
+                      margin-right: 5px;width: 14px;height: 19px;">
+                        <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>detikupdate</h3>
+                    <p> <strong style="color: #3C3C3C;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;">VIDEO : Anies Baswedan
+                      SBY Bertemu di Pacitan</strong></p>
+                    <p class="single_cat_right_content_meta"style="color: #696969;
+
+        font-family: Manrope;
+        font-style: normal;
+
+        line-height: normal;"> 3 hours ago</p>
+                  </div>
+
+                </div>
+                      </li>
+                      <li>
+                         <div class="single_cat_right_content">
+                  <div class="right_image">
+                    <img src="assets/img/berita.png" alt="Your Image">
+                  </div>
+                  <div class="left_content">
+                    <h3><svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none"style=" float: left; /* Gambar akan muncul di sebelah kiri teks */
+                      margin-right: 5px;width: 14px;height: 19px;">
+                        <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                         adipiscing elit</h3>
+                    <p><strong style="color: #3C3C3C;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;">VIDEO : Anies Baswedan
+                      SBY Bertemu di Pacitan</strong></p>
+                    <p class="single_cat_right_content_meta"style="color: #696969;
+
+        font-family: Manrope;
+        font-style: normal;
+
+        line-height: normal;"> 3 hours ago</p>
+                  </div>
+
+                </div>
+                      </li>
+
+
+                    </ul>
+
+                </div>
+              </div>
+          </div>
         </section>
-
-
-        <!-- ======= Testimonials Section ======= -->
-<section id="testimonials" class="testimonials"style="margin-top:-100px ;margin-bottom:30px;">
-
-                <div class="section-title">
-                    <h3>Mentor Profesional Class Program</h3>
-                </div>
-                <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="centered-content">
-                                <img src="assets/img/team/mentor1.png" class="img-fluid" alt="">
-                                <img src="assets/img/team/mentor2.png" class="img-fluid" alt="">
-                                <img src="assets/img/team/mentor3.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="centered-content">
-                                <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-</section>
 
 
 
@@ -1328,7 +1225,7 @@ line-height: normal;">VIDEO
             </div>
         </section>
 
-        <section id="testibaru" class="testibaru section-bg">
+<section id="testibaru" class="testibaru section-bg">
             <div class="profile-container">
                 <p>Cerita Sobat Insans</p>
                 <p1>Selama Bergabung di Class Program</p1>
@@ -1377,7 +1274,7 @@ line-height: normal;">VIDEO
                         <button id="nextProfile">></button>
                 </div>
             </div>
-        </section>
+</section>
 
 
         <section id="konsultasi" class="konsultasi section-bg"
@@ -1470,85 +1367,110 @@ line-height: normal;">VIDEO
                         <div class="section-title">
                             <h3>Paling Sering Ditanyakan</h3>
                         </div>
-
-                            <div class="accordion" id="accordionFlushExample">
-                                <div class="accordion-item" >
-                                    <h2 class="accordion-header" id="flush-headingOne">
-                                        <button  class="accordion-button collapsed"  type="button" data-toggle="collapse" data-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                            Apakah di Class Program bisa ganti Mentor?
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                    </div>
+                        <div id="accordion" class="myaccordion">
+                            <div class="card">
+                              <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                  <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <p style="color: #000;">Apakah di Class Program bisa ganti mentor?</p>
+                                    <span class="fa-stack fa-sm">
+                                      <i class="fas fa-circle fa-stack-2x"></i>
+                                      <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                               <p>Bisa</p>
                                 </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            Apakah bisa bimbingan malam hari?
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingthree">
-                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
-                                            Apakah bimbingan menggunakan video call?
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingfour">
-                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
-                                           Sistem pembayaran bagaimana?
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                    </div>
-                                </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingfive">
-                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
-                                            Sistem bimbingan private?
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingfive">
-                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
-                                            Sistem bimbingan private?
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                    </div>
-                                </div>
+                              </div>
                             </div>
-                            <a href="#pricing" style="width: 100%; height: auto; position: relative; display: inline-block; text-decoration: none;">
-                                <div style="width: 350px; height: 65.02px; left: 0px; top: 0px; position: absolute; background: #0849B2;  rgba(0, 0, 0, 0.20); border-radius: 20.32px"></div>
-                                <div style="left: 30.48px; top: 13.21px; position: absolute; color: white; font-size: 32.51px; font-family: Raleway; font-weight: 700; word-wrap: break-word">Baca selengkapnya</div>
+                            <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                  <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <p style="color: #000;">Apakah bisa bimbingan malam hari?</p>
+                                    <span class="fa-stack fa-2x">
+                                      <i class="fas fa-circle fa-stack-2x"></i>
+                                      <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Bisa</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                  <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <p style="color: #000;">Apakah bisa bimbingan menggunkan video call?</p>
+                                    <span class="fa-stack fa-2x">
+                                      <i class="fas fa-circle fa-stack-2x"></i>
+                                      <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                  </button>
+                                </h2>
+                              </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Bisa</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading4">
+                                  <h2 class="mb-0">
+                                    <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                     <p style="color: #000;">Sistem pembayarannya bagimana?</p>
+                                      <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                                      </span>
+                                    </button>
+                                  </h2>
+                                </div>
+                                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+                                  <div class="card-body">
+                                      <p>tf</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="card">
+                                <div class="card-header" id="heading5">
+                                  <h2 class="mb-0">
+                                    <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                    <p style="color: #000;">  Apakah bimbingannya private? </p>
+                                      <span class="fa-stack fa-2x">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                                      </span>
+                                    </button>
+                                  </h2>
+                                </div>
+                                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion">
+                                  <div class="card-body">
+                                      <p>bisa</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <a href="#pricing" style="width: 100%; height: auto; position: relative; display: inline-block; text-decoration: none;">
+                                <div style="margin-left:10px; width: 200px; height: 50px; left: 0px; top: 0px; position: absolute; background: #0849B2;  rgba(0, 0, 0, 0.20); border-radius: 20.32px"></div>
+                                <div style="left: 30.48px; margin-top:-5px; top: 13.21px; position: absolute; color: white; font-size: 20px; font-family: Raleway; font-weight: 700; word-wrap: break-word">Baca selengkapnya</div>
                             </a>
-
+                          </div>
                     </div>
-
-                    <div class="col-xl-5" >
+                    <div class="col-xl-5">
                         <div class="image-container">
-                            <img src="assets/img/bg/faq2.png" alt="Deskripsi gambar" class="img-fluid-bos" style="width: 500px; height: auto; margin-right: -500px;">
+                            <img src="assets/img/bg/faq2.png" alt="Deskripsi gambar" class="img-fluid-bos" style="width: 450px; height: auto;">
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
@@ -1868,13 +1790,6 @@ displayFAQ();
 
             });
 
-
-
-
-
-
-
-
             var scrollableColumn1 = document.querySelector('#scrollableColumn1');
             var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
 
@@ -1893,11 +1808,6 @@ displayFAQ();
                     });
                 }
             }
-
-
-
-
-
 
             var scrollableColumn = document.querySelector('#scrollableColumn');
             var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
@@ -1918,6 +1828,13 @@ displayFAQ();
                 }
             }
 
+
+            $("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
+            $(e.target)
+                .prev()
+                .find("i:last-child")
+                .toggleClass("fa-minus fa-plus");
+            })
         </script>
         {{-- Animasi angka --}}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
