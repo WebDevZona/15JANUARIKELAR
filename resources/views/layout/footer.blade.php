@@ -269,8 +269,9 @@
         const popupMessages = [{
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong></strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "have registered<br><strong>Yohanes Hernandes</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
+            
             {
                 date: currentDay,
                 month: currentMonth,
@@ -294,7 +295,7 @@
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Friska </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "have registered<br><strong>Zahra</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
         ];
 

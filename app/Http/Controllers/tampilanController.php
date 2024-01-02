@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 use App\Video;
+use App\Youtube;
+use App\Berita;
+use App\Artikell;
 use App\PengertianProduk;
 use App\Produk;
 use App\User;
@@ -17,8 +20,11 @@ class tampilanController extends Controller
     public function index(){
 
         // return view('index');
+        // $artikel = Artikell::get();
+        $youtube = Youtube::get();
         $data = Video::get();
-        return view('index', compact('data'));
+        $berita = Berita::get();
+        return view('index', compact('data', 'youtube', 'berita'));
     }
     public function ktk(){
 

@@ -734,7 +734,7 @@ h6 {
 #hero2 .container .juduldua h3 {
     color: #000;
     font-family: Montserrat;
-    font-size: 65px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 700;
     line-height: 125%;
@@ -762,7 +762,7 @@ h6 {
     font-weight: 700;
     line-height: 125%;
     letter-spacing: -4px;
-    margin-top: 12px;
+    margin-top: 20px;
 
 }
 
@@ -1416,6 +1416,7 @@ line-height: 125%; /* 100px */
   }
 }
 
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -1480,9 +1481,13 @@ line-height: 125%; /* 100px */
 .heada {
   background-color: #106eea;
   font-size: 24px;
-  color:#fff;
+  color: #fff;
   margin-top: -35px;
   height: 180px;
+}
+
+.heada .section-title {
+  margin-top: -10px;
 }
 
 /* -------------------------------------------------------------
@@ -1709,6 +1714,7 @@ line-height: 125%; /* 100px */
 
 .count-boxes {
   display: flex;
+
 
   /* gap: 20px; Jarak antara elemen .count-box */
 }
@@ -3266,7 +3272,7 @@ line-height: 125%; /* 100px */
   padding: 0 0 30px 0;
   color: #ffffff;
   font-size: 14px;
-  /* background: 	#0D2947 ; */
+  /* background:  #0D2947 ; */
 }
 
 #garis1{
@@ -3728,23 +3734,19 @@ height: 500px;
   /* text-align: center;
   margin: 50px; */
   margin-left: 120px;
+   /* margin: 0;  */
 }
 
 #menu .container {
-  /* text-align: center; */
+  text-align: center;
   /* margin: 50px; */
 }
 
 .menu .content-selector {
-  margin-bottom: 20px;
   border-radius: 50px;
-  padding: 2px;
-  /* background-color: transparent; */
   border: solid 1px;
   width: 212px;
-  /* text-align: left;  */
   float: left;
-
 }
 
 
@@ -3765,6 +3767,7 @@ height: 500px;
   background-color: transparent;
   border-color: transparent;
   border-radius: 50px;
+  margin-top: 50px;
   color: black;
   /* transition: background-color 0.3s, color 0.3s; */
 
@@ -3782,6 +3785,7 @@ height: 500px;
 .menu .content-selector .btn {
   background-color: transparent;
   border-color: transparent;
+  margin-top: 7px;
   border-radius: 50px;
   color: black;
   /* transition: background-color 0.3s, color 0.3s; */
@@ -3878,9 +3882,10 @@ height: 500px;
 }
 
 .menu .content .veryikasi img {
-  max-width: 40px;
-  max-height: 10px;
-}
+    /* max-width: 1px;
+    max-height: 1px; */
+  }
+
 
 /* style.css */
 .btn-selected {
@@ -3919,7 +3924,7 @@ height: 500px;
   .menu .content-selector .btn {
     margin: 10px 0;
     font-size: 18px;
-    /* Increase button font size */
+
   }
 
   .menu .col-lg-6 {
@@ -4019,14 +4024,14 @@ height: 500px;
     text-align: center;
     line-height: 50px;
     height: 30px;
-    width: 80px;
+    width: 200px;
     margin: 0 auto;
     font-family: Montserrat;
     font-size: 23px;
     font-style: normal;
     font-weight: 550;
     line-height: 125%; /* 40px */
-    letter-spacing: -1.6px;
+    letter-spacing: 1px;
 }
 
 
@@ -4036,8 +4041,8 @@ height: 500px;
     color: #FFF;
     text-align: center;
     line-height: 50px;
-    height: 35px;
-    width: 400px;
+    height: 30px;
+    width: 250px;
     margin: 0 auto;
     font-family: Montserrat;
     font-style: normal;
@@ -5881,6 +5886,18 @@ iframe {
   /* margin-top: -60px; */
 }
 
+#testicok {
+  font-family: Arial, sans-serif;
+  /* background-color: #f2f2f2; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  /* margin-top: -60px; */
+}
+
 .profile-container {
   display: flex;
   justify-content: center;
@@ -5918,8 +5935,10 @@ iframe {
   flex-direction: row;
   overflow: hidden;
   justify-content: center;
+  border-radius:50px;
   align-items: center;
   width: 100%;
+  height: 25%px;
   /* Agar selalu mengambil lebar penuh */
   transition: transform 0.5s ease-in-out;
 }
@@ -5944,6 +5963,7 @@ iframe {
   font-weight: 800;
   line-height: normal;
 }
+
 
 /* .profile .profile-info h1{
   color: #FFF;
@@ -5991,6 +6011,7 @@ iframe {
 }
 
 .profile-info {
+
   text-align: left;
   flex-grow: 1;
   margin-left: 20px;
@@ -7151,13 +7172,788 @@ svg {
 }
 
 .testimonials-slider {
-    /* Pastikan untuk menyesuaikan propertinya sesuai kebutuhan Anda */
+
     margin-top: 20px;
 }
 
-/* Style untuk gambar di dalam .container */
+
 .container img {
     width: 100%;
     height: auto;
     display: block;
+}
+
+
+
+.alz {
+    text-align: center;
+}
+
+
+.custom-btn-buy {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    border-radius: 5px;
+}
+
+.custom-btn-buy:hover {
+    background-color: #45a049;
+}
+
+
+
+.pro {
+    width: 125px;
+    height: auto;
+    border-radius: 50%;
+    border: 0px solid #333;
+    position: absolute;
+/*    top: 50%;*/
+/*margin-top: -150px;*/
+
+/*    left: 50%;*/
+    transform: translate(-50%, -50%);
+     background-color: white;
+  }
+
+/*   img {
+            max-width: 100%;
+            height: auto;
+        }*/
+
+/*--------------------------------------------------------------
+# Section Kotak
+--------------------------------------------------------------*/
+#kotak-skripsi {
+  font-family: Arial, sans-serif;
+  /* background-color: #f2f2f2; */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  /* margin-top: -60px; */
+}
+
+.kotak-skripsi .profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  height: 100%;
+  /* Ubah tinggi container agar selalu penuh tinggi layar */
+}
+
+.kotak-skripsi .profile-container p {
+  color: white;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65px;
+  /* 130% */
+}
+
+.kotak-skripsi .profile-container p1 {
+  color: #4F4B4B;
+  font-family: "Manrope";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: -20px;
+}
+
+.kotak-skripsi .profile-slider {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* Agar selalu mengambil lebar penuh */
+  transition: transform 0.5s ease-in-out;
+}
+
+.kotak-skripsi .profile {
+  /* background-color: #fff;
+  border-radius: 10px; */
+  z-index: 1;
+  border-radius: 44px;
+  background-image: url("../img/bg/skripsi1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: linear-gradient(180deg, #09326F 0%, #0064FF 100%); */
+  width: 1000px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  margin-right: 20px;
+  transition: transform 0.5s ease;
+  min-height: 280px;
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* .profile .profile-info h1{
+  color: #FFF;
+  font-family: "Manrope";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+} */
+
+/* .profile:hover {
+  transform: translateX(100px);
+} */
+
+.kotak-skripsi .profile .additional-info {
+  position: absolute;
+  top: 0;
+  left: -200px;
+  /* Geser elemen tambahan ke kiri untuk sembunyi */
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  opacity: 0;
+  /* Atur opacity ke 0 untuk menyembunyikan elemen */
+  transition: all 0.5s ease;
+  /* Tambahkan efek transisi untuk tampilan halus */
+}
+
+.kotak-skripsi .profile:hover .additional-info {
+  left: 0;
+  /* Geser elemen tambahan ke posisi normal saat dihover */
+  opacity: 1;
+  /* Ubah opacity menjadi 1 untuk munculkan elemen */
+}
+
+.kotak-skripsi .profile-image {
+
+  width: 600px;
+  height: auto;
+  margin-right: 10px;
+  margin-top: -5px;
+  align-self: flex-start;
+  position: center;
+}
+
+
+.kotak-skripsi .profile-info {
+  text-align: center;
+  flex-grow: 1;
+  margin-left: 20px;
+
+}
+
+.kotak-skripsi .profile-info h1 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #FFF;
+  font-family: "Manrope";
+  /* font-size: 25px; */
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.kotak-skripsi .profile-info p {
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: #FFF;
+  /* font-family: "Manrope"; */
+  /* font-size: 25px; */
+  /* font-style: normal; */
+  /* font-weight: 500; */
+  line-height: normal;
+  text-align: left;
+  align-items: center;
+  align-content: center;
+  /* margin-right: 50px; */
+  margin-bottom: 50px;
+  color: var(--White, #FFF);
+  font-family: Lato;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  margin-left: -120px;
+  margin-top: -25px;
+  /* line-height: 85.846px; */
+  /* 120% */
+  letter-spacing: -1.431px;
+  text-transform: capitalize;
+}
+
+.kotak-skripsi .profile-info h2 {
+  color: #B5C1D4;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.769px;
+  margin-left: -250px;
+  margin-top: 20px;
+  /* 150% */
+}
+
+
+.kotak-skripsi .profile-info p2 {
+  font-size: 14px;
+  margin: 0;
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 1222.457px;
+  height: 200.162px;
+  flex-shrink: 0;
+
+}
+
+.kotak-skripsi .gabung {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  /* Sesuaikan jarak bawah sesuai kebutuhan */
+}
+
+.kotak-skripsi .profile-image {
+  margin-right: 20px;
+  /* Sesuaikan jarak antara gambar dan teks sesuai kebutuhan */
+  max-width: 1500px;
+  /* Sesuaikan lebar maksimum gambar sesuai kebutuhan */
+  height: auto;
+}
+
+.profile-info {
+  color: #FFF;
+  font-family: Manrope;
+}
+
+.profile-info h1 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: 30px;
+  /* Sesuaikan jarak antara judul dan paragraf sesuai kebutuhan */
+}
+
+.profile-info p {
+  color: white;
+  font-size: 22px;
+  font-weight: normal;
+  text-align: left;
+  line-height: 1.4;
+
+}
+
+.kotak-skripsi .profile .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50px;
+  font-family: Lato;
+  /* background-color: white; */
+  background: #3E87F8;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: -120px;
+  /* transition: background-color 0.3s, opacity 0.3s; */
+}
+
+.kotak-skripsi .profile .button:hover {
+  background-color: red;
+  opacity: 0.8;
+
+}
+
+
+.kotak-skripsi .profile .button i {
+  font-size: 30px;
+}
+
+
+
+
+/*--------------------------------------------------------------
+#  Mentor Skripsi Section
+--------------------------------------------------------------*/
+#mentor-skripsi {
+  background-color: #fff;
+}
+
+/* .mentor-skripsi .container .section-title {
+  color: var(--Midnight-Blue-950, #09326F);
+
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100.9%;
+
+  letter-spacing: -1px;
+
+} */
+
+.mentor-skripsi .container .section-title {
+
+  color: var(--Midnight-Blue-950, #09326F);
+
+  /* color: #FFF; */
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  /* font-size: 45px; */
+  line-height: 125%;
+  /* 53.596px */
+  letter-spacing: -1px;
+
+}
+
+.mentor-skripsi .container .section-title h4 {
+  font-size: 22px;
+}
+
+.mentor-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 20px;
+}
+
+.card-img {
+  flex: 0 0 22%;
+  /* 25% lebar setiap kartu */
+  /* box-sizing: border-box; */
+  width: 220px;
+  margin: 25px;
+  overflow: hidden;
+  border-radius: 150px 40px 40px 40px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.40) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat, #D9D9D9;
+
+}
+
+.card-img img {
+  width: 100%;
+  align-content: center;
+  height: auto;
+  display: block;
+
+}
+
+.name {
+  text-align: center;
+}
+
+.name h3 {
+  color: var(--Text-Colour-1, #0B090A);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.name h4 {
+  color: var(--Colour-1, #4361EE);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/*--------------------------------------------------------------
+# Sections Benefit
+--------------------------------------------------------------*/
+
+#benefit {
+  background-image: url("../img/bg/bgkti.jpeg");
+  background-size: cover;
+  /* height: 1800px; */
+  /* width: 1500px; */
+
+  background-repeat: no-repeat;
+
+
+  /* width: 1300px; */
+
+  /* background: url(assets/img/bg/bso1.png); */
+}
+
+.benefit .container .section-title {
+  color: #FFF;
+
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  /* 53.596px */
+  letter-spacing: -1px;
+
+}
+
+/*  pricing produk */
+.benefit .custom-judul {
+  background: #ffffff;
+  text-align: center;
+  box-shadow: 0px 0px 40px rgba(0, 0.20, 0.20, 0.12);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  /* Add any specific styles here */
+}
+
+
+
+
+.card-containerr {
+  display: flex;
+  flex-direction: column;
+}
+
+.roww {
+  display: flex;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* Styling for .pricing .custom-box class */
+.benefit .custom-box {
+  padding: 25px;
+  flex: 1;
+
+  /* height: 500px; */
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.paket {
+  border-radius: 50px;
+  /* border-radius: 42px; */
+  background: var(--Midnight-Blue-950, #09326F);
+  /* background: #3E87F8; */
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.15);
+  color: #FFF;
+  text-align: center;
+  line-height: 50px;
+  height: 100px;
+  width: 80px;
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 550;
+  line-height: 125%;
+  /* 40px */
+  letter-spacing: -1.6px;
+}
+
+
+.custom-packagee {
+  border-radius: 50px;
+  /* background: #3E87F8;
+  border-radius: 42px; */
+  background: var(--Midnight-Blue-950, #09326F);
+  color: #FFF;
+  text-align: center;
+  line-height: 50px;
+  height: px;
+  width: 400px;
+  margin: 0 auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 18;
+  line-height: 125%;
+  /* 40px */
+  letter-spacing: -1.6px;
+  justify-content: center;
+
+  font-family: Montserrat;
+}
+
+
+.benefit .custom-box h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: -20px -20px 20px -20px;
+  padding: 20px 15px;
+  color: #ffffff;
+  background: #f8f8f8;
+}
+
+.benefit .custom-box h4 {
+  font-size: 30px;
+  color: #106eea;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.benefit .custom-boxa h4 {
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.benefit .custom-box ul {
+  padding: 10px;
+  list-style: none;
+  color: #ffffff;
+  text-align: center;
+  line-height: 24px;
+  /* font-size: 18px; */
+}
+
+.benefit .custom-box ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+}
+
+.benefit .custom-box ul .checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.benefit .custom-box ul .text {
+  flex: 1;
+}
+
+.container .team-slider .row .konsultasi-content .member-info p {
+  color: #212121;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: -40px;
+  width: 180px;
+  /* height: 89px; */
+  /* 108.333% */
+
+}
+
+.benefit .member-img {
+  text-align: center;
+  /* Pusatkan gambar secara horizontal */
+}
+
+.benefit .member-img img {
+  max-width: 1200px;
+
+  /* Pastikan gambar tidak melebihi lebar container */
+  height: auto;
+  /* Pertahankan rasio aspek gambar */
+}
+
+.benefit .member-infoo p {
+  color: #454545;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 500;
+  line-height: 125%;
+  /* 50px */
+  letter-spacing: -1px;
+  /* margin-left: px; */
+  margin-top: 40px
+    /* margin-top: 10px;
+  position: relative;
+  margin-bottom: 1000px;
+  font-size: 14px;
+  text-align: center;
+  width: 240px; */
+}
+
+/*--------------------------------------------------------------
+# Sections Card
+--------------------------------------------------------------*/
+#card-skripsi {
+/*  background-image: url("../img/bg/bg-card1.png");*/
+  background-size: cover;
+  height: 600px;
+
+  margin-bottom: 150px;
+  /* width: 1300px; */
+
+  /* background: url(assets/img/bg/bso1.png); */
+}
+
+.card-skripsi .container .scrollto strong {
+  margin-top: 100px;
+
+
+}
+
+.card-skripsi .section-title {
+  color: #000;
+  font-family: Montserrat;
+}
+
+
+/* card text geser */
+
+/* .card-text {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  overflow: hidden;
+} */
+
+.slider-containerr {
+  overflow: hidden;
+}
+
+.card-sliderr {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+.cardd {
+  /* flex: 0 0 20%; */
+  margin-right: 20px;
+  /* Jarak antar kartu */
+  width: 80%;
+  border: 1px solid #000;
+  /* Warna dan ketebalan garis */
+  box-sizing: content-box;
+  overflow: hidden;
+  height: 300px;
+  border-radius: 10px;
+  /* object-fit: cover; */
+  flex: 0 0 calc(30% - 10px);
+}
+
+.card:last-child {
+
+  margin-right: 0;
+  /* Tidak memberikan margin-right pada kartu terakhir */
+}
+
+
+/*skripsi*/
+
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    margin-right: 10px;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* style bso konten button */
+.pakethematbso .content {
+  display: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.pakethematbso .active {
+  display: block;
+}
+
+/* style bmj konten button */
+
+/* .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 20px;
+} */
+
+.kontenbmj {
+  display: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.aktif {
+  display: block;
+}
+
+button {
+  margin-bottom: 10px;
+}
+
+.kontenbmj .buttoncircle {
+  margin-left: -100px;
+  color:white
+}
+
+.kontenbmj .buttoncircle i {
+  margin-bottom: -35px;
+}
+
+/* teks button bso */
+.text-button {
+  /* padding: 10px 20px; */
+  /* font-size: 16px; */
+  /* background-color: blue;  */
+  /* Warna latar belakang awal */
+  color: white;
+  cursor: pointer;
+
+   /* Menghindari pemilihan teks saat diklik */
+  transition: background-color 0.3s, color 0.3s; /* Efek transisi ketika warna berubah */
 }

@@ -14,6 +14,12 @@
 
 // Route::get('/vidio/index', 'VideoController@index')->name('video');
 
+
+Route::get('/', function () {
+    return redirect()->route('index');
+});
+
+
 // tampilannya
 Route::get('/index', 'tampilanController@index')->name('index');
 Route::get('/Kelas-Tugas-Kuliah', 'tampilanController@ktk')->name('Kelas-Tugas-Kuliah');
@@ -65,13 +71,21 @@ Route::post('/proses-kirim-email', 'AuthController@prosesKirimEmail')->name('pro
 Route::get('/email', 'AuthController@tampilan')->name('email');
 Route::post('/kirim-ulang-email', 'AuthController@kirimUlang')->name('proses-kirim-ulang-email');
 
+
+// frondend
+// iki rote index langsung
+//bagian ini kalau buat admin beda in nama nya aja
+
+// Route::get('indexx', 'VideoController@vide');
+
+// backend
+
+
 //Route untuk user Admin
 Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     Route::get('/kirimemail', 'MalasngodingController@index');
 
-
     Route::get('/beli/index', 'BeliController@index')->name('beli');
-
     Route::get('/siswa/index', 'SiswaController@index')->name('siswa');
     Route::get('/siswa/create', 'SiswaController@create');
     Route::get('/siswa/{id}/show', 'SiswaController@show');
@@ -247,12 +261,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
 
 
 
-    // frondend
-// iki rote index langsung
-//bagian ini kalau buat admin beda in nama nya aja
-    Route::get('index', 'VideoController@vide')->name('index');
 
-    // backend
 
     // Route::get('/video/index', [VideoController::class, 'index'])->name('video.index');
     // iki index vidio admin
@@ -263,6 +272,26 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     Route::get('/video/{id}/edit', 'VideoController@edit');
     Route::post('/video/{id}/update', 'VideoController@update');
     Route::get('/video/{id}/delete', 'VideoController@delete');
+
+    // Route::get('index', 'YoutubeController@vide');
+
+    // youtube routes
+    Route::get('/youtube/index', 'YoutubeController@index')->name('youtube.index');
+    Route::get('/youtube/create', 'YoutubeController@create');
+    Route::get('/youtube/{id}/show', 'YoutubeController@show');
+    Route::post('/youtube/store', 'YoutubeController@store');
+    Route::get('/youtube/{id}/edit', 'YoutubeController@edit')->name('youtube.edit');
+    Route::post('/youtube/{id}/update', 'YoutubeController@update');
+    Route::get('/youtube/{id}/delete', 'YoutubeController@delete')->name('youtube.delete');
+
+    // Berita routes
+    Route::get('/berita/index', 'BeritaController@index')->name('berita.index');
+    Route::get('/berita/create', 'BeritaController@create');
+    Route::get('/berita/{id}/show', 'BeritaController@show');
+    Route::post('/berita/store', 'BeritaController@store');
+    Route::get('/berita/{id}/edit', 'BeritaController@edit')->name('berita.edit');
+    Route::post('/berita/{id}/update', 'BeritaController@update');
+    Route::get('/berita/{id}/delete', 'BeritaController@delete')->name('berita.delete');
 
 
     //Route delete untuk admin
@@ -419,14 +448,8 @@ Route::group(['middleware' => ['auth', 'checkRole:Siswa']], function () {
 
 //Route untuk user Admin, Petugas Administrasi Surat dan Petugas Administrasi Keuangan
 Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuangan,PetugasAdministrasiSurat,user']], function () {
-    Route::get('/', function () {
-        return view('/index');
-    });
-
-        
-
     // Route::get('/', function () {
-    //     return view('/dashboard');
+    //     return view('/index');
     // });
 
     Route::get('/dashboard', 'DashboardController@index');
@@ -444,8 +467,3 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
 Route::get('/ok', function () {
     return view('/emails/lupapasword');
 });
-
-// Route::get('/videos', 'VideoController@index')->name('video.index');
-// tampilan
-
-

@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use Maatwebsite\Excel\Facades\Excel;
 use App\Exports\TransaksiPembayaranExport;
 use App\Exports\SetorTarikExport;
+use App\TransaksiPembayaran;
 use App\Exports\KeuanganSekolahExport;
 use Carbon\Carbon;
 

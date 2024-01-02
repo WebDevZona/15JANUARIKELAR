@@ -151,11 +151,11 @@
                         <span class="text-black">Daftar Menu</span>
                     </a>
                     <!-- Add icons to the links using the .nav-icon class
-                        with font-awesome or any other icon font library -->                
+                        with font-awesome or any other icon font library -->
                     <li class="nav-item">
                         <a href="/produk/index" class="nav-link">
                             <i class="nav-icon fas fa-bars"></i>
-                            
+
                             <p>
                                 Produk
                             </p>
@@ -181,7 +181,7 @@
                         <a href="/SobatInsan/index" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
-                                Sobat Insan                        
+                                Sobat Insan
                             </p>
                         </a>
                     </li>
@@ -189,7 +189,7 @@
                         <a href="/jurusan/index" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
-                               Jurusan                     
+                               Jurusan
                             </p>
                         </a>
                     </li>
@@ -197,7 +197,25 @@
                         <a href="/artikel/index" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
-                               Artikel                     
+                               Artikel
+                            </p>
+                        </a>
+                    </li>
+
+                <li class="nav-item">
+                    <a href="/berita/index" class="nav-link">
+                        <i class="nav-icon fas fa-layer-group"></i>
+                        <p>
+                          Berita
+                        </p>
+                    </a>
+                </li>
+
+                 <li class="nav-item">
+                        <a href="/youtube/index" class="nav-link">
+                            <i class="nav-icon fas fa-layer-group"></i>
+                            <p>
+                               Video Youtube
                             </p>
                         </a>
                     </li>
@@ -206,7 +224,7 @@
                         <a href="/video/index" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
-                               Video                     
+                               Video Instagram
                             </p>
                         </a>
                     </li>
@@ -257,7 +275,7 @@
                             </li>
                         </ul>
                     </li> --}}
-                    
+
                         <li class="nav-item">
                             <a href="/mentor/index" class="nav-link">
                                 <i class="nav-icon fas 	fa fa-file"></i>
@@ -283,7 +301,7 @@
                                 </p>
                             </a>
                         </li>
-                        
+
                         <li class="nav-item">
                             <a href="/voucher/index" class="nav-link">
                                 <i class="nav-icon fas 	fa fa-file"></i>
@@ -292,9 +310,9 @@
                                 </p>
                             </a>
                         </li>
-                   
+
                 </ul>
-                @endif            
+                @endif
                 @if (auth()->user()->role == 'admin' || auth()->user()->role == 'PetugasAdministrasiSurat' || auth()->user()->role == 'PetugasAdministrasiKeuangan')
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <!-- Sidebar Menu -->
@@ -305,7 +323,7 @@
                     </a>
                     <!-- Add icons to the links using the .nav-icon class
                         with font-awesome or any other icon font library -->
-                    
+
                     @if (auth()->user()->role == 'admin')
                     <li class="nav-item">
                         <a href="{{ route('pengguna.index') }}" class="nav-link">
@@ -374,7 +392,7 @@
                 <b>Smpn 1 sron banyuwangi | </b>
                 Versi 1.0.0
             </div> --}}
-            Copyright &copy; 2023 | by : Dimas Wildan
+            Copyright &copy; 2023 - 2024 | by : Dimas Wildan & Aldi
         </footer>
 
 

@@ -287,3 +287,40 @@
   new PureCounter();
 
 })()
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const cardSlider = document.querySelector('.card-slider');
+
+  function slide() {
+    cardSlider.style.transition = 'transform 0.5s ease-in-out';
+    cardSlider.style.transform = 'translateX(-25%)'; // Geser sejauh 25%
+  }
+
+  function resetSlide() {
+    cardSlider.style.transition = 'none';
+    cardSlider.style.transform = 'translateX(0)';
+    setTimeout(slide, 100);
+     // Jeda sebentar sebelum mulai geser lagi
+  }
+
+  setInterval(resetSlide, 3000); // Geser setiap 3 detik (3000 milidetik)
+});
+
+
+// Qna javascript
+
+document.addEventListener('DOMContentLoaded', function () {
+  var accordionHeaders = document.querySelectorAll('.accordion-header');
+
+  accordionHeaders.forEach(function (header) {
+    header.addEventListener('click', function () {
+      var accordionItem = this.parentElement;
+      accordionItem.classList.toggle('active');
+
+      var accordionContent = accordionItem.querySelector('.accordion-content');
+      accordionContent.classList.toggle('show');
+    });
+  });
+});
+

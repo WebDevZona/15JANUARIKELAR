@@ -93,7 +93,7 @@
 
 
 <section id="hero"
-                class="d-flex align-items-center"style="background: url(assets/img/bg/bgktk1.png);background-size: cover; margin-bottom: 50px;">
+                class="d-flex align-items-center"style="background: url(assets/img/bg/bgktk1.png);background-size: cover; margin-bottom: 50px; ">
                 <div class="container" data-aos="zoom-out" data-aos-delay="100">
                     <div class="d-flex">
                         <div style="width: 250px; height: 100%; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
@@ -217,14 +217,14 @@
 
     <div style="width: 100%; height: 100%; position: absolute; margin-left: 150px; margin-top: 400px;">
         <div style="width: 284px; height: 291px; padding: 52.01px; left: 0; top: 0; position: absolute; background: white; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.10); border-radius: 25px; border: 2px #09326F solid;"></div>
-    
+
         <div style="width: 88px; height: 88px; left: 98px; top: 27px; position: absolute;">
             <div style="width: 88px; height: 88px; left: 0; top: 0; position: absolute; background: #3E87F8; box-shadow: 0px 30.34482765197754px 60.68965530395508px rgba(54.06, 60.89, 136, 0.15); border-radius: 50%;"></div>
             <img style="width: 45.52px; height: 45.52px; left: 21.24px; top: 21.24px; position: absolute;" src="assets/img/ktk/ic1.png" alt="Icon" />
         </div>
         <div style="width: 241px; height: 134px; left: 20px; top: 151px; position: absolute; color: black; font-size: 22px; font-family: Montserrat; font-weight: 700; line-height: 27.50px; word-wrap: break-word;">Terdapat pilihan kelas sesuai kebutuhan.</div>
     </div>
-    
+
     <div style="width: 100%; height: 100%; position: absolute; margin-left: 500px; margin-top: 400px;">
         <div style="width: 284.45px; height: 360.03px; padding: 52.01px; left: 0px; top: 0px; position: absolute; background: white; box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.10); border-radius: 25px; border: 2px #09326F solid"></div>
         <div style="width: 234px; left: 25px; top: 152px; position: absolute; color: black; font-size: 22px; font-family: Montserrat; font-weight: 700; line-height: 27.50px; word-wrap: break-word">Mendapatkan materi dalam pembuatan dan penyusunan tugas kuliah.</div>
@@ -265,16 +265,16 @@
                         <h3 style="font-size: 70px; margin-top:30px;">
                             <span style="color: #3E87F8; font-family: Montserrat;">3000+ <br></span>
                             Mahasiswa <br> Lulus Bersama <br> Kami
-                            <button type="button" class="btn btn-primary" style=" border-radius: 50px;"><a href="#pricing" style="color: #FFF;" ><b>Pesan Sekarang</b></a></button>   
+                            <button type="button" class="btn btn-primary" style=" border-radius: 50px;"><a href="#pricing" style="color: #FFF;" ><b>Pesan Sekarang</b></a></button>
                         </h3>
-                        
+
                     </div>
                 </div>
 </section>
 
 {{-- <img style="margin-bottom: 20px;" src="assets/img/bg/kotakkk.jpg" alt=""> --}}
 
-{{-- 
+{{--
 <div style="width: 100%; text-align: center; color: black; font-size: 50px; font-family: Montserrat; font-weight: 700; ">Kenali Paket yang Tersedia<br/>di Kelas Tugas Kuliah (KTK)</div>
  --}}
 
@@ -359,8 +359,8 @@
                     </div>
                 </div>
             </section>
-            
-    
+
+
 
 <section id="testimonials" class="testimonials"style="margin-top:-100px ;margin-bottom:30px;">
     <div class="section-title">
@@ -484,10 +484,10 @@
                                             {{-- <span>Product Manager</span> --}}
                                             <p>Mengirim bukti pembayaran dan menunggu verifikasi</p><br>
                                             {{-- <ul>
-              <li>Prestasi 1</li>
-              <li>Prestasi 2</li>
-              <li>Prestasi 3</li>
-            </ul> --}}
+                                            <li>Prestasi 1</li>
+                                            <li>Prestasi 2</li>
+                                            <li>Prestasi 3</li>
+                                            </ul> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -506,10 +506,10 @@
                                             {{-- <span>CTO</span> --}}
                                             <p  >Kamu siap melakukan bimbingan bersama mentor</p><br>
                                             {{-- <ul>
-              <li>Prestasi 1</li>
-              <li>Prestasi 2</li>
-              <li>Prestasi 3</li>
-            </ul> --}}
+                                            <li>Prestasi 1</li>
+                                            <li>Prestasi 2</li>
+                                            <li>Prestasi 3</li>
+                                            </ul> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -529,7 +529,7 @@
                             <div class="section-title">
                                 <h3>Paling Sering Ditanyakan</h3>
                             </div>
-                     
+
                                     <div class="accordion" id="accordionFlushExample">
                                         <div class="accordion-item" >
                                             <h2 class="accordion-header" id="flush-headingOne">
@@ -551,7 +551,7 @@
                                                 <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                                             </div>
                                         </div>
-    
+
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="flush-headingthree">
                                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
@@ -562,7 +562,7 @@
                                                 <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                                             </div>
                                         </div>
-    
+
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="flush-headingfour">
                                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
@@ -573,7 +573,7 @@
                                                 <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                                             </div>
                                         </div>
-    
+
                                         <div class="accordion-item">
                                             <h2 class="accordion-header" id="flush-headingfive">
                                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
@@ -583,7 +583,7 @@
                                             <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
                                                 <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                                             </div>
-                                        </div>    
+                                        </div>
                                     </div>
                                     {{-- <a href="#pricing" style="width: 100%; height: auto; position: relative; display: inline-block; text-decoration: none;">
                                         <div style="width: 350px; height: 65.02px; left: 0px; top: 0px; position: absolute; background: #0849B2;  rgba(0, 0, 0, 0.20); border-radius: 20.32px"></div>

@@ -58,7 +58,7 @@
                                 <th><div style="width:110px;">Judul</div></th>
                                 <th><div style="width:110px;">Foto</div></th>
                                 <th><div style="width:110px;">Waktu</div></th>
-                                <th><div style="width:110px;">Tampilan</div></th>
+                                <th><div style="width:110px;">Link</div></th>
                                 <th><center> Aksi</center></th>
                             </tr>
                         </thead>

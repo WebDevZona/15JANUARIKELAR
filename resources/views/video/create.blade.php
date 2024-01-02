@@ -61,7 +61,7 @@
                     <label for="waktu">Waktu</label>
                     <input value="{{old('waktu')}}" name="waktu" type="datetime-local" class="form-control" id="waktu" placeholder="link" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
 
-                    <label for="tampilan">Tampilan</label>
+                    <label for="tampilan">Link</label>
                     <input value="{{old('tampilan')}}" name="tampilan" type="text" class="form-control" id="tampilan" placeholder="Tampilan" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                 </div>
             </div>

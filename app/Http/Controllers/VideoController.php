@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Youtube;
 use App\Video;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -21,14 +21,7 @@ class VideoController extends Controller
     }
 
 
-// iki index langsung
-    public function vide()
-    {
-        $data = Video::all();
-        // dd($data);
-        return view('index',  compact('data'));
 
-    }
 
 
     // // view frondend

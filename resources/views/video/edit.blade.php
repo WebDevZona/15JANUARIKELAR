@@ -43,17 +43,19 @@
             <div class="row">
                 <div class="col-md-6">
                     <label for="nama">Nama</label>
-                    <input value="{{$video->nama}}" name="nama" type="text" class="form-control" id="nama" placeholder="Nama" >
+                    <input value="{{$video->nama}}" name="nama" type="text" class="form-control" id="nama" placeholder="Nama">
                     <label for="judul">Judul</label>
-                    <input value="{{$video->judul}}" name="judul" type="text" class="form-control" id="judul" placeholder="Judul" >
+                    <input value="{{$video->judul}}" name="judul" type="text" class="form-control" id="judul" placeholder="Judul">
                     <label for="foto">foto</label>
-                    <input value="{{$video->foto}}" name="foto" type="file" class="form-control" id="foto" placeholder="{{$video->foto}}" >
-                    <img src="{{ asset('foto_upload/'.$video->foto) }}" alt="" title=""style="height: 150px;width:100px;">
+                    <input value="{{$video->foto}}" name="foto" type="file" class="form-control" id="foto" placeholder="{{$video->foto}}">
+                    <img src="{{ asset('foto_upload/'.$video->foto) }}" alt="" title="" style="height: 150px;width:100px;">
                     <br>
                     <label for="waktu">Waktu</label>
-                    <input value="{{$video->waktu}}" name="waktu" type="datetime-local" class="form-control" id="waktu" placeholder="Waktu" >
-                    <label for="tampilan">Tampilan</label>
-                    <input value="{{$video->nama}}" name="tampilan" type="text" class="form-control" id="tampilan" placeholder="Tampilan" >
+                    <input value="{{$video->waktu}}" name="waktu" type="datetime-local" class="form-control" id="waktu" placeholder="Waktu">
+                    <!-- <label for="tampilan">Link</label>
+                    <input value="{{old('tampilan')}}" name="tampilan" type="text" class="form-control" id="tampilan" placeholder="Tampilan"> -->
+                    <label for="tampilan">Link</label>
+                    <input value="{{$video->tampilan}}" name="tampilan" type="text" class="form-control" id="tampilan" placeholder="Tampilan">
                 </div>
             </div>
             <hr>

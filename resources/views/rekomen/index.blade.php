@@ -81,7 +81,7 @@
                                     @else
                                     <p>Tidak ada foto .</p>
                                     @endif
-                                </td>                
+                                </td>
                                 {{-- <td>{{$rekomen->jenis_kelamin}}</td> --}}
                                 <td>
                                     <center>
@@ -92,7 +92,7 @@
                                         Hapus</a>
                                     {{-- <a href="/rekomen/{{$rekomen->id}}/show" class="btn btn-success btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-child"></i> Detail</a> --}}
                                     @endif
-                            
+
                                 </div>
                             </center>
                                 </td>
