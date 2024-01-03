@@ -307,7 +307,7 @@ background-position: center;" >
             <div style="width: 300px; height: 100px; background: linear-gradient(0deg, white 0%, white 100%), linear-gradient(180deg, white 0%, #ECF4FF 100%); box-shadow: 9.123505592346191px 22.808765411376953px 45.617530822753906px rgba(0, 0, 0, 0.15); border-radius: 25px; border: 0.91px #C3C3C3 solid">
      <div class="card-title" style="margin-top: 10px; margin-left:10px;">
          <img src="assets/img/bg/problem-solve.png" alt="" style="width: 80px;">
-        <div style="margin-top: -70px; margin-left:100px; color:#000;">Menemukan solusi dari masalah skripsi 
+        <div style="margin-top: -70px; margin-left:100px; color:#000;">Menemukan solusi dari masalah skripsi
         </div>
         </div>
             </div>
@@ -341,7 +341,7 @@ background-position: center;" >
 
 <div class="row">
     <div class="col">
-        <div style="width: 180px; margin-top: 40px; height: 100px; background: #F5F5F4; linear-gradient(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
+        <div style="width: 180px; margin-top: 40px; height: 100px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
             <div class="card-title" style="margin-top: 10px; margin-left:10px;">
                 <img style="margin-top:15px; "   src="assets/img/bg/ps1.png" alt="">
                 <div style="margin-top: -80px; margin-left:90px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">24+</div>
@@ -350,7 +350,7 @@ background-position: center;" >
         </div>
     </div>
     <div class="col">
-        <div style=" margin-left:-80px; width: 180px; margin-top: 40px; height: 100px; background: #F5F5F4; linear-gradient(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
+        <div style=" margin-left:-80px; width: 180px; margin-top: 40px; height: 100px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
             <div class="card-title" style="margin-top: 10px; margin-left:10px;">
                 <img style="margin-top:15px;" src="assets/img/bg/ps2.png" alt="">
                 <div style="margin-top: -80px; margin-left:90px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">24+</div>
@@ -1052,7 +1052,7 @@ background-position: center;" >
                     </div>
                 </div>
 
-                  <h4  style="background-color: font-family: Manrope; text-align: center; font-size: 50px; margin-top: 20px; color: black;" >Konsultasi Reguler yang tersedia<br/>di Bimbingan Skripsi Online (BSO)</h4>               
+                  <h4  style="background-color: font-family: Manrope; text-align: center; font-size: 50px; margin-top: 20px; color: black;" >Konsultasi Reguler yang tersedia<br/>di Bimbingan Skripsi Online (BSO)</h4>
 </section> -->
 
 <section id="paketmentor" class="paketmentor" style="background-color: #ffff; margin-top: -50px; ">
@@ -1071,20 +1071,20 @@ background-position: center;" >
               <!-- test1 -->
               <div style="margin-top: 100px; margin-left: -50px; width: 100%; height: 100%; position: relative">
                 <div style="width: 100px;  left: 0px; top: 0px; position: absolute">
-                    <div style="width: 30px; height: 30px; left: 30px; top: 8px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #09326F; border-radius: 9999px"> 
+                    <div style="width: 30px; height: 30px; left: 30px; top: 8px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #09326F; border-radius: 9999px">
                     </div>
                     <div style=" width: 100px; height: 100px; left: 190px; top: 0px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #3E87F8; border-radius: 9999px">
                     </div>
                 </div>
                 <!-- Macbook-->
-          
+
                 <div style="margin-top: -68px; width:1606px; height: 55px; left: 103px; top: 13px; position: absolute">
                 <div style="width: 1214px; height: 55px; margin-left: -5px; left: 0px; top: 0px; position: absolute; background: rgba(233.75, 233.75, 233.75, 0.75); border-top-left-radius: 55px; border-top-right-radius: 55px; backdrop-filter: blur(130.68px)"></div>
                 <div style="width: 22.65px; height: 22.65px; left: 50.71px; top: 15.39px; position: absolute; background: #FF0000; border-radius: 9999px"></div>
                 <div style="width: 22.65px; height: 22.65px; left: 89.54px; top: 15.39px; position: absolute; background: #FFC700; border-radius: 9999px"></div>
                 <div style="width: 22.65px; height: 22.65px; left: 128.36px; top: 15.39px; position: absolute; background: #00D930; border-radius: 9999px"></div>
                 </div>
-              </div>  
+              </div>
 
               <!-- body Macbook -->
          <div class="card text-center ml-5 mr-5" style="height: 445px; width: 1214px; border-radius: 0 0 25px 25px;">
@@ -1095,12 +1095,12 @@ background-position: center;" >
                </div>
                   <!-- Regular botton gold -->
                <div style="margin-top: 50px; width: 100%; text-align: center; color: white; font-size: 32px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">REGULER GOLD</div>
-        
+
              <!-- Regular botton  PLATINUM -->
-             <div style="margin-top: 50px; width: 100%; text-align: center; color: white; font-size: 32px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">REGULER PLATINUM</div>  
+             <div style="margin-top: 50px; width: 100%; text-align: center; color: white; font-size: 32px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">REGULER PLATINUM</div>
 
             <!-- Regular botton  TITANIUM -->
-             <div style="margin-top: 50px; width: 100%; text-align: center; color: white; font-size: 32px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">REGULER TITANIUM</div>  
+             <div style="margin-top: 50px; width: 100%; text-align: center; color: white; font-size: 32px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">REGULER TITANIUM</div>
 
              </div>
                 <!-- akhir botton  -->
@@ -1147,8 +1147,8 @@ background-position: center;" >
                     </div>
                 </div>
 
-                  <h4  style="background-color: font-family: Manrope; text-align: center; font-size: 50px; margin-top: -2px;" >Konsultasi Reguler</h4>
-                   <h4  style="background-color: font-family: Manrope; text-align: center;" >Memiliki delapan jenis konsultasi reguler dengan rincian dan biaya sebagai berikut</h4>
+                  <h4  style=" font-family: Manrope; text-align: center; font-size: 50px; margin-top: -2px;" >Konsultasi Reguler</h4>
+                   <h4  style=" font-family: Manrope; text-align: center;" >Memiliki delapan jenis konsultasi reguler dengan rincian dan biaya sebagai berikut</h4>
 
 
 
@@ -1389,7 +1389,7 @@ background-position: center;" >
 
 
 <!-- <section id="testimonials" class="testimonials"style="margin-top: 20px ;margin-bottom:30px; background: #dae4f3;;background-size: cover; background-color:#dae4f3; ">
-</section>  -->       
+</section>  -->
 
 <section id="testimonials" class="testimonials"style="margin-top: 20px ;margin-bottom:30px; background: url(assets/img/bg/bgmentor.png);background-size: cover;">
 
@@ -1482,8 +1482,7 @@ background-position: center;" >
                                                 <img src="assets/img/bg/al3.png" class="img-fluid" style="width: 255px; margin-left:-30px;  margin-top:5px; alt="">
                                             </div>
                                             <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                                            {{-- <img src="assets/img/bg/al3.png" class="img-fluid" style="width: 255px;"
-                                                alt=""> --}}
+                                            {{-- <img src="assets/img/bg/al3.png" class="img-fluid" style="width: 255px;"alt=""> --}}
                                         </div>
                                         <div class="member-infoo">
                                             <br>

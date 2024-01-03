@@ -34,8 +34,7 @@
             <div class="row">
                 <!-- Left Section with Logo and Text -->
                 <div class="col-lg-3 col-md-3">
-                    <a href="index.php"><img src="{{ asset('assets/img/logo/logo3.png') }}" style="width:80% "
-                            alt=""></a>
+                    <a href="index.php"><img src="{{ asset('assets/img/logo/logo3.png') }}" style="width:80% " alt=""></a>
                     <div class="text-container">
                         {{-- <p>Bimbingan Belajar Online Perkuliahan dan Persiapan Karir dengan Sistem Kenaikan Kelas Pertama di Indonesia.</p> --}}
                     </div>
@@ -45,14 +44,11 @@
                 <div class="col-lg-4 col-md-3 ml-auto">
                     <div class="social-links" style="text-align: right;">
                         <a href="https://www.tiktok.com/@classprogram" class="tiktok"><i class="bx bxl-tiktok"></i></a>
-                        <a href="https://www.instagram.com/classprogram.id/" class="instagram"><i
-                                class="bx bxl-instagram"></i></a>
-                        <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube"><i
-                                class="bx bxl-youtube"></i></a>
+                        <a href="https://www.instagram.com/classprogram.id/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube"><i class="bx bxl-youtube"></i></a>
                     </div>
                 </div>
-                <img src="assets/img/bg/footergaris.png" height="200px;" alt="Background Image" class="garis1"
-                    style=" stroke: #003EB5;
+                <img src="assets/img/bg/footergaris.png" height="200px;" alt="Background Image" class="garis1" style=" stroke: #003EB5;
         position: absolute;
                width: 1100px;
                margin-inline-start: -130px;
@@ -73,15 +69,15 @@
                 <div class="col-lg-4 col-md-3 footer-links">
                     <h4>Hubungi Kami</h4>
                     <ul>
-                        <li><a href="Kelas-Tugas-Kuliah" ><b>Alamat :</b> Jalan Bandara <br> <br>
+                        <li><a href="Kelas-Tugas-Kuliah"><b>Alamat :</b> Jalan Bandara <br> <br>
                                 Palmerah IV No. D-11B,<br> <br> Cemorokandang,<br> <br> Kedungkandang, Kota Malang, <br>
                                 <br> Jawa Timur <br> </a></li>
-                        <li><a href="Kelas-Tugas-Kuliah" ><b>Email : </b>classprogram.id@gmail.com
+                        <li><a href="Kelas-Tugas-Kuliah"><b>Email : </b>classprogram.id@gmail.com
                                 <br></a></li>
-                        <li><a href="Kelas-Tugas-Kuliah" > <b>Whatsapp : </b> 0812-3436-1959 <br></a>
+                        <li><a href="Kelas-Tugas-Kuliah"> <b>Whatsapp : </b> 0812-3436-1959 <br></a>
                         </li>
-                        <li><a href="Kelas-Tugas-Kuliah" > <b>Partnership : </b> <br> </a></li>
-                        <li><a href="Kelas-Tugas-Kuliah" > classprogram. id@gmailcom <br> <br> </a>
+                        <li><a href="Kelas-Tugas-Kuliah"> <b>Partnership : </b> <br> </a></li>
+                        <li><a href="Kelas-Tugas-Kuliah"> classprogram. id@gmailcom <br> <br> </a>
                         </li>
 
                     </ul>
@@ -91,15 +87,15 @@
                 <div class="col-lg-4 col-md-3 footer-links">
                     <h4>Program Kelas</h4>
                     <ul>
-                        <li><a href="Kelas-Tugas-Kuliah" >Kelas Tugas Kuliah (KTK) </a></li>
-                        <li> <a href="Kelas-Tugas-Kuliah" >Bimbingan Mata Kuliah Jurusan </a></li>
-                        <li>  <a href="Kelas-Tugas-Kuliah" > (BMJ) <br> </a></li>
-                        <li>  <a href="Kelas-Tugas-Kuliah" > Bimbingan Skripsi Online (BSO)</a></li>
-                        <li>  <a href="Kelas-Tugas-Kuliah" >Kelas Persiapan Karir (KPK) </a></li>
-                        <li> <a href="Kelas-Tugas-Kuliah" >Creative Class <br> </a></li>
-                        <li><a href="Kelas-Tugas-Kuliah" ><b>Workshop : </b> <br></a></li>
-                        <li><a href="Kelas-Tugas-Kuliah" >Skripsi<br></a></li>
-                        <li><a href="Kelas-Tugas-Kuliah" > Karya Tulis Ilmiah (KTI) <br></a></li>
+                        <li><a href="#">Kelas Tugas Kuliah (KTK) </a></li>
+                        <li> <a href="#">Bimbingan Mata Kuliah Jurusan </a></li>
+                        <li> <a href="#"> (BMJ) <br> </a></li>
+                        <li> <a href="#"> Bimbingan Skripsi Online (BSO)</a></li>
+                        <li> <a href="#">Kelas Persiapan Karir (KPK) </a></li>
+                        <li> <a href="#">Creative Class <br> </a></li>
+                        <li><a href="#"><b>Workshop : </b> <br></a></li>
+                        <li><a href="#">Skripsi<br></a></li>
+                        <li><a href="#"> Karya Tulis Ilmiah (KTI) <br></a></li>
                         {{-- <li>
                     <a href="https://maps.app.goo.gl/Qx8hR99kDTW1mEQx7"  target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
@@ -121,8 +117,8 @@
                 <div class="col-lg-4 col-md-3 footer-links">
                     <h4>Daftar Sekarang</h4>
                     <ul>
-                        <li><a href="Kelas-Tugas-Kuliah" >Daftar</a></li>
-                        <li><a href="Kelas-Tugas-Kuliah" >Masuk</a></li>
+                        <li><a href="Kelas-Tugas-Kuliah">Daftar</a></li>
+                        <li><a href="Kelas-Tugas-Kuliah">Masuk</a></li>
                         <img src="{{ asset('assets/img/bg/hp.png') }}" alt="Workshop Image">
                     </ul>
                 </div>
@@ -137,8 +133,7 @@
 
 
         <div class="container">
-            <hr
-                style="   border: none;
+            <hr style="   border: none;
   height: 2px; /* Default height */
   background-color: white; margin-bottom: -300;">
         </div>
@@ -171,18 +166,18 @@
       <img src="{{ asset('assets/img/logo/wa3.png') }}" alt="WhatsApp" />
     </div>
     <div id="message-popup" onclick="preventPopupClose(event);">
-      <div id="popup-header">
-        <h3>Class Program</h3>
-        <button id="close-popup-button" onclick="closePopup();">×</button>
-      </div>
-      <div class="message-container">
-        <div class="message">Selamat datang di Class Program. Jika ada yang ingin di tanyakan, silakan hubungi Minma di sini</div>
-        <!-- <div class="user-message">Baik, terima kasih!</div> -->
-      </div>
-      <button id="send-message-button" onclick="sendMessage();">
-        <img id="send-icon" src="assets/img/logo/kirim.png" alt="Kirim Pesan" />
-        Kirim Pesan
-      </button>
+        <div id="popup-header">
+            <h3>Class Program</h3>
+            <button id="close-popup-button" onclick="closePopup();">×</button>
+        </div>
+        <div class="message-container">
+            <div class="message">Selamat datang di Class Program. Jika ada yang ingin di tanyakan, silakan hubungi Minma di sini</div>
+            <!-- <div class="user-message">Baik, terima kasih!</div> -->
+        </div>
+        <button id="send-message-button" onclick="sendMessage();">
+            <img id="send-icon" src="assets/img/logo/kirim.png" alt="Kirim Pesan" />
+            Kirim Pesan
+        </button>
     </div> --}}
 
     <div id="whatsapp-button" onclick="openWhatsApp()">
@@ -192,8 +187,7 @@
 
     <div class="popup-bro" id="popup-bro">
         <p>
-            <strong
-                style="color: black;
+            <strong style="color: black;
         font-family: Manrope;
         font-size: 16px;
         font-style: normal;
@@ -271,7 +265,7 @@
                 month: currentMonth,
                 text: "have registered<br><strong>Yohanes Hernandes</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
-            
+
             {
                 date: currentDay,
                 month: currentMonth,

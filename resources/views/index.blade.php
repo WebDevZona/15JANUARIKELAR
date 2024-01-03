@@ -830,12 +830,10 @@
                             @foreach($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
                             <div class="single_left_coloum">
                                 <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" />
-                                <p style="color:black;">VIDEO : <a style="color:black;" href="{{ $penegnbalikcuk->tampilan }}">{{ $penegnbalikcuk->judul }}</a></p>
+                                <p style="color:black;">Youtube : <a style="color:black;" href="{{ $penegnbalikcuk->tampilan }}">{{ $penegnbalikcuk->judul }}</a></p>
                             </div>
                             @endforeach
                             @endif
-
-
                         </div>
                     </div>
                     <span class="left-scroll-button" onclick="scrollLeft()">
@@ -874,95 +872,86 @@
                     <h4 style="margin-bottom: 20px">Tips Menarik</h4>
 
                     <div class="single_left_coloum_wrapper" id="scrollableColumn1">
-                        {{-- <a href="{{ route('index') }}">Ke Halaman Video</a> <a href="{{ route('index') }}">Ke Halaman Video</a> --}}
-                        {{-- @foreach($data as $video)
+                        @if($berita->isNotEmpty())
+                        @foreach($data->sortByDesc('created_at')->take(10) as $video)
                         <div class="single_left_coloum">
                             <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail" />
-                        <a href="https://www.instagram.com/reel/CzbEX7lpniE/?utm_source=ig_web_copy_link">{{ $video->judul }}</a>
-                        <p></p>
-                        <p>{{ $video->tampilan }}</p>
-                    </div>
-                    @endforeach --}}
-
-                    @if($berita->isNotEmpty())
-                    @foreach($data->sortByDesc('created_at')->take(10) as $video)
-                    <div class="single_left_coloum">
-                        <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail" />
-                        <p style="color:black;"><a style="color:black;" href="{{ $video->link }}">{{ $video->judul }}</a></p>
-                        <!-- <p><a href="{{ $video->tampilan }}">{{ $video->judul }}</a></p> -->
-                    </div>
-                    @endforeach
-                    @endif
-                    <!-- Add more content here -->
-                </div>
-                <span class="left-scroll-button1" onclick="scrollLeft1()">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-left: 5px;" viewBox="0 0 40" fill="none">
-                        <g filter="url(#filter0_b_229_15)">
-                            <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
-                            <!-- Mengubah path panah ke kiri -->
-                            <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="white" />
-                        </g>
-                        <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
-                    </svg>
-                </span>
-                <span class="right-scroll-button1" onclick="scrollRight1()">
-                    <!-- Add right-scroll icon here -->
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-right: -42px;" viewBox="0 0 40" fill="none">
-                        <g filter="url(#filter0_b_229_15)">
-                            <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
-                            <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
-                        </g>
-                        <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="none" stroke="white" stroke-width="3" />
-                        <defs>
-                            <filter id="filter0_b_229_15" x="-5" y="-5" width="63" height="63" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                <feFlood flood-opacity="2" result="BackgroundImageFix" />
-                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.5" />
-                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_229_15" />
-                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_229_15" result="shape" />
-                            </filter>
-                        </defs>
-                    </svg>
-
-                </span>
-                {{-- </div> --}}
-            </div>
-
-
-            <div class="right_coloum floatright">
-                <div class="single_right_coloum">
-                    <h4 style="margin-left: -5px;margin-bottom: 30px">Artikel Populer</h4>
-
-                    <div class="single_cat_right_content">
-
-                        @if($berita->isNotEmpty())
-                        @foreach($berita->sortByDesc('created_at')->take(5) as $item)
-                        <div class="right_image">
-                            <img src="{{ asset('foto_upload/' . $item->foto) }}" alt="Youtube Thumbnail" style="width: 195px; height: auto;" />
-                        </div>
-                        <br>
-                        <div class="left_content">
-                            <h3>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none" style=" float: left; margin-right: 5px; width: 14px; height: 19px;">
-                                    <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                                {{ $item->sumber }}
-                            </h3>
-                            <p>
-                                <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
-                                    {{ $item->judul }}
-                                </strong>
-                            </p>
-                            <p class="single_cat_right_content_meta" style="color: #696969; font-family: Manrope; font-style: normal; line-height: normal;">
-                                {{ $item->waktu }}
-                            </p>
+                            <!-- video->tampilan -->
+                            <p style="color:black;">Instagram : <a style="color:black;" href="{{ $video->tampilan  }}">{{ $video->judul }}</a></p>
+                            <!-- <p><a href="{{ $video->tampilan }}">{{ $video->judul }}</a></p> -->
                         </div>
                         @endforeach
+                        @endif
+                        <!-- Add more content here -->
                     </div>
-                    @endif
+                    <span class="left-scroll-button1" onclick="scrollLeft1()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-left: 5px;" viewBox="0 0 40" fill="none">
+                            <g filter="url(#filter0_b_229_15)">
+                                <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                                <!-- Mengubah path panah ke kiri -->
+                                <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="white" />
+                            </g>
+                            <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+                        </svg>
+                    </span>
+                    <span class="right-scroll-button1" onclick="scrollRight1()">
+                        <!-- Add right-scroll icon here -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-right: -42px;" viewBox="0 0 40" fill="none">
+                            <g filter="url(#filter0_b_229_15)">
+                                <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                                <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
+                            </g>
+                            <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+                            <defs>
+                                <filter id="filter0_b_229_15" x="-5" y="-5" width="63" height="63" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="2" result="BackgroundImageFix" />
+                                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.5" />
+                                    <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_229_15" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_229_15" result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
 
-
+                    </span>
+                    {{-- </div> --}}
                 </div>
-            </div>
+
+
+                <div class="right_coloum floatright">
+                    <div class="single_right_coloum">
+                        <h4 style="margin-left: -5px;margin-bottom: 30px">Artikel Populer</h4>
+
+                        <div class="single_cat_right_content">
+
+                            @if($berita->isNotEmpty())
+                            @foreach($berita->sortByDesc('created_at')->take(5) as $item)
+                            <div class="right_image">
+                                <img src="{{ asset('foto_upload/' . $item->foto) }}" alt="Youtube Thumbnail" style="width: 195px; height: auto;" />
+                            </div>
+                            <br>
+                            <div class="left_content">
+                                <h3>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none" style=" float: left; margin-right: 5px; width: 14px; height: 19px;">
+                                        <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    {{ $item->sumber }}
+                                </h3>
+                                <p>
+                                    <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
+                                        {{ $item->judul }}
+                                    </strong>
+                                </p>
+                                <p class="single_cat_right_content_meta" style="color: #696969; font-family: Manrope; font-style: normal; line-height: normal;">
+                                    {{ $item->waktu }}
+                                </p>
+                            </div>
+                            @endforeach
+                        </div>
+                        @endif
+
+
+                    </div>
+                </div>
     </section>
 
     <section id="testimonials" class="testimonials" style="margin-top: -100px;  margin-bottom:60px;  background: url(assets/img/bg/bgmentor.png);background-size: cover;">

@@ -96,21 +96,21 @@
     <!-- ======= Cart Section ======= -->
     <section id="card-skripsi" class="card-skripsi">
       <div class="container">
-   
-       
+
+
           <div style="width: 100%; text-align: center; color: black; font-size: 50px; font-family: Montserrat; font-weight: 700; line-height: 74.75px; ">Materi Pelatihan KTI</div>
-             
+
              <style>
               .card {
-                  width: 100%; 
-                  height: 100%; 
-                  overflow: hidden; 
+                  width: 100%;
+                  height: 100%;
+                  overflow: hidden;
               }
 
               .card img {
                   width: 100%;
-                  height: 100%; 
-                  object-fit: cover; 
+                  height: 100%;
+                  object-fit: cover;
               }
               </style>
 
@@ -136,14 +136,14 @@
                       </div>
                   </div>
               </div>
-          </div> 
+          </div>
       </div>
     </section>
     <!-- ======= End Cart Section ======= -->
 
 
     <!-- ======= Benefit Section ======= -->
-    <section id="benefit" class="benefit">
+    <section id="benefit" class="benefit" style="margin-top: -280px;">
       <div class="container" data-aos="fade-up">
         <div class="d-flex" style="margin-left: 400px; margin-top:-20px ">
           <a href="#pricing" class="btn-get-started scrollto" style="display: flex;
@@ -173,7 +173,7 @@
         </div>
 
         <div class="card" style="border-radius: 25px; height:850px;">
-         
+
 
           <div >
           <div class="roww" style="margin-top:50px;">
@@ -194,7 +194,7 @@
 
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
               <div  style="height: 450px; border-radius: 20px; margin-left:25px;">
-               
+
                 <div class="konsultasi-content">
                   <div class="member-img">
                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
@@ -272,8 +272,8 @@
 
 
 
-     
-        </div>  
+
+        </div>
       </div>
     </section>
     <!-- ======= End Benefit Section ======= -->
@@ -292,7 +292,7 @@
                 </div>
               </div>
               <!-- <img style="margin-left:-440px; margin-top:40px; width:900px;"  class="profile-image" src="assets/img/bg/friska.png" alt="Gambar Profil"> -->
-            
+
             </div>
           </div>
         </div>
@@ -404,19 +404,19 @@
         <div class="accordion">
           <div class="accordion-item">
             <div class="accordion-header">
-              <h1>1. Where is my order? Quisque molestie</h1> 
+              <h1>1. Where is my order? Quisque molestie</h1>
               <span class="icon" style=" margin-left: 445px;"><img src="assets/img/bg/_.png" style="width: 35px;"></span>
             </div>
             <div class="accordion-content">
               <p>Content for Section 1 goes here.</p>
             </div>
-          </div> 
+          </div>
 
           <div class="accordion-item">
             <div class="accordion-header">
             <h1> 2. How can I return an item purchased online?</h1>
             <span class="icon" ><img src="assets/img/bg/_.png" style="width: 35px;"></span>
-            </div> 
+            </div>
             <div class="accordion-content">
               <p>The are going to use a passage of Lorem Ipsum, you need to be sure tdembarrassing hidden in the middle of text. All the Lorem generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
             </div>
@@ -430,7 +430,7 @@
             <div class="accordion-content">
               <p>Content for Section 1 goes here.</p>
             </div>
-          </div> 
+          </div>
 
           <div class="accordion-item">
             <div class="accordion-header">
@@ -440,7 +440,7 @@
             <div class="accordion-content">
               <p>Content for Section 1 goes here.</p>
             </div>
-          </div> 
+          </div>
 
           <div class="accordion-item">
             <div class="accordion-header">
@@ -450,7 +450,7 @@
             <div class="accordion-content">
               <p>Content for Section 1 goes here.</p>
             </div>
-          </div> 
+          </div>
 
 
         </div>
