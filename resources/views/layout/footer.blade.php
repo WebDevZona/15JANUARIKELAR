@@ -117,8 +117,8 @@
                 <div class="col-lg-4 col-md-3 footer-links">
                     <h4>Daftar Sekarang</h4>
                     <ul>
-                        <li><a href="Kelas-Tugas-Kuliah">Daftar</a></li>
-                        <li><a href="Kelas-Tugas-Kuliah">Masuk</a></li>
+                        <li><a href="#">Daftar</a></li>
+                        <li><a href="#">Masuk</a></li>
                         <img src="{{ asset('assets/img/bg/hp.png') }}" alt="Workshop Image">
                     </ul>
                 </div>
@@ -193,7 +193,7 @@
         font-style: normal;
         font-weight: 800;
         line-height: normal;
-        margin:bottom :50px">Selamat
+        margin:bottom 50px">Selamat
                 Sobat Insans Telah Mendaftar</strong>
         </p>
         <div class="month-box" id="month-box">

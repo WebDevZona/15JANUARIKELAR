@@ -424,6 +424,8 @@
                 </div>
             </div>
         </div>
+
+
         <form id="registration-form" method="POST" action="{{ route('registration.submit') }}">
             <h1 style="font-size: 45px; color:#000; margin-top: 15px;"><strong> Daftar <br> Akun Class Program</strong></h1>
 
@@ -478,16 +480,15 @@
             <button type="button" id="next-button-step-1">
                 <span style="margin-right: 5px;"></span> <i class="fa fa-arrow-right"> Next </i>
             </button>
-
-            <center style="margin-top: -40px;">
-                <div class="form-groupz">
-                    <button type="submit">
-                        <span><img src="assets/img/logo/gogle.png"></span> Masuk dengan Google
-                    </button>
-                </div>
-            </center>
-
         </form>
+
+        <center style="margin-top: -40px;">
+            <div class="form-groupz">
+                <button type="submit">
+                    <span><img src="assets/img/logo/gogle.png"></span> Masuk dengan Google
+                </button>
+            </div>
+        </center>
 
         <!-- Step 2: Name Input (Initially hidden) -->
         <div id="step-2" style="display: none;">
