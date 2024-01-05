@@ -399,7 +399,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="/pembelian/bso" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -453,7 +453,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="/pembelian/bso" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -498,7 +498,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="/pembelian/bso" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -541,7 +541,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="/pembelian/bso" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -837,7 +837,7 @@
                                     <div class="single_left_coloum">
                                         <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank">
                                             <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" />
-                                            <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                            <svg class="play-iconn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                                 <path d="M8 5v14l11-7z" />
                                             </svg>
                                             <p style="color:black;">Youtube : <span style="color:black;">{{ $penegnbalikcuk->judul }}</span></p>
