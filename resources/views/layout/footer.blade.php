@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <img src="assets/img/bg/footergaris.png" height="200px;" alt="Background Image" class="garis1" style=" stroke: #003EB5;
-        position: absolute;
+        position: absolute; 
                width: 1100px;
                margin-inline-start: -130px;
                margin-top: 260px;
@@ -69,15 +69,15 @@
                 <div class="col-lg-4 col-md-3 footer-links">
                     <h4>Hubungi Kami</h4>
                     <ul>
-                        <li><a href="Kelas-Tugas-Kuliah"><b>Alamat :</b> Jalan Bandara <br> <br>
+                        <li><a href="#"><b>Alamat :</b> Jalan Bandara <br> <br>
                                 Palmerah IV No. D-11B,<br> <br> Cemorokandang,<br> <br> Kedungkandang, Kota Malang, <br>
                                 <br> Jawa Timur <br> </a></li>
-                        <li><a href="Kelas-Tugas-Kuliah"><b>Email : </b>classprogram.id@gmail.com
+                        <li><a href="#"><b>Email : </b>classprogram.id@gmail.com
                                 <br></a></li>
-                        <li><a href="Kelas-Tugas-Kuliah"> <b>Whatsapp : </b> 0812-3436-1959 <br></a>
+                        <li><a href="#"> <b>Whatsapp : </b> 0812-3436-1959 <br></a>
                         </li>
-                        <li><a href="Kelas-Tugas-Kuliah"> <b>Partnership : </b> <br> </a></li>
-                        <li><a href="Kelas-Tugas-Kuliah"> classprogram. id@gmailcom <br> <br> </a>
+                        <li><a href="#"> <b>Partnership : </b> <br> </a></li>
+                        <li><a href="#"> classprogram. id@gmailcom <br> <br> </a>
                         </li>
 
                     </ul>
