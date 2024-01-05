@@ -91,7 +91,7 @@
                     </div>
 
                 </div>
-                <div class="inijudulbso" style="font-family: Montserrat;">
+                <div class="inijudulbso" style="font-family:'Manrope';">
                     <h2 style=" margin: 0px 0px 0px 0px; font-size: 55px;
                         font-style: normal;
                         font-weight: 600;
@@ -363,7 +363,7 @@ background-position: center;">
             <h3 style="text-align: center; color: #000;
                     margin-bottom: 50px;
                     font-family: Montserrat;
-                    font-size: 35px;
+                    font-size: 50px;
                     font-style: normal;
                     margin-top: -50px;
                     font-weight: 700;
@@ -543,153 +543,7 @@ background-position: center;">
         </section>
 
 
-        {{-- <section id="featured-services" class="featured-services">
-    <div class="container" data-aos="fade-up">
-        <div class="text-center mt-4 mb-4">
-            <a href="#" class="btn btn-primary change-content" data-target="all">Semua Paket</a>
-            <a href="#" class="btn btn-primary change-content" data-target="ktk">Paket Silver</a>
-            <a href="#" class="btn btn-primary change-content" data-target="bso">Paket Gold</a>
-            <a href="#" class="btn btn-primary change-content" data-target="kpk">Paket Platinum</a>
-            <a href="#" class="btn btn-primary change-content" data-target="kpi">Paket Diamond</a>
-        </div>
-
-
-
-        <div class="content" id="all-content">
-        <div class="row justify-content-center">
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-                <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                    <h4 class="title"><a href="#">Paket Silver</a></h4>
-                    <p class="description">Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan dalam pembuatan dan penyusunan judul skripsi.</p>
-                </div>
-            </div>
-
-
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4 class="title"><a href="">
-  Paket Gold</a></h4>
-                <p class="description">Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan menuju Seminar Proposal (Sempro) atau bimbingan bab 1-3.</p>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4 class="title"><a href="">Paket Platinum</a></h4>
-                <p class="description">Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan menuju sidang skripsi atau bimbingan bab 4 hingga selesai.</p>
-              </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4 class="title"><a href="">Paket Diamond</a></h4>
-                <p class="description">Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan Simulasi Seminar Proposal dan Sidang Skripsi.</p>
-              </div>
-            </div>
-
-        </div>
-        </div>
-
-       <div class="content" id="bso-content" style="display: none;">
-       <div class="col-md-9 col-lg-6 d-flex align-items-center mb-5 mb-lg-0 ">
-             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-               <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
-               <h4 class="title"><a href="">
-                Paket Gold</a></h4>
-               <p class="description">Dikhususkan kepada Sobat Insans yang sedang <br> membutuhkan bimbingan menuju Seminar Proposal (Sempro) atau bimbingan bab 1-3.</p>
-               <br>
-               <ul>
-           <li class="left-aligned">
-               <span class="checkmark">&#10003;</span>
-               <span class="feature-text">Sobat Insans akan dibantu dalam memahami proses penyusunan proposal penelitian skripsi.</span>
-           </li>
-
-
-           <li class="left-aligned">
-               <span class="checkmark">&#10003;</span>
-               <span class="feature-text">Sobat Insans akan diberikan berbagai materi dasar seputar proposal skripsi oleh mentor untuk memudahkan proses penyusunan.</span>
-           </li>
-       </ul>
-             </div>
-           </div>
-       </div>
-       <div class="content" id="kpk-content" style="display: none;">
-       <div class="col-md-9 col-lg-6 d-flex align-items-center mb-5 mb-lg-0 ">
-             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-               <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
-               <h4 class="title"><a href="">
- Paket Platinum</a></h4>
-               <p class="description">Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan menuju sidang skripsi atau bimbingan bab 4 hingga selesai.</p>
-               <br>
-               <ul>
-           <li class="left-aligned">
-               <span class="checkmark">&#10003;</span>
-               <span class="feature-text">Sobat Insans akan dibantu dalam memahami proses penyusunan hasil dan pembahasan penelitian skripsi.</span>
-           </li>
-
-           <li class="left-aligned">
-               <span class="checkmark">&#10003;</span>
-               <span class="feature-text">Sobat Insans akan diberikan berbagai materi dasar seputar menganalisis penelitian skripsi oleh mentor untuk memudahkan proses penyusunan.</span>
-           </li>
-       </ul>
-             </div>
-           </div>
-       </div>
-       <div class="content" id="kpi-content" style="display: none;">
-       <div class="col-md-9 col-lg-6 d-flex align-items-center mb-5 mb-lg-0 ">
-             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-               <!-- <div class="icon"><i class="bx bx-world"></i></div> -->
-               <h4 class="title"><a href="">Paket Diamond</a></h4>
-               <p class="description">Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan Simulasi Seminar Proposal dan Sidang Skripsi.</p>
-               <br>
-               <ul>
-           <li class="left-aligned">
-               <span class="checkmark">&#10003;</span>
-               <span class="feature-text">Sobat Insans akan dibimbing dalam pembuatan dan cara mempresentasikan powerpoint seminar proposal dan sidang skripsi.</span>
-           </li>
-
-
-           <li class="left-aligned">
-               <span class="checkmark">&#10003;</span>
-               <span class="feature-text">Sobat Insans akan dibimbing dalam simulasi seminar proposal dan sidang skripsi.</span>
-           </li>
-       </ul>
-             </div>
-           </div>
-       </div>
-       </div>
-   </div>
-    <script>
-        const changeContentButtons = document.querySelectorAll('.change-content');
-        const contentContainers = document.querySelectorAll('.content');
-
-        contentContainers.forEach(container => {
-            container.style.display = 'none';
-        });
-
-        document.getElementById('all-content').style.display = 'block';
-
-        changeContentButtons.forEach(button => {
-            button.addEventListener('click', function (event) {
-                event.preventDefault();
-                const target = this.getAttribute('data-target');
-
-                contentContainers.forEach(container => {
-                    container.style.display = 'none';
-                });
-
-                const contentContainer = document.getElementById(`${target}-content`);
-                if (contentContainer) {
-                    contentContainer.style.display = 'block';
-                }
-            });
-        });
-</script> --}}
-
+ 
 
         <!-- ======= Pricing Section ======= -->
         <section id="pricing" class="pricing" style=" margin-top:-200px; margin-bottom: -300px; background-color:#09326f;">
@@ -705,7 +559,7 @@ background-position: center;">
                 <div>
                     <!-- <h3 class="bsa" style="color:white;">Bimbingan Skripsi Online (BSO)</h3> -->
                     <h3 style="color:white; font-size: 50px; text-align:center; margin-top:20px;">Bimbingan Skripsi Online (BSO)</h3>
-                    <h4 style="margin-bottom: 100px; text-align: center; color:white;">Memiliki lima jenis paket hemat dengan rincian dan biyaya</h4>
+                    <h4 style="margin-bottom: 100px; text-align: center; color:white;">Memiliki lima jenis paket hemat dengan rincian dan biaya sebagai berikut:</h4>
                 </div>
 
                 <div class="row align-items-center justify-content-center">
@@ -1138,8 +992,8 @@ background-position: center;">
                     </div>
                 </div>
 
-                <h4 style=" font-family: Manrope; text-align: center; font-size: 50px; margin-top: -2px;">Konsultasi Reguler</h4>
-                <h4 style=" font-family: Manrope; text-align: center;">Memiliki delapan jenis konsultasi reguler dengan rincian dan biaya sebagai berikut</h4>
+                <h4 style=" font-family: Montserrat; text-align: center; font-size: 50px; margin-top: 30px; color:#000; font-weight:bold;">Konsultasi Reguler</h4>
+                <h4 style=" font-family: Montserrat; text-align: center; color:#000;">Memiliki delapan jenis konsultasi reguler dengan rincian dan biaya sebagai berikut</h4>
 
 
 
@@ -1193,8 +1047,8 @@ background-position: center;">
                                 </ul>
                                 </p>
                             </div>
-                            <div class="card-footer text-center" style="border-radius: 25px;">
-                                <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <div class="card-footer text-center" style="border-radius: 10px;">
+                                <a href="#" class="btn btn-primary" style="border-radius: 10px; align-content: center;">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -1239,7 +1093,7 @@ background-position: center;">
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 25px;">
-                                <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                                <a href="#" class="btn btn-primary" style="border-radius: 10px; align-content: center;">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -1282,7 +1136,7 @@ background-position: center;">
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 25px;">
-                                <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                                <a href="#" class="btn btn-primary" style="border-radius: 10px; align-content: center;">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -1433,7 +1287,7 @@ background-position: center;">
 
                             <!-- Anggota Tim 2 -->
                             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                                <div class="konsultasi-content">
+                                <div class="konsultasi-content" style="padding-top: 20px">
                                     <h4>2. Lakukan Pembayaran</h4>
                                     <div class="member-img">
                                         <div style="position: relative; display: flex; align-items: center;">
@@ -1536,7 +1390,8 @@ background-position: center;">
                                     </button>
                                 </h2>
                                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
-                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                    <div class="accordion-body">Sobat Insan boleh menyampaikan keinginannya untuk dibimbing oleh mentor perempuan atau laki-laki, namun ini 
+                                        bersifat kondisional selama pilihan mentor masih tersedia</div>
                                 </div>
                             </div>
                             <div class="accordion-item">
@@ -1582,15 +1437,10 @@ background-position: center;">
                                     <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                                 </div>
                             </div>
-
+                            <div class="text-center" style="margin-top:50px;">
+                                <a href="#pricing" class="btn btn-primary" style="border-radius: 10px; align-content: center;">Baca selengkapnya</a>
+                            </div>
                         </div>
-                        <!--            <a href="#pricing" style="width: 100%; margin-top: 25px; height: auto; position: relative; display: flex; align-items: center; justify-content: center; text-decoration: none;">
-                                    <div style="width: 200px; height: 50px; position: relative; background: #0849B2; border-radius: 20.32px;">
-                                        <div style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); color: white; font-size: 20px; font-family: Raleway; font-weight: 700; word-wrap: break-word">
-                                            Baca selengkapnya
-                                        </div>
-                                    </div>
-                                 </a> -->
 
                     </div>
                 </div>
