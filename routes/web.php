@@ -12,9 +12,19 @@
 */
 
 
+<<<<<<< HEAD
 // Route::get('/', function () {
 //     return redirect()->route('index');
 // });
+=======
+// Route::get('/vidio/index', 'VideoController@index')->name('video');
+
+
+// Route::get('/', function () {
+//     return redirect()->route('index');
+// });
+
+>>>>>>> 7b3f08057427757a3d3233386e571c6ff5286f77
 
 // tampilannya
 Route::get('/index', 'tampilanController@index')->name('index');
@@ -432,9 +442,14 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
     // Route::get('/', function () {
     //     return view('/index');
     // });
+<<<<<<< HEAD
     //aldi
     Route::get('/', function () {
         return view('/index');
+=======
+    Route::get('/', function () {
+       return view('/dashboard');
+>>>>>>> 7b3f08057427757a3d3233386e571c6ff5286f77
     });
 
     Route::get('/dashboard', 'DashboardController@index');
