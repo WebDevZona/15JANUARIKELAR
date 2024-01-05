@@ -63,7 +63,7 @@
             <div class="judulkedua" style="font-family:'Manrope';">
                 <h3>Semua Bisa</h3>
                 <h3>Lulus Kuliah</h3>
-                <p style="letter-spacing:1px; font-family: Inter; margin-top:15px;">Bimbingan belajar online perkuliahan
+                <p style="letter-spacing:1px; font-family: Manrope; margin-top:15px;">Bimbingan belajar online perkuliahan
                     dan persiapan <br> karir dengan
                     sistem kenaikan kelas pertama <br> di Indonesia yang menyediakan berbagai
                     macam <br> program kelas serta akan dibimbing langsung oleh <br> mentor yang ahli di bidangnya.</p>
@@ -717,20 +717,21 @@
                                 line-height: 100%; /* 82.685px */
                                 letter-spacing:1px;
                                 /* Add drop shadow properties */
-                                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);"
+                                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                                text-align: left;"
                                 >
                             WORKSHOP CLASS PROGRAM</h3>
                         <div class="content-selector  mb-4" style="margin-top:10px;">
                             <button id="content1Btn" class="btn btn-primary active"><b>Skripsi</b></button>
                             <button id="content2Btn" class="btn btn-primary"><b>KTI</b></button>
                         </div>
-                        <p style="font-size: 18px;">
+                        <p style="font-size: 18px; text-align: left;">
                             Workshop yang bertujuan untuk mendalami materi penyusunan skripsi dengan
                             sistematika yang baik <br> dan benar. Berikut keuntungan yang bisa Sobat Insans dapatkan:
                         </p>
                         <ul>
-                            <li style="font-size: 15px;">
-                                <span class="circle">
+                            <li style="font-size: 15px; text-align: left;">
+                                <span class="circle active">
                                     <span class="check">
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
                                     </span>
@@ -738,7 +739,7 @@
                                 Mendapatkan pelatihan dalam penyusunan dan pembuatan skripsi oleh mentor yang ahli di
                                 bidangnya.
                             </li>
-                            <li style="font-size: 15px;">
+                            <li style="font-size: 15px; text-align: left;">
                                 <span class="circle">
                                     <span class="check">
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
@@ -772,18 +773,21 @@
                             font-weight: 800;
                             /* line-spacing: 2px; */
                             line-height: 100%; /* 82.685px */
-                            letter-spacing:1px;">
+                            letter-spacing:1px;
+                             /* Add drop shadow properties */
+                             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                             text-align: left;">
                             WORKSHOP CLASS PROGRAM</h3>
                         <div class="content-selector  mb-4" style="margin-top:10px;">
                             <button id="content3Btn" class="btn btn-primary active"><b>Skripsi</b></button>
                             <button id="content4Btn" class="btn btn-primary"><b>KTI</b></button>
                         </div>
-                        <p style="font-size: 18px;">
+                        <p style="font-size: 18px; text-align: left;">
                             Workshop yang bertujuan untuk mendalami materi penyusunan serta pembuatan Karya Tulis Ilmiah
                             (KTI) dengan baik dan benar. Berikut keuntungan yang bisa Sobat Insans dapatkan:
                         </p>
                         <ul>
-                            <li style="font-size: 15px;">
+                            <li style="font-size: 15px; text-align: left;">
                                 <span class="circle">
                                     <span class="check">
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
@@ -792,7 +796,7 @@
                                 Mendapatkan pelatihan dalam penyusunan dan pembuatan Karya Tulis Ilmiah (KTI) oleh
                                 mentor yang ahli di bidangnya.
                             </li>
-                            <li style="font-size: 15px;">
+                            <li style="font-size: 15px; text-align: left;">
                                 <span class="circle">
                                     <span class="check">
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">

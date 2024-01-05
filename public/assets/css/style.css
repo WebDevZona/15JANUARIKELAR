@@ -1094,7 +1094,7 @@ background: url(assets/img/bg/bso1.png);
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 
@@ -4136,7 +4136,7 @@ height: 500px;
   width: 100%;
   text-align: center;
   padding: 10px 32px;
-  border-radius: 50px;
+  border-radius: 10px;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -7131,6 +7131,8 @@ svg {
     max-width: 500px;
     margin: 50px auto;
     box-shadow: 0 0 1px rgba(0,0,0,0.1);
+
+    margin-left: 30px;
   }
   .myaccordion .card,
   .myaccordion .card:last-child .card-header {

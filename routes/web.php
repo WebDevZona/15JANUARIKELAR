@@ -15,9 +15,9 @@
 // Route::get('/vidio/index', 'VideoController@index')->name('video');
 
 
-Route::get('/', function () {
-    return redirect()->route('index');
-});
+// Route::get('/', function () {
+//     return redirect()->route('index');
+// });
 
 
 // tampilannya
@@ -451,6 +451,9 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
     // Route::get('/', function () {
     //     return view('/index');
     // });
+    Route::get('/', function () {
+       return view('/dashboard');
+    });
 
     Route::get('/dashboard', 'DashboardController@index');
 
