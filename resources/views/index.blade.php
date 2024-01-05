@@ -986,7 +986,7 @@
             <div class="youtubeeeeeee">
                 <div class="gabung">
                     <!-- Ganti dengan path gambar profil Anda -->
-                    <div class="info">  
+                    <div class="info">
                         <h1 style=" margin-left:100px; text-align: center; color: #FFF; font-family: Poppins; font-size: 40px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">Lebih Dekat dengan Class Program</h1>
 
                         <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt" style="border-radius: 50%; width: 89px; height: 89px; display: inline-block;">
@@ -1017,6 +1017,8 @@
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
         </div>
+
+        <H1>Haldian</H1>
 
         <div class="galeri-container">
             <div class="image-container">
