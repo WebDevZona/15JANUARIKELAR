@@ -32,22 +32,26 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <!-- Left Section with Logo and Text -->
-                <div class="col-lg-3 col-md-3">
-                    <a href="index.php"><img src="{{ asset('assets/img/logo/logo3.png') }}" style="width:80% " alt=""></a>
-                    <div class="text-container">
-                        {{-- <p>Bimbingan Belajar Online Perkuliahan dan Persiapan Karir dengan Sistem Kenaikan Kelas Pertama di Indonesia.</p> --}}
+                 <!-- Left Section with Logo and Text -->
+                 <div class="col-2" >
+                    <a href="index.php"><img src="{{ asset('assets/img/logo/logo3.png') }}" style="width:100%" alt=""></a>
+                </div>
+
+                <div class="col-lg-4 col-md-3">
+                    <div class="text-container" >
+                        <p>Bimbingan Belajar Online Perkuliahan dan Persiapan Karir dengan Sistem Kenaikan Kelas Pertama di Indonesia.</p>
                     </div>
                 </div>
 
-                <!-- Right Section with Social Media Links -->
-                <div class="col-lg-4 col-md-3 ml-auto">
-                    <div class="social-links" style="text-align: right;">
-                        <a href="https://www.tiktok.com/@classprogram" class="tiktok"><i class="bx bxl-tiktok"></i></a>
-                        <a href="https://www.instagram.com/classprogram.id/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube"><i class="bx bxl-youtube"></i></a>
-                    </div>
+               <!-- Right Section with Social Media Links -->
+                
+               <div class="col-lg-4 col-md-3 ml-auto">
+                <div class="social-links" style="text-align: right;">
+                    <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style=" padding: 10px;"><i class="bx bxl-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle" style=" padding: 10px;"><i class="bx bxl-tiktok"></i></a>
+                    <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle" style=" padding: 10px;"><i class="bx bxl-instagram"></i></a>
                 </div>
+            </div>
                 <img src="assets/img/bg/footergaris.png" height="200px;" alt="Background Image" class="garis1" style=" stroke: #003EB5;
         position: absolute; 
                width: 1100px;
