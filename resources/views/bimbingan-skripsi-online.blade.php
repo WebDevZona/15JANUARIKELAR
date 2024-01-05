@@ -145,7 +145,7 @@
                         <video width="280" height="500" controls style="margin-left: 120px; margin-top: 160px" id="myVideo">
                             <source src="assets/vidio/1.mp4" type="video/mp4">
                         </video>
-                        <button class="play-button" onclick="togglePlay()">▶ </button>
+                        {{-- <button class="play-button" onclick="togglePlay()">▶ </button> --}}
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
                         {{-- text --}}
@@ -1395,7 +1395,7 @@ background-position: center;">
             <div class="background-faq"></div>
             <div class="container kontener" data-aos="fade-up">
                 <div class="row">
-                    <div class="col-xl-6" style="margin-bottom: 50px;">
+                    <div class="col-xl-8" style="margin-bottom: 50px;">
                         <div class="section-title" style="margin-bottom: 50px;">
                             <h3 style="margin-top:0px !important">Paling Sering Ditanyakan</h3>
                         </div>
