@@ -374,10 +374,6 @@ background-position: center;">
             <div class="card text-center  ml-5 mr-5 " style="border-radius: 25px;">
                 <div class="card-header bg-primary" style="border-radius: 25px; margin-top:-10px;">
                     <style>
-                        /* .color-white {
-                color: blue;
-            } */
-
                         .color-white2 {
                             color: white;
                         }
@@ -385,36 +381,58 @@ background-position: center;">
                         .color-blue {
                             color: blue;
                         }
-
+                
                         .bg-blue {
                             background-color: white;
                             border-radius: 50%;
-
                         }
-
+                
                         .border-radius {
                             border-radius: 50%;
                         }
                     </style>
                     <ul class="nav nav-pills card-header-pills" id="buttonGroup">
                         <li class="nav-item" style="border-radius:50%">
-                            <button style="border-radius: 50px" class="nav-link color-white border-radius bg-blue" onclick="showContent('content1')"><b>PAKET SILVER</b></button>
+                            <button style="border-radius: 50px" class="nav-link color-white2" onclick="showContent('content1')"><b>PAKET SILVER</b></button>
                         </li>
                         <li class="nav-item">
-                            <button class="nav-link color-white2 border-radius" onclick="showContent('content2')" data-target="all"><b>PAKET GOLD</b></button>
+                            <button style="border-radius: 50px" class="nav-link color-white2" onclick="showContent('content2')"><b>PAKET GOLD</b></button>
                         </li>
                         <li class="nav-item">
-                            <button class="nav-link color-white2 border-radius" onclick="showContent('content3')"><b>PAKET PLATINUM</b></button>
+                            <button style="border-radius: 50px" class="nav-link color-white2" onclick="showContent('content3')"><b>PAKET PLATINUM</b></button>
                         </li>
                         <li class="nav-item">
-                            <button class="nav-link color-white2 border-radius" onclick="showContent('content4')"><b>PAKET DIAMOND</b></button>
+                            <button style="border-radius: 50px" class="nav-link color-white2" onclick="showContent('content4')"><b>PAKET DIAMOND</b></button>
                         </li>
                         <li class="nav-item">
-                            <button class="nav-link color-white2 border-radius" onclick="showContent('content5')"><b>PAKET COMPLETE</b></button>
+                            <button style="border-radius: 50px" class="nav-link color-white2" onclick="showContent('content5')"><b>PAKET COMPLETE</b></button>
                         </li>
                     </ul>
-
                 </div>
+                
+                <script>
+                    // Menambahkan logika untuk mengubah warna tombol saat diklik
+                    var buttons = document.querySelectorAll('.nav-link');
+                    buttons.forEach(function(button) {
+                        button.addEventListener('click', function() {
+                            buttons.forEach(function(btn) {
+                                btn.classList.remove('bg-blue', 'active');
+                                btn.style.backgroundColor = ''; // Menghapus style latar belakang yang mungkin ditetapkan sebelumnya
+                                btn.style.color = ''; // Menghapus style warna teks yang mungkin ditetapkan sebelumnya
+                            });
+                            this.classList.add('bg-blue', 'active');
+                            this.style.backgroundColor = 'white'; // Setel latar belakang menjadi putih
+                            this.style.color = 'blue'; // Setel warna teks menjadi biru
+                        });
+                    });
+                
+                    // Fungsi untuk menampilkan konten sesuai dengan tombol yang diklik
+                    function showContent(contentId) {
+                        // Logika untuk menampilkan konten
+                    }
+                </script>
+                
+                
 
 
                 <div id="content1" class="content active">
@@ -1378,8 +1396,8 @@ background-position: center;">
             <div class="container kontener" data-aos="fade-up">
                 <div class="row">
                     <div class="col-xl-6" style="margin-bottom: 50px;">
-                        <div class="section-title">
-                            <h3>Paling Sering Ditanyakan</h3>
+                        <div class="section-title" style="margin-bottom: 50px;">
+                            <h3 style="margin-top:0px !important">Paling Sering Ditanyakan</h3>
                         </div>
 
                         <div class="accordion" id="accordionFlushExample">
