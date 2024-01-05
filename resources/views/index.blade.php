@@ -77,7 +77,7 @@
                     <div class="count-boxes">
                         <div class="count-box">
                             <div class="left-content">
-                                <span style="font-family: Manrope;"><b>2979</b></span><span style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px; font-family: Manrope; ">+</span>
+                                <span style="font-family: Manrope;"><b>2979</b></span><span class="plus" style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px; font-family: Manrope; ">+</span>
                             </div>
                             <div class="right-content" style="margin-left:0px">
                                 {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
@@ -292,7 +292,7 @@
     <!-- ======= PAKET POPULER UNTUK MAHASISWA ======= -->
     <section id="popup" class="popup" style="padding:30px 0 80px 0;">
         <div class="button-container mb-4" style="margin-top:0px;">
-            <span style="float: left; margin-left: 6%;"><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:11px;margin-right:5px"></span>
+            <span style="float: left; margin-left: 6%;"><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:0px;margin-right:5px"></span>
             <h1 class="custom-text" style=" font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; margin-left: 5px; margin-right:10px;">Paket
                 populer untuk </h1>
             <button type="button" class="custom-button" data-toggle="modal" data-target="#tulis" aria-hidden="true" style="font-family: Arial, sans-serif; margin-top: 2px;">Mahasiswa <i class="fa-solid fa-chevron-down"></i></button>
@@ -715,7 +715,10 @@
                                 font-weight: 800;
                                 /* line-spacing: 2px; */
                                 line-height: 100%; /* 82.685px */
-                                letter-spacing:1px;">
+                                letter-spacing:1px;
+                                /* Add drop shadow properties */
+                                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);"
+                                >
                             WORKSHOP CLASS PROGRAM</h3>
                         <div class="content-selector  mb-4" style="margin-top:10px;">
                             <button id="content1Btn" class="btn btn-primary active"><b>Skripsi</b></button>
@@ -825,19 +828,23 @@
                     <h4 style="margin-bottom: 30px">Rekomendasi untukmu</h4>
                     <div class="single_left_coloum_wrapper" id="scrollableColumn">
                         <div class="scrollable_left_coloum">
-
                             @if($berita->isNotEmpty())
-                            @foreach($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
-                            <div class="single_left_coloum">
-                                <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" />
-                                <p style="color:black;">Youtube : <a style="color:black;" href="{{ $penegnbalikcuk->tampilan }}">{{ $penegnbalikcuk->judul }}</a></p>
-                            </div>
-                            @endforeach
+                                @foreach($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
+                                    <div class="single_left_coloum">
+                                        <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank">
+                                            <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" />
+                                            <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M8 5v14l11-7z" />
+                                            </svg>
+                                            <p style="color:black;">Youtube : <span style="color:black;">{{ $penegnbalikcuk->judul }}</span></p>
+                                        </a>
+                                    </div>
+                                @endforeach
                             @endif
                         </div>
                     </div>
                     <span class="left-scroll-button" onclick="scrollLeft()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px;" viewBox="0 0 35" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px; margin-top: 50px;" viewBox="0 0 35" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                                 <!-- Mengubah path panah ke kiri -->
@@ -849,7 +856,7 @@
 
 
                     <span class="right-scroll-button" onclick="scrollRight()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -40px;" viewBox="0 0 35" style="float: right;" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -30px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                                 <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
@@ -868,22 +875,23 @@
                     <hr style="border: 1px solid rgba(0, 0, 0, 0.48);margin-top:10px;margin-bottom:10px;">
 
 
-
                     <h4 style="margin-bottom: 20px">Tips Menarik</h4>
-
                     <div class="single_left_coloum_wrapper" id="scrollableColumn1">
                         @if($berita->isNotEmpty())
-                        @foreach($data->sortByDesc('created_at')->take(10) as $video)
-                        <div class="single_left_coloum">
-                            <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail" />
-                            <!-- video->tampilan -->
-                            <p style="color:black;">Instagram : <a style="color:black;" href="{{ $video->tampilan  }}">{{ $video->judul }}</a></p>
-                            <!-- <p><a href="{{ $video->tampilan }}">{{ $video->judul }}</a></p> -->
-                        </div>
-                        @endforeach
+                            @foreach($data->sortByDesc('created_at')->take(10) as $video)
+                                <a href="{{ $video->tampilan }}" style="text-decoration: none; color: black;">
+                                    <div class="single_left_coloum">
+                                        <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail" />
+                                        <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                            <path d="M8 5v14l11-7z" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            @endforeach
                         @endif
                         <!-- Add more content here -->
                     </div>
+
                     <span class="left-scroll-button1" onclick="scrollLeft1()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-left: 5px;" viewBox="0 0 40" fill="none">
                             <g filter="url(#filter0_b_229_15)">
@@ -1011,7 +1019,7 @@
                                     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);">
             <!-- <h2>About</h2> -->
             <div class="left-align" style=" text-align: left;">
-                <h3 style="font-weight: 800;color:black; margin-left: 120px; font-family: 'Manrope', sans-serif; ">Janji Mentor <br> Untuk Sobat
+                <h3 style="font-weight: 800;color:black; margin-left: 150px; font-family: 'Manrope', sans-serif; ">Janji Mentor <br> Untuk Sobat
                     Insans...</h3>
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
