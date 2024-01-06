@@ -455,7 +455,7 @@
                                 <div style="text-align: center; margin-top: 25px; margin-left: 400px; margin-right: auto;">
                                     <style>
                                         .nav-item button {
-                                            border-bottom: 2px solid gray;
+                                            border-bottom: 2px solid rgb(245, 239, 239);
                                             /* Remove the default button border */
                                             color: gray;
                                             /* Set the default text color */
@@ -470,6 +470,7 @@
                                             /* background-color: white; */
                                             /* Warna latar belakang saat tombol diklik */
                                             color: white;
+                                            
                                         }
 
 
@@ -482,7 +483,7 @@
                                     </style>
 
                                     <ul class="nav nav-pills card-header-pills" id="buttonGroup">
-                                        <li class="nav-item active" style="margin-left: -100px; margin-right: 80px;">
+                                        <li class="nav-item" style="margin-left: -100px; margin-right: 80px;">
                                             <button class="nav-link color-white border-radius" onclick="TampilKonten('kontenbmj1')"><b>PAKET BRONZE</b></button>
                                         </li>
                                         <li class="nav-item" style="margin-right: 80px;">
@@ -504,6 +505,29 @@
                                         button.parentElement.classList.add('active');
                                     }
                                 </script> -->
+                                <script>
+                                    // Menambahkan logika untuk mengubah warna tombol saat diklik
+                                    var buttons = document.querySelectorAll('.nav-link');
+                                    buttons.forEach(function(button) {
+                                        button.addEventListener('click', function() {
+                                            buttons.forEach(function(btn) {
+                                                btn.classList.remove('bg-blue', 'active');
+                                                btn.style.backgroundColor = ''; // Menghapus style latar belakang yang mungkin ditetapkan sebelumnya
+                                                btn.style.color = ''; // Menghapus style warna teks yang mungkin ditetapkan sebelumnya
+                                                btn.style.borderRadius = '';
+                                            });
+                                            this.classList.add('bg-blue', 'active');
+                                            this.style.backgroundColor = 'white'; // Setel latar belakang menjadi putih
+                                            this.style.color = 'blue'; // Setel warna teks menjadi biru
+                                            this.style.borderRadius = '20px';
+                                        });
+                                    });
+                                
+                                    // Fungsi untuk menampilkan konten sesuai dengan tombol yang diklik
+                                    function showContent(contentId) {
+                                        // Logika untuk menampilkan konten
+                                    }
+                                </script>
 
                                 </div>
 
@@ -1053,7 +1077,8 @@
                                         </button>
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                        <div class="accordion-body" style="text-align: left">Sobat insan boleh memilih mata kuliah apa aja sesuai semester yang sedang sobat insan tempuh. 
+                                            Sobat insans bisa bimbingan maksimal 6 mata kuliah, baik dari mata kuliah umum maupun mata kuliah khusus.
                                     </div>
                                 </div>
                                 <div class="accordion-item">
