@@ -399,7 +399,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="/pembelian/bso" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -453,7 +453,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="/pembelian/bso" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -498,7 +498,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="/pembelian/bso" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -541,7 +541,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="/pembelian/bso" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -837,7 +837,7 @@
                                     <div class="single_left_coloum">
                                         <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank">
                                             <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" />
-                                            <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                            <svg class="play-iconn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                                 <path d="M8 5v14l11-7z" />
                                             </svg>
                                             <p style="color:black;">Youtube : <span style="color:black;">{{ $penegnbalikcuk->judul }}</span></p>
@@ -1000,8 +1000,9 @@
                     <!-- Ganti dengan path gambar profil Anda -->
                     <div class="info">
                         <h1 style=" margin-left:100px; text-align: center; color: #FFF; font-family: Poppins; font-size: 40px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">Lebih Dekat dengan Class Program</h1>
+
                         <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt" style="border-radius: 50%; width: 89px; height: 89px; display: inline-block;">
-                            <svg style="margin-left: 400px;" xmlns="http://www.w3.org/2000/svg" width="89" height="89" viewBox="0 0 89 89" fill="none">
+                            <svg style="margin-left: 400px; margin-top:50px;" xmlns="http://www.w3.org/2000/svg" width="89" height="89" viewBox="0 0 89 89" fill="none">
                                 <circle cx="44.5" cy="44.5" r="44.5" fill="white" />
                                 <path d="M67.9943 33.2904C67.4238 31.1456 65.736 29.4535 63.5887 28.8736C59.7062 27.833 44.1284 27.833 44.1284 27.833C44.1284 27.833 28.5586 27.833 24.6681 28.8736C22.5287 29.4456 20.841 31.1376 20.2626 33.2904C19.2246 37.1829 19.2246 45.3094 19.2246 45.3094C19.2246 45.3094 19.2246 53.4359 20.2626 57.3283C20.8331 59.4732 22.5208 61.1652 24.6681 61.7451C28.5586 62.7857 44.1284 62.7857 44.1284 62.7857C44.1284 62.7857 59.7062 62.7857 63.5887 61.7451C65.7281 61.1731 67.4158 59.4811 67.9943 57.3283C69.0322 53.4359 69.0322 45.3094 69.0322 45.3094C69.0322 45.3094 69.0322 37.1829 67.9943 33.2904Z" fill="#FF3000" />
                                 <path d="M39.1524 52.8004L52.0916 45.3094L39.1524 37.8184V52.8004Z" fill="white" />
@@ -1629,35 +1630,35 @@
 
         });
 
-        var scrollableColumn1 = document.querySelector('#scrollableColumn1');
-        var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
+        // var scrollableColumn1 = document.querySelector('#scrollableColumn1');
+        // var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
 
-        function scrollLeft() {
-            scrollableColumn1.scrollLeft -= scrollAmount;
-        }
+        // function scrollLeft() {
+        //     scrollableColumn1.scrollLeft -= scrollAmount;
+        // }
 
-        function scrollRight1() {
-            scrollableColumn1.scrollLeft += scrollAmount;
-        }
+        // function scrollRight1() {
+        //     scrollableColumn1.scrollLeft += scrollAmount;
+        // }
 
-        var scrollableColumn = document.querySelector('#scrollableColumn');
-        var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
+        // var scrollableColumn = document.querySelector('#scrollableColumn');
+        // var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
 
-        function scrollLeft(scrollableElement, scrollAmount) {
-            scrollableElement.scrollLeft -= scrollAmount;
-        }
+        // function scrollLeft(scrollableElement, scrollAmount) {
+        //     scrollableElement.scrollLeft -= scrollAmount;
+        // }
 
-        function scrollRight() {
-            scrollableColumn.scrollLeft += scrollAmount;
+        // function scrollRight() {
+        //     scrollableColumn.scrollLeft += scrollAmount;
 
-            if (scrollableColumn.scrollLeft >= scrollableColumn.scrollWidth - scrollableColumn.clientWidth) {
-                // Konten mencapai akhir, kembali ke awal
-                scrollableColumn.scrollTo({
-                    left: 0,
-                    behavior: 'smooth'
-                });
-            }
-        }
+        //     if (scrollableColumn.scrollLeft >= scrollableColumn.scrollWidth - scrollableColumn.clientWidth) {
+        //         // Konten mencapai akhir, kembali ke awal
+        //         scrollableColumn.scrollTo({
+        //             left: 0,
+        //             behavior: 'smooth'
+        //         });
+        //     }
+        // }
 
 
         $("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
@@ -1667,6 +1668,24 @@
                 .toggleClass("fa-minus fa-plus");
         })
     </script>
+    <script>
+    function scrollLeft() {
+        document.getElementById('scrollableColumn').scrollLeft -= 200;
+    }
+
+    function scrollRight() {
+        document.getElementById('scrollableColumn').scrollLeft += 200;
+    }
+
+    function scrollLeft1() {
+        document.getElementById('scrollableColumn1').scrollLeft -= 200;
+    }
+
+    function scrollRight1() {
+        document.getElementById('scrollableColumn1').scrollLeft += 200;
+    }
+</script>
+
     {{-- Animasi angka --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
