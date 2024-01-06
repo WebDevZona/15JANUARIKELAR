@@ -130,8 +130,8 @@
 
         .back-to-home {
             position: absolute;
-            top: 50px;
-            right: 10px;
+            margin-top: 50%;
+            right: 40%;
         }
 
 
@@ -156,14 +156,10 @@
         }
 
         .back-to-home {
-            background-color: #bfbfbf;
-            /* Warna latar belakang */
+            background-color: green;
             padding: 10px 20px;
-            /* Padding untuk tata letak tombol */
             border-radius: 50px;
-            /* Sudut bulat */
             text-align: center;
-            /* Teks ditengahkan di dalam div */
         }
 
         .back-to-home a {
@@ -172,6 +168,7 @@
             color: white;
             /* Warna teks */
             font-weight: bold;
+            margin-top: -10px;
             /* Tebalkan teks */
         }
 
@@ -294,9 +291,9 @@
                     /* Jarak antara ikon dan label */
                 }
             </style>
-            <img width="300px;" src="assets/img/logo/logo1.png" alt="">
+            <img style="margin-top: -20px;" width="300px;" src="assets/img/logo/logo1.png" alt="">
         </div>
-        <div class="card" style="margin-top: 30px; border-radius: 25px; ">
+        <div class="card" style="margin-top: 40px; margin-botton:30px;  border-radius: 25px; ">
             <h4 class="forgot-password" style="margin-top: 20px;">Lupa Password?</h4>
             <div class="input-label">Masukkan email yang terdaftar di akunmu</div>
             <form action="{{ route('proses-kirim-email') }}" method="POST">
@@ -317,12 +314,15 @@
                 <div class="form-group" style="text-align: center;">
                     <button type="submit">Kirim</button>
                 </div>
+                <div class="form-group" style="text-align: center;">
+                    <a href="login" style="margin-top:-10px; color:blue;"> <i class="fa fa-arrow-left"></i> Masuk akun</i></i></a>
+                </div>
             </form>
 
-            <div class="back-to-home">
-                <a href="login" style="color:white;"> <i class="fas fa-arrow-left"></i>Masuk akun</i></i></a>
-            </div>
+            <!-- <div class="back-to-home">
+            </div> -->
         </div>
+
 
 </body>
 

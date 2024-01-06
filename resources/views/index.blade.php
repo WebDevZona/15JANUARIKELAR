@@ -1030,6 +1030,8 @@
             </div>
         </div>
 
+        <H1>Haldian</H1>
+
         <div class="galeri-container">
             <div class="image-container">
                 <div class="thought-bubble">
