@@ -75,7 +75,7 @@
   </div>
   @if (auth()->user()->role == 'admin' || auth()->user()->role == 'PetugasAdministrasiKeuangan')
   <div class="col-md-9">
-    
+
   </div>
   <div class="col-md-3">
     {{-- <section class="content card" style="padding: 15px 15px 0px 15px "> --}}
@@ -97,6 +97,7 @@
             <a href="javascript:void(0)" class="product-title">Jumlah Pemasukan</a>
             <h5>@currency($jumlah_pemasukan),00</h5>
             <hr>
+
           </ul> --}}
           {{-- <ul class="products-list product-list-in-card pl-1 pr-1">
             <a href="javascript:void(0)" class="product-title">Jumlah Pengeluaran</a>
@@ -113,7 +114,7 @@
     {{-- </section> --}}
   </div>
   @endif
- 
+
 
 
   @endsection

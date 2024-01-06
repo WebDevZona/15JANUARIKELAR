@@ -101,7 +101,7 @@
                 </ul>
               </li>               --}}
 
-                {{-- <li><a class="nav-link scrollto" href="/artikel"style="margin-right:30px">Artikel</a></li> --}}
+                <li><a class="nav-link scrollto" href="nonaktif" style="margin-right:30px">Artikel</a></li>
                 <li><a class="nav-link scrollto" href="#konsultasi" style="margin-right:30px">Alur bimbingan</a></li>
 
                 <li><a class="nav-link scrollto" href="#testimonials" style="margin-right:30px">Mentor</a></li>

@@ -446,6 +446,9 @@ Route::group(['middleware' => ['auth', 'checkRole:Siswa']], function () {
     Route::get('/pembayaran/transaksipembayaran/{id}/siswaindex', 'TransaksiPembayaranController@siswaindex');
 });
 
+
+
+
 //Route untuk user Admin, Petugas Administrasi Surat dan Petugas Administrasi Keuangan
 Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuangan,PetugasAdministrasiSurat,user']], function () {
     // Route::get('/', function () {

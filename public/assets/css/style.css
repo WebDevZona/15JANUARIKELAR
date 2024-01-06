@@ -8266,7 +8266,7 @@ button {
     height: 50px; /* Adjust the size of the play icon */
     fill: #ffffff; /* Adjust the color of the play icon */
     transition: opacity 0.3s ease-in-out;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);
   }
 
 
@@ -8280,7 +8280,7 @@ button {
   height: 50px; /* Adjust the size of the play icon */
   fill: gray; /* Adjust the color of the play icon */
   transition: opacity 0.3s ease-in-out;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 10);
 }
 
 .overlay {
