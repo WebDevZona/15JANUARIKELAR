@@ -399,7 +399,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="/login" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -453,7 +453,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="/login" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -498,7 +498,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="/login" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -541,7 +541,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="/login" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -571,7 +571,7 @@
                         </div>
                         <br>
                         <div class="btn-wrap">
-                            <a href="bimbingan-skripsi-online" class="btn-buyy">Pilih Paket</a>
+                            <a class="btn-buyy" href="#pakethematbso">Pilih Paket</a>
                         </div>
                     </div>
                 </div>
@@ -692,7 +692,7 @@
                         </div>
                         <div class="video-description">
                             <p>Dapatkan Materi Menarik Lainnya</p>
-                            <a href="#" class="join-button">Daftar Sekarang</a>
+                            <a href="/pembelian/bso" class="join-button">Daftar Sekarang</a>
                         </div>
                     </div>
                     <!-- Right image -->
@@ -717,8 +717,12 @@
                                 line-height: 100%; /* 82.685px */
                                 letter-spacing:1px;
                                 /* Add drop shadow properties */
+<<<<<<< HEAD
+                                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
+=======
                                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-                                text-align: left;">
+                                text-align: left;"
+                                >
                             WORKSHOP CLASS PROGRAM</h3>
                         <div class="content-selector  mb-4" style="margin-top:10px;">
                             <button id="content1Btn" class="btn btn-primary active"><b>Skripsi</b></button>
@@ -832,17 +836,17 @@
                     <div class="single_left_coloum_wrapper" id="scrollableColumn">
                         <div class="scrollable_left_coloum">
                             @if($berita->isNotEmpty())
-                            @foreach($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
-                            <div class="single_left_coloum">
-                                <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank">
-                                    <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" />
-                                    <svg class="play-iconn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                        <path d="M8 5v14l11-7z" />
-                                    </svg>
-                                    <p style="color:black;">Youtube : <span style="color:black;">{{ $penegnbalikcuk->judul }}</span></p>
-                                </a>
-                            </div>
-                            @endforeach
+                                @foreach($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
+                                    <div class="single_left_coloum">
+                                        <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank">
+                                            <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" />
+                                            <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M8 5v14l11-7z" />
+                                            </svg>
+                                            <p style="color:black;">Youtube : <span style="color:black;">{{ $penegnbalikcuk->judul }}</span></p>
+                                        </a>
+                                    </div>
+                                @endforeach
                             @endif
                         </div>
                     </div>
@@ -1028,6 +1032,8 @@
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
         </div>
+
+        <H1>Haldian</H1>
 
         <div class="galeri-container">
             <div class="image-container">

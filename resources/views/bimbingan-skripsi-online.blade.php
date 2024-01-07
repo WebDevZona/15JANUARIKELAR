@@ -610,7 +610,7 @@ background-position: center;">
 
                             </ul>
                             <div class="custom-btn-wrap" style="margin-top:25%">
-                                <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
+                                <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -682,7 +682,7 @@ background-position: center;">
 
                             </ul>
                             <div class="custom-btn-wrap" style="margin-top:26%">
-                                <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
+                                <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
