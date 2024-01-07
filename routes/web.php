@@ -40,7 +40,7 @@ Route::get('/artikel', 'tampilanController@artikel')->name('artikel');
 
 
 Route::post('/pembelian', 'tampilanController@validateVoucher')->name('validateVoucher');
-
+Route::get('rekening', 'RekeningController@rekening')->name('rekening');
 
 // Route::post('/pembelian/cek-voucher/{id_produk}/{namaVoucher}', 'tampilanController@cekVoucher')->name('cek-voucher');
 // Route::get('/pembelian', 'tampilanController@pembelian')->name('pembelian');
@@ -455,7 +455,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
     //     return view('/index');
     // });
     Route::get('/', function () {
-       return view('/dashboard');
+        return view('/dashboard');
     });
 
     Route::get('/dashboard', 'DashboardController@index');

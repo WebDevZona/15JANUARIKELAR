@@ -581,149 +581,40 @@
 @section('content')
 
 <body>
-    <div class="luar">
-        <div class="pembayaran">
-            <h3 style="color: #333;">Form Data Diri</h3>
-            <div class="step-pembayaran">
-                <div class="step left">1</div>
-                <div class="separator" style=" border: 1px solid #007bff;     background-color: #007bff; "></div>
-                <div class="step center">2</div>
-                <div class="separator"></div>
-                <div class="step right">3</div>
-            </div>
-
-            <div class="registration-form">
-                <form class="row g-3 ">
-                    <div class="col-md-6">
-                        <label for="name">Nama Lengkap</label>
-                        <input value="{{$Users->name}}" class="form-control" name="name" type="text" id="name" placeholder="Nama">
-
-                    </div>
-
-                    <div class="col-md-6">
-                        <label for="jeniskelamin">Jenis Kelamin</label>
-                        <select id="jeniskelamin" name="jeniskelamin">
-                            <option value="laki-laki">Laki-Laki</option>
-                            <option value="perempuan">Perempuan</option>
-                        </select>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="email">Email</label>
-                        <input value="{{$Users->email}}" type="email" id="email" name="email" placeholder="Email">
-                        <div class="info">*Pastikan email kamu sudah benar</div>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="nomer">Nomor Telepon</label>
-                        <input type="text" value="{{$Users->nomer}}" id="nomer" name="nomer" placeholder="Nomor Telepon">
-                    </div>
-                    <div class="col-12">
-                        <label for="semester">Judul skripsi</label>
-                        <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
-                    </div>
-                    <div class="col-md-4">
-                        <label for="kampus">Kampus</label>
-                        <input type="text" value="{{$Users->kampus}}" id="kampus" name="kampus" placeholder="Kampus">
-                    </div>
-                    <div class="col-md-4">
-                        <label for="id_jurusan">Jurasan yang akan di pilih</label>
-                        <select id="jurasanSelect" class="form-select">
-                            <option selected>-- Pilih Jurasan --</option>
-                            <option>Teknik Informatika</option>
-                            <option>Mesin</option>
-                            <option>Ekonomi</option>
-                            <option>Kedokteran</option>
-                        </select>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="semester">Semester</label>
-                        <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
-                    </div>
-                    <div class="col-12">
-                        <label for="semester">Problem Selama bimbingan (Dosen)</label>
-                        <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
-                    </div>
-
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary"><a id="paket-link" style="color: #FFFFFF;" href="{{ route('pembayaran', [
-                    'id_produk' => $id_pesdik_login->id_produk,
-                    'id' => auth()->id( ),
-                    'nama_voucher' => isset($response->voucher) ? $response->voucher->nama : ''
-                ]) }}"> Lanjut <i class="fa fa-arrow-right"></i></button>
-                    </div>
 
 
 
-                </form>
-            </div>
-            {{-- <div class="info">Registrasi akun Satu Persen diperlukan untuk memilih jadwal mentoring.</div> --}}
-        </div>
-        <div id="popup" class="popup">
-            <!-- Konten popup di sini -->
-            <p>Mohon Maaf Untuk Sementara Jurusan yang Kamu Pilih Sudah Penuh Silakan Hubungi Minma</p>
-            <button id="chatButton">Chat via WhatsApp</button>
-            <button id="closePopup" class="close-button">Tutup</button>
-        </div>
-
-        <!-- Inside your existing HTML structure -->
-        <div class="pesanan-checkout" style="display: none;">
-            <div class="order-header">
-                <h3 style="color: #333;">Detail Pesanan</h3>
-            </div>
-            <div class="order-details">
-                <div class="item">
-                    <span>Program: {{$Produk->produk}}</span>
-                    <span>Paket: {{$Produk->produk}}</span>
-                    <span>Harga: ${{ number_format($Produk->harga, 2) }}</span>
-                    <div class="order-summary">
-                        @if ($voucher->discount ??'')
-                        <span>Discount: {{ $voucher->discount }}%</span>
-                        <span class="total">Total: ${{ number_format($Produk->harga - ($Produk->harga * ($voucher->discount / 100)), 2) }}</span>
+    <div class="col">
+        <div class="card mt-4 ml-4 mr-4 mb-4" style="border-radius:25px;  background: #F5F8FE;">
+            <div class="card-body">
+                <div class="row" style="margin: 100px;">
+                    <div class="col-6">
+                        <div class="kartu-kredit" style="margin-left: 150px;">
+                            <img class="logo-bank" src="{{ asset('assets/img/logo/BCA1.png') }}" alt="Logo Bank">
+                            <div class="nomor-kartu">
+                                1234 5678 9012 3456
+                            </div>
+                            <div class="nama-pemegang-kartu">
+                                NAMA PEMEGANG KARTU
+                            </div>
+                            <div class="tanggal-kedaluwarsa">
+                                THRU 12/23
+                            </div>
+                        </div>
                     </div>
+
+                    <h4 style="margin-top: -180px; margin-left: 500px;">Silahkan lakukan pembayaran sebesar 50.000 <br> dan unggah bukti transfernya</h4>
+                    <div class="input-group mb-3" style="width: 550px; margin-top: -90px; margin-left: 500px;">
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                    </div>
+                    <label style="width: 100px;  height: 40px; margin-top: -40px; margin-left: 511px;" class="input-group-text" for="inputGroupFile02">Upload</label>
                 </div>
-                <div class="order-total">
-                    <span>Total Harga: ${{ number_format($Produk->harga - ($Produk->harga * ($voucher->discount / 100)), 2) }}</span>
-                    <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
-                    <a style="margin-bottom: 20px;" href="/rekening" id="checkoutButton" onclick="showRekening()">Checkout</a>
 
-                </div>
-                @else
-                <span style="margin-bottom: 20px;" class="total">Total: ${{ number_format($Produk->harga, 2) }}</span>
-            </div>
-        </div>
-        <div class="order-total">
-            <span style="margin-bottom: 20px; margin-top:-50px;">Total Harga: ${{ number_format($Produk->harga, 2) }}</span>
-            <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
-            <a style="margin-bottom: 20px;" href="/rekening" id="checkoutButton" onclick="showRekening()">Checkout</a>
-
-            <!-- Ubah ID ini -->
-        </div>
-        @endif
-
-    </div>
-
-    <!-- <div id="rekeningInfo" style="display:none;">
-        <div class="kartu-kredit">
-            <img class="logo-bank" src="{{asset('assets/img/logo/BCA1.png')}}" alt="Logo Bank">
-            <div class="nomor-kartu">
-                1234 5678 9012 3456
-            </div>
-            <div class="nama-pemegang-kartu">
-                NAMA PEMEGANG KARTU
-            </div>
-            <div class="tanggal-kedaluwarsa">
-                THRU 12/23
             </div>
         </div>
 
-        <div class="unggah" style="float: right;width:50%;margin-top:-20%">
-            <label class="upload-button" for="file-upload">Unggah Foto</label>
-            <input id="file-upload" class="file-upload" type="file" accept="image/*" onchange="displayUploadedPhoto(this)">
-            <div id="uploaded-photo"></div>
-        </div>
-    </div> -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    </div>
-    </div>
+
+
 </body>
 <script>
     function showRekening() {
