@@ -32,13 +32,7 @@ Route::get('/skripsi', 'tampilanController@skripsi')->name('skripsi');
 Route::get('/nonaktif', 'tampilanController@nonaktif')->name('nonaktif');
 Route::get('/checkout/{id_produk}/{id}/{nama_voucher?}/{judulskripsi}/{problem}/{jurusan}', 'tampilanController@checkout')->name('checkout');
 
-Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
-Route::get('/pembelian/{id_produk}', 'tampilanController@Pengertian')->name('pembelian');
 
-Route::get('/artikel', 'tampilanController@artikel')->name('artikel');
-
-
-Route::post('/pembelian', 'tampilanController@validateVoucher')->name('validateVoucher');
 
 
 // Route::post('/pembelian/cek-voucher/{id_produk}/{namaVoucher}', 'tampilanController@cekVoucher')->name('cek-voucher');
@@ -428,6 +422,9 @@ Route::group(['middleware' => ['auth', 'checkRole:Siswa']], function () {
     Route::get('/tabungan/setor/{id}/siswaindex', 'SetorController@siswaindex');
     Route::get('/tabungan/tarik/{id}/siswaindex', 'TarikController@siswaindex');
     Route::get('/pembayaran/transaksipembayaran/{id}/siswaindex', 'TransaksiPembayaranController@siswaindex');
+
+    // pembelian
+
 });
 
 
@@ -443,13 +440,21 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
     //     return view('/index');
 
     Route::get('/', function () {
-       return view('/dashboard');
+        return view('/dashboard');
     });
 
     Route::get('/dashboard', 'DashboardController@index');
 
     Route::get('/pengumuman/index', 'PengumumanController@index');
     Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
+
+    Route::get('/artikel', 'tampilanController@artikel')->name('artikel');
+
+    Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
+    Route::get('/pembelian/{id_produk}', 'tampilanController@Pengertian')->name('pembelian');
+
+    Route::post('/pembelian', 'tampilanController@validateVoucher')->name('validateVoucher');
+    Route::get('rekening', 'RekeningController@rekening')->name('rekening');
 });
 
 //Route untuk user Admin, Petugas Administrasi Surat, Petugas Administrasi Keuangan dan Siswa

@@ -616,32 +616,26 @@
                         <label for="nomer">Nomor Telepon</label>
                         <input type="text" value="{{$Users->nomer}}" id="nomer" name="nomer" placeholder="Nomor Telepon">
                     </div>
-                    <div class="col-12">
+                    <!-- <div class="col-12">
                         <label for="semester">Judul skripsi</label>
                         <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
-                    </div>
+                    </div> -->
                     <div class="col-md-4">
                         <label for="kampus">Kampus</label>
                         <input type="text" value="{{$Users->kampus}}" id="kampus" name="kampus" placeholder="Kampus">
                     </div>
                     <div class="col-md-4">
-                        <label for="id_jurusan">Jurasan yang akan di pilih</label>
-                        <select id="jurasanSelect" class="form-select">
-                            <option selected>-- Pilih Jurasan --</option>
-                            <option>Teknik Informatika</option>
-                            <option>Mesin</option>
-                            <option>Ekonomi</option>
-                            <option>Kedokteran</option>
-                        </select>
+                    <label for="kampus">Kampus</label>
+                        <input type="text" value="{{$Users->jurusan}}" id="kampus" name="kampus" placeholder="Kampus">
                     </div>
                     <div class="col-md-4">
                         <label for="semester">Semester</label>
                         <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
                     </div>
-                    <div class="col-12">
+                    <!-- <div class="col-12">
                         <label for="semester">Problem Selama bimbingan (Dosen)</label>
                         <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
-                    </div>
+                    </div> -->
 
                     <div class="col-12">
                         <button type="submit" class="btn btn-primary"><a id="paket-link" style="color: #FFFFFF;" href="{{ route('pembayaran', [
@@ -690,7 +684,7 @@
                 <span style="margin-bottom: 20px;" class="total">Total: ${{ number_format($Produk->harga, 2) }}</span>
             </div>
         </div>
-        <div class="order-total">
+        <div class="order-total"> 
             <span style="margin-bottom: 20px; margin-top:-50px;">Total Harga: ${{ number_format($Produk->harga, 2) }}</span>
             <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
             <a style="margin-bottom: 20px;" href="/rekening" id="checkoutButton" onclick="showRekening()">Checkout</a>
