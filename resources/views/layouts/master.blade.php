@@ -139,110 +139,11 @@
                 @if (auth()->user()->role == 'user')
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <li class="nav-item">
-                        <a href="/produk/index" class="nav-link">
+                        <a href="/pembelian/bso" class="nav-link">
                             <i class="nav-icon fas fa-bars"></i>
 
                             <p>
-                                Produk
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/produk/index" class="nav-link">
-                            <i class="nav-icon fas fa-bars"></i>
-
-                            <p>
-                                Produk
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/produk/index" class="nav-link">
-                            <i class="nav-icon fas fa-bars"></i>
-
-                            <p>
-                                Produk
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/produk/index" class="nav-link">
-                            <i class="nav-icon fas fa-bars"></i>
-
-                            <p>
-                                Produk
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/produk/index" class="nav-link">
-                            <i class="nav-icon fas fa-bars"></i>
-
-                            <p>
-                                Produk
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/produk/index" class="nav-link">
-                            <i class="nav-icon fas fa-bars"></i>
-
-                            <p>
-                                Produk
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/produk/index" class="nav-link">
-                            <i class="nav-icon fas fa-bars"></i>
-
-                            <p>
-                                Produk
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/produk/index" class="nav-link">
-                            <i class="nav-icon fas fa-bars"></i>
-
-                            <p>
-                                Produk
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/produk/index" class="nav-link">
-                            <i class="nav-icon fas fa-bars"></i>
-
-                            <p>
-                                Produk
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/produk/index" class="nav-link">
-                            <i class="nav-icon fas fa-bars"></i>
-
-                            <p>
-                                Produk
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/produk/index" class="nav-link">
-                            <i class="nav-icon fas fa-bars"></i>
-
-                            <p>
-                                Produk
-                            </p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/produk/index" class="nav-link">
-                            <i class="nav-icon fas fa-bars"></i>
-
-                            <p>
-                                Produk
+                              Pembelian
                             </p>
                         </a>
                     </li>

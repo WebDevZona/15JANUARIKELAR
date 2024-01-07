@@ -13,6 +13,7 @@
     <link href="{{asset('assets/img/logo/logo2.png')}}" rel="icon">
     <link href="{{asset('assets/img/logo/logo2.png')}}" rel="shortcut icon">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -21,7 +22,7 @@
     <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet"> 
     <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
     <!-- Include Bootstrap CSS and JS -->
@@ -587,6 +588,7 @@
     <div class="col">
         <div class="card mt-4 ml-4 mr-4 mb-4" style="border-radius:25px;  background: #F5F8FE;">
             <div class="card-body">
+                <h2>Pembayaran</h2>
                 <div class="row" style="margin: 100px;">
                     <div class="col-6">
                         <div class="kartu-kredit" style="margin-left: 150px;">
@@ -607,7 +609,7 @@
                     <div class="input-group mb-3" style="width: 550px; margin-top: -90px; margin-left: 500px;">
                         <input type="file" class="form-control" id="inputGroupFile02">
                     </div>
-                    <label style="width: 100px;  height: 40px; margin-top: -40px; margin-left: 511px;" class="input-group-text" for="inputGroupFile02">Upload</label>
+                    <button style="width: 100px; height: 40px; margin-top: -40px; margin-left: 511px;" class="btn btn-primary" type="submit">Submit</button>
                 </div>
 
             </div>
