@@ -91,18 +91,19 @@
                     </div>
 
                 </div>
-                <div class="inijudulbso" style="font-family:'Manrope';">
-                    <h2 style=" margin: 0px 0px 0px 0px; font-size: 55px;
+                <div class="inijudulbso">
+                    <h2 style=" margin: 0px 0px 0px 0px; font-size: 50px;
                         font-style: normal;
                         font-weight: 600;
-                        line-height: 125%;">Apa Itu Bimbingan <br> Skripsi Online (BSO)?</h2>
+                        line-height: 125%; 
+                        font-family:Montserrat; !important">Apa Itu Bimbingan <br> Skripsi Online (BSO)?</h2>
                 </div>
                 <h2 style="width: 876px;
                     height: 183px;
                     flex-direction: column;
                     justify-content: center;
                     flex-shrink: 0;
-                    font-family: Montserrat;
+                    font-family: Montserrat; !important
                     color: #FFF;
                     font-size: 19px;
                     font-style: normal;
@@ -456,7 +457,6 @@ background-position: center;">
                         </div>
                     </div>
 
-
                 </div>
 
                 <div id="content2" class="content">
@@ -497,7 +497,6 @@ background-position: center;">
                         <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                             Sobat Insans akan diberikan berbagai materi dasar seputar menganalisis penelitian skripsi oleh mentor untuk memudahkan proses penyusunan. </div>
                     </div>
-
 
                 </div>
 
@@ -687,6 +686,59 @@ background-position: center;">
                             </div>
                         </div>
                     </div>
+
+                    
+                   
+                    <div class="arrow-buttons-wrapper" id="scrollContainer"> 
+                        <span class="left-scroll-buttonbso" onclick="scrollLeft()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px; margin-top: 50px;" viewBox="0 0 35" fill="none">
+                                <g filter="url(#filter0_b_229_15)">
+                                    <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                                    <!-- Mengubah path panah ke kiri -->
+                                    <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="white" />
+                                </g>
+                                <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+                            </svg>
+                        </span>
+    
+                        <span class="right-scroll-buttonbso" onclick="scrollRight()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -30px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
+                                <g filter="url(#filter0_b_229_15)">
+                                    <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                                    <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
+                                </g>
+                                <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+                                <defs>
+                                    <filter id="filter0_b_229_15" x="-5" y="-5" width="63" height="63" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="2" result="BackgroundImageFix" />
+                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.5" />
+                                        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_229_15" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_229_15" result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </span>
+                    </div>
+                    
+                    <script>
+                        function scrollLeft() {
+                            const scrollContainer = document.getElementById('scrollContainer');
+                            scrollContainer.scrollBy({
+                                left: -200,  // Adjust the value based on your content width
+                                behavior: 'smooth'
+                            });
+                        }
+                
+                        function scrollRight() {
+                            const scrollContainer = document.getElementById('scrollContainer');
+                            scrollContainer.scrollBy({
+                                left: 200,   // Adjust the value based on your content width
+                                behavior: 'smooth'
+                            });
+                        }
+                    </script>
+                
+                   
                 </div>
             </div>
         </section>
@@ -950,27 +1002,30 @@ background-position: center;">
                 </div>
 
                 <!-- body Macbook -->
-                <div class="card text-center ml-5 mr-5" style="height: 445px; width: 1214px; border-radius: 0 0 25px 25px;">
-                    <div class="card-body bg-primary" style="border-radius: 0 0 0 25px; width: 500px; height: auto;">
+                <div class="card text-center ml-5 mr-5 " style="height: 445px; width: 1214px; border-radius: 0 0 25px 25px;">
+                    <div class="card-body bg-primary" style="border-radius: 0 0 0 25px; width: 400px; height: auto; padding-bottom: 0px;
+                    padding-top: 0px;" >
                         <!-- Regular botton silver-->
-                        <div style="margin-top: 35px; width: 100%; padding: 10px; background: white; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                            <div style="width: 335px; text-align: center; color: #09326F; font-size: 32px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">REGULER SILVER</div>
+                        <div style="margin-top: 35px; width: 100%;   border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                            <button style="border-radius: 50px; font-size: 25px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word" class="nav-link color-white2 active" onclick="showPaket('paket1')"><b>PAKET SILVER</b></button>
                         </div>
                         <!-- Regular botton gold -->
-                        <div style="margin-top: 50px; width: 100%; text-align: center; color: white; font-size: 32px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">REGULER GOLD</div>
-
+                        <div  style="margin-top: 35px; width: 100%;   border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                            <button style=" font-size: 25px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word;" class="nav-link color-white2"  onclick="showPaket('paket2')"><b>REGULER GOLD</b></button>
+                        </div>
                         <!-- Regular botton  PLATINUM -->
-                        <div style="margin-top: 50px; width: 100%; text-align: center; color: white; font-size: 32px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">REGULER PLATINUM</div>
-
+                        <div style="margin-top: 35px; width: 100%;   border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                            <button style="border-radius: 50px; font-size: 25px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word" class="nav-link color-white2" onclick="showPaket('paket3')"><b>REGULER PLATINUM</b></button>
+                        </div>
                         <!-- Regular botton  TITANIUM -->
-                        <div style="margin-top: 50px; width: 100%; text-align: center; color: white; font-size: 32px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">REGULER TITANIUM</div>
-
+                        <div style="margin-top: 35px; width: 100%;   border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                            <button style="border-radius: 50px; font-size: 25px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word" class="nav-link color-white2" onclick="showPaket('paket4')"><b>REGULER TITANIUM</b></button>
+                        </div> 
                     </div>
+                    
                     <!-- akhir botton  -->
 
-
-                    <div class="card-body ml-5" style="margin-top: -80px;">
-
+                    <div id="paket1" class="content card-body ml-5 active" style="margin-top: -80px;">
                         <div style="margin-top: -370px; scolor: black; font-family: Montserrat; text-align: left; margin-left: 450px; color: black; font-size: 24px; pacing: -1px;">
                             Dikhususkan kepada Sobat Insans yang sedang membutuhkan konsultasi skripsi dalam pembuatan dan penyusunan judul.
                         </div>
@@ -997,7 +1052,54 @@ background-position: center;">
                             </div>
 
                         </div>
+                    </div>
 
+                    <div id="paket2" class="content card-body ml-5" style="margin-top: -80px;">
+                        <div style="margin-top: -370px; scolor: black; font-family: Montserrat; text-align: left; margin-left: 450px; color: black; font-size: 24px; pacing: -1px;">
+                            Judul Paket 2
+                        </div>
+
+                        <div style="display: flex; align-items: center;">
+                            <i class="fas fa-circle-check" style=" margin-left: 450px; color: #1b5cc5; margin-top: -5px; margin-right: 10px; font-size:30px;"></i>
+                            <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam merumuskan judul skripsi.
+                            </div>
+                        </div>
+
+
+                        <div style="display: flex; align-items: center;">
+                            <i class="fas fa-circle-check" style=" margin-left: 450px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                            <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam merumuskan judul skripsi.
+                            </div>
+                        </div>
+
+                        <div style="display: flex; align-items: center;">
+                            <i class="fas fa-circle-check" style=" margin-left: 450px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                            <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam merumuskan judul skripsi.
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <script>
+                        function showPaket(paketId) {
+                            // Mengambil semua elemen konten
+                            var allPakets = document.querySelectorAll('.content');
+    
+                            // Menyembunyikan semua konten
+                            allPakets.forEach(function(element) {
+                                element.classList.remove('active');
+                            });
+    
+                            // Menampilkan konten yang sesuai dengan ID yang diklik
+                            document.getElementById(paketId).classList.add('active');
+                        }
+                    </script>
+                </div>
+                
+            </div>
         </section>
 
 

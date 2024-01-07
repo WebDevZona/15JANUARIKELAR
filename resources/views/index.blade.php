@@ -1629,35 +1629,35 @@
 
         });
 
-        var scrollableColumn1 = document.querySelector('#scrollableColumn1');
-        var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
+        // var scrollableColumn1 = document.querySelector('#scrollableColumn1');
+        // var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
 
-        function scrollLeft() {
-            scrollableColumn1.scrollLeft -= scrollAmount;
-        }
+        // function scrollLeft() {
+        //     scrollableColumn1.scrollLeft -= scrollAmount;
+        // }
 
-        function scrollRight1() {
-            scrollableColumn1.scrollLeft += scrollAmount;
-        }
+        // function scrollRight1() {
+        //     scrollableColumn1.scrollLeft += scrollAmount;
+        // }
 
-        var scrollableColumn = document.querySelector('#scrollableColumn');
-        var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
+        // var scrollableColumn = document.querySelector('#scrollableColumn');
+        // var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
 
-        function scrollLeft(scrollableElement, scrollAmount) {
-            scrollableElement.scrollLeft -= scrollAmount;
-        }
+        // function scrollLeft(scrollableElement, scrollAmount) {
+        //     scrollableElement.scrollLeft -= scrollAmount;
+        // }
 
-        function scrollRight() {
-            scrollableColumn.scrollLeft += scrollAmount;
+        // function scrollRight() {
+        //     scrollableColumn.scrollLeft += scrollAmount;
 
-            if (scrollableColumn.scrollLeft >= scrollableColumn.scrollWidth - scrollableColumn.clientWidth) {
-                // Konten mencapai akhir, kembali ke awal
-                scrollableColumn.scrollTo({
-                    left: 0,
-                    behavior: 'smooth'
-                });
-            }
-        }
+        //     if (scrollableColumn.scrollLeft >= scrollableColumn.scrollWidth - scrollableColumn.clientWidth) {
+        //         // Konten mencapai akhir, kembali ke awal
+        //         scrollableColumn.scrollTo({
+        //             left: 0,
+        //             behavior: 'smooth'
+        //         });
+        //     }
+        // }
 
 
         $("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
@@ -1667,6 +1667,24 @@
                 .toggleClass("fa-minus fa-plus");
         })
     </script>
+    <script>
+    function scrollLeft() {
+        document.getElementById('scrollableColumn').scrollLeft -= 200;
+    }
+
+    function scrollRight() {
+        document.getElementById('scrollableColumn').scrollLeft += 200;
+    }
+
+    function scrollLeft1() {
+        document.getElementById('scrollableColumn1').scrollLeft -= 200;
+    }
+
+    function scrollRight1() {
+        document.getElementById('scrollableColumn1').scrollLeft += 200;
+    }
+</script>
+
     {{-- Animasi angka --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>

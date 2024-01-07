@@ -316,6 +316,6 @@
         showPopup();
 
         // Set interval to showPopup every 5 seconds
-        setInterval(showPopup, 5000);
+        setInterval(showPopup, 9000);
     </script>
 </footer>
