@@ -328,8 +328,6 @@
 
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
 
-
-
                         <div class="section-title">
                             <span class="a">
                                 <h3 style="margin-top: 25px; margin-left: -100px; text-align: left; font-size: 45px; color: #ffff; font-family: Montserrat;">Nanti di BMJ bakal ngapain aja sih?</h3>
@@ -437,7 +435,7 @@
                     <div class="section-title">
                         <!-- <h2>About</h2> -->
                         <span class="gariss">
-                            <h3 style="color: black; margin-top: 100px; text-align: center; font-size: 45px;">
+                            <h3 style="color: black; margin-top: 100px; text-align: center; font-size: 45px; padding-bottom: 20px;">
                                 Kenali Paket yang Tersedia<br />di Bimbingan Mata Kuliah Jurusan</h3>
                         </span>
                     </div>
@@ -879,7 +877,7 @@
                 </div>
                 <div class="section-title judul">
                     <h3 style="color:white;">Bimbingan Mata Kuliah Jurusan</h3>
-                    <h4 style="margin-bottom: 100px; color:white;">Memiliki tiga jenis paket dengan rincian dan biaya sebagai berikut</h4>
+                    <h4 style="margin-bottom: 100px; color:white; font-family:Montserrat !important;">Memiliki tiga jenis paket dengan rincian dan biaya sebagai berikut</h4>
                 </div>
 
                 <div class="row align-items-center justify-content-center">

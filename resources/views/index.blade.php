@@ -717,9 +717,6 @@
                                 line-height: 100%; /* 82.685px */
                                 letter-spacing:1px;
                                 /* Add drop shadow properties */
-<<<<<<< HEAD
-                                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-=======
                                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
                                 text-align: left;"
                                 >
@@ -1032,8 +1029,6 @@
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
         </div>
-
-        <H1>Haldian</H1>
 
         <div class="galeri-container">
             <div class="image-container">

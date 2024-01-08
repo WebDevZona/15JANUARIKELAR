@@ -267,33 +267,38 @@
         const popupMessages = [{
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Yohanes Hernandes</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "sobat insan<br><strong>Yohanes Hernandes</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
 
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Dimas wildan </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "sobat insan<br><strong>Dimas wildan </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Fandi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "sobat insan<br><strong>Fandi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Aldi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "sobat insan<br><strong>Aldi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Putra </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "sobat insan<br><strong>Putra </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Zahra</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "sobat insan<br><strong>Zahra</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+            },
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "sobat insan<br><strong>Fadil</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
         ];
 
