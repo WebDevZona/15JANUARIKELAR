@@ -330,7 +330,7 @@ background-position: center;">
                         <div class="row">
                             <div class="col">
                                 <div style="width: 180px; margin-top: 40px; height: 100px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
-                                    <div class="card-title" style="margin-top: 10px; margin-left:10px;">
+                                    <div class="card-title" >
                                         <img style="margin-top:15px; " src="assets/img/bg/ps1.png" alt="">
                                         <div style="margin-top: -80px; margin-left:90px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">24+</div>
                                         <div style="margin-top: -50px; margin-left:90px;  opacity: 0.50; color: #101828; font-size: 15px; font-family: Inter; font-weight: 400; letter-spacing: 1px; word-wrap: break-word">Kampus</div>
@@ -366,7 +366,7 @@ background-position: center;">
                     font-family: Montserrat;
                     font-size: 50px;
                     font-style: normal;
-                    margin-top: -50px;
+                    margin-top: -60px;
                     font-weight: 700;
                     line-height: 125%; /* 100px */">
                 Paket Hemat yang Tersedia di <br> Bimbingan Skripsi Online (BSO)
@@ -1287,7 +1287,7 @@ background-position: center;">
 
         <section id="testibaru" class="testibaru section-bg" style="margin-bottom:15px;">
             <div class="profile-container" style="position: absolute; ">
-                <p style="margin-top:50px;">Cerita Sobat Insans</p>
+                <p style="margin-top:50px; color:#000;">Cerita Sobat Insans</p>
                 <br>
                 <!-- <p1>Selama Bergabung di Class Program</p1> -->
                 <br>
@@ -1359,7 +1359,7 @@ background-position: center;">
         <section id="testimonials" class="testimonials" style="margin-top: 20px ;margin-bottom:30px; background: url(assets/img/bg/bgmentor.png);background-size: cover;">
 
             <div class="section-title">
-                <h3 style="margin-top: 80px;">Mentor Profesional Class Program</h3>
+                <h3 style="margin-top: 80px; color:#000; font-size:50px">Mentor Profesional Class Program</h3>
             </div>
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                 <div class="swiper-wrapper">
@@ -1383,7 +1383,7 @@ background-position: center;">
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
                     {{-- <h2>Team</h2> --}}
-                    <h3> Alur bimbingan</h3>
+                    <h3 style="color: #000"> Alur Bimbingan</h3>
                     {{-- <h3> Alur Konsultasi</h3> --}}
                     <br>
                     <div class="team-slider">
@@ -1557,9 +1557,9 @@ background-position: center;">
                                     <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                                 </div>
                             </div>
-                            <div class="text-center" style="margin-top:50px;">
+                            {{-- <div class="text-center" style="margin-top:50px;">
                                 <a href="#pricing" class="btn btn-primary" style="border-radius: 10px; align-content: center;">Baca selengkapnya</a>
-                            </div>
+                            </div> --}}
                         </div>
 
                     </div>

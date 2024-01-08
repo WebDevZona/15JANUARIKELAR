@@ -56,40 +56,31 @@
 
     <!-- ======= Hero Section ======= -->
     {{-- Header atas --}}
-    <section id="header-kti" class="header-kti" style="margin-top: -50px; height: 200px; background: url(assets/img/bg/utama2.png);background-size: cover;">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h3>Pelatihan KTI</h3>
-          <p>Home > Pelatihan KTI</p>
+    <section id="header-kti" class="header-kti">
+        <div class="container" data-aos="fade-up">
+            <div class="section-title">
+                <h3 class="judul-kti">Pelatihan KTI</h3>
+                <p class="sub-title">Home > Pelatihan KTI</p>
+            </div>
         </div>
+    </section>
+
+  <section id="herokti" class="d-flex align-items-center bg-container-kti">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <div class="class-program-container">
+        <div class="class-program-text">CLASS PROGRAM</div>
       </div>
-    </section>
+      <div class="judulkti">Pelatihan KTI</div>
+      <div class="kti-description">
+        Kelas Pelatihan Karya Tulis Ilmiah (KTI) Class Program <br>
+        bertujuan untuk membantu Sobat Insans dalam <br>
+        memahami sistematika dan penyusunan <br>
+        Karya Tulis Ilmiah yang akan dibimbing langsung <br>
+        oleh Mentor profesional yang ahli di bidangnya.
+      </div>
+    </div>
+  </section>
 
-
-
-  <section id="herokti" class="d-flex align-items-center" style="margin: 0;
-              margin-top: -20px;
-              padding: 0;
-              background: url(assets/img/bg/ktibg.jpeg);
-              background-size: cover;
-              background-position: center;
-              background-repeat: no-repeat;
-              height: 90vh; /* 100% dari tinggi viewport */
-              display: flex;
-              align-items: center;
-              justify-content: center;">
-      <div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <div class="d-flex" style="margin-bottom: 30px;">
-          <div style="width: 200px; height: 40px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-            <div style="color: white; font-size: 18px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">CLASS PROGRAM</div>
-          </div>
-
-        </div>
-        <div class="judulkti">
-          <div style="width: 100%; color: #09326F; font-size: 50px; font-family: Montserrat; font-weight: 800; line-height: 87.50px; word-wrap: break-word">Pelatihan KTI</div>
-        </div>
-        <div style="width: 100%; height: 100%; color: #202020; font-size: 21px; font-family: Montserrat; font-weight: 500; line-height: 27.50px; word-wrap: break-word">Kelas Pelatihan Karya Tulis Ilmiah (KTI) Class Program <br> bertujuan untuk membantu Sobat Insans dalam <br> memahami sistematika dan penyusunan <br> Karya Tulis Ilmiah yang akan dibimbing langsung <br> oleh Mentor profesional yang ahli di bidangnya.</div>
-    </section>
     <!-- ======= End Section Hero ======= -->
 
 
@@ -97,48 +88,33 @@
     <section id="card-skripsi" class="card-skripsi">
       <div class="container">
 
+          <div class="header-title">Materi Pelatihan KTI</div>
 
-          <div style="width: 100%; text-align: center; color: black; font-size: 50px; font-family: Montserrat; font-weight: 700; line-height: 74.75px; ">Materi Pelatihan KTI</div>
-
-             <style>
-              .card {
-                  width: 100%;
-                  height: 100%;
-                  overflow: hidden;
-              }
-
-              .card img {
-                  width: 100%;
-                  height: 100%;
-                  object-fit: cover;
-              }
-              </style>
-
-              <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top:25px;">
-                  <div class="col">
-                      <div class="card">
-                          <img src="assets/img/bg/info1.png" class="card-img-top" alt="...">
-                      </div>
+          <div class="row row-cols-1 row-cols-md-4 g-4" style="margin-top: 25px;">
+              <div class="col">
+                  <div class="card">
+                      <img src="assets/img/bg/info1.png" class="card-img-top" alt="...">
                   </div>
-                  <div class="col">
-                      <div class="card">
-                          <img src="assets/img/bg/info2.png" class="card-img-top" alt="...">
-                      </div>
+              </div>
+              <div class="col">
+                  <div class="card">
+                      <img src="assets/img/bg/info2.png" class="card-img-top" alt="...">
                   </div>
-                  <div class="col">
-                      <div class="card">
-                          <img src="assets/img/bg/info3.png" class="card-img-top" alt="...">
-                      </div>
+              </div>
+              <div class="col">
+                  <div class="card">
+                      <img src="assets/img/bg/info3.png" class="card-img-top" alt="...">
                   </div>
-                  <div class="col">
-                      <div class="card">
-                          <img src="assets/img/bg/info4.png" class="card-img-top" alt="...">
-                      </div>
+              </div>
+              <div class="col">
+                  <div class="card">
+                      <img src="assets/img/bg/info4.png" class="card-img-top" alt="...">
                   </div>
               </div>
           </div>
       </div>
-    </section>
+  </section>
+
     <!-- ======= End Cart Section ======= -->
 
 

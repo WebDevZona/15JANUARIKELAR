@@ -60,36 +60,23 @@
     <div class="container" data-aos="fade-up">
       <div class="section-title">
         <h3>Pelatihan Skripsi</h3>
-        <p>Home > Pelatihan Skripsi</p>
+        <p style="margin-top: 0px; font-weight:200;">Home > Pelatihan Skripsi</p>
       </div>
     </div>
   </section>
 
 
-  <section id="hero" class="d-flex align-items-center" style="margin: 0;
-            padding: 0;
-            background: url(assets/img/bg/bg-skripsi.png);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 100vh; /* 100% dari tinggi viewport */
-            display: flex;
-            align-items: center;
-            justify-content: center;">
+  <section id="hero-skripsi" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <div class="d-flex">
-        <a href="#pricing" class="btn-get-started scrollto" style="border-radius: 50px;
-                                  margin-left: 550px;
-                                  border-radius: 50px;
-                                  background: #3E87F8;
-                                  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.15); font-family: Montserrat;"><strong>Class Program</strong></a>
-      </div>
-      <div class="judulketiga" style="  margin-left: 550px;  ">
-        <h3 style="font-weight: 700; ">Pelatihan Skripsi</h3>
-      </div>
-      <h2 style=" margin-left: 550px;  ">Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh mentor.</h2>
+        <div class="d-flex">
+            <a href="#pricing" class="btn-get-started-skripsi scrollto">CLASS PROGRAM</a>
+        </div>
+        <div class="judulketiga-skripsi">
+            <h3>Pelatihan Skripsi</h3>
+        </div>
+        <h2>Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh mentor.</h2>
     </div>
-  </section>
+</section>
   <!-- ======= End Section Hero ======= -->
 
 

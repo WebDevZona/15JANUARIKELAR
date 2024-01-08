@@ -717,9 +717,6 @@
                                 line-height: 100%; /* 82.685px */
                                 letter-spacing:1px;
                                 /* Add drop shadow properties */
-<<<<<<< HEAD
-                                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">
-=======
                                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
                                 text-align: left;"
                                 >
@@ -1027,13 +1024,11 @@
                                     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);">
             <!-- <h2>About</h2> -->
             <div class="left-align" style=" text-align: left;">
-                <h3 style="font-weight: 800;color:black; margin-left: 150px; font-family: 'Manrope', sans-serif; ">Janji Mentor <br> Untuk Sobat
+                <h3 style="font-weight: 800;color:black; margin-left: 179px; font-family: 'Manrope', sans-serif; ">Janji Mentor <br> Untuk Sobat
                     Insans...</h3>
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
         </div>
-
-        <H1>Haldian</H1>
 
         <div class="galeri-container">
             <div class="image-container">
