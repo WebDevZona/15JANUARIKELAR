@@ -5,7 +5,7 @@
 <!-- Pastikan CKEditor script dimuat dengan benar -->
 
 
-    {{-- <link rel="stylesheet" href="/public/ckeditor/skins/moono-lisa/editor.css"> --}}
+{{-- <link rel="stylesheet" href="/public/ckeditor/skins/moono-lisa/editor.css"> --}}
 
 <section class="content card" style="padding: 10px 10px 10px 10px ">
     <div class="box">
@@ -55,21 +55,24 @@
                     <!-- Tambahkan textarea untuk CKEditor -->
                     <label for="isi">Isi</label>
                     <p>centang hijau bisa copy disini ✅</p>
-                    <textarea name="isi" id="isi"required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">{{old('isi')}}</textarea>
+                    <textarea name="isi" id="isi" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">{{old('isi')}}</textarea>
 
                     <label for="ket">Keterangan</label>
                     <input value="{{old('ket')}}" name="ket" type="text" class="form-control" id="ket" placeholder="Keterangan" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                    
-                    <label for="id_produk">Nama Produk</label>
-                    <select name="id_produk" class="form-control my-1 mr-sm-2 bg-light" id="id_produk" oninput="setCustomValidity('')">
+
+                    <!-- <label for="produk">Nama Produk</label> -->
+                    <!-- <select name="produk" class="form-control my-1 mr-sm-2 bg-light" id="produk" oninput="setCustomValidity('')">
                         <option value="">-- Pilih Nama Produk --</option>
                         @foreach($datasi as $ibui)
-                            @if(!empty($ibui->produk))
-                                <option value="{{$ibui->id}}">{{$ibui->produk}}</option>
-                            @endif
+                        @if(!empty($ibui->produk))
+                        <option value="{{$ibui->id}}">{{$ibui->produk}}</option>
+                        @endif
                         @endforeach
-                    </select>
-                    
+                    </select> -->
+                    <label for="ket">Nama Paket Produk</label>
+                    <input value="{{old('produk')}}" name="produk" type="text" class="form-control" id="produk" placeholder="produk" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    <!-- <label for="produk">Paket</label>
+                    <input value="{{old('')}}" name="ket" type="text" class="form-control" id="ket" placeholder="Paket" required oninvalid="this.setCustomValidity('Nama Produk Harus Sama Dengan Nama Paket Di Produk!')" oninput="setCustomValidity('')"> -->
                     <label for="foto">Foto</label>
                     <input value="{{old('foto')}}" name="foto" type="file" class="form-control" id="foto" placeholder="foto" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                 </div>
@@ -85,9 +88,14 @@
 <script>
     CKEDITOR.replace('editor1', {
         height: 400, // Mengatur tinggi editor ke 400 piksel
-        toolbar: [
-            { name: 'basicstyles', items: ['Bold', 'Italic', 'Underline', 'Strike'] },
-            { name: 'paragraph', items: ['NumberedList', 'BulletedList', '-', 'Blockquote'] }
+        toolbar: [{
+                name: 'basicstyles',
+                items: ['Bold', 'Italic', 'Underline', 'Strike']
+            },
+            {
+                name: 'paragraph',
+                items: ['NumberedList', 'BulletedList', '-', 'Blockquote']
+            }
         ]
     });
 </script>

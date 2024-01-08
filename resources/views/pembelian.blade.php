@@ -246,7 +246,7 @@
                     </div>
                     <div class="price">
                         <p>
-                            @if(isset($Produk) && is_object($Produk))
+                            @if(isset($Produk) && is_object($Produk))       
                             <del style="color: #999;">Rp{{ $Produk->harga1 }}</del>
                         <div style="font-size: 22px; color: #000; font-weight: bold;">Rp{{ $Produk->harga }}</div>
                         @else
@@ -255,19 +255,20 @@
                         @endif
                         </p>
 
-                        @auth
+                        @if(isset($id_pesdik_login) && is_object($id_pesdik_login))
                         <a id="paket-link" href="{{ route('pembayaran', [
-                                                    'id_produk' => $id_pesdik_login->id_produk,
-                                                    'id' => auth()->id( ),
-                                                    'nama_voucher' => isset($response->voucher) ? $response->voucher->nama : ''
-                                                ]) }}">
+            'id_produk' => $id_pesdik_login->id_produk,
+            'id' => auth()->id(),
+            'nama_voucher' => isset($response->voucher) ? $response->voucher->nama : ''
+        ]) }}">
                             <button class="select-button">PILIH PAKET</button>
                         </a>
                         @else
+                        <!-- Handle case where $id_pesdik_login is not set or not an object -->
+                        <span style="color: red;">Error: Invalid id_pesdik_login Data</span>
                         <a href="#" onclick="showLoginPopup()"><button class="select-button">PILIH PAKET</button></a>
                         @endif
                     </div>
-
                 </div><br>
 
                 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

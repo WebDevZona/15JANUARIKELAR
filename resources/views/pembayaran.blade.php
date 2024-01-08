@@ -684,7 +684,7 @@
                 <span style="margin-bottom: 20px;" class="total">Total: ${{ number_format($Produk->harga, 2) }}</span>
             </div>
         </div>
-        <div class="order-total"> 
+        <div class="order-total">
             <span style="margin-bottom: 20px; margin-top:-50px;">Total Harga: ${{ number_format($Produk->harga, 2) }}</span>
             <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
             <a style="margin-bottom: 20px;" href="/rekening" id="checkoutButton" onclick="showRekening()">Checkout</a>

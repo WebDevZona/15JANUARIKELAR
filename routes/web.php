@@ -35,6 +35,7 @@ Route::get('/checkout/{id_produk}/{id}/{nama_voucher?}/{judulskripsi}/{problem}/
 
 
 
+
 // Route::post('/pembelian/cek-voucher/{id_produk}/{namaVoucher}', 'tampilanController@cekVoucher')->name('cek-voucher');
 // Route::get('/pembelian', 'tampilanController@pembelian')->name('pembelian');
 
@@ -422,9 +423,6 @@ Route::group(['middleware' => ['auth', 'checkRole:Siswa']], function () {
     Route::get('/tabungan/setor/{id}/siswaindex', 'SetorController@siswaindex');
     Route::get('/tabungan/tarik/{id}/siswaindex', 'TarikController@siswaindex');
     Route::get('/pembayaran/transaksipembayaran/{id}/siswaindex', 'TransaksiPembayaranController@siswaindex');
-
-    // pembelian
-
 });
 
 
@@ -445,6 +443,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
 
     Route::get('/dashboard', 'DashboardController@index');
 
+    // pembelian
     Route::get('/pengumuman/index', 'PengumumanController@index');
     Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
 
