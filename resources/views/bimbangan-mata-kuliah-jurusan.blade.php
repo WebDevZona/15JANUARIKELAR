@@ -468,7 +468,7 @@
                                             /* background-color: white; */
                                             /* Warna latar belakang saat tombol diklik */
                                             color: white;
-                                            
+
                                         }
 
 
@@ -503,29 +503,29 @@
                                         button.parentElement.classList.add('active');
                                     }
                                 </script> -->
-                                <script>
-                                    // Menambahkan logika untuk mengubah warna tombol saat diklik
-                                    var buttons = document.querySelectorAll('.nav-link');
-                                    buttons.forEach(function(button) {
-                                        button.addEventListener('click', function() {
-                                            buttons.forEach(function(btn) {
-                                                btn.classList.remove('bg-blue', 'active');
-                                                btn.style.backgroundColor = ''; // Menghapus style latar belakang yang mungkin ditetapkan sebelumnya
-                                                btn.style.color = ''; // Menghapus style warna teks yang mungkin ditetapkan sebelumnya
-                                                btn.style.borderRadius = '';
+                                    <script>
+                                        // Menambahkan logika untuk mengubah warna tombol saat diklik
+                                        var buttons = document.querySelectorAll('.nav-link');
+                                        buttons.forEach(function(button) {
+                                            button.addEventListener('click', function() {
+                                                buttons.forEach(function(btn) {
+                                                    btn.classList.remove('bg-blue', 'active');
+                                                    btn.style.backgroundColor = ''; // Menghapus style latar belakang yang mungkin ditetapkan sebelumnya
+                                                    btn.style.color = ''; // Menghapus style warna teks yang mungkin ditetapkan sebelumnya
+                                                    btn.style.borderRadius = '';
+                                                });
+                                                this.classList.add('bg-blue', 'active');
+                                                this.style.backgroundColor = 'white'; // Setel latar belakang menjadi putih
+                                                this.style.color = 'blue'; // Setel warna teks menjadi biru
+                                                this.style.borderRadius = '20px';
                                             });
-                                            this.classList.add('bg-blue', 'active');
-                                            this.style.backgroundColor = 'white'; // Setel latar belakang menjadi putih
-                                            this.style.color = 'blue'; // Setel warna teks menjadi biru
-                                            this.style.borderRadius = '20px';
                                         });
-                                    });
-                                
-                                    // Fungsi untuk menampilkan konten sesuai dengan tombol yang diklik
-                                    function showContent(contentId) {
-                                        // Logika untuk menampilkan konten
-                                    }
-                                </script>
+
+                                        // Fungsi untuk menampilkan konten sesuai dengan tombol yang diklik
+                                        function showContent(contentId) {
+                                            // Logika untuk menampilkan konten
+                                        }
+                                    </script>
 
                                 </div>
 
@@ -1075,59 +1075,59 @@
                                         </button>
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body" style="text-align: left">Sobat insan boleh memilih mata kuliah apa aja sesuai semester yang sedang sobat insan tempuh. 
+                                        <div class="accordion-body" style="text-align: left">Sobat insan boleh memilih mata kuliah apa aja sesuai semester yang sedang sobat insan tempuh.
                                             Sobat insans bisa bimbingan maksimal 6 mata kuliah, baik dari mata kuliah umum maupun mata kuliah khusus.
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingTwo">
-                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">02</div> <b>Apakah boleh request mentor?</b>
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">02</div> <b>Apakah boleh request mentor?</b>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingthree">
-                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
-                                            <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">03</div><b>Apakah Bagaimana caranya untuk ambil paket lanjutan?</b>
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingthree">
+                                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
+                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">03</div><b>Apakah Bagaimana caranya untuk ambil paket lanjutan?</b>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingfour">
-                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
-                                            <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">04</div><b>Siapa yang harus dihubungi jika menemui masalah saat bimbingan?</b>
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingfour">
+                                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">04</div><b>Siapa yang harus dihubungi jika menemui masalah saat bimbingan?</b>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                        </div>
                                     </div>
-                                </div>
 
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingfive">
-                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
-                                            <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">05</div><b>Apakah harga paket bisa dicicil?</b>
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="flush-headingfive">
+                                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">05</div><b>Apakah harga paket bisa dicicil?</b>
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
+                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                        </div>
                                     </div>
-                                </div>
 
+                                </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
-                </div>
         </section>
         <!-- End About Section -->
         <!-- Vendor JS Files -->

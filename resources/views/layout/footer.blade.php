@@ -362,4 +362,6 @@
         // Set interval to showPopup every 5 seconds
         setInterval(showPopup, 9000);
     </script>
+    {{-- Animasi angka --}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
 </footer>

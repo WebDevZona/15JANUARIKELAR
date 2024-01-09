@@ -38,6 +38,7 @@
 @extends('layout.header')
 @section('content')
 
+
 <body>
 
     <script>
@@ -64,7 +65,7 @@
                 <h3>Semua Bisa</h3>
                 <h3>Lulus Kuliah</h3>
                 <p style="letter-spacing:1px; font-family: Manrope; margin-top:15px;">Bimbingan belajar online perkuliahan
-                    dan persiapan <br> karir dengan
+                    dan persiapan <br> karir dengan 
                     sistem kenaikan kelas pertama <br> di Indonesia yang menyediakan berbagai
                     macam <br> program kelas serta akan dibimbing langsung oleh <br> mentor yang ahli di bidangnya.</p>
             </div>

@@ -95,7 +95,7 @@
                     <h2 style=" margin: 0px 0px 0px 0px; font-size: 50px;
                         font-style: normal;
                         font-weight: 600;
-                        line-height: 125%; 
+                        line-height: 125%;
                         font-family:Montserrat; !important">Apa Itu Bimbingan <br> Skripsi Online (BSO)?</h2>
                 </div>
                 <h2 style="width: 876px;
@@ -382,12 +382,12 @@ background-position: center;">
                         .color-blue {
                             color: blue;
                         }
-                
+
                         .bg-blue {
                             background-color: white;
                             border-radius: 50%;
                         }
-                
+
                         .border-radius {
                             border-radius: 50%;
                         }
@@ -410,7 +410,7 @@ background-position: center;">
                         </li>
                     </ul>
                 </div>
-                
+
                 <script>
                     // Menambahkan logika untuk mengubah warna tombol saat diklik
                     var buttons = document.querySelectorAll('.nav-link');
@@ -426,14 +426,14 @@ background-position: center;">
                             this.style.color = 'blue'; // Setel warna teks menjadi biru
                         });
                     });
-                
+
                     // Fungsi untuk menampilkan konten sesuai dengan tombol yang diklik
                     function showContent(contentId) {
                         // Logika untuk menampilkan konten
                     }
                 </script>
-                
-                
+
+
 
 
                 <div id="content1" class="content active">
@@ -560,7 +560,7 @@ background-position: center;">
         </section>
 
 
- 
+
 
         <!-- ======= Pricing Section ======= -->
         <section id="pricing" class="pricing" style=" margin-top:-200px; margin-bottom: -300px; background-color:#09326f;">
@@ -664,7 +664,7 @@ background-position: center;">
                                             </div>
                                         </div>
                                     </div>
-                    
+
                                     {{-- Platinum --}}
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                                         <div class="custom-box" style="height: 500px; border-radius: 15px;">
@@ -693,7 +693,7 @@ background-position: center;">
                                                     <span class="checkmark">&#10003;</span>
                                                     <span class="text-bso">Bimbingan pembuatan abstrak</span>
                                                 </li>
-                
+
                                             </ul>
                                             <div class="custom-btn-wrap" style="margin-top:20%">
                                                 <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
@@ -761,7 +761,7 @@ background-position: center;">
                                             </div>
                                         </div>
                                     </div>
-                
+
                                     {{-- PAKET COMPLATE --}}
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                                         <div class="custom-box" style="height: 500px; border-radius: 15px;">
@@ -815,7 +815,7 @@ background-position: center;">
                                 </div>
                             </div>
                         </div>
-                       
+
                     </div>
                      <!-- Navigation arrows -->
                      <a class="carousel-control-prev" href="#packageCarousel" role="button" data-slide="prev">
@@ -1045,9 +1045,9 @@ background-position: center;">
                             </div>
                         </div>
                     </div>
-                    
-                   
-                    <div class="arrow-buttons-wrapper" id="scrollContainer"> 
+
+
+                    <div class="arrow-buttons-wrapper" id="scrollContainer">
                         <span class="left-scroll-buttonbso" onclick="scrollLeft()">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px; margin-top: 50px;" viewBox="0 0 35" fill="none">
                                 <g filter="url(#filter0_b_229_15)">
@@ -1058,7 +1058,7 @@ background-position: center;">
                                 <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
                             </svg>
                         </span>
-    
+
                         <span class="right-scroll-buttonbso" onclick="scrollRight()">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -30px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
                                 <g filter="url(#filter0_b_229_15)">
@@ -1077,7 +1077,7 @@ background-position: center;">
                             </svg>
                         </span>
                     </div>
-                    
+
                     <script>
                         function scrollLeft() {
                             const scrollContainer = document.getElementById('scrollContainer');
@@ -1086,7 +1086,7 @@ background-position: center;">
                                 behavior: 'smooth'
                             });
                         }
-                
+
                         function scrollRight() {
                             const scrollContainer = document.getElementById('scrollContainer');
                             scrollContainer.scrollBy({
@@ -1095,8 +1095,8 @@ background-position: center;">
                             });
                         }
                     </script>
-                
-                   
+
+
                 </div> --}}
             </div>
         </section>
@@ -1378,9 +1378,9 @@ background-position: center;">
                         <!-- Regular botton  TITANIUM -->
                         <div style="margin-top: 35px; width: 100%;   border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                             <button style="border-radius: 50px; font-size: 25px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word" class="nav-link color-white2" onclick="showPaket('paket4')"><b>REGULER TITANIUM</b></button>
-                        </div> 
+                        </div>
                     </div>
-                    
+
                     <!-- akhir botton  -->
 
                     <div id="paket1" class="content card-body ml-5 active" style="margin-top: -80px;">
@@ -1440,23 +1440,23 @@ background-position: center;">
 
                         </div>
                     </div>
-                    
+
                     <script>
                         function showPaket(paketId) {
                             // Mengambil semua elemen konten
                             var allPakets = document.querySelectorAll('.content');
-    
+
                             // Menyembunyikan semua konten
                             allPakets.forEach(function(element) {
                                 element.classList.remove('active');
                             });
-    
+
                             // Menampilkan konten yang sesuai dengan ID yang diklik
                             document.getElementById(paketId).classList.add('active');
                         }
                     </script>
                 </div>
-                
+
             </div>
         </section>
 

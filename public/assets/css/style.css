@@ -6568,6 +6568,7 @@ align-items: flex-start;
 .text-container p {
     margin-top: 10px;
     color: white;
+    font-size: 15px;
     border-left: 2px solid white; /* Menambahkan garis sebelah kiri teks */
     padding-left: 20px; /* Jarak antara teks dengan garis */
 }
