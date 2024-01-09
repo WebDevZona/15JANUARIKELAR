@@ -7959,7 +7959,7 @@ button {
     transform: translate(-50%, -50%);
     width: 50px; /* Adjust the size of the play icon */
     height: 50px; /* Adjust the size of the play icon */
-    fill: #ffffff; /* Adjust the color of the play icon */
+    fill: gray; /* Adjust the color of the play icon */
     transition: opacity 0.3s ease-in-out;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -8146,7 +8146,7 @@ button {
 }
 
 /* Halaman Skripsi */
-  
+
 
   #hero-skripsi .container h2 {
     color: #FFF;

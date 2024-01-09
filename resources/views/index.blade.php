@@ -718,8 +718,7 @@
                                 letter-spacing:1px;
                                 /* Add drop shadow properties */
                                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-                                text-align: left;"
-                                >
+                                text-align: left;">
                             WORKSHOP CLASS PROGRAM</h3>
                         <div class="content-selector  mb-4" style="margin-top:10px;">
                             <button id="content1Btn" class="btn btn-primary active"><b>Skripsi</b></button>
@@ -833,17 +832,17 @@
                     <div class="single_left_coloum_wrapper" id="scrollableColumn">
                         <div class="scrollable_left_coloum">
                             @if($berita->isNotEmpty())
-                                @foreach($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
-                                    <div class="single_left_coloum">
-                                        <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank">
-                                            <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" />
-                                            <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                                <path d="M8 5v14l11-7z" />
-                                            </svg>
-                                            <p style="color:black;">Youtube : <span style="color:black;">{{ $penegnbalikcuk->judul }}</span></p>
-                                        </a>
-                                    </div>
-                                @endforeach
+                            @foreach($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
+                            <div class="single_left_coloum">
+                                <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank">
+                                    <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" />
+                                    <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                    <p style="color:black;">Youtube : <span style="color:black;">{{ $penegnbalikcuk->judul }}</span></p>
+                                </a>
+                            </div>
+                            @endforeach
                             @endif
                         </div>
                     </div>
@@ -886,7 +885,7 @@
                         <a href="{{ $video->tampilan }}" style="text-decoration: none; color: black;">
                             <div class="single_left_coloum">
                                 <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail" />
-                                <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <svg class="play-iconn xmlns=" http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <path d="M8 5v14l11-7z" />
                                 </svg>
                             </div>
@@ -1669,22 +1668,22 @@
         })
     </script>
     <script>
-    function scrollLeft() {
-        document.getElementById('scrollableColumn').scrollLeft -= 200;
-    }
+        function scrollLeft() {
+            document.getElementById('scrollableColumn').scrollLeft -= 200;
+        }
 
-    function scrollRight() {
-        document.getElementById('scrollableColumn').scrollLeft += 200;
-    }
+        function scrollRight() {
+            document.getElementById('scrollableColumn').scrollLeft += 200;
+        }
 
-    function scrollLeft1() {
-        document.getElementById('scrollableColumn1').scrollLeft -= 200;
-    }
+        function scrollLeft1() {
+            document.getElementById('scrollableColumn1').scrollLeft -= 200;
+        }
 
-    function scrollRight1() {
-        document.getElementById('scrollableColumn1').scrollLeft += 200;
-    }
-</script>
+        function scrollRight1() {
+            document.getElementById('scrollableColumn1').scrollLeft += 200;
+        }
+    </script>
 
     {{-- Animasi angka --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
