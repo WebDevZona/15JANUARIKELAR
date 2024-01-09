@@ -4066,6 +4066,15 @@ li.left-aligned {
     line-height: normal;
 }
 
+.text-bso {
+    color: #656565;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 /* wa */
 #whatsapp-button {
     position: fixed;
@@ -6642,14 +6651,6 @@ align-items: flex-start;
     height: auto; /* Pertahankan rasio aspek gambar */
 }
 
-.member-infoo p {
-    margin-top: 10px;
-    position: relative;
-    margin-bottom: 1000px;
-    font-size: 14px;
-    text-align: center;
-    width: 240px;
-}
 
 .btn-list {
     position: relative;
@@ -7532,25 +7533,6 @@ border-radius: 42px; */
     /* Pertahankan rasio aspek gambar */
 }
 
-.benefit .member-infoo p {
-    color: #454545;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-style: normal;
-    text-align: left;
-    font-weight: 500;
-    line-height: 125%;
-    /* 50px */
-    letter-spacing: -1px;
-    /* margin-left: px; */
-    margin-top: 40px;
-    /* margin-top: 10px;
-position: relative;
-margin-bottom: 1000px;
-font-size: 14px;
-text-align: center;
-width: 240px; */
-}
 
 /*--------------------------------------------------------------
 # Sections Card
@@ -7560,7 +7542,7 @@ width: 240px; */
     background-size: cover;
     height: 600px;
 
-    margin-bottom: 150px;
+    margin-bottom: 110px;
     /* width: 1300px; */
 
     /* background: url(assets/img/bg/bso1.png); */
@@ -8126,9 +8108,9 @@ button {
 }
 
 /* Card */
-.card-skripsi {
+/* .card-skripsi {
     text-align: center;
-}
+} */
 
 .header-title {
     width: 100%;
@@ -8149,9 +8131,9 @@ button {
   max-width: 25%;
   padding: 0 15px;
   box-sizing: border-box;
-} */
+}
 
-/* .card {
+.card {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -8249,4 +8231,85 @@ button {
 
     /* 88.277px */
     letter-spacing: -0.414px;
+}
+
+#card-skripsi {
+  background: url(/assets/img/bg/bg-card.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-get-started2 {
+  display: flex;
+  width: 280px;
+  height: 50px;
+  align-self: center;
+  margin-left: 450px !important;
+  padding: 15.455px;
+  justify-content: center !important;
+  border-radius: 77.273px;
+  align-items: center;
+  gap: 15.455px;
+  flex-shrink: 0;
+  background: var(--midnight-blue-950, #09326F);
+  box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15);
+  font-size: 25px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: -1px;
+}
+
+.btn-get-started3 {
+  display: flex;
+  width: 220px;
+  height: 40px;
+  margin-left: 30px;
+  padding: 15.455px 15.455px 15.455px 15.455px;
+  justify-content: center;
+  border-radius: 77.273px;
+  align-items: center;
+  gap: 15.455px;
+  flex-shrink: 0;
+  background: var(--Midnight-Blue-950, #09326F);
+  box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15);
+  font-size: 20px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%; /* 61.818px */
+  letter-spacing: -0.5px;
+  margin-bottom: 40px;
+}
+
+.member-infoo p {
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 1000px;
+    font-size: 14px;
+    text-align: center;
+    width: 230px;
+}
+
+.benefit .member-infoo p {
+    color: #454545;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    line-height: 125%;
+    /* 50px */
+    letter-spacing: -1px;
+    /* margin-left: px; */
+    margin-top: 40px;
+    /* margin-top: 10px;
+position: relative;
+margin-bottom: 1000px;
+font-size: 14px;
+text-align: center;
+width: 240px; */
 }

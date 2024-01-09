@@ -81,58 +81,41 @@
 
 
   <!-- ======= Cart Section ======= -->
-  <section id="card-skripsi" class="card-skripsi" style="background: url(assets/img/bg/bg-card.png);
-            background-size: cover;
-            background-position: center;">
+  <section id="card-skripsi" class="card-skripsi">
     <div class="container">
-      <div class="d-flex" style="margin-left: 400px; margin-top:-20px ">
-        <a href="#pricing" class="btn-get-started scrollto" style="display: flex;
-          width: 280px;
-          height: 50px;
-          margin-left:-500 ;
-          padding: 15.455px 15.455px 15.455px 15.455px;
-          justify-content: center;
-          border-radius: 77.273px;
-          align-items: center;
-          gap: 15.455px;
-          flex-shrink: 0; background: var(--midnight-blue-950, #09326F);
-          box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15); font-size: 25px; color: #FFF;
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 125%; /* 61.818px */
-          letter-spacing: -1px;">Pelatihan Skripsi</a>
-      </div>
+        <div class="d-flex">
+            <a href="#pricing" class="btn-get-started2 scrollto">Pelatihan Skripsi</a>
+        </div>
 
-      <div class="section-title">
-        <h3>Materi Yang Didapatkan Pelatihan Skripsi</h3>
-        <h4>Pelatihan Skripsi Class Program </h4>
-      </div>
+        <div class="section-title">
+            <h3>Materi Yang Didapatkan Pelatihan Skripsi</h3>
+            <h4>Pelatihan Skripsi Class Program</h4>
+        </div>
 
-
-   <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-               <div class="centered-content">
-                    <div class="image-container">
-                        <img src="assets/img/bg/cart-1.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="image-container">
-                        <img src="assets/img/bg/cart-3.png" class="img-fluid" alt="">
-                    </div>
-                    <div class="image-container">
-                        <img src="assets/img/bg/cart-2.png" class="img-fluid" alt="">
-                    </div>
-                     <div class="image-container">
-                        <img src="assets/img/bg/cart-4.png" class="img-fluid" alt="">
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="centered-content">
+                        <div class="image-container">
+                            <img src="assets/img/bg/cart-1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="image-container">
+                            <img src="assets/img/bg/cart-3.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="image-container">
+                            <img src="assets/img/bg/cart-2.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="image-container">
+                            <img src="assets/img/bg/cart-4.png" class="img-fluid" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
-        <div class="swiper-pagination"></div>
     </div>
-    </div>
-  </section>
+</section>
+
   <!-- ======= End Cart Section ======= -->
 
 
@@ -149,7 +132,7 @@
           border-radius: 77.273px;
           align-items: center;
           gap: 15.455px;
-          flex-shrink: 0; background: #3E87F8;
+          flex-shrink: 0; background: rgb(226,204,0);
           box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15); font-size: 25px; color: #FFF;
           font-family: Montserrat;
           font-style: normal;
@@ -160,32 +143,14 @@
 
       <div class="section-title">
         <h3>Apa Yang Akan Kamu Dapatkan</h3>
-        <h4>Kelas Pelatihan Skripsi Class Program </h4>
+        <h4 style="margin-bottom: 35px !important;">Kelas Pelatihan Skripsi Class Program </h4>
       </div>
 
       <div class="card-containerr">
         <div class="roww ">
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
-              <a href="#pricing" class="btn-get-started scrollto" style="display: flex;
-                        width: 220px;
-                        height: 40px;
-                        margin-left: 30px ;
-                        padding: 15.455px 15.455px 15.455px 15.455px;
-                        justify-content: center;
-                        border-radius: 77.273px;
-                        align-items: center;
-                        gap: 15.455px;
-                        flex-shrink: 0; 
-                        background: var(--Midnight-Blue-950, #09326F);
-                        box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15); 
-                        font-size: 20px; color: #FFF;
-                        font-family: Montserrat;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: 125%; /* 61.818px */
-                        letter-spacing: -0.5px; margin-bottom:40px">Video Materi</a>
-
+              <a href="#pricing" class="btn-get-started3 scrollto">Video Materi</a>
               <div class="konsultasi-content">
                 <div class="member-img">
                   <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
@@ -200,25 +165,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
-              <a href="#pricing" class="btn-get-started scrollto" style="display: flex;
-          width: 220px;
-          height: 40px;
-          margin-left: 30px ;
-          padding: 15.455px 15.455px 15.455px 15.455px;
-          justify-content: center;
-          border-radius: 77.273px;
-          align-items: center;
-          gap: 15.455px;
-          flex-shrink: 0; 
-          background: var(--Midnight-Blue-950, #09326F);
-          box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15); 
-          font-size: 20px; color: #FFF;
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 125%; /* 61.818px */
-          letter-spacing: -0.5px; margin-bottom:40px">Grup Sharing</a>
-
+              <a href="#pricing" class="btn-get-started3 scrollto">Grup Sharing</a>
               <div class="konsultasi-content">
                 <div class="member-img">
                   <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
@@ -233,25 +180,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
-              <a href="#pricing" class="btn-get-started scrollto" style="display: flex;
-          width: 220px;
-          height: 40px;
-          margin-left: 30px ;
-          padding: 15.455px 15.455px 15.455px 15.455px;
-          justify-content: center;
-          border-radius: 77.273px;
-          align-items: center;
-          gap: 15.455px;
-          flex-shrink: 0; 
-          background: var(--Midnight-Blue-950, #09326F);
-          box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15); 
-          font-size: 20px; color: #FFF;
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 125%; /* 61.818px */
-          letter-spacing: -0.5px; margin-bottom:40px">PPT Materi</a>
-
+              <a href="#pricing" class="btn-get-started3 scrollto">PPT Materi</a>
               <div class="konsultasi-content">
                 <div class="member-img">
                   <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
@@ -268,24 +197,7 @@
         <div class="row" style="margin-top: 50px;">
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
-              <a href="#pricing" class="btn-get-started scrollto" style="display: flex;
-          width: 220px;
-          height: 40px;
-          margin-left: 30px ;
-          padding: 15.455px 15.455px 15.455px 15.455px;
-          justify-content: center;
-          border-radius: 77.273px;
-          align-items: center;
-          gap: 15.455px;
-          flex-shrink: 0; 
-          background: var(--Midnight-Blue-950, #09326F);
-          box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15); 
-          font-size: 20px; color: #FFF;
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 125%; /* 61.818px */
-          letter-spacing: -0.5px; margin-bottom:40px">Networking</a>
+              <a href="#pricing" class="btn-get-started3 scrollto">Networking</a>
 
               <div class="konsultasi-content">
                 <div class="member-img">
@@ -301,24 +213,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
-              <a href="#pricing" class="btn-get-started scrollto" style="display: flex;
-          width: 220px;
-          height: 40px;
-          margin-left: 30px ;
-          padding: 15.455px 15.455px 15.455px 15.455px;
-          justify-content: center;
-          border-radius: 77.273px;
-          align-items: center;
-          gap: 15.455px;
-          flex-shrink: 0; 
-          background: var(--Midnight-Blue-950, #09326F);
-          box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15); 
-          font-size: 20px; color: #FFF;
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 125%; /* 61.818px */
-          letter-spacing: -0.5px; margin-bottom:40px">Penghargaan</a>
+              <a href="#pricing" class="btn-get-started3 scrollto">Penghargaan</a>
 
               <div class="konsultasi-content">
                 <div class="member-img">
@@ -334,24 +229,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
-              <a href="#pricing" class="btn-get-started scrollto" style="display: flex;
-          width: 220px;
-          height: 40px;
-          margin-left: 30px ;
-          padding: 15.455px 15.455px 15.455px 15.455px;
-          justify-content: center;
-          border-radius: 77.273px;
-          align-items: center;
-          gap: 15.455px;
-          flex-shrink: 0; 
-          background: var(--Midnight-Blue-950, #09326F);
-          box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15); 
-          font-size: 20px; color: #FFF;
-          font-family: Montserrat;
-          font-style: normal;
-          font-weight: 700;
-          line-height: 125%; /* 61.818px */
-          letter-spacing: -0.5px; margin-bottom:40px">E-Sertifikat</a>
+              <a href="#pricing" class="btn-get-started3 scrollto">E-Sertifikat</a>
 
               <div class="konsultasi-content">
                 <div class="member-img">
@@ -374,8 +252,8 @@
   <section id="mentor-skripsi" class="mentor-skripsi" style="margin-top:-50px;">
     <div class="container">
       <div class="section-title">
-        <h3 style="color:blue; font-size: 50px; font-weight: 700;">Mentor Yang Berpengalaman</h3>
-        <h4 style="color:blue;">Kelas Pelatihan Skripsi Class Program </h4>
+        <h3 style="color:blue; font-size: 50px; font-weight: 700; margin-top:0px; !important">Mentor Yang Berpengalaman</h3>
+        <h4 style="color:blue; margin-top:10px; !important">Kelas Pelatihan Skripsi Class Program </h4>
       </div>
 
       <div class="mentor-img">
@@ -435,7 +313,7 @@
             <div class="profile-info">
               <!-- <h1>ELouis Patric</h1> -->
               <p>Workshop Skripsi <br>Batch 8 Telah Dibuka</p>
-              <button class="button">Daftar Sekarang<span class="d-flex justify-content-center align-items-center"><img src="assets/img/bg/Icons.png" style=" margin-left: 15px" alt=""></span></a></button>
+              <button class="button" style="background-color: rgb(226,204,0) !important">Daftar Sekarang<span class="d-flex justify-content-center align-items-center"><img src="assets/img/bg/Icons.png" style=" margin-left: 15px" alt=""></span></a></button>
               <h2 style="font-weight: 100;">No credit card required</h2>
             </div>
             <!-- Tambahkan elemen tambahan di sini -->
@@ -535,7 +413,8 @@
     <div class="background-faq"></div>
     <div class="container kontener aos-init aos-animate" style="text-align:center;" data-aos="fade-up">
         <div class="col-xl-12"> <!-- Gunakan kolom penuh lebar untuk memastikan accordion berada di tengah -->
-            <div class="section-title" style="margin-top:150px;">
+            <div class="section-title" style="margin-top:150px;margin-bottom: 20px;
+            ">
                 <h3 style="color:blue;">Frequently Asked Questions</h3>
             </div>
             <div class="accordion" id="accordionFlushExample">

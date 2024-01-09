@@ -150,7 +150,6 @@
 
         <div class="card" style="border-radius: 25px; height:850px;">
 
-
           <div >
           <div class="roww" style="margin-top:50px;">
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" >
@@ -242,12 +241,6 @@
             </div>
           </div>
          </div>
-
-
-
-
-
-
 
         </div>
       </div>
