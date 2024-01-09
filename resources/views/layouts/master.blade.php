@@ -25,6 +25,9 @@
             font: 14px arial;
         }
     </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-a4i8NUH76tC2DhvT0+pDS9v9hiFpXnY/9sND4VysJd52MTMM2GqBp1EqzGLD/J2G" crossorigin="anonymous" />
+
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="/adminLTE/plugins/fontawesome-free/css/all.min.css">
     <!-- overlayScrollbars -->
@@ -130,23 +133,43 @@
             @if (auth()->user()->role == 'admin' || auth()->user()->role == 'user' )
             <a href="#" class="brand-link bg-info">
                 <center>
-                    {{-- "<img src="/logo.png" alt="Logo" class="brand-image" style="opacity: 8;"> --}}
+                    <img src="../../../../assets/img/logo/logo2.png" alt="Logo" class="brand-image" style="opacity: 8;">
                 </center>
-                <span class="brand-text font-weight-white">Beranda</span>
+                <span class="brand-text font-weight-white">Class Program</span>
             </a>
             @endif
             <div class="sidebar">
                 @if (auth()->user()->role == 'user')
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <!-- Sidebar Menu -->
+                    <!-- Add icons to the links using the .nav-icon class
+                        with font-awesome or any other icon font library -->
                     <li class="nav-item">
-                        <a href="/pembelian/bso" class="nav-link">
-                            <i class="nav-icon fas fa-bars"></i>
+                        <a href="/userview/konsultasi" class="nav-link">
+                            <i class="nav-icon fas fa-layer-group"></i>
 
                             <p>
-                              Pembelian
+                                Cindo Manado
                             </p>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a href="/userview/paketbso" class="nav-link">
+                            <i class="nav-icon fas fa-layer-group"></i>
+                            <p>
+                                Cindo Makasar
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/userview/paketbmj" class="nav-link">
+                            <i class="nav-icon fas fa-layer-group"></i>
+                            <p>
+                                Cindo Sunda
+                            </p>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
             @endif

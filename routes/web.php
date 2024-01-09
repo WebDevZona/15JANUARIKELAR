@@ -441,12 +441,23 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
         return view('/dashboard');
     });
 
-    Route::get('/dashboard', 'DashboardController@index');
+    // Roele ini untuk dashbord user
+    // Route::get('/pengertianProduk/index', 'PengertianProdukController@index')->name('PengertianProduk');
+    // Route::get('/pengertianProduk/create', 'PengertianProdukController@create');
+    // Route::post('/pengertianProduk/store', 'PengertianProdukController@store');
+    // // Route::get('/pengertianProduk/{id}/show', 'PengertianProdukController@show');
+    // Route::get('/pengertianProduk/{id}/edit', 'PengertianProdukController@edit');
+    // Route::post('/pengertianProduk/{id}/update', 'PengertianProdukController@update');
+    // Route::get('/pengertianProduk/{id}/delete', 'PengertianProdukController@delete');
 
+    Route::get('/userview/konsultasi', 'UserviewController@userview');
+    Route::get('/userview/paketbso', 'UserviewController@bso');
+    Route::get('/userview/paketbmj', 'UserviewController@bmj');
+
+    Route::get('/dashboard', 'DashboardController@index');
     // pembelian
     Route::get('/pengumuman/index', 'PengumumanController@index');
     Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
-
     Route::get('/artikel', 'tampilanController@artikel')->name('artikel');
 
     Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
