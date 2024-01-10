@@ -847,7 +847,7 @@
                             @endif
                         </div>
                     </div>
-                    <span class="left-scroll-button" onclick="scrollLeft()">
+                    <span class="left-scroll-button" onclick="customScrollLeft()">
                         <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px; margin-top: 50px;" viewBox="0 0 35" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
@@ -930,39 +930,37 @@
 
 
                 <div class="right_coloum floatright">
-                    <div class="single_right_coloum">
-                        <h4 style="margin-left: -5px;margin-bottom: 30px">Artikel Populer</h4>
-
-                        <div class="single_cat_right_content">
-
-                            @if($berita->isNotEmpty())
+                    <div class="single_cat_right_content">
+                        @if($berita->isNotEmpty())
                             @foreach($berita->sortByDesc('created_at')->take(5) as $item)
-                            <div class="right_image">
-                                <img src="{{ asset('foto_upload/' . $item->foto) }}" alt="Youtube Thumbnail" style="width: 195px; height: auto;" />
-                            </div>
-                            <br>
-                            <div class="left_content">
-                                <h3>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none" style=" float: left; margin-right: 5px; width: 14px; height: 19px;">
-                                        <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                    {{ $item->sumber }}
-                                </h3>
-                                <p>
-                                    <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
-                                        {{ $item->judul }}
-                                    </strong>
-                                </p>
-                                <p class="single_cat_right_content_meta" style="color: #696969; font-family: Manrope; font-style: normal; line-height: normal;">
-                                    {{ $item->waktu }}
-                                </p>
-                            </div>
+                                <div class="right_image">
+                                    <img src="{{ asset('foto_upload/' . $item->foto) }}" alt="Youtube Thumbnail" style="width: 195px; height: auto;" />
+                                </div>
+                                <br>
+                                <div class="left_content">
+                                    <h3>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none" style="float: left; margin-right: 5px; width: 14px; height: 19px;">
+                                            <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                        <a href="{{ asset( $item->tampilan) }}" style="text-decoration: none; color: inherit;">
+                                            {{ $item->sumber }}
+                                        </a>
+                                    </h3>
+                                    <p>
+                                        <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
+                                            <a href="{{ asset( $item->tampilan) }}" style="text-decoration: none; color: inherit;">
+                                                {{ $item->judul }}
+                                            </a>
+                                        </strong>
+                                    </p>
+                                    <p class="single_cat_right_content_meta" style="color: #696969; font-family: Manrope; font-style: normal; line-height: normal;">
+                                        {{ $item->waktu }}
+                                    </p>
+                                </div>
                             @endforeach
                         </div>
                         @endif
-
-
-                    </div>
+                    </div>                                       
                 </div>
     </section>
 
@@ -1034,7 +1032,7 @@
                                     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);">
             <!-- <h2>About</h2> -->
             <div class="left-align" style=" text-align: left;">
-                <h3 style="font-weight: 800;color:black; margin-left: 120px; font-family: 'Manrope', sans-serif; ">Janji Mentor <br> Untuk Sobat
+                <h3 style="font-weight: 800;color:black; margin-left: 100px; font-family: 'Manrope', sans-serif; ">Janji Mentor <br> Untuk Sobat
                     Insans...</h3>
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
@@ -1679,12 +1677,17 @@
         })
     </script>
     <script>
+        function customScrollLeft() {
+        // Assuming you have a container with the ID 'contentContainer'
+        var scrollableColumn = document.getElementById('scrollableColumn');
+        scrollableColumn.scrollLeft -= 100; // Adjust the value based on your needs
+    }
         function scrollLeft() {
-            document.getElementById('scrollableColumn').scrollLeft -= 200;
+            document.getElementById('scrollableColumn').scrollLeft -= 100;
         }
 
         function scrollRight() {
-            document.getElementById('scrollableColumn').scrollLeft += 200;
+            document.getElementById('scrollableColumn').scrollLeft += 100;
         }
 
         function scrollLeft1() {

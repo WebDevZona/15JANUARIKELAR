@@ -4067,6 +4067,10 @@ li.left-aligned {
     color: #1e1e1e;
     text-align: justify;
 }
+li.left-aligned .text {
+    text-align: justify;
+    font-size: 12px !important;
+}
 
 .custom-package {
     border-radius: 50px;
@@ -4084,13 +4088,16 @@ li.left-aligned {
 }
 
 .rupiah-display h4 {
-    color: #1e1e1e;
+    color: #1e1e1e !important;
     font-family: Montserrat;
     font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-right: 100px;
+    
 }
+
 
 .custom-pricee {
     color: #656565;
@@ -6598,6 +6605,8 @@ width: 143px;
     color: red;
 }
 
+
+
 .left-scroll-button {
     border-radius: 50%;
     left: 0;
@@ -8241,15 +8250,13 @@ button {
 
   #hero-skripsi .container h2 {
     color: #FFF;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 600px;
-    text-shadow: 0px 5.178691864013672px 5.178691864013672px rgba(0, 0, 0, 0.25);
-    font-family: "Montserrat";
+    margin-left: 550px;
+    font-family: "Montserrat"!important;
     font-size: 30px;
-    font-style: normal;
     /* font-weight: 500; */
-    line-height: 100%; /* 33.404px */
-    letter-spacing: -1.67px;
+    line-height:30px;
   }
 #hero-skripsi {
     margin: 0;
@@ -8298,12 +8305,12 @@ button {
     font-family: "Montserrat";
 } */
 
-#hero-skripsi .container h2 {
+/* #hero-skripsi .container h2 {
     width: 600px !important;
     margin-left: 550px;
     font-family: "Montserrat"!important;
     font-size: 30px;
-}
+} */
 
 #hero-skripsi .container .judulketiga-skripsi {
     display: flex;

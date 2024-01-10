@@ -187,7 +187,7 @@
                         <div class="section-title">
                             <!-- <h2>About</h2> -->
                             <span class="gariss">
-                                <h3 style="color: black; margin-top: 100px; text-align: center; font-size: 45px;">
+                                <h3 style="color: black; margin-top: 70px; text-align: center; font-size: 45px;">
                                     Keunggulan Bimbingan <br> Mata Kuliah Jurusan</h3>
                             </span>
                         </div>
@@ -228,8 +228,8 @@
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img src="assets/img/bg/bmjcourse.png" alt="">
                                 </div>
-                                <div style="width: 100%; height: 100%; color: black; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 25.40px; word-wrap: break-word; padding: 10px;">
-                                    Pendampingan oleh Mentor profesional secara privat.
+                                <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
+                                    Pendampingan oleh Mentor profesional secara privat online dan intensif.
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img style="margin-top:-330px; width:35px; height:35px;" src="assets/img/bg/veryikasi.png" alt="">
@@ -241,8 +241,8 @@
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img src="assets/img/bg/bmjschedule.png" alt="">
                                 </div>
-                                <div style="width: 100%; height: 100%; color: black; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 25.40px; word-wrap: break-word; padding: 10px;">
-                                    Pendampingan oleh Mentor profesional secara privat.
+                                <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
+                                    Jadwal bimbingan fleksibel, sesuai kesepakatan Sobat Insans dan Mentor.
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img style="margin-top:-330px; width:35px; height:35px;" src="assets/img/bg/veryikasi.png" alt="">
@@ -254,8 +254,8 @@
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img src="assets/img/bg/bmjles.png" alt="">
                                 </div>
-                                <div style="width: 100%; height: 100%; color: black; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 25.40px; word-wrap: break-word; padding: 10px;">
-                                    Pendampingan oleh Mentor profesional secara privat.
+                                <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
+                                    Bimbingan dilakukan secara online untuk memudahkan proses bimbingan.
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img style="margin-top:-330px; width:35px; height:35px;" src="assets/img/bg/veryikasi.png" alt="">
@@ -267,8 +267,8 @@
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img src="assets/img/bg/bmjgraduation.png" alt="">
                                 </div>
-                                <div style="width: 100%; height: 100%; color: black; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 25.40px; word-wrap: break-word; padding: 10px;">
-                                    Pendampingan oleh Mentor profesional secara privat.
+                                <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
+                                    Terbuka untuk semua jurusan.
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img style="margin-top:-330px; width:35px; height:35px;" src="assets/img/bg/veryikasi.png" alt="">
@@ -280,8 +280,8 @@
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img src="assets/img/bg/bmjkomunikasi.png" alt="">
                                 </div>
-                                <div style="width: 100%; height: 100%; color: black; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 25.40px; word-wrap: break-word; padding: 10px;">
-                                    Pendampingan oleh Mentor profesional secara privat.
+                                <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
+                                    Konsultasi konsentrasi jurusan langsung bersama Mentor.
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img style="margin-top:-330px; width:35px; height:35px;" src="assets/img/bg/veryikasi.png" alt="">
@@ -342,7 +342,7 @@
                             <!-- 2 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
                                 <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
-                                    Sobat Insans bisa mengkonsultasikan kendalanya terkait mata kuliah yang sedang ditempuh.
+                                    Sobat Insans bisa mengkonsultasikan kendala-kendalanya terkait mata kuliah yang sedang ditempuh.
                                 </div>
 
                                 <img style="width: 27px; height: 27px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
@@ -890,10 +890,11 @@
                                 font-weight: 700;
                                 line-height: 125%; /* 40px */
                                 letter-spacing: -1.6px;">PAKET BRONZE</h4>
-                            <div class="rupiah-display">
-                                <h4 style="color: #1E1E1E">Rp 400.000</h4>
+                            <div class="rupiah-display" style="position: relative;">
+                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;" >Rp</strong></h4>
+                                <h4><strong>400.000</strong></h4>
                             </div>
-                            <div class="custom-pricee"><strong>1 Bulan</strong></div>
+                            <div class="custom-pricee" style="margin-right: 120px;"><strong>1 Bulan</strong></div>
                             <hr>
                             <ul>
                                 <li class="left-aligned">
@@ -908,9 +909,21 @@
                                     <span class="checkmark">&#10003;</span>
                                     <span class="text"> Konsultasi konsentrasi jurusan</span>
                                 </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+                                    <span class="text"> Waktu bimbingan 12 kali pertemuan</span>
+                                </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+                                    <span class="text"> Jadwal bimbingan 1 minggu,<br> 3x pertemuan</span>
+                                </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+                                    <span class="text"> Durasi pertemuan minimal 2 jam dan maksimal 4 jam</span>
+                                </li>
 
                             </ul>
-                            <div class="custom-btn-wrap" style="margin-top:25%">
+                            <div class="custom-btn-wrap" style="margin-top:-10%">
                                 <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
                             </div>
                         </div>
@@ -925,30 +938,39 @@
                                 font-weight: 700;
                                 line-height: 125%; /* 40px */
                                 letter-spacing: -1.6px;">PAKET EMERALD</h4>
-                            <div class="rupiah-display">
-                                <h4 style="color: #1E1E1E">Rp 565.000</h4>
+                            <div class="rupiah-display" style="position: relative;">
+                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;" >Rp</strong></h4>
+                                <h4><strong>565.000</strong></h4>
                             </div>
-                            <div class="custom-pricee"><strong>2 Bulan</strong></div>
+                            <div class="custom-pricee" style="margin-right: 120px;"><strong>2 Bulan</strong></div>
                             <hr>
                             <ul>
                                 <li class="left-aligned">
                                     <span class="checkmark">&#10003;</span>
-                                    <span class="text">Mahasiswa semester 3 dan 4</span>
+                                    <span class="text">Untuk mahasiswa semester 3 dan 4</span>
                                 </li>
                                 <li class="left-aligned">
                                     <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan intensif pembuatan <br> bab 1-3</span>
+                                    <span class="text"> 6 Mata Kuliah (umum dan khusus)</span>
                                 </li>
                                 <li class="left-aligned">
                                     <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan intensif pembuatan <br> bab 1-3</span>
+                                    <span class="text"> Konsultasi konsentrasi jurusan </span>
                                 </li>
                                 <li class="left-aligned">
                                     <span class="checkmark">&#10003;</span>
-                                    <span class="text">Bimbingan metode penelitian</span>
+                                    <span class="text">Waktu bimbingan 24 kali pertemuan</span>
+                                </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+                                    <span class="text">Jadwal bimbingan 1 minggu,<br> 3x pertemuan</span>
+                                </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+                                    <span class="text">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
                                 </li>
                             </ul>
-                            <div class="custom-btn-wrap" style="margin-top:40px">
+                            <div class="custom-btn-wrap" style="margin-top:-10%">
                                 <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
                             </div>
                         </div>
@@ -962,27 +984,40 @@
                                 font-weight: 700;
                                 line-height: 125%; /* 40px */
                                 letter-spacing: -1.6px;">PAKET DIAMOND</h4>
-                            <div class="rupiah-display">
-                                <h4 style="color: #1E1E1E">Rp 650.000</h4>
+                            <div class="rupiah-display" style="position: relative;">
+                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;" >Rp</strong></h4>
+                                <h4><strong>650.000</strong></h4>
                             </div>
-                            <div class="custom-pricee"><strong>2 Bulan</strong></div>
+                            <div class="custom-pricee" style="margin-right: 120px;"><strong>2 Bulan</strong></div>
                             <hr>
                             <ul>
                                 <li class="left-aligned">
                                     <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan intensif pembuatan bab 4 sampai selesai</span>
+                                    <span class="text">Untuk mahasiswa semester 5 dan 6</span>
                                 </li>
                                 <li class="left-aligned">
                                     <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan intensif pembuatan bab 4 sampai selesai</span>
+                                    <span class="text"> 6 Mata Kuliah (umum dan khusus)</span>
                                 </li>
                                 <li class="left-aligned">
                                     <span class="checkmark">&#10003;</span>
-                                    <span class="text">Bimbingan pembuatan abstrak</span>
+                                    <span class="text"> Konsultasi konsentrasi jurusan </span>
+                                </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+                                    <span class="text">Waktu bimbingan 24 kali pertemuan</span>
+                                </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+                                    <span class="text">Jadwal bimbingan 1 minggu, <br>3x pertemuan</span>
+                                </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+                                    <span class="text">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
                                 </li>
 
                             </ul>
-                            <div class="custom-btn-wrap" style="margin-top:26%">
+                            <div class="custom-btn-wrap" style="margin-top:-10%">
                                 <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
                             </div>
                         </div>
@@ -1075,8 +1110,7 @@
                                         </button>
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body" style="text-align: left">Sobat insan boleh memilih mata kuliah apa aja sesuai semester yang sedang sobat insan tempuh.
-                                            Sobat insans bisa bimbingan maksimal 6 mata kuliah, baik dari mata kuliah umum maupun mata kuliah khusus.
+                                        <div class="accordion-body" style="text-align: left">Sobat Insans boleh memilih mata kuliah apa saja sesuai semester yang sedang Sobat Insans tempuh. Sobat Insans bisa bimbingan maksimal 6 mata kuliah, baik dari mata kuliah umum ataupun mata kuliah khusus.
                                         </div>
                                     </div>
                                     <div class="accordion-item">
@@ -1086,18 +1120,18 @@
                                             </button>
                                         </h2>
                                         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                            <div class="accordion-body" style="text-align: left">Sobat Insans boleh menyampaikan keinginannya untuk dibimbing oleh mentor perempuan atau laki-laki, namun ini bersifat kondisional selama pilihan mentor masih tersedia.</div>
                                         </div>
                                     </div>
 
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="flush-headingthree">
                                             <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
-                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">03</div><b>Apakah Bagaimana caranya untuk ambil paket lanjutan?</b>
+                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">03</div><b>Bagaimana caranya untuk ambil paket lanjutan?</b>
                                             </button>
                                         </h2>
                                         <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                            <div class="accordion-body" style="text-align: left">Jika tertarik mengambil paket lanjutan, Sobat Insans bisa melakukan konfirmasi dan menghubungi Kak Dewi (+62 821-4154-9373).</div>
                                         </div>
                                     </div>
 
@@ -1108,7 +1142,7 @@
                                             </button>
                                         </h2>
                                         <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                            <div class="accordion-body" style="text-align: left">Sobat Insans bisa langsung menghubungi Kak Dewi selaku Customer Experience untuk menyampaikan segala jenis kendala. Kak Dewi selalu siap membantu, memastikan dan membuat Sobat Insans mendapatkan pengalaman terbaik.</div>
                                         </div>
                                     </div>
 
@@ -1119,7 +1153,7 @@
                                             </button>
                                         </h2>
                                         <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
-                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                            <div class="accordion-body" style="text-align: left">Class Program belum menyediakan metode pembayaran dengan sistem cicil untuk pilihan paket. </div>
                                         </div>
                                     </div>
 

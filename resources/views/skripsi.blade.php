@@ -54,13 +54,13 @@
 
     <section id="hero-skripsi" class="d-flex align-items-center">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
-            <div class="d-flex">
+            <div class="d-flex" style="margin-top:-100px;">
                 <a href="#pricing" class="btn-get-started-skripsi scrollto">CLASS PROGRAM</a>
             </div>
             <div class="judulketiga-skripsi">
                 <h3 style="font-size: 50px; color:#FFF;">Pelatihan Skripsi</h3>
             </div>
-            <h2>Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh mentor.</h2>
+            <h2 >Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh mentor.</h2>
         </div>
     </section>
     <!-- ======= End Section Hero ======= -->
@@ -143,7 +143,7 @@
                                     <img src="assets/img/logo/video.png" class="img-fluid" style="width: 250px;" alt="">
                                 </div>
                                 <div class="member-infoo">
-                                    <p>Mendapatkan materi seputar pembuatan judul skripsi yang baik dan benar.</p>
+                                    <p>Sobat Insans akan mendapatkan resume materi berupa video dari mentor kelas pelatihan skripsi.</p>
                                 </div>
                             </div>
                         </div>
@@ -158,7 +158,7 @@
                                     <img src="assets/img/logo/group-chat.png" class="img-fluid" style="width: 235px;" alt="">
                                 </div>
                                 <div class="member-infoo">
-                                    <p>Fasilitas bergabung di grup WhatsApp untuk konsultasi bersama mentor.</p>
+                                    <p>Sobat Insans akan mendapatkan fasilitas bergabung di grup WhatsApp untuk konsultasi bersama mentor.</p>
                                 </div>
                             </div>
                         </div>
@@ -173,7 +173,7 @@
                                     <img src="assets/img/logo/web-devices.png" class="img-fluid" style="width: 250px;" alt="">
                                 </div>
                                 <div class="member-infoo">
-                                    <p>Sobat Insans akan mendapatkan PPT materi pelatihan skripsi.</p>
+                                    <p>Sobat Insans akan mendapatkan PPT materi pelatihan skripsi. </p>
                                 </div>
                             </div>
                         </div>
@@ -298,8 +298,8 @@
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="profile-info">
                             <!-- <h1>ELouis Patric</h1> -->
-                            <p>Workshop Skripsi <br>Batch 8 Telah Dibuka</p>
-                            <button class="button" style="background-color: rgb(226,204,0) !important">Daftar Sekarang<span class="d-flex justify-content-center align-items-center"><img src="assets/img/bg/Icons.png" style=" margin-left: 15px" alt=""></span></a></button>
+                            <p>Workshop Skripsi <br>Batch 9 Telah Dibuka</p>
+                            <button class="button" style="background-color: rgb(226,204,0) !important">Daftar Sekarang!<span class="d-flex justify-content-center align-items-center"><img src="assets/img/bg/Icons.png" style=" margin-left: 15px" alt=""></span></a></button>
                             <h2 style="font-weight: 100;">No credit card required</h2>
                         </div>
                         <!-- Tambahkan elemen tambahan di sini -->
@@ -408,54 +408,54 @@
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">01</div> <b>Apakah di Class Program bisa ganti Mentor?</b>
+                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">01</div> <b>Siapa pemateri workshop skripsi?</b>
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                <div class="accordion-body">Pemateri yang mengisi workshop berasal dari Mentor terbaik dari Bimbingan Skripsi Online Class Program.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">02</div> <b>Apakah bisa bimbingan malam hari?</b>
+                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">02</div> <b>Bagaimana cara daftarnya?</b>
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                <div class="accordion-body">Sobat Insans cukup klik link registrasi yang tercantum di website, linktree Instagram Class Program dan linktree Zona Mahasiswa. Ikuti syarat dan ketentuan untuk mengikuti workshop skripsi dan konfirmasikan bukti mengikuti persyaratan dan bukti pembayaran pada Minma. </div>
                             </div>
                         </div>
 
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingthree">
                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
-                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">03</div><b>Apakah bimbingan menggunakan video call?</b>
+                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">03</div><b>Apa saja persyaratan ikut workshop skripsi?</b>
                                 </button>
                             </h2>
                             <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                <div class="accordion-body">Sobat Insans memiliki beberapa persyaratan untuk mengikuti workshop skripsi dari Class Program yaitu wajib follow Instagram @zonamahasiswa.id dan @classprogram.id, mention atau tag 5 orang teman di postingan pamflet workshop lalu menyerahkan bukti screenshoot-nya kepada Minma.</div>
                             </div>
                         </div>
 
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingfour">
                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
-                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">04</div><b>Sistem pembayaran bagaimana?</b>
+                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">04</div><b>Apa saja isi workshopnya?</b>
                                 </button>
                             </h2>
                             <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                <div class="accordion-body">Workshop skripsi akan membahas masalah-masalah seputar dunia skripsi mulai dari penentuan judul sampai kiat-kiat sidang skripsi. Hanya saja di setiap workshop memiliki tema yang berbeda-beda dan setiap workshop lebih spesifik mengusung tema perbagian skripsi mana yang akan dibahas.</div>
                             </div>
                         </div>
 
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="flush-headingfive">
                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
-                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">05</div><b>Apakah bimbingan private?</b>
+                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">05</div><b>Fasilitas apa saja yang akan didapatkan?</b>
                                 </button>
                             </h2>
                             <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
-                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                <div class="accordion-body">Sobat Insans akan mendapatkan E-sertifikat dan hadiah E-wallet bagi Sobat Insans yang memenangkan mini challenge yang sedang diadakan. </div>
                             </div>
                         </div>
 
