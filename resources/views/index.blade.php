@@ -1003,19 +1003,25 @@
                         </div> -->
 
 
-                        <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt" style="border-radius: 50%; width: 89px; height: 89px; display: inline-block;">
-                            <div style=" display: inline-block; position: relative; margin-left: 450px; margin-top: -800px;">
+                        <style>
+                            .btnyt:hover .yt {
+                                background-color: blue; /* Change to your desired hover background color */
+                            }
+                            .bxl-youtube:hover {
+                                color: blue !important; /* Change to your desired hover color */
+                            }
+                        </style>
+                        
+                        <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt">
+                            <div style="display: inline-block; position: relative; margin-left: 450px; margin-top: -800px;">
                                 <div class="yt">
-                                    <style>
-                                        .yt:hover .bx.bxl-youtube {
-                                            color: blue;
-                                        }
-                                    </style>
                                     <div style="margin-top:20px; width: 80px; height: 80px; border-radius: 50%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
-                                    <i style="margin-top:20px;  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;" class="bx bxl-youtube"></i>
+                                    <i style="margin-top:20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;" class="bx bxl-youtube"></i>
                                 </div>
                             </div>
                         </a>
+                        
+                        
                     </div>
                 </div>
             </div>
