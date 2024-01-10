@@ -572,7 +572,7 @@
                         </div>
                         <br>
                         <div class="btn-wrap">
-                            <a class="btn-buyy" href="#pakethematbso">Pilih Paket</a>
+                            <a href="bimbingan-skripsi-online#pricing" class="btn-buyy" href="#pakethematbso">Pilih Paket</a>
                         </div>
                     </div>
                 </div>
