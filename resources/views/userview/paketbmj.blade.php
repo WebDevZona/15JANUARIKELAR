@@ -192,9 +192,9 @@
                                                     <br><span class="green-text">Silver</span>
                                                 </th>
                                                 <th scope="col">
-                                                    <span style="margin-left: 20px;">Harga</span>
+                                                    <span style="margin-left: 40px;">Harga</span>
                                                     <br>
-                                                    <span class="blue-text" style="margin-left: 20px;">Rp 47.000</span>
+                                                    <span class="blue-text" style="margin-left: 40px;">Rp 47.000</span>
                                                 </th>
                                             </tr>
                                         </thead>
@@ -241,9 +241,9 @@
                                                     <br><span class="green-text">Gold</span>
                                                 </th>
                                                 <th scope="col">
-                                                    <span style="margin-left: 20px;">Harga</span>
+                                                    <span style="margin-left: 40px;">Harga</span>
                                                     <br>
-                                                    <span class="blue-text" style="margin-left: 20px;">Rp 66.000</span>
+                                                    <span class="blue-text" style="margin-left: 40px;">Rp 66.000</span>
                                                 </th>
                                             </tr>
                                         </thead>
@@ -299,9 +299,9 @@
                                                     <br><span class="green-text">Gold</span>
                                                 </th>
                                                 <th scope="col">
-                                                    <span style="margin-left: 20px;">Harga</span>
+                                                    <span style="margin-left: 40px;">Harga</span>
                                                     <br>
-                                                    <span class="blue-text" style="margin-left: 20px;">Rp 66.000</span>
+                                                    <span class="blue-text" style="margin-left: 40px;">Rp 66.000</span>
                                                 </th>
                                             </tr>
                                         </thead>
