@@ -73,7 +73,7 @@
                 <div class="section-title">
                     <!-- <h2>About</h2> -->
                     <h3 style="color:black;">Bimbingan Mata Kuliah Jurusan</h3>
-                    <p style="color:black;">Home > Bimbingan Mata Kuliah Jurusan (BMJ)</p>
+                    <p style="color:black; margin-top:-2px;">Home > Bimbingan Mata Kuliah Jurusan (BMJ)</p>
                     {{-- <span>BSO</span> --}}
                 </div>
             </div>
@@ -380,7 +380,7 @@
         </section>
 
 
-        <section id="hero2" class="d-flex align-items-center" style="margin-top:-230px; margin-butoon:30px;">
+        <section id="hero2" class="d-flex align-items-center" style="margin-top:-260px; margin-butoon:30px;">
             <div class="container" data-aos="zoom-out" data-aos-delay="100">
                 <div class="juduldua">
                     <h3>
@@ -891,7 +891,7 @@
                                 line-height: 125%; /* 40px */
                                 letter-spacing: -1.6px;">PAKET BRONZE</h4>
                             <div class="rupiah-display" style="position: relative;">
-                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;" >Rp</strong></h4>
+                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;">Rp</strong></h4>
                                 <h4><strong>400.000</strong></h4>
                             </div>
                             <div class="custom-pricee" style="margin-right: 120px;"><strong>1 Bulan</strong></div>
@@ -939,7 +939,7 @@
                                 line-height: 125%; /* 40px */
                                 letter-spacing: -1.6px;">PAKET EMERALD</h4>
                             <div class="rupiah-display" style="position: relative;">
-                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;" >Rp</strong></h4>
+                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;">Rp</strong></h4>
                                 <h4><strong>565.000</strong></h4>
                             </div>
                             <div class="custom-pricee" style="margin-right: 120px;"><strong>2 Bulan</strong></div>
@@ -985,7 +985,7 @@
                                 line-height: 125%; /* 40px */
                                 letter-spacing: -1.6px;">PAKET DIAMOND</h4>
                             <div class="rupiah-display" style="position: relative;">
-                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;" >Rp</strong></h4>
+                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;">Rp</strong></h4>
                                 <h4><strong>650.000</strong></h4>
                             </div>
                             <div class="custom-pricee" style="margin-right: 120px;"><strong>2 Bulan</strong></div>

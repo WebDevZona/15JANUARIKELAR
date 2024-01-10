@@ -604,7 +604,6 @@
                             </div>
                         </div>
                     </div>
-
                     <h4 style="margin-top: -180px; margin-left: 500px;">Silahkan lakukan pembayaran sebesar 50.000 <br> dan unggah bukti transfernya</h4>
                     <div class="input-group mb-3" style="width: 550px; margin-top: -90px; margin-left: 500px;">
                         <input type="file" class="form-control" id="inputGroupFile02">
@@ -614,7 +613,7 @@
 
             </div>
         </div>
-
+    </div>
 
 
 </body>

@@ -19,7 +19,7 @@
 //     return redirect()->route('index');
 // });
 
-
+use App\Http\Controllers\BeliController;
 // tampilannya
 Route::get('/index', 'tampilanController@index')->name('index');
 Route::get('/Kelas-Tugas-Kuliah', 'tampilanController@ktk')->name('Kelas-Tugas-Kuliah');
@@ -441,14 +441,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
         return view('/dashboard');
     });
 
-    // Roele ini untuk dashbord user
-    // Route::get('/pengertianProduk/index', 'PengertianProdukController@index')->name('PengertianProduk');
-    // Route::get('/pengertianProduk/create', 'PengertianProdukController@create');
-    // Route::post('/pengertianProduk/store', 'PengertianProdukController@store');
-    // // Route::get('/pengertianProduk/{id}/show', 'PengertianProdukController@show');
-    // Route::get('/pengertianProduk/{id}/edit', 'PengertianProdukController@edit');
-    // Route::post('/pengertianProduk/{id}/update', 'PengertianProdukController@update');
-    // Route::get('/pengertianProduk/{id}/delete', 'PengertianProdukController@delete');
+    Route::post('rekening', 'BeliController@pembeli')->name('rekening');
 
     Route::get('/userview/konsultasi', 'UserviewController@userview');
     Route::get('/userview/paketbso', 'UserviewController@bso');

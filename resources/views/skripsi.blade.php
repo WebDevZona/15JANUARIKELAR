@@ -60,7 +60,7 @@
             <div class="judulketiga-skripsi">
                 <h3 style="font-size: 50px; color:#FFF;">Pelatihan Skripsi</h3>
             </div>
-            <h2 >Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh mentor.</h2>
+            <h2>Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh mentor.</h2>
         </div>
     </section>
     <!-- ======= End Section Hero ======= -->
