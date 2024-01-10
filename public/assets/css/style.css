@@ -7372,9 +7372,9 @@ letter-spacing: -1px;
 
     /* color: #FFF; */
     text-align: center;
-    font-family: Montserrat;
+    font-family: Poppins;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     /* font-size: 45px; */
     line-height: 125%;
     /* 53.596px */
@@ -7459,12 +7459,13 @@ letter-spacing: -1px;
 
 .benefit .container .section-title {
     color: #fff;
-
+    font-size: 100px !important;
     text-align: center;
-    font-family: Montserrat;
+    font-family: "Manrope";
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
+  
     /* 53.596px */
     letter-spacing: -1px;
 }
@@ -7653,7 +7654,14 @@ border-radius: 42px; */
 
 .card-skripsi .section-title {
     color: #000;
-    font-family: Montserrat;
+    font-family: "Manrope" !important;
+    font-weight: bold !important;
+}
+
+.card-skripsi .section-title h3{
+    color: #000;
+    font-family: "Manrope" !important;
+    font-weight: bold !important;
 }
 
 /* card text geser */
@@ -8291,6 +8299,21 @@ button {
     color: #ffffff;
 }
 
+.btn-get-started-skripsi1 {
+    border-radius: 50px;
+    margin-left: 550px;
+    background: #e2cc00;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    font-family: "Manrope";
+    margin-top: 20px;
+    color: #fff;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    padding: 14px 40px;
+}
+
 .judulketiga-skripsi {
     margin-left: 550px;
     display: flex;
@@ -8354,9 +8377,9 @@ button {
   box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15);
   font-size: 25px;
   color: #FFF;
-  font-family: Montserrat;
+  font-family: "Manrope";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 800% !important;
   line-height: 125%;
   letter-spacing: -1px;
 }
@@ -8411,4 +8434,23 @@ margin-bottom: 1000px;
 font-size: 14px;
 text-align: center;
 width: 240px; */
+}
+
+.card-skripsi .section-title {
+    color: #000;
+    font-family: "Manrope" !important;
+    font-weight: bold !important;
+}
+
+.card-skripsi .section-title h3{
+    color: #000;
+    font-family: "Manrope" !important;
+    font-weight: bold !important;
+}
+
+
+#benefit .section-title h3 {
+    margin: 15px 0 0 0;
+    font-size: 50px;
+    font-weight: 700;
 }

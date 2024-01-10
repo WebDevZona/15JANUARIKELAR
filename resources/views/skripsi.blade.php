@@ -45,8 +45,8 @@
     <section id="about" class="heada" style="background: url(assets/img/bg/utama.png);background-size: cover; ">
         <div class="container" data-aos="fade-up">
             <div class="section-title">
-                <h3>Pelatihan Skripsi</h3>
-                <p style="margin-top: -2px; font-weight:200;">Home > Pelatihan Skripsi</p>
+                <h3 style="font-size:40px; font-family:Manrope !important; font-weight:900;">Pelatihan Skripsi</h3>
+                <p style="margin-top: -2px; font-weight:300;">Home > Pelatihan Skripsi</p>
             </div>
         </div>
     </section>
@@ -55,7 +55,7 @@
     <section id="hero-skripsi" class="d-flex align-items-center">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
             <div class="d-flex" style="margin-top:-100px;">
-                <a href="#pricing" class="btn-get-started-skripsi scrollto">CLASS PROGRAM</a>
+                <strong  class="btn-get-started-skripsi1 scrollto">CLASS PROGRAM</strong>
             </div>
             <div class="judulketiga-skripsi">
                 <h3 style="font-size: 50px; color:#FFF;">Pelatihan Skripsi</h3>
@@ -70,7 +70,7 @@
     <section id="card-skripsi" class="card-skripsi">
         <div class="container">
             <div class="d-flex">
-                <a href="#pricing" class="btn-get-started2 scrollto">Pelatihan Skripsi</a>
+                <strong  class="btn-get-started2 scrollto">Pelatihan Skripsi</strong>
             </div>
 
             <div class="section-title">
@@ -120,11 +120,11 @@
           gap: 15.455px;
           flex-shrink: 0; background: rgb(226,204,0);
           box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15); font-size: 25px; color: #FFF;
-          font-family: Montserrat;
+          font-family: Manrope;
           font-style: normal;
-          font-weight: 700;
+          font-weight: 800 !important;
           line-height: 125%; /* 61.818px */
-          letter-spacing: -1px;">Class Program</a>
+          letter-spacing: -1px;">CLASS PROGRAM</a>
             </div>
 
             <div class="section-title">
@@ -136,7 +136,7 @@
                 <div class="roww ">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
-                            <a href="#pricing" class="btn-get-started3 scrollto">Video Materi</a>
+                            <strong  class="btn-get-started3 scrollto">Video Materi</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
                                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
@@ -151,7 +151,7 @@
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
-                            <a href="#pricing" class="btn-get-started3 scrollto">Grup Sharing</a>
+                            <strong href="#pricing" class="btn-get-started3 scrollto">Grup Sharing</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
                                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
@@ -166,7 +166,7 @@
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
-                            <a href="#pricing" class="btn-get-started3 scrollto">PPT Materi</a>
+                            <strong href="#pricing" class="btn-get-started3 scrollto">PPT Materi</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
                                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
@@ -183,7 +183,7 @@
                 <div class="row" style="margin-top: 50px;">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
-                            <a href="#pricing" class="btn-get-started3 scrollto">Networking</a>
+                            <strong href="#pricing" class="btn-get-started3 scrollto">Networking</strong>
 
                             <div class="konsultasi-content">
                                 <div class="member-img">
@@ -199,7 +199,7 @@
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
-                            <a href="#pricing" class="btn-get-started3 scrollto">Penghargaan</a>
+                            <strong href="#pricing" class="btn-get-started3 scrollto">Penghargaan</strong>
 
                             <div class="konsultasi-content">
                                 <div class="member-img">
@@ -215,7 +215,7 @@
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
-                            <a href="#pricing" class="btn-get-started3 scrollto">E-Sertifikat</a>
+                            <strong href="#pricing" class="btn-get-started3 scrollto">E-Sertifikat</strong>
 
                             <div class="konsultasi-content">
                                 <div class="member-img">
@@ -238,7 +238,7 @@
     <section id="mentor-skripsi" class="mentor-skripsi" style="margin-top:-50px;">
         <div class="container">
             <div class="section-title">
-                <h3 style="color:blue; font-size: 50px; font-weight: 700; margin-top:0px  !important;">Mentor Yang Berpengalaman</h3>
+                <h3 style="color:blue; font-size: 45px;  margin-top:0px  !important;">Mentor Yang Berpengalaman</h3>
                 <h4 style="color:blue; margin-top:10px !important; ">Kelas Pelatihan Skripsi Class Program </h4>
             </div>
 
@@ -412,7 +412,7 @@
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
-                                <div class="accordion-body">Pemateri yang mengisi workshop berasal dari Mentor terbaik dari Bimbingan Skripsi Online Class Program.</div>
+                                <div class="accordion-body" style="text-align: left">Pemateri yang mengisi workshop berasal dari Mentor terbaik dari Bimbingan Skripsi Online Class Program.</div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -422,7 +422,7 @@
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
-                                <div class="accordion-body">Sobat Insans cukup klik link registrasi yang tercantum di website, linktree Instagram Class Program dan linktree Zona Mahasiswa. Ikuti syarat dan ketentuan untuk mengikuti workshop skripsi dan konfirmasikan bukti mengikuti persyaratan dan bukti pembayaran pada Minma. </div>
+                                <div class="accordion-body" style="text-align: left">Sobat Insans cukup klik link registrasi yang tercantum di website, linktree Instagram Class Program dan linktree Zona Mahasiswa. Ikuti syarat dan ketentuan untuk mengikuti workshop skripsi dan konfirmasikan bukti mengikuti persyaratan dan bukti pembayaran pada Minma. </div>
                             </div>
                         </div>
 
@@ -433,7 +433,7 @@
                                 </button>
                             </h2>
                             <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
-                                <div class="accordion-body">Sobat Insans memiliki beberapa persyaratan untuk mengikuti workshop skripsi dari Class Program yaitu wajib follow Instagram @zonamahasiswa.id dan @classprogram.id, mention atau tag 5 orang teman di postingan pamflet workshop lalu menyerahkan bukti screenshoot-nya kepada Minma.</div>
+                                <div class="accordion-body" style="text-align: left">Sobat Insans memiliki beberapa persyaratan untuk mengikuti workshop skripsi dari Class Program yaitu wajib follow Instagram @zonamahasiswa.id dan @classprogram.id, mention atau tag 5 orang teman di postingan pamflet workshop lalu menyerahkan bukti screenshoot-nya kepada Minma.</div>
                             </div>
                         </div>
 
@@ -444,7 +444,7 @@
                                 </button>
                             </h2>
                             <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-parent="#accordionFlushExample">
-                                <div class="accordion-body">Workshop skripsi akan membahas masalah-masalah seputar dunia skripsi mulai dari penentuan judul sampai kiat-kiat sidang skripsi. Hanya saja di setiap workshop memiliki tema yang berbeda-beda dan setiap workshop lebih spesifik mengusung tema perbagian skripsi mana yang akan dibahas.</div>
+                                <div class="accordion-body" style="text-align: left">Workshop skripsi akan membahas masalah-masalah seputar dunia skripsi mulai dari penentuan judul sampai kiat-kiat sidang skripsi. Hanya saja di setiap workshop memiliki tema yang berbeda-beda dan setiap workshop lebih spesifik mengusung tema perbagian skripsi mana yang akan dibahas.</div>
                             </div>
                         </div>
 
@@ -455,7 +455,7 @@
                                 </button>
                             </h2>
                             <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
-                                <div class="accordion-body">Sobat Insans akan mendapatkan E-sertifikat dan hadiah E-wallet bagi Sobat Insans yang memenangkan mini challenge yang sedang diadakan. </div>
+                                <div class="accordion-body" style="text-align: left">Sobat Insans akan mendapatkan E-sertifikat dan hadiah E-wallet bagi Sobat Insans yang memenangkan mini challenge yang sedang diadakan. </div>
                             </div>
                         </div>
 
