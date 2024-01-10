@@ -1028,6 +1028,7 @@
         <section id="about" style="background: url(assets/img/bg/bso1.png);
                 background-size: cover;
                 background-position: center; margin-top: -100px;">
+            <h1>testing</h1>
             <div class="container" data-aos="fade-up">
                 <div class="row align-items-center justify-content-between" style="margin-left: -140px; margin-top: -80px;">
                     <div class="col-lg-6 text-centerr">
