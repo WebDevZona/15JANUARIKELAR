@@ -84,7 +84,7 @@
                 </li>
                 <li class="dropdown"><a style="cursor: pointer;"><span>Workshop</span> <i class="bi bi-chevron-down nav-link scrollto active" style="margin-left:-10px;"></i></a>
                     <ul style="border-radius: 15px;">
-                        <li><a class="nav-link scrollto" href="kti">KTI</a></li>
+                        <li><a class="nav-link scrollto" href="nonaktif">KTI</a></li>
                         <li><a class="nav-link scrollto" href="skripsi">Skripsi</a></li>
                     </ul>
                 </li>
