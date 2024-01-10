@@ -56,6 +56,8 @@
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
+
+
 </head>
 
 @extends('layout.header')
@@ -91,14 +93,14 @@
                         font-style: normal;
                         font-weight: 600;
                         line-height: 125%;
-                        font-family:Montserrat; !important">Apa Itu Bimbingan <br> Skripsi Online (BSO)?</h2>
+                        font-family:Montserrat !important; ">Apa Itu Bimbingan <br> Skripsi Online (BSO)?</h2>
                 </div>
                 <h2 style="width: 876px;
                     height: 183px;
                     flex-direction: column;
                     justify-content: center;
                     flex-shrink: 0;
-                    font-family: Montserrat; !important;
+                    font-family: Montserrat !important;
                     color: #FFF;
                     font-size: 19px;
                     font-style: normal;
@@ -303,8 +305,8 @@ background-position: center;">
 
 
 
-        <section id="hero2" class="d-flex align-items-center">
-            <div class="container" data-aos="zoom-out" data-aos-delay="100">
+        <section id="hero2" class="d-flex align-items-center" style="margin-top: -50px;">
+            <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-left: 100px;">
                 <div class="juduldua">
                     <h3>
                         <br>
@@ -313,7 +315,7 @@ background-position: center;">
                             line-height: 125%; font-size:80px;">3297+</span> <br>
                         Mahasiswa <br> Lulus Bersama Kami <br>
                         <!-- <a href="#" class="custom-btn-buy">Daftar Sekarang</a> -->
-                        <a href="URL_TARGET" style="text-decoration: none;">
+                        <a href="/login" style="text-decoration: none;">
                             <div style="width: 300px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                                 <div style="letter-spacing: 1px; color: white; font-size: 25px; font-family: Montserrat; font-weight: 600; line-height: 37.50px; word-wrap: break-word">
                                     Pesan Sekarang
@@ -336,8 +338,8 @@ background-position: center;">
                                 <div style=" margin-left:-80px; width: 180px; margin-top: 40px; height: 100px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
                                     <div class="card-title" style="margin-top: 10px; margin-left:10px;">
                                         <img style="margin-top:15px;" src="assets/img/bg/ps2.png" alt="">
-                                        <div style="margin-top: -80px; margin-left:90px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">24+</div>
-                                        <div style="margin-top: -50px; margin-left:90px;  opacity: 0.50; color: #101828; font-size: 15px; font-family: Inter; font-weight: 400; letter-spacing: 1px; word-wrap: break-word">Kampus</div>
+                                        <div style="margin-top: -80px; margin-left:90px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">78+</div>
+                                        <div style="margin-top: -50px; margin-left:90px;  opacity: 0.50; color: #101828; font-size: 15px; font-family: Inter; font-weight: 400; letter-spacing: 1px; word-wrap: break-word">Mentor</div>
                                     </div>
                                 </div>
                             </div>
@@ -359,7 +361,7 @@ background-position: center;">
             <h3 style="text-align: center; color: #000;
                     margin-bottom: 50px;
                     font-family: Montserrat;
-                    font-size: 50px;
+                    font-size: 40px;
                     font-style: normal;
                     margin-top: -150px;
                     font-weight: 700;
@@ -554,7 +556,7 @@ background-position: center;">
 
 
         <!-- ======= Pricing Section ======= -->
-        <section id="pricing" class="pricing" style=" margin-top:-200px; margin-bottom: -300px; background-color:#09326f;">
+        <section id="pricing" class="pricing" style=" margin-top:-260px; margin-bottom: -300px; background-color:#09326f;">
 
             <div class="container" style="margin-top:200px;" data-aos="fade-up">
                 <div style="width: 100%; text-align: center;">
@@ -567,7 +569,7 @@ background-position: center;">
                 <div>
                     <!-- <h3 class="bsa" style="color:white;">Bimbingan Skripsi Online (BSO)</h3> -->
                     <h3 style="color:white; font-size: 50px; text-align:center; margin-top:20px;">Bimbingan Skripsi Online (BSO)</h3>
-                    <h4 style="margin-bottom: 100px; text-align: center; color:white;">Memiliki lima jenis paket hemat dengan rincian dan biaya sebagai berikut:</h4>
+                    <h4 style="margin-bottom: 80px; text-align: center; color:white;">Memiliki lima jenis paket hemat dengan rincian dan biaya sebagai berikut:</h4>
                 </div>
 
                 <div id="packageCarousel" class="carousel slide" data-ride="carousel">
@@ -818,28 +820,32 @@ background-position: center;">
                             </div>
                         </div>
                         <style>
+                            .carousel-control-prev,
                             .carousel-control-next {
-                                padding-left: 150px !important;
-                                margin-left: 100px !important;
-                                font-size: 50px;
-                                /* Adjust the font size as needed */
-
-
-                            }
-
-                            .carousel-control-prev {
-                                padding-right: 150px !important;
-                                margin-right: 100px !important;
-
+                                width: 15%;
+                                background: none;
+                                border: none;
+                                font-size: 2rem;
+                                margin-left: -52px;
+                                margin-right: -53px;
+                                color: #fff;
+                                outline: none;
                             }
 
                             .carousel-control-prev-icon,
                             .carousel-control-next-icon {
-                                background-color: #000;
-                                /* Set the background color to black */
-                                font-size: 50px;
-                                /* Adjust the font size as needed */
+                                /* background-color: #17a2b8; */
+                                background-color: blue;
+                                border-radius: 50%;
+                                margin-left: -52px;
+                                margin-right: -53px;
+                                padding: 15px;
+                                color: #fff;
+                            }
 
+                            .carousel-control-prev:hover,
+                            .carousel-control-next:hover {
+                                /* background: rgba(23, 162, 184, 0.8); */
                             }
                         </style>
                         <!-- Navigation arrows -->
@@ -1357,12 +1363,12 @@ background-position: center;">
 
         <section id="paketmentor" class="paketmentor" style="background-color: #ffff; margin-top: -50px; ">
             <div class="paketmentorbg mb-5" style="margin-top: 300px;">
-                <div style="margin-top: -250px; display: flex; justify-content: center; align-items: center; height: 100vh;">
-                    <div style="width: 450px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; display: flex; flex-direction: column; align-items: center; gap: 10px;">
-                        <div style="color: white; font-size: 22px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word;">BIMBINGAN SKRIPSI ONLINE (BSO)</div>
+                <div style="margin-top: -300px; display: flex; justify-content: center; align-items: center; height: 100vh;">
+                    <div style="width: 420px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; display: flex; flex-direction: column; align-items: center; gap: 10px;">
+                        <div style="color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word;">BIMBINGAN SKRIPSI ONLINE (BSO)</div>
                     </div>
                 </div>
-                <p style="margin-top: -280px; width: 100%; text-align: center; color: black; font-size: 50px; font-family: Montserrat; font-weight: 700;">Konsultasi Reguler yang tersedia<br />di Bimbingan Skripsi Online (BSO)</p>
+                <p style="margin-top: -280px; width: 100%; text-align: center; color: black; font-size: 40px; font-family: Montserrat; font-weight: 700;">Konsultasi Reguler yang tersedia<br />di Bimbingan Skripsi Online (BSO)</p>
 
                 <!-- test1 -->
                 <div style="margin-top: 100px; margin-left: -50px; width: 100%; height: 100%; position: relative">
@@ -1780,7 +1786,7 @@ background-position: center;">
                     <div class="profile">
                         <img class="pro" src="assets/img/team/team-2.jpg" alt="Gambar Profil">
                         <div class="gabung">
-                            <div class="profile-info">
+                            <div class="profile-info" style="height: 300px;">
                                 <div style="text-align:center;  margin-top: 80px;">
                                     <i class="fa-solid fa-star" style="color: #f1d209;"></i>
                                     <i class="fa-solid fa-star" style="color: #f1d209;"></i>
@@ -1791,7 +1797,7 @@ background-position: center;">
                                 <p style="margin-top:30px; margin-bottom: 50px;">" Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
                                     gitu aja banyak ide muncul."</p>
 
-                                <h1 style="text-align:center; ">Yohanes Hernandes SYohan </h1>
+                                <h1 style="text-align:center; margin-top: -20px;">Yohanes Hernandes SYohan </h1>
                                 <p style="text-align:center; margin-top: -20px; ">Teknik Informatika - Universitas Brawijaya</p>
                             </div>
 
@@ -1799,12 +1805,11 @@ background-position: center;">
                     </div>
                 </div>
 
-                <br>
                 <div class="profile-slider">
                     <div class="profile">
                         <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
                         <div class="gabung">
-                            <div class="profile-info">
+                            <div class="profile-info" style="height: 300px;">
                                 <div style="text-align:center;  margin-top: 80px;">
                                     <i class="fa-solid fa-star" style="color: #f1d209;"></i>
                                     <i class="fa-solid fa-star" style="color: #f1d209;"></i>
@@ -1815,9 +1820,10 @@ background-position: center;">
                                 <p style="margin-top:30px; margin-bottom: 50px;">" Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
                                     gitu aja banyak ide muncul."</p>
 
-                                <h1 style="text-align:center; ">Jayen</h1>
-                                <p style="text-align:center; margin-top: -20px; ">Teknik Informatika - Universitas Brawijaya</p>
+                                <h1 style="text-align:center; margin-top: -20px;">Suneo </h1>
+                                <p style="text-align:center; margin-top: -20px; ">Teknik Informatika - Universitas Negri Malang</p>
                             </div>
+
                         </div>
                     </div>
                 </div>
@@ -1924,52 +1930,52 @@ background-position: center;">
                                             <!-- Gambar pertama -->
                                             <img style="margin-left: -50px; width: 100px;" src="assets/img/bg/garis1.png" class="img-fluid" alt="">
                                             <!-- Gambar kedua -->
-                                            <img src="assets/img/bg/al3.png" class="img-fluid" style="width: 255px; margin-left:-30px;  margin-top:5px; alt="">
-                                            </div>
-                                            <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                                            {{-- <img src="assets/img/bg/al3.png" class="img-fluid" style="width: 255px;"alt=""> --}}
+                                            <img src="assets/img/bg/al3.png" class="img-fluid" style="width: 255px; margin-left:-30px;  margin-top:5px; ">
                                         </div>
-                                        <div class=" member-infoo">
-                                            <br>
-                                            {{-- <span>Product Manager</span> --}}
-                                            <p>Mengirim bukti pembayaran dan menunggu verifikasi</p><br>
-                                            {{-- <ul>
+                                        <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
+                                        {{-- <img src="assets/img/bg/al3.png" class="img-fluid" style="width: 255px;"alt=""> --}}
+                                    </div>
+                                    <div class=" member-infoo">
+                                        <br>
+                                        {{-- <span>Product Manager</span> --}}
+                                        <p>Mengirim bukti pembayaran dan menunggu verifikasi</p><br>
+                                        {{-- <ul>
               <li>Prestasi 1</li>
               <li>Prestasi 2</li>
               <li>Prestasi 3</li>
             </ul> --}}
-                                        </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                <!-- Anggota Tim 3 -->
-                                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                                    <div class="konsultasi-content">
-                                        <h4>4. Mulai Konsultasi</h4>
-                                        <div class="member-img">
-                                            <div style="position: relative; display: flex; align-items: center;">
-                                                <!-- Gambar pertama -->
-                                                <img style="margin-left: -50px; width: 100px;" src="assets/img/bg/garis1.png" class="img-fluid" alt="">
-                                                <!-- Gambar kedua -->
-                                                <img src="assets/img/bg/al4.png" class="img-fluid" style="width: 230px; margin-left: -20px;" alt="">
-                                            </div>
+                            <!-- Anggota Tim 3 -->
+                            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                                <div class="konsultasi-content">
+                                    <h4>4. Mulai Konsultasi</h4>
+                                    <div class="member-img">
+                                        <div style="position: relative; display: flex; align-items: center;">
+                                            <!-- Gambar pertama -->
+                                            <img style="margin-left: -50px; width: 100px;" src="assets/img/bg/garis1.png" class="img-fluid" alt="">
+                                            <!-- Gambar kedua -->
+                                            <img src="assets/img/bg/al4.png" class="img-fluid" style="width: 230px; margin-left: -20px;" alt="">
                                         </div>
+                                    </div>
 
-                                        <div class="member-infoo">
-                                            <br>
-                                            {{-- <span>CTO</span> --}}
-                                            <p>Kamu siap melakukan bimbingan bersama mentor</p><br>
-                                            {{-- <ul>
+                                    <div class="member-infoo">
+                                        <br>
+                                        {{-- <span>CTO</span> --}}
+                                        <p>Kamu siap melakukan bimbingan bersama mentor</p><br>
+                                        {{-- <ul>
               <li>Prestasi 1</li>
               <li>Prestasi 2</li>
               <li>Prestasi 3</li>
             </ul> --}}
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
         </section>
 
         <section id="faq" class="faq section-bg" style="background-size: cover; margin-top: -1000px; background-color: #bbcde9; position: relative;">
@@ -1983,6 +1989,37 @@ background-position: center;">
                         <div class="section-title" style="margin-bottom: 50px;">
                             <h3 style="margin-top:0px !important">Paling Sering Ditanyakan</h3>
                         </div>
+                        <style>
+                            .accordion-button {
+                                background-color: #3E87F8;
+                                color: #fff;
+                                border: none;
+                                text-align: left;
+                                padding: 20px;
+                                font-size: 18px;
+                                cursor: pointer;
+                                transition: background-color 0.3s;
+                                width: 100%;
+                                text-decoration: none;
+                                border-radius: 5px;
+                            }
+
+                            .accordion-button:hover {
+                                background-color: #2952a3;
+                            }
+
+                            .accordion-body {
+                                padding: 20px;
+                                background-color: #f8f9fa;
+                                border: 1px solid #dee2e6;
+                                border-top: none;
+                                border-radius: 0 0 5px 5px;
+                            }
+
+                            .accordion-item.active .accordion-button {
+                                background-color: #2952a3;
+                            }
+                        </style>
 
                         <div class="accordion" id="accordionFlushExample">
                             <div class="accordion-item">
@@ -2042,6 +2079,18 @@ background-position: center;">
                                 <a href="#pricing" class="btn btn-primary" style="border-radius: 10px; align-content: center;">Baca selengkapnya</a>
                             </div> --}}
                         </div>
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                                var accordions = document.querySelectorAll('.accordion-button');
+
+                                accordions.forEach(function(accordion) {
+                                    accordion.addEventListener('click', function() {
+                                        this.parentNode.classList.toggle('active');
+                                    });
+                                });
+                            });
+                        </script>
+
 
                     </div>
                 </div>

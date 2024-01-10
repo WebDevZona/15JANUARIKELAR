@@ -124,7 +124,7 @@
                             </div>
                             <div class="right-content" style="margin-left:1px">
                                 {{-- <p >Mentor Class Program</p> --}}
-                                <p style="margin-left:0px color: #000;">Mentor Class Program</p>
+                                <p style="margin-left:0px; color: #000;">Mentor Class Program</p>
                             </div>
                         </div>
 
@@ -293,10 +293,10 @@
         </section>
 
         <section id="about" style="margin-top: -800px; margin-bottom: 250px;">
-            <div class="container" data-aos="fade-up">
-                <div style="width: 100%; height: 100%; margin-bottom:800px; position: relative; opacity: 0.85">
+            <div class="container" data-aos="fade-up" >
+                <div style="margin-left: 35px;width: 95%; height: 100%; margin-bottom:800px; position: relative; opacity: 0.85">
 
-                    <img style="width: 100%; height: auto; position: absolute; mix-blend-mode: multiply; top: 0; left: 0;" src="assets/img/bg/bmjbg.png" alt="">
+                    <img style="margin-left: 35px; width: 95%; height: auto; position: absolute; mix-blend-mode: multiply; top: 0; left: 0;" src="assets/img/bg/bmjbg.png" alt="">
                 </div>
 
                 <div class="row align-items-center justify-content-between" style="margin-top: -80px; position: relative;">
@@ -314,13 +314,14 @@
                             }
 
                             .play-button {
-                                margin-top: 460px;
+
                                 position: absolute;
                                 margin-left: -160px;
                                 border-radius: 100%;
+
                             }
                         </style>
-                        <video width="280" height="500" controls style="margin-left: 10px; border-radius: 2%; box-shadow: 0px 0px 15px rgba(0, 0, 255, 0.2); " id="myVideo">
+                        <video width="260" height="460" controls style="margin-top: 30px; margin-left: 10px; border-radius: 2%; box-shadow: 0px 0px 15px rgba(0, 0, 255, 0.2); " id="myVideo">
                             <source src="assets/vidio/1.mp4" type="video/mp4">
                         </video>
 
@@ -330,10 +331,10 @@
 
                         <div class="section-title">
                             <span class="a">
-                                <h3 style="margin-top: 25px; margin-left: -100px; text-align: left; font-size: 45px; color: #ffff; font-family: Montserrat;">Nanti di BMJ bakal ngapain aja sih?</h3>
+                                <h3 style="margin-top: 25px; margin-left: -100px; text-align: left; font-size: 40px; color: #ffff; font-family: Montserrat;">Nanti di BMJ bakal <br> ngapain aja sih?</h3>
                             </span>
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
+                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px; font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
                                     Sobat Insans akan mendapatkan pemahaman mendalam terkait mata kuliah yang dipilih.
                                 </div>
 
@@ -341,7 +342,7 @@
                             </div>
                             <!-- 2 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
+                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
                                     Sobat Insans bisa mengkonsultasikan kendala-kendalanya terkait mata kuliah yang sedang ditempuh.
                                 </div>
 
@@ -349,7 +350,7 @@
                             </div>
                             <!-- 3 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
+                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
                                     Sobat Insans akan mendapatkan kisi-kisi UAS untuk latihan.
                                 </div>
 
@@ -357,7 +358,7 @@
                             </div>
                             <!-- 4 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
+                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
                                     Sobat Insans akan mendapatkan motivasi dan arahan seputar dunia perkuliahan.
                                 </div>
 
@@ -365,7 +366,7 @@
                             </div>
                             <!-- 5 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 18px; font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
+                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
                                     Sobat Insans bisa mengkonsultasikan terkait konsentrasi jurusan dan PKL.
                                 </div>
 
@@ -428,7 +429,7 @@
             </div>
         </section>
 
-        <section id="aboutbmj" style="margin-top:-50px;">
+        <section id="aboutbmj" style="margin-top:-40px;">
             <div class="container" data-aos="fade-up">
                 <div class="row align-items-center justify-content-between" style=" margin-top: -80px;">
 
@@ -1095,7 +1096,7 @@
                     <div class="col-lg-6 text-centerr">
                         <div style="width: 100%; height: 100%; position: relative">
 
-                            <div style=" width: 500px; left: 50px; margin-top: 50px; top: -110px; position: absolute; color: white; font-size: 50px; font-family: Montserrat; font-weight: 700; line-height: 80.50px; word-wrap: break-word">Paling Sering Ditanyakan</div>
+                            <div style=" width: 500px; left: 80px; margin-top: -50px; top: -110px; position: absolute; color: white; font-size: 50px; font-family: Montserrat; font-weight: 700; line-height: 80.50px; word-wrap: break-word">Paling Sering Ditanyakan</div>
                         </div>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
