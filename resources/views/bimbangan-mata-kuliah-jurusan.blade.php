@@ -456,7 +456,7 @@
                                         .nav-item button {
                                             border-bottom: 2px solid rgb(245, 239, 239);
                                             /* Remove the default button border */
-                                            color: gray;
+                                            color: white;
                                             /* Set the default text color */
                                         }
 
