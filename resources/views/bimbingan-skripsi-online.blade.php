@@ -95,7 +95,7 @@
                     <h2 style=" margin: 0px 0px 0px 0px; font-size: 50px;
                         font-style: normal;
                         font-weight: 600;
-                        line-height: 125%;
+                        line-height: 125%; 
                         font-family:Montserrat; !important">Apa Itu Bimbingan <br> Skripsi Online (BSO)?</h2>
                 </div>
                 <h2 style="width: 876px;
@@ -382,12 +382,12 @@ background-position: center;">
                         .color-blue {
                             color: blue;
                         }
-
+                
                         .bg-blue {
                             background-color: white;
                             border-radius: 50%;
                         }
-
+                
                         .border-radius {
                             border-radius: 50%;
                         }
@@ -410,7 +410,7 @@ background-position: center;">
                         </li>
                     </ul>
                 </div>
-
+                
                 <script>
                     // Menambahkan logika untuk mengubah warna tombol saat diklik
                     var buttons = document.querySelectorAll('.nav-link');
@@ -426,7 +426,7 @@ background-position: center;">
                             this.style.color = 'blue'; // Setel warna teks menjadi biru
                         });
                     });
-
+                
                     // Fungsi untuk menampilkan konten sesuai dengan tombol yang diklik
                     function showContent(contentId) {
                         // Mengambil semua elemen konten
@@ -441,9 +441,7 @@ background-position: center;">
                         document.getElementById(contentId).classList.add('active');
                     }
                 </script>
-
-
-
+                
 
                 <div id="content1" class="content active">
                     <img class="ml-5" style="margin-bottom: 20px; float: left; width: 400px; margin-left: 100px; height: auto;" src="assets/img/bg/kotakk.png" alt="">
@@ -550,7 +548,7 @@ background-position: center;">
                 </div>
 
                 <script>
-
+                  
                 </script>
 
 
@@ -558,7 +556,7 @@ background-position: center;">
         </section>
 
 
-
+ 
 
         <!-- ======= Pricing Section ======= -->
         <section id="pricing" class="pricing" style=" margin-top:-200px; margin-bottom: -300px; background-color:#09326f;">
@@ -666,7 +664,7 @@ background-position: center;">
                                             </div>
                                         </div>
                                     </div>
-
+                    
                                     {{-- Platinum --}}
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                                         <div class="custom-box" style="height: 550px; border-radius: 15px;">
@@ -695,7 +693,14 @@ background-position: center;">
                                                     <span class="checkmark">&#10003;</span>
                                                     <span class="text-bso">Bimbingan pembuatan abstrak</span>
                                                 </li>
-
+                                                <li class="left-aligned">
+                                                    <span class="checkmark">&#10003;</span>
+                                                    <span class="text-bso">Waktu bimbingan 24x pertemuan</span>
+                                                </li>
+                                                <li class="left-aligned">
+                                                    <span class="checkmark">&#10003;</span>
+                                                    <span class="text-bso">Durasi bimbingan per pertemuan <br> minimal 2 jam maksimal 4 jam</span>
+                                                </li>
                                             </ul>
                                             <div class="custom-btn-wrap" style="margin-top:-5%">
                                                 <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
@@ -763,7 +768,7 @@ background-position: center;">
                                             </div>
                                         </div>
                                     </div>
-
+                
                                     {{-- PAKET COMPLATE --}}
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                                         <div class="custom-box" style="height: 640px; border-radius: 15px;">
@@ -817,9 +822,28 @@ background-position: center;">
                                 </div>
                             </div>
                         </div>
+                        <style>
+                            
+                            .carousel-control-next {
+                                padding-left: 150px !important;
+                                margin-left: 100px !important;
+                                font-size: 50px; /* Adjust the font size as needed */
 
-                    </div>
-                     <!-- Navigation arrows -->
+
+                            }
+                            .carousel-control-prev{
+                                padding-right: 150px !important;
+                                margin-right: 100px !important;
+
+                            }
+                            .carousel-control-prev-icon,
+                            .carousel-control-next-icon {
+                                background-color: #000; /* Set the background color to black */
+                                font-size: 50px; /* Adjust the font size as needed */
+
+                            }
+                        </style>
+                       <!-- Navigation arrows -->
                      <a class="carousel-control-prev" href="#packageCarousel" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
@@ -829,7 +853,7 @@ background-position: center;">
                         <span class="sr-only">Next</span>
                     </a>
                     </div>
-
+                     
                 </div>
                 {{-- <div class="row align-items-center justify-content-center ">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -1049,9 +1073,9 @@ background-position: center;">
                             </div>
                         </div>
                     </div>
-
-
-                    <div class="arrow-buttons-wrapper" id="scrollContainer">
+                    
+                   
+                    <div class="arrow-buttons-wrapper" id="scrollContainer"> 
                         <span class="left-scroll-buttonbso" onclick="scrollLeft()">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px; margin-top: 50px;" viewBox="0 0 35" fill="none">
                                 <g filter="url(#filter0_b_229_15)">
@@ -1062,7 +1086,7 @@ background-position: center;">
                                 <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
                             </svg>
                         </span>
-
+    
                         <span class="right-scroll-buttonbso" onclick="scrollRight()">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -30px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
                                 <g filter="url(#filter0_b_229_15)">
@@ -1081,7 +1105,7 @@ background-position: center;">
                             </svg>
                         </span>
                     </div>
-
+                    
                     <script>
                         function scrollLeft() {
                             const scrollContainer = document.getElementById('scrollContainer');
@@ -1090,7 +1114,7 @@ background-position: center;">
                                 behavior: 'smooth'
                             });
                         }
-
+                
                         function scrollRight() {
                             const scrollContainer = document.getElementById('scrollContainer');
                             scrollContainer.scrollBy({
@@ -1099,8 +1123,8 @@ background-position: center;">
                             });
                         }
                     </script>
-
-
+                
+                   
                 </div> --}}
             </div>
         </section>
@@ -1364,14 +1388,14 @@ background-position: center;">
                     .nav-bso {
                         color: white;
                     }
-
+                
                     .nav-bso.active {
                         background-color: rgb(255, 255, 255) !important;
                         color: blue;
-                        border-radius: 50px !important;
+                        border-radius: 50px !important; 
                         line-height: 40px !important;
                         width: 300px;
-
+                        
                     }
                 </style>
                 <div  class="card text-center ml-5 mr-5 " style="height: 445px; width: 1214px; border-radius: 0 0 25px 25px;">
@@ -1390,40 +1414,49 @@ background-position: center;">
                         </div>
                         <!-- Regular botton  TITANIUM -->
                         <div style="margin-top: 35px; width: 100%;   border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                            <button style="border-radius: 50px; font-size: 25px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word" class="nav-link color-white2" onclick="showPaket('paket4')"><b>REGULER TITANIUM</b></button>
-                        </div>
-                    </div>
-
-                    <!-- akhir botton  -->
-
-                    <div id="paket1" class="content card-body ml-5 active" style="margin-top: -80px;">
-                        <div style="margin-top: -370px; scolor: black; font-family: Montserrat; text-align: left; margin-left: 450px; color: black; font-size: 24px; pacing: -1px;">
-                            Dikhususkan kepada Sobat Insans yang sedang membutuhkan konsultasi skripsi dalam pembuatan dan penyusunan judul.
-                        </div>
-
-                        <div style="display: flex; align-items: center;">
-                            <i class="fas fa-circle-check" style=" margin-left: 450px; color: #1b5cc5; margin-top: -5px; margin-right: 10px; font-size:30px;"></i>
-                            <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam merumuskan judul skripsi.
+                            <button style="border: none; background: transparent; border-radius: 50px; font-size: 25px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word" class="nav-bso " onclick="showPaket('paket4')"><b>REGULER TITANIUM</b></button>
+                        </div>  
+                        
+                        <div id="paket1" class="paketbso card-body active" style="margin-top: -360px; text-align: left; ">
+                            <div style="color: black; font-family: Montserrat; font-size: 24px; width:800px; margin-left: 380px; ">
+                                Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan dalam pembuatan dan penyusunan judul skripsi.                            </div>
+                        
+                            <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
+                                <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
+                                <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
+                                    Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam merumuskan judul skripsi.                                </div>
+                            </div>
+                        
+                            <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
+                                <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
+                                <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
+                                    Sobat Insans akan dibantu dalam menemukan masalah untuk judul skripsi yang akan dibuat.                                </div>
+                            </div>
+                        
+                            <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
+                                <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
+                                <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
+                                    Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam merumuskan judul skripsi.
+                                </div>
                             </div>
                         </div>
-
+                        
                         <div id="paket2" class="paketbso card-body " style="margin-top: -360px; text-align: left; ">
                             <div style="color: black; font-family: Montserrat; font-size: 24px; width:800px; margin-left: 380px; ">
                                 Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan menuju seminar proposal (sempro) atau bimbingan bab 1-3.                            </div>
-
+                        
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
                                     Sobat Insans akan dibantu dalam memahami proses penyusunan proposal penelitian skripsi.                                </div>
                             </div>
-
+                        
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
                                     Sobat Insans akan diberikan berbagai materi dasar seputar proposal skripsi oleh mentor untuk memudahkan proses penyusunan.                                </div>
                             </div>
-
+                        
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
@@ -1434,19 +1467,19 @@ background-position: center;">
                         <div id="paket3" class="paketbso card-body " style="margin-top: -360px; text-align: left; ">
                             <div style="color: black; font-family: Montserrat; font-size: 24px; width:800px; margin-left: 380px; ">
                                 Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan menuju sidang skripsi atau bimbingan bab 4 hingga selesai.                            </div>
-
+                        
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
                                     Sobat Insans akan dibantu dalam memahami proses penyusunan hasil dan pembahasan penelitian skripsi.                                </div>
                             </div>
-
+                        
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
                                     Sobat Insans akan diberikan berbagai materi dasar seputar menganalisis penelitian skripsi oleh mentor untuk memudahkan proses penyusunan.                                </div>
                             </div>
-
+                        
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
@@ -1457,19 +1490,19 @@ background-position: center;">
                         <div id="paket4" class="paketbso card-body " style="margin-top: -360px; text-align: left; ">
                             <div style="color: black; font-family: Montserrat; font-size: 24px; width:800px; margin-left: 380px; ">
                                 Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan Simulasi Seminar Proposal dan Sidang Skripsi.                            </div>
-
+                        
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
                                     Sobat Insans akan dibimbing dalam pembuatan dan cara mempresentasikan powerpoint seminar proposal dan sidang skripsi.                                </div>
                             </div>
-
+                        
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
                                     Sobat Insans akan dibimbing dalam simulasi seminar proposal dan sidang skripsi.                                </div>
                             </div>
-
+                        
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
@@ -1481,33 +1514,75 @@ background-position: center;">
                             <div style="color: black; font-family: Montserrat; font-size: 24px; width:800px; margin-left: 380px; ">
                                 Dikhususkan kepada Sobat Insans yang sedang membutuhkan konsultasi skripsi dalam pembuatan dan penyusunan judul.
                             </div>
-
+                        
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
                                     Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam merumuskan judul skripsi.
                                 </div>
                             </div>
-
+                        
+                            <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
+                                <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
+                                <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
+                                    Sobat Insans akan dibantu dalam menemukan masalah untuk judul skripsi yang akan dibuat.
+                                </div>
+                            </div>
+                        
+                            <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
+                                <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
+                                <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 600px;">
+                                    Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam merumuskan judul skripsi.
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                        
+        
+                           
+                    </div> 
 
-                    <script>
-                        function showPaket(paketId) {
-                            // Mengambil semua elemen konten
-                            var allPakets = document.querySelectorAll('.content');
-
-                            // Menyembunyikan semua konten
-                            allPakets.forEach(function(element) {
-                                element.classList.remove('active');
-                            });
-
-                            // Menampilkan konten yang sesuai dengan ID yang diklik
-                            document.getElementById(paketId).classList.add('active');
-                        }
-                    </script>
+                    
+                    <!-- akhir botton  -->
+        
                 </div>
+                <script>
+                    var tombol = document.querySelectorAll('.nav-bso');
+                    tombol.forEach(function(button) {
+                        button.addEventListener('click', function() {
+                            tombol.forEach(function(btn) {
+                                btn.classList.remove('active');
+                                btn.style.backgroundColor = 'nav-bso'; // Reset background color
+                                btn.style.color = 'nav-bso'; // Reset text color
+                            });
+                            this.classList.add('active');
+                            this.style.backgroundColor = 'border'; 
+                            this.style.color = 'active'; // Terapkan warna text
 
+                            
+                        });
+                    });
+                
+                    function showPaket(paketId) {
+                        // Mengambil semua elemen dengan kelas 'paketbso' dan menyembunyikan mereka
+                        var paketElements = document.getElementsByClassName('paketbso');
+                        for (var i = 0; i < paketElements.length; i++) {
+                            paketElements[i].classList.remove('active');
+                        }
+                
+                        // Menampilkan elemen dengan id yang sesuai dengan tombol yang diklik
+                        var selectedPaket = document.getElementById(paketId);
+                        if (selectedPaket) {
+                            selectedPaket.classList.add('active');
+                        }
+                    }
+                </script>
+                
+
+<script>
+    // Menambahkan logika untuk mengubah warna tombol saat diklik
+    
+</script>
+                
             </div>
         </section>
 
