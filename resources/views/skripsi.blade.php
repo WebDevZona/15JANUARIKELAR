@@ -46,7 +46,7 @@
         <div class="container" data-aos="fade-up">
             <div class="section-title">
                 <h3>Pelatihan Skripsi</h3>
-                <p style="margin-top: 0px; font-weight:200;">Home > Pelatihan Skripsi</p>
+                <p style="margin-top: -2px; font-weight:200;">Home > Pelatihan Skripsi</p>
             </div>
         </div>
     </section>
@@ -58,7 +58,7 @@
                 <a href="#pricing" class="btn-get-started-skripsi scrollto">CLASS PROGRAM</a>
             </div>
             <div class="judulketiga-skripsi">
-                <h3>Pelatihan Skripsi</h3>
+                <h3 style="font-size: 50px; color:#FFF;">Pelatihan Skripsi</h3>
             </div>
             <h2>Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh mentor.</h2>
         </div>

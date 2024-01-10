@@ -65,7 +65,7 @@
                 <h3>Semua Bisa</h3>
                 <h3>Lulus Kuliah</h3>
                 <p style="letter-spacing:1px; font-family: Manrope; margin-top:15px;">Bimbingan belajar online perkuliahan
-                    dan persiapan <br> karir dengan 
+                    dan persiapan <br> karir dengan
                     sistem kenaikan kelas pertama <br> di Indonesia yang menyediakan berbagai
                     macam <br> program kelas serta akan dibimbing langsung oleh <br> mentor yang ahli di bidangnya.</p>
             </div>
@@ -673,13 +673,13 @@
 
 
     <!-- HTML -->
-    <section id="youtube" class="youtube" style="margin-top: -80px;">
+    <section id="youtube" class="youtube" style="margin-top: -150px;">
         <div class="section-title judul">
             <h3>Coba GRATIS <br> Kelas Tugas Kuliah (KTK) sekarang juga! <span style=""><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:-10px;margin-right:5px"></span></h3>
         </div>
         <img src="assets/img/bg/yt2.png" alt="Left Image" class="left-image">
         <img src="assets/img/bg/yt3.png" alt="Right Image" class="right-image">
-        <div class="container" data-aos="fade-up">
+        <div class="container" data-aos="fade-up" style="margin-top: 30px;">
             <div class="row skills-content">
                 <div class="col-md-7 mx-auto">
                     <!-- Left image -->
@@ -1000,13 +1000,23 @@
                     <!-- Ganti dengan path gambar profil Anda -->
                     <div class="info">
                         <h1 style=" margin-left:100px; text-align: center; color: #FFF; font-family: Poppins; font-size: 40px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">Lebih Dekat dengan Class Program</h1>
+                        <!-- <div class="social-linkss" style="text-align: center; margin-left:150px; margin-top:50px;">
+                            <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style=" padding: 30px;"></a>
+                        </div> -->
+
 
                         <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt" style="border-radius: 50%; width: 89px; height: 89px; display: inline-block;">
-                            <svg style="margin-left: 400px; margin-top:50px;" xmlns="http://www.w3.org/2000/svg" width="89" height="89" viewBox="0 0 89 89" fill="none">
-                                <circle cx="44.5" cy="44.5" r="44.5" fill="white" />
-                                <path d="M67.9943 33.2904C67.4238 31.1456 65.736 29.4535 63.5887 28.8736C59.7062 27.833 44.1284 27.833 44.1284 27.833C44.1284 27.833 28.5586 27.833 24.6681 28.8736C22.5287 29.4456 20.841 31.1376 20.2626 33.2904C19.2246 37.1829 19.2246 45.3094 19.2246 45.3094C19.2246 45.3094 19.2246 53.4359 20.2626 57.3283C20.8331 59.4732 22.5208 61.1652 24.6681 61.7451C28.5586 62.7857 44.1284 62.7857 44.1284 62.7857C44.1284 62.7857 59.7062 62.7857 63.5887 61.7451C65.7281 61.1731 67.4158 59.4811 67.9943 57.3283C69.0322 53.4359 69.0322 45.3094 69.0322 45.3094C69.0322 45.3094 69.0322 37.1829 67.9943 33.2904Z" fill="#FF3000" />
-                                <path d="M39.1524 52.8004L52.0916 45.3094L39.1524 37.8184V52.8004Z" fill="white" />
-                            </svg>
+                            <div style=" display: inline-block; position: relative; margin-left: 450px; margin-top: -800px;">
+                                <div class="yt">
+                                    <style>
+                                        .yt:hover .bx.bxl-youtube {
+                                            color: blue;
+                                        }
+                                    </style>
+                                    <div style="margin-top:20px; width: 80px; height: 80px; border-radius: 50%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+                                    <i style="margin-top:20px;  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;" class="bx bxl-youtube"></i>
+                                </div>
+                            </div>
                         </a>
                     </div>
                 </div>
@@ -1024,7 +1034,7 @@
                                     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);">
             <!-- <h2>About</h2> -->
             <div class="left-align" style=" text-align: left;">
-                <h3 style="font-weight: 800;color:black; margin-left: 179px; font-family: 'Manrope', sans-serif; ">Janji Mentor <br> Untuk Sobat
+                <h3 style="font-weight: 800;color:black; margin-left: 120px; font-family: 'Manrope', sans-serif; ">Janji Mentor <br> Untuk Sobat
                     Insans...</h3>
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
