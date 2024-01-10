@@ -4845,6 +4845,49 @@ td {
     display: block;
 }
 
+.paketmentorbso {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* Ruang di sekitar elemen */
+    background-color: #f0f0f0;
+    /* Warna abu-abu latar belakang */
+}
+.paketmentorbso .container {
+    display: flex;
+    justify-content: flex-end;
+}
+.paketmentorbso .paketbso {
+    display: flex;
+    padding: 10px;
+    
+}
+
+.paketmentorbso .active {
+    /* display: block; */
+}
+
+
+.paketbso.active {
+    display: block;
+}
+
+.paketbso {
+    display: none;
+}
+
+.paketbso {
+    padding: 20px;
+}
+.paketbso {
+    padding: 20px;
+    z-index: 0;
+}
+
+
+
 /* .navigation { */
 /* Set the styles for navigation (if you have any) */
 /* } */
@@ -5335,16 +5378,7 @@ background-color: #afb1b2;
 
 /* paketmenrtor */
 
-.paketmentor {
-    margin-top: -50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    /* Ruang di sekitar elemen */
-    background-color: #f0f0f0;
-    /* Warna abu-abu latar belakang */
-}
+
 
 .paketmentora {
     margin-top: -50px;
@@ -5359,7 +5393,16 @@ background-color: #afb1b2;
 /* .paketmentorbg {
 width: 90%;
 } */
-
+.paketmentor {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* Ruang di sekitar elemen */
+    background-color: #f0f0f0;
+    /* Warna abu-abu latar belakang */
+}
 .paketmentor .container {
     display: flex;
     justify-content: flex-end;
@@ -7626,6 +7669,7 @@ overflow: hidden;
 .pakethematbso .active {
     display: block;
 }
+
 
 /* style bmj konten button */
 
