@@ -1620,6 +1620,49 @@ background-position: center;">
 
                 <div class="row row-cols-1 row-cols-md-4 g-3 ml-2 mr-2 mt-5 ">
                     <div class="col">
+                        <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" style="text-align: left;">Reguler
+                                                    <br><span class="green-text">Silver</span>
+                                                </th>
+                                                <th scope="col">Harga
+                                                    <br><span class="blue-text">Rp 47.000</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </h5>
+                                <p class="card-text">
+                                <table class="table table-no-border">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">1 Sesi</th>
+                                            <th scope="col">1 Jam Konsultasi</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <ul class="deskripsi" style="list-style: none;">
+                                    {{-- <i class="fa-solid fa-check"></i> --}}
+                                    <strong> Materi: </strong>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Topik penelitian. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Variabel penelitian. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Objek penelitian. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Judul penelitian. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>  Rumusan masalah penelitian.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>  Dasar teori berdasarkan variabel yang digunakan</li>
+                                </ul>
+                                </p>
+                            </div>
+                            <div class="card-footer text-center" style="border-radius: 25px;">
+                                <a href="#" class="btn btn-primary" style="border-radius: 10px; align-content: center;">Daftar Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
                         <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;" >
                             <div class="card-body">
                                 <h5 class="card-title">
