@@ -55,7 +55,7 @@
     <section id="hero-skripsi" class="d-flex align-items-center">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
             <div class="d-flex" style="margin-top:-100px;">
-                <strong  class="btn-get-started-skripsi1 scrollto">CLASS PROGRAM</strong>
+                <strong  class="btn-get-started-skripsi1 scrollto" style="background: #FFAA00">CLASS PROGRAM</strong>
             </div>
             <div class="judulketiga-skripsi">
                 <h3 style="font-size: 50px; color:#FFF;">Pelatihan Skripsi</h3>
@@ -118,7 +118,7 @@
           border-radius: 77.273px;
           align-items: center;
           gap: 15.455px;
-          flex-shrink: 0; background: rgb(226,204,0);
+          flex-shrink: 0; background: #FFAA00;
           box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15); font-size: 25px; color: #FFF;
           font-family: Manrope;
           font-style: normal;
@@ -135,7 +135,7 @@
             <div class="card-containerr">
                 <div class="roww ">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
+                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px; border: 2px solid #020202;">
                             <strong  class="btn-get-started3 scrollto">Video Materi</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
@@ -150,7 +150,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
+                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
                             <strong href="#pricing" class="btn-get-started3 scrollto">Grup Sharing</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
@@ -165,7 +165,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
+                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
                             <strong href="#pricing" class="btn-get-started3 scrollto">PPT Materi</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
@@ -182,7 +182,7 @@
 
                 <div class="row" style="margin-top: 50px;">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
+                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
                             <strong href="#pricing" class="btn-get-started3 scrollto">Networking</strong>
 
                             <div class="konsultasi-content">
@@ -198,7 +198,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
+                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
                             <strong href="#pricing" class="btn-get-started3 scrollto">Penghargaan</strong>
 
                             <div class="konsultasi-content">
@@ -214,7 +214,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
+                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
                             <strong href="#pricing" class="btn-get-started3 scrollto">E-Sertifikat</strong>
 
                             <div class="konsultasi-content">
@@ -299,7 +299,7 @@
                         <div class="profile-info">
                             <!-- <h1>ELouis Patric</h1> -->
                             <p>Workshop Skripsi <br>Batch 9 Telah Dibuka</p>
-                            <button class="button" style="background-color: rgb(226,204,0) !important">Daftar Sekarang!<span class="d-flex justify-content-center align-items-center"><img src="assets/img/bg/Icons.png" style=" margin-left: 15px" alt=""></span></a></button>
+                            <button class="button" style="background-color: #FFAA00 !important">Daftar Sekarang!<span class="d-flex justify-content-center align-items-center"><img src="assets/img/bg/Icons.png" style=" margin-left: 15px" alt=""></span></a></button>
                             <h2 style="font-weight: 100;">No credit card required</h2>
                         </div>
                         <!-- Tambahkan elemen tambahan di sini -->
