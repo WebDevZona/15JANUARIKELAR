@@ -170,15 +170,6 @@
             <img style="height: 600px; margin-top: -50px; margin-left: 00px; position: absolute; right: 0; top: 0;" src="assets/img/bg/bmjandika.png" alt="">
         </section>
 
-
-
-
-
-
-
-
-
-
         {{-- ok3 --}}
         <section id="about">
             <div class="container" data-aos="fade-up">
@@ -524,7 +515,7 @@
                                 </div>
 
                                 <div id="kontenbmj1" class="kontenbmj aktif">
-                                    <img style="margin-bottom:50px; margin-top:-66px;  float: left; width: 418px;   margin-left: 120px;   height: auto;" src="assets/img/bg/bronze.png" alt="">                                    
+                                    <img style="margin-bottom:50px; margin-top:-62px;  float: left; width: 418px;   margin-left: 120px;   height: auto;" src="assets/img/bg/bronze.png" alt="">                                    
                                     <div style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                         Program bimbingan yang dikhususkan untuk mahasiswa <br>semester 1-2 dengan mata kuliah umum sampai khusus <br> sesuai jurusan dan konsultasi konsentrasi jurusan.
                                     </div>
@@ -863,8 +854,8 @@
 
             <div class="container" data-aos="fade-up">
                 <div style="width: 100%; text-align: center;">
-                    <div style="width: 180px; height: 40px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
-                        <div style="width: 424px; text-align: center; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">Paket Hemat</div>
+                    <div style="width: 100px; height: 40px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
+                        <div style="width: 424px; text-align: center; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">Paket</div>
                     </div>
                 </div>
                 <div class="section-title judul">
@@ -1045,8 +1036,14 @@
 
         <section id="testimonials" class="testimonials" style="margin-top: -100px ;margin-bottom:30px;">
 
-            <div class="section-title">
-                <h3 style="margin-top: 80px;">Mentor Profesional Class Program</h3>
+            {{-- <div class="section-title">
+                <h3 style="margin-top: 80px;">Mentor Profesional</h3>
+                <h4 style="margin-top: 80px;">Bimbingan Mata Kuliah Jurusan</h4>
+
+            </div> --}}
+            <div class="section-title" style="margin-top: 50px; color:#000;">
+                <h3  style=" font-size: 45px;  margin-top:0px  !important;">Mantor Profesional</h3>
+                <h4 style=" margin-top:10px !important; ">Bimbingan Mata Kuliah Jurusan</h4>
             </div>
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                 <div class="swiper-wrapper">
@@ -1075,6 +1072,9 @@
 
 
         <section id="testimonials" class="testimonials" style=" margin-top: -50px; background: url(assets/img/bg/bgalur.png); background-size: cover; position: relative; text-align: center;">
+            <div class="section-title" style="margin-top: px; color:#000;">
+                <h3  style=" font-size: 50px;  margin-top:0px  !important;">Alur Bimbingan</h3>
+            </div>
             <img src="assets/img/bg/alurbimbingan.png" style="max-width: 45%;  height: auto; display: inline-block; margin-top: 50px;" class="img-fluid" alt="">
         </section>
 
