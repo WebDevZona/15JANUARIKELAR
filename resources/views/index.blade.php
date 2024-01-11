@@ -82,7 +82,7 @@
                             </div>
                             <div class="right-content" style="margin-left:0px">
                                 {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
-                                <p style="margin-left: 0px; color: #000; font-family: Manrope;"><b>Sobat Insans yang Mendaftar</b></p>
+                                <p style="margin-left: 0px; color: #000; font-family: Manrope;"><b style="font-family: Manrope;">Sobat Insans yang Mendaftar</b></p>
 
                             </div>
                         </div>
