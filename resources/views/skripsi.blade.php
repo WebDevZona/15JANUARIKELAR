@@ -46,7 +46,7 @@
         <div class="container" data-aos="fade-up">
             <div class="section-title">
                 <h3 style="font-size:40px; font-family:Manrope !important; font-weight:900;">Pelatihan Skripsi</h3>
-                <p style="margin-top: -2px; font-weight:300;">Home > Pelatihan Skripsi</p>
+                <p style="margin-top: -2px;font-family:Manrope !important; font-weight:300;">Home > Pelatihan Skripsi</p>
             </div>
         </div>
     </section>
@@ -55,7 +55,7 @@
     <section id="hero-skripsi" class="d-flex align-items-center">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
             <div class="d-flex" style="margin-top:-100px;">
-                <strong  class="btn-get-started-skripsi1 scrollto">CLASS PROGRAM</strong>
+                <strong  class="btn-get-started-skripsi1 scrollto" style="background: #FFAA00">CLASS PROGRAM</strong>
             </div>
             <div class="judulketiga-skripsi">
                 <h3 style="font-size: 50px; color:#FFF;">Pelatihan Skripsi</h3>
@@ -118,7 +118,7 @@
           border-radius: 77.273px;
           align-items: center;
           gap: 15.455px;
-          flex-shrink: 0; background: rgb(226,204,0);
+          flex-shrink: 0; background: #FFAA00;
           box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15); font-size: 25px; color: #FFF;
           font-family: Manrope;
           font-style: normal;
@@ -135,7 +135,7 @@
             <div class="card-containerr">
                 <div class="roww ">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
+                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px; border: 2px solid #020202;">
                             <strong  class="btn-get-started3 scrollto">Video Materi</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
@@ -150,7 +150,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
+                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
                             <strong href="#pricing" class="btn-get-started3 scrollto">Grup Sharing</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
@@ -165,7 +165,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
+                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
                             <strong href="#pricing" class="btn-get-started3 scrollto">PPT Materi</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
@@ -182,7 +182,7 @@
 
                 <div class="row" style="margin-top: 50px;">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
+                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
                             <strong href="#pricing" class="btn-get-started3 scrollto">Networking</strong>
 
                             <div class="konsultasi-content">
@@ -198,7 +198,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
+                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
                             <strong href="#pricing" class="btn-get-started3 scrollto">Penghargaan</strong>
 
                             <div class="konsultasi-content">
@@ -214,7 +214,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;">
+                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
                             <strong href="#pricing" class="btn-get-started3 scrollto">E-Sertifikat</strong>
 
                             <div class="konsultasi-content">
@@ -238,8 +238,8 @@
     <section id="mentor-skripsi" class="mentor-skripsi" style="margin-top:-50px;">
         <div class="container">
             <div class="section-title">
-                <h3 style="color:blue; font-size: 45px;  margin-top:0px  !important;">Mentor Yang Berpengalaman</h3>
-                <h4 style="color:blue; margin-top:10px !important; ">Kelas Pelatihan Skripsi Class Program </h4>
+                <h3  style="color:rgb(0,29,73); font-size: 45px;  margin-top:0px  !important;">Mentor Yang Berpengalaman</h3>
+                <h4 style="color:rgb(0,29,73); margin-top:10px !important; ">Kelas Pelatihan Skripsi Class Program </h4>
             </div>
 
             <div class="mentor-img">
@@ -299,7 +299,7 @@
                         <div class="profile-info">
                             <!-- <h1>ELouis Patric</h1> -->
                             <p>Workshop Skripsi <br>Batch 9 Telah Dibuka</p>
-                            <button class="button" style="background-color: rgb(226,204,0) !important">Daftar Sekarang!<span class="d-flex justify-content-center align-items-center"><img src="assets/img/bg/Icons.png" style=" margin-left: 15px" alt=""></span></a></button>
+                            <button class="button" style="background-color: #FFAA00 !important">Daftar Sekarang!<span class="d-flex justify-content-center align-items-center"><img src="assets/img/bg/Icons.png" style=" margin-left: 15px" alt=""></span></a></button>
                             <h2 style="font-weight: 100;">No credit card required</h2>
                         </div>
                         <!-- Tambahkan elemen tambahan di sini -->
@@ -399,14 +399,37 @@
         <div class="background-faq"></div>
         <div class="container kontener aos-init aos-animate" style="text-align:center;" data-aos="fade-up">
             <div class="col-xl-12"> <!-- Gunakan kolom penuh lebar untuk memastikan accordion berada di tengah -->
-                <div class="section-title" style="margin-top:150px;margin-bottom: 20px;
+                <div class="section-title" style="margin-top:150px;margin-bottom: 20px; 
             ">
-                    <h3 style="color:blue;">Frequently Asked Questions</h3>
+                    <h3 style="color:rgb(0,29,73);">Frequently Asked Questions</h3>
                 </div>
-                <div class="accordion" id="accordionFlushExample">
-                    <div class="accordion" id="accordionFlushExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
+                <style>
+                    .accordion-item {
+                        border-radius: 8px; /* Menentukan radius sudut untuk membuat tampilan lonjong */
+                        overflow: hidden; /* Menyembunyikan overflow untuk mendukung tampilan lonjong */
+                        margin-bottom: 0px; /* Atur margin bawah agar terlihat terpisah dengan accordion lainnya */
+                    }
+                
+                    .accordion-button {
+                        border-radius: 8px; /* Menentukan radius sudut untuk membuat tampilan lonjong */
+                    }
+                
+                    /* .accordion-button::after {
+                        content: none; /* Menghilangkan simbol panah pada button */
+                    } */
+                
+                    .accordion-body {
+                        border-top-left-radius: 0; /* Mereset radius sudut atas kiri untuk tampilan lonjong */
+                        border-top-right-radius: 0; /* Mereset radius sudut atas kanan untuk tampilan lonjong */
+                        border-bottom-left-radius: 8px; /* Menentukan radius sudut bawah kiri untuk tampilan lonjong */
+                        border-bottom-right-radius: 8px; /* Menentukan radius sudut bawah kanan untuk tampilan lonjong */
+                    }
+                </style>
+                
+                <div class="accordion" id="accordionFlushExample"  >
+                    <div class="accordion" id="accordionFlushExample" >
+                        <div class="accordion-item" >
+                            <h2 class="accordion-header" id="flush-headingOne" >
                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                     <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">01</div> <b>Siapa pemateri workshop skripsi?</b>
                                 </button>
@@ -422,7 +445,7 @@
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
-                                <div class="accordion-body" style="text-align: left">Sobat Insans cukup klik link registrasi yang tercantum di website, linktree Instagram Class Program dan linktree Zona Mahasiswa. Ikuti syarat dan ketentuan untuk mengikuti workshop skripsi dan konfirmasikan bukti mengikuti persyaratan dan bukti pembayaran pada Minma. </div>
+                                <div class="accordion-body" style="text-align: left">Sobat Insans cukup klik link registrasi yang tercantum di website, linktree Instagram Class Program dan linktree Zona Mahasiswa. Ikuti syarat dan ketentuan untuk mengikuti workshop skripsi dan konfirmasikan bukti mengikuti persyaratan dan bukti pembayaran pada Minma.
                             </div>
                         </div>
 
@@ -433,7 +456,7 @@
                                 </button>
                             </h2>
                             <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
-                                <div class="accordion-body" style="text-align: left">Sobat Insans memiliki beberapa persyaratan untuk mengikuti workshop skripsi dari Class Program yaitu wajib follow Instagram @zonamahasiswa.id dan @classprogram.id, mention atau tag 5 orang teman di postingan pamflet workshop lalu menyerahkan bukti screenshoot-nya kepada Minma.</div>
+                                <div class="accordion-body" style="text-align: left">Sobat Insans memiliki beberapa persyaratan untuk mengikuti workshop skripsi dari Class Program yaitu wajib follow Instagram <code>@zonamahasiswa.id</code> dan <code>@classprogram.id</code>, mention atau tag 5 orang teman di postingan pamflet workshop lalu menyerahkan bukti screenshoot-nya kepada Minma.</div>
                             </div>
                         </div>
 

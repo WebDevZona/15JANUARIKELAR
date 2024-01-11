@@ -362,13 +362,13 @@
             </h2>
             <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2 mt-5 ">
                 <div class="col">
-                    <div class="card h-100" style="border-radius: 25px;">
+                    <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th scope="col">Reguler
+                                            <th scope="col" style="text-align: left;">Reguler
                                                 <br><span class="green-text">Silver</span>
                                             </th>
                                             <th scope="col">Harga
@@ -405,13 +405,13 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100" style="border-radius: 25px;">
+                    <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th scope="col">Reguler
+                                            <th scope="col" style="text-align: left;">Reguler
                                                 <br><span class="green-text">Gold</span>
                                             </th>
                                             <th scope="col">Harga
@@ -459,13 +459,13 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100" style="border-radius: 25px;">
+                    <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th scope="col">Reguler
+                                            <th scope="col" style="text-align: left;">Reguler
                                                 <br><span class="green-text">Platinum</span>
                                             </th>
                                             <th scope="col">Harga
@@ -504,13 +504,13 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100" style="border-radius: 25px;">
+                    <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th scope="col">Reguler
+                                            <th scope="col" style="text-align: left;">Reguler
                                                 <br><span class="green-text">Titanium</span>
                                             </th>
                                             <th scope="col">Harga
@@ -970,15 +970,19 @@
             <h3 style="margin-top: 10px;">Mentor Profesional Class Program</h3>
         </div>
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="centered-content">
-                        <img src="assets/img/team/mentor1.png" class="img-fluid" alt="">
-                        <img src="assets/img/team/mentor2.png" class="img-fluid" alt="">
-                        <img src="assets/img/team/mentor3.png" class="img-fluid" alt="">
+            <div class="swiper-wrapper" >
+                <div class="swiper-slide" >
+                    <div class="centered-content" >
+                        <img src="assets/img/team/mentor1.png" class="img-fluid" alt="" style="border: none !important;
+                        outline: none !important;">
+                        <img src="assets/img/team/mentor2.png" class="img-fluid" alt="" style="border: none !important;
+                        outline: none !important;">
+                        <img src="assets/img/team/mentor3.png" class="img-fluid" alt="" style="border: none !important;
+                        outline: none !important;">
                     </div>
                     <div class="centered-content">
-                        <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">
+                        <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="" style="border: none !important;
+                        outline: none !important;">
                     </div>
                 </div>
             </div>
