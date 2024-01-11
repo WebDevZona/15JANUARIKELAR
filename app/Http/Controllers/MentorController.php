@@ -20,12 +20,12 @@ class MentorController extends Controller
 
     public function index()
     {
-        
-        if(Auth::user()->level == 'admin') {
+
+        if (Auth::user()->level == 'admin') {
             Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
             return redirect()->to('/');
         }
-        
+
         $datas = Mentor::orderBy('publish', 'asc')->get();
         return view('mentor.index', compact('datas'));
     }
@@ -50,12 +50,12 @@ class MentorController extends Controller
      */
     public function create()
     {
-        if(Auth::user()->level == 'admin') {
+        if (Auth::user()->level == 'admin') {
             Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
             return redirect()->to('/');
         }
         $datasi = jurusan::get();
-        return view('mentor.create',compact('datasi'));
+        return view('mentor.create', compact('datasi'));
     }
 
     /**
@@ -70,19 +70,18 @@ class MentorController extends Controller
         $image           = $request->file('foto');
         //mengambil nama image
         $nama_image      = $image->getClientOriginalName();
-        
-        //memindahkan cover ke folder tujuan
-        $image->move('foto_upload',$image->getClientOriginalName());
-            $mentor = new Mentor;
-            $mentor->foto          = $nama_image;
-            $mentor->nama             = $request->input('nama');
-            $mentor->kelas             = $request->input('kelas');
-            $mentor->id_jurusan             = $request->input('id_jurusan');
-            // $mentor->ket        = $request->input('ket');
-            $mentor->publish   = $request->input('publish');      
-            $mentor->save();
-        return redirect()->route('mentor')->with('sukses', 'Data mentor Berhasil Ditambah');
 
+        //memindahkan cover ke folder tujuan
+        $image->move('foto_upload', $image->getClientOriginalName());
+        $mentor = new Mentor;
+        $mentor->foto          = $nama_image;
+        $mentor->nama             = $request->input('nama');
+        $mentor->kelas             = $request->input('kelas');
+        $mentor->id_jurusan             = $request->input('id_jurusan');
+        // $mentor->ket        = $request->input('ket');
+        $mentor->publish   = $request->input('publish');
+        $mentor->save();
+        return redirect()->route('mentor')->with('sukses', 'Data mentor Berhasil Ditambah');
     }
     /**
      * Display the specified resource.
@@ -92,9 +91,9 @@ class MentorController extends Controller
      */
     public function show($id)
     {
-        if(Auth::user()->level == 'admin') {
-                Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
-                return redirect()->to('/'); 
+        if (Auth::user()->level == 'admin') {
+            Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
+            return redirect()->to('/');
         }
 
         $data = mentor::findOrFail($id);
@@ -108,17 +107,15 @@ class MentorController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Request $request,$id)
-    {   
-        if(Auth::user()->level == 'admin') {
-                Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
-                return redirect()->to('/');
+    public function edit(Request $request, $id)
+    {
+        if (Auth::user()->level == 'admin') {
+            Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
+            return redirect()->to('/');
         }
         $mentor = Mentor::findOrFail($id);
-    
-        return view('mentor/edit', compact('mentor'));
 
-    
+        return view('mentor/edit', compact('mentor'));
     }
 
     /**
@@ -128,26 +125,23 @@ class MentorController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request,$id)
+    public function update(Request $request, $id)
     {
-        
+
         $mentor = Mentor::find($id);
         $mentor->nama             = $request->input('nama');
         $mentor->kelas             = $request->input('kelas');
         $mentor->id_jurusan             = $request->input('id_jurusan');
         // $mentor->ket        = $request->input('ket');
-        $mentor->publish   = $request->input('publish');      
-        if($request->file('foto') == "")
-        {
-           $mentor->foto =$mentor->foto;
-        } 
-        else
-        {
+        $mentor->publish   = $request->input('publish');
+        if ($request->file('foto') == "") {
+            $mentor->foto = $mentor->foto;
+        } else {
 
             $file       = $request->file('foto');
             $fileName   = $file->getClientOriginalName();
             $request->file('foto')->move("foto_upload/", $fileName);
-           $mentor->foto = $fileName;
+            $mentor->foto = $fileName;
         }
         $mentor->update();
 
@@ -166,7 +160,7 @@ class MentorController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function delete($id)
-    
+
     {
         Mentor::findOrFail($id)->delete();
         // alert()->success('Berhasil.','Data telah dihapus!');

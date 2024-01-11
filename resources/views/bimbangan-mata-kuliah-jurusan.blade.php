@@ -1046,8 +1046,6 @@
                             Bimbingan di Class Program sangat membantu untuk memahami materi yang tidak dijelaskan secara detail oleh Dosen di kampus. Kak Mentor mampu menjelaskan materinya sampai saya paham. Nggak sia-sia daftar disini, tugas yang rasanya berat terasa ringan karena dibantu banget sama Kak Mentor.
                         </p> -->
                     </div>
-
-
                 </div>
         </section>
         <!-- End About Section -->

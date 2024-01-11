@@ -82,15 +82,9 @@
                             <?php $no++; ?>
                             <tr>
                                 <td>{{$no}}</td>
-                                <td>{{$mentor->nama}}</td>
+                                <td>{{$mentor->name}}</td>
                                 <td>{{$mentor->kelas}}</td>
-                                <td>
-                                    @if($mentor->jurusan)
-                                    {{$mentor->jurusan->nama}}
-                                    @else
-                                    N/A
-                                    @endif
-                                </td>
+                                <td>{{$mentor->jurusan->name}}</td>
                                 <td>
                                     @if($mentor->foto)
                                     {{-- @if( in_array(pathinfo($mentor->foto, PATHINFO_EXTENSION), ['png', 'jpg', 'JPEG'])) --}}

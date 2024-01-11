@@ -50,9 +50,7 @@
                     <select name="id_jurusan" class="form-control my-1 mr-sm-2 bg-light" id="id_jurusan" oninput="setCustomValidity('')">
                         <option value="">-- Pilih Nama Produk --</option>
                         @foreach($datasi as $ibui)
-                           
                                 <option value="{{$ibui->id}}">{{$ibui->nama}}</option>
-                          
                         @endforeach
                     </select>
                     <label for="publish">publish</label>

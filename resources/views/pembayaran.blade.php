@@ -625,8 +625,16 @@
                         <input type="text" value="{{$Users->kampus}}" id="kampus" name="kampus" placeholder="Kampus">
                     </div>
                     <div class="col-md-4">
-                    <label for="kampus">Kampus</label>
+                        <!-- <label for="kampus">Kampus</label>
                         <input type="text" value="{{$Users->jurusan}}" id="kampus" name="kampus" placeholder="Kampus">
+                    </div> -->
+                        <label for="id_jurusan">Jurasan yang akan di pilih</label>
+                        <select id="jurasanSelect">
+                            <option value="">-- Pilih Jurasan --</option>
+                            @foreach($datas as $ibui)
+                            <option value="{{$ibui->id}}" data-publish="{{$ibui->publish}}" data-nama="{{$ibui->nama}}">{{$ibui->nama}}</option>
+                            @endforeach
+                        </select>
                     </div>
                     <div class="col-md-4">
                         <label for="semester">Semester</label>

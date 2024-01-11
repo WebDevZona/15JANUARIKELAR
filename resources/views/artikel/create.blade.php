@@ -43,6 +43,7 @@
             </button>
         </div>
         @endif
+        
         <form action="/artikel/store" method="POST" enctype="multipart/form-data">
             <h4><i class="nav-icon fas fa-child my-1 btn-sm-1"></i> Tambah Artikel </h4>
             <hr>
@@ -65,15 +66,15 @@
 
                     <label for="dokumentasi_artikel">Dokumentasi Artikel</label>
                     <input value="{{old('dokumentasi_artikel')}}" name="dokumentasi_artikel" type="text" class="form-control" id="dokumentasi_artikel" placeholder="Dokumentasi Artikel" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                    
+
 
                     <label for="dokumentasi_compress">Dokumentasi Compress</label>
                     <input value="{{old('dokumentasi_compress')}}" name="dokumentasi_compress" type="text" class="form-control" id="dokumentasi_compress" placeholder="Dokumentasi Compress" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                    
+
 
                     <label for="slug_artikel">Slug Artikel</label>
                     <input value="{{old('slug_artikel')}}" name="slug_artikel" type="text" class="form-control" id="slug_artikel" placeholder="Slug Artikel" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                    
+
 
                     <label for="visible_artikel">Visible Artikel</label>
                     <input value="{{old('visible_artikel')}}" name="visible_artikel" type="text" class="form-control" id="visible_artikel" placeholder="Visible Artikel" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
@@ -117,6 +118,6 @@
             { name: 'paragraph', items: ['NumberedList', 'BulletedList', '-', 'Blockquote'] }
         ]
     });
-</script> 
+</script>
 
 @endsection
