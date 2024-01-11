@@ -36,24 +36,24 @@
             </button>
         </div>
         @endif
-        <form action="/SobatInsan/store" method="POST" enctype="multipart/form-data">
-            <h4><i class="nav-icon fas fa-child my-1 btn-sm-1"></i> Tambah Sobat Insan </h4>
+        <form action="/jurusan/store" method="POST" enctype="multipart/form-data">
+            <h4><i class="nav-icon fas fa-child my-1 btn-sm-1"></i> Tambah Jurusan </h4>
             <hr>
             {{csrf_field()}}
             <div class="row">
                 <div class="col-md-6">
                     <label for="nama">Nama</label>
                     <input value="{{old('nama')}}" name="nama" type="text" class="form-control" id="nama" placeholder="nama" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                    <label for="teks">teks</label>
-                    <input value="{{old('teks')}}" name="teks" type="text" class="form-control" id="teks" placeholder="teks" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    <!-- <label for="teks">teks</label>
+                    <input value="{{old('teks')}}" name="teks" type="text" class="form-control" id="teks" placeholder="teks" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')"> -->
 
                     <label for="publish">publish</label>
                     <select name="publish" id="publish" class="form-control bg-light" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                         <option value="ya">Publish</option>
                         <option value="tidak">Non Publish</option>
                     </select>
-                    <label for="foto">Foto</label>
-                    <input value="{{old('foto')}}" name="foto" type="file" class="form-control" id="foto" placeholder="foto" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    <!-- <label for="foto">Foto</label>
+                    <input value="{{old('foto')}}" name="foto" type="file" class="form-control" id="foto" placeholder="foto" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')"> -->
 
                 </div>
             </div>

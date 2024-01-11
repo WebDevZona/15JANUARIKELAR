@@ -37,7 +37,7 @@
         @endif
         <div class="row">
             <div class="col">
-                <h4><i class="nav-icon fas fa-child my-0 btn-sm-1"></i> Mentor</h3>
+                <h4><i class="nav-icon fas fa-child my-0 btn-sm-1"></i>Jurusan</h3>
                     <hr>
             </div>
         </div>
@@ -50,27 +50,17 @@
         <div class="row">
             <div class="row table-responsive">
                 <div class="col-12">
-                    <table class="table table-hover table-head-fixed" id=''>
+                    <table class="table table-hover table-head-fixed" id='tabelAgendaMasuk'>
                         <thead>
                             <tr class="bg-light">
                                 <th>No.</th>
-
+                                {{-- <th>NIS</th> --}}
                                 <th>
                                     <div style="width:110px;">Nama</div>
                                 </th>
                                 <th>
-                                    <div style="width:110px;">Kelas</div>
-                                </th>
-                                <th>
-                                    <div style="width:110px;">Jurusan</div>
-                                </th>
-                                <th>
-                                    <div style="width:110px;">Foto</div>
-                                </th>
-                                <th>
                                     <div style="width:110px;">Publish</div>
                                 </th>
-
                                 <th>
                                     <center> Aksi</center>
                                 </th>
@@ -78,36 +68,30 @@
                         </thead>
                         <tbody>
                             <?php $no = 0; ?>
-                            @foreach($datas as $mentor)
+                            @foreach($datas as $SobatInsans)
                             <?php $no++; ?>
                             <tr>
                                 <td>{{$no}}</td>
-                                <td>{{$mentor->nama}}</td>
-                                <td>{{$mentor->kelas}}</td>
-                                <td>
-                                    @if($mentor->jurusan)
-                                    {{$mentor->jurusan->nama}}
-                                    @else
-                                    N/A
-                                    @endif
-                                </td>
-                                <td>
-                                    @if($mentor->foto)
-                                    {{-- @if( in_array(pathinfo($mentor->foto, PATHINFO_EXTENSION), ['png', 'jpg', 'JPEG'])) --}}
-                                    <img src="{{ asset('foto_upload/'.$mentor->foto) }}" alt="" title="" style="height: 150px;width:100px;">
+                                <td>{{$SobatInsans->nama}}</td>
+                                {{-- <td>{{$SobatInsans->kelas}}</td> --}}
+                                {{-- <td>{{$SobatInsans->foto}}</td> --}}
+                                <!-- <td>
+                                    @if($SobatInsans->foto)
+                                    {{-- @if( in_array(pathinfo($SobatInsans->foto, PATHINFO_EXTENSION), ['png', 'jpg', 'JPEG'])) --}}
+                                    <img src="{{ asset('foto_upload/'.$SobatInsans->foto) }}" alt="" title="" style="height: 150px;width:100px;">
                                     @else
                                     <p>Tidak ada foto.</p>
                                     @endif
-                                </td>
-                                {{-- <td>{{$mentor->publish}}</td> --}}
+                                </td> -->
+                                {{-- <td>{{$SobatInsans->publish}}</td> --}}
                                 {{-- <section class="content card" style="padding: 10px 10px 20px 20px;"> --}}
                                 <!-- ... kode lainnya ... -->
                                 <td>
-                                    <form action="{{ route('mentor.publish', $mentor->id) }}" method="POST">
+                                    <form action="{{ route('SobatInsan.publish', $SobatInsans->id) }}" method="POST">
                                         @csrf
-                                        <input type="hidden" name="publish" value="{{ $mentor->publish }}">
-                                        <button type="submit" class="btn {{ $mentor->publish === 'ya' ? 'btn-success' : 'btn-danger' }} btn-xs" onclick="return confirm('Anda yakin data ini akan di{{ $mentor->publish === 'ya' ? 'un' : '' }} ?')">
-                                            {{ $mentor->publish === 'ya' ? 'Publish' : 'Unpublish' }}
+                                        <input type="hidden" name="publish" value="{{ $SobatInsans->publish }}">
+                                        <button type="submit" class="btn {{ $SobatInsans->publish === 'ya' ? 'btn-success' : 'btn-danger' }} btn-xs" onclick="return confirm('Anda yakin data ini akan di{{ $SobatInsans->publish === 'ya' ? 'un' : '' }} ?')">
+                                            {{ $SobatInsans->publish === 'ya' ? 'Publish' : 'Unpublish' }}
                                         </button>
                                     </form>
                                 </td>
@@ -116,9 +100,9 @@
                                 <td>
                                     <center>
                                         <div class="ok" style="width:220px;">
-                                            <a href="/mentor/{{$mentor->id}}/edit" class="btn btn-primary btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-pencil-alt"></i> Edit</a>
+                                            <a href="/jurusan/{{$SobatInsans->id}}/edit" class="btn btn-primary btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-pencil-alt"></i> Edit</a>
                                             @if (auth()->user()->role == 'admin')
-                                            <a href="/mentor/{{$mentor->id}}/delete" class="btn btn-danger btn-sm my-1 mr-sm-1" onclick="return confirm('Hapus Data ?')"><i class="nav-icon fas fa-trash"></i>
+                                            <a href="/jurusan/{{$SobatInsans->id}}/delete" class="btn btn-danger btn-sm my-1 mr-sm-1" onclick="return confirm('Hapus Data ?')"><i class="nav-icon fas fa-trash"></i>
                                                 Hapus</a>
                                             {{-- <a href="/produk/{{$produk->id}}/show" class="btn btn-success btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-child"></i> Detail</a> --}}
                                             @endif

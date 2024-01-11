@@ -47,20 +47,18 @@ class ArtikelController extends Controller
     public function show($id)
     {
         $data = Artikel::findOrFail($id);
-    
+
         return view('artikel/show', compact('data'));
     }
 
 
-    public function edit(Request $request,$id)
-        {   
-            
-            $artikel = Artikel::findOrFail($id);
-        
-            return view('artikel/edit', compact('artikel'));
-    
-        
-        }
+    public function edit(Request $request, $id)
+    {
+
+        $artikel = Artikel::findOrFail($id);
+
+        return view('artikel/edit', compact('artikel'));
+    }
 
 
 
@@ -84,14 +82,11 @@ class ArtikelController extends Controller
         $artikel->keyword               = $request->input('keyword');
         $artikel->update();
         return redirect()->to('artikel/index')->with('Data Artikel Berhasil Diubah');;
-       
-
     }
 
     public function delete($id)
     {
         Artikel::findOrFail($id)->delete();
-            return redirect()->route('artikel')->with('Data Artikel Berhasil Dihapus');
-        
+        return redirect()->route('artikel')->with('Data Artikel Berhasil Dihapus');
     }
 }
