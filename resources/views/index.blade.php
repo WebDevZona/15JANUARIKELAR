@@ -970,15 +970,19 @@
             <h3 style="margin-top: 10px;">Mentor Profesional Class Program</h3>
         </div>
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="centered-content">
-                        <img src="assets/img/team/mentor1.png" class="img-fluid" alt="">
-                        <img src="assets/img/team/mentor2.png" class="img-fluid" alt="">
-                        <img src="assets/img/team/mentor3.png" class="img-fluid" alt="">
+            <div class="swiper-wrapper" >
+                <div class="swiper-slide" >
+                    <div class="centered-content" >
+                        <img src="assets/img/team/mentor1.png" class="img-fluid" alt="" style="border: none !important;
+                        outline: none !important;">
+                        <img src="assets/img/team/mentor2.png" class="img-fluid" alt="" style="border: none !important;
+                        outline: none !important;">
+                        <img src="assets/img/team/mentor3.png" class="img-fluid" alt="" style="border: none !important;
+                        outline: none !important;">
                     </div>
                     <div class="centered-content">
-                        <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">
+                        <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="" style="border: none !important;
+                        outline: none !important;">
                     </div>
                 </div>
             </div>

@@ -822,12 +822,12 @@ background-position: center;">
                         <style>
                             .carousel-control-prev,
                             .carousel-control-next {
-                                width: 15%;
+                                width: 20%;
                                 background: none;
                                 border: none;
                                 font-size: 2rem;
-                                margin-left: -52px;
-                                margin-right: -53px;
+                                margin-left: -70px;
+                                margin-right: -70px;
                                 color: #fff;
                                 outline: none;
                             }
@@ -850,11 +850,24 @@ background-position: center;">
                         </style>
                         <!-- Navigation arrows -->
                         <a class="carousel-control-prev" href="#packageCarousel" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 30px; margin-top: 50px;" viewBox="0 0 35" fill="none">
+                                <g filter="url(#filter0_b_229_15)">
+                                    <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                                    <!-- Mengubah path panah ke kiri -->
+                                    <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="white" />
+                                </g>
+                                <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+                            </svg>
                             <span class="sr-only">Previous</span>
                         </a>
                         <a class="carousel-control-next" href="#packageCarousel" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-left: 50px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
+                                <g filter="url(#filter0_b_229_15)">
+                                    <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                                    <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
+                                </g>
+                                <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+                            </svg>
                             <span class="sr-only">Next</span>
                         </a>
                     </div>
@@ -1607,13 +1620,13 @@ background-position: center;">
 
                 <div class="row row-cols-1 row-cols-md-4 g-3 ml-2 mr-2 mt-5 ">
                     <div class="col">
-                        <div class="card h-100" style="border-radius: 25px;">
+                        <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;" >
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <table>
                                         <thead>
                                             <tr>
-                                                <th scope="col">Reguler
+                                                <th scope="col" style="text-align: left;">Reguler
                                                     <br><span class="green-text">Gold</span>
                                                 </th>
                                                 <th scope="col">Harga
@@ -1661,13 +1674,13 @@ background-position: center;">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100" style="border-radius: 25px;">
+                        <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <table>
                                         <thead>
                                             <tr>
-                                                <th scope="col">Reguler
+                                                <th scope="col" style="text-align: left;">Reguler
                                                     <br><span class="green-text">Platinum</span>
                                                 </th>
                                                 <th scope="col">Harga
@@ -1706,13 +1719,13 @@ background-position: center;">
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-100" style="border-radius: 25px;">
+                        <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <table>
                                         <thead>
                                             <tr>
-                                                <th scope="col">Reguler
+                                                <th scope="col" style="text-align: left;">Reguler
                                                     <br><span class="green-text">Titanium</span>
                                                 </th>
                                                 <th scope="col">Harga
@@ -1853,12 +1866,16 @@ background-position: center;">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="centered-content">
-                            <img src="assets/img/team/mentor1.png" class="img-fluid" alt="">
-                            <img src="assets/img/team/mentor2.png" class="img-fluid" alt="">
-                            <img src="assets/img/team/mentor3.png" class="img-fluid" alt="">
+                            <img src="assets/img/team/mentor1.png" class="img-fluid" alt="" style="border: none !important;
+                            outline: none !important;">
+                            <img src="assets/img/team/mentor2.png" class="img-fluid" alt="" style="border: none !important;
+                            outline: none !important;">
+                            <img src="assets/img/team/mentor3.png" class="img-fluid" alt="" style="border: none !important;
+                            outline: none !important;">
                         </div>
                         <div class="centered-content">
-                            <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">
+                            <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="" style="border: none !important;
+                            outline: none !important;">
                         </div>
                     </div>
                 </div>

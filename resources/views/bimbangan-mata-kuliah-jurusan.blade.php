@@ -574,7 +574,7 @@
                                 <div id="kontenbmj2" class="kontenbmj ">
                                     <img style="margin-bottom: 250px;  float: left; width: 418px;   margin-left: 72px;   height: auto;" src="assets/img/bg/paketemerald.png" alt="">
                                     <div style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                        Program bimbingan yang dikhususkan untuk mahasiswa semester 3-4 dengan mata kuliah umum sampai khusus <br> sesuai jurusan dan konsultasi konsentrasi jurusan.
+                                        Program bimbingan yang dikhususkan untuk mahasiswa  <br> semester 3-4 dengan mata kuliah umum sampai khusus <br> sesuai jurusan dan konsultasi konsentrasi jurusan.
                                     </div>
 
                                     <div class="buttoncircle" style="display: flex; align-items: center;">
@@ -612,7 +612,7 @@
                                 <div id="kontenbmj3" class="kontenbmj ">
                                     <img style="margin-bottom: 50px; margin-top: -1px; float: left; width: 418px;     margin-left: 72px;   height: auto;" src="assets/img/bg/salwabmj-preview.png" alt="">
                                     <div style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                        Program bimbingan yang dikhususkan untuk mahasiswa semester 5-6 dengan mata kuliah umum, mata kuliah penjurusan, serta konsultasi terkait PKL.
+                                        Program bimbingan yang dikhususkan untuk mahasiswa  <br>semester 5-6 dengan mata kuliah umum, mata kuliah <br> penjurusan, serta konsultasi terkait PKL.
                                     </div>
 
                                     <div class="buttoncircle" style="display: flex; align-items: center;">
@@ -1063,10 +1063,14 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="centered-content">
-                            <img src="assets/img/team/mentorbmj1.png" class="img-fluid" alt="">
-                            <img src="assets/img/team/mentorbmj2.png" class="img-fluid" alt="">
-                            <img src="assets/img/team/mentorbmj3.png" class="img-fluid" alt="">
-                            <img src="assets/img/team/mentorbmj4.png" class="img-fluid" alt="">
+                            <img src="assets/img/team/mentorbmj1.png" class="img-fluid" alt="" style="border: none !important;
+                            outline: none !important;">
+                            <img src="assets/img/team/mentorbmj2.png" class="img-fluid" alt="" style="border: none !important;
+                            outline: none !important;">
+                            <img src="assets/img/team/mentorbmj3.png" class="img-fluid" alt="" style="border: none !important;
+                            outline: none !important;">
+                            <img src="assets/img/team/mentorbmj4.png" class="img-fluid" alt="" style="border: none !important;
+                            outline: none !important;">
                         </div>
                         <!--  <div class="centered-content">
                     <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">

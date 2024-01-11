@@ -6867,6 +6867,9 @@ align-items: flex-start;
     margin-left: -15px;
     margin-top: 5px;
     margin-bottom: 10px; /* Sesuaikan nilai ini agar gambar tidak menumpuk */
+    border: 1px solid #000; /* Ganti #000 dengan warna border yang diinginkan */
+   border-radius: 10%;
+    box-sizing: border-box; /* Untuk memastikan border dan padding tidak menambah lebar elemen */
 }
 
 @media (min-width: 768px) {
@@ -7642,7 +7645,7 @@ border-radius: 42px; */
     background-size: cover;
     height: 600px;
 
-    margin-bottom: 110px;
+    margin-bottom: 50px;
     /* width: 1300px; */
 
     /* background: url(assets/img/bg/bso1.png); */
