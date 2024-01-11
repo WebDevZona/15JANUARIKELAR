@@ -149,7 +149,7 @@
                             <i class="nav-icon fas fa-layer-group"></i>
 
                             <p>
-                                Cindo Manado
+                                Paket BSO Regular
                             </p>
                         </a>
                     </li>
@@ -157,7 +157,7 @@
                         <a href="/userview/paketbso" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
-                                Cindo Makasar
+                                Paket BSO
                             </p>
                         </a>
                     </li>
@@ -165,7 +165,7 @@
                         <a href="/userview/paketbmj" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
-                                Cindo Sunda
+                                Paket BMJ
                             </p>
                         </a>
                     </li>
@@ -221,14 +221,14 @@
                             </p>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="/artikel/index" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
                                 Artikel
                             </p>
                         </a>
-                    </li>
+                    </li> -->
 
                     <li class="nav-item">
                         <a href="/berita/index" class="nav-link">
