@@ -82,7 +82,7 @@
                             </div>
                             <div class="right-content" style="margin-left:0px">
                                 {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
-                                <p style="margin-left: 0px; color: #000;">Sobat Insans yang Mendaftar</p>
+                                <p style="margin-left: 0px; color: #000; font-family: Manrope;"><b style="font-family: Manrope;">Sobat Insans yang Mendaftar</b></p>
 
                             </div>
                         </div>
@@ -94,7 +94,7 @@
                             </div>
                             <div class="right-content" style="margin-left:1px">
                                 {{-- <p >Mentor Class Program</p> --}}
-                                <p style="margin-left:0px; color: #000;">Mentor Class Program</p>
+                                <p style="margin-left:0px; color: #000; font-family: Manrope;"><b>Mentor Class Program</b></p>
                             </div>
                         </div>
 
@@ -104,7 +104,7 @@
                                 <span style="font-family: Manrope; "><b>27</b></span><span style="font-family: Manrope; font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px;  color: #000;">Kampus terdaftar bersama kami</p>
+                                <p style="margin-left:0px;margin-right:10px;  color: #000; font-family: Manrope;"><b>Kampus terdaftar bersama kami</b></p>
                             </div>
                         </div>
 
@@ -114,7 +114,7 @@
                                 <span style="font-family: Manrope;"><b>23</b></span><span style="font-family: Manrope; font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px; color: #000;">Jurusan terdaftar bersama kami</p>
+                                <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;"><b>Jurusan terdaftar bersama kami</b></p>
                             </div>
                         </div>
                         <div class="count-separator"></div>
@@ -123,7 +123,7 @@
                                 <span style="font-family: Manrope;"><b>23</b></span><span style="font-family: Manrope; font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px; color: #000;">Total program <br> yang tersedia</p>
+                                <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;"><b>Total program <br> yang tersedia</b></p>
                             </div>
                         </div>
                     </div>
@@ -296,7 +296,7 @@
             <span style="float: left; margin-left: 6%;"><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:0px;margin-right:5px"></span>
             <h1 class="custom-text" style=" font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; margin-left: 5px; margin-right:10px;">Paket
                 populer untuk </h1>
-            <button type="button" class="custom-button" data-toggle="modal" data-target="#tulis" aria-hidden="true" style="font-family: Arial, sans-serif; margin-top: 2px;">Mahasiswa <i class="fa-solid fa-chevron-down"></i></button>
+            <button type="button" class="custom-button" data-toggle="modal" data-target="#tulis" aria-hidden="true" style="font-family: Arial, sans-serif; margin-top: 12px;">Mahasiswa <i class="fa-solid fa-chevron-down"></i></button>
         </div>
         <div class="modal fade" id="tulis" tabindex="-1" role="dialog" aria-labelledby="tulisTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -360,7 +360,7 @@
         <div class="paketmentorbg mb-5">
             <h2 class="judul-tengah" style="margin-top:0px;;font-family: Manrope;">Konsultasi Reguler Bersama Mentor
             </h2>
-            <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2 mt-5 ">
+            <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2 mt-5 " style="margin: -50px;">
                 <div class="col">
                     <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
@@ -686,7 +686,7 @@
                     <div class="video-container">
                         <div class="video-container2">
                             <div class="video-wrapper">
-                                <iframe width="560" height="315" style="border-radius: 25px;" src="https://www.youtube.com/embed/puKINTRTDZk?si=3ZqaSjYv1Yl6XsnG" title="YouTube video player" frameborder="0" allow="accelerometer;
+                                <iframe width="2000" height="315" style="margin-top:2px; width: 94%; margin-right: -10px; border-radius: 25px;" src="https://www.youtube.com/embed/puKINTRTDZk?si=3ZqaSjYv1Yl6XsnG" title="YouTube video player" frameborder="0" allow="accelerometer;
                                      autoplay; clipboard-write; encrypted-media; gyroscope;
                                       picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
@@ -840,7 +840,7 @@
                                     <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path d="M8 5v14l11-7z" />
                                     </svg>
-                                    <p style="color:black;">Youtube : <span style="color:black;">{{ $penegnbalikcuk->judul }}</span></p>
+                                    <p style="color:black; ">Video : <span style="color:black; ">{{ $penegnbalikcuk->judul }}</span></p>
                                 </a>
                             </div>
                             @endforeach
@@ -932,36 +932,36 @@
                 <div class="right_coloum floatright">
                     <div class="single_cat_right_content">
                         @if($berita->isNotEmpty())
-                            @foreach($berita->sortByDesc('created_at')->take(5) as $item)
-                                <div class="right_image">
-                                    <img src="{{ asset('foto_upload/' . $item->foto) }}" alt="Youtube Thumbnail" style="width: 195px; height: auto;" />
-                                </div>
-                                <br>
-                                <div class="left_content">
-                                    <h3>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none" style="float: left; margin-right: 5px; width: 14px; height: 19px;">
-                                            <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                        <a href="{{ asset( $item->tampilan) }}" style="text-decoration: none; color: inherit;">
-                                            {{ $item->sumber }}
-                                        </a>
-                                    </h3>
-                                    <p>
-                                        <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
-                                            <a href="{{ asset( $item->tampilan) }}" style="text-decoration: none; color: inherit;">
-                                                {{ $item->judul }}
-                                            </a>
-                                        </strong>
-                                    </p>
-                                    <p class="single_cat_right_content_meta" style="color: #696969; font-family: Manrope; font-style: normal; line-height: normal;">
-                                        {{ $item->waktu }}
-                                    </p>
-                                </div>
-                            @endforeach
+                        @foreach($berita->sortByDesc('created_at')->take(5) as $item)
+                        <div class="right_image">
+                            <img src="{{ asset('foto_upload/' . $item->foto) }}" alt="Youtube Thumbnail" style="width: 195px; height: auto;" />
                         </div>
-                        @endif
-                    </div>                                       
+                        <br>
+                        <div class="left_content">
+                            <h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none" style="float: left; margin-right: 5px; width: 14px; height: 19px;">
+                                    <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                <a href="{{ asset( $item->tampilan) }}" style="text-decoration: none; color: inherit;">
+                                    {{ $item->sumber }}
+                                </a>
+                            </h3>
+                            <p>
+                                <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
+                                    <a href="{{ asset( $item->tampilan) }}" style="text-decoration: none; color: inherit;">
+                                        {{ $item->judul }}
+                                    </a>
+                                </strong>
+                            </p>
+                            <p class="single_cat_right_content_meta" style="color: #696969; font-family: Manrope; font-style: normal; line-height: normal;">
+                                {{ $item->waktu }}
+                            </p>
+                        </div>
+                        @endforeach
+                    </div>
+                    @endif
                 </div>
+            </div>
     </section>
 
     <section id="testimonials" class="testimonials" style="margin-top: -100px;  margin-bottom:60px;  background: url(assets/img/bg/bgmentor.png);background-size: cover;">
@@ -970,9 +970,9 @@
             <h3 style="margin-top: 10px;">Mentor Profesional Class Program</h3>
         </div>
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-            <div class="swiper-wrapper" >
-                <div class="swiper-slide" >
-                    <div class="centered-content" >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="centered-content">
                         <img src="assets/img/team/mentor1.png" class="img-fluid" alt="" style="border: none !important;
                         outline: none !important;">
                         <img src="assets/img/team/mentor2.png" class="img-fluid" alt="" style="border: none !important;
@@ -1009,13 +1009,16 @@
 
                         <style>
                             .btnyt:hover .yt {
-                                background-color: blue; /* Change to your desired hover background color */
+                                background-color: blue;
+                                /* Change to your desired hover background color */
                             }
+
                             .bxl-youtube:hover {
-                                color: blue !important; /* Change to your desired hover color */
+                                color: blue !important;
+                                /* Change to your desired hover color */
                             }
                         </style>
-                        
+
                         <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt">
                             <div style="display: inline-block; position: relative; margin-left: 450px; margin-top: -800px;">
                                 <div class="yt">
@@ -1024,8 +1027,8 @@
                                 </div>
                             </div>
                         </a>
-                        
-                        
+
+
                     </div>
                 </div>
             </div>
@@ -1042,7 +1045,7 @@
                                     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);">
             <!-- <h2>About</h2> -->
             <div class="left-align" style=" text-align: left;">
-                <h3 style="font-weight: 800;color:black; margin-left: 100px; font-family: 'Manrope', sans-serif; ">Janji Mentor <br> Untuk Sobat
+                <h3 style="font-size:40px; color:#000; font-weight: 800;color:black; margin-left: 120px; font-family: 'Manrope'; ">Janji Mentor untuk <br> Sobat Insans
                     Insans...</h3>
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
@@ -1200,7 +1203,7 @@
                                     <h4>4. Mulai Konsultasi</h4>
                                     <br>
                                     {{-- <span>CTO</span> --}}
-                                    <p>Kamu siap melakukan bimbingan bersama Mentor</p><br>
+                                    <p>Kamu siap melakukan bimbingan bersama Mentor profesional</p><br>
                                 </div>
                             </div>
                         </div>
@@ -1688,10 +1691,11 @@
     </script>
     <script>
         function customScrollLeft() {
-        // Assuming you have a container with the ID 'contentContainer'
-        var scrollableColumn = document.getElementById('scrollableColumn');
-        scrollableColumn.scrollLeft -= 100; // Adjust the value based on your needs
-    }
+            // Assuming you have a container with the ID 'contentContainer'
+            var scrollableColumn = document.getElementById('scrollableColumn');
+            scrollableColumn.scrollLeft -= 100; // Adjust the value based on your needs
+        }
+
         function scrollLeft() {
             document.getElementById('scrollableColumn').scrollLeft -= 100;
         }

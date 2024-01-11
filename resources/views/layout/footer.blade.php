@@ -95,9 +95,8 @@
                 <div class="col-lg-4 col-md-3 footer-links">
                     <h4>Hubungi Kami</h4>
                     <ul>
-                        <li><a href="#"><b>Alamat:</b> Jalan Bandara <br> <br>
-                                Palmerah IV No. D-11B,<br> <br> Cemorokandang,<br> <br> Kedungkandang, Kota Malang, <br>
-                                <br> Jawa Timur <br> </a></li>
+                        <li><a href="#"><b>Alamat:</b> Jalan Bandara
+                                Palmerah IV No. D-11B, <br> <br> Cemorokandang, Kedungkandang, Kota Malang, <br> <br> Jawa Timur <br> </a></li>
                         <li><a href="#"><b>Email: </b>classprogram.id@gmail.com
                                 <br></a></li>
                         <li><a href="#"> <b>Whatsapp: </b> 0812-3436-1959 <br></a>
@@ -127,8 +126,8 @@
                                         <circle cx="7" cy="5" r="1.5" />
                                     </g>
                                 </svg>
-                                Jalan Bandara Palmerah IV No. D-11B,<br>
-                                Cemorokandang, Kedungkandang<br>
+                                Jalan Bandara Palmerah IV No. D-11B,
+                                Cemorokandang, Kedungkandang
                                 Kota Malang, Jawa Timur
                             </a>
                                 </li> --}}

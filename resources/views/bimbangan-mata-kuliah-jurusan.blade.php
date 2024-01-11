@@ -18,6 +18,8 @@
 
     <!-- Add Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Add Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -110,7 +112,7 @@
                             </div>
                             <div class="right-content" style="margin-left:0px">
                                 {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
-                                <p style="margin-left: 0px; color: #000;">Sobat Insans yang Mendaftar</p>
+                                <p style="margin-left: 0px; color: #000; font-family: Manrope;"><b>Sobat Insans yang Mendaftar</b></p>
 
                             </div>
                         </div>
@@ -124,7 +126,7 @@
                             </div>
                             <div class="right-content" style="margin-left:1px">
                                 {{-- <p >Mentor Class Program</p> --}}
-                                <p style="margin-left:0px color: #000;">Mentor Class Program</p>
+                                <p style="margin-left:0px; color: #000; font-family: Manrope;"><b>Mentor Class Program</b></p>
                             </div>
                         </div>
 
@@ -136,7 +138,7 @@
                                 </div>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px;  color: #000;">Kampus terdaftar bersama kami</p>
+                                <p style="margin-left:0px;margin-right:10px;  color: #000; font-family: Manrope;"><b>Kampus terdaftar bersama kami</b></p>
                             </div>
                         </div>
 
@@ -148,7 +150,7 @@
                                 </div>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px; color: #000;">Jurusan terdaftar bersama kami</p>
+                                <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;"><b>Jurusan terdaftar bersama kami</b></p>
                             </div>
                         </div>
                         <div class="count-separator"></div>
@@ -159,7 +161,7 @@
                                 </div>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px; color: #000;">Total program <br> yang tersedia</p>
+                                <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;"><b>Total program <br> yang tersedia</b></p>
                             </div>
                         </div>
                     </div>
@@ -220,7 +222,7 @@
                                     <img src="assets/img/bg/bmjcourse.png" alt="">
                                 </div>
                                 <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
-                                    Pendampingan oleh Mentor profesional secara privat online dan intensif.
+                                    Pendampingan oleh Mentor profesional secara privat, online dan intensif
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img style="margin-top:-330px; width:35px; height:35px;" src="assets/img/bg/veryikasi.png" alt="">
@@ -233,7 +235,7 @@
                                     <img src="assets/img/bg/bmjschedule.png" alt="">
                                 </div>
                                 <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
-                                    Jadwal bimbingan fleksibel, sesuai kesepakatan Sobat Insans dan Mentor.
+                                    Jadwal bimbingan fleksibel, sesuai kesepakatan Sobat Insans dan Mentor
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img style="margin-top:-330px; width:35px; height:35px;" src="assets/img/bg/veryikasi.png" alt="">
@@ -246,7 +248,7 @@
                                     <img src="assets/img/bg/bmjles.png" alt="">
                                 </div>
                                 <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
-                                    Bimbingan dilakukan secara online untuk memudahkan proses bimbingan.
+                                    Bimbingan dilakukan secara online untuk memudahkan proses bimbingan
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img style="margin-top:-330px; width:35px; height:35px;" src="assets/img/bg/veryikasi.png" alt="">
@@ -259,7 +261,7 @@
                                     <img src="assets/img/bg/bmjgraduation.png" alt="">
                                 </div>
                                 <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
-                                    Terbuka untuk semua jurusan.
+                                    Terbuka untuk semua jurusan mulai dari semester 1 sampai 6
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img style="margin-top:-330px; width:35px; height:35px;" src="assets/img/bg/veryikasi.png" alt="">
@@ -272,7 +274,7 @@
                                     <img src="assets/img/bg/bmjkomunikasi.png" alt="">
                                 </div>
                                 <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
-                                    Konsultasi konsentrasi jurusan langsung bersama Mentor.
+                                Dapat konsultasi konsentrasi jurusan langsung bersama Mentor profesional
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img style="margin-top:-330px; width:35px; height:35px;" src="assets/img/bg/veryikasi.png" alt="">
@@ -353,7 +355,7 @@
                             <!-- 5 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
                                 <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
-                                    Sobat Insans bisa mengkonsultasikan terkait konsentrasi jurusan dan PKL.
+                                    Sobat Insans bisa konsultasi terkait konsentrasi <br> jurusan dan Praktek Kerja Lapangan.
                                 </div>
 
                                 <img style="width: 27px; height: 27px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
@@ -374,12 +376,12 @@
                         <br>
                         <br>
                         <span style="color: #3E87F8; font-family: Montserrat; font-weight: 700;letter-spacing: 0.1px;
-                            line-height: 125%; font-size:80px;">2564+</span> <br>
+                            line-height: 125%; font-size:78px;">2564+</span> <br>
                         Mahasiswa <br> Lulus Bersama <br> Kami
                         <!-- <a href="#" class="custom-btn-buy">Daftar Sekarang</a> -->
-                        <a href="URL_TARGET" style="text-decoration: none;">
-                            <div style="margin-bottom: 30px; width: 250px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                                <div style="letter-spacing: 1px; color: white; font-size: 25px; font-family: Montserrat; font-weight: 600; line-height: 37.50px; word-wrap: break-word">
+                        <a href="URL_TARGET">
+                            <div style="margin-bottom: 30px; width: 250px;  margin-top:-30px; padding-botton: 30px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                                <div style=" letter-spacing: 1px; color: white; margin-top:-30px; font-size: 25px; font-family: Montserrat; font-weight: 600; line-height: 37.50px; word-wrap: break-word">
                                     Pesan Sekarang
                                 </div>
                             </div>
@@ -515,7 +517,7 @@
                                 </div>
 
                                 <div id="kontenbmj1" class="kontenbmj aktif">
-                                    <img style="margin-bottom:50px; margin-top:-62px;  float: left; width: 418px;   margin-left: 120px;   height: auto;" src="assets/img/bg/bronze.png" alt="">                                    
+                                    <img style="margin-bottom:50px; margin-top:-63px;  float: left; width: 418px;   margin-left: 120px;   height: auto;" src="assets/img/bg/bronze.png" alt="">
                                     <div style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                         Program bimbingan yang dikhususkan untuk mahasiswa <br>semester 1-2 dengan mata kuliah umum sampai khusus <br> sesuai jurusan dan konsultasi konsentrasi jurusan.
                                     </div>
@@ -527,19 +529,19 @@
                                     </div>
 
                                     <div class="buttoncircle" style="display: flex; align-items: center;">
-                                        <i class="bi bi-check2-circle" style=" margin-left: 50px; color: #fff; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>                                        
+                                        <i class="bi bi-check2-circle" style=" margin-left: 50px; color: #fff; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                         <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                             Terdapat praktik dalam setiap bimbingan </div>
                                     </div>
 
                                     <div class="buttoncircle" style="display: flex; align-items: center;">
-                                        <i class="bi bi-check2-circle" style=" margin-left: 50px; color: #fff; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>                                        
+                                        <i class="bi bi-check2-circle" style=" margin-left: 50px; color: #fff; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                         <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                             Soal Kuis dan kisi-kisi materi untuk bahan UAS </div>
                                     </div>
 
                                     <div class="buttoncircle" style="display: flex; align-items: center;">
-                                        <i class="bi bi-check2-circle" style=" margin-left: 50px; color: #fff; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>                                        
+                                        <i class="bi bi-check2-circle" style=" margin-left: 50px; color: #fff; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                         <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                             Konsultasi bersama Mentor terkait konsentrasi jurusan </div>
                                     </div>
@@ -560,9 +562,9 @@
 
                                 <!-- 2 -->
                                 <div id="kontenbmj2" class="kontenbmj ">
-                                    <img style="margin-bottom: 250px;  float: left; width: 418px;   margin-left: 120px;   height: auto;" src="assets/img/bg/paketemerald.png" alt="">                                    
+                                    <img style="margin-bottom: 250px;  float: left; width: 418px;   margin-left: 120px;   height: auto;" src="assets/img/bg/paketemerald.png" alt="">
                                     <div style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                        Program bimbingan yang dikhususkan untuk mahasiswa  <br> semester 3-4 dengan mata kuliah umum sampai khusus <br> sesuai jurusan dan konsultasi konsentrasi jurusan.                                    
+                                        Program bimbingan yang dikhususkan untuk mahasiswa  <br> semester 3-4 dengan mata kuliah umum sampai khusus <br> sesuai jurusan dan konsultasi konsentrasi jurusan.
                                     </div>
 
                                     <div class="buttoncircle" style="display: flex; align-items: center;">
@@ -850,7 +852,7 @@
 
 
 
-        <section id="pricing" class="pricing" style="background-color:#09326f; margin-top:-150px; margin-bottom: 100px;">
+        <section id="pricing" class="pricing" style="background-color:#09326f; margin-top:-250px; margin-bottom: 100px;">
 
             <div class="container" data-aos="fade-up">
                 <div style="width: 100%; text-align: center;">
@@ -859,7 +861,7 @@
                     </div>
                 </div>
                 <div class="section-title judul">
-                    <h3 style="color:white;">Bimbingan Mata Kuliah Jurusan</h3>
+                    <h3 style="color:white; font-family:Montserrat;">Bimbingan Mata Kuliah Jurusan</h3>
                     <h4 style="margin-bottom: 100px; color:white; font-family:Montserrat !important;">Memiliki tiga jenis paket dengan rincian dan biaya sebagai berikut</h4>
                 </div>
 
@@ -901,7 +903,8 @@
                                 </li>
                                 <li class="left-aligned">
                                     <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Durasi pertemuan minimal 2 jam dan maksimal 4 jam</span>
+                                    <span class="text">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
+
                                 </li>
 
                             </ul>
@@ -1013,7 +1016,6 @@
         <section id="about" style="background: url(assets/img/bg/bso1.png);
                 background-size: cover;
                 background-position: center; margin-top: -100px;">
-            <h1>testing</h1>
             <div class="container" data-aos="fade-up">
                 <div class="row align-items-center justify-content-between" style="margin-left: -140px; margin-top: -80px;">
                     <div class="col-lg-6 text-centerr">
