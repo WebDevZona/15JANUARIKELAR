@@ -1556,10 +1556,10 @@
 
             <section id="paketmentorr" class="paketmentor" style="background-color: white; ">
                 {{-- <h4 class="custom-packagee mt-4" style="color: #FFF; font-size:18;
-    font-family: Montserrat;">Bimbingan Skripsi Online (BSO)</h4> --}}
-                {{-- <div class="custom-btn-wrap"style="margin-top:26%">
-        <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
-    </div> --}}
+                    font-family: Montserrat;">Bimbingan Skripsi Online (BSO)</h4> --}}
+                                {{-- <div class="custom-btn-wrap"style="margin-top:26%">
+                        <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
+                    </div> --}}
             </section>
 
 
@@ -1896,8 +1896,6 @@
 
                 </div>
             </section>
-
-
 
             <section id="paketmentor" class="paketmentor"
                 style="background-color: #ffff; margin-top: -330px; background: url(assets/img/bg/gelombang.png); background-size: cover; ">
@@ -2595,25 +2593,25 @@
                 </div>
             </section>
 
-            {{-- <section id="testimonials" class="testimonials"style="margin-top:-100px ;margin-bottom:30px;">
-    <div class="section-title">
-        <h3 style="margin-top: 80px;">Mentor Profesional Class Program</h3>
-    </div>
-    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="centered-content">
-                    <img src="assets/img/testimonials/sobat1.png" width="300px" height="auto"  class="img-fluid" alt="">
+                            {{-- <section id="testimonials" class="testimonials"style="margin-top:-100px ;margin-bottom:30px;">
+                    <div class="section-title">
+                        <h3 style="margin-top: 80px;">Mentor Profesional Class Program</h3>
+                    </div>
+                    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="centered-content">
+                                    <img src="assets/img/testimonials/sobat1.png" width="300px" height="auto"  class="img-fluid" alt="">
+                                </div>
+                                <div class="centered-content">
+                                    <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
-                <div class="centered-content">
-                    <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="swiper-pagination"></div>
-    </div>
-</div>
-</section> --}}
+                </section> --}}
 
             <section id="testibaru" class="testibaru section-bg" style="margin-bottom:15px;">
                 <div class="profile-container" style="position: absolute; ">
@@ -2910,10 +2908,10 @@
                                             {{-- <span>Product Manager</span> --}}
                                             <p>Mengirim bukti pembayaran dan menunggu verifikasi</p><br>
                                             {{-- <ul>
-              <li>Prestasi 1</li>
-              <li>Prestasi 2</li>
-              <li>Prestasi 3</li>
-            </ul> --}}
+                                <li>Prestasi 1</li>
+                                <li>Prestasi 2</li>
+                                <li>Prestasi 3</li>
+                                </ul> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -2938,10 +2936,10 @@
                                             {{-- <span>CTO</span> --}}
                                             <p>Kamu siap melakukan bimbingan bersama mentor</p><br>
                                             {{-- <ul>
-              <li>Prestasi 1</li>
-              <li>Prestasi 2</li>
-              <li>Prestasi 3</li>
-            </ul> --}}
+                                <li>Prestasi 1</li>
+                                <li>Prestasi 2</li>
+                                <li>Prestasi 3</li>
+                                </ul> --}}
                                         </div>
                                     </div>
                                 </div>
@@ -2964,7 +2962,7 @@
                             <div class="section-title" style="margin-bottom: 50px;">
                                 <h3 style="margin-top:0px !important">Paling Sering Ditanyakan</h3>
                             </div>
-                            <style>
+                            {{-- <style>
                                 .accordion-button {
                                     background-color: #3E87F8;
                                     color: #fff;
@@ -2994,7 +2992,7 @@
                                 .accordion-item.active .accordion-button {
                                     background-color: #2952a3;
                                 }
-                            </style>
+                            </style> --}}
 
                             <div class="accordion" id="accordionFlushExample">
                                 <div class="accordion-item">
@@ -3090,7 +3088,7 @@
                                 <a href="#pricing" class="btn btn-primary" style="border-radius: 10px; align-content: center;">Baca selengkapnya</a>
                             </div> --}}
                             </div>
-                            <script>
+                            {{-- <script>
                                 document.addEventListener('DOMContentLoaded', function() {
                                     var accordions = document.querySelectorAll('.accordion-button');
 
@@ -3100,7 +3098,7 @@
                                         });
                                     });
                                 });
-                            </script>
+                            </script> --}}
 
 
                         </div>
@@ -3384,8 +3382,7 @@
             <div data-bs-toggle="collapse" class="collapsed question" href="#faq${index + 1}">${faq.question}</div>
             <div id="faq${index + 1}" class="collapse" data-bs-parent=".faq-list">
                 <p>${faq.answer}</p>
-            </div>
-        `;
+            </div>`;
                         faqList.appendChild(listItem);
                     });
 
@@ -3483,11 +3480,6 @@
                     }
                 }
 
-
-
-
-
-
                 var scrollableColumn = document.querySelector('#scrollableColumn');
                 var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
 
@@ -3511,6 +3503,7 @@
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </main>
 
     </body>
 
