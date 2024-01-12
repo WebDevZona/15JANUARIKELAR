@@ -14,12 +14,104 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='../../../../https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
 
-    
+
 </head>
 <style>
-    /* Styling for the scrollbar container */
+    /* testing */
+    /* Reset default margin and padding for better consistency */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    /* Styling for custom-box */
+    .custom-box {
+
+        background-color: white;
+        color: #1E1E1E;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    /* Styling for custom-package */
+    .custom-package {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.25;
+        /* Adjusted line-height for better readability */
+        letter-spacing: -1.6px;
+    }
+
+    /* Styling for rupiah-display and custom-pricee */
+    .rupiah-display,
+    .custom-pricee {
+        margin-top: 10px;
+    }
+
+    /* Styling for hr */
+    hr {
+        border: 1px solid #fff;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Styling for ul */
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Styling for left-aligned li */
+    .left-aligned {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    /* Styling for checkmark */
+    .checkmark {
+        margin-right: 10px;
+    }
+
+    /* Styling for text-bso */
+    .text-bso {
+        color: #1E1E1E;
+    }
+
+    /* Styling for custom-btn-wrap */
+    .custom-btn-wrap {
+        margin-top: -6%;
+        /* Adjust as needed */
+
+    }
+
+    /* Styling for custom-btn-buy */
+    .custom-btn-buy {
+        display: inline-block;
+        background-color: #27ae60;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        /* Smooth transition effect */
+
+    }
+
+    /* Hover effect for custom-btn-buy */
+    .custom-btn-buy:hover {
+        /* background-color: #218c53; */
+       color: #1E1E1E;
+    }
+
+    /* scroll */
+    /* Styling for ul */
     .scrollable-container {
-        max-height: 180px;
+        max-height: 220px;
         /* Set your desired height */
         overflow-y: auto;
 
@@ -125,9 +217,9 @@
 
             <section>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 550px; border-radius: 15px;">
-                            <h4 class="custom-package" style="color: #FFF;
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" style="background: #3E87F8; margin-left: 120px;  margin-top:15px; border-radius: 15px;">
+                        <div class="custom-box" style="border-radius: 15px;">
+                            <h4 class="custom-package" style="color:  #1E1E1E;
                                                 font-family: Montserrat;
                                                 font-size: 18px;
                                                 font-style: normal;
@@ -139,38 +231,40 @@
                             </div>
                             <div class="custom-pricee"><strong>1 Bulan</strong></div>
                             <hr>
-                            <ul>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Bimbingan intensif pembuatan <br> judul skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Bimbingan rumusan masalah</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Penentuan dasar <br> teori berdasarkan variabel</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Waktu bimbingan 12x pertemuan</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Durasi bimbingan minimal <br> 2 jam maksimal 4 jam.</span>
-                                </li>
-                            </ul>
-                            <div class="custom-btn-wrap" style="margin-top:-6%">
+                            <div class="scrollable-container">
+                                <ul>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Bimbingan intensif pembuatan <br> judul skripsi</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Bimbingan rumusan masalah</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Penentuan dasar <br> teori berdasarkan variabel</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Waktu bimbingan 12x pertemuan</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Durasi bimbingan minimal <br> 2 jam maksimal 4 jam.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="custom-btn-wrap" style="margin-top: 6%">
                                 <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
 
                     {{-- Paket Gold --}}
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 550px; border-radius: 15px;">
-                            <h4 class="custom-package" style="color: #FFF;
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" style="background: #3E87F8; margin-left: 50px;  margin-top:15px;border-radius: 25px;">
+                    <div class="custom-box" style="border-radius: 15px;">
+                            <h4 class="custom-package" style="color:  #1E1E1E;
                                                 font-family: Montserrat;
                                                 font-size: 18px;
                                                 font-style: normal;
@@ -182,38 +276,40 @@
                             </div>
                             <div class="custom-pricee"><strong>2 Bulan</strong></div>
                             <hr>
-                            <ul>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Bimbingan intensif pembuatan <br> bab 1-3</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Bimbingan dalam pembuatan outline</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso">Bimbingan metode penelitian</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso">Waktu bimbingan 24x pertemuan</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso">Durasi bimbingan per pertemuan <br> minimal 2 jam maksimal 4 jam.</span>
-                                </li>
-                            </ul>
-                            <div class="custom-btn-wrap" style="margin-top:-2%">
+                            <div class="scrollable-container">
+                                <ul>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Bimbingan intensif pembuatan <br> bab 1-3</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Bimbingan dalam pembuatan outline</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso">Bimbingan metode penelitian</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso">Waktu bimbingan 24x pertemuan</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso">Durasi bimbingan per pertemuan <br> minimal 2 jam maksimal 4 jam.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="custom-btn-wrap" style="margin-top:6%">
                                 <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
 
                     {{-- Platinum --}}
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 550px; border-radius: 15px;">
-                            <h4 class="custom-package" style="color: #FFF;
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" style="background: #3E87F8; margin-top:20px; border-radius: 25px;">
+                    <div class="custom-box" style="border-radius: 15px;">
+                            <h4 class="custom-package" style="color:  #1E1E1E;
                                                 font-family: Montserrat;
                                                 font-size: 18px;
                                                 font-style: normal;
@@ -225,39 +321,40 @@
                             </div>
                             <div class="custom-pricee"><strong>2 Bulan</strong></div>
                             <hr>
-                            <ul>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Bimbingan intensif pembuatan <br> bab 4 sampai selesai</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Bimbingan hasil dan pembahasan <br> penelitian</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso">Bimbingan pembuatan abstrak</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso">Waktu bimbingan 24x pertemuan</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso">Durasi bimbingan per pertemuan <br> minimal 2 jam maksimal 4 jam</span>
-                                </li>
-                            </ul>
-                            <div class="custom-btn-wrap" style="margin-top:-5%">
+                            <div class="scrollable-container">
+                                <ul>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Bimbingan intensif pembuatan <br> bab 4 sampai selesai</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Bimbingan hasil dan pembahasan <br> penelitian</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso">Bimbingan pembuatan abstrak</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso">Waktu bimbingan 24x pertemuan</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso">Durasi bimbingan per pertemuan <br> minimal 2 jam maksimal 4 jam</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="custom-btn-wrap" style="margin-top: 6%">
                                 <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row" style="margin-top: -180px;">
+
                     {{-- PAKET DIAMOND --}}
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 640px; border-radius: 15px;">
-                            <h4 class="custom-package" style="color: #FFF;
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" style="background: #3E87F8; margin-top:15px; border-radius: 25px;">
+                    <div class="custom-box" style="border-radius: 15px;">
+                            <h4 class="custom-package" style="color:  #1E1E1E;
                                                 font-family: Montserrat;
                                                 font-size: 18px;
                                                 font-style: normal;
@@ -269,50 +366,52 @@
                             </div>
                             <div class="custom-pricee"><strong>14 Hari</strong></div>
                             <hr>
-                            <ul>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Bimbingan intensif pembuatan <br> powerpoint proposal dan skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Bimbingan presentasi proposal <br>dan skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Bimbingan simulasi seminar <br> proposal dan skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Konsultasi proposal dan skripsi <br> yang telah dibuat</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso">Waktu bimbingan 7x pertemuan.</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Durasi bimbingan per pertemuan <br> minimal 2 jam maksimal 4 jam.</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Template powerpoint</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Sertifikat</span>
-                                </li>
-                            </ul>
-                            <div class="custom-btn-wrap" style="margin-top:-15%">
+                            <div class="scrollable-container">
+                                <ul>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Bimbingan intensif pembuatan <br> powerpoint proposal dan skripsi</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Bimbingan presentasi proposal <br>dan skripsi</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Bimbingan simulasi seminar <br> proposal dan skripsi</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Konsultasi proposal dan skripsi <br> yang telah dibuat</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso">Waktu bimbingan 7x pertemuan.</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Durasi bimbingan per pertemuan <br> minimal 2 jam maksimal 4 jam.</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Template powerpoint</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Sertifikat</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="custom-btn-wrap" style="margin-top:6%">
                                 <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
 
                     {{-- PAKET COMPLATE --}}
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 640px; border-radius: 15px;">
-                            <h4 class="custom-package" style="color: #FFF;
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100" style="background: #3E87F8; margin-left: 2px; margin-top:10px; border-radius: 25px;">
+                    <div class="custom-box" style="border-radius: 15px;">
+                            <h4 class="custom-package" style="color:  #1E1E1E;
                                                 font-family: Montserrat;
                                                 font-size: 18px;
                                                 font-style: normal;
@@ -324,37 +423,39 @@
                             </div>
                             <div class="custom-pricee"><strong>3 Bulan</strong></div>
                             <hr>
-                            <ul>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso">Bimbingan intensif pembuatan judul skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Bimbingan intensif pembuatan <br> bab 1-3</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso"> Bimbingan intensif pembuatan <br> bab 4 sampai selesai</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso">Bimbingan penyusunan ppt <br>proposal dan skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso">Bimbingan presentasi proposal <br>dan skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso">Bimbingan simulasi seminar <br>proposal dan sidang skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text-bso">Waktu bimbingan 30x pertemuan</span>
-                                </li>
-                            </ul>
-                            <div class="custom-btn-wrap" style="margin-top:-5%">
+                            <div class="scrollable-container">
+                                <ul>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso">Bimbingan intensif pembuatan judul skripsi</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Bimbingan intensif pembuatan <br> bab 1-3</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso"> Bimbingan intensif pembuatan <br> bab 4 sampai selesai</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso">Bimbingan penyusunan ppt <br>proposal dan skripsi</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso">Bimbingan presentasi proposal <br>dan skripsi</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso">Bimbingan simulasi seminar <br>proposal dan sidang skripsi</span>
+                                    </li>
+                                    <li class="left-aligned">
+                                        <span class="checkmark">&#10003;</span>
+                                        <span class="text-bso">Waktu bimbingan 30x pertemuan</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="custom-btn-wrap" style="margin-top: 6%">
                                 <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
                             </div>
                         </div>

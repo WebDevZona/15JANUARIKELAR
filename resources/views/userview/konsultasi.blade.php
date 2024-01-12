@@ -14,6 +14,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='../../../../https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
 
+
+    <!-- Menautkan Montserrat Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+
+    <link rel="stylesheet" href="../../../../path/to/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../../path/to/font-awesome/css/font-awesome.min.css">
+    <!-- Add Swiper CSS -->
+    <link rel="stylesheet" href="../../../../ https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Add Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Favicons -->
+    <link href="../../../../assets/img/logo/logo2.png" rel="icon">
+    <link href="../../../../assets/img/logo/logo2.png" rel="assets/img/logo/logo2.png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-9YET8/TniDXKOiij1Qe1eblgJFFfD4jlYn/+9T6oPe4eVBN5LME6wJWoJPlD/Z1k3wrPQF0Gv9m9IPqFGe56WpA==" crossorigin="anonymous" />
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-lY6/JB9Xa4kADl06IZ5FWYKTjnKiSiafwqz3VGssFSc8sPJwZP+DmGQ1TxI9Ld6D" crossorigin="anonymous">
+    <!-- Vendor CSS Files -->
+    <link href="../../../../assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="../../../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="../../../../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="../../../../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="../../../../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
+
+    {{-- font-awesome --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Include Bootstrap CSS and JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Slenco:wght@400&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
+
 </head>
 <style>
     /* Styling for the scrollbar container */
@@ -124,6 +173,276 @@
 
             <section>
 
+                <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2">
+                    <style>
+                        /* Main table styling */
+                        .table-container {
+                            width: 100%;
+                            border-collapse: collapse;
+                        }
+
+                        /* Header row styling */
+                        .table-container thead th {
+                            text-align: left;
+                            padding: 10px;
+                        }
+
+                        /* Data row styling */
+                        .table-container tbody td {
+                            padding: 8px;
+                            border-top: 1px solid #ddd;
+                            /* Optional: Add border between rows */
+                        }
+
+                        /* Additional styling for specific columns */
+                        .table-container tbody th {
+                            width: 120px;
+                            /* Adjust the width of the first column if needed */
+                        }
+
+                        /* Styling for the price span */
+                        .blue-text {
+                            color: #1b5cc5;
+                            font-weight: bold;
+                        }
+
+                        /* Adjustments for card text */
+                        .card-text {
+                            margin-top: 10px;
+                        }
+
+                        /* Remove default margin for the card title */
+                        .card-body h5 {
+                            margin-bottom: 0;
+                        }
+
+                        th.column-header {
+                            vertical-align: top;
+                            padding-bottom: 20px;
+                        }
+
+                        span.header-text {
+                            margin-left: 40px;
+                        }
+
+                        span.blue-text {
+                            color: #1b5cc5;
+                            font-weight: bold;
+                        }
+                    </style>
+                    <div class="col" style="margin-top: 20px;">
+                        <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Reguler
+                                                    <br><span class="green-text">Silver</span>
+                                                </th>
+                                                <th scope="col">
+                                                    <span style="margin-left: 20px;">Harga</span>
+                                                    <br>
+                                                    <span class="blue-text" style="margin-left: 20px;">Rp 47.000</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </h5>
+                                <p class="card-text">
+                                <table class="table table-no-border">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">1 Sesi</th>
+                                            <th scope="col">1 Jam Konsultasi</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <div class="scrollable-container">
+                                    <ul class="deskripsi" style="list-style: none;">
+                                        {{-- <i class="fa-solid fa-check"></i> --}}
+                                        <strong> Materi: </strong>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;margin-left: -22px;"></i> Topik penelitian. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Variabel penelitian. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Objek penelitian. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Judul penelitian. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Rumusan masalah penelitian.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Dasar teori berdasarkan variabel yang digunakan.</li>
+                                    </ul>
+                                </div>
+                                </p>
+                            </div>
+                            <div class="card-footer text-center" style="border-radius: 25px;">
+                                <a href="/pembelian/regulersilver" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col" style="margin-top: 20px;">
+                        <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Reguler
+                                                    <br><span class="green-text">Gold</span>
+                                                </th>
+                                                <th scope="col">
+                                                    <span style="margin-left: 20px;">Harga</span>
+                                                    <br>
+                                                    <span class="blue-text" style="margin-left: 20px;">Rp 66.000</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </h5>
+                                <p class="card-text">
+                                <table class="table table-no-border">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">1 Sesi</th>
+                                            <th scope="col">1 Jam Konsultasi</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <div class="scrollable-container">
+                                    <ul class="deskripsi" style="list-style: none;">
+                                        {{-- <i class="fa-solid fa-check"></i> --}}
+                                        <strong> Materi: </strong>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Latar belakang.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Identifikasi masalah. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Rumusan masalah. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Tujuan dan manfaat penelitian. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teori dasar.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Kerangka konseptual.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Tinjauan literatur.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Riset-riset terkait.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Kerangka konsep.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Hipotesis penelitian.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Metode penelitian.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Populasi dan sampel.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Variabel-variabel penelitian.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknik pengumpulan data.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknik analisis data.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknik validasi data.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Prosedur penelitian.</li>
+                                    </ul>
+                                </div>
+                                </p>
+                            </div>
+                            <div class="card-footer text-center" style="border-radius: 25px;">
+                                <a href="/pembelian/regulersilver" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col" style="margin-top: 20px;">
+                        <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Reguler
+                                                    <br><span class="green-text">Platinum</span>
+                                                </th>
+                                                <th scope="col">
+                                                    <span style="margin-left: 20px;">Harga</span>
+                                                    <br>
+                                                    <span class="blue-text" style="margin-left: 20px;">Rp 62.000</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </h5>
+                                <p class="card-text">
+                                <table class="table table-no-border">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" style="margin-left: 50px;">1 Sesi
+                                            </th>
+                                            <th scope="col">
+                                                <span>1 Jam Konsultasi</span>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <div class="scrollable-container">
+                                    <ul class="deskripsi" style="list-style: none;">
+                                        {{-- <i class="fa-solid fa-check"></i> --}}
+                                        <strong> Materi: </strong>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Input data.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Olah data. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Tabulasi data. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Interpretasi data. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Hasil dan pembahasan.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Menyusun transkrip wawancara.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Menyusun hasil wawancara.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Kesimpulan, keterbatasan, dan saran penelitia.</li>
+                                    </ul>
+                                </div>
+                                </p>
+                            </div>
+                            <div class="card-footer text-center" style="border-radius: 25px;">
+                                <a href="/pembelian/regulerplatinum" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col" style="margin-top: 20px;">
+                        <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Reguler
+                                                    <br><span class="green-text">Titanium</span>
+                                                </th>
+                                                <th scope="col">
+                                                    <span style="margin-left: 20px;">Harga</span>
+                                                    <br>
+                                                    <span class="blue-text" style="margin-left: 20px;">Rp 57.000</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </h5>
+                                <p class="card-text">
+                                <table class="table table-no-border">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">1 Sesi</th>
+                                            <th scope="col">1 Jam Konsultasi</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <div class="scrollable-container">
+                                    <ul class="deskripsi" style="list-style: none;">
+                                        {{-- <i class="fa-solid fa-check"></i> --}}
+                                        <strong> Materi: </strong>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review proposal skripsi <br> bab 1-3.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review skripsi full bab 1-5. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Review artikel jurnal. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknis penulisan skripsi atau artikel jurnal yang masih keliru. </li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknis penulisan skripsi atau artikel jurnal yang masih keliru.</li>
+                                        <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Saran dan masukan terhadap file skripsi atau artikel jurnal.</li>
+                                    </ul>
+                                </div>
+                                </p>
+                            </div>
+                            <div class="card-footer text-center" style="border-radius: 25px;">
+                                <a href="/pembelian/regulertitanium" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <br>
                 <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2">
                     <style>
                         /* Main table styling */
