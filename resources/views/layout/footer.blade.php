@@ -79,8 +79,8 @@
         position: absolute;
                width: 1100px;
                margin-inline-start: -130px;
-               margin-top: -100px;
-               left:0;
+               margin-top: -30px;
+               left:-10px;
                height: 400px;
                display: block;
               ">
