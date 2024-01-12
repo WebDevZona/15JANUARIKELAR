@@ -18,21 +18,10 @@
 
     <!-- Add Swiper CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-    <!-- Add Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Favicons -->
-    <link href="assets/img/logo/logo2.png" rel="icon">
-    <link href="assets/img/logo/logo2.png" rel="assets/img/logo/logo2.png">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-9YET8/TniDXKOiij1Qe1eblgJFFfD4jlYn/+9T6oPe4eVBN5LME6wJWoJPlD/Z1k3wrPQF0Gv9m9IPqFGe56WpA==" crossorigin="anonymous" />
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-lY6/JB9Xa4kADl06IZ5FWYKTjnKiSiafwqz3VGssFSc8sPJwZP+DmGQ1TxI9Ld6D" crossorigin="anonymous">
+
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -44,18 +33,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Slenco:wght@400&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- =======================================================
-  * Template Name: BizLand
-  * Updated: May 30 2023 with Bootstrap v5.3.0
-  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 </head>
@@ -83,7 +65,7 @@
 
         <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/bmj.png); background-size: cover; margin-top: -18px; position: relative;">
 
-            <img style="height: 580px; margin-top: -30px; position: absolute; left: 0; top: 0;" src="assets/img/bg/bmjriska.png" alt="" />
+            <img style="height: 595px; margin-top: -12px; position: absolute; left: 0; margin-left:3.8px; top: 0;" src="assets/img/bg/bmjriska.png" alt="" />
 
             <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: -50px; margin-bottom: 130px;">
                 <div style="width: 100%; display: flex; justify-content: center; margin-top: 50px;">
@@ -96,7 +78,7 @@
 
                 <div style="width: 600px; margin-left: 50px; height: 100%; margin-top: 5px; text-align: center; color: #202020; font-size: 20px; font-family: Montserrat; font-weight: 500; line-height: 20px; word-wrap: break-word; margin: 0 auto;">
                 </div>
-                <p style="margin-left: 65px; margin-top: 2px; text-align: center; color: #202020; font-size: 19px; font-family: Montserrat; font-weight: 500;  ">
+                <p style="margin-left: 65px; margin-top: 10px; text-align: center; color: #202020; font-size: 19px; font-family: Montserrat; font-weight: 500;  ">
                     Bimbingan Mata kuliah Jurusan (BMJ) Class Program <br> disediakan secara khusus untuk membantu mahasiswa <br> dalam memahami materi-materi mata kuliah yang ada <br> di jurusan dengan sistem mentoring/pendampingan.
                 </p>
 
@@ -169,7 +151,7 @@
             </div>
 
 
-            <img style="height: 600px; margin-top: -50px; margin-left: 00px; position: absolute; right: 0; top: 0;" src="assets/img/bg/bmjandika.png" alt="">
+            <img style="height: 600px; margin-top: -45px; margin-left: 00px; position: absolute; right: 0; top: 0;" src="assets/img/bg/bmjandika.png" alt="">
         </section>
 
         {{-- ok3 --}}
@@ -274,7 +256,7 @@
                                     <img src="assets/img/bg/bmjkomunikasi.png" alt="">
                                 </div>
                                 <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
-                                Dapat konsultasi konsentrasi jurusan langsung bersama Mentor profesional
+                                    Dapat konsultasi konsentrasi jurusan langsung bersama Mentor profesional
                                 </div>
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img style="margin-top:-330px; width:35px; height:35px;" src="assets/img/bg/veryikasi.png" alt="">
@@ -288,7 +270,8 @@
         <section id="about" style="margin-top: -800px; margin-bottom: 250px;">
             <div class="container" data-aos="fade-up">
                 <div style="margin-left: 35px;width: 95%; height: 100%; margin-bottom:800px; position: relative; opacity: 0.85">
-                    <img style="margin-left: 35px; width: 95%; height: auto; position: absolute; mix-blend-mode: multiply; top: 0; left: 0;" src="assets/img/bg/bmjbg.png" alt="">                </div>
+                    <img style="margin-left: 35px; width: 95%; height: auto; position: absolute; mix-blend-mode: multiply; top: 0; left: 0;" src="assets/img/bg/bmjbg.png" alt="">
+                </div>
 
                 <div class="row align-items-center justify-content-between" style="margin-top: -80px; position: relative;">
                     <div class="col-lg-6 text-center">
@@ -313,14 +296,15 @@
                         </style>
                         <video width="260" height="460" controls style="margin-top: 30px; margin-left: 10px; border-radius: 2%; box-shadow: 0px 0px 15px rgba(0, 0, 255, 0.2); " id="myVideo">
                             <source src="assets/vidio/1.mp4" type="video/mp4">
-                            </video>
+                        </video>
                     </div>
 
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
 
                         <div class="section-title">
                             <span class="a">
-                                <h3 style="margin-top: 25px; margin-left: -100px; text-align: left; font-size: 40px; color: #ffff; font-family: Montserrat;">Nanti di BMJ bakal <br> ngapain aja sih?</h3>                            </span>
+                                <h3 style="margin-top: 25px; margin-left: -100px; text-align: left; font-size: 40px; color: #ffff; font-family: Montserrat;">Nanti di BMJ bakal <br> ngapain aja sih?</h3>
+                            </span>
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
                                 <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px; font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
                                     Sobat Insans akan mendapatkan pemahaman mendalam terkait mata kuliah yang dipilih.
@@ -379,13 +363,18 @@
                             line-height: 125%; font-size:78px;">2564+</span> <br>
                         Mahasiswa <br> Lulus Bersama <br> Kami
                         <!-- <a href="#" class="custom-btn-buy">Daftar Sekarang</a> -->
-                        <a href="URL_TARGET">
+                        <!-- <a href="URL_TARGET">
                             <div style="margin-bottom: 30px; width: 250px;  margin-top:-30px; padding-botton: 30px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                                 <div style=" letter-spacing: 1px; color: white; margin-top:-30px; font-size: 25px; font-family: Montserrat; font-weight: 600; line-height: 37.50px; word-wrap: break-word">
                                     Pesan Sekarang
                                 </div>
                             </div>
-                        </a>
+                        </a> -->
+                        <div style="width: 100%; display: flex; justify-content: center; margin-top: -60px; height: 50px;  margin-left: 78px;">
+                            <div style="margin-left: 15px; width: 250px; height: 100%; padding: 6.40px; background: #3E87F8; box-shadow: 6.400178909301758px 6.400178909301758px 12.800357818603516px rgba(0, 0, 0, 0.15); border-radius: 32px; justify-content: center; align-items: center; gap: 6.40px; display: inline-flex; margin: 0 auto;">
+                                <div style="color: white; font-size: 20.48px;    letter-spacing:1px; font-family: Montserrat; font-weight: 700; line-height: 25.60px; word-wrap: break-word">Pesan Sekarang</div>
+                            </div>
+                        </div>
                         <br>
 
                         <div class="row" style="margin-bottom:120px; ">
@@ -432,7 +421,8 @@
 
                     <div class="container" data-aos="fade-up">
                         <div style="margin-left: 55px; width: 95%; height: 100%; margin-bottom:800px; position: relative; opacity: 0.85">
-                            <img style="margin-left: 55px; width: 95%; height: auto; position: absolute; mix-blend-mode: multiply; top: 0; left: 0;" src="assets/img/bg/bmjbg3.png" alt="">                        </div>
+                            <img style="margin-left: 55px; width: 95%; height: auto; position: absolute; mix-blend-mode: multiply; top: 0; left: 0;" src="assets/img/bg/bmjbg3.png" alt="">
+                        </div>
 
                         <div id="cardbmj" class="cardbmj">
                             <div class="row align-items-center justify-content-between" style="margin-top: -800px; margin-bottom: 180px;  position: relative;">
@@ -564,7 +554,7 @@
                                 <div id="kontenbmj2" class="kontenbmj ">
                                     <img style="margin-bottom: 250px;  float: left; width: 418px;   margin-left: 120px;   height: auto;" src="assets/img/bg/paketemerald.png" alt="">
                                     <div style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                        Program bimbingan yang dikhususkan untuk mahasiswa  <br> semester 3-4 dengan mata kuliah umum sampai khusus <br> sesuai jurusan dan konsultasi konsentrasi jurusan.
+                                        Program bimbingan yang dikhususkan untuk mahasiswa <br> semester 3-4 dengan mata kuliah umum sampai khusus <br> sesuai jurusan dan konsultasi konsentrasi jurusan.
                                     </div>
 
                                     <div class="buttoncircle" style="display: flex; align-items: center;">
@@ -600,8 +590,9 @@
                                 </div>
                                 <!-- 3 -->
                                 <div id="kontenbmj3" class="kontenbmj ">
-                                    <img style="margin-bottom: 50px; margin-top: -1px; float: left; width: 418px;     margin-left: 72px;   height: auto;" src="assets/img/bg/salwabmj-preview.png" alt="">                                    <div style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                        Program bimbingan yang dikhususkan untuk mahasiswa  <br>semester 5-6 dengan mata kuliah umum, mata kuliah <br> penjurusan, serta konsultasi terkait PKL.                                    </div>
+                                    <img style="margin-bottom: 50px; margin-top: -1px; float: left; width: 418px;     margin-left: 72px;   height: auto;" src="assets/img/bg/salwabmj-preview.png" alt="">
+                                    <div style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                        Program bimbingan yang dikhususkan untuk mahasiswa <br>semester 5-6 dengan mata kuliah umum, mata kuliah <br> penjurusan, serta konsultasi terkait PKL. </div>
 
                                     <div class="buttoncircle" style="display: flex; align-items: center;">
                                         <i class="bi bi-check2-circle" style=" margin-left: 10px; color: #fff; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
@@ -875,7 +866,7 @@
                                 font-weight: 600;                                line-height: 125%; /* 40px */
                                 letter-spacing: -1.6px;">PAKET BRONZE</h4>
                             <div class="rupiah-display" style="position: relative;">
-                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;" >Rp</strong></h4>
+                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;">Rp</strong></h4>
                                 <h4><strong>400.000</strong></h4>
                             </div>
                             <div class="custom-pricee" style="margin-right: 120px;"><strong>1 Bulan</strong></div>
@@ -924,7 +915,7 @@
                                 line-height: 125%; /* 40px */
                                 letter-spacing: -1.6px;">PAKET EMERALD</h4>
                             <div class="rupiah-display" style="position: relative;">
-                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;" >Rp</strong></h4>
+                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;">Rp</strong></h4>
                                 <h4><strong>565.000</strong></h4>
                             </div>
                             <div class="custom-pricee" style="margin-right: 120px;"><strong>2 Bulan</strong></div>
@@ -970,7 +961,7 @@
                                 line-height: 125%; /* 40px */
                                 letter-spacing: -1.6px;">PAKET DIAMOND</h4>
                             <div class="rupiah-display" style="position: relative;">
-                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;" >Rp</strong></h4>
+                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;"><strong class="rp" style="margin-left: 10px;">Rp</strong></h4>
                                 <h4><strong>650.000</strong></h4>
                             </div>
                             <div class="custom-pricee" style="margin-right: 120px;"><strong>2 Bulan</strong></div>
@@ -1020,16 +1011,16 @@
                 <div class="row align-items-center justify-content-between" style="margin-left: -140px; margin-top: -80px;">
                     <div class="col-lg-6 text-centerr">
                         <div style="width: 100%; height: 100%; position: relative">
-                            <div style="width: 50px; margin-left: 150px; left: 0px; top: -150px; position: absolute">
+                            <div style="width: 50px; margin-left: 155px; left: 0px; top: -150px; position: absolute">
                                 <div style="width: 90.87px; height: 90.87px; left: 0px; top: 0px; position: absolute; background: #09326F; border-radius: 9999px"></div>
                                 <div style="width: 76.64px; height: 90.87px; left: 7.66px; top: 0px; position: absolute; text-align: center; color: white; font-size: 105.11px; font-family: Montserrat; font-weight: 700; line-height: 131.38px; word-wrap: break-word">“</div>
                             </div>
-                            <div style="width: 500px; left: px; margin-top: 50px; top: -110px; margin-left: 80px; position: absolute; color: black; font-size: 50px; font-family: Montserrat; font-weight: 700; line-height: 80.50px; word-wrap: break-word">Cerita Sobat<br />Insans</div>
+                            <div style="text-align:start;  width: 500px; left: px; margin-top: 50px; top: -110px; margin-left: 168px; position: absolute; color: black; font-size: 55px; font-family: Montserrat; font-weight: 700; line-height: 80.50px; word-wrap: break-word">Cerita Sobat<br />Insans</div>
                         </div>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
                         {{-- text --}}
-                        <img src="assets/img/bg/bmjsobat1.png" class="img-fluid" alt="">
+                        <img src="assets/img/bg/sobat.png" class="img-fluid" alt="">
                     </div>
                 </div>
         </section>
@@ -1045,7 +1036,7 @@
 
             </div> --}}
             <div class="section-title" style="margin-top: 50px; color:#000;">
-                <h3  style=" font-size: 45px;  margin-top:0px  !important;">Mantor Profesional</h3>
+                <h3 style=" font-size: 45px;  margin-top:0px  !important;">Mantor Profesional</h3>
                 <h4 style=" margin-top:10px !important; ">Bimbingan Mata Kuliah Jurusan</h4>
             </div>
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -1076,7 +1067,7 @@
 
         <section id="testimonials" class="testimonials" style=" margin-top: -50px; background: url(assets/img/bg/bgalur.png); background-size: cover; position: relative; text-align: center;">
             <div class="section-title" style="margin-top: px; color:#000;">
-                <h3  style=" font-size: 50px;  margin-top:0px  !important;">Alur Bimbingan</h3>
+                <h3 style=" font-size: 50px;  margin-top:0px  !important;">Alur Bimbingan</h3>
             </div>
             <img src="assets/img/bg/alurbimbingan.png" style="max-width: 45%;  height: auto; display: inline-block; margin-top: 50px;" class="img-fluid" alt="">
         </section>
@@ -1093,7 +1084,7 @@
                     <div class="col-lg-6 text-centerr">
                         <div style="width: 100%; height: 100%; position: relative">
 
-                            <div style=" width: 500px; left: 50px; margin-top: 50px; top: -110px; position: absolute; color: white; font-size: 50px; font-family: Montserrat; font-weight: 700; line-height: 80.50px; word-wrap: break-word">Paling Sering Ditanyakan</div>
+                            <div style="text-align: start; width: 500px; left:100px; margin-top: 50px; margin-top: -185px; position: absolute; color: white; font-size: 60px; font-family: Montserrat; font-weight: 700; line-height: 80.50px; word-wrap: break-word">Paling Sering Ditanyakan</div>
                         </div>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
