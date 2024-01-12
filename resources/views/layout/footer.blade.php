@@ -317,7 +317,7 @@
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "Sobat Insan<br><strong>Fandi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "Sobat Insan<br><strong>Fandi </strong> <br>Mendaftar di Paket Hemat Bimbingan Skripsi Online",
             },
             {
                 date: currentDay,
@@ -337,7 +337,7 @@
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "Sobat Insan<br><strong>Fadil</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "Sobat Insan<br><strong>Fadil</strong> <br>Mendaftar di Paket Emerald Bimbingan Skripsi Online",
             },
         ];
 
