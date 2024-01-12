@@ -256,7 +256,7 @@
                     </h4>
                     <div class="icon">
                     </div>
-                    <img src="assets/img/bg/gmb1.png" alt="Deskripsi Gambar" width="190px" style="margin-top: -5px; ">
+                    <img src="assets/img/bg/gmb1.png" alt="Deskripsi Gambar" width="100px" style="margin-top: -10px; ">
                     {{-- <img src="assets/img/bg/gmb1.png"
                             alt="Deskripsi Gambar"style=" margin-top: -140px; margin-left:-10px;"> --}}
                 </div>
