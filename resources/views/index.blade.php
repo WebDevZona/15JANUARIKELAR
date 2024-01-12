@@ -879,7 +879,7 @@
                             </defs>
                         </svg>
                     </span>
-                    <hr style="border: 1px solid rgba(0, 0, 0, 0.48);margin-top:10px;margin-bottom:10px;">
+                    <hr style="border: 1px solid rgba(0, 0, 0, 0.48); margin-top:-50px;">
 
 
                     <h4 style="margin-bottom: 20px">Tips Menarik</h4>
