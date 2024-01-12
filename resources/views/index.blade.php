@@ -693,7 +693,7 @@
                         </div>
                         <div class="video-description">
                             <p>Dapatkan Materi Menarik Lainnya</p>
-                            <a href="/pembelian/bso" class="join-button">Daftar Sekarang</a>
+                            <a href="register" class="join-button">Daftar Sekarang</a>
                         </div>
                     </div>
                     <!-- Right image -->
@@ -721,9 +721,10 @@
                                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
                                 text-align: left;">
                             WORKSHOP CLASS PROGRAM</h3>
-                        <div class="content-selector  mb-4" style="margin-top:10px;">
-                            <button id="content1Btn" class="btn btn-primary active"><b>Skripsi</b></button>
-                            <button id="content2Btn" class="btn btn-primary"><b>KTI</b></button>
+                        <!-- style="border-radius: 25px; border: 5px solid #1b5cc5;" -->
+                        <div class="content-selector" style="border-radius: 50px; border: 2.5px solid #000; width: 220px; height: 60px;">
+                            <button id="content1Btn" class="btn btn-primary active" style="margin-top: 5px; margin-left:-2px;"><b>Skripsi</b></button>
+                            <button id="content2Btn" style="margin-top: 5px; margin-right:-2px;" class="btn btn-primary"><b>KTI</b></button>
                         </div>
                         <p style="font-size: 18px; text-align: left;">
                             Workshop yang bertujuan untuk mendalami materi penyusunan skripsi dengan
@@ -750,8 +751,9 @@
                             </li>
                         </ul>
                         <div class="d-flex justify-content-center">
-                            <button type="button" class="btn btn-primary btn-get-started scrolltolo" style="margin-top:15px;margin-bottom:15px">Lihat
-                                Selengkapnya</button>
+                            <button type="button" class="btn btn-primary btn-get-started scrolltolo" style="margin-top:15px;margin-bottom:15px">
+                                <a href="skripsi" style="color: white;">Lihat Selengkapnya</a>
+                            </button>
                         </div>
                     </div>
 
@@ -778,9 +780,9 @@
                              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
                              text-align: left;">
                             WORKSHOP CLASS PROGRAM</h3>
-                        <div class="content-selector  mb-4" style="margin-top:10px;">
-                            <button id="content3Btn" class="btn btn-primary active"><b>Skripsi</b></button>
-                            <button id="content4Btn" class="btn btn-primary"><b>KTI</b></button>
+                        <div class="content-selector" style="border-radius: 50px; border: 2.5px solid #000; width: 220px; height: 60px;">
+                            <button id="content3Btn" class="btn btn-primary active" style="margin-top: 5px; margin-left:-2px;"><b>Skripsi</b></button>
+                            <button id="content4Btn" class="btn btn-primary" style="margin-top: 5px; margin-right:-2px;"><b>KTI</b></button>
                         </div>
                         <p style="font-size: 18px; text-align: left;">
                             Workshop yang bertujuan untuk mendalami materi penyusunan serta pembuatan Karya Tulis Ilmiah
@@ -807,8 +809,9 @@
                             </li>
                         </ul>
                         <div class="d-flex justify-content-center">
-                            <button type="button" class="btn btn-primary btn-get-started scrolltolo" style="margin-top:15px;margin-bottom:15px">Lihat
-                                Selengkapnya</button>
+                            <button type="button" class="btn btn-primary btn-get-started scrolltolo" style="margin-top:15px;margin-bottom:15px">
+                                <a href="kti" style="color: white;">Lihat Selengkapnya</a>
+                            </button>
                         </div>
                     </div>
                     <div class="gambareo col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100" style="margin-top: 10px;">
@@ -896,7 +899,7 @@
                         <!-- Add more content here -->
                     </div>
 
-                    <span class="left-scroll-button1" onclick="scrollLeft1()">
+                    <span class="left-scroll-button1" onclick="scrollLeft1()" style="margin-top: 50px;">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-left: 5px;" viewBox="0 0 40" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
@@ -906,7 +909,7 @@
                             <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
                         </svg>
                     </span>
-                    <span class="right-scroll-button1" onclick="scrollRight1()">
+                    <span class="right-scroll-button1" onclick="scrollRight1()" style="margin-top: 50px;">
                         <!-- Add right-scroll icon here -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-right: -42px;" viewBox="0 0 40" fill="none">
                             <g filter="url(#filter0_b_229_15)">
@@ -928,15 +931,10 @@
                     {{-- </div> --}}
                 </div>
 
-
-                <div class="right_coloum floatright">
+                <div class="right_coloum floatright mt-4" style="margin-top: 10px;">
                     <div class="single_cat_right_content">
                         @if($berita->isNotEmpty())
-                        @foreach($berita->sortByDesc('created_at')->take(5) as $item)
-                        <div class="right_image">
-                            <img src="{{ asset('foto_upload/' . $item->foto) }}" alt="Youtube Thumbnail" style="width: 195px; height: auto;" />
-                        </div>
-                        <br>
+                        @foreach($berita->sortByDesc('created_at')->take(3) as $item)
                         <div class="left_content">
                             <h3>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none" style="float: left; margin-right: 5px; width: 14px; height: 19px;">
@@ -946,13 +944,17 @@
                                     {{ $item->sumber }}
                                 </a>
                             </h3>
+
                             <p>
                                 <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
-                                    <a href="{{ asset( $item->tampilan) }}" style="text-decoration: none; color: inherit;">
+                                    <img src="{{ asset('foto_upload/' . $item->foto) }}" alt="Youtube Thumbnail" style="vertical-align: middle;width: 195px; height: auto; margin-right:-50px;" />
+                                    <a href="{{ asset($item->tampilan) }}" style="text-decoration: none; color: black; margin-top:5px; display: inline-block; text-align: left;width: 195px; ">
                                         {{ $item->judul }}
                                     </a>
+
                                 </strong>
                             </p>
+
                             <p class="single_cat_right_content_meta" style="color: #696969; font-family: Manrope; font-style: normal; line-height: normal;">
                                 {{ $item->waktu }}
                             </p>
@@ -965,7 +967,6 @@
     </section>
 
     <section id="testimonials" class="testimonials" style="margin-top: -100px;  margin-bottom:60px;  background: url(assets/img/bg/bgmentor.png);background-size: cover;">
-
         <div class="section-title">
             <h3 style="margin-top: 10px;">Mentor Profesional Class Program</h3>
         </div>
@@ -1021,9 +1022,9 @@
 
                         <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt">
                             <div style="display: inline-block; position: relative; margin-left: 450px; margin-top: -800px;">
-                                <div class="yt">
-                                    <div style="margin-top:20px; width: 80px; height: 80px; border-radius: 50%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
-                                    <i style="margin-top:20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;" class="bx bxl-youtube"></i>
+                                <div class="yt" style="text-align: center;">
+                                    <div style="margin-top:20px; width: 80px; height: 80px; margin-left: 35px;  border-radius: 50%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+                                    <i style="text-align: center; margin-top:20px; position: absolute; top: 35%;  margin-left: 35px; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;" class="bx bxl-youtube"></i>
                                 </div>
                             </div>
                         </a>

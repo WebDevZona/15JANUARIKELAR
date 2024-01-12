@@ -2,6 +2,7 @@
     @yield('footer')
 </main>
 
+
 <footer id="footer">
 
     <!-- <div class="footer-newsletter">
