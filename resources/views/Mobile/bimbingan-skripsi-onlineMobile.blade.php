@@ -466,7 +466,7 @@
                         </style>
                         <ul class="nav nav-pills card-header-pills" id="buttonGroup" style="font-size: 10px">
                             <li class="nav-item" style="border-radius:50%; ">
-                                <button style="border-radius: 50px" class="nav-link color-white2">
+                                <button style="border-radius: 50px" class="nav-link color-white2"
                                     onclick="showContent('content1')"><b>PAKET SILVER</b></button>
                             </li>
                             <li class="nav-item">
@@ -527,26 +527,26 @@
                             style="margin-bottom: 20px; float: left;  margin-left: -10px !important; height: auto; padding-left:30px;"
                             src="assets/img/bg/kotakk.png" alt="">
                         <div
-                            style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: black; font-size: 28px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                            Dikhususkan kepada Sobat Insans yang sedang <br>membutuhkan bimbingan dalam pembuatan dan
+                            style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 50px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                            Dikhususkan kepada Sobat Insans yang sedang membutuhkan<br> bimbingan dalam pembuatan<br> dan
                             penyusunan judul skripsi
                         </div>
 
                         <div style="display: flex; align-items: center;">
                             <i class="fas fa-circle-check"
-                                style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                style="  color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                                style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                Sobat Insans dapat membawa objek permasalahan dan Mentor akan <br>membimbing dalam
+                                style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam
                                 merumuskan judul skripsi
                             </div>
                         </div>
 
                         <div style="display: flex; align-items: center;">
                             <i class="fas fa-circle-check"
-                                style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                style=" color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                                style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans akan dibantu dalam menemukan masalah untuk judul <br> skripsi yang akan dibuat
                             </div>
                         </div>
@@ -555,28 +555,28 @@
                     {{-- Gold --}}
                     <div id="content2" class="content">
                         <img class="ml-5"
-                            style="margin-bottom: 20px; float: left; width: 400px; margin-left: 100px; height: auto; padding-left:30px;"
+                            style="margin-bottom: 20px; float: left;  margin-left: -10px !important;  padding-left:30px;"
                             src="assets/img/bg/kotakk.png" alt="">
                         <div
-                            style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: black; font-size: 28px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                            style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 50px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                             Dikhususkan kepada Sobat Insans yang sedang <br> membutuhkan bimbingan menuju seminar
                             <br>proposal (sempro) atau bimbingan bab 1-3
                         </div>
 
                         <div style="display: flex; align-items: center;">
                             <i class="fas fa-circle-check"
-                                style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                                style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-top: 15px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans akan dibantu dalam memahami proses penyusunan<br> proposal penelitian skripsi
                             </div>
                         </div>
 
                         <div style="display: flex; align-items: center;">
                             <i class="fas fa-circle-check"
-                                style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                                style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans akan diberikan berbagai materi dasar seputar proposal<br> skripsi oleh mentor
                                 untuk memudahkan proses penyusunan </div>
                         </div>
@@ -690,9 +690,9 @@
                 <div class="container" style="margin-top:200px;" data-aos="fade-up">
                     <div style="width: 100%; text-align: center;">
                         <div
-                            style="width: 180px; height: 40px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
+                            style="width: 150px; height: 40px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
                             <div
-                                style="width: 424px; text-align: center; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">
+                                style="width: 424px; text-align: center; color: white;  font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">
                                 Paket Hemat</div>
                         </div>
                     </div>
@@ -700,9 +700,9 @@
 
                     <div>
                         <!-- <h3 class="bsa" style="color:white;">Bimbingan Skripsi Online (BSO)</h3> -->
-                        <h3 style="color:white; font-size: 50px; text-align:center; margin-top:20px;">Bimbingan Skripsi
+                        <h3 style="color:white; font-size: 25px; text-align:center; margin-top:20px;">Bimbingan Skripsi
                             Online (BSO)</h3>
-                        <h4 style="margin-bottom: 80px; text-align: center; color:white;">Memiliki lima jenis paket hemat
+                        <h4 style="margin-bottom: 80px; text-align: center; color:white;     font-size: 15px;">Memiliki lima jenis paket hemat
                             dengan rincian dan biaya sebagai berikut:</h4>
                     </div>
 
@@ -763,251 +763,13 @@
                                             </div>
                                         </div>
 
-                                        {{-- Paket Gold --}}
-                                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="custom-box" style="height: 550px; border-radius: 15px;">
-                                                <h4 class="custom-package"
-                                                    style="color: #FFF;
-                                                font-family: Montserrat;
-                                                font-size: 18px;
-                                                font-style: normal;
-                                                font-weight: 700;
-                                                line-height: 125%; /* 40px */
-                                                ">
-                                                    PAKET GOLD</h4>
-                                                <div class="rupiah-display" style="position: relative;">
-                                                    <h4
-                                                        style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                                        <strong class="rp" style="margin-left: 10px;">Rp</strong>
-                                                    </h4>
-                                                    <h4 style="color: #1E1E1E">450.000</h4>
-                                                </div>
-                                                <div class="custom-pricee" style="margin-right: 115px;"><strong>2
-                                                        Bulan</strong></div>
-                                                <hr style=" border: 2px solid #000; border-width: 1px;">
-                                                <ul>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Bimbingan intensif pembuatan <br> bab
-                                                            1-3</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Bimbingan dalam pembuatan outline</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso">Bimbingan metode penelitian</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso">Waktu bimbingan 24x pertemuan</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso">Durasi bimbingan per pertemuan <br> minimal
-                                                            2 jam maksimal 4 jam.</span>
-                                                    </li>
-                                                </ul>
-                                                <div class="custom-btn-wrap" style="margin-top:-2%">
-                                                    <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        {{-- Platinum --}}
-                                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="custom-box" style="height: 550px; border-radius: 15px;">
-                                                <h4 class="custom-package"
-                                                    style="color: #FFF;
-                                                font-family: Montserrat;
-                                                font-size: 18px;
-                                                font-style: normal;
-                                                font-weight: 700;
-                                                line-height: 125%; /* 40px */
-                                                ">
-                                                    PAKET PLATINUM</h4>
-                                                <div class="rupiah-display" style="position: relative;">
-                                                    <h4
-                                                        style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                                        <strong class="rp" style="margin-left: 10px;">Rp</strong>
-                                                    </h4>
-                                                    <h4 style="color: #1E1E1E">410.000</h4>
-                                                </div>
-                                                <div class="custom-pricee" style="margin-right: 115px;"><strong>2
-                                                        Bulan</strong></div>
-                                                <hr style=" border: 2px solid #000; border-width: 1px;">
-                                                <ul>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Bimbingan intensif pembuatan <br> bab 4
-                                                            sampai selesai</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Bimbingan hasil dan pembahasan <br>
-                                                            penelitian</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso">Bimbingan pembuatan abstrak</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso">Waktu bimbingan 24x pertemuan</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso">Durasi bimbingan per pertemuan <br> minimal
-                                                            2 jam maksimal 4 jam</span>
-                                                    </li>
-                                                </ul>
-                                                <div class="custom-btn-wrap" style="margin-top:-5%">
-                                                    <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="carousel-item">
-                                <div class="container">
-                                    <div class="row">
-                                        {{-- PAKET DIAMOND --}}
-                                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="custom-box" style="height: 640px; border-radius: 15px;">
-                                                <h4 class="custom-package"
-                                                    style="color: #FFF;
-                                                font-family: Montserrat;
-                                                font-size: 18px;
-                                                font-style: normal;
-                                                font-weight: 700;
-                                                line-height: 125%; /* 40px */
-                                                ">
-                                                    DIAMOND</h4>
-                                                <div class="rupiah-display" style="position: relative;">
-                                                    <h4
-                                                        style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                                        <strong class="rp" style="margin-left: 10px;">Rp</strong>
-                                                    </h4>
-                                                    <h4 style="color: #1E1E1E">200.000</h4>
-                                                </div>
-                                                <div class="custom-pricee" style="margin-right: 120px;"><strong>14
-                                                        Hari</strong></div>
-                                                <hr style=" border: 2px solid #000; border-width: 1px;">
-                                                <ul>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Bimbingan intensif pembuatan <br>
-                                                            powerpoint proposal dan skripsi</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Bimbingan presentasi proposal <br>dan
-                                                            skripsi</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Bimbingan simulasi seminar <br> proposal
-                                                            dan skripsi</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Konsultasi proposal dan skripsi <br> yang
-                                                            telah dibuat</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso">Waktu bimbingan 7x pertemuan.</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Durasi bimbingan per pertemuan <br> minimal
-                                                            2 jam maksimal 4 jam.</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Template powerpoint</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Sertifikat</span>
-                                                    </li>
-                                                </ul>
-                                                <div class="custom-btn-wrap" style="margin-top:-15%">
-                                                    <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        {{-- PAKET COMPLATE --}}
-                                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                            <div class="custom-box" style="height: 640px; border-radius: 15px;">
-                                                <h4 class="custom-package"
-                                                    style="color: #FFF;
-                                                font-family: Montserrat;
-                                                font-size: 18px;
-                                                font-style: normal;
-                                                font-weight: 700;
-                                                line-height: 125%; /* 40px */
-                                                ">
-                                                    COMPLETE</h4>
-                                                <div class="rupiah-display" style="position: relative;">
-                                                    <h4
-                                                        style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 10px; font-size: 20px;">
-                                                        <strong class="rp" style="margin-left: 2px;">Rp</strong>
-                                                    </h4>
-                                                    <h4 style="color: #1E1E1E"> 1.010.000</h4>
-                                                </div>
-                                                <div class="custom-pricee" style="margin-right: 120px;"><strong>3
-                                                        Bulan</strong></div>
-                                                <hr style=" border: 2px solid #000; border-width: 1px;">
-                                                <ul>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso">Bimbingan intensif pembuatan judul
-                                                            skripsi</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Bimbingan intensif pembuatan <br> bab
-                                                            1-3</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Bimbingan intensif pembuatan <br> bab 4
-                                                            sampai selesai</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso">Bimbingan penyusunan ppt <br>proposal dan
-                                                            skripsi</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso">Bimbingan presentasi proposal <br>dan
-                                                            skripsi</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso">Bimbingan simulasi seminar <br>proposal dan
-                                                            sidang skripsi</span>
-                                                    </li>
-                                                    <li class="left-aligned">
-                                                        <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso">Waktu bimbingan 30x pertemuan</span>
-                                                    </li>
-                                                </ul>
-                                                <div class="custom-btn-wrap" style="margin-top:-5%">
-                                                    <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <style>
+                          
+                            {{-- <style>
                                 .carousel-control-prev,
                                 .carousel-control-next {
                                     width: 20%;
@@ -1035,7 +797,7 @@
                                 .carousel-control-next:hover {
                                     /* background: rgba(23, 162, 184, 0.8); */
                                 }
-                            </style>
+                            </style> --}}
                             <!-- Navigation arrows -->
                             <a class="carousel-control-prev" href="#packageCarousel" role="button" data-slide="prev">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="35"
@@ -1076,485 +838,16 @@
                         </div>
 
                     </div>
-                    {{-- <div class="row align-items-center justify-content-center ">
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 550px; border-radius: 15px;">
-                            <h4 class="custom-package" style="color: #FFF;
-                                font-family: Montserrat;
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 700;
-                                line-height: 125%; /* 40px */
-                                letter-spacing: -1.6px;">PAKET SILVER</h4>
-                            <div class="rupiah-display">
-                                <h4 style="color: #1E1E1E">Rp 250.000</h4>
-                            </div>
-                            <div class="custom-pricee"><strong>1 Bulan</strong></div>
-                            <hr>
-                            <ul>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan intensif pembuatan <br> judul skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan rumusan masalah</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Penentuan dasar <br> teori berdasarkan variabel</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Waktu bimbingan 12x pertemuan</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Durasi bimbingan minimal <br> 2 jam maksimal 4 jam.</span>
-                                </li>
-
-                            </ul>
-                            <div class="custom-btn-wrap" style="margin-top:5%">
-                                <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 500px; border-radius: 15px;">
-                            <h4 class="custom-package" style="color: #FFF;
-                                font-family: Montserrat;
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 700;
-                                line-height: 125%; /* 40px */
-                                letter-spacing: -1.6px;">PAKET GOLD</h4>
-                            <div class="rupiah-display">
-                                <h4 style="color: #1E1E1E">Rp 450.000</h4>
-                            </div>
-                            <div class="custom-pricee"><strong>2 Bulan</strong></div>
-                            <hr>
-                            <ul>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text">Mahasiswa semester 3 dan 4</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan intensif pembuatan <br> bab 1-3</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan intensif pembuatan <br> bab 1-3</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text">Bimbingan metode penelitian</span>
-                                </li>
-                            </ul>
-                            <div class="custom-btn-wrap" style="margin-top:20px">
-                                <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 500px; border-radius: 15px;">
-                            <h4 class="custom-package" style="color: #FFF;
-                                font-family: Montserrat;
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 700;
-                                line-height: 125%; /* 40px */
-                                letter-spacing: -1.6px;">PAKET PLATINUM</h4>
-                            <div class="rupiah-display">
-                                <h4 style="color: #1E1E1E">Rp 410.000</h4>
-                            </div>
-                            <div class="custom-pricee"><strong>2 Bulan</strong></div>
-                            <hr>
-                            <ul>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan intensif pembuatan bab 4 sampai selesai</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan intensif pembuatan bab 4 sampai selesai</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text">Bimbingan pembuatan abstrak</span>
-                                </li>
-
-                            </ul>
-                            <div class="custom-btn-wrap" style="margin-top:20%">
-                                <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 500px; border-radius: 15px;">
-                            <h4 class="custom-package" style="color: #FFF;
-                                font-family: Montserrat;
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 700;
-                                line-height: 125%; /* 40px */
-                                letter-spacing: -1.6px;">DIAMOND</h4>
-                            <div class="rupiah-display">
-                                <h4 style="color: #1E1E1E">Rp 200.000</h4>
-                            </div>
-                            <div class="custom-pricee"><strong>14 Hari</strong></div>
-                            <hr>
-                            <ul>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan intensif pembuatan <br> powerpoint proposal dan skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan presentasi proposal <br>dan skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan simulasi seminar <br> proposal dan skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Konsultasi proposal dan skripsi <br> yang telah dibuat</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text">Waktu bimbingan 7x pertemuan.</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Durasi bimbingan per pertemuan <br> minimal 2 jam maksimal 4 jam.</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Template powerpoint</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Sertifikat</span>
-                                </li>
-                            </ul>
-                            <div class="custom-btn-wrap" style="margin-top:20%">
-                                <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 500px; border-radius: 15px;">
-                            <h4 class="custom-package" style="color: #FFF;
-                                font-family: Montserrat;
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 700;
-                                line-height: 125%; /* 40px */
-                                letter-spacing: -1.6px;">COMPLETE</h4>
-                            <div class="rupiah-display">
-                                <h4 style="color: #1E1E1E">Rp 1.010.000</h4>
-                            </div>
-                            <div class="custom-pricee"><strong>3 Bulan</strong></div>
-                            <hr>
-                            <ul>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text">Bimbingan intensif pembuatan judul skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan intensif pembuatan <br> bab 1-3</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text"> Bimbingan intensif pembuatan <br> bab 4 sampai selesai</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text">Bimbingan penyusunan ppt <br>proposal dan skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text">Bimbingan presentasi proposal <br>dan skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text">Bimbingan simulasi seminar <br>proposal dan sidang skripsi</span>
-                                </li>
-                                <li class="left-aligned">
-                                    <span class="checkmark">&#10003;</span>
-                                    <span class="text">Waktu bimbingan 30x pertemuan</span>
-                                </li>
-                            </ul>
-                            <div class="custom-btn-wrap" style="margin-top:20px">
-                                <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
-                            </div>
-                        </div>
-                    </div>
+                   
 
 
-                    <div class="arrow-buttons-wrapper" id="scrollContainer">
-                        <span class="left-scroll-buttonbso" onclick="scrollLeft()">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px; margin-top: 50px;" viewBox="0 0 35" fill="none">
-                                <g filter="url(#filter0_b_229_15)">
-                                    <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
-                                    <!-- Mengubah path panah ke kiri -->
-                                    <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="white" />
-                                </g>
-                                <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
-                            </svg>
-                        </span>
-
-                        <span class="right-scroll-buttonbso" onclick="scrollRight()">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -30px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
-                                <g filter="url(#filter0_b_229_15)">
-                                    <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
-                                    <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
-                                </g>
-                                <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="none" stroke="white" stroke-width="3" />
-                                <defs>
-                                    <filter id="filter0_b_229_15" x="-5" y="-5" width="63" height="63" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="2" result="BackgroundImageFix" />
-                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.5" />
-                                        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_229_15" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_229_15" result="shape" />
-                                    </filter>
-                                </defs>
-                            </svg>
-                        </span>
-                    </div>
-
-                    <script>
-                        function scrollLeft() {
-                            const scrollContainer = document.getElementById('scrollContainer');
-                            scrollContainer.scrollBy({
-                                left: -200,  // Adjust the value based on your content width
-                                behavior: 'smooth'
-                            });
-                        }
-
-                        function scrollRight() {
-                            const scrollContainer = document.getElementById('scrollContainer');
-                            scrollContainer.scrollBy({
-                                left: 200,   // Adjust the value based on your content width
-                                behavior: 'smooth'
-                            });
-                        }
-                    </script>
-
-
-                </div> --}}
+                </div>
                 </div>
             </section>
 
 
             {{-- OKOKOKOKOKOKOK --}}
 
-            {{--
-            <section id="featured-services" class="featured-services">
-                <div class="container" data-aos="fade-up">
-                    <div class="text-center mt-4 mb-4 ">
-                        <a href="#" class="btn btn-primary change-content" data-target="all">Semua Paket</a>
-                        <a href="#" class="btn btn-primary change-content" data-target="ktk">Paket Silver</a>
-                        <a href="#" class="btn btn-primary change-content" data-target="bso">Paket Gold</a>
-                        <a href="#" class="btn btn-primary change-content" data-target="kpk">Paket Platinum</a>
-                        <a href="#" class="btn btn-primary change-content" data-target="kpi">Paket Diamond</a>
-                    </div>
-
-                    <div class="content" id="all-content">
-                        <div class="row">
-                            <!-- Paket Silver -->
-                            <div class="col-md-6 col-lg-3 mb-4">
-                                <div class="card" data-aos="fade-up" data-aos-delay="100">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="#">Paket Silver</a>
-                                        </h4>
-                                        <p class="card-text">Dikhususkan kepada Sobat Insans yang sedang membutuhkan
-                                            bimbingan dalam pembuatan dan penyusunan judul skripsi.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Paket Gold -->
-                            <div class="col-md-6 col-lg-3 mb-4">
-                                <div class="card" data-aos="fade-up" data-aos-delay="300">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="#">Paket Gold</a></h4>
-                                        <p class="card-text">Dikhususkan kepada Sobat Insans yang sedang membutuhkan
-                                            bimbingan menuju Seminar Proposal (Sempro) atau bimbingan bab 1-3.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Paket Platinum -->
-                            <div class="col-md-6 col-lg-3 mb-4">
-                                <div class="card" data-aos="fade-up" data-aos-delay="400">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="#">Paket Platinum</a></h4>
-                                        <p class="card-text">Dikhususkan kepada Sobat Insans yang sedang membutuhkan
-                                            bimbingan menuju sidang skripsi atau bimbingan bab 4 hingga selesai.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Paket Diamond -->
-                            <div class="col-md-6 col-lg-3 mb-4">
-                                <div class="card" data-aos="fade-up" data-aos-delay="500">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="#">Paket Diamond</a></h4>
-                                        <p class="card-text">Dikhususkan kepada Sobat Insans yang sedang membutuhkan
-                                            bimbingan Simulasi Seminar Proposal dan Sidang Skripsi.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Content for Paket Silver -->
-                    <div class="content" id="ktk-content" style="display: none;">
-                        <div class="row">
-                            <div class="col-md-9 col-lg-6 mb-5">
-                                <div class="card" data-aos="fade-up" data-aos-delay="100">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="#">Paket Silver</a></h4>
-                                        <p class="card-text">Dikhususkan kepada Sobat Insans yang sedang membutuhkan
-                                            bimbingan dalam pembuatan dan penyusunan judul skripsi.</p>
-                                        <br>
-                                        <ul>
-                                            <li class="left-aligned">
-                                                <span class="checkmark">&#10003;</span>
-                                                <span class="feature-text">Sobat Insans dapat membawa objek permasalahan
-                                                    dan Mentor akan membimbing dalam merumuskan judul skripsi.</span>
-                                            </li>
-                                            <li class="left-aligned">
-                                                <span class="checkmark">&#10003;</span>
-                                                <span class="feature-text">Sobat Insans akan dibantu dalam menemukan
-                                                    masalah untuk judul skripsi yang akan dibuat.</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Content for Paket Gold -->
-                    <div class="content" id="bso-content" style="display: none;">
-                        <div class="row">
-                            <div class="col-md-9 col-lg-6 mb-5">
-                                <div class="card" data-aos="fade-up" data-aos-delay="300">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="#">Paket Gold</a></h4>
-                                        <p class="card-text">Dikhususkan kepada Sobat Insans yang sedang membutuhkan
-                                            bimbingan menuju Seminar Proposal (Sempro) atau bimbingan bab 1-3.</p>
-                                        <br>
-                                        <ul>
-                                            <li class="left-aligned">
-                                                <span class="checkmark">&#10003;</span>
-                                                <span class="feature-text">Sobat Insans akan dibantu dalam memahami proses
-                                                    penyusunan proposal penelitian skripsi.</span>
-                                            </li>
-                                            <li class="left-aligned">
-                                                <span class="checkmark">&#10003;</span>
-                                                <span class="feature-text">Sobat Insans akan diberikan berbagai materi
-                                                    dasar seputar proposal skripsi oleh mentor untuk memudahkan proses
-                                                    penyusunan.</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Content for Paket Platinum -->
-                    <div class="content" id="kpk-content" style="display: none;">
-                        <div class="row">
-                            <div class="col-md-9 col-lg-6 mb-5">
-                                <div class="card" data-aos="fade-up" data-aos-delay="300">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="#">Paket Platinum</a></h4>
-                                        <p class="card-text">Dikhususkan kepada Sobat Insans yang sedang membutuhkan
-                                            bimbingan menuju sidang skripsi atau bimbingan bab 4 hingga selesai.</p>
-                                        <br>
-                                        <ul>
-                                            <li class="left-aligned">
-                                                <span class="checkmark">&#10003;</span>
-                                                <span class="feature-text">Sobat Insans akan dibantu dalam memahami proses
-                                                    penyusunan hasil dan pembahasan penelitian skripsi.</span>
-                                            </li>
-                                            <li class="left-aligned">
-                                                <span class="checkmark">&#10003;</span>
-                                                <span class="feature-text">Sobat Insans akan diberikan berbagai materi
-                                                    dasar seputar menganalisis penelitian skripsi oleh mentor untuk
-                                                    memudahkan proses penyusunan.</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Content for Paket Diamond -->
-                    <div class="content" id="kpi-content" style="display: none;">
-                        <div class="row">
-                            <div class="col-md-9 col-lg-6 mb-5">
-                                <div class="card" data-aos="fade-up" data-aos-delay="400">
-                                    <div class="card-body">
-                                        <h4 class="card-title"><a href="#">Paket Diamond</a></h4>
-                                        <p class="card-text">Dikhususkan kepada Sobat Insans yang sedang membutuhkan
-                                            bimbingan Simulasi Seminar Proposal dan Sidang Skripsi.</p>
-                                        <br>
-                                        <ul>
-                                            <li class="left-aligned">
-                                                <span class="checkmark">&#10003;</span>
-                                                <span class="feature-text">Sobat Insans akan dibimbing dalam pembuatan dan
-                                                    cara mempresentasikan powerpoint seminar proposal dan sidang
-                                                    skripsi.</span>
-                                            </li>
-                                            <li class="left-aligned">
-                                                <span class="checkmark">&#10003;</span>
-                                                <span class="feature-text">Sobat Insans akan dibimbing dalam simulasi
-                                                    seminar proposal dan sidang skripsi.</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <script>
-                    const changeContentButtons = document.querySelectorAll('.change-content');
-                    const contentContainers = document.querySelectorAll('.content');
-
-                    contentContainers.forEach(container => {
-                        container.style.display = 'none';
-                    });
-
-                    document.getElementById('all-content').style.display = 'block';
-
-                    changeContentButtons.forEach(button => {
-                        button.addEventListener('click', function(event) {
-                            event.preventDefault();
-                            const target = this.getAttribute('data-target');
-
-                            contentContainers.forEach(container => {
-                                container.style.display = 'none';
-                            });
-
-                            const contentContainer = document.getElementById(`${target}-content`);
-                            if (contentContainer) {
-                                contentContainer.style.display = 'block';
-                            }
-                        });
-                    });
-                </script>
-            </section> --}}
 
 
             <section id="paketmentorr" class="paketmentor" style="background-color: white; ">
@@ -1582,18 +875,18 @@
                     <div
                         style="margin-top: -300px; display: flex; justify-content: center; align-items: center; height: 100vh;">
                         <div
-                            style="width: 420px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; display: flex; flex-direction: column; align-items: center; gap: 10px;">
+                            style="width: 350px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; display: flex; flex-direction: column; align-items: center; gap: 10px;">
                             <div
-                                style="color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word;">
+                                style="color: white;  font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word;">
                                 BIMBINGAN SKRIPSI ONLINE (BSO)</div>
                         </div>
                     </div>
-                    <p
+                    {{-- <p
                         style="margin-top: -280px; width: 100%; text-align: center; color: black; font-size: 40px; font-family: Montserrat; font-weight: 700;">
-                        Konsultasi Reguler yang tersedia<br />di Bimbingan Skripsi Online (BSO)</p>
+                        Konsultasi Reguler yang tersedia<br />di Bimbingan Skripsi Online (BSO)</p> --}}
 
                     <!-- test1 -->
-                    <div style="margin-top: 100px; margin-left: -50px; width: 100%; height: 100%; position: relative">
+                    <div style="margin-top:-200px;  height: 100%; position: relative">
                         <div style="width: 100px;  left: 0px; top: 0px; position: absolute">
                             <div
                                 style="width: 30px; height: 30px; left: 30px; top: 8px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #09326F; border-radius: 9999px">
@@ -1905,15 +1198,15 @@
                 <div class="paketmentorbg mb-5" style="margin-top: 300px;">
                     <div style="width: 100%; text-align: center;">
                         <div
-                            style="width: 300px; height: 40px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
+                            style="width: 300px; height: 40px;  background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
                             <div
-                                style="width: 424px; text-align: center; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">
+                                style="width: 350px; text-align: center; color: white;  font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">
                                 KONSULTASI REGULER</div>
                         </div>
                     </div>
 
                     <h4
-                        style=" font-family: Montserrat; text-align: center; font-size: 50px; margin-top: 30px; color:#000; font-weight:bold;">
+                        style=" font-family: Montserrat; text-align: center; font-size: 25px; margin-top: 30px; color:#000; font-weight:bold;">
                         Konsultasi Reguler</h4>
                     <h4 style=" font-family: Montserrat; text-align: center; color:#000;">Memiliki delapan jenis konsultasi
                         reguler dengan rincian dan biaya sebagai berikut:</h4>
@@ -2596,25 +1889,6 @@
                 </div>
             </section>
 
-                            {{-- <section id="testimonials" class="testimonials"style="margin-top:-100px ;margin-bottom:30px;">
-                    <div class="section-title">
-                        <h3 style="margin-top: 80px;">Mentor Profesional Class Program</h3>
-                    </div>
-                    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="centered-content">
-                                    <img src="assets/img/testimonials/sobat1.png" width="300px" height="auto"  class="img-fluid" alt="">
-                                </div>
-                                <div class="centered-content">
-                                    <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-                </section> --}}
 
             <section id="testibaru" class="testibaru section-bg" style="margin-bottom:15px;">
                 <div class="profile-container" style="position: absolute; ">
@@ -2633,15 +1907,15 @@
                                 <div class="profile-info" style="height: 300px;">
                                     <div style="text-align:center;  margin-top: 50px;">
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                     </div>
                                     <p style="margin-top:30px; margin-bottom: 50px; text-align:center;">“Alhamdulillah
                                         saya sangat-sangat puas konsultasi di BSO Class Program. Arahan Mentor dan Kak Dewi
@@ -2664,15 +1938,15 @@
                                 <div class="profile-info" style="height: 300px;">
                                     <div style="text-align:center;  margin-top: 50px;">
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                     </div>
                                     <p style="margin-top:30px; margin-bottom: 50px;text-align:center;">“Ikut BSO ternyata
                                         sangat menginspirasi dan insightful. Mentor sangat responsif, memberikan panduan dan
@@ -2695,15 +1969,15 @@
                                 <div class="profile-info" style="height: 300px;">
                                     <div style="text-align:center;  margin-top: 50px;">
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                     </div>
                                     <p style="margin-top:30px; margin-bottom: 50px; text-align:center;">“Saya merasa puas
                                         dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya selalu
@@ -2726,15 +2000,15 @@
                                 <div class="profile-info" style="height: 300px;">
                                     <div style="text-align:center;  margin-top: 50px;">
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                     </div>
                                     <p style="margin-top:30px; margin-bottom: 50px; text-align:center;">“Halo Kak Dewi.
                                         Saya rutin ikut bimbingan, seminggu 3 kali. Dalam proses bimbingan, jujur saya
@@ -2757,15 +2031,15 @@
                                 <div class="profile-info" style="height: 300px;">
                                     <div style="text-align:center;  margin-top: 50px;">
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
-                                            style="color: #f1d209; font-size: 30px !important;"></i>
+                                            style="color: #f1d209; font-size: 12px !important;"></i>
                                     </div>
                                     <p style="margin-top:30px; margin-bottom: 50px; text-align:center;">“Saya puas dengan
                                         bimbingannya kak. Awalnya saya tidak mengerti tahapan skripsi, ketika mulai
