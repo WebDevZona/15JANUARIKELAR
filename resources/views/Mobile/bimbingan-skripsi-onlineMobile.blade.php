@@ -196,7 +196,7 @@
                                 <!-- <h2>About</h2> -->
                                 <span class="garis">
                                     <h3
-                                        style="margin-top: 130px; text-align: left; font-size: 20px; color: #000;
+                                        style="margin-top: 130px; text-align: left; font-size: 45px; color: #000;
                                     font-family: Montserrat; width:auto;">
                                         Keunggulan <br>
                                         Bimbingan Skripsi <br> Online (BSO)</h3>
