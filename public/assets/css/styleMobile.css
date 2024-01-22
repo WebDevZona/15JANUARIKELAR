@@ -857,6 +857,7 @@ line-height: 31.4px; */
     /* align-items: center; */
     margin-top: 20px;
     color: #fff;
+    width: auto;
 }
 
 #hero .container .inijudulbso h3 {
@@ -5291,7 +5292,7 @@ justify-content: center; */
 iframe {
     border-radius: 5px;
     position: absolute;
-    margin-left: 20px;
+    margin-left: 11px;
     top: 10px;
     left: 0;
     width: 93%;
@@ -5324,7 +5325,7 @@ iframe {
     margin-top: 60px;
     color: #f7f7f7;
     font-family: "Manrope";
-    font-size: 20.928px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -5342,7 +5343,7 @@ iframe {
     color: #100f0f;
     border-radius: 33.5px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 8px;
     align-self: flex-end;
     margin-bottom: -11px;
     grid-column: 2;
@@ -6916,20 +6917,20 @@ align-items: flex-start;
         #fd5c2e 99.99%,
         rgba(0, 0, 0, 0) 100%
     );
-    width: 1000px;
+    width: 300px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    margin-right: 20px;
+    /* padding: 20px;
+    margin-right: 20px; */
     transition: transform 0.5s ease;
     min-height: 280px;
     color: #fff;
     font-family: Manrope;
-    font-size: 38px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    height: 200px;
 }
 
 .button-container {
@@ -7784,7 +7785,7 @@ button {
 @media only screen and (max-width: 500px) {
     #topbar {
         display: grid !important;
-        background: black;
+        background: white;
         height: 60px;
         font-size: 14px;
         transition: all 0.5s;

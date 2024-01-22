@@ -34,6 +34,16 @@
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
+
+    <!-- Tambahkan stylesheet untuk Slick -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+<!-- Tambahkan script untuk jQuery (diperlukan oleh Slick) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Tambahkan script untuk Slick -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 @extends('layout.header')
 @section('content')
@@ -98,7 +108,7 @@
                             </div>
                         </div>
 
-                        <div class="count-separator" style="margin-left:20px"></div>
+                        {{-- <div class="count-separator" style="margin-left:20px"></div>
                         <div class="count-box">
                             <div class="left-content">
                                 <span style="font-family: Manrope; "><b>27</b></span><span style="font-family: Manrope; font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
@@ -125,7 +135,7 @@
                             <div class="right-content" style="margin-left:-1px">
                                 <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;"><b>Total program <br> yang tersedia</b></p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -139,11 +149,11 @@
         <div class="container" data-aos="fade-up" style="">
             <div class="section-title judul">
             </div>
-            <div class="row justify-content-center">
+            <div class="row-1 justify-content-center">
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="background: url(assets/img/bg/bg4.png);background-size: cover;">
                     <div class="labels" style="margin-left:-20px">
                         <span class="icon">
-                            <img src="assets/img/bg/ico4.png" alt="Deskripsi Gambar" style="margin-top:-5px; width:30px;position:absolute;margin-left:-10px">
+                            <img src="assets/img/bg/ico4.png" alt="Deskripsi Gambar" style="margin-top:-5px; width:px;position:absolute;margin-left:-10px">
                         </span>
 
                         <span class="label-text" style="color: #FFF;
@@ -288,6 +298,18 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript">
+            $(document).ready(function(){
+               $('.row-1').slick({
+                  infinite: true,  // Bergulir tak terbatas
+                  slidesToShow: 1, // Menunjukkan satu slide pada suatu waktu
+                  slidesToScroll: 1, // Bergeser satu slide pada suatu waktu
+                  autoplay: true, // Mulai geser otomatis
+                  autoplaySpeed: 2000, // Kecepatan geser (dalam milidetik)
+               });
+            });
+         </script>
+         
     </section>
 
     <!-- ======= PAKET POPULER UNTUK MAHASISWA ======= -->
@@ -677,8 +699,8 @@
         <div class="section-title judul">
             <h3>Coba GRATIS <br> Kelas Tugas Kuliah (KTK) sekarang juga! <span style=""><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:-10px;margin-right:5px"></span></h3>
         </div>
-        <img src="assets/img/bg/yt2.png" alt="Left Image" class="left-image">
-        <img src="assets/img/bg/yt3.png" alt="Right Image" class="right-image">
+        {{-- <img src="assets/img/bg/yt2.png" alt="Left Image" class="left-image">
+        <img src="assets/img/bg/yt3.png" alt="Right Image" class="right-image"> --}}
         <div class="container" data-aos="fade-up" style="margin-top: 30px;">
             <div class="row skills-content">
                 <div class="col-md-7 mx-auto">
@@ -686,7 +708,7 @@
                     <div class="video-container">
                         <div class="video-container2">
                             <div class="video-wrapper">
-                                <iframe width="2000" height="315" style="margin-top:2px; width: 94%; margin-right: -10px; border-radius: 25px;" src="https://www.youtube.com/embed/puKINTRTDZk?si=3ZqaSjYv1Yl6XsnG" title="YouTube video player" frameborder="0" allow="accelerometer;
+                                <iframe width="2000" height="315" style="border-radius: 25px;" src="https://www.youtube.com/embed/puKINTRTDZk?si=3ZqaSjYv1Yl6XsnG" title="YouTube video player" frameborder="0" allow="accelerometer;
                                      autoplay; clipboard-write; encrypted-media; gyroscope;
                                       picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
@@ -1002,7 +1024,7 @@
                 <div class="gabung">
                     <!-- Ganti dengan path gambar profil Anda -->
                     <div class="info">
-                        <h1 style=" margin-left:100px; text-align: center; color: #FFF; font-family: Poppins; font-size: 40px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">Lebih Dekat dengan Class Program</h1>
+                        <h1 style="text-align: center; color: #FFF; font-family: Poppins; font-size: 12px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">Lebih Dekat dengan Class Program</h1>
                         <!-- <div class="social-linkss" style="text-align: center; margin-left:150px; margin-top:50px;">
                             <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style=" padding: 30px;"></a>
                         </div> -->
@@ -1328,11 +1350,11 @@
                                 </a> -->
                     </div>
                 </div>
-                <div class="col-xl-5" style=" posison: absolute;">
+                {{-- <div class="col-xl-5" style=" posison: absolute;">
                     <div class="image-container" style="margin-top: -550px; posison: relative;">
                         <img src="assets/img/bg/faq2.png" alt="Deskripsi gambar" class="img-fluid-bos" style=" margin-top: -550px;  width: 400px; height: auto;">
                     </div>
-                </div>
+                </div> --}}
             </div>
 
         </div>

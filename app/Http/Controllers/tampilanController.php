@@ -54,8 +54,13 @@ class tampilanController extends Controller
     }
     public function bso()
     {
-
-        return view('bimbingan-skripsi-online');
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/bimbingan-skripsi-onlineMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('bimbingan-skripsi-online');
+        }
     }
     public function kpk()
     {
