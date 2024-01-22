@@ -15,18 +15,27 @@ use Laravel\Socialite\Facades\Socialite;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Jenssegers\Agent\Facades\Agent;
+
 
 class tampilanController extends Controller
 {
     public function index()
     {
+    // Mendapatkan data dari model
+    $youtube = Youtube::get();
+    $data = Video::get();
+    $berita = Berita::get();
 
-        // return view('index');
-        // $artikel = Artikell::get();
-        $youtube = Youtube::get();
-        $data = Video::get();
-        $berita = Berita::get();
+    // Memeriksa apakah pengguna menggunakan perangkat mobile
+    if (Agent::isMobile()) {
+        // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+        return view('mobile/indexMobile', compact('data', 'youtube', 'berita'));
+    } else {
+        // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
         return view('index', compact('data', 'youtube', 'berita'));
+    }
+
     }
     public function ktk()
     {
