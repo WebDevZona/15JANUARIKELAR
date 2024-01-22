@@ -725,12 +725,12 @@ text-align: center;
 #hero2 .container .juduldua h3 {
     color: #000;
     font-family: Montserrat;
-    font-size: 60px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 125%;
     letter-spacing: -4px;
-    margin-top: 12px;
+    /* margin-top: 12px; */
 }
 
 #hero2 .container p {
@@ -3864,6 +3864,7 @@ right: 20px;
     position: relative;
     display: flex;
     align-items: flex-start;
+    margin-left:148px;
 }
 
 .content-box:hover {
@@ -6890,7 +6891,7 @@ align-items: flex-start;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: -170px;
+    margin-top: -60px;
 }
 
 .juduldua img {

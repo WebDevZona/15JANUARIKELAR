@@ -143,6 +143,87 @@
                 <div class="container" data-aos="fade-up">
                     <div class="row align-items-center justify-content-between"
                         style="margin-left: -140px; margin-top: -80px;">
+                        <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
+                        data-aos="fade-up" data-aos-delay="100">
+                        {{-- text --}}
+                        <style>
+                            .content-box {
+                                display: flex;
+                                align-items: center;
+                                background-color: #FFF;
+                            }
+
+                            .veryikasi {
+                                margin-left: -30px;
+                                width: 30px;
+
+                            }
+
+                            .garis {
+                                margin-top: 100px;
+                                position: center;
+                            }
+                        </style>
+
+                        <div class="section-title">
+                            <!-- <h2>About</h2> -->
+                            <span class="garis">
+                                <h3
+                                    style="margin-left:100px;margin-top: 120px; text-align: center; font-size: 30px; color: #000;
+                                font-family: Montserrat; width:auto">
+                                    Keunggulan <br>
+                                    Bimbingan Skripsi <br> Online (BSO)</h3>
+                            </span>
+
+                            <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
+                        </div>
+
+                        <div class="content-box">
+                            <span class="veryikasi">
+                                <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
+                            </span>
+                            <div class="content-text">
+                                <h5 style="text-align: left; margin-left: 15px; font-size: 15px; color: #000;">
+                                    Pendampingan oleh Mentor profesional secara privat online dan intensif</h5>
+                                {{-- <p  style="text-align: left; margin-left: 15px;">Sobat Insans akan mendapatkan pendampingan oleh Mentor profesional secara privat
+                                    online dan intensif</p> --}}
+                            </div>
+                        </div>
+
+                        <div class="content-box">
+                            <span class="veryikasi">
+                                <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
+                            </span>
+                            <div class="content-text">
+                                <h5 style="text-align: left; margin-left: 15px; font-size: 15px; color: #000;">Jadwal
+                                    bimbingan fleksibel, sesuai kesepakatan Sobat Insans dan Mentor</h5>
+                                {{-- <p  style="text-align: left; margin-left: 15px;">Bimbingan Skripsi Online (BSO) Class Program disediakan untuk semua jurusan</p> --}}
+                            </div>
+                        </div>
+
+
+                        <div class="content-box">
+                            <span class="veryikasi">
+                                <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
+                            </span>
+                            <div class="content-text">
+                                <h5 style="text-align: left; margin-left: 15px; font-size: 15px; color: #000;">
+                                    Konsultasi langsung melalui Zoom Meet, Google Meet, Video Call WhatsApp dan telepon
+                                </h5>
+                                {{-- <p  style="text-align: left; margin-left: 15px;">Bimbingan Skripsi Online (BSO) Class Program disediakan untuk semua jurusan</p> --}}
+                            </div>
+                        </div>
+
+                        <div class="content-box">
+                            <span class="veryikasi">
+                                <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
+                            </span>
+                            <div class="content-text">
+                                <h5 style="text-align: left; margin-left: 15px; font-size: 15px; color: #000;">Terbuka
+                                    untuk semua jurusan</h5>
+                            </div>
+                        </div>
+                    </div>
                         <div class="col-lg-6 text-centerr">
                             <style>
                                 .row {
@@ -164,93 +245,13 @@
                                     border-radius: 100%;
                                 }
                             </style>
-                            <video width="280" height="500" controls style="margin-left: 120px; margin-top: 160px"
+                            <video width="280" height="450" controls style="margin-left: 120px; border-radius:5%; box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);"
                                 id="myVideo">
                                 <source src="assets/video/1.mp4" type="video/mp4">
                             </video>
                             {{-- <button class="play-button" onclick="togglePlay()">▶ </button> --}}
                         </div>
-                        <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
-                            data-aos="fade-up" data-aos-delay="100">
-                            {{-- text --}}
-                            <style>
-                                .content-box {
-                                    display: flex;
-                                    align-items: center;
-                                    background-color: #FFF;
-                                }
-
-                                .veryikasi {
-                                    margin-left: -30px;
-                                    width: 30px;
-
-                                }
-
-                                .garis {
-                                    margin-top: 100px;
-                                    position: center;
-                                }
-                            </style>
-
-                            <div class="section-title">
-                                <!-- <h2>About</h2> -->
-                                <span class="garis">
-                                    <h3
-                                        style="margin-top: 130px; text-align: left; font-size: 45px; color: #000;
-                                    font-family: Montserrat; width:auto;">
-                                        Keunggulan <br>
-                                        Bimbingan Skripsi <br> Online (BSO)</h3>
-                                </span>
-
-                                <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
-                            </div>
-
-                            <div class="content-box">
-                                <span class="veryikasi">
-                                    <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
-                                </span>
-                                <div class="content-text">
-                                    <h5 style="text-align: left; margin-left: 15px; font-size: 15px; color: #000;">
-                                        Pendampingan oleh Mentor profesional secara privat online dan intensif</h5>
-                                    {{-- <p  style="text-align: left; margin-left: 15px;">Sobat Insans akan mendapatkan pendampingan oleh Mentor profesional secara privat
-                                        online dan intensif</p> --}}
-                                </div>
-                            </div>
-
-                            <div class="content-box">
-                                <span class="veryikasi">
-                                    <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
-                                </span>
-                                <div class="content-text">
-                                    <h5 style="text-align: left; margin-left: 15px; font-size: 15px; color: #000;">Jadwal
-                                        bimbingan fleksibel, sesuai kesepakatan Sobat Insans dan Mentor</h5>
-                                    {{-- <p  style="text-align: left; margin-left: 15px;">Bimbingan Skripsi Online (BSO) Class Program disediakan untuk semua jurusan</p> --}}
-                                </div>
-                            </div>
-
-
-                            <div class="content-box">
-                                <span class="veryikasi">
-                                    <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
-                                </span>
-                                <div class="content-text">
-                                    <h5 style="text-align: left; margin-left: 15px; font-size: 15px; color: #000;">
-                                        Konsultasi langsung melalui Zoom Meet, Google Meet, Video Call WhatsApp dan telepon
-                                    </h5>
-                                    {{-- <p  style="text-align: left; margin-left: 15px;">Bimbingan Skripsi Online (BSO) Class Program disediakan untuk semua jurusan</p> --}}
-                                </div>
-                            </div>
-
-                            <div class="content-box">
-                                <span class="veryikasi">
-                                    <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
-                                </span>
-                                <div class="content-text">
-                                    <h5 style="text-align: left; margin-left: 15px; font-size: 15px; color: #000;">Terbuka
-                                        untuk semua jurusan</h5>
-                                </div>
-                            </div>
-                        </div>
+                       
                     </div>
             </section>
             <!-- End About Section -->
@@ -260,12 +261,12 @@
 
             <img src="assets/img/bg/elemen1.png" alt="elemen1"
                 style="width: 10%; background-size: cover; background-position: center;">
-            <section id="hero2" class="align-items-center" style="margin-top:-400px; ">
+            <section id="hero2" class="align-items-center" style="margin-top:-100px; ">
                 <h2
                     style="
                             text-align:center;
                             color: black;
-                            font-size: 50px;
+                            font-size: 30px;
                             font-family: Montserrat;
                             font-weight: 580;
                             /* font-weight: 700;
@@ -357,26 +358,28 @@
                 </div>
             </section>
             <img src="assets/img/bg/elemen2.png" alt="elemen1" style="width: 10%; float: right;">
+            <img src="assets/img/bg/Ornament_kotak.jpg" alt="gambar sebelah kiri" style="transform: rotate(91deg);     width: 20%;
+            ">
 
 
-
-            <section id="hero2" class="d-flex align-items-center" style="margin-top: -50px;">
-                <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-left: 100px;">
-                    <div class="juduldua">
+            <section id="hero2" class="d-flex align-items-center" style="margin-top: -100px" >
+                <div class="container" data-aos="zoom-out" data-aos-delay="100" >
+                    <img style="margin-left:40px;" src="assets/img/bg/bso2.png" alt="">
+                    <div class="juduldua" style="">
                         <h3>
                             <br>
                             <br>
                             <span
                                 style="color: #3E87F8; font-family: Montserrat; font-weight: 700;
-                            line-height: 125%; font-size:80px;">3297+</span>
+                            line-height: 125%; font-size:40px;">3297+</span>
                             <br>
-                            Mahasiswa <br> Lulus Bersama Kami <br>
+                            Mahasiswa Lulus<br> Bersama Kami <br>
                             <!-- <a href="#" class="custom-btn-buy">Daftar Sekarang</a> -->
                             <a href="/login" style="text-decoration: none;">
                                 <div
-                                    style="width: 300px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                                    style="width: 150px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 30px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                                     <div
-                                        style="letter-spacing: 1px; color: white; font-size: 25px; font-family: Montserrat; font-weight: 600; line-height: 37.50px; word-wrap: break-word">
+                                        style="letter-spacing: 1px; color: white; font-size: 12px; font-family: Montserrat; font-weight: 600; line-height: 37.50px; word-wrap: break-word">
                                         Pesan Sekarang
                                     </div>
                                 </div>
@@ -386,35 +389,35 @@
                             <div class="row">
                                 <div class="col">
                                     <div
-                                        style="width: 180px; margin-top: 40px; height: 100px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
+                                        style="width: 140px; margin-top: 40px; height: 90px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
                                         <div class="card-title">
                                             <img style="margin-top:15px; " src="assets/img/bg/ps1.png" alt="">
                                             <div
-                                                style="margin-top: -80px; margin-left:90px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">
+                                                style="margin-top: -60px; margin-left:80px; color: #101828; font-size: 20px; font-family: Inter; font-weight: 800; letter-spacing: 1px; word-wrap: break-word">
                                                 24+</div>
                                             <div
-                                                style="margin-top: -50px; margin-left:90px;  opacity: 0.50; color: #101828; font-size: 15px; font-family: Inter; font-weight: 400; letter-spacing: 1px; word-wrap: break-word">
+                                                style="margin-top: -35px; margin-left:70px;   opacity: 0.50; color: #101828; font-size: 15px; font-family: Inter; font-weight: 400; letter-spacing: 1px; word-wrap: break-word">
                                                 Kampus</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div
-                                        style=" margin-left:-80px; width: 180px; margin-top: 40px; height: 100px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
+                                        style=" margin-left:10px; width: 140px; margin-top: 40px; height: 90px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
                                         <div class="card-title" style="margin-top: 10px; margin-left:10px;">
                                             <img style="margin-top:15px;" src="assets/img/bg/ps2.png" alt="">
                                             <div
-                                                style="margin-top: -76px; margin-left:90px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">
+                                                style="margin-top: -55px; margin-left:75px; color: #101828; font-size: 20px; font-family: Inter; font-weight: 800; letter-spacing: 1px; word-wrap: break-word">
                                                 78+</div>
                                             <div
-                                                style="margin-top: -50px; margin-left:90px;  opacity: 0.50; color: #101828; font-size: 15px; font-family: Inter; font-weight: 400; letter-spacing: 1px; word-wrap: break-word">
+                                                style="margin-top: -35px; margin-left:68px;  opacity: 0.50; color: #101828; font-size: 15px; font-family: Inter; font-weight: 400; letter-spacing: 1px; word-wrap: break-word">
                                                 Mentor</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </h3>
-                        <img style="margin-top: 150px;" src="assets/img/bg/bso2.png" alt="">
+                        {{-- <img style="margin-top: 150px;" src="assets/img/bg/bso2.png" alt=""> --}}
                     </div>
                     {{-- <p style="font-family: Montserrat; font-size: 18px; color: #000; margin-top:-150px;">Bimbingan belajar online perkuliahan dan persiapan
                        karir  <br> dengan sistem kenaikan pertama di Indonesia
@@ -425,18 +428,18 @@
             </section>
 
 
-            <section id="pakethematbso" class="pakethematbso" style="z-index: auto">
-                <img src="assets/img/bg/Ornament_kotak.jpg" alt="gambar sebelah kiri" style="transform: rotate(91deg);">
+            <section id="pakethematbso" class="pakethematbso" style="z-index: auto; margin-top:-100px">
+                <img src="assets/img/bg/Ornament_kotak.jpg" alt="gambar sebelah kiri" style="transform: rotate(91deg); width: 20%;
+                ">
                 <h3
                     style="text-align: center; color: #000;
-                    margin-bottom: 50px;
                     font-family: Montserrat;
-                    font-size: 40px;
+                    font-size: 20px;
                     font-style: normal;
-                    margin-top: -150px;
                     font-weight: 700;
+                    margin-top:40px;
                     line-height: 125%; /* 100px */">
-                    Paket Hemat yang Tersedia di <br> Bimbingan Skripsi Online (BSO)
+                    Paket Hemat yang Tersedia di<br>Bimbingan Skripsi Online (BSO)
                 </h3>
 
                 <div class="card text-center  ml-5 mr-5 " style="border-radius: 25px;">
@@ -461,9 +464,9 @@
                                 border-radius: 50%;
                             }
                         </style>
-                        <ul class="nav nav-pills card-header-pills" id="buttonGroup">
+                        <ul class="nav nav-pills card-header-pills" id="buttonGroup" style="font-size: 10px">
                             <li class="nav-item" style="border-radius:50%; ">
-                                <button style="border-radius: 50px" class="nav-link color-white2"
+                                <button style="border-radius: 50px" class="nav-link color-white2">
                                     onclick="showContent('content1')"><b>PAKET SILVER</b></button>
                             </li>
                             <li class="nav-item">
@@ -521,7 +524,7 @@
                     {{-- Silver --}}
                     <div id="content1" class="content active">
                         <img class="ml-5"
-                            style="margin-bottom: 20px; float: left; width: 400px; margin-left: 100px; height: auto; padding-left:30px;"
+                            style="margin-bottom: 20px; float: left;  margin-left: -10px !important; height: auto; padding-left:30px;"
                             src="assets/img/bg/kotakk.png" alt="">
                         <div
                             style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: black; font-size: 28px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
