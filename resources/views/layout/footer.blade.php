@@ -79,13 +79,8 @@
         position: absolute;
                width: 1100px;
                margin-inline-start: -130px;
-<<<<<<< HEAD
-               margin-top: -30px;
-               left:-10px;
-=======
                margin-top: -100px;
                left:0;
->>>>>>> 14c2702b2f4d92bd27cf88d3b049805ea5c712e2
                height: 400px;
                display: block;
               ">
@@ -322,11 +317,7 @@
             {
                 date: currentDay,
                 month: currentMonth,
-<<<<<<< HEAD
-                text: "Sobat Insan<br><strong>Fandi </strong> <br>Mendaftar di Paket Hemat Bimbingan Skripsi Online",
-=======
                 text: "Sobat Insan<br><strong>Fandi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
->>>>>>> 14c2702b2f4d92bd27cf88d3b049805ea5c712e2
             },
             {
                 date: currentDay,
@@ -346,11 +337,7 @@
             {
                 date: currentDay,
                 month: currentMonth,
-<<<<<<< HEAD
-                text: "Sobat Insan<br><strong>Fadil</strong> <br>Mendaftar di Paket Emerald Bimbingan Skripsi Online",
-=======
                 text: "Sobat Insan<br><strong>Fadil</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
->>>>>>> 14c2702b2f4d92bd27cf88d3b049805ea5c712e2
             },
         ];
 

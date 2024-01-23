@@ -22,23 +22,6 @@ class tampilanController extends Controller
 {
     public function index()
     {
-<<<<<<< HEAD
-    // Mendapatkan data dari model
-    $youtube = Youtube::get();
-    $data = Video::get();
-    $berita = Berita::get();
-
-    // Memeriksa apakah pengguna menggunakan perangkat mobile
-    if (Agent::isMobile()) {
-        // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
-        return view('mobile/indexMobile', compact('data', 'youtube', 'berita'));
-    } else {
-        // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
-        return view('index', compact('data', 'youtube', 'berita'));
-    }
-
-    }
-=======
 
         // return view('index');
         // $artikel = Artikell::get();
@@ -47,7 +30,6 @@ class tampilanController extends Controller
         $berita = Berita::get();
         return view('index', compact('data', 'youtube', 'berita'));
     }
->>>>>>> 14c2702b2f4d92bd27cf88d3b049805ea5c712e2
     public function ktk()
     {
 
@@ -65,18 +47,8 @@ class tampilanController extends Controller
     }
     public function bso()
     {
-<<<<<<< HEAD
-        if (Agent::isMobile()) {
-            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
-            return view('mobile/bimbingan-skripsi-onlineMobile');
-        } else {
-            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
-            return view('bimbingan-skripsi-online');
-        }
-=======
 
         return view('bimbingan-skripsi-online');
->>>>>>> 14c2702b2f4d92bd27cf88d3b049805ea5c712e2
     }
     public function kpk()
     {
