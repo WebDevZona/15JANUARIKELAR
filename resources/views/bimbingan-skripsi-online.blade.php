@@ -336,7 +336,7 @@
                                 </div>
                             </div>
                             <div
-                                style="margin-left:  20px; margin-top: -5px; width: 50px; height: 5px;  background: #3E87F8">
+                                style="margin-left:  30px; margin-top: -5px; width: 50px; height: 5px;  background: #3E87F8">
                             </div>
                         </div>
                         <div class="col">
@@ -350,7 +350,7 @@
                                 </div>
                             </div>
                             <div
-                                style="margin-left:  20px; margin-top: -5px; width: 50px; height: 5px;  background: #3E87F8">
+                                style="margin-left:  30px; margin-top: -5px; width: 50px; height: 5px;  background: #3E87F8">
                             </div>
                         </div>
                     </div>
@@ -525,7 +525,7 @@
                             src="assets/img/bg/kotakk.png" alt="">
                         <div
                             style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: black; font-size: 28px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                            Dikhususkan kepada Sobat Insans yang sedang <br>membutuhkan bimbingan dalam pembuatan dan
+                            Dikhususkan kepada Sobat Insans yang sedang <br>membutuhkan bimbingan dalam pembuatan<br> dan
                             penyusunan judul skripsi
                         </div>
 
@@ -606,7 +606,7 @@
                             <div
                                 style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans akan diberikan berbagai materi dasar seputar menganalisis<br> penelitian
-                                skripsi oleh mentor untuk memudahkan proses penyusunan </div>
+                                skripsi oleh Mentor untuk memudahkan proses penyusunan </div>
                         </div>
 
                     </div>
@@ -2655,7 +2655,7 @@
                     </div>
                     <div class="profile-slider">
                         <div class="profile">
-                            <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil"
+                            <img class="pro" src="assets/img/team/team-1.jpg" alt="Gambar Profil"
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
                                 <div class="profile-info" style="height: 300px;">
@@ -2686,7 +2686,7 @@
                     </div>
                     <div class="profile-slider">
                         <div class="profile">
-                            <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil"
+                            <img class="pro" src="assets/img/team/team-4.jpg" alt="Gambar Profil"
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
                                 <div class="profile-info" style="height: 300px;">
@@ -2717,7 +2717,7 @@
                     </div>
                     <div class="profile-slider">
                         <div class="profile">
-                            <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil"
+                            <img class="pro" src="assets/img/team/team-2.jpg" alt="Gambar Profil"
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
                                 <div class="profile-info" style="height: 300px;">
@@ -3107,8 +3107,6 @@
                 <script src="script.js"></script>
             </section>
 
-
->>>>>>> 14c2702b2f4d92bd27cf88d3b049805ea5c712e2
             {{--
             WTGF
             <section id="menu" class="menu">
