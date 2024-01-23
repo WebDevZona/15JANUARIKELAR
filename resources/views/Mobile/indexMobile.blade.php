@@ -36,14 +36,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 
     <!-- Tambahkan stylesheet untuk Slick -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 
-<!-- Tambahkan script untuk jQuery (diperlukan oleh Slick) -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Tambahkan script untuk jQuery (diperlukan oleh Slick) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<!-- Tambahkan script untuk Slick -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Tambahkan script untuk Slick -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 @extends('layout.headerMobile')
 @section('content')
@@ -65,16 +65,17 @@
     </script>
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/dekstop2.png);background-size: cover; margin-top: -18px">
-        <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: 150px">
-            <div class="judulawal">
-                <a href="#about" class="btn-get-awaaal awaaal" style="font-family:'Manrope';"><strong>Bersama Class
+    <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/dekstop2.png);background-size: cover; margin-top: -50px">
+        <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: 200px">
+            <div class="judulawal" style="margin-top:-120px;">
+                <a href="#about" class="btn-get-awaaal awaaal" style="margin-top:-120px; font-family:'Manrope';"><strong>Bersama Class
                         Program</strong> </a>
             </div>
             <div class="judulkedua" style="font-family:'Manrope';">
                 <h3>Semua Bisa</h3>
                 <h3>Lulus Kuliah</h3>
-                <p style="letter-spacing:1px; font-family: Manrope; margin-top:15px; width:auto;">Bimbingan belajar online perkuliahan
+
+                <p style="letter-spacing:1px; font-family: Manrope; margin-top:15px; width:auto;">Bimbingan belajar online <br> perkuliahan
                     dan persiapan <br> karir dengan
                     sistem kenaikan<br> kelas pertama di Indonesia yang<br> menyediakan berbagai
                     macam <br> program kelas serta akan<br> dibimbing langsung oleh <br> mentor yang ahli di bidangnya</p>
@@ -88,11 +89,11 @@
                     <div class="count-boxes">
                         <div class="count-box">
                             <div class="left-content">
-                                <span style="font-family: Manrope;"><b>2979</b></span><span class="plus" style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px; font-family: Manrope; ">+</span>
+                                <span style="font-family: Manrope; margin-left: 10px;"><b>2979</b></span><span class="plus" style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px; font-family: Manrope; ">+</span>
                             </div>
                             <div class="right-content" style="margin-left:0px">
-                                {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
-                                <p style="margin-left: 0px; color: #000; font-family: Manrope;"><b style="font-family: Manrope;">Sobat Insans yang Mendaftar</b></p>
+                                {{-- <p style="margin-left:50px">Peers to network and learn with</p> --}}
+                                <p style="margin-left: 25px; color: #000; font-family: Manrope;"><b style="font-family: Manrope;">Sobat Insans <br> yang Mendaftar</b></p>
 
                             </div>
                         </div>
@@ -299,22 +300,22 @@
             </div>
         </div>
         <script type="text/javascript">
-            $(document).ready(function(){
-               $('.row-1').slick({
-                  infinite: true,  // Bergulir tak terbatas
-                  slidesToShow: 1, // Menunjukkan satu slide pada suatu waktu
-                  slidesToScroll: 1, // Bergeser satu slide pada suatu waktu
-                  autoplay: true, // Mulai geser otomatis
-                  autoplaySpeed: 2000, // Kecepatan geser (dalam milidetik)
-               });
+            $(document).ready(function() {
+                $('.row-1').slick({
+                    infinite: true, // Bergulir tak terbatas
+                    slidesToShow: 1, // Menunjukkan satu slide pada suatu waktu
+                    slidesToScroll: 1, // Bergeser satu slide pada suatu waktu
+                    autoplay: true, // Mulai geser otomatis
+                    autoplaySpeed: 2000, // Kecepatan geser (dalam milidetik)
+                });
             });
-         </script>
-         
+        </script>
+
     </section>
 
     <!-- ======= PAKET POPULER UNTUK MAHASISWA ======= -->
-    <section id="popup" class="popup" style="padding:30px 0 80px 0;">
-        <div class="button-container mb-4" style="margin-top:0px;">
+    <section id="popup" class="popup" style="padding:30px 0 80px 0; ">
+        <div class="button-container mb-4" style="margin-top:0px; width: 100%;">
             <span style="float: left; margin-left: 6%;"><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:0px;margin-right:5px"></span>
             <h1 class="custom-text" style=" font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; margin-left: 5px; margin-right:10px;">Paket
                 populer untuk </h1>

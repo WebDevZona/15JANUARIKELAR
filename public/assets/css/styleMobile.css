@@ -773,7 +773,7 @@ text-align: center;
     margin-top: 10px;
 }
 
-#hero .btn-get-awaaal {
+/* #hero .btn-get-awaaal {
     color: #fff;
     font-family: "Manrope";
     font-size: 40.695px;
@@ -783,29 +783,19 @@ text-align: center;
     border-radius: 26.104px 26.104px 26.104px 0px;
     background: #09326f;
     letter-spacing: 1.5px;
-    margin-top: -30px;
+    margin-top: -100%;
     backdrop-filter: blur(16.369382858276367px);
     background-size: cover;
     width: 666;
     height: 89.8;
     background-color: transparent;
-    /* text-transform: uppercase; */
-    /* font-weight: 700;
-font-size: 20px;
-letter-spacing: 1px;
-display: inline-block; */
     padding: 14px 15px;
     border-radius: 26.104px 26.104px 26.104px 0px;
     background: #09326f;
     backdrop-filter: blur(16.369382858276367px);
     margin-left: -10px;
-    /* transition: 0.5s; */
     color: #ffffff;
-    /* text-shadow: 2px 2px 4px rgba(131, 131, 131, 0.5); */
-    /* margin-left: 5%; */
-    /* margin-right: auto;   */
-    /* background-color: #2B65EC; */
-}
+} */
 
 #hero .container .judulawal h3 {
     font-family: "Rosa Sans", sans-serif;
@@ -822,7 +812,6 @@ line-height: 31.4px; */
 #hero .container .judulkedua {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     margin-top: 20px;
     color: #fff;
 }
@@ -831,7 +820,7 @@ line-height: 31.4px; */
     color: #fff;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: "Manrope";
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 800;
     line-height: 100%;
@@ -842,7 +831,6 @@ line-height: 31.4px; */
 #hero .container .judulkedua p {
     width: 865px;
     color: #fff;
-
     text-shadow: 0px 5.178691864013672px 5.178691864013672px rgba(0, 0, 0, 0.25);
     font-family: Inter;
     font-size: 18px;
@@ -960,6 +948,7 @@ font-weight: 500; */
     font-family: "Manrope";
     font-size: 25px;
     font-style: normal;
+    letter-spacing: 1.5px;
     font-weight: 500;
     line-height: 100%;
     padding: 14px 40px;
@@ -7961,35 +7950,21 @@ button {
         margin-top: 100px;
         color: #fff;
         font-family: "Manrope";
-        font-size: 20.695px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         border-radius: 26.104px 26.104px 26.104px 0px;
         background: #09326f;
         letter-spacing: 1.5px;
-        margin-top: -30px;
-        backdrop-filter: blur(16.369382858276367px);
         background-size: cover;
-        width: 666;
+        width: 500;
         height: 89.8;
-        background-color: transparent;
-        /* text-transform: uppercase; */
-        /* font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 1px;
-    display: inline-block; */
         padding: 14px 15px;
         border-radius: 26.104px 26.104px 26.104px 0px;
         background: #09326f;
-        backdrop-filter: blur(16.369382858276367px);
         margin-left: -10px;
-        /* transition: 0.5s; */
         color: #ffffff;
-        /* text-shadow: 2px 2px 4px rgba(131, 131, 131, 0.5); */
-        /* margin-left: 5%; */
-        /* margin-right: auto;   */
-        /* background-color: #2B65EC; */
     }
 
     #hero .container .judulkedua {
@@ -8004,7 +7979,7 @@ button {
         color: #fff;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-family: "Manrope";
-        font-size: 60px;
+        font-size: 50px;
         font-style: normal;
         font-weight: 800;
         line-height: 100%;
@@ -8017,9 +7992,9 @@ button {
         color: #fff;
 
         text-shadow: 0px 5.178691864013672px 5.178691864013672px
-            rgba(0, 0, 0, 0.25);
+        rgba(0, 0, 0, 0.25);
         font-family: Inter;
-        font-size: 20px;
+        font-size: 15px;
         font-style: normal;
         /* font-weight: 500; */
         line-height: 110%; /* 36.3px */
