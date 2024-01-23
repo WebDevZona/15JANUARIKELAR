@@ -128,7 +128,7 @@
                     /* font-weight: 200; */
                     line-height: 125%;
                     letter-spacing:1px;">
-                        Bimbingan Skripsi Online (BSO) Class<br> Program disediakan
+                        Bimbingan Skripsi Online (BSO) Class<br> Program disediakan 
                         secara khusus<br> untuk membantu mahasiswa dalam<br> memahami langkah-langkah<br>
                         penyusunan dan pengerjaan skripsi<br> dengan sistem mentoring/<br>pendampingan secara
                         intensif dan<br> privat dalam bentuk paket hemat dan<br> konsultasi reguler</h2>
@@ -250,7 +250,7 @@
                             </video>
                             {{-- <button class="play-button" onclick="togglePlay()">▶ </button> --}}
                         </div>
-
+                       
                     </div>
             </section>
             <!-- End About Section -->
@@ -762,12 +762,12 @@
                                             </div>
                                         </div>
 
-
+                                       
                                     </div>
                                 </div>
                             </div>
 
-
+                          
                             {{-- <style>
                                 .carousel-control-prev,
                                 .carousel-control-next {
@@ -837,7 +837,7 @@
                         </div>
 
                     </div>
-
+                   
 
 
                 </div>
@@ -2122,7 +2122,7 @@
                                                 <img src="assets/img/bg/al2.png" class="img-fluid"
                                                     style="width: 180px; " alt="">
                                             </div>
-
+                                         
                                         </div>
                                         <div class="member-infoo" style="margin-bottom: -1000px;">
 
@@ -2130,7 +2130,7 @@
                                             {{-- <span>Product Manager</span> --}}
                                             <p>Mengisi formulir pendaftaran sesuai dengan data diri yang lengkap dan benar
                                             </p><br>
-
+                                          
                                         </div>
                                     </div>
                                 </div>
@@ -2147,13 +2147,13 @@
                                                 <img src="assets/img/bg/al3.png" class="img-fluid"
                                                     style="width: 255px; margin-left:-30px;  margin-top:5px; ">
                                             </div>
-
+                                           
                                         </div>
                                         <div class=" member-infoo" style="margin-bottom: -1000px;">
                                             <br>
                                             {{-- <span>Product Manager</span> --}}
                                             <p>Mengirim bukti pembayaran dan menunggu verifikasi</p><br>
-
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -2177,14 +2177,14 @@
                                             <br>
                                             {{-- <span>CTO</span> --}}
                                             <p>Kamu siap melakukan bimbingan bersama mentor</p><br>
-
+                                           
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
             </section>
 
             <section id="faq" class="faq section-bg"
@@ -2201,7 +2201,7 @@
                             <div class="section-title" style="margin-bottom: 50px;">
                                 <h3 style="margin-top:0px !important">Paling Sering Ditanyakan</h3>
                             </div>
-
+                           
 
                             <div class="accordion" id="accordionFlushExample">
                                 <div class="accordion-item">
