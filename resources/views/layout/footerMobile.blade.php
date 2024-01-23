@@ -41,32 +41,22 @@
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <div class="d-flex justify-content-between">
+                <!-- Left Section with Logo and Text -->
+                <div class="col-2">
+                    <a href="index.php"><img src="{{ asset('assets/img/logo/logo3.png') }}" style="width:90px !important; margin-left:-150px!important; margin-top:5px !important;"
+                            alt=""></a>
+                </div>
 
-                    <div class="col-2">
-                        <a href="index.php"><img src="{{ asset('assets/img/logo/logo3.png') }}" style="width:100%" alt=""></a>
+                <div class="col-lg-4 col-md-3">
+                    <div class="text-container">
+                        <p>Bimbingan Belajar Online Perkuliahan dan Persiapan Karir dengan Sistem Kenaikan Kelas Pertama
+                            di Indonesia.</p>
                     </div>
-                
-                    <div class="col-lg-4 col-md-3">
-                        <div class="text-container">
-                            <p>Bimbingan Belajar Online Perkuliahan dan Persiapan Karir dengan Sistem Kenaikan Kelas Pertama di Indonesia.</p>
-                        </div>
-                    </div>
-                
                 </div>
 
                 <!-- Right Section with Social Media Links -->
 
-                <div class="col-lg-4 col-md-3 ml-auto">
-                    <div class="social-links" style="text-align: right;">
-                        <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ"
-                            class="youtube rounded-circle" style=" padding: 10px;"><i class="bx bxl-youtube"></i></a>
-                        <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle"
-                            style=" padding: 10px;"><i class="bx bxl-tiktok"></i></a>
-                        <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle"
-                            style=" padding: 10px;"><i class="bx bxl-instagram"></i></a>
-                    </div>
-                </div>
+               
                 <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1"
                     style=" stroke: #003EB5;
         position: absolute;
@@ -79,7 +69,16 @@
               ">
             </div>
         </div>
-
+        <div class="col-lg-4 col-md-3 ml-auto">
+            <div class="social-links" style=" margin-left:170px;">
+                <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ"
+                    class="youtube rounded-circle" style=" padding: 10px;"><i class="bx bxl-youtube"></i></a>
+                <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle"
+                    style=" padding: 10px;"><i class="bx bxl-tiktok"></i></a>
+                <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle"
+                    style=" padding: 10px;"><i class="bx bxl-instagram"></i></a>
+            </div>
+        </div>
 
         <div class="container" style="margin-top: 30px;">
             <div class="row">
@@ -87,7 +86,7 @@
 
                 <!-- Program Links -->
                 <div class="col-lg-4 col-md-3 footer-links">
-                    <h4>Hubungi Kami</h4>
+                    <h4 style="margin-button: -50px !important;">Hubungi Kami</h4>
                     <ul>
                         <li><a href="#"><b>Alamat:</b> Jalan Bandara
                                 Palmerah IV No. D-11B, <br> <br> Cemorokandang, Kedungkandang, Kota Malang, <br> <br>
@@ -104,7 +103,7 @@
                 </div>
 
                 <!-- Classprogram Address -->
-                <div class="col-lg-4 col-md-3 footer-links">
+                <div class="col-lg-4 col-md-3 footer-links" style="margin-bottom: 30px!important;">
                     <h4>Program Kelas</h4>
                     <ul>
                         <li><a href="#">Kelas Tugas Kuliah (KTK) </a></li>
@@ -128,13 +127,15 @@
                         <li><a href="#">Daftar</a></li>
                         <li><a href="#">Masuk</a></li>
                     </ul>
+                    
                 </div>
-                <div class="link-container">
+               
+                {{-- <div class="link-container">
                     <a href="https://www.instagram.com/reel/C1eDXOAPKPI/?igsh=NTc4MTIwNjQ2YQ=="
                         style="text-decoration: none; color: black;">
                         <img src="{{ asset('assets/img/bg/hp.png') }}" alt="Workshop Image">
                     </a>
-                </div>
+                </div> --}}
 
 
 
@@ -156,11 +157,11 @@
         </div>
 
 
-        <div class="container" style="margin-top: -50px;">
+        <div class="container" style="">
             <hr
                 style="   border: none;
                 height: 2px; /* Default height */
-                background-color: white; margin-bottom: -300;">
+                background-color: white; ">
         </div>
         <div class="container py-4">
             <div class="copyright">
@@ -169,6 +170,7 @@
             </div>
            
         </div>
+        
     </div>
 
     <div id="whatsapp-button" onclick="openWhatsApp()">

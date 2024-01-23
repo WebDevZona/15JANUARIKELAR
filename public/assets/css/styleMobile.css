@@ -3185,7 +3185,7 @@ animation: gradientAnimation 4s ease infinite;
 --------------------------------------------------------------*/
 #footer {
     background: #0849b2;
-    padding: 0 0 30px 0;
+    /* padding: 0 0 30px 0; */
     color: #ffffff;
     font-size: 14px;
     /* background:  #0D2947 ; */
@@ -3310,15 +3310,16 @@ height: 500px;
 }
 
 #footer .footer-top h4 {
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bold;
     color: #ffffff;
     position: relative;
     padding-bottom: 12px;
+    margin-bottom: -10px;
 }
 
 #footer .footer-top .footer-links {
-    margin-bottom: 30px;
+    margin-bottom: px;
 }
 
 #footer .footer-top .footer-links img {
@@ -3367,6 +3368,7 @@ position: absolute; */
     display: inline-block;
     line-height: 1;
     text-decoration: none;
+    font-size: 10px;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -3445,6 +3447,7 @@ position: absolute; */
 #footer .copyright {
     text-align: center;
     float: center;
+    margin-top: -30px;
 }
 
 #footer .credits {
@@ -4147,7 +4150,7 @@ li.left-aligned .text {
     height: 80%;
     /* background-color: #25D366; Warna latar belakang (border color) */
     display: inline-block;
-    border-radius: 64px 37px 37px 64.5px;
+    border-radius: 50px;
     background: rgba(0, 0, 0, 0.479);
     backdrop-filter: blur(20.5px);
     z-index: -1;
@@ -4157,11 +4160,11 @@ li.left-aligned .text {
 #whatsapp-text {
     color: #ffffff;
     font-family: "Poppins";
-    font-size: 15px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px;
-    margin-left: 10px; /* Jarak antara gambar dan teks */
+    /* line-height: 26px; */
+    margin-left: 0px; /* Jarak antara gambar dan teks */
     position: relative;
 }
 #whatsapp-text.bordered::before {
@@ -4184,15 +4187,17 @@ li.left-aligned .text {
   transition: transform 0.3s ease-in-out;
 } */
 
-#whatsapp-button img {
-    margin-right: 10px;
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
-}
+
+    #whatsapp-button img {
+        margin-right: 10px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+    }
+
 
 #whatsapp-button.active {
     transform: scale(1.1);
@@ -6661,11 +6666,12 @@ align-items: flex-start;
 } */
 
 .text-container p {
-    margin-top: 10px;
+    margin-top: -30px;
     color: white;
-    font-size: 10px;
-    border-left: 2px solid white; /* Menambahkan garis sebelah kiri teks */
-    padding-left: 20px; /* Jarak antara teks dengan garis */
+    font-size: 9px;
+    border-left: 2px solid white;
+    padding-left: 5px;
+    margin-left: 90px;
 }
 
 /* Css Lanjutan Pak dimas */
@@ -7043,7 +7049,7 @@ svg {
 }
 
 .container img {
-    width: 100%;
+    /* width: 100px; */
     height: auto;
     display: block;
 }

@@ -45,7 +45,7 @@
 <!-- Tambahkan script untuk Slick -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
-@extends('layout.header')
+@extends('layout.headerMobile')
 @section('content')
 
 
