@@ -1253,7 +1253,6 @@
 
 
     <section id="faq" class="faq section-bg" style="margin-top: -110px;">
-
         <div class=" background-faq">
         </div>
         <div class="container" data-aos="fade-up">

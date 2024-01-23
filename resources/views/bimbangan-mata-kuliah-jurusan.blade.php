@@ -70,16 +70,14 @@
         <!-- ======= Hero Section ======= -->
         {{-- Header atas --}}
         {{-- ok1 --}}
-        <section id="about" class="heada" style="background: url(assets/img/bg/utama2.png);background-size: cover; ">
+        <!-- <section id="about" class="heada" style="background: url(assets/img/bg/utama2.png);background-size: cover; ">
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
-                    <!-- <h2>About</h2> -->
                     <h3 style="color:black;">Bimbingan Mata Kuliah Jurusan (BMJ)</h3>
                     <p style="color:black; margin-top:-2px;">Home > Bimbingan Mata Kuliah Jurusan (BMJ)</p>
-                    {{-- <span>BSO</span> --}}
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/bmj.png); background-size: cover; margin-top: -18px; position: relative;">
 
@@ -294,8 +292,8 @@
                     <div class="col-lg-6 text-center">
                         <style>
                             .row {
-                                display: flex;
-                                align-items: center;
+                                /* display: flex;
+                                align-items: center; */
                                 justify-content: center;
                                 border-radius: 100%;
                             }
