@@ -32,6 +32,8 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 </head>
@@ -55,12 +57,12 @@
     <section id="hero-skripsi" class="d-flex align-items-center">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
             <div class="d-flex" style="margin-top:-100px;">
-                <strong  class="btn-get-started-skripsi1 scrollto" style="background: #FFAA00">CLASS PROGRAM</strong>
+                <strong class="btn-get-started-skripsi1 scrollto" style="background: #3E87F8">CLASS PROGRAM</strong>
             </div>
             <div class="judulketiga-skripsi">
                 <h3 style="font-size: 50px; color:#FFF;">Pelatihan Skripsi</h3>
             </div>
-            <h2>Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh mentor.</h2>
+            <h2 style="font-family: Montserrat;">Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh mentor</h2>
         </div>
     </section>
     <!-- ======= End Section Hero ======= -->
@@ -70,7 +72,7 @@
     <section id="card-skripsi" class="card-skripsi">
         <div class="container">
             <div class="d-flex">
-                <strong  class="btn-get-started2 scrollto">Pelatihan Skripsi</strong>
+                <strong class="btn-get-started2 scrollto">Pelatihan Skripsi</strong>
             </div>
 
             <div class="section-title">
@@ -118,13 +120,13 @@
           border-radius: 77.273px;
           align-items: center;
           gap: 15.455px;
-          flex-shrink: 0; background: #FFAA00;
+          flex-shrink: 0; background: #3E87F8;
           box-shadow: 15.455px 15.455px 30.909px 0px rgba(0, 0, 0, 0.15); font-size: 25px; color: #FFF;
           font-family: Manrope;
           font-style: normal;
           font-weight: 800 !important;
           line-height: 125%; /* 61.818px */
-          letter-spacing: -1px;">CLASS PROGRAM</a>
+          letter-spacing: 1px;">CLASS PROGRAM</a>
             </div>
 
             <div class="section-title">
@@ -136,7 +138,7 @@
                 <div class="roww ">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px; border: 2px solid #020202;">
-                            <strong  class="btn-get-started3 scrollto">Video Materi</strong>
+                            <strong class="btn-get-started3 scrollto" style="font-family: Montserrat;">Video Materi</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
                                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
@@ -238,7 +240,7 @@
     <section id="mentor-skripsi" class="mentor-skripsi" style="margin-top:-50px;">
         <div class="container">
             <div class="section-title">
-                <h3  style="color:rgb(0,29,73); font-size: 45px;  margin-top:0px  !important;">Mentor Yang Berpengalaman</h3>
+                <h3 style="color:rgb(0,29,73); font-size: 45px;  margin-top:0px  !important;">Mentor Yang Berpengalaman</h3>
                 <h4 style="color:rgb(0,29,73); margin-top:10px !important; ">Kelas Pelatihan Skripsi Class Program </h4>
             </div>
 
@@ -299,7 +301,7 @@
                         <div class="profile-info">
                             <!-- <h1>ELouis Patric</h1> -->
                             <p>Workshop Skripsi <br>Batch 9 Telah Dibuka</p>
-                            <button class="button" style="background-color: #FFAA00 !important">Daftar Sekarang!<span class="d-flex justify-content-center align-items-center"><img src="assets/img/bg/Icons.png" style=" margin-left: 15px" alt=""></span></a></button>
+                            <button class="button" style="background-color: #3E87F8 !important">Daftar Sekarang!<span class="d-flex justify-content-center align-items-center"><img src="assets/img/bg/Icons.png" style=" margin-left: 15px" alt=""></span></a></button>
                             <h2 style="font-weight: 100;">No credit card required</h2>
                         </div>
                         <!-- Tambahkan elemen tambahan di sini -->
@@ -399,37 +401,45 @@
         <div class="background-faq"></div>
         <div class="container kontener aos-init aos-animate" style="text-align:center;" data-aos="fade-up">
             <div class="col-xl-12"> <!-- Gunakan kolom penuh lebar untuk memastikan accordion berada di tengah -->
-                <div class="section-title" style="margin-top:150px;margin-bottom: 20px; 
+                <div class="section-title" style="margin-top:150px;margin-bottom: 20px;
             ">
-                    <h3 style="color:rgb(0,29,73);">Frequently Asked Questions</h3>
+                    <h3 style="color:rgb(0,29,73); margin-bottom:50px;">Frequently Asked Questions</h3>
                 </div>
                 <style>
                     .accordion-item {
-                        border-radius: 8px; /* Menentukan radius sudut untuk membuat tampilan lonjong */
-                        overflow: hidden; /* Menyembunyikan overflow untuk mendukung tampilan lonjong */
-                        margin-bottom: 0px; /* Atur margin bawah agar terlihat terpisah dengan accordion lainnya */
+                        border-radius: 8px;
+                        /* Menentukan radius sudut untuk membuat tampilan lonjong */
+                        overflow: hidden;
+                        /* Menyembunyikan overflow untuk mendukung tampilan lonjong */
+                        margin-bottom: 0px;
+                        /* Atur margin bawah agar terlihat terpisah dengan accordion lainnya */
                     }
-                
+
                     .accordion-button {
-                        border-radius: 8px; /* Menentukan radius sudut untuk membuat tampilan lonjong */
+                        border-radius: 8px;
+                        /* Menentukan radius sudut untuk membuat tampilan lonjong */
                     }
-                
+
                     /* .accordion-button::after {
-                        content: none; /* Menghilangkan simbol panah pada button */
+                        content: none;
                     } */
-                
+
                     .accordion-body {
-                        border-top-left-radius: 0; /* Mereset radius sudut atas kiri untuk tampilan lonjong */
-                        border-top-right-radius: 0; /* Mereset radius sudut atas kanan untuk tampilan lonjong */
-                        border-bottom-left-radius: 8px; /* Menentukan radius sudut bawah kiri untuk tampilan lonjong */
-                        border-bottom-right-radius: 8px; /* Menentukan radius sudut bawah kanan untuk tampilan lonjong */
+                        border-top-left-radius: 0;
+                        /* Mereset radius sudut atas kiri untuk tampilan lonjong */
+                        border-top-right-radius: 0;
+                        /* Mereset radius sudut atas kanan untuk tampilan lonjong */
+                        border-bottom-left-radius: 8px;
+                        /* Menentukan radius sudut bawah kiri untuk tampilan lonjong */
+                        border-bottom-right-radius: 8px;
+                        /* Menentukan radius sudut bawah kanan untuk tampilan lonjong */
                     }
                 </style>
-                
-                <div class="accordion" id="accordionFlushExample"  >
-                    <div class="accordion" id="accordionFlushExample" >
-                        <div class="accordion-item" >
-                            <h2 class="accordion-header" id="flush-headingOne" >
+
+                <div class="accordion" id="accordionFlushExample">
+                    <div class="accordion" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
                                 <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                     <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">01</div> <b>Siapa pemateri workshop skripsi?</b>
                                 </button>
@@ -446,53 +456,53 @@
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
                                 <div class="accordion-body" style="text-align: left">Sobat Insans cukup klik link registrasi yang tercantum di website, linktree Instagram Class Program dan linktree Zona Mahasiswa. Ikuti syarat dan ketentuan untuk mengikuti workshop skripsi dan konfirmasikan bukti mengikuti persyaratan dan bukti pembayaran pada Minma.
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingthree">
-                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
-                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">03</div><b>Apa saja persyaratan ikut workshop skripsi?</b>
-                                </button>
-                            </h2>
-                            <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
-                                <div class="accordion-body" style="text-align: left">Sobat Insans memiliki beberapa persyaratan untuk mengikuti workshop skripsi dari Class Program yaitu wajib follow Instagram <code>@zonamahasiswa.id</code> dan <code>@classprogram.id</code>, mention atau tag 5 orang teman di postingan pamflet workshop lalu menyerahkan bukti screenshoot-nya kepada Minma.</div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingthree">
+                                    <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
+                                        <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">03</div><b>Apa saja persyaratan ikut workshop skripsi?</b>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
+                                    <div class="accordion-body" style="text-align: left">Sobat Insans memiliki beberapa persyaratan untuk mengikuti workshop skripsi dari Class Program yaitu wajib follow Instagram <code>@zonamahasiswa.id</code> dan <code>@classprogram.id</code>, mention atau tag 5 orang teman di postingan pamflet workshop lalu menyerahkan bukti screenshoot-nya kepada Minma.</div>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingfour">
-                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
-                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">04</div><b>Apa saja isi workshopnya?</b>
-                                </button>
-                            </h2>
-                            <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-parent="#accordionFlushExample">
-                                <div class="accordion-body" style="text-align: left">Workshop skripsi akan membahas masalah-masalah seputar dunia skripsi mulai dari penentuan judul sampai kiat-kiat sidang skripsi. Hanya saja di setiap workshop memiliki tema yang berbeda-beda dan setiap workshop lebih spesifik mengusung tema perbagian skripsi mana yang akan dibahas.</div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingfour">
+                                    <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                                        <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">04</div><b>Apa saja isi workshopnya?</b>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-parent="#accordionFlushExample">
+                                    <div class="accordion-body" style="text-align: left">Workshop skripsi akan membahas masalah-masalah seputar dunia skripsi mulai dari penentuan judul sampai kiat-kiat sidang skripsi. Hanya saja di setiap workshop memiliki tema yang berbeda-beda dan setiap workshop lebih spesifik mengusung tema perbagian skripsi mana yang akan dibahas.</div>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingfive">
-                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
-                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">05</div><b>Fasilitas apa saja yang akan didapatkan?</b>
-                                </button>
-                            </h2>
-                            <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
-                                <div class="accordion-body" style="text-align: left">Sobat Insans akan mendapatkan E-sertifikat dan hadiah E-wallet bagi Sobat Insans yang memenangkan mini challenge yang sedang diadakan. </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingfive">
+                                    <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+                                        <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">05</div><b>Fasilitas apa saja yang akan didapatkan?</b>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
+                                    <div class="accordion-body" style="text-align: left">Sobat Insans akan mendapatkan E-sertifikat dan hadiah E-wallet bagi Sobat Insans yang memenangkan mini challenge yang sedang diadakan. </div>
+                                </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
-                </div>
-                <!--  <a href="#pricing" style="width: 100%; margin-top: 25px; height: auto; position: relative; display: flex; align-items: center; justify-content: center; text-decoration: none;">
+                    <!--  <a href="#pricing" style="width: 100%; margin-top: 25px; height: auto; position: relative; display: flex; align-items: center; justify-content: center; text-decoration: none;">
                 <div style="width: 200px; height: 50px; position: relative; background: #0849B2; border-radius: 20.32px;">
                     <div style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); color: white; font-size: 20px; font-family: Raleway; font-weight: 700; word-wrap: break-word">
                         Baca selengkapnya
                     </div>
                 </div>
             </a> -->
+                </div>
             </div>
-        </div>
     </section>
 
 

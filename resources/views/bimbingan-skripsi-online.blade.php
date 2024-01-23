@@ -54,6 +54,7 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 
@@ -143,7 +144,7 @@
                             }
                         </style>
                         <video width="280" height="500" controls style="margin-left: 120px; margin-top: 160px" id="myVideo">
-                            <source src="assets/vidio/1.mp4" type="video/mp4">
+                            <source src="assets/video/1.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
@@ -326,7 +327,7 @@
                         <span style="color: #3E87F8; font-family: Montserrat; font-weight: 700;
                             line-height: 125%; font-size:80px;">3297+</span>
                         <br>
-                        Mahasiswa <br> Lulus Bersama Kami <br>
+                        Mahasiswa Lulus <br> Bersama Kami <br>
                         <!-- <a href="#" class="custom-btn-buy">Daftar Sekarang</a> -->
                         <a href="/login" style="text-decoration: none;">
                             <div style="width: 300px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
@@ -350,7 +351,7 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div style=" margin-left:-80px; width: 180px; margin-top: 40px; height: 100px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
+                                <div style=" margin-left: -50px; width: 180px; margin-top: 40px; height: 100px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
                                     <div class="card-title" style="margin-top: 10px; margin-left:10px;">
                                         <img style="margin-top:15px;" src="assets/img/bg/ps2.png" alt="">
                                         <div style="margin-top: -76px; margin-left:90px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">
@@ -374,13 +375,13 @@
 
 
         <section id="pakethematbso" class="pakethematbso" style="z-index: auto">
-            <img src="assets/img/bg/Ornament_kotak.jpg" alt="gambar sebelah kiri" style="transform: rotate(91deg);">
+            <img src="assets/img/bg/Ornament_kotak.jpg" alt="gambar sebelah kiri" style="transform: rotate(91deg); margin-top:-50px;">
             <h3 style="text-align: center; color: #000;
                     margin-bottom: 50px;
                     font-family: Montserrat;
                     font-size: 40px;
                     font-style: normal;
-                    margin-top: -150px;
+                    margin-top: -170px;
                     font-weight: 700;
                     line-height: 125%; /* 100px */">
                 Paket Hemat yang Tersedia di <br> Bimbingan Skripsi Online (BSO)
@@ -554,7 +555,7 @@
                 {{-- Complate --}}
                 <div id="content5" class="content ">
                     <img class="ml-5" style="margin-bottom: 20px; float: left; width: 400px; margin-left: 100px; height: auto; padding-left:30px;" src="assets/img/bg/kotakk.png" alt="">
-                    <div style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: black; font-size: 28px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                    <div style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: -2px; color: black; font-size: 28px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                         Dikhususkan kepada Sobat Insans yang sedang <br>membutuhkan bimbingan skripsi secara
                         menyeluruh<br> mulai dari pembuatan dan penyusunan judul hingga<br> sidang skripsi
                     </div>
@@ -593,7 +594,7 @@
                 <div style="width: 100%; text-align: center;">
                     <div style="width: 180px; height: 40px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
                         <div style="width: 424px; text-align: center; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">
-                            Paket Hemat</div>
+                            PAKET HEMAT</div>
                     </div>
                 </div>
 
@@ -1978,7 +1979,7 @@
                                                             </th>
                                                             <th scope="col"> <span style="font-size: 18px !important;">Harga</span>
                                                                 <br><span class="blue-text" style="font-weight: 700 !important; font-size:25px !important; ">Rp.
-                                                                    47.000</span>
+                                                                    47K</span>
                                                             </th>
                                                         </tr>
                                                     </thead>
@@ -2031,7 +2032,7 @@
                                                             </th>
                                                             <th scope="col"> <span style="font-size: 18px !important;">Harga</span>
                                                                 <br><span class="blue-text" style="font-weight: 700 !important; font-size:25px !important; ">Rp.
-                                                                    66.000</span>
+                                                                    66K</span>
                                                             </th>
                                                         </tr>
                                                     </thead>
@@ -2106,7 +2107,7 @@
                                                             </th>
                                                             <th scope="col"> <span style="font-size: 18px !important;">Harga</span>
                                                                 <br><span class="blue-text" style="font-weight: 700 !important; font-size:25px !important; ">Rp.
-                                                                    62.000</span>
+                                                                    62K</span>
                                                             </th>
                                                         </tr>
                                                     </thead>
@@ -2163,7 +2164,7 @@
                                                             </th>
                                                             <th scope="col"> <span style="font-size: 18px !important;">Harga</span>
                                                                 <br><span class="blue-text" style="font-weight: 700 !important; font-size:25px !important; ">Rp.
-                                                                    57.000</span>
+                                                                    57K</span>
                                                             </th>
                                                         </tr>
                                                     </thead>
@@ -2438,7 +2439,7 @@
                             <!-- Anggota Tim 2 -->
                             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                                 <div class="konsultasi-content" style="padding-top: 20px">
-                                    <h4>2. Lakukan Pembayaran</h4>
+                                    <h4>2. Lakukan Pendaftaran</h4>
                                     <div class="member-img">
                                         <div style="position: relative; display: flex; align-items: center;">
                                             <!-- Gambar pertama -->
@@ -2467,7 +2468,7 @@
 
                             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                                 <div class="konsultasi-content">
-                                    <h4>3. Jadwalkan Sesi</h4>
+                                    <h4>3. Selsai Pembayaran</h4>
                                     <div class="member-img">
                                         <div style="position: relative; display: flex; align-items: center;">
                                             <!-- Gambar pertama -->
@@ -2494,7 +2495,7 @@
                             <!-- Anggota Tim 3 -->
                             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
                                 <div class="konsultasi-content">
-                                    <h4>4. Mulai Konsultasi</h4>
+                                    <h4>4. Mulai Bimbingan</h4>
                                     <div class="member-img">
                                         <div style="position: relative; display: flex; align-items: center;">
                                             <!-- Gambar pertama -->
@@ -2507,7 +2508,7 @@
                                     <div class="member-infoo">
                                         <br>
                                         {{-- <span>CTO</span> --}}
-                                        <p>Kamu siap melakukan bimbingan bersama mentor</p><br>
+                                        <p>Kamu siap bimbingan bersama mentor</p><br>
                                         {{-- <ul>
                                 <li>Prestasi 1</li>
                                 <li>Prestasi 2</li>

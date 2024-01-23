@@ -13,6 +13,7 @@
     <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-rsfs3we9NBt+JIEkKuuaA2vFDGXahHIysWzy9kn6+koYOtsLoX2s16+a1kDPs1o9b8X6lCOpzATmtK7XQVG+tpw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
 
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 
@@ -178,7 +179,7 @@
                         <div class="section-title">
                             <!-- <h2>About</h2> -->
                             <span class="gariss">
-                                <h3 style="color: black; margin-top: 70px; text-align: center; font-size: 45px;">
+                                <h3 style="color: black; margin-top: 70px; text-align: center; font-size: 45px; font-family: Montserrat;">
                                     Keunggulan Bimbingan <br> Mata Kuliah Jurusan</h3>
                             </span>
                         </div>
@@ -310,7 +311,7 @@
                             }
                         </style>
                         <video width="260" height="460" controls style="margin-top: 30px; margin-left: 10px; border-radius: 2%; box-shadow: 0px 0px 15px rgba(0, 0, 255, 0.2); " id="myVideo">
-                            <source src="assets/vidio/1.mp4" type="video/mp4">
+                            <source src="assets/video/1.mp4" type="video/mp4">
                             </video>
                     </div>
 
@@ -373,7 +374,7 @@
                     <h3>
                         <br>
                         <br>
-                        <span style="color: #3E87F8; font-family: Montserrat; font-weight: 700;letter-spacing: 0.1px;
+                        <span style="color: #3E87F8; font-family: Montserrat; font-weight: 700;letter-spacing:2px;
                             line-height: 125%; font-size:78px;">2564+</span> <br>
                         Mahasiswa <br> Lulus Bersama <br> Kami
                         <!-- <a href="#" class="custom-btn-buy">Daftar Sekarang</a> -->
@@ -408,7 +409,7 @@
                             </div>
                         </div>
                     </h3>
-                    <img style="margin-top: 150px; " src="assets/img/bg/bmjkukuh.png" alt="">
+                    <img style="margin-top: 150px; width: 300% !important;" src="assets/img/bg/bmjkukuh.png" alt="">
                 </div>
             </div>
         </section>
@@ -853,7 +854,7 @@
             <div class="container" data-aos="fade-up">
                 <div style="width: 100%; text-align: center;">
                     <div style="width: 100px; height: 40px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
-                        <div style="width: 424px; text-align: center; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">Paket</div>
+                        <div style="width: 424px; text-align: center; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">PAKET</div>
                     </div>
                 </div>
                 <div class="section-title judul">
@@ -1036,11 +1037,11 @@
         <section id="testimonials" class="testimonials" style="margin-top: -100px ;margin-bottom:30px;">
 
             {{-- <div class="section-title">
-                <h3 style="margin-top: 80px;">Mentor Profesional</h3>
-                <h4 style="margin-top: 80px;">Bimbingan Mata Kuliah Jurusan</h4>
+                <h3 style="margin-top: 150px;">Mentor Profesional</h3>
+                <h4 style="margin-top: 100px;">Bimbingan Mata Kuliah Jurusan</h4>
 
             </div> --}}
-            <div class="section-title" style="margin-top: 50px; color:#000;">
+            <div class="section-title" style="margin-top: 100px; color:#000;">
                 <h3  style=" font-size: 45px;  margin-top:0px  !important;">Mantor Profesional</h3>
                 <h4 style=" margin-top:10px !important; ">Bimbingan Mata Kuliah Jurusan</h4>
             </div>
@@ -1089,7 +1090,8 @@
                     <div class="col-lg-6 text-centerr">
                         <div style="width: 100%; height: 100%; position: relative">
 
-                            <div style=" width: 500px; left: 50px; margin-top: 50px; top: -110px; position: absolute; color: white; font-size: 50px; font-family: Montserrat; font-weight: 700; line-height: 80.50px; word-wrap: break-word">Paling Sering Ditanyakan</div>
+                            <div style=" width: 500px; left: 50px; margin-top: 50px; top: -220px; position: absolute; color: white; font-size: 50px; font-family: Montserrat; font-weight: 700; line-height: 80.50px;">Paling Sering </div>
+                            <div style=" width: 500px; left: 50px; margin-top: 100px; top: -210px; position: absolute; color: white; font-size: 50px; font-family: Montserrat; font-weight: 700; line-height: 80.50px;">Ditanyakan   </div>
                         </div>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">

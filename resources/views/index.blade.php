@@ -32,6 +32,7 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 </head>
@@ -201,7 +202,7 @@
                                         font-style: normal;
                                         font-weight: 700;
                                         line-height: normal;
-                                        margin-top:-13px">Mendapatkan kesempatan 30 kali pertemuan</p>
+                                        margin-top:-13px">Mendapat kesempatan<br>30 kali pertemuan</p>
                     </h4>
                     <div class="icon">
                     </div>
@@ -282,7 +283,7 @@
                                         font-style: normal;
                                         font-weight: 700;
                                         line-height: normal;
-                                        margin-top:-13px">Harga aman di kantong mahasiswa</p>
+                                        margin-top:-13px">Harga sesuai kantong Mahasiswa</p>
                     </h4>
                     <div class="icon">
                     </div>
@@ -562,7 +563,7 @@
                     <div class="box featured">
                         <!-- <h3>Bimbingan Mata Kuliah Jurusan (BMJ)</h3> -->
                         <h4><img src="assets/img/bg/program1.png" class="img-fluid" alt="" style=""></h4>
-                        <ul style="margin-top: -50px; margin-left:10px;">
+                        <ul>
                             <li><strong style="">Bimbingan Skripsi Online (BSO)</strong></li>
                             <li style="color:black;">Bimbingan Skripsi Online (BSO) Class Program disediakan secara
                                 khusus untuk membantu Sobat Insans dalam memahami cara penyusunan dan pengerjaan skripsi
@@ -584,7 +585,7 @@
                     <div class="box featured">
                         <!-- <h3>Bimbingan Mata Kuliah Jurusan (BMJ)</h3> -->
                         <h4><img src="assets/img/bg/program2.png" class="img-fluid" alt="" style=""></h4>
-                        <ul style="margin-top: -50px; margin-left:10px;">
+                        <ul>
                             <li><strong style="">Bimbingan Mata Kuliah Jurusan (BMJ)</strong></li>
                             <li style="color:black;">Bimbingan Mata Kuliah Jurusan (BMJ) Class Program disediakan
                                 secara
@@ -607,7 +608,7 @@
                     <div class="box">
                         <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
                         <h4><img src="assets/img/bg/program3.png" class="img-fluid" alt="" style=""></h4>
-                        <ul style="margin-top: -50px; margin-left:10px;">
+                        <ul>
                             <li><strong style=""> Kelas Tugas Kuliah (KTK)</strong></li>
                             <li style="color:black;">Kelas Tugas Kuliah (KTK) Class Program disediakan secara khusus
                                 untuk
@@ -629,7 +630,7 @@
                     <div class="box">
                         <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
                         <h4><img src="assets/img/bg/program4.png" class="img-fluid" alt="" style=""></h4>
-                        <ul style="margin-top: -50px; margin-left:10px;">
+                        <ul>
                             <li><strong style="">Kelas Persiapan Karir (KPK)</strong></li>
                             <li style="color:black;">Kelas Persiapan Karir (KPK) Class Program disediakan secara khusus
                                 untuk
@@ -650,7 +651,7 @@
                     <div class="box">
                         <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
                         <h4><img src="assets/img/bg/program5.png" class="img-fluid" alt="" style=""></h4>
-                        <ul style="margin-top: -50px; margin-left:10px;">
+                        <ul>
                             <li><strong style="">Creative Class</strong></li>
                             <br>
                             <li style="color:black;">Creative Class adalah program yang disediakan secara khusus untuk
@@ -728,7 +729,7 @@
                             <button id="content1Btn" class="btn btn-primary active" style="margin-top: 5px; margin-left:-2px;"><b>Skripsi</b></button>
                             <button id="content2Btn" style="margin-top: 5px; margin-right:-2px;" class="btn btn-primary"><b>KTI</b></button>
                         </div>
-                        <p style="font-size: 18px; text-align: left;">
+                        <p style="font-size: 18px; text-align: left; margin-top:10px;">
                             Workshop yang bertujuan untuk mendalami materi penyusunan skripsi dengan
                             sistematika yang baik <br> dan benar. Berikut keuntungan yang bisa Sobat Insans dapatkan:
                         </p>
@@ -786,7 +787,7 @@
                             <button id="content3Btn" class="btn btn-primary active" style="margin-top: 5px; margin-left:-2px;"><b>Skripsi</b></button>
                             <button id="content4Btn" class="btn btn-primary" style="margin-top: 5px; margin-right:-2px;"><b>KTI</b></button>
                         </div>
-                        <p style="font-size: 18px; text-align: left;">
+                        <p style="font-size: 18px; text-align: left; margin-top:10px;">
                             Workshop yang bertujuan untuk mendalami materi penyusunan serta pembuatan Karya Tulis Ilmiah
                             (KTI) dengan baik dan benar. Berikut keuntungan yang bisa Sobat Insans dapatkan:
                         </p>
@@ -970,17 +971,17 @@
 
     <section id="testimonials" class="testimonials" style="margin-top: -100px;  margin-bottom:60px;  background: url(assets/img/bg/bgmentor.png);background-size: cover;">
         <div class="section-title">
-            <h3 style="margin-top: 10px;">Mentor Profesional Class Program</h3>
+            <h3 style="margin-top: 10px; font-size:35px !important; color:#000;">Mentor Profesional <br> Class Program</h3>
         </div>
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="centered-content">
-                        <img src="assets/img/team/mentor1.png" class="img-fluid" alt="" style="border: none !important;
+                        <img src="assets/img/team/Mentor_ali.png" class="img-fluid" alt="" style="border: none !important;
                         outline: none !important;">
-                        <img src="assets/img/team/mentor2.png" class="img-fluid" alt="" style="border: none !important;
+                        <img src="assets/img/team/Mentor_Faidatul.png" class="img-fluid" alt="" style="border: none !important;
                         outline: none !important;">
-                        <img src="assets/img/team/mentor3.png" class="img-fluid" alt="" style="border: none !important;
+                        <img src="assets/img/team/Mentor_Denny.png" class="img-fluid" alt="" style="border: none !important;
                         outline: none !important;">
                     </div>
                     <div class="centered-content">
@@ -1233,7 +1234,7 @@
                                     <img src="assets/img/bg/rafiki.png" class="img-fluid" style="width: 240px;" alt="">
                                 </div>
                                 <div class="member-info">
-                                    <h4>4. Mulai Konsultasi</h4>
+                                    <h4>4. Mulai Bimbingan</h4>
                                     <br>
                                     {{-- <span>CTO</span> --}}
                                     <p style="margin-left: 20px;">Kamu siap melakukan bimbingan bersama Mentor profesional</p><br>
