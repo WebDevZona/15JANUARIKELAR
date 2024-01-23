@@ -3864,10 +3864,12 @@ right: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px 0;
     color: #333;
-    position: relative;
+    /* position: relative; */
     display: flex;
     align-items: flex-start;
-    margin-left:148px;
+    margin-left: 170px;
+    width: 260px;
+
 }
 
 .content-box:hover {
@@ -4078,14 +4080,15 @@ li.left-aligned .text {
     background: linear-gradient(0deg, #09326f 0%, #3e87f8 100%), #3e87f8;
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.15);
     display: flex;
-    width: 292px;
-    height: 50px;
+    width: 150px;
+    height: 30px;
     padding: 10px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     flex-shrink: 0;
     color: white;
+    margin-left: 50px;
 }
 
 .rupiah-display h4 {
@@ -4095,7 +4098,7 @@ li.left-aligned .text {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-right: 100px;
+    margin-right: px;
 
 }
 
