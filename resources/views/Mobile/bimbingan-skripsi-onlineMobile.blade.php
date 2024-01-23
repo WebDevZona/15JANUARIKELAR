@@ -182,7 +182,7 @@
                                 <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
                             </span>
                             <div class="content-text">
-                                <h5 style="text-align: left; margin-left: 15px; font-size: 15px; color: #000;">
+                                <h5 style="text-align: left; margin-left: 15px; font-size: 10px; color: #000;">
                                     Pendampingan oleh Mentor profesional secara privat online dan intensif</h5>
                                 {{-- <p  style="text-align: left; margin-left: 15px;">Sobat Insans akan mendapatkan pendampingan oleh Mentor profesional secara privat
                                     online dan intensif</p> --}}
@@ -194,7 +194,7 @@
                                 <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
                             </span>
                             <div class="content-text">
-                                <h5 style="text-align: left; margin-left: 15px; font-size: 15px; color: #000;">Jadwal
+                                <h5 style="text-align: left; margin-left: 15px; font-size: 10px; color: #000;">Jadwal
                                     bimbingan fleksibel, sesuai kesepakatan Sobat Insans dan Mentor</h5>
                                 {{-- <p  style="text-align: left; margin-left: 15px;">Bimbingan Skripsi Online (BSO) Class Program disediakan untuk semua jurusan</p> --}}
                             </div>
@@ -206,7 +206,7 @@
                                 <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
                             </span>
                             <div class="content-text">
-                                <h5 style="text-align: left; margin-left: 15px; font-size: 15px; color: #000;">
+                                <h5 style="text-align: left; margin-left: 15px; font-size: 10px; color: #000;">
                                     Konsultasi langsung melalui Zoom Meet, Google Meet, Video Call WhatsApp dan telepon
                                 </h5>
                                 {{-- <p  style="text-align: left; margin-left: 15px;">Bimbingan Skripsi Online (BSO) Class Program disediakan untuk semua jurusan</p> --}}
@@ -218,7 +218,7 @@
                                 <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
                             </span>
                             <div class="content-text">
-                                <h5 style="text-align: left; margin-left: 15px; font-size: 15px; color: #000;">Terbuka
+                                <h5 style="text-align: left; margin-left: 15px; font-size: 10px; color: #000;">Terbuka
                                     untuk semua jurusan</h5>
                             </div>
                         </div>
@@ -291,7 +291,7 @@
                         </div>
 
 
-                        <div class="col">
+                        <div class="col" style="margin-bottom: -45px;">
                             <div
                                 style="width: 300px; height: 100px; background: linear-gradient(0deg, white 0%, white 100%), linear-gradient(180deg, white 0%, #ECF4FF 100%); box-shadow: 9.123505592346191px 22.808765411376953px 45.617530822753906px rgba(0, 0, 0, 0.15); border-radius: 25px; border: 0.91px #C3C3C3 solid">
                                 <div class="card-title" style="margin-top: 10px; margin-left:10px;">
@@ -402,7 +402,7 @@
                                 </div>
                                 <div class="col">
                                     <div
-                                        style=" margin-left:10px; width: 140px; margin-top: 40px; height: 90px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
+                                        style=" margin-left:165px; width: 140px; margin-top: -90px; height: 90px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
                                         <div class="card-title" style="margin-top: 10px; margin-left:10px;">
                                             <img style="margin-top:15px;" src="assets/img/bg/ps2.png" alt="">
                                             <div
@@ -438,7 +438,7 @@
                     font-weight: 700;
                     margin-top:40px;
                     line-height: 125%; /* 100px */">
-                    Paket Hemat yang Tersedia di<br>Bimbingan Skripsi Online (BSO)
+                    Paket Hemat yang Tersedia di<br>Bimbingan Skripsi Online
                 </h3>
 
                 <div class="card text-center  ml-5 mr-5 " style="border-radius: 25px;">
@@ -715,7 +715,7 @@
                                                 <h4 class="custom-package"
                                                     style="color: #FFF;
                                                 font-family: Montserrat;
-                                                font-size: 18px;
+                                                font-size: 12px;
                                                 font-style: normal;
                                                 font-weight: 700;
                                                 line-height: 125%; /* 40px */
@@ -723,12 +723,12 @@
                                                     PAKET SILVER</h4>
                                                 <div class="rupiah-display" style="position: relative;">
                                                     <h4
-                                                        style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                                        <strong class="rp" style="margin-left: 10px;">Rp</strong>
+                                                        style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 15px;">
+                                                        <strong class="rp" style="margin-left:50px">Rp</strong>
                                                     </h4>
                                                     <h4 style="color: #1E1E1E">250.000</h4>
                                                 </div>
-                                                <div class="custom-pricee" style="margin-right: 119px;"><strong>1
+                                                <div class="custom-pricee" style="margin-right: ;"><strong>1
                                                         Bulan</strong></div>
                                                 <hr style=" border: 2px solid #000; border-width: 1px;">
                                                 <ul>
@@ -743,12 +743,12 @@
                                                     </li>
                                                     <li class="left-aligned">
                                                         <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Penentuan dasar <br> teori berdasarkan
+                                                        <span class="text-bso"> Penentuan dasar teori<br> berdasarkan
                                                             variabel</span>
                                                     </li>
                                                     <li class="left-aligned">
                                                         <span class="checkmark">&#10003;</span>
-                                                        <span class="text-bso"> Waktu bimbingan 12x pertemuan</span>
+                                                        <span class="text-bso"> Waktu bimbingan 12x<br> pertemuan</span>
                                                     </li>
                                                     <li class="left-aligned">
                                                         <span class="checkmark">&#10003;</span>
@@ -798,7 +798,7 @@
                                 }
                             </style> --}}
                             <!-- Navigation arrows -->
-                            <a class="carousel-control-prev" href="#packageCarousel" role="button" data-slide="prev">
+                            {{-- <a class="carousel-control-prev" href="#packageCarousel" role="button" data-slide="prev">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="35"
                                     style="margin-left: 30px; margin-top: 50px;" viewBox="0 0 35" fill="none">
                                     <g filter="url(#filter0_b_229_15)">
@@ -832,7 +832,7 @@
                                         d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z"
                                         fill="none" stroke="white" stroke-width="3" />
                                 </svg>
-                                <span class="sr-only">Next</span>
+                                <span class="sr-only">Next</span> --}}
                             </a>
                         </div>
 
@@ -847,32 +847,14 @@
 
             {{-- OKOKOKOKOKOKOK --}}
 
-
-
             <section id="paketmentorr" class="paketmentor" style="background-color: white; ">
-                {{-- <h4 class="custom-packagee mt-4" style="color: #FFF; font-size:18;
-                    font-family: Montserrat;">Bimbingan Skripsi Online (BSO)</h4> --}}
-                                {{-- <div class="custom-btn-wrap"style="margin-top:26%">
-                        <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
-                    </div> --}}
+               
             </section>
 
-
-            <!-- <section id="paketmentor" class="paketmentor" style="background-color: #ffff; margin-top: -80px; ">
-                                <div class="paketmentorbg mb-5" style="margin-top: 300px;">
-                                <div style="width: 100%; text-align: center;">
-                                    <div style="width: 300px; height: 40px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
-                                        <div style="width: 424px; text-align: center; color: white; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">KONSULTASI REGULER</div>
-                                    </div>
-                                </div>
-
-                                  <h4  style="background-color: font-family: Manrope; text-align: center; font-size: 50px; margin-top: 20px; color: black;" >Konsultasi Reguler yang tersedia<br/>di Bimbingan Skripsi Online (BSO)</h4>
-                </section> -->
-
             <section id="paketmentor" class="paketmentor" style="background-color: #ffff; margin-top: -50px; ">
-                <div class="paketmentorbg mb-5" style="margin-top: 300px;">
+                <div class="paketmentorbg mb-5" style="margin-top: 300px; margin-left:-90px;">
                     <div
-                        style="margin-top: -300px; display: flex; justify-content: center; align-items: center; height: 100vh;">
+                        style="margin-top: -300px; display: flex; justify-content: center; align-items: center; height: 100vh; margin-left:100px;">
                         <div
                             style="width: 350px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; display: flex; flex-direction: column; align-items: center; gap: 10px;">
                             <div
@@ -899,7 +881,7 @@
                         <div
                             style="margin-top: -68px; width:1606px; height: 55px; left: 103px; top: 13px; position: absolute">
                             <div
-                                style="width: 1214px; height: 55px; margin-left: -5px; left: 0px; top: 0px; position: absolute; background: rgba(233.75, 233.75, 233.75, 0.75); border-top-left-radius: 55px; border-top-right-radius: 55px; backdrop-filter: blur(130.68px)">
+                                style="width: 350px; height: 55px; margin-left: -50px; left: 0px; top: 0px; position: absolute; background: rgba(233.75, 233.75, 233.75, 0.75); border-top-left-radius: 55px; border-top-right-radius: 55px; backdrop-filter: blur(130.68px)">
                             </div>
                             <div
                                 style="width: 22.65px; height: 22.65px; left: 50.71px; top: 15.39px; position: absolute; background: #FF0000; border-radius: 9999px">
@@ -924,47 +906,47 @@
                             color: blue;
                             border-radius: 50px !important;
                             line-height: 40px !important;
-                            width: 300px;
+                            width: 200px;
 
                         }
                     </style>
                     <div class="card text-center ml-5 mr-5 "
-                        style="height: 445px; width: 1214px; border-radius: 0 0 25px 25px; ">
+                        style="height: 445px; width: 200px; border-radius: 0 0 25px 25px; ">
                         <div class="card-body bg-primary"
-                            style="border-radius: 0 0 0 25px; width: 400px; height: auto; padding-bottom: 0px;padding-top: 0px;">
+                            style="border-radius: 0 0 0 25px; width: 200px; height: auto; padding-bottom: 0px;padding-top: 0px;">
                             <!-- Regular botton silver-->
                             <div
                                 style="margin-top: 35px; width: 100%;    justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                                 <button
-                                    style=" border: none; background: transparent;  font-size: 25px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word"
+                                    style=" border: none; background: transparent;  font-size: 12px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word"
                                     class="nav-bso  active" onclick="showPaket('paket1')"><b>REGULER SILVER</b></button>
                             </div>
                             <!-- Regular botton gold -->
                             <div
                                 style="margin-top: 35px; width: 100%;   border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                                 <button
-                                    style="border: none; background: transparent; border-radius: 50px; font-size: 25px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word;"
+                                    style="border: none; background: transparent; border-radius: 50px; font-size: 12px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word;"
                                     class="nav-bso " onclick="showPaket('paket2')"><b>REGULER GOLD</b></button>
                             </div>
                             <!-- Regular botton  PLATINUM -->
                             <div
                                 style="margin-top: 35px; width: 100%;   border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                                 <button
-                                    style="border: none; background: transparent; border-radius: 50px; font-size: 25px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word"
+                                    style="border: none; background: transparent; border-radius: 50px; font-size: 12px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word"
                                     class="nav-bso " onclick="showPaket('paket3')"><b>REGULER PLATINUM</b></button>
                             </div>
                             <!-- Regular botton  TITANIUM -->
                             <div
                                 style="margin-top: 35px; width: 100%;   border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                                 <button
-                                    style="border: none; background: transparent; border-radius: 50px; font-size: 25px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word"
+                                    style="border: none; background: transparent; border-radius: 50px; font-size: 12px !important; font-family: Montserrat; font-weight: 500; line-height: 40px; word-wrap: break-word"
                                     class="nav-bso " onclick="showPaket('paket4')"><b>REGULER TITANIUM</b></button>
                             </div>
                             {{-- Silver --}}
                             <div id="paket1" class="paketbso card-body active"
                                 style="margin-top: -360px; text-align: left; ">
                                 <div
-                                    style="color: black; font-family: Montserrat; font-size: 24px; width:800px; margin-left: 200px; ">
+                                    style="color: black; font-family: Montserrat; font-size: 12px; width:350px; margin-left: 180px; ">
                                     Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan dalam pembuatan dan
                                     penyusunan judul skripsi </div>
 
@@ -972,7 +954,7 @@
                                     <i class="fas fa-circle-check"
                                         style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                     <div
-                                        style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 700px;">
+                                        style="font-family: Montserrat; color: black; font-size: 10px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 350px;">
                                         Sobat Insans akan dibantu dalam menemukan masalah untuk judul skripsi yang akan
                                         dibuat </div>
                                 </div>
@@ -1199,16 +1181,16 @@
                         <div
                             style="width: 300px; height: 40px;  background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
                             <div
-                                style="width: 350px; text-align: center; color: white;  font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">
+                                style="width: 350px; text-align: center; color: white;  font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word ">
                                 KONSULTASI REGULER</div>
                         </div>
                     </div>
 
                     <h4
-                        style=" font-family: Montserrat; text-align: center; font-size: 25px; margin-top: 30px; color:#000; font-weight:bold;">
+                        style=" font-family: Montserrat; text-align: center; font-size: 25px; margin-top: 30px; color:#000; font-weight:bold; margin-bottom: -30px;">
                         Konsultasi Reguler</h4>
-                    <h4 style=" font-family: Montserrat; text-align: center; color:#000;">Memiliki delapan jenis konsultasi
-                        reguler dengan rincian dan biaya sebagai berikut:</h4>
+                    {{-- <h4 style=" font-family: Montserrat; text-align: center; color:#000;">Memiliki delapan jenis konsultasi
+                        reguler dengan rincian dan biaya sebagai berikut:</h4> --}}
 
                     <div id="packageCarousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -1222,14 +1204,14 @@
                                                         <thead>
                                                             <tr>
                                                                 <th scope="col" style="text-align: left;"><a
-                                                                        style="font-weight: 700 !important; font-size:25px !important; ">REGULER<a>
+                                                                        style="font-weight: 700 !important; font-size:20px !important; ">REGULER<a>
                                                                             <br><span class="green-text"
                                                                                 style="font-size: 18px !important;">Silver</span>
                                                                 </th>
                                                                 <th scope="col"> <span
                                                                         style="font-size: 18px !important;">Harga</span>
                                                                     <br><span class="blue-text"
-                                                                        style="font-weight: 700 !important; font-size:25px !important; ">Rp.
+                                                                        style="font-weight: 700 !important; font-size:20px !important; ">Rp.
                                                                         47.000</span>
                                                                 </th>
                                                             </tr>
@@ -1283,7 +1265,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    {{-- <div class="col">
                                         <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                                             <div class="card-body">
                                                 <h5 class="card-title">
@@ -1317,7 +1299,7 @@
                                                     </thead>
                                                 </table>
                                                 <ul class="deskripsi" style="list-style: none;">
-                                                    {{-- <i class="fa-solid fa-check"></i> --}}
+                                                   
                                                     <strong> Materi: </strong>
                                                     <li style="align-items:flex-start;"><i
                                                             class="fa-solid fa-circle-check"
@@ -1430,7 +1412,6 @@
                                                     </thead>
                                                 </table>
                                                 <ul class="deskripsi" style="list-style: none;">
-                                                    {{-- <i class="fa-solid fa-check"></i> --}}
                                                     <strong> Materi: </strong>
                                                     <li style="align-items:flex-start;"><i
                                                             class="fa-solid fa-circle-check"
@@ -1507,7 +1488,6 @@
                                                     </thead>
                                                 </table>
                                                 <ul class="deskripsi" style="list-style: none;">
-                                                    {{-- <i class="fa-solid fa-check"></i> --}}
                                                     <strong> Materi: </strong>
                                                     <li style="align-items:flex-start;"><i
                                                             class="fa-solid fa-circle-check"
@@ -1541,7 +1521,7 @@
                                                     style="border-radius: 10px; align-content: center;">Daftar Sekarang</a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -1554,14 +1534,14 @@
                                                         <thead>
                                                             <tr>
                                                                 <th scope="col" style="text-align: left;"><a
-                                                                        style="font-weight: 700 !important; font-size:25px !important; ">REGULER<a>
+                                                                        style="font-weight: 700 !important; font-size:20px !important; ">REGULER<a>
                                                                             <br><span class="green-text"
                                                                                 style="font-size: 18px !important;">Silver</span>
                                                                 </th>
                                                                 <th scope="col"> <span
                                                                         style="font-size: 18px !important;">Harga</span>
                                                                     <br><span class="blue-text"
-                                                                        style="font-weight: 700 !important; font-size:25px !important; ">Rp.
+                                                                        style="font-weight: 700 !important; font-size:20px !important; ">Rp.
                                                                         47k</span>
                                                                 </th>
                                                             </tr>
@@ -1616,7 +1596,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col">
+                                    {{-- <div class="col">
                                         <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                                             <div class="card-body">
                                                 <h5 class="card-title">
@@ -1650,7 +1630,6 @@
                                                     </thead>
                                                 </table>
                                                 <ul class="deskripsi" style="list-style: none;">
-                                                    {{-- <i class="fa-solid fa-check"></i> --}}
                                                     <strong> Materi: </strong>
                                                     <li style="align-items:flex-start;"><i
                                                             class="fa-solid fa-circle-check"
@@ -1764,7 +1743,6 @@
                                                     </thead>
                                                 </table>
                                                 <ul class="deskripsi" style="list-style: none;">
-                                                    {{-- <i class="fa-solid fa-check"></i> --}}
                                                     <strong> Materi: </strong>
                                                     <li style="align-items:flex-start;"><i
                                                             class="fa-solid fa-circle-check"
@@ -1842,7 +1820,6 @@
                                                     </thead>
                                                 </table>
                                                 <ul class="deskripsi" style="list-style: none;">
-                                                    {{-- <i class="fa-solid fa-check"></i> --}}
                                                     <strong> Materi: </strong>
                                                     <li style="align-items:flex-start;"><i
                                                             class="fa-solid fa-circle-check"
@@ -1877,7 +1854,7 @@
                                                     Sekarang</a>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
