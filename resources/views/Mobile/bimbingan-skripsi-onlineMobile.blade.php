@@ -73,7 +73,7 @@
 
 </head>
 
-@extends('layout.header')
+@extends('layout.headerMobile')
 @section('content')
 
     <body>

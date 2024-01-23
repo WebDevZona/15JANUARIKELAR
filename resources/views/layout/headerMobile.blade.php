@@ -11,12 +11,7 @@
                 {{-- <button class="search-white" type="submit">MASUK</button> --}}
                 </ul>
             </form>
-            {{-- <a href="/tentang" class=""><i style="padding:10px;">Tentang</i>|</a>
-            <a href="#" class="facebook"><i style="padding:10px;">FAQ</i> |</a>
-            <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" target='_blank'><i class="bi bi-youtube"style="padding:10px;"></i></a>
-            <a href="https://www.instagram.com/classprogram.id/" target='_blank'><i class="bi bi-instagram"style="padding:10px;"></i></a>
-            <a href="https://www.tiktok.com/@classprogram" target='_blank'><i class="bi bi-tiktok"style="padding:10px;"></i></i></a>
-            <a href="mailto:classprogram.id@gmail.com" target='_blank'><i class="bi bi-envelope"style="padding:10px;"></i></i></a> --}}
+           
         </div>
         <div class="social-links d-none d-md-flex align-items-center">
             @auth
@@ -47,16 +42,9 @@
             </ul>
             @endauth
 
-            {{-- <div class="countdown">
-              <span style="font-size: 15px;color: #e4dbdb; margin-right:15px;">Workshop Skripsi </span>
-              <span id="days">00</span> :
-              <span id="hours">00</span> :
-              <span id="minutes">00</span> :
-              <span id="seconds">00</span>
-          </div> --}}
+           
             <script src="script.js"></script>
-            <!-- <i class="bi bi-envelope d-flex align-items-center"style="margin-right:-35px;"><a href="https://mail.google.com/"></i>classprogram.id@gmail.com</a> -->
-            <!-- <i class="bi bi-phone d-flex align-items-center ms-4"><span>+1 5589 55488 55</span></i> -->
+           
         </div>
     </div>
 </section>
@@ -64,11 +52,6 @@
 <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <img src="assets/img/logo/logo1.png"class="img-fluid" alt=""> -->
-
-        {{-- <a href="index.php" ><img src="/public/assets/img/logo/logo1.png"class="logo" alt="Deskripsi Gambar"></a> --}}
 
         <nav id="navbar" class="navbar">
             <ul>
@@ -93,103 +76,17 @@
                         <li><a class="nav-link scrollto" href="nonaktif">Kelas Adobe Photoshop</a></li>
                     </ul>
                 </li>
-                {{-- <li class="dropdown"><a style="cursor: pointer;"><span>Lainnya</span> <i class="bi bi-chevron-down nav-link scrollto active"></i></a>
-                <ul style="border-radius: 15px;">
-                  <li><a class="nav-link scrollto" href="/tentang">Tentang Kami</a></li>
-                  <li><a class="nav-link scrollto" href="/kontak">Kontak</a></li>
-                  <li><a class="nav-link scrollto" href="#">FAQ</a></li>
-                </ul>
-              </li>               --}}
-
-                <!-- <li><a class="nav-link scrollto" href="nonaktif" style="margin-right:30px">Artikel</a></li> -->
+            
                 <li><a class="nav-link scrollto" href="#konsultasi" style="margin-right:30px">Alur bimbingan</a></li>
 
                 <li><a class="nav-link scrollto" href="#testimonials" style="margin-right:30px">Mentor</a></li>
                 <li><a class="nav-link scrollto" href="#testibaru" style="margin-right:30px">Testimoni</a></li>
                 <li><a class="nav-link scrollto" href="#faq" style="margin-right:30px">FAQ</a></li>
-                {{-- <li><a class="nav-link scrollto" href="/"style="margin-right:30px">Artikel</a></li> --}}
-                {{-- <div class="search-container">
-                    <button id="search-button" class="search-icon">
-                      <img src="{{ asset('assets/img/logo/cari.png') }}" alt="Search">
-                </button>
-                <button id="close-button" class="close-icon">
-                    <img src="{{ asset('assets/img/logo/xx.png') }}" alt="Close">
-                </button>
-                <div id="search-dropdown" class="search-dropdown">
-                    <div class="search-bar">
-                        <input type="text" id="search-input" placeholder="Cari...">
-                        <button id="search-submit" class="search-submit">
-                            <img src="{{ asset('assets/img/logo/cari.png') }}" alt="Search" style="width: 20px;">
-                        </button>
-                    </div> --}}
-                    <!--<ul id="search-results" class="search-results">
-                            Hasil pencarian akan ditampilkan di sini
-                        </ul>-->
+               
                 </div>
     </div>
     </li>
 
-    {{-- <li>
-                  <div class="cart-container">
-                    <button id="cart-button" class="cart-icon">
-                        <img src="{{ asset('assets/img/logo/keranjang.png') }}" alt="keranjang">
-    </button>
-    <div id="cart-dropdown" class="cart-dropdown">
-        <ul id="cart-items" class="cart-items">
-            <li class="cart-item">
-                <div class="item-details">
-                    <div class="item-image">
-                        <img src="{{ asset('assets/img/logo/keranjang.png') }}" alt="Item Image">
-                    </div>
-                    <div class="item-info">
-                        <h3 style=" font-size: 15px;">BMJ PAKET BRONZE</h3>
-                        <p class="item-price"><span>1X </span>$10</p>
-                    </div>
-                    <button class="remove-item-button">
-                        <img src="{{ asset('assets/img/logo/xx.png') }}" alt="Item Image">
-                    </button>
-                </div>
-            </li>
-            <li class="cart-item">
-                <div class="item-details">
-                    <div class="item-image">
-                        <img src="{{ asset('assets/img/logo/keranjang.png') }}" alt="Item Image">
-                    </div>
-                    <div class="item-info">
-                        <h3 style=" font-size: 15px;">BMJ PAKET BRONZE</h3>
-                        <p class="item-price"><span>1X </span>$10</p>
-                    </div>
-                    <button class="remove-item-button">
-                        <img src="{{ asset('assets/img/logo/xx.png') }}" alt="Item Image">
-                    </button>
-                </div>
-            </li>
-            <li class="cart-item">
-                <div class="item-details">
-                    <div class="item-image">
-                        <img src="{{ asset('assets/img/logo/keranjang.png') }}" alt="Item Image">
-                    </div>
-                    <div class="item-info">
-                        <h3 style=" font-size: 15px;">BMJ PAKET BRONZE</h3>
-                        <p class="item-price"><span>1X </span>$10</p>
-                    </div>
-                    <button class="remove-item-button">
-                        <img src="{{ asset('assets/img/logo/xx.png') }}" alt="Item Image">
-                    </button>
-                </div>
-            </li>
-        </ul>
-        <hr>
-        <button id="checkout-button" class="checkout-button" style="margin-bottom:15px">Checkout</button>
-    </div>
-    </div>
-    </li> --}}
-
-
-    <!--<ul style="border-radius: 2px;">
-                <li><a class="nav-link scrollto" href="/tentang">Login</a></li>
-                  <li><a class="nav-link scrollto" href="/kontak">logout</a></li>
-                </ul>      -->
     </li>
     </ul>
     <i class="bi bi-list mobile-nav-toggle"></i>
@@ -218,59 +115,7 @@
 </div>
 
 <script>
-    // document.addEventListener('DOMContentLoaded', function() {
-    //   const searchIcon = document.getElementById('search-button');
-    //   const closeIcon = document.getElementById('close-button');
-    //   const searchDropdown = document.getElementById('search-dropdown');
-    //   const searchInput = document.getElementById('search-input');
-    //   const searchSubmit = document.getElementById('search-submit');
-    //   const searchResults = document.getElementById('search-results');
-
-    //   searchIcon.addEventListener('click', function() {
-    //       toggleSearch();
-    //   });
-
-    //   closeIcon.addEventListener('click', function() {
-    //       toggleSearch();
-    //   });
-
-    //   function toggleSearch() {
-    //       if (searchDropdown.style.display === 'block') {
-    //           searchDropdown.style.opacity = '0';
-    //           searchDropdown.style.transform = 'translateY(-10px)';
-    //           closeIcon.style.display = 'none';
-    //           searchIcon.style.display = 'block';
-    //           setTimeout(function() {
-    //               searchDropdown.style.display = 'none';
-    //           }, 300);
-    //       } else {
-    //           searchDropdown.style.display = 'block';
-    //           closeIcon.style.display = 'block';
-    //           searchIcon.style.display = 'none';
-    //           setTimeout(function() {
-    //               searchDropdown.style.opacity = '1';
-    //               searchDropdown.style.transform = 'translateY(0)';
-    //               searchInput.focus();
-    //           }, 10);
-    //       }
-    //   }
-
-    //   searchSubmit.addEventListener('click', function() {
-    //       // Lakukan pencarian atau tindakan lainnya di sini
-    //   });
-
-    //   document.addEventListener('click', function(event) {
-    //       if (!searchDropdown.contains(event.target) && !searchIcon.contains(event.target)) {
-    //           searchDropdown.style.opacity = '0';
-    //           searchDropdown.style.transform = 'translateY(-10px)';
-    //           closeIcon.style.display = 'none';
-    //           searchIcon.style.display = 'block';
-    //           setTimeout(function() {
-    //               searchDropdown.style.display = 'none';
-    //           }, 300);
-    //       }
-    //   });
-    // });
+    
 
 
 
@@ -394,4 +239,4 @@
     @yield('content')
 </main>
 
-@include('layout.footer')
+@include('layout.footerMobile')
