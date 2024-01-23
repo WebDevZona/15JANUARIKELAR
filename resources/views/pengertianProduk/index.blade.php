@@ -38,7 +38,7 @@
         <div class="row">
             <div class="col">
                 <h4><i class="nav-icon fas fa-child my-0 btn-sm-1"></i> Paket</h3>
-                <hr>
+                    <hr>
             </div>
         </div>
         <div>
@@ -55,17 +55,29 @@
                             <tr class="bg-light">
                                 <th>No.</th>
                                 {{-- <th>NIS</th> --}}
-                                <th><div style="width:110px;">nama</div></th>
-                                <th><div style="width:110px;">Isi</div></th>
-                                <th><div style="width:110px;">Keterangan</div></th>
+                                <th>
+                                    <div style="width:110px;">nama</div>
+                                </th>
+                                <th>
+                                    <div style="width:110px;">Isi</div>
+                                </th>
+                                <th>
+                                    <div style="width:110px;">Keterangan</div>
+                                </th>
                                 {{-- <th><div style="width:110px;">P</div></th> --}}
                                 {{-- <th><div style="width:110px;">Publish</div></th>
                                 <th><div style="width:110px;">pengertianProduk</div></th> --}}
-                                <th><div style="width:110px;">Produk</div></th>
-                                <th><div style="width:110px;">Foto</div></th>
+                                <th>
+                                    <div style="width:110px;">Produk</div>
+                                </th>
+                                <th>
+                                    <div style="width:110px;">Foto</div>
+                                </th>
                                 {{-- <th><div style="width:110px;">alamat</div></th>
                                 <th><div style="width:110px;">Jenis Kelamin</div></th> --}}
-                                <th><center> Aksi</center></th>
+                                <th>
+                                    <center> Aksi</center>
+                                </th>
                             </tr>
                         </thead>
                         <tbody>
@@ -83,23 +95,23 @@
                                 <td>
                                     @if($pengertianProduk->foto)
                                     {{-- @if( in_array(pathinfo($pengertianProduk->foto, PATHINFO_EXTENSION), ['png', 'jpg', 'JPEG'])) --}}
-                                    <img src="{{ asset('foto_upload/'.$pengertianProduk->foto) }}" alt="" title=""style="height: 150px;width:100px;">
+                                    <img src="{{ asset('foto_upload/'.$pengertianProduk->foto) }}" alt="" title="" style="height: 150px;width:100px;">
                                     @else
                                     <p>Tidak ada foto profil.</p>
                                     @endif
-                                </td>                
+                                </td>
                                 <td>
                                     <center>
-                                    <div class="ok"style="width:220px;">
-                                    <a href="/pengertianProduk/{{$pengertianProduk->id}}/edit" class="btn btn-primary btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-pencil-alt"></i> Edit</a>
-                                    @if (auth()->user()->role == 'admin')
-                                    {{-- <a href="/pengertianProduk/{{$pengertianProduk->id}}/delete" class="btn btn-danger btn-sm my-1 mr-sm-1" onclick="return confirm('Hapus Data ?')"><i class="nav-icon fas fa-trash"></i>
-                                        Hapus</a> --}}
-                                    {{-- <a href="/pengertianProduk/{{$pengertianProduk->id}}/show" class="btn btn-success btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-child"></i> Detail</a> --}}
-                                    @endif
-                            
-                                </div>
-                            </center>
+                                        <div class="ok" style="width:220px;">
+                                            <a href="/pengertianProduk/{{$pengertianProduk->id}}/edit" class="btn btn-primary btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-pencil-alt"></i> Edit</a>
+                                            @if (auth()->user()->role == 'admin')
+                                            {{-- <a href="/pengertianProduk/{{$pengertianProduk->id}}/delete" class="btn btn-danger btn-sm my-1 mr-sm-1" onclick="return confirm('Hapus Data ?')"><i class="nav-icon fas fa-trash"></i>
+                                            Hapus</a> --}}
+                                            {{-- <a href="/pengertianProduk/{{$pengertianProduk->id}}/show" class="btn btn-success btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-child"></i> Detail</a> --}}
+                                            @endif
+
+                                        </div>
+                                    </center>
                                 </td>
                             </tr>
                             @endforeach

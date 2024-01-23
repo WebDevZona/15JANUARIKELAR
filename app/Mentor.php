@@ -8,11 +8,12 @@ class Mentor extends Model
 {
 
     protected $table = 'mentor';
-    
-    protected $guarded = [];
-    
+
+    // protected $guarded = [];
+    protected $fillable = ['nama', 'kelas', 'foto', 'id_jurusan', 'publish'];
+
     public function jurusan()
     {
-        return $this->belongsTo('App\jurusan','id_jurusan' );
+        return $this->belongsTo('App\jurusan', 'id_jurusan');
     }
 }

@@ -2,40 +2,41 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Class Program</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Class Program</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Favicons -->
+    <link href="{{asset('assets/img/logo/logo2.png')}}" rel="icon">
+    <link href="{{asset('assets/img/logo/logo2.png')}}" rel="shortcut icon">
 
-  <!-- Favicons -->
-  <link href="{{asset('assets/img/logo/logo2.png')}}" rel="icon">
-  <link href="{{asset('assets/img/logo/logo2.png')}}" rel="shortcut icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  
-  <!-- Vendor CSS Files -->
-  <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
-  <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
-  
-  <!-- Include Bootstrap CSS and JS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Vendor CSS Files -->
+    <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <!-- Include Bootstrap CSS and JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-  <!-- Font Awesome CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
+    <!-- Template Main CSS File -->
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 
 
-<style>
+    <style>
         /* body {
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
@@ -52,6 +53,7 @@
             /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
             border-radius: 5px;
         }
+
         .pembayaran {
             max-width: 950px;
             margin: 0 auto;
@@ -62,7 +64,8 @@
             border-radius: 5px;
         }
 
-        h1, h2 {
+        h1,
+        h2 {
             text-align: center;
             color: #007bff;
         }
@@ -91,7 +94,7 @@
             flex-grow: 1;
             height: 1px;
             background-color: #999;
-            
+
         }
 
         .left {
@@ -174,52 +177,57 @@
             /* text-align: center; */
             font-size: 12px;
         }
+
         .wokewoke {
-    justify-content: center;
-    align-items: center;
- 
-    padding: 20px; /* Add padding for spacing around the content */
+            justify-content: center;
+            align-items: center;
+
+            padding: 20px;
+            /* Add padding for spacing around the content */
 
         }
 
         /* Styles untuk popup */
         .overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan */
-    z-index: 9999; /* Indeks z yang tinggi untuk menutup elemen lain */
-}
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            /* Latar belakang semi-transparan */
+            z-index: 9999;
+            /* Indeks z yang tinggi untuk menutup elemen lain */
+        }
 
-/* Styles untuk popup */
-.popup {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    z-index: 10000; /* Indeks z yang lebih tinggi dari overlay */
-}
+        /* Styles untuk popup */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            z-index: 10000;
+            /* Indeks z yang lebih tinggi dari overlay */
+        }
 
-/* Styles untuk tombol tutup */
-.close-button {
-    background-color: #ff0000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 10px;
-}
+        /* Styles untuk tombol tutup */
+        .close-button {
+            background-color: #ff0000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
 
 
-.pesanan-checkout {
+        .pesanan-checkout {
             /* border: 1px solid #ddd; */
             padding: 20px;
             background-color: #f8f8f8;
@@ -291,6 +299,7 @@
         #checkoutButton:hover {
             background-color: #c0392b;
         }
+
         #checkoutButton1 {
             background-color: #e74c3c;
             color: #fff;
@@ -307,213 +316,224 @@
         }
 
         @media (max-width: 768px) {
-    /* Style untuk popup pada perangkat seluler */
-    #bankAccountPopup {
-        width: 90%;
-        max-width: 320px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-    
-    /* Style untuk teks dan tombol pada perangkat seluler */
-    #bankAccountPopup h3 {
-        font-size: 1.5rem;
-    }
-    
-    #bankAccountPopup p {
-        font-size: 1rem;
-    }
-    
-    #uploadProofButton {
-        font-size: 1rem;
-        padding: 10px 20px;
-    }
-}
 
-.package {
-        background-color: #f9f9f9;
-        padding: 20px;
-        border: 1px solid #ddd;
-        margin-top: 20px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-radius: 5px;
-    }
+            /* Style untuk popup pada perangkat seluler */
+            #bankAccountPopup {
+                width: 90%;
+                max-width: 320px;
+                margin: 0 auto;
+                padding: 20px;
+            }
 
-    .package-details {
-        flex: 1;
-        padding: 20px;
-    }
+            /* Style untuk teks dan tombol pada perangkat seluler */
+            #bankAccountPopup h3 {
+                font-size: 1.5rem;
+            }
 
-    .package h3 {
-        color: #007bff;
-        margin-bottom: 10px;
-    }
+            #bankAccountPopup p {
+                font-size: 1rem;
+            }
 
-    .features {
-        list-style: none;
-        padding: 0;
-    }
+            #uploadProofButton {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+        }
 
-    .features li {
-        padding: 5px;
-    }
+        .package {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin-top: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 5px;
+        }
 
-    .price {
-        text-align: right;
-        padding: 20px;
-        background-color: #f9f9f9;
-        color: #007bff;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-        font-size: 18px;
-    }
+        .package-details {
+            flex: 1;
+            padding: 20px;
+        }
 
-    .price del {
-        color: #999;
-    }
+        .package h3 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
 
-    .select-button {
-        background-color: #007bff;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        cursor: pointer;
-        font-weight: bold;
-        transition: background-color 0.3s ease;
-        border-radius: 5px;
-        display: block;
-        width: 100%;
-    }
+        .features {
+            list-style: none;
+            padding: 0;
+        }
 
-    .select-button:hover {
-        background-color: #0056b3;
-    }
-    .wokewoke {
-justify-content: center;
-align-items: center;
+        .features li {
+            padding: 5px;
+        }
 
-padding: 20px; /* Add padding for spacing around the content */
+        .price {
+            text-align: right;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #007bff;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            font-size: 18px;
+        }
 
-    }
-    #loginPopup {
-        display: none;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #ffffff;
-        padding: 20px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        z-index: 999;
-        width: 300px; /* Adjust the width as needed */
-        text-align: center;
-    }
+        .price del {
+            color: #999;
+        }
 
-    #loginPopup p {
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
+        .select-button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            border-radius: 5px;
+            display: block;
+            width: 100%;
+        }
 
-    #loginPopup a {
-        text-decoration: none;
-        color: #007BFF;
-        font-weight: bold;
-        margin-right: 10px;
-    }
+        .select-button:hover {
+            background-color: #0056b3;
+        }
 
-    #loginPopup button {
-        background-color: #007BFF;
-        color: #fff;
-        border: none;
-        padding: 10px 20px;
-        cursor: pointer;
-    }
+        .wokewoke {
+            justify-content: center;
+            align-items: center;
 
-    #loginPopup button:hover {
-        background-color: #0056b3;
-    }
+            padding: 20px;
+            /* Add padding for spacing around the content */
 
+        }
 
-
-    .form-containerbro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-}
-
-.name-and-gender {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.name,
-.kelamin {
-  flex: 1;
-}
-/* .name{
-    margin-right:20%; 
-} */
-.kelamin{
-    margin-left: 20%;
-}
-
-.name input,
-.kelamin select {
-  /* width: 100%; Menyesuaikan lebar elemen */
-  height: 50px;
-}
-
-
-.email,
-.nomer {
-  flex: 1;
-}
-/* .email{
-    margin-right:20%; 
-} */
-.nomer{
-    margin-left: 20%;
-}
-
-.email input,
-.nomer select {
-  /* width: 100%; Menyesuaikan lebar elemen */
-  height: 50px;
-}
-
-.jurusan,
-.semester,
-.kampus {
-  flex: 1;
-}
-.jurusan,
-.semester{
- margin-left: 2%
-}
-/* .jurusan{
-    margin-right:20%; 
-} */
-/* .kampus{
-    margin-left: 20%;
-} */
-
-.jurusan input,
-.kampus select {
-  /* width: 100%; Menyesuaikan lebar elemen */
-  height: 50px;
-}
-
-
-
-.kartu-kredit {
+        #loginPopup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 999;
             width: 300px;
-            background-color: #0055A4; /* Warna BCA */
-            color: #FFFFFF; /* Warna teks */
+            /* Adjust the width as needed */
+            text-align: center;
+        }
+
+        #loginPopup p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        #loginPopup a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        #loginPopup button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        #loginPopup button:hover {
+            background-color: #0056b3;
+        }
+
+
+
+        .form-containerbro {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .name-and-gender {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .name,
+        .kelamin {
+            flex: 1;
+        }
+
+        /* .name{
+    margin-right:20%;
+} */
+        .kelamin {
+            margin-left: 20%;
+        }
+
+        .name input,
+        .kelamin select {
+            /* width: 100%; Menyesuaikan lebar elemen */
+            height: 50px;
+        }
+
+
+        .email,
+        .nomer {
+            flex: 1;
+        }
+
+        /* .email{
+    margin-right:20%;
+} */
+        .nomer {
+            margin-left: 20%;
+        }
+
+        .email input,
+        .nomer select {
+            /* width: 100%; Menyesuaikan lebar elemen */
+            height: 50px;
+        }
+
+        .jurusan,
+        .semester,
+        .kampus {
+            flex: 1;
+        }
+
+        .jurusan,
+        .semester {
+            margin-left: 2%
+        }
+
+        /* .jurusan{
+    margin-right:20%;
+} */
+        /* .kampus{
+    margin-left: 20%;
+} */
+
+        .jurusan input,
+        .kampus select {
+            /* width: 100%; Menyesuaikan lebar elemen */
+            height: 50px;
+        }
+
+
+
+        .kartu-kredit {
+            width: 300px;
+            background-color: #0055A4;
+            /* Warna BCA */
+            color: #FFFFFF;
+            /* Warna teks */
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -531,7 +551,8 @@ padding: 20px; /* Add padding for spacing around the content */
         .nomor-kartu {
             font-size: 18px;
             margin-bottom: 10px;
-            letter-spacing: 4px; /* Spasi antar digit nomor kartu */
+            letter-spacing: 4px;
+            /* Spasi antar digit nomor kartu */
         }
 
         /* Nama Pemegang Kartu */
@@ -546,82 +567,96 @@ padding: 20px; /* Add padding for spacing around the content */
         }
 
         #jurasanSelect option[data-publish="tidak"] {
-        color: #888; /* Ubah warna teks menjadi abu-abu */
-        background-color: #f2f2f2; /* Ubah latar belakang menjadi abu-abu muda */
-        cursor: not-allowed; /* Ganti kursor menjadi 'not-allowed' */
-    }
+            color: #888;
+            /* Ubah warna teks menjadi abu-abu */
+            background-color: #f2f2f2;
+            /* Ubah latar belakang menjadi abu-abu muda */
+            cursor: not-allowed;
+            /* Ganti kursor menjadi 'not-allowed' */
+        }
     </style>
     <title>Pendaftaran paket 1</title>
 </head>
 @extends('layout.header')
 @section('content')
+
 <body>
-  <div class="luar">
-    <div class="pembayaran">
-        <h3>Lengkapi formulir pendaftaran dulu ya Sob.. Supaya Minma bisa menentukan mentor yang terbaik untukmu 😀</h3>
-        <div class="step-pembayaran">
-            <div class="step left">1</div>
-            <div class="separator"style=" border: 1px solid #007bff;     background-color: #007bff; "></div>
-            <div class="step center">2</div>
-            <div class="separator"></div>
-            <div class="step right">3</div>
-        </div>
+    <div class="luar">
+        <div class="pembayaran">
+            <h3 style="color: #333;">Form Data Diri</h3>
+            <div class="step-pembayaran">
+                <div class="step left">1</div>
+                <div class="separator" style=" border: 1px solid #007bff;     background-color: #007bff; "></div>
+                <div class="step center">2</div>
+                <div class="separator"></div>
+                <div class="step right">3</div>
+            </div>
 
-       
-        <div class="registration-form">
-          
-            <form>
-                <label for="name">Nama Lengkap</label>
-                <input value="{{$Users->name}}"class="form-control" name="name" type="text" id="name" placeholder="Nama" >
+            <div class="registration-form">
+                <form class="row g-3 ">
+                    <div class="col-md-6">
+                        <label for="name">Nama Lengkap</label>
+                        <input value="{{$Users->name}}" class="form-control" name="name" type="text" id="name" placeholder="Nama">
 
-                <label for="email">Email</label>
-                <input value="{{$Users->email}}" type="email" id="email" name="email" placeholder="Email">
-                <div class="info">*Pastikan email kamu sudah benar</div>
-              
-                {{-- <label for="ttl">Tanggal Lahir</label>
-                <input  value="{{$Users->ttl}}"type="text" id="ttl" name="ttl" placeholder="Tanggal Lahir"> --}}
+                    </div>
 
-                {{-- <label for="asal">Alamat</label>
-                <input type="text"value="{{$Users->asal}}" id="asal" name="asal" placeholder="Asal"> --}}
+                    <div class="col-md-6">
+                        <label for="jeniskelamin">Jenis Kelamin</label>
+                        <select id="jeniskelamin" name="jeniskelamin">
+                            <option value="laki-laki">Laki-Laki</option>
+                            <option value="perempuan">Perempuan</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="email">Email</label>
+                        <input value="{{$Users->email}}" type="email" id="email" name="email" placeholder="Email">
+                        <div class="info">*Pastikan email kamu sudah benar</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="nomer">Nomor Telepon</label>
+                        <input type="text" value="{{$Users->nomer}}" id="nomer" name="nomer" placeholder="Nomor Telepon">
+                    </div>
+                    <!-- <div class="col-12">
+                        <label for="semester">Judul skripsi</label>
+                        <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
+                    </div> -->
+                    <div class="col-md-4">
+                        <label for="kampus">Kampus</label>
+                        <input type="text" value="{{$Users->kampus}}" id="kampus" name="kampus" placeholder="Kampus">
+                    </div>
+                    <div class="col-md-4">
+                        <!-- <label for="kampus">Kampus</label>
+                        <input type="text" value="{{$Users->jurusan}}" id="kampus" name="kampus" placeholder="Kampus">
+                    </div> -->
+                        <label for="id_jurusan">Jurasan yang akan di pilih</label>
+                        <select id="jurasanSelect">
+                            <option value="">-- Pilih Jurasan --</option>
+                            @foreach($datas as $ibui)
+                            <option value="{{$ibui->id}}" data-publish="{{$ibui->publish}}" data-nama="{{$ibui->nama}}">{{$ibui->nama}}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="semester">Semester</label>
+                        <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
+                    </div>
+                    <!-- <div class="col-12">
+                        <label for="semester">Problem Selama bimbingan (Dosen)</label>
+                        <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
+                    </div> -->
 
-                <label for="nomer">Nomor Telepon</label>
-                <input type="text"value="{{$Users->nomer}}" id="nomer" name="nomer" placeholder="Nomor Telepon">
-
-                <label for="kampus">Kampus</label>
-                <input type="text"value="{{$Users->kampus}}" id="kampus" name="kampus" placeholder="Kampus">
-
-                {{-- <label for="jurusan">Jurusan</label>
-                <input type="text"value="{{$Users->jurusan}}" id="jurusan" name="jurusan" placeholder="Jurusan"> --}}
-
-                <label for="semester">Semester</label>
-                <input type="text" value="{{$Users->semester}}"id="semester" name="semester" placeholder="Semester">
-             
-                <label for="jeniskelamin">Jenis Kelamin</label>
-                <select id="jeniskelamin" name="jeniskelamin">
-                    <option value="laki-laki">Laki-Laki</option>
-                    <option value="perempuan">Perempuan</option>
-                </select>
-                <label for="semester">Judul skripsi</label>
-                <input type="text" value="{{$Users->semester}}"id="semester" name="semester" placeholder="Semester">
-                <label for="semester">Problem Selama bimbingan (Dosen)</label>
-                <input type="text" value="{{$Users->semester}}"id="semester" name="semester" placeholder="Semester">
-
-
-                <label for="id_jurusan">Jurasan yang akan di pilih</label>
-                <select id="jurasanSelect">
-                    <option value="">-- Pilih Jurasan --</option>
-                    @foreach($datas as $ibui)
-                    <option value="{{$ibui->id}}" data-publish="{{$ibui->publish}}" data-nama="{{$ibui->nama}}">{{$ibui->nama}}</option>
-                    @endforeach
-                </select>
-               
-                <button  type="submit" style="display: none;"> <a id="paket-link" href="{{ route('pembayaran', [
-                    'id_produk' => $id_pesdik_login->id_produk, 
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary"><a id="paket-link" style="color: #FFFFFF;" href="{{ route('pembayaran', [
+                    'id_produk' => $id_pesdik_login->id_produk,
                     'id' => auth()->id( ),
                     'nama_voucher' => isset($response->voucher) ? $response->voucher->nama : ''
-                ]) }}">Lanjut</button>            
-                
-            </form>
+                ]) }}"> Lanjut <i class="fa fa-arrow-right"></i></button>
+                    </div>
+
+
+
+                </form>
+            </div>
             {{-- <div class="info">Registrasi akun Satu Persen diperlukan untuk memilih jadwal mentoring.</div> --}}
         </div>
         <div id="popup" class="popup">
@@ -630,194 +665,191 @@ padding: 20px; /* Add padding for spacing around the content */
             <button id="chatButton">Chat via WhatsApp</button>
             <button id="closePopup" class="close-button">Tutup</button>
         </div>
-      
+
         <!-- Inside your existing HTML structure -->
         <div class="pesanan-checkout" style="display: none;">
-   <div class="order-header">
-            <h3>Detail Pesanan</h3>
-        </div>
-        <div class="order-details">
-            <div class="item">
-                <span>Program: {{$Produk->produk}}</span>
-                <span>Paket: {{$Produk->produk}}</span>
-                <span>Harga: ${{ number_format($Produk->harga, 2) }}</span>
-                <div class="order-summary">
-                    @if ($voucher->discount ??'')
+            <div class="order-header">
+                <h3 style="color: #333;">Detail Pesanan</h3>
+            </div>
+            <div class="order-details">
+                <div class="item">
+                    <span>Program: {{$Produk->produk}}</span>
+                    <span>Paket: {{$Produk->produk}}</span>
+                    <span>Harga: ${{ number_format($Produk->harga, 2) }}</span>
+                    <div class="order-summary">
+                        @if ($voucher->discount ??'')
                         <span>Discount: {{ $voucher->discount }}%</span>
                         <span class="total">Total: ${{ number_format($Produk->harga - ($Produk->harga * ($voucher->discount / 100)), 2) }}</span>
                     </div>
                 </div>
                 <div class="order-total">
                     <span>Total Harga: ${{ number_format($Produk->harga - ($Produk->harga * ($voucher->discount / 100)), 2) }}</span>
-                       <button id="checkoutButton" onclick="showRekening()">Checkout</button>
+                    <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
+                    <a style="margin-bottom: 20px;" href="/rekening" id="checkoutButton" onclick="showRekening()">Checkout</a>
 
                 </div>
                 @else
-                <span class="total">Total: ${{ number_format($Produk->harga, 2) }}</span>
-                </div>
-                </div>
-                <div class="order-total">
-                    <span>Total Harga: ${{ number_format($Produk->harga, 2) }}</span>
-                       <button id="checkoutButton" onclick="showRekening()">Checkout</button>
- <!-- Ubah ID ini -->
-                </div>
-                @endif
-                
-</div>
+                <span style="margin-bottom: 20px;" class="total">Total: ${{ number_format($Produk->harga, 2) }}</span>
+            </div>
+        </div>
+        <div class="order-total">
+            <span style="margin-bottom: 20px; margin-top:-50px;">Total Harga: ${{ number_format($Produk->harga, 2) }}</span>
+            <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
+            <a style="margin-bottom: 20px;" href="/rekening" id="checkoutButton" onclick="showRekening()">Checkout</a>
 
-<div id="rekeningInfo" style="display:none;">
-    <div class="kartu-kredit">
-        <img class="logo-bank" src="{{asset('assets/img/logo/BCA1.png')}}" alt="Logo Bank">
-        <div class="nomor-kartu">
-            1234 5678 9012 3456 
+            <!-- Ubah ID ini -->
         </div>
-        <div class="nama-pemegang-kartu">
-            NAMA PEMEGANG KARTU 
-        </div>
-        <div class="tanggal-kedaluwarsa">
-            THRU 12/23 
-        </div>
+        @endif
+
     </div>
 
-    <div class="unggah" style="float: right;width:50%;margin-top:-20%">
-    <label class="upload-button" for="file-upload">Unggah Foto</label>
-    <input id="file-upload" class="file-upload" type="file" accept="image/*" onchange="displayUploadedPhoto(this)">
-    <div id="uploaded-photo"></div>
-    </div>
-</div>
+    <!-- <div id="rekeningInfo" style="display:none;">
+        <div class="kartu-kredit">
+            <img class="logo-bank" src="{{asset('assets/img/logo/BCA1.png')}}" alt="Logo Bank">
+            <div class="nomor-kartu">
+                1234 5678 9012 3456
+            </div>
+            <div class="nama-pemegang-kartu">
+                NAMA PEMEGANG KARTU
+            </div>
+            <div class="tanggal-kedaluwarsa">
+                THRU 12/23
+            </div>
+        </div>
 
-
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <div class="unggah" style="float: right;width:50%;margin-top:-20%">
+            <label class="upload-button" for="file-upload">Unggah Foto</label>
+            <input id="file-upload" class="file-upload" type="file" accept="image/*" onchange="displayUploadedPhoto(this)">
+            <div id="uploaded-photo"></div>
+        </div>
+    </div> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </div>
-</div>
+    </div>
 </body>
 <script>
-function showRekening() {
-    var rekeningInfo = document.getElementById("rekeningInfo");
-    rekeningInfo.style.display = "block";
-}
+    function showRekening() {
+        var rekeningInfo = document.getElementById("rekeningInfo");
+        rekeningInfo.style.display = "block";
+    }
 
 
-       $(document).ready(function() {
-            // Fungsi untuk menampilkan popup
-            function showPopup() {
-                $("#overlay").show();
-                $("#popup").show();
-                // Mencegah scroll pada halaman
-                $("body").css("overflow", "hidden");
-            }
-
-            // Fungsi untuk menyembunyikan overlay dan popup
-            function hidePopup() {
-                $("#overlay").hide();
-                $("#popup").hide();
-                // Mengembalikan scroll pada halaman
-                $("body").css("overflow", "auto");
-            }
-
-            // Ketika tombol "Tutup" di popup diklik
-            $("#closePopup").click(function() {
-                // Sembunyikan overlay dan popup
-                hidePopup();
-            });
-
-            // Ketika tombol "Chat via WhatsApp" diklik
-            $("#chatButton").click(function() {
-                // Ambil data-publish dari opsi yang dipilih
-                var selectedOption = $("#jurasanSelect").find(":selected");
-                var publishValues = selectedOption.data("nama");
-
-                // Ganti nomor WhatsApp di bawah ini sesuai dengan nomor yang Anda inginkan
-                var phoneNumber = "6285156416448"; // Ganti dengan nomor WhatsApp yang sesuai
-
-                // Pesan yang ingin Anda kirimkan
-                var message = "Halo, saya ingin berbicara tentang " + publishValues + ".";
-
-                // Buat URL WhatsApp dengan nomor dan pesan yang diinginkan
-                var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
-
-                // Buka jendela WhatsApp baru dengan pesan yang sudah diisi
-                window.open(whatsappURL);
-            });
-
-            function checkInputs() {
-    var allInputsFilled = true;
-
-    // Periksa semua input teks yang memiliki atribut "required" apakah sudah diisi
-    $("form input[required]").each(function() {
-        if ($(this).val() === "") {
-            allInputsFilled = false;
-            return false; // Hentikan perulangan jika ada satu input yang kosong
+    $(document).ready(function() {
+        // Fungsi untuk menampilkan popup
+        function showPopup() {
+            $("#overlay").show();
+            $("#popup").show();
+            // Mencegah scroll pada halaman
+            $("body").css("overflow", "hidden");
         }
-    });
 
-    // Periksa apakah pilihan jurusan telah dipilih
-    var selectedJurusan = $("#jurasanSelect").val();
-    if (selectedJurusan === "") {
-        allInputsFilled = false;
-    }
+        // Fungsi untuk menyembunyikan overlay dan popup
+        function hidePopup() {
+            $("#overlay").hide();
+            $("#popup").hide();
+            // Mengembalikan scroll pada halaman
+            $("body").css("overflow", "auto");
+        }
 
-    // Aktifkan tombol "Lanjut" jika semua input dan pilihan jurusan telah diisi
-    if (allInputsFilled) {
-        $("button[type='submit']").show();
-    } else {
-        $("button[type='submit']").show();
-    }
-}
+        // Ketika tombol "Tutup" di popup diklik
+        $("#closePopup").click(function() {
+            // Sembunyikan overlay dan popup
+            hidePopup();
+        });
 
-// Panggil fungsi checkInputs saat input berubah atau halaman dimuat
-$("form input[required], #jurasanSelect").on("input change", checkInputs);
-checkInputs(); // Panggil saat halaman dimuat
+        // Ketika tombol "Chat via WhatsApp" diklik
+        $("#chatButton").click(function() {
+            // Ambil data-publish dari opsi yang dipilih
+            var selectedOption = $("#jurasanSelect").find(":selected");
+            var publishValues = selectedOption.data("nama");
 
+            // Ganti nomor WhatsApp di bawah ini sesuai dengan nomor yang Anda inginkan
+            var phoneNumber = "6285156416448"; // Ganti dengan nomor WhatsApp yang sesuai
 
-    // Panggil fungsi checkInputs saat input berubah atau halaman dimuat
-    $("form input[required]").on("input", checkInputs);
-    checkInputs(); // Panggil saat halaman dimuat
+            // Pesan yang ingin Anda kirimkan
+            var message = "Halo, saya ingin berbicara tentang " + publishValues + ".";
 
-            // Ketika nilai select berubah
-            $("#jurasanSelect").change(function() {
-                // Ambil data-publish dari opsi yang dipilih
-                var selectedOption = $(this).find(":selected");
-                var publishValue = selectedOption.data("publish");
+            // Buat URL WhatsApp dengan nomor dan pesan yang diinginkan
+            var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
 
-                // Cek apakah publish adalah "tidak" atau tidak ada nilai
-                if (publishValue === "tidak") {
-                    // Tampilkan popup jika publish adalah "tidak"
-                    showPopup();
-                } else {
-                    // Sembunyikan popup jika publish tidak ada
-                    hidePopup();
+            // Buka jendela WhatsApp baru dengan pesan yang sudah diisi
+            window.open(whatsappURL);
+        });
+
+        function checkInputs() {
+            var allInputsFilled = true;
+
+            // Periksa semua input teks yang memiliki atribut "required" apakah sudah diisi
+            $("form input[required]").each(function() {
+                if ($(this).val() === "") {
+                    allInputsFilled = false;
+                    return false; // Hentikan perulangan jika ada satu input yang kosong
                 }
             });
-            $(document).ready(function() {
-    // ...
+
+            // Periksa apakah pilihan jurusan telah dipilih
+            var selectedJurusan = $("#jurasanSelect").val();
+            if (selectedJurusan === "") {
+                allInputsFilled = false;
+            }
+
+            // Aktifkan tombol "Lanjut" jika semua input dan pilihan jurusan telah diisi
+            if (allInputsFilled) {
+                $("button[type='submit']").show();
+            } else {
+                $("button[type='submit']").show();
+            }
+        }
+
+        // Panggil fungsi checkInputs saat input berubah atau halaman dimuat
+        $("form input[required], #jurasanSelect").on("input change", checkInputs);
+        checkInputs(); // Panggil saat halaman dimuat
 
 
+        // Panggil fungsi checkInputs saat input berubah atau halaman dimuat
+        $("form input[required]").on("input", checkInputs);
+        checkInputs(); // Panggil saat halaman dimuat
 
+        // Ketika nilai select berubah
+        $("#jurasanSelect").change(function() {
+            // Ambil data-publish dari opsi yang dipilih
+            var selectedOption = $(this).find(":selected");
+            var publishValue = selectedOption.data("publish");
 
-
-
-    
-    // Ketika tombol "Lanjut" di form diklik
-    $("form").submit(function(e) {
-        e.preventDefault(); // Mencegah pengiriman form standar
-        
-        // Tampilkan elemen "Pesanan Anda"
-        $(".pesanan-checkout").show();
-
-        // Sembunyikan tombol "Lanjut"
-        $("button[type='submit']").hide();
-
-        // Lakukan tindakan lain yang Anda butuhkan, seperti mengambil dan menampilkan detail pesanan
-    });
-
-    // ...
-});
-
-
-
-
+            // Cek apakah publish adalah "tidak" atau tidak ada nilai
+            if (publishValue === "tidak") {
+                // Tampilkan popup jika publish adalah "tidak"
+                showPopup();
+            } else {
+                // Sembunyikan popup jika publish tidak ada
+                hidePopup();
+            }
         });
-  </script>
+        $(document).ready(function() {
+            // ...
+
+
+            // Ketika tombol "Lanjut" di form diklik
+            $("form").submit(function(e) {
+                e.preventDefault(); // Mencegah pengiriman form standar
+
+                // Tampilkan elemen "Pesanan Anda"
+                $(".pesanan-checkout").show();
+
+                // Sembunyikan tombol "Lanjut"
+                $("button[type='submit']").hide();
+
+                // Lakukan tindakan lain yang Anda butuhkan, seperti mengambil dan menampilkan detail pesanan
+            });
+
+            // ...
+        });
+
+
+
+
+    });
+</script>
+
 </html>
 @endsection

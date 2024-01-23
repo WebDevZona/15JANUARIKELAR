@@ -43,12 +43,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <label for="judul">Judul</label>
-                    <input value="{{$PengertianProduk->judul}}" name="judul" type="text" class="form-control" id="nama" placeholder="Nama" >
+                    <input value="{{$PengertianProduk->judul}}" name="judul" type="text" class="form-control" id="nama" placeholder="Nama">
                     <label for="isi">Isi</label>
-                    <input value="{{$PengertianProduk->isi}}" name="isi" type="text" class="form-control" id="nama" placeholder="Nama" >
+                    <input value="{{$PengertianProduk->isi}}" name="isi" type="text" class="form-control" id="nama" placeholder="Nama">
                     <label for="ket">Keterangan</label>
-                    <input value="{{$PengertianProduk->ket}}" name="ket" type="text" class="form-control" id="nama" placeholder="Nama" >
-                     <label for="publish">Pilih Nama Produk </label>
+                    <input value="{{$PengertianProduk->ket}}" name="ket" type="text" class="form-control" id="nama" placeholder="Nama">
+                    <!-- <label for="publish">Pilih Nama Produk </label>
                     <select name="id_produk" class="form-control my-1 mr-sm-2 bg-light" id="id_produk"  oninput="setCustomValidity('')">
                         <option value="{{$PengertianProduk->id_produk}}">{{$PengertianProduk->id_produk}}</option>
                         @foreach($datasi as $ibui)
@@ -56,16 +56,19 @@
                                 <option value="{{$ibui->id}}">{{$ibui->produk}}</option>
                             @endif
                         @endforeach
-                    </select>
+                    </select> -->
+                    <label for="id_produk">Nama Paket Produk</label>
+                    <input value="{{$PengertianProduk->id_produk}}" name="id_produk" type="text" class="form-control" id="nama" placeholder="Nama">
+
                     {{-- <label for="publish">Status</label>
                     <select name="publish" id="publish" class="form-control bg-light" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                         <option value="{{$PengertianProduk->publish}}">{{$PengertianProduk->publish}}</option>
-                        <option value="ya">Ya</option>
-                        <option value="tidak">Tidak</option>
+                    <option value="ya">Ya</option>
+                    <option value="tidak">Tidak</option>
                     </select> --}}
                     <label for="foto">foto</label>
-                    <input value="{{$PengertianProduk->foto}}" name="foto" type="file" class="form-control" id="nama" placeholder="{{$PengertianProduk->foto}}" >
-                    <img src="{{ asset('foto_upload/'.$PengertianProduk->foto) }}" alt="" title=""style="height: 150px;width:100px;">
+                    <input value="{{$PengertianProduk->foto}}" name="foto" type="file" class="form-control" id="nama" placeholder="{{$PengertianProduk->foto}}">
+                    <img src="{{ asset('foto_upload/'.$PengertianProduk->foto) }}" alt="" title="" style="height: 150px;width:100px;">
                 </div>
             </div>
             <hr>

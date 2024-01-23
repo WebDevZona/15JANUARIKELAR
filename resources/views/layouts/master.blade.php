@@ -25,6 +25,9 @@
             font: 14px arial;
         }
     </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-a4i8NUH76tC2DhvT0+pDS9v9hiFpXnY/9sND4VysJd52MTMM2GqBp1EqzGLD/J2G" crossorigin="anonymous" />
+
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="/adminLTE/plugins/fontawesome-free/css/all.min.css">
     <!-- overlayScrollbars -->
@@ -91,10 +94,10 @@
             <!-- Left navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
+                    <a class="nav-link" data-widget="pushmenu" href="#"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                <a class="nav-link font-weight-bold">Classprogram</a>
+                    <a class="nav-link font-weight-bold">Classprogram</a>
                 </li>
             </ul>
 
@@ -130,26 +133,51 @@
             @if (auth()->user()->role == 'admin' || auth()->user()->role == 'user' )
             <a href="#" class="brand-link bg-info">
                 <center>
-                {{-- "<img src="/logo.png" alt="Logo" class="brand-image" style="opacity: .;"> --}}
-            </center>
-                <span class="brand-text font-weight-white">Beranda</span>
+                    <img src="../../../../assets/img/logo/logo2.png" alt="Logo" class="brand-image" style="opacity: 8;">
+                </center>
+                <span class="brand-text font-weight-white">Class Program</span>
             </a>
             @endif
+            <div class="sidebar">
+                @if (auth()->user()->role == 'user')
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <!-- Sidebar Menu -->
+                    <!-- Add icons to the links using the .nav-icon class
+                        with font-awesome or any other icon font library -->
+                    <li class="nav-item">
+                        <a href="/userview/konsultasi" class="nav-link">
+                            <i class="nav-icon fas fa-layer-group"></i>
 
-            @if (auth()->user()->role == 'Siswa')
-            <a href="/{{$id_pesdik_login->id}}/siswadashboard" class="brand-link bg-primary">
-                <img src="/logo.png" alt="Logo" class="brand-image" style="opacity: .8">
-                <span class="brand-text font-weight-white">Beranda</span>
-            </a>
+                            <p>
+                                Paket BSO Regular
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/userview/paketbso" class="nav-link">
+                            <i class="nav-icon fas fa-layer-group"></i>
+                            <p>
+                                Paket BSO
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/userview/paketbmj" class="nav-link">
+                            <i class="nav-icon fas fa-layer-group"></i>
+                            <p>
+                                Paket BMJ
+                            </p>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
             @endif
             <!-- Sidebar -->
-            <div class="sidebar">
+            <div class="sidebar" style="margin-top: 0px;">
                 @if (auth()->user()->role == 'admin')
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <!-- Sidebar Menu -->
-                    <a>
-                        <span class="text-black">Daftar Menu</span>
-                    </a>
                     <!-- Add icons to the links using the .nav-icon class
                         with font-awesome or any other icon font library -->
                     <li class="nav-item">
@@ -189,33 +217,33 @@
                         <a href="/jurusan/index" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
-                               Jurusan
+                                Jurusan
                             </p>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="/artikel/index" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
-                               Artikel
+                                Artikel
+                            </p>
+                        </a>
+                    </li> -->
+
+                    <li class="nav-item">
+                        <a href="/berita/index" class="nav-link">
+                            <i class="nav-icon fas fa-layer-group"></i>
+                            <p>
+                                Berita
                             </p>
                         </a>
                     </li>
 
-                <li class="nav-item">
-                    <a href="/berita/index" class="nav-link">
-                        <i class="nav-icon fas fa-layer-group"></i>
-                        <p>
-                          Berita
-                        </p>
-                    </a>
-                </li>
-
-                 <li class="nav-item">
+                    <li class="nav-item">
                         <a href="/youtube/index" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
-                               Video Youtube
+                                Video Youtube
                             </p>
                         </a>
                     </li>
@@ -224,7 +252,7 @@
                         <a href="/video/index" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
-                               Video Instagram
+                                Video Instagram
                             </p>
                         </a>
                     </li>
@@ -276,40 +304,40 @@
                         </ul>
                     </li> --}}
 
-                        <li class="nav-item">
-                            <a href="/mentor/index" class="nav-link">
-                                <i class="nav-icon fas 	fa fa-file"></i>
-                                <p>
-                                    Mentor
-                                </p>
-                            </a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="/mentor/index" class="nav-link">
+                            <i class="nav-icon fas 	fa fa-file"></i>
+                            <p>
+                                Mentor
+                            </p>
+                        </a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="/rekomen/index" class="nav-link">
-                                <i class="nav-icon fas 	fa fa-file"></i>
-                                <p>
-                                    Rekomen
-                                </p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/pengumumancp/index" class="nav-link">
-                                <i class="nav-icon fas 	fa fa-file"></i>
-                                <p>
-                                    Pengumuman
-                                </p>
-                            </a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="/rekomen/index" class="nav-link">
+                            <i class="nav-icon fas 	fa fa-file"></i>
+                            <p>
+                                Rekomen
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/pengumumancp/index" class="nav-link">
+                            <i class="nav-icon fas 	fa fa-file"></i>
+                            <p>
+                                Pengumuman
+                            </p>
+                        </a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="/voucher/index" class="nav-link">
-                                <i class="nav-icon fas 	fa fa-file"></i>
-                                <p>
-                                    Voucher
-                                </p>
-                            </a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="/voucher/index" class="nav-link">
+                            <i class="nav-icon fas 	fa fa-file"></i>
+                            <p>
+                                Voucher
+                            </p>
+                        </a>
+                    </li>
 
                 </ul>
                 @endif

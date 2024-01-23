@@ -15,15 +15,14 @@
 // Route::get('/vidio/index', 'VideoController@index')->name('video');
 
 
-Route::get('/', function () {
-    return redirect()->route('index');
-});
+// Route::get('/', function () {
+//     return redirect()->route('index');
+// });
 
-
+use App\Http\Controllers\BeliController;
 // tampilannya
 Route::get('/index', 'tampilanController@index')->name('index');
 Route::get('/Kelas-Tugas-Kuliah', 'tampilanController@ktk')->name('Kelas-Tugas-Kuliah');
-Route::get('/kelas-persiapan-karir', 'tampilanController@kpk')->name('Kelas-persiapan-karir');
 Route::get('/bimbangan-mata-kuliah-jurusan', 'tampilanController@bmj')->name('bimbangan-mata-kuliah-jurusan');
 Route::get('/tentang', 'tampilanController@tentang')->name('tentang');
 Route::get('/kontak', 'tampilanController@kontak')->name('kontak');
@@ -33,13 +32,8 @@ Route::get('/skripsi', 'tampilanController@skripsi')->name('skripsi');
 Route::get('/nonaktif', 'tampilanController@nonaktif')->name('nonaktif');
 Route::get('/checkout/{id_produk}/{id}/{nama_voucher?}/{judulskripsi}/{problem}/{jurusan}', 'tampilanController@checkout')->name('checkout');
 
-Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
-Route::get('/pembelian/{id_produk}', 'tampilanController@Pengertian')->name('pembelian');
-
-Route::get('/artikel', 'tampilanController@artikel')->name('artikel');
 
 
-Route::post('/pembelian', 'tampilanController@validateVoucher')->name('validateVoucher');
 
 
 // Route::post('/pembelian/cek-voucher/{id_produk}/{namaVoucher}', 'tampilanController@cekVoucher')->name('cek-voucher');
@@ -71,21 +65,13 @@ Route::post('/proses-kirim-email', 'AuthController@prosesKirimEmail')->name('pro
 Route::get('/email', 'AuthController@tampilan')->name('email');
 Route::post('/kirim-ulang-email', 'AuthController@kirimUlang')->name('proses-kirim-ulang-email');
 
-
-// frondend
-// iki rote index langsung
-//bagian ini kalau buat admin beda in nama nya aja
-
-// Route::get('indexx', 'VideoController@vide');
-
-// backend
-
-
 //Route untuk user Admin
 Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     Route::get('/kirimemail', 'MalasngodingController@index');
 
+
     Route::get('/beli/index', 'BeliController@index')->name('beli');
+
     Route::get('/siswa/index', 'SiswaController@index')->name('siswa');
     Route::get('/siswa/create', 'SiswaController@create');
     Route::get('/siswa/{id}/show', 'SiswaController@show');
@@ -260,11 +246,6 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     Route::get('/artikel/{id}/delete', 'ArtikelController@delete');
 
 
-
-
-
-    // Route::get('/video/index', [VideoController::class, 'index'])->name('video.index');
-    // iki index vidio admin
     Route::get('/video/index', 'VideoController@index')->name('video');
     Route::get('/video/create', 'VideoController@create');
     Route::get('/video/{id}/show', 'VideoController@show');
@@ -272,8 +253,6 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     Route::get('/video/{id}/edit', 'VideoController@edit');
     Route::post('/video/{id}/update', 'VideoController@update');
     Route::get('/video/{id}/delete', 'VideoController@delete');
-
-    // Route::get('index', 'YoutubeController@vide');
 
     // youtube routes
     Route::get('/youtube/index', 'YoutubeController@index')->name('youtube.index');
@@ -446,16 +425,39 @@ Route::group(['middleware' => ['auth', 'checkRole:Siswa']], function () {
     Route::get('/pembayaran/transaksipembayaran/{id}/siswaindex', 'TransaksiPembayaranController@siswaindex');
 });
 
+
+
+
 //Route untuk user Admin, Petugas Administrasi Surat dan Petugas Administrasi Keuangan
 Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuangan,PetugasAdministrasiSurat,user']], function () {
     // Route::get('/', function () {
     //     return view('/index');
     // });
+    //aldi
+    // Route::get('/', function () {
+    //     return view('/index');
+
+    Route::get('/', function () {
+        return view('/dashboard');
+    });
+
+    Route::post('rekening', 'BeliController@pembeli')->name('rekening');
+
+    Route::get('/userview/konsultasi', 'UserviewController@userview');
+    Route::get('/userview/paketbso', 'UserviewController@bso');
+    Route::get('/userview/paketbmj', 'UserviewController@bmj');
 
     Route::get('/dashboard', 'DashboardController@index');
-
+    // pembelian
     Route::get('/pengumuman/index', 'PengumumanController@index');
     Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
+    Route::get('/artikel', 'tampilanController@artikel')->name('artikel');
+
+    Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
+    Route::get('/pembelian/{id_produk}', 'tampilanController@Pengertian')->name('pembelian');
+
+    Route::post('/pembelian', 'tampilanController@validateVoucher')->name('validateVoucher');
+    Route::get('rekening', 'RekeningController@rekening')->name('rekening');
 });
 
 //Route untuk user Admin, Petugas Administrasi Surat, Petugas Administrasi Keuangan dan Siswa

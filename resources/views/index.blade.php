@@ -38,6 +38,7 @@
 @extends('layout.header')
 @section('content')
 
+
 <body>
 
     <script>
@@ -63,7 +64,7 @@
             <div class="judulkedua" style="font-family:'Manrope';">
                 <h3>Semua Bisa</h3>
                 <h3>Lulus Kuliah</h3>
-                <p style="letter-spacing:1px; font-family: Inter; margin-top:15px;">Bimbingan belajar online perkuliahan
+                <p style="letter-spacing:1px; font-family: Manrope; margin-top:15px;">Bimbingan belajar online perkuliahan
                     dan persiapan <br> karir dengan
                     sistem kenaikan kelas pertama <br> di Indonesia yang menyediakan berbagai
                     macam <br> program kelas serta akan dibimbing langsung oleh <br> mentor yang ahli di bidangnya.</p>
@@ -77,11 +78,11 @@
                     <div class="count-boxes">
                         <div class="count-box">
                             <div class="left-content">
-                                <span style="font-family: Manrope;"><b>2979</b></span><span style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px; font-family: Manrope; ">+</span>
+                                <span style="font-family: Manrope;"><b>2979</b></span><span class="plus" style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px; font-family: Manrope; ">+</span>
                             </div>
                             <div class="right-content" style="margin-left:0px">
                                 {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
-                                <p style="margin-left: 0px; color: #000;">Sobat Insans yang Mendaftar</p>
+                                <p style="margin-left: 0px; color: #000; font-family: Manrope;"><b style="font-family: Manrope;">Sobat Insans yang Mendaftar</b></p>
 
                             </div>
                         </div>
@@ -93,7 +94,7 @@
                             </div>
                             <div class="right-content" style="margin-left:1px">
                                 {{-- <p >Mentor Class Program</p> --}}
-                                <p style="margin-left:0px; color: #000;">Mentor Class Program</p>
+                                <p style="margin-left:0px; color: #000; font-family: Manrope;"><b>Mentor Class Program</b></p>
                             </div>
                         </div>
 
@@ -103,7 +104,7 @@
                                 <span style="font-family: Manrope; "><b>27</b></span><span style="font-family: Manrope; font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px;  color: #000;">Kampus terdaftar bersama kami</p>
+                                <p style="margin-left:0px;margin-right:10px;  color: #000; font-family: Manrope;"><b>Kampus terdaftar bersama kami</b></p>
                             </div>
                         </div>
 
@@ -113,7 +114,7 @@
                                 <span style="font-family: Manrope;"><b>23</b></span><span style="font-family: Manrope; font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px; color: #000;">Jurusan terdaftar bersama kami</p>
+                                <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;"><b>Jurusan terdaftar bersama kami</b></p>
                             </div>
                         </div>
                         <div class="count-separator"></div>
@@ -122,7 +123,7 @@
                                 <span style="font-family: Manrope;"><b>23</b></span><span style="font-family: Manrope; font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px; color: #000;">Total program <br> yang tersedia</p>
+                                <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;"><b>Total program <br> yang tersedia</b></p>
                             </div>
                         </div>
                     </div>
@@ -202,7 +203,7 @@
                     </h4>
                     <div class="icon">
                     </div>
-                    <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar" width="200px;" style=" margin-top: -40px;">
+                    <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar" width="200px;" style=" margin-top: -35px;">
                 </div>
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="300" style="background: url(assets/img/bg/bg2.png);background-size: cover;">
@@ -228,7 +229,7 @@
                     </h4>
                     <div class="icon">
                     </div>
-                    <img src="assets/img/bg/card3.png" alt="Deskripsi Gambar" width="145px" style="margin-top: -38px; ">
+                    <img src="assets/img/bg/card3.png" alt="Deskripsi Gambar" width="145px" style="margin-top: -45px; ">
                 </div>
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="400" style="background: url(assets/img/bg/bg1.png);background-size: cover;">
@@ -255,7 +256,7 @@
                     </h4>
                     <div class="icon">
                     </div>
-                    <img src="assets/img/bg/gmb1.png" alt="Deskripsi Gambar" width="190px" style="margin-top: -5px; ">
+                    <img src="assets/img/bg/gmb1.png" alt="Deskripsi Gambar" width="100px" style="margin-top: -10px; ">
                     {{-- <img src="assets/img/bg/gmb1.png"
                             alt="Deskripsi Gambar"style=" margin-top: -140px; margin-left:-10px;"> --}}
                 </div>
@@ -292,10 +293,10 @@
     <!-- ======= PAKET POPULER UNTUK MAHASISWA ======= -->
     <section id="popup" class="popup" style="padding:30px 0 80px 0;">
         <div class="button-container mb-4" style="margin-top:0px;">
-            <span style="float: left; margin-left: 6%;"><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:11px;margin-right:5px"></span>
+            <span style="float: left; margin-left: 6%;"><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:0px;margin-right:5px"></span>
             <h1 class="custom-text" style=" font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; margin-left: 5px; margin-right:10px;">Paket
                 populer untuk </h1>
-            <button type="button" class="custom-button" data-toggle="modal" data-target="#tulis" aria-hidden="true" style="font-family: Arial, sans-serif; margin-top: 2px;">Mahasiswa <i class="fa-solid fa-chevron-down"></i></button>
+            <button type="button" class="custom-button" data-toggle="modal" data-target="#tulis" aria-hidden="true" style="font-family: Arial, sans-serif; margin-top: 12px;">Mahasiswa <i class="fa-solid fa-chevron-down"></i></button>
         </div>
         <div class="modal fade" id="tulis" tabindex="-1" role="dialog" aria-labelledby="tulisTitle" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -359,15 +360,15 @@
         <div class="paketmentorbg mb-5">
             <h2 class="judul-tengah" style="margin-top:0px;;font-family: Manrope;">Konsultasi Reguler Bersama Mentor
             </h2>
-            <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2 mt-5 ">
+            <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2 mt-5 " style="margin: -50px;">
                 <div class="col">
-                    <div class="card h-100" style="border-radius: 25px;">
+                    <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th scope="col">Reguler
+                                            <th scope="col" style="text-align: left;">Reguler
                                                 <br><span class="green-text">Silver</span>
                                             </th>
                                             <th scope="col">Harga
@@ -404,13 +405,13 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100" style="border-radius: 25px;">
+                    <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th scope="col">Reguler
+                                            <th scope="col" style="text-align: left;">Reguler
                                                 <br><span class="green-text">Gold</span>
                                             </th>
                                             <th scope="col">Harga
@@ -458,13 +459,13 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100" style="border-radius: 25px;">
+                    <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th scope="col">Reguler
+                                            <th scope="col" style="text-align: left;">Reguler
                                                 <br><span class="green-text">Platinum</span>
                                             </th>
                                             <th scope="col">Harga
@@ -503,13 +504,13 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100" style="border-radius: 25px;">
+                    <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
                                     <thead>
                                         <tr>
-                                            <th scope="col">Reguler
+                                            <th scope="col" style="text-align: left;">Reguler
                                                 <br><span class="green-text">Titanium</span>
                                             </th>
                                             <th scope="col">Harga
@@ -571,7 +572,7 @@
                         </div>
                         <br>
                         <div class="btn-wrap">
-                            <a href="bimbingan-skripsi-online" class="btn-buyy">Pilih Paket</a>
+                            <a href="bimbingan-skripsi-online#pricing" class="btn-buyy" href="#pakethematbso">Pilih Paket</a>
                         </div>
                     </div>
                 </div>
@@ -672,27 +673,27 @@
 
 
     <!-- HTML -->
-    <section id="youtube" class="youtube" style="margin-top: -80px;">
+    <section id="youtube" class="youtube" style="margin-top: -150px;">
         <div class="section-title judul">
             <h3>Coba GRATIS <br> Kelas Tugas Kuliah (KTK) sekarang juga! <span style=""><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:-10px;margin-right:5px"></span></h3>
         </div>
         <img src="assets/img/bg/yt2.png" alt="Left Image" class="left-image">
         <img src="assets/img/bg/yt3.png" alt="Right Image" class="right-image">
-        <div class="container" data-aos="fade-up">
+        <div class="container" data-aos="fade-up" style="margin-top: 30px;">
             <div class="row skills-content">
                 <div class="col-md-7 mx-auto">
                     <!-- Left image -->
                     <div class="video-container">
                         <div class="video-container2">
                             <div class="video-wrapper">
-                                <iframe width="560" height="315" style="border-radius: 25px;" src="https://www.youtube.com/embed/puKINTRTDZk?si=3ZqaSjYv1Yl6XsnG" title="YouTube video player" frameborder="0" allow="accelerometer;
+                                <iframe width="2000" height="315" style="margin-top:2px; width: 94%; margin-right: -10px; border-radius: 25px;" src="https://www.youtube.com/embed/puKINTRTDZk?si=3ZqaSjYv1Yl6XsnG" title="YouTube video player" frameborder="0" allow="accelerometer;
                                      autoplay; clipboard-write; encrypted-media; gyroscope;
                                       picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="video-description">
                             <p>Dapatkan Materi Menarik Lainnya</p>
-                            <a href="#" class="join-button">Daftar Sekarang</a>
+                            <a href="register" class="join-button">Daftar Sekarang</a>
                         </div>
                     </div>
                     <!-- Right image -->
@@ -715,19 +716,23 @@
                                 font-weight: 800;
                                 /* line-spacing: 2px; */
                                 line-height: 100%; /* 82.685px */
-                                letter-spacing:1px;">
+                                letter-spacing:1px;
+                                /* Add drop shadow properties */
+                                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                                text-align: left;">
                             WORKSHOP CLASS PROGRAM</h3>
-                        <div class="content-selector  mb-4" style="margin-top:10px;">
-                            <button id="content1Btn" class="btn btn-primary active"><b>Skripsi</b></button>
-                            <button id="content2Btn" class="btn btn-primary"><b>KTI</b></button>
+                        <!-- style="border-radius: 25px; border: 5px solid #1b5cc5;" -->
+                        <div class="content-selector" style="border-radius: 50px; border: 2.5px solid #000; width: 220px; height: 60px;">
+                            <button id="content1Btn" class="btn btn-primary active" style="margin-top: 5px; margin-left:-2px;"><b>Skripsi</b></button>
+                            <button id="content2Btn" style="margin-top: 5px; margin-right:-2px;" class="btn btn-primary"><b>KTI</b></button>
                         </div>
-                        <p style="font-size: 18px;">
+                        <p style="font-size: 18px; text-align: left;">
                             Workshop yang bertujuan untuk mendalami materi penyusunan skripsi dengan
                             sistematika yang baik <br> dan benar. Berikut keuntungan yang bisa Sobat Insans dapatkan:
                         </p>
                         <ul>
-                            <li style="font-size: 15px;">
-                                <span class="circle">
+                            <li style="font-size: 15px; text-align: left;">
+                                <span class="circle active">
                                     <span class="check">
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
                                     </span>
@@ -735,7 +740,7 @@
                                 Mendapatkan pelatihan dalam penyusunan dan pembuatan skripsi oleh mentor yang ahli di
                                 bidangnya.
                             </li>
-                            <li style="font-size: 15px;">
+                            <li style="font-size: 15px; text-align: left;">
                                 <span class="circle">
                                     <span class="check">
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
@@ -746,8 +751,9 @@
                             </li>
                         </ul>
                         <div class="d-flex justify-content-center">
-                            <button type="button" class="btn btn-primary btn-get-started scrolltolo" style="margin-top:15px;margin-bottom:15px">Lihat
-                                Selengkapnya</button>
+                            <button type="button" class="btn btn-primary btn-get-started scrolltolo" style="margin-top:15px;margin-bottom:15px">
+                                <a href="skripsi" style="color: white;">Lihat Selengkapnya</a>
+                            </button>
                         </div>
                     </div>
 
@@ -769,18 +775,21 @@
                             font-weight: 800;
                             /* line-spacing: 2px; */
                             line-height: 100%; /* 82.685px */
-                            letter-spacing:1px;">
+                            letter-spacing:1px;
+                             /* Add drop shadow properties */
+                             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+                             text-align: left;">
                             WORKSHOP CLASS PROGRAM</h3>
-                        <div class="content-selector  mb-4" style="margin-top:10px;">
-                            <button id="content3Btn" class="btn btn-primary active"><b>Skripsi</b></button>
-                            <button id="content4Btn" class="btn btn-primary"><b>KTI</b></button>
+                        <div class="content-selector" style="border-radius: 50px; border: 2.5px solid #000; width: 220px; height: 60px;">
+                            <button id="content3Btn" class="btn btn-primary active" style="margin-top: 5px; margin-left:-2px;"><b>Skripsi</b></button>
+                            <button id="content4Btn" class="btn btn-primary" style="margin-top: 5px; margin-right:-2px;"><b>KTI</b></button>
                         </div>
-                        <p style="font-size: 18px;">
+                        <p style="font-size: 18px; text-align: left;">
                             Workshop yang bertujuan untuk mendalami materi penyusunan serta pembuatan Karya Tulis Ilmiah
                             (KTI) dengan baik dan benar. Berikut keuntungan yang bisa Sobat Insans dapatkan:
                         </p>
                         <ul>
-                            <li style="font-size: 15px;">
+                            <li style="font-size: 15px; text-align: left;">
                                 <span class="circle">
                                     <span class="check">
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
@@ -789,7 +798,7 @@
                                 Mendapatkan pelatihan dalam penyusunan dan pembuatan Karya Tulis Ilmiah (KTI) oleh
                                 mentor yang ahli di bidangnya.
                             </li>
-                            <li style="font-size: 15px;">
+                            <li style="font-size: 15px; text-align: left;">
                                 <span class="circle">
                                     <span class="check">
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
@@ -800,8 +809,9 @@
                             </li>
                         </ul>
                         <div class="d-flex justify-content-center">
-                            <button type="button" class="btn btn-primary btn-get-started scrolltolo" style="margin-top:15px;margin-bottom:15px">Lihat
-                                Selengkapnya</button>
+                            <button type="button" class="btn btn-primary btn-get-started scrolltolo" style="margin-top:15px;margin-bottom:15px">
+                                <a href="kti" style="color: white;">Lihat Selengkapnya</a>
+                            </button>
                         </div>
                     </div>
                     <div class="gambareo col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100" style="margin-top: 10px;">
@@ -825,19 +835,23 @@
                     <h4 style="margin-bottom: 30px">Rekomendasi untukmu</h4>
                     <div class="single_left_coloum_wrapper" id="scrollableColumn">
                         <div class="scrollable_left_coloum">
-
                             @if($berita->isNotEmpty())
                             @foreach($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
                             <div class="single_left_coloum">
-                                <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" />
-                                <p style="color:black;">Youtube : <a style="color:black;" href="{{ $penegnbalikcuk->tampilan }}">{{ $penegnbalikcuk->judul }}</a></p>
+                                <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank">
+                                    <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" />
+                                    <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                    <p style="color:black; ">Video : <span style="color:black; ">{{ $penegnbalikcuk->judul }}</span></p>
+                                </a>
                             </div>
                             @endforeach
                             @endif
                         </div>
                     </div>
-                    <span class="left-scroll-button" onclick="scrollLeft()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px;" viewBox="0 0 35" fill="none">
+                    <span class="left-scroll-button" onclick="customScrollLeft()">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px; margin-top: 50px;" viewBox="0 0 35" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                                 <!-- Mengubah path panah ke kiri -->
@@ -849,7 +863,7 @@
 
 
                     <span class="right-scroll-button" onclick="scrollRight()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -40px;" viewBox="0 0 35" style="float: right;" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -30px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                                 <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
@@ -865,26 +879,27 @@
                             </defs>
                         </svg>
                     </span>
-                    <hr style="border: 1px solid rgba(0, 0, 0, 0.48);margin-top:10px;margin-bottom:10px;">
-
+                    <hr style="border: 1px solid rgba(0, 0, 0, 0.48); margin-top:-50px;">
 
 
                     <h4 style="margin-bottom: 20px">Tips Menarik</h4>
-
                     <div class="single_left_coloum_wrapper" id="scrollableColumn1">
                         @if($berita->isNotEmpty())
                         @foreach($data->sortByDesc('created_at')->take(10) as $video)
-                        <div class="single_left_coloum">
-                            <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail" />
-                            <!-- video->tampilan -->
-                            <p style="color:black;">Instagram : <a style="color:black;" href="{{ $video->tampilan  }}">{{ $video->judul }}</a></p>
-                            <!-- <p><a href="{{ $video->tampilan }}">{{ $video->judul }}</a></p> -->
-                        </div>
+                        <a href="{{ $video->tampilan }}" style="text-decoration: none; color: black;">
+                            <div class="single_left_coloum">
+                                <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail" />
+                                <svg class="play-iconn xmlns=" http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </a>
                         @endforeach
                         @endif
                         <!-- Add more content here -->
                     </div>
-                    <span class="left-scroll-button1" onclick="scrollLeft1()">
+
+                    <span class="left-scroll-button1" onclick="scrollLeft1()" style="margin-top: 50px;">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-left: 5px;" viewBox="0 0 40" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
@@ -894,7 +909,7 @@
                             <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
                         </svg>
                     </span>
-                    <span class="right-scroll-button1" onclick="scrollRight1()">
+                    <span class="right-scroll-button1" onclick="scrollRight1()" style="margin-top: 50px;">
                         <!-- Add right-scroll icon here -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-right: -42px;" viewBox="0 0 40" fill="none">
                             <g filter="url(#filter0_b_229_15)">
@@ -916,46 +931,42 @@
                     {{-- </div> --}}
                 </div>
 
-
-                <div class="right_coloum floatright">
-                    <div class="single_right_coloum">
-                        <h4 style="margin-left: -5px;margin-bottom: 30px">Artikel Populer</h4>
-
-                        <div class="single_cat_right_content">
-
-                            @if($berita->isNotEmpty())
-                            @foreach($berita->sortByDesc('created_at')->take(5) as $item)
-                            <div class="right_image">
-                                <img src="{{ asset('foto_upload/' . $item->foto) }}" alt="Youtube Thumbnail" style="width: 195px; height: auto;" />
-                            </div>
-                            <br>
-                            <div class="left_content">
-                                <h3>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none" style=" float: left; margin-right: 5px; width: 14px; height: 19px;">
-                                        <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                <div class="right_coloum floatright mt-4" style="margin-top: 10px;">
+                    <div class="single_cat_right_content">
+                        @if($berita->isNotEmpty())
+                        @foreach($berita->sortByDesc('created_at')->take(3) as $item)
+                        <div class="left_content">
+                            <h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none" style="float: left; margin-right: 5px; width: 14px; height: 19px;">
+                                    <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                <a href="{{ asset( $item->tampilan) }}" style="text-decoration: none; color: inherit;">
                                     {{ $item->sumber }}
-                                </h3>
-                                <p>
-                                    <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
+                                </a>
+                            </h3>
+
+                            <p>
+                                <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
+                                    <img src="{{ asset('foto_upload/' . $item->foto) }}" alt="Youtube Thumbnail" style="vertical-align: middle;width: 195px; height: auto; margin-right:-50px;" />
+                                    <a href="{{ asset($item->tampilan) }}" style="text-decoration: none; color: black; margin-top:5px; display: inline-block; text-align: left;width: 195px; ">
                                         {{ $item->judul }}
-                                    </strong>
-                                </p>
-                                <p class="single_cat_right_content_meta" style="color: #696969; font-family: Manrope; font-style: normal; line-height: normal;">
-                                    {{ $item->waktu }}
-                                </p>
-                            </div>
-                            @endforeach
+                                    </a>
+
+                                </strong>
+                            </p>
+
+                            <p class="single_cat_right_content_meta" style="color: #696969; font-family: Manrope; font-style: normal; line-height: normal;">
+                                {{ $item->waktu }}
+                            </p>
                         </div>
-                        @endif
-
-
+                        @endforeach
                     </div>
+                    @endif
                 </div>
+            </div>
     </section>
 
     <section id="testimonials" class="testimonials" style="margin-top: -100px;  margin-bottom:60px;  background: url(assets/img/bg/bgmentor.png);background-size: cover;">
-
         <div class="section-title">
             <h3 style="margin-top: 10px;">Mentor Profesional Class Program</h3>
         </div>
@@ -963,12 +974,16 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="centered-content">
-                        <img src="assets/img/team/mentor1.png" class="img-fluid" alt="">
-                        <img src="assets/img/team/mentor2.png" class="img-fluid" alt="">
-                        <img src="assets/img/team/mentor3.png" class="img-fluid" alt="">
+                        <img src="assets/img/team/mentor1.png" class="img-fluid" alt="" style="border: none !important;
+                        outline: none !important;">
+                        <img src="assets/img/team/mentor2.png" class="img-fluid" alt="" style="border: none !important;
+                        outline: none !important;">
+                        <img src="assets/img/team/mentor3.png" class="img-fluid" alt="" style="border: none !important;
+                        outline: none !important;">
                     </div>
                     <div class="centered-content">
-                        <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">
+                        <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="" style="border: none !important;
+                        outline: none !important;">
                     </div>
                 </div>
             </div>
@@ -988,13 +1003,33 @@
                     <!-- Ganti dengan path gambar profil Anda -->
                     <div class="info">
                         <h1 style=" margin-left:100px; text-align: center; color: #FFF; font-family: Poppins; font-size: 40px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">Lebih Dekat dengan Class Program</h1>
-                        <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt" style="border-radius: 50%; width: 89px; height: 89px; display: inline-block;">
-                            <svg style="margin-left: 400px;" xmlns="http://www.w3.org/2000/svg" width="89" height="89" viewBox="0 0 89 89" fill="none">
-                                <circle cx="44.5" cy="44.5" r="44.5" fill="white" />
-                                <path d="M67.9943 33.2904C67.4238 31.1456 65.736 29.4535 63.5887 28.8736C59.7062 27.833 44.1284 27.833 44.1284 27.833C44.1284 27.833 28.5586 27.833 24.6681 28.8736C22.5287 29.4456 20.841 31.1376 20.2626 33.2904C19.2246 37.1829 19.2246 45.3094 19.2246 45.3094C19.2246 45.3094 19.2246 53.4359 20.2626 57.3283C20.8331 59.4732 22.5208 61.1652 24.6681 61.7451C28.5586 62.7857 44.1284 62.7857 44.1284 62.7857C44.1284 62.7857 59.7062 62.7857 63.5887 61.7451C65.7281 61.1731 67.4158 59.4811 67.9943 57.3283C69.0322 53.4359 69.0322 45.3094 69.0322 45.3094C69.0322 45.3094 69.0322 37.1829 67.9943 33.2904Z" fill="#FF3000" />
-                                <path d="M39.1524 52.8004L52.0916 45.3094L39.1524 37.8184V52.8004Z" fill="white" />
-                            </svg>
+                        <!-- <div class="social-linkss" style="text-align: center; margin-left:150px; margin-top:50px;">
+                            <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style=" padding: 30px;"></a>
+                        </div> -->
+
+
+                        <style>
+                            .btnyt:hover .yt {
+                                background-color: blue;
+                                /* Change to your desired hover background color */
+                            }
+
+                            .bxl-youtube:hover {
+                                color: blue !important;
+                                /* Change to your desired hover color */
+                            }
+                        </style>
+
+                        <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt">
+                            <div style="display: inline-block; position: relative; margin-left: 450px; margin-top: -800px;">
+                                <div class="yt" style="text-align: center;">
+                                    <div style="margin-top:20px; width: 80px; height: 80px; margin-left: 35px;  border-radius: 50%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+                                    <i style="text-align: center; margin-top:20px; position: absolute; top: 35%;  margin-left: 35px; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;" class="bx bxl-youtube"></i>
+                                </div>
+                            </div>
                         </a>
+
+
                     </div>
                 </div>
             </div>
@@ -1011,7 +1046,7 @@
                                     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);">
             <!-- <h2>About</h2> -->
             <div class="left-align" style=" text-align: left;">
-                <h3 style="font-weight: 800;color:black; margin-left: 120px; font-family: 'Manrope', sans-serif; ">Janji Mentor <br> Untuk Sobat
+                <h3 style="font-size:40px; color:#000; font-weight: 800;color:black; margin-left: 120px; font-family: 'Manrope'; ">Janji Mentor untuk <br> Sobat Insans
                     Insans...</h3>
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
@@ -1169,7 +1204,7 @@
                                     <h4>4. Mulai Konsultasi</h4>
                                     <br>
                                     {{-- <span>CTO</span> --}}
-                                    <p>Kamu siap melakukan bimbingan bersama Mentor</p><br>
+                                    <p>Kamu siap melakukan bimbingan bersama Mentor profesional</p><br>
                                 </div>
                             </div>
                         </div>
@@ -1617,35 +1652,35 @@
 
         });
 
-        var scrollableColumn1 = document.querySelector('#scrollableColumn1');
-        var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
+        // var scrollableColumn1 = document.querySelector('#scrollableColumn1');
+        // var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
 
-        function scrollLeft() {
-            scrollableColumn1.scrollLeft -= scrollAmount;
-        }
+        // function scrollLeft() {
+        //     scrollableColumn1.scrollLeft -= scrollAmount;
+        // }
 
-        function scrollRight1() {
-            scrollableColumn1.scrollLeft += scrollAmount;
-        }
+        // function scrollRight1() {
+        //     scrollableColumn1.scrollLeft += scrollAmount;
+        // }
 
-        var scrollableColumn = document.querySelector('#scrollableColumn');
-        var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
+        // var scrollableColumn = document.querySelector('#scrollableColumn');
+        // var scrollAmount = 201; // Sesuaikan dengan lebar elemen single_left_coloum
 
-        function scrollLeft(scrollableElement, scrollAmount) {
-            scrollableElement.scrollLeft -= scrollAmount;
-        }
+        // function scrollLeft(scrollableElement, scrollAmount) {
+        //     scrollableElement.scrollLeft -= scrollAmount;
+        // }
 
-        function scrollRight() {
-            scrollableColumn.scrollLeft += scrollAmount;
+        // function scrollRight() {
+        //     scrollableColumn.scrollLeft += scrollAmount;
 
-            if (scrollableColumn.scrollLeft >= scrollableColumn.scrollWidth - scrollableColumn.clientWidth) {
-                // Konten mencapai akhir, kembali ke awal
-                scrollableColumn.scrollTo({
-                    left: 0,
-                    behavior: 'smooth'
-                });
-            }
-        }
+        //     if (scrollableColumn.scrollLeft >= scrollableColumn.scrollWidth - scrollableColumn.clientWidth) {
+        //         // Konten mencapai akhir, kembali ke awal
+        //         scrollableColumn.scrollTo({
+        //             left: 0,
+        //             behavior: 'smooth'
+        //         });
+        //     }
+        // }
 
 
         $("#accordion").on("hide.bs.collapse show.bs.collapse", e => {
@@ -1655,6 +1690,30 @@
                 .toggleClass("fa-minus fa-plus");
         })
     </script>
+    <script>
+        function customScrollLeft() {
+            // Assuming you have a container with the ID 'contentContainer'
+            var scrollableColumn = document.getElementById('scrollableColumn');
+            scrollableColumn.scrollLeft -= 100; // Adjust the value based on your needs
+        }
+
+        function scrollLeft() {
+            document.getElementById('scrollableColumn').scrollLeft -= 100;
+        }
+
+        function scrollRight() {
+            document.getElementById('scrollableColumn').scrollLeft += 100;
+        }
+
+        function scrollLeft1() {
+            document.getElementById('scrollableColumn1').scrollLeft -= 200;
+        }
+
+        function scrollRight1() {
+            document.getElementById('scrollableColumn1').scrollLeft += 200;
+        }
+    </script>
+
     {{-- Animasi angka --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>

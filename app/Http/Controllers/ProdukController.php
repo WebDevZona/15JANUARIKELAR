@@ -18,7 +18,7 @@ class ProdukController extends Controller
 
     public function index()
     {
-        
+
         if(Auth::user()->level == 'admin') {
             Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
             return redirect()->to('/');
@@ -68,7 +68,7 @@ class ProdukController extends Controller
         $image           = $request->file('foto');
         //mengambil nama image
         $nama_image      = $image->getClientOriginalName();
-        
+
         //memindahkan cover ke folder tujuan
         $image->move('foto_upload',$image->getClientOriginalName());
             $Produk = new Produk;
@@ -78,7 +78,7 @@ class ProdukController extends Controller
             $Produk->harga1             = $request->input('harga1');
             $Produk->harga             = $request->input('harga');
             // $Produk->ket        = $request->input('ket');
-            $Produk->publish   = $request->input('publish');      
+            $Produk->publish   = $request->input('publish');
             $Produk->save();
         return redirect()->route('produk')->with('sukses', 'Data Produk Berhasil Ditambah');
 
@@ -93,7 +93,7 @@ class ProdukController extends Controller
     {
         if(Auth::user()->level == 'admin') {
                 Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
-                return redirect()->to('/'); 
+                return redirect()->to('/');
         }
 
         $data = Produk::findOrFail($id);
@@ -108,16 +108,16 @@ class ProdukController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function edit(Request $request,$id)
-    {   
+    {
         if(Auth::user()->level == 'admin') {
                 Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
                 return redirect()->to('/');
         }
         $Produk = Produk::findOrFail($id);
-    
+
         return view('produk/edit', compact('Produk'));
 
-    
+
     }
 
     /**
@@ -133,16 +133,16 @@ class ProdukController extends Controller
         // $Produk->foto          = $nama_image;
         $Produk->nama_produk             = $request->input('nama_produk');
         $Produk->produk             = $request->input('produk');
-        $Produk->publish   = $request->input('publish');   
-        $Produk->harga1             = $request->input('harga1');   
-        $Produk->harga             = $request->input('harga');   
+        $Produk->publish   = $request->input('publish');
+        $Produk->harga1             = $request->input('harga1');
+        $Produk->harga             = $request->input('harga');
         if($request->file('foto') == "")
         {
            $Produk->foto =$Produk->foto;
-        } 
+        }
         else
         {
-        
+
             $file       = $request->file('foto');
             $fileName   = $file->getClientOriginalName();
             $request->file('foto')->move("foto_upload/", $fileName);
@@ -165,7 +165,7 @@ class ProdukController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function delete($id)
-    
+
     {
         Produk::findOrFail($id)->delete();
         // alert()->success('Berhasil.','Data telah dihapus!');

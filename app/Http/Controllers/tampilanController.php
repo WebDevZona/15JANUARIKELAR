@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\Video;
 use App\Youtube;
 use App\Berita;
@@ -14,65 +15,91 @@ use Laravel\Socialite\Facades\Socialite;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Jenssegers\Agent\Facades\Agent;
+
 
 class tampilanController extends Controller
 {
-    public function index(){
+    public function index()
+    {
+    // Mendapatkan data dari model
+    $youtube = Youtube::get();
+    $data = Video::get();
+    $berita = Berita::get();
 
-        // return view('index');
-        // $artikel = Artikell::get();
-        $youtube = Youtube::get();
-        $data = Video::get();
-        $berita = Berita::get();
+    // Memeriksa apakah pengguna menggunakan perangkat mobile
+    if (Agent::isMobile()) {
+        // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+        return view('mobile/indexMobile', compact('data', 'youtube', 'berita'));
+    } else {
+        // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
         return view('index', compact('data', 'youtube', 'berita'));
     }
-    public function ktk(){
+
+    }
+    public function ktk()
+    {
 
         return view('Kelas-Tugas-Kuliah');
     }
-    public function bmj(){
+    public function bmj()
+    {
 
         return view('bimbangan-mata-kuliah-jurusan');
     }
-    public function tentang(){
+    public function tentang()
+    {
 
         return view('tentang');
     }
-    public function bso(){
-
-        return view('bimbingan-skripsi-online');
+    public function bso()
+    {
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/bimbingan-skripsi-onlineMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('bimbingan-skripsi-online');
+        }
     }
-    public function kpk(){
+    public function kpk()
+    {
 
         return view('kelas-persiapan-karir');
     }
-    public function kontak(){
+    public function kontak()
+    {
 
         return view('kontak');
     }
-    public function kti(){
+    public function kti()
+    {
 
         return view('kti');
     }
-    public function skripsi(){
+    public function skripsi()
+    {
 
         return view('skripsi');
     }
 
-    public function artikel(){
+    public function artikel()
+    {
 
         return view('artikel');
     }
 
-    public function nonaktif(){
+    public function nonaktif()
+    {
 
         return view('nonaktif');
     }
-    public function pembelian(){
+    public function pembelian()
+    {
 
         return view('pembelian');
     }
-public function checkout(Request $request, $id_produk, $id, $nama_voucher = null, $judulskripsi, $problem, $jurusan)
+    public function checkout(Request $request, $id_produk, $id, $nama_voucher = null, $judulskripsi, $problem, $jurusan)
     {
         dd("Checkpoint");
         $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
@@ -135,44 +162,54 @@ public function checkout(Request $request, $id_produk, $id, $nama_voucher = null
         // Cari voucher berdasarkan nama yang telah diterima
         $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
 
-        return view('/pembayaran', compact('Users', 'pengertian', 'User', 'datas', 'Produk', 'voucher','Produks','id_pesdik_login'));
+        return view('/pembayaran', compact('Users', 'pengertian', 'User', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login'));
     }
 
-        public function Pengertian($id_produk , Request $request)
-        {
+    public function Pengertian($id_produk, Request $request)
+    {
+        // Ambil data pengertian produk dengan id_produk tertentu
+        $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
 
-            $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
-            $User = \App\User::get();
-            $Users = $User->first();
-            $Produk = \App\Produk::where('produk', $id_produk)->first();
-            $datas = \App\jurusan::get();
-            // $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
-            $id_pesdik_login = $pengertian->first();
+        // Ambil data user pertama (mungkin Anda ingin mengkondisikan ini sesuai kebutuhan Anda)
+        $Users = \App\User::first();
 
-            $Produks = \App\Produk::where('produk', $id_produk)->first();
-            $voucher = \App\voucher::get();
-            // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
-            $namaVoucher = $request->input('nama_voucher', '');
+        // Ambil data produk dengan produk tertentu
+        $Produk = \App\Produk::where('produk', $id_produk)->first();
 
-            // Cari voucher berdasarkan nama yang telah diterima
-            $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
+        // Ambil data jurusan
+        $datas = \App\jurusan::get();
 
-            return view('/pembelian', compact('Users', 'pengertian', 'User', 'datas', 'Produk', 'voucher','Produks','id_pesdik_login'));
+        // Ambil data pertama dari hasil query pengertian produk
+        $id_pesdik_login = $pengertian->first();
+
+
+        // Ambil data produk dengan produk tertentu
+        $Produks = \App\Produk::where('produk', $id_produk)->first();
+
+        // Ambil data voucher
+        $voucher = \App\voucher::get();
+
+        // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
+        $namaVoucher = $request->input('nama_voucher', '');
+
+        // Cari voucher berdasarkan nama yang telah diterima
+        $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
+
+        return view('/pembelian', compact('Users', 'pengertian', 'Users', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login'));
+    }
+
+
+    public function validateVoucher(Request $request)
+    {
+        $voucherCode = $request->input('voucher_code');
+        $voucher = voucher::where('nama', $voucherCode)->first();
+
+        if ($voucher) {
+            // Jika kode voucher benar, kembalikan respons JSON dengan informasi voucher
+            return response()->json(['message' => 'Kode voucher valid.', 'voucher' => $voucher]);
+        } else {
+            // Jika kode voucher salah, kembalikan respons JSON dengan pesan kesalahan
+            return response()->json(['message' => 'Kode voucher tidak valid.']);
         }
-
-        public function validateVoucher(Request $request)
-        {
-            $voucherCode = $request->input('voucher_code');
-            $voucher = voucher::where('nama', $voucherCode)->first();
-
-            if ($voucher) {
-                // Jika kode voucher benar, kembalikan respons JSON dengan informasi voucher
-                return response()->json(['message' => 'Kode voucher valid.','voucher' => $voucher]);
-            } else {
-                // Jika kode voucher salah, kembalikan respons JSON dengan pesan kesalahan
-                return response()->json(['message' => 'Kode voucher tidak valid.']);
-            }
-        }
-
-
+    }
 }

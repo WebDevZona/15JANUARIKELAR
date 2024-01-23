@@ -2,6 +2,7 @@
     @yield('footer')
 </main>
 
+
 <footer id="footer">
 
     <!-- <div class="footer-newsletter">
@@ -28,32 +29,58 @@
             height: 44px;
             width: auto;
         }
+
+        .link-container {
+            position: relative;
+            width: 450px;
+            margin-left: 800px;
+            margin-top: -380px;
+            overflow: hidden;
+        }
+
+        .link-container a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            color: black;
+        }
+
+        .link-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
     </style>
     <div class="footer-top">
         <div class="container">
             <div class="row">
                 <!-- Left Section with Logo and Text -->
-                <div class="col-lg-3 col-md-3">
-                    <a href="index.php"><img src="{{ asset('assets/img/logo/logo3.png') }}" style="width:80% " alt=""></a>
+                <div class="col-2">
+                    <a href="index.php"><img src="{{ asset('assets/img/logo/logo3.png') }}" style="width:100%" alt=""></a>
+                </div>
+
+                <div class="col-lg-4 col-md-3">
                     <div class="text-container">
-                        {{-- <p>Bimbingan Belajar Online Perkuliahan dan Persiapan Karir dengan Sistem Kenaikan Kelas Pertama di Indonesia.</p> --}}
+                        <p>Bimbingan Belajar Online Perkuliahan dan Persiapan Karir dengan Sistem Kenaikan Kelas Pertama di Indonesia.</p>
                     </div>
                 </div>
 
                 <!-- Right Section with Social Media Links -->
+
                 <div class="col-lg-4 col-md-3 ml-auto">
                     <div class="social-links" style="text-align: right;">
-                        <a href="https://www.tiktok.com/@classprogram" class="tiktok"><i class="bx bxl-tiktok"></i></a>
-                        <a href="https://www.instagram.com/classprogram.id/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube"><i class="bx bxl-youtube"></i></a>
+                        <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style=" padding: 10px;"><i class="bx bxl-youtube"></i></a>
+                        <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle" style=" padding: 10px;"><i class="bx bxl-tiktok"></i></a>
+                        <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle" style=" padding: 10px;"><i class="bx bxl-instagram"></i></a>
                     </div>
                 </div>
-                <img src="assets/img/bg/footergaris.png" height="200px;" alt="Background Image" class="garis1" style=" stroke: #003EB5;
+                <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1" style=" stroke: #003EB5;
         position: absolute;
                width: 1100px;
                margin-inline-start: -130px;
-               margin-top: 260px;
-               left:0;
+               margin-top: -30px;
+               left:-10px;
                height: 400px;
                display: block;
               ">
@@ -69,15 +96,14 @@
                 <div class="col-lg-4 col-md-3 footer-links">
                     <h4>Hubungi Kami</h4>
                     <ul>
-                        <li><a href="Kelas-Tugas-Kuliah"><b>Alamat :</b> Jalan Bandara <br> <br>
-                                Palmerah IV No. D-11B,<br> <br> Cemorokandang,<br> <br> Kedungkandang, Kota Malang, <br>
-                                <br> Jawa Timur <br> </a></li>
-                        <li><a href="Kelas-Tugas-Kuliah"><b>Email : </b>classprogram.id@gmail.com
+                        <li><a href="#"><b>Alamat:</b> Jalan Bandara
+                                Palmerah IV No. D-11B, <br> <br> Cemorokandang, Kedungkandang, Kota Malang, <br> <br> Jawa Timur <br> </a></li>
+                        <li><a href="#"><b>Email: </b>classprogram.id@gmail.com
                                 <br></a></li>
-                        <li><a href="Kelas-Tugas-Kuliah"> <b>Whatsapp : </b> 0812-3436-1959 <br></a>
+                        <li><a href="#"> <b>Whatsapp: </b> 0812-3436-1959 <br></a>
                         </li>
-                        <li><a href="Kelas-Tugas-Kuliah"> <b>Partnership : </b> <br> </a></li>
-                        <li><a href="Kelas-Tugas-Kuliah"> classprogram. id@gmailcom <br> <br> </a>
+                        <li><a href="#"> <b>Partnership: </b>classprogram.id@gmailcom<br> </a></li>
+                        <li><a href="#"> <br> <br> </a>
                         </li>
 
                     </ul>
@@ -88,43 +114,60 @@
                     <h4>Program Kelas</h4>
                     <ul>
                         <li><a href="#">Kelas Tugas Kuliah (KTK) </a></li>
-                        <li> <a href="#">Bimbingan Mata Kuliah Jurusan </a></li>
-                        <li> <a href="#"> (BMJ) <br> </a></li>
+                        <li> <a href="#">Bimbingan Mata Kuliah Jurusan (BMJ) </a></li>
                         <li> <a href="#"> Bimbingan Skripsi Online (BSO)</a></li>
                         <li> <a href="#">Kelas Persiapan Karir (KPK) </a></li>
                         <li> <a href="#">Creative Class <br> </a></li>
-                        <li><a href="#"><b>Workshop : </b> <br></a></li>
-                        <li><a href="#">Skripsi<br></a></li>
-                        <li><a href="#"> Karya Tulis Ilmiah (KTI) <br></a></li>
+
                         {{-- <li>
-                    <a href="https://maps.app.goo.gl/Qx8hR99kDTW1mEQx7"  target="_blank">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
-                            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M11.5 5c0 2.49-4.5 8.5-4.5 8.5S2.5 7.49 2.5 5a4.5 4.5 0 0 1 9 0Z" />
-                                <circle cx="7" cy="5" r="1.5" />
-                            </g>
-                        </svg>
-                        Jalan Bandara Palmerah IV No. D-11B,<br>
-                        Cemorokandang, Kedungkandang<br>
-                        Kota Malang, Jawa Timur
-                    </a>
-                </li> --}}
+                            <a href="https://maps.app.goo.gl/Qx8hR99kDTW1mEQx7"  target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+                                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M11.5 5c0 2.49-4.5 8.5-4.5 8.5S2.5 7.49 2.5 5a4.5 4.5 0 0 1 9 0Z" />
+                                        <circle cx="7" cy="5" r="1.5" />
+                                    </g>
+                                </svg>
+                                Jalan Bandara Palmerah IV No. D-11B,
+                                Cemorokandang, Kedungkandang
+                                Kota Malang, Jawa Timur
+                            </a>
+                                </li> --}}
                         <!-- ... (lanjutan elemen li) -->
                     </ul>
                 </div>
 
-                <!-- Workshop Links -->
                 <div class="col-lg-4 col-md-3 footer-links">
+                    <h4>Workshop</h4>
+                    <ul>
+                        <li><a href="#">Skripsi<br></a></li>
+                        <li><a href="#"> Karya Tulis Ilmiah (KTI) <br></a></li>
+                    </ul>
+                    <br>
+                    <h4>Daftar Sekarang</h4>
+                    <ul>
+                        <li><a href="#">Daftar</a></li>
+                        <li><a href="#">Masuk</a></li>
+                    </ul>
+                </div>
+                <div class="link-container">
+                    <a href="https://www.instagram.com/reel/C1eDXOAPKPI/?igsh=NTc4MTIwNjQ2YQ==" style="text-decoration: none; color: black;">
+                        <img src="{{ asset('assets/img/bg/hp.png') }}" alt="Workshop Image">
+                    </a>
+                </div>
+
+
+
+                <!-- <div class="col-lg-3 col-md-3 footer-links">
                     <h4>Daftar Sekarang</h4>
                     <ul>
                         <li><a href="#">Daftar</a></li>
                         <li><a href="#">Masuk</a></li>
                         <img src="{{ asset('assets/img/bg/hp.png') }}" alt="Workshop Image">
                     </ul>
-                </div>
+                </div> -->
 
                 <!-- Download App Section -->
-                <div class="col-lg-3 col-md-3 footer-links">
+                <div class="col-lg-2     col-md-3 footer-links">
                     {{-- <h4>Download aplikasinya</h4> --}}
 
                 </div>
@@ -132,10 +175,10 @@
         </div>
 
 
-        <div class="container">
+        <div class="container" style="margin-top: -50px;">
             <hr style="   border: none;
-  height: 2px; /* Default height */
-  background-color: white; margin-bottom: -300;">
+                height: 2px; /* Default height */
+                background-color: white; margin-bottom: -300;">
         </div>
         <div class="container py-4">
             <div class="copyright">
@@ -263,33 +306,38 @@
         const popupMessages = [{
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Yohanes Hernandes</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "Sobat Insan<br><strong>Yohanes Hernandes</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
 
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Dimas wildan </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "Sobat Insan<br><strong>Dimas wildan </strong> <br>Mendaftar di Konsultasi Reguler Platinum",
             },
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Fandi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "Sobat Insan<br><strong>Fandi </strong> <br>Mendaftar di Paket Hemat Bimbingan Skripsi Online",
             },
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Aldi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "Sobat Insan<br><strong>Aldi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Putra </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "Sobat Insan<br><strong>Putra </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "have registered<br><strong>Zahra</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                text: "Sobat Insan<br><strong>Zahra</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+            },
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insan<br><strong>Fadil</strong> <br>Mendaftar di Paket Emerald Bimbingan Skripsi Online",
             },
         ];
 
@@ -312,6 +360,8 @@
         showPopup();
 
         // Set interval to showPopup every 5 seconds
-        setInterval(showPopup, 5000);
+        setInterval(showPopup, 9000);
     </script>
+    {{-- Animasi angka --}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
 </footer>

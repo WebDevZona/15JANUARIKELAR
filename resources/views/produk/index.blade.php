@@ -83,7 +83,7 @@
                                     @else
                                     <p>Tidak ada foto .</p>
                                     @endif
-                                </td>     
+                                </td>
                                  <td>
                                         <form action="{{ route('produk.publish', $produk->id) }}" method="POST">
                                             @csrf
@@ -92,7 +92,7 @@
                                                 {{ $produk->publish === 'ya' ? 'Publish' : 'Unpublish' }}
                                             </button>
                                         </form>
-                                    </td>           
+                                    </td>
                                 {{-- <td>{{$produk->jenis_kelamin}}</td> --}}
                                 <td>
                                     <center>
@@ -103,7 +103,7 @@
                                         Hapus</a> --}}
                                     {{-- <a href="/produk/{{$produk->id}}/show" class="btn btn-success btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-child"></i> Detail</a> --}}
                                     @endif
-                            
+
                                 </div>
                             </center>
                                 </td>

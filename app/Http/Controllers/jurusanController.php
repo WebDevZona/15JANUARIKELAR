@@ -19,12 +19,12 @@ class jurusanController extends Controller
 
     public function index()
     {
-        
-        if(Auth::user()->level == 'admin') {
+
+        if (Auth::user()->level == 'admin') {
             Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
             return redirect()->to('/');
         }
-        
+
         $datas = jurusan::get();
         // $datas = jurusan::orderBy('publish', 'asc')->get();
         return view('jurusan.index', compact('datas'));
@@ -50,7 +50,7 @@ class jurusanController extends Controller
      */
     public function create()
     {
-        if(Auth::user()->level == 'admin') {
+        if (Auth::user()->level == 'admin') {
             Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
             return redirect()->to('/');
         }
@@ -67,15 +67,14 @@ class jurusanController extends Controller
     public function store(Request $request)
     {
 
-       
-            $jurusan = new jurusan;
-         $jurusan->nama             = $request->input('nama');
-          
-            // $jurusan->ket        = $request->input('ket');
-            $jurusan->publish   = $request->input('publish');      
-            $jurusan->save();
-        return redirect()->route('jurusan')->with('sukses', 'Data jurusan Berhasil Ditambah');
 
+        $jurusan = new jurusan;
+        $jurusan->nama             = $request->input('nama');
+
+        // $jurusan->ket        = $request->input('ket');
+        $jurusan->publish   = $request->input('publish');
+        $jurusan->save();
+        return redirect()->route('jurusan')->with('sukses', 'Data jurusan Berhasil Ditambah');
     }
     /**
      * Display the specified resource.
@@ -85,9 +84,9 @@ class jurusanController extends Controller
      */
     public function show($id)
     {
-        if(Auth::user()->level == 'admin') {
-                Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
-                return redirect()->to('/'); 
+        if (Auth::user()->level == 'admin') {
+            Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
+            return redirect()->to('/');
         }
 
         $data = jurusan::findOrFail($id);
@@ -101,17 +100,15 @@ class jurusanController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Request $request,$id)
-    {   
-        if(Auth::user()->level == 'admin') {
-                Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
-                return redirect()->to('/');
+    public function edit(Request $request, $id)
+    {
+        if (Auth::user()->level == 'admin') {
+            Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
+            return redirect()->to('/');
         }
         $jurusan = jurusan::findOrFail($id);
-    
-        return view('jurusan/edit', compact('jurusan'));
 
-    
+        return view('jurusan/edit', compact('jurusan'));
     }
 
     /**
@@ -121,15 +118,15 @@ class jurusanController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request,$id)
+    public function update(Request $request, $id)
     {
-        
+
         $jurusan = jurusan::find($id);
         $jurusan->nama             = $request->input('nama');
         // $jurusan->kelas             = $request->input('kelas');
         // $jurusan->ket        = $request->input('ket');
-        $jurusan->publish   = $request->input('publish');      
-       
+        $jurusan->publish   = $request->input('publish');
+
         $jurusan->update();
 
         // $data->cover = $cover;
@@ -147,11 +144,10 @@ class jurusanController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function delete($id)
-    
+
     {
         jurusan::findOrFail($id)->delete();
         // alert()->success('Berhasil.','Data telah dihapus!');
         return redirect()->route('jurusan')->with('sukses', 'Data jurusan Berhasil Dihapus');
     }
 }
-

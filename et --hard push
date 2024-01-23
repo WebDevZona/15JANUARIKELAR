@@ -1,0 +1,43 @@
+[33mef521c4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{0}: reset: moving to HEAD^
+[33me5c408c[m HEAD@{1}: commit: push
+[33mef521c4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{2}: checkout: moving from main to main
+[33mef521c4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m HEAD@{3}: commit (merge): Merge changes from master into haldian
+[33m10e89ed[m HEAD@{4}: checkout: moving from haldian to main
+[33mf0ba780[m[33m ([m[1;32mhaldian[m[33m)[m HEAD@{5}: checkout: moving from haldian to haldian
+[33mf0ba780[m[33m ([m[1;32mhaldian[m[33m)[m HEAD@{6}: commit: push
+[33m32e357c[m HEAD@{7}: checkout: moving from main to haldian
+[33m10e89ed[m HEAD@{8}: checkout: moving from main to main
+[33m10e89ed[m HEAD@{9}: commit: push
+[33m32e357c[m HEAD@{10}: merge haldian: Fast-forward
+[33m44cd345[m[33m ([m[1;31morigin/fadil[m[33m)[m HEAD@{11}: checkout: moving from haldian to main
+[33m32e357c[m HEAD@{12}: pull origin main: Merge made by the 'recursive' strategy.
+[33m9089eb9[m HEAD@{13}: checkout: moving from haldian to haldian
+[33m9089eb9[m HEAD@{14}: commit: push
+[33mf866ee4[m HEAD@{15}: pull origin main: Merge made by the 'recursive' strategy.
+[33md96a4e9[m HEAD@{16}: reset: moving to HEAD^
+[33m8a300b9[m HEAD@{17}: checkout: moving from haldian to haldian
+[33m8a300b9[m HEAD@{18}: reset: moving to HEAD^
+[33m4121a24[m[33m ([m[1;31morigin/haldian[m[33m)[m HEAD@{19}: checkout: moving from haldian to haldian
+[33m4121a24[m[33m ([m[1;31morigin/haldian[m[33m)[m HEAD@{20}: commit (merge): Merge changes from master into haldian
+[33m8a300b9[m HEAD@{21}: commit: update
+[33md96a4e9[m HEAD@{22}: checkout: moving from haldian to haldian
+[33md96a4e9[m HEAD@{23}: commit (merge): tes
+[33m906c4b7[m HEAD@{24}: commit: Committing local changes in index.blade.php
+[33mf585e3d[m HEAD@{25}: checkout: moving from main to haldian
+[33m44cd345[m[33m ([m[1;31morigin/fadil[m[33m)[m HEAD@{26}: pull origin main: Fast-forward
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{27}: checkout: moving from haldian to main
+[33mf585e3d[m HEAD@{28}: checkout: moving from main to haldian
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{29}: checkout: moving from haldian to main
+[33mf585e3d[m HEAD@{30}: commit: cek
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{31}: checkout: moving from main to haldian
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{32}: checkout: moving from haldian to main
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{33}: checkout: moving from main to haldian
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{34}: checkout: moving from haldian to main
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{35}: checkout: moving from main to haldian
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{36}: checkout: moving from haldian to main
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{37}: checkout: moving from haldian to haldian
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{38}: checkout: moving from main to haldian
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{39}: checkout: moving from Haldian to main
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{40}: checkout: moving from main to Haldian
+[33m559e1ac[m[33m ([m[1;32mnama_branch_baru[m[33m)[m HEAD@{41}: commit: gas
+[33m64ede8a[m HEAD@{42}: clone: from https://github.com/WebDevZona/15JANUARIKELAR.git
