@@ -22,6 +22,7 @@ class tampilanController extends Controller
 {
     public function index()
     {
+<<<<<<< HEAD
     // Mendapatkan data dari model
     $youtube = Youtube::get();
     $data = Video::get();
@@ -37,6 +38,16 @@ class tampilanController extends Controller
     }
 
     }
+=======
+
+        // return view('index');
+        // $artikel = Artikell::get();
+        $youtube = Youtube::get();
+        $data = Video::get();
+        $berita = Berita::get();
+        return view('index', compact('data', 'youtube', 'berita'));
+    }
+>>>>>>> 14c2702b2f4d92bd27cf88d3b049805ea5c712e2
     public function ktk()
     {
 
@@ -54,6 +65,7 @@ class tampilanController extends Controller
     }
     public function bso()
     {
+<<<<<<< HEAD
         if (Agent::isMobile()) {
             // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
             return view('mobile/bimbingan-skripsi-onlineMobile');
@@ -61,6 +73,10 @@ class tampilanController extends Controller
             // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
             return view('bimbingan-skripsi-online');
         }
+=======
+
+        return view('bimbingan-skripsi-online');
+>>>>>>> 14c2702b2f4d92bd27cf88d3b049805ea5c712e2
     }
     public function kpk()
     {
@@ -169,6 +185,7 @@ class tampilanController extends Controller
     {
         // Ambil data pengertian produk dengan id_produk tertentu
         $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
+<<<<<<< HEAD
 
         // Ambil data user pertama (mungkin Anda ingin mengkondisikan ini sesuai kebutuhan Anda)
         $Users = \App\User::first();
@@ -198,6 +215,37 @@ class tampilanController extends Controller
         return view('/pembelian', compact('Users', 'pengertian', 'Users', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login'));
     }
 
+=======
+
+        // Ambil data user pertama (mungkin Anda ingin mengkondisikan ini sesuai kebutuhan Anda)
+        $Users = \App\User::first();
+
+        // Ambil data produk dengan produk tertentu
+        $Produk = \App\Produk::where('produk', $id_produk)->first();
+
+        // Ambil data jurusan
+        $datas = \App\jurusan::get();
+
+        // Ambil data pertama dari hasil query pengertian produk
+        $id_pesdik_login = $pengertian->first();
+
+
+        // Ambil data produk dengan produk tertentu
+        $Produks = \App\Produk::where('produk', $id_produk)->first();
+
+        // Ambil data voucher
+        $voucher = \App\voucher::get();
+
+        // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
+        $namaVoucher = $request->input('nama_voucher', '');
+
+        // Cari voucher berdasarkan nama yang telah diterima
+        $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
+
+        return view('/pembelian', compact('Users', 'pengertian', 'Users', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login'));
+    }
+
+>>>>>>> 14c2702b2f4d92bd27cf88d3b049805ea5c712e2
 
     public function validateVoucher(Request $request)
     {
