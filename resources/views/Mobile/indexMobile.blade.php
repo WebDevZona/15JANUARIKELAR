@@ -347,31 +347,37 @@
                         <!-- <hr> Garis pemisah -->
                         <br>
                         <p>Pilihan paket hemat bimbingan skripsi</p>
-                        <div class="btn-group" style="">
-                            <button type="button" class="btn btn-list" style="background: #3E87F8; border-radius: 25px;"><span class="icon">
-                                    <img src="assets/img/bg/bookmark.png" alt="Deskripsi Gambar" style="width: 75px;position:center; margin-top: 10px;">
+                        <div class="btn-group text-center" style="">
+                            <button type="button" class="btn btn-list" style="margin-left:14%; background: #3E87F8; border-radius: 25px;">
+                                <span class="icon">
+                                    <img src="assets/img/bg/bookmark.png" alt="Deskripsi Gambar" style="width: 75px; margin-top: 10px;">
                                 </span>
                                 <div style="margin-top: 13px;">Pembuatan <br>judul skripsi</div>
                             </button>
-                            <button type="button" class="btn btn-list" style="background: #6770E9; border-radius: 25px;"><span class="icon">
-                                    <img src="assets/img/bg/edit.png" alt="Deskripsi Gambar" style="width:75px;position:center;  margin-top: 11px;">
+                            <button type="button" class="btn btn-list" style="margin-left:14%;  background: #6770E9; border-radius: 25px;">
+                                <span class="icon">
+                                    <img src="assets/img/bg/edit.png" alt="Deskripsi Gambar" style="width:75px; margin-top: 11px;">
                                 </span>
                                 <div style="margin-top: 12px;">Penyusunan
                                     <br> bab 1-bab 3
                                 </div>
                             </button>
-                            <button type="button" class="btn btn-list" style="background: #41BAAC; border-radius: 25px;"><span class="icon">
-                                    <img src="assets/img/bg/notes.png" alt="Deskripsi Gambar" style="width:75px;position:center; margin-top: 15px;"></span>
+                            <button type="button" class="btn btn-list" style="margin-left:14%;  background: #41BAAC; border-radius: 25px;">
+                                <span class="icon">
+                                    <img src="assets/img/bg/notes.png" alt="Deskripsi Gambar" style="width:75px; margin-top: 15px;">
+                                </span>
                                 <div style="margin-top: 10px;">Penyusunan
                                     <br> bab 4-bab 5
                                 </div>
                             </button>
-                            <button type="button" class="btn btn-list" style="background: #F7965A; border-radius: 25px;"><span class="icon">
-                                    <img src="assets/img/bg/group.png" alt="Deskripsi Gambar" style="width: 75px;position:center; margin-top: 18px;">
+                            <button type="button" class="btn btn-list" style="margin-left:14%;  background: #F7965A; border-radius: 25px;">
+                                <span class="icon">
+                                    <img src="assets/img/bg/group.png" alt="Deskripsi Gambar" style="width: 75px; margin-top: 18px;">
                                 </span>
                                 <div style="margin-top: 8px;">Persiapan sempro <br> atau sidang skripsi</div>
                             </button>
                         </div>
+
                     </div>
                 </div>
             </div>

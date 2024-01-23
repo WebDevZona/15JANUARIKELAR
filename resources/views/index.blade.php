@@ -54,10 +54,10 @@
         });
     </script>
 
-    testing
+
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/dekstop2.png);background-size: cover; margin-top: -18px">
+    <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/dekstop2.png);background-size: cover; margin-top: -25px">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
             <div class="judulawal">
                 <a href="#about" class="btn-get-awaaal awaaal" style="font-family:'Manrope';"><strong>Bersama Class
@@ -358,7 +358,7 @@
 
     </section>
 
-    <section id="paketmentor" class="paketmentor mb-5" style="background-color: #f0f0f0; margin-bottom: 0px; ">
+    <section id="paketmentor" class="paketmentor mb-5" style="background-color: #f0f0f0; margin-top:-80px; margin-bottom: 0px; ">
         <div class="paketmentorbg mb-5">
             <h2 class="judul-tengah" style="margin-top:0px;;font-family: Manrope;">Konsultasi Reguler Bersama Mentor
             </h2>
@@ -562,7 +562,7 @@
                     <div class="box featured">
                         <!-- <h3>Bimbingan Mata Kuliah Jurusan (BMJ)</h3> -->
                         <h4><img src="assets/img/bg/program1.png" class="img-fluid" alt="" style=""></h4>
-                        <ul>
+                        <ul style="margin-top: -50px; margin-left:10px;">
                             <li><strong style="">Bimbingan Skripsi Online (BSO)</strong></li>
                             <li style="color:black;">Bimbingan Skripsi Online (BSO) Class Program disediakan secara
                                 khusus untuk membantu Sobat Insans dalam memahami cara penyusunan dan pengerjaan skripsi
@@ -584,7 +584,7 @@
                     <div class="box featured">
                         <!-- <h3>Bimbingan Mata Kuliah Jurusan (BMJ)</h3> -->
                         <h4><img src="assets/img/bg/program2.png" class="img-fluid" alt="" style=""></h4>
-                        <ul>
+                        <ul style="margin-top: -50px; margin-left:10px;">
                             <li><strong style="">Bimbingan Mata Kuliah Jurusan (BMJ)</strong></li>
                             <li style="color:black;">Bimbingan Mata Kuliah Jurusan (BMJ) Class Program disediakan
                                 secara
@@ -607,7 +607,7 @@
                     <div class="box">
                         <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
                         <h4><img src="assets/img/bg/program3.png" class="img-fluid" alt="" style=""></h4>
-                        <ul>
+                        <ul style="margin-top: -50px; margin-left:10px;">
                             <li><strong style=""> Kelas Tugas Kuliah (KTK)</strong></li>
                             <li style="color:black;">Kelas Tugas Kuliah (KTK) Class Program disediakan secara khusus
                                 untuk
@@ -629,7 +629,7 @@
                     <div class="box">
                         <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
                         <h4><img src="assets/img/bg/program4.png" class="img-fluid" alt="" style=""></h4>
-                        <ul>
+                        <ul style="margin-top: -50px; margin-left:10px;">
                             <li><strong style="">Kelas Persiapan Karir (KPK)</strong></li>
                             <li style="color:black;">Kelas Persiapan Karir (KPK) Class Program disediakan secara khusus
                                 untuk
@@ -650,7 +650,7 @@
                     <div class="box">
                         <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
                         <h4><img src="assets/img/bg/program5.png" class="img-fluid" alt="" style=""></h4>
-                        <ul>
+                        <ul style="margin-top: -50px; margin-left:10px;">
                             <li><strong style="">Creative Class</strong></li>
                             <br>
                             <li style="color:black;">Creative Class adalah program yang disediakan secara khusus untuk
@@ -675,7 +675,7 @@
 
 
     <!-- HTML -->
-    <section id="youtube" class="youtube" style="margin-top: -150px;">
+    <section id="youtube" class="youtube" style="margin-top: -155px;">
         <div class="section-title judul">
             <h3>Coba GRATIS <br> Kelas Tugas Kuliah (KTK) sekarang juga! <span style=""><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:-10px;margin-right:5px"></span></h3>
         </div>
@@ -997,28 +997,23 @@
 
 
 
+
+
     <section id="testibaru" class="testibaru section-bg " style="margin-top: -155px;">
         <div class="pyoutube">
             <br>
             <div class="youtubeeeeeee">
-                <div class="gabung">
+                <div class="gabung" style="background: url(assets/img/bg/bgyou.png); position: absolute;  width: 1100px; height: 300px; margin-top:-40px; margin-left:-30px;  border-radius: 25px;">
                     <!-- Ganti dengan path gambar profil Anda -->
                     <div class="info">
-                        <h1 style=" margin-left:100px; text-align: center; color: #FFF; font-family: Poppins; font-size: 40px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">Lebih Dekat dengan Class Program</h1>
-                        <!-- <div class="social-linkss" style="text-align: center; margin-left:150px; margin-top:50px;">
-                            <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style=" padding: 30px;"></a>
-                        </div> -->
-
-
+                        <h1 style="margin-left:150px; text-align: center; color: #FFF; font-family: Poppins; font-size: 40px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">Lebih Dekat dengan Class Program</h1>
                         <style>
                             .btnyt:hover .yt {
                                 background-color: blue;
-                                /* Change to your desired hover background color */
                             }
 
                             .bxl-youtube:hover {
                                 color: blue !important;
-                                /* Change to your desired hover color */
                             }
                         </style>
 
@@ -1030,8 +1025,6 @@
                                 </div>
                             </div>
                         </a>
-
-
                     </div>
                 </div>
             </div>
@@ -1090,10 +1083,10 @@
 
     <section id="testibaru" class="testibaru section-bg">
         <div class="profile-container">
-            <p>Cerita Sobat Insans</p>
-            <p1>Selama Bergabung di Class Program</p1>
+            <p style="margin-left: 10px;">Cerita Sobat Insans</p>
+            <p1 style="margin-left: 10px;">Selama Bergabung di Class Program</p1>
             <br>
-            <div class="profile-slider">
+            <div class="profile-slider" style="margin-left: 10px;">
                 <div class="profile">
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-2.jpg" alt="Gambar Profil">
@@ -1104,8 +1097,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="profile">
 
+                <div class="profile">
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil">
                         <!-- Ganti dengan path gambar profil Anda -->
@@ -1127,6 +1120,43 @@
                             <h1>Adinda Cahayani Supriyanto</h1>
                             <p>" Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan
                                 skripsi online yang berkualitas dan juga ramah dikantong."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- lanjutan -->
+                <div class="profile">
+                    <div class="gabung">
+                        <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
+                        <!-- Ganti dengan path gambar profil Anda -->
+                        <div class="profile-info">
+                            <h1>Yola</h1>
+                            <p>"Saya merasa puas dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya selalu
+                                dikoreksi positif secara baik oleh kaka mentor. BSO bagus sekali dan recommended
+                                untuk Mahasiswa."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile">
+                    <div class="gabung">
+                        <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
+                        <!-- Ganti dengan path gambar profil Anda -->
+                        <div class="profile-info">
+                            <h1>Hildan Ramdani</h1>
+                            <p>"Halo Kak Dewi. Saya rutin ikut bimbingan, seminggu 3 kali. Dalam proses bimbingan, jujur saya
+                                sangat terbantu. Banyak hal yang saya tanyakan dan dapat terjawab oleh Mentor saya."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile">
+                    <div class="gabung">
+                        <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
+                        <!-- Ganti dengan path gambar profil Anda -->
+                        <div class="profile-info">
+                            <h1>Azizah Nurul<< /h1>
+                                    <p>"Saya puas dengan bimbingannya kak. Awalnya saya tidak mengerti tahapan skripsi, ketika mulai
+                                        bimbingan, saya jadi mengerti hal-hal penting dan tahapan dalam pembuatan judul
+                                        serta penentuan variabel. Terima kasih banyak."</p>
                         </div>
                     </div>
                 </div>
@@ -1160,7 +1190,7 @@
                                 <div class="member-info">
                                     <h4>1. Pesan Produk</h4>
                                     <br>
-                                    <p>Pilih paket bimbingan yang sesuai dengan kebutuhanmu</p>
+                                    <p style="margin-left: 5px;">Pilih paket bimbingan yang sesuai dengan kebutuhanmu</p>
                                 </div>
                             </div>
                         </div>
@@ -1175,7 +1205,7 @@
                                 <div class="member-info" style="margin: -20px;">
                                     <h4>2. Lakukan Pembayaran</h4>
                                     <br>
-                                    <p>Pilih paket bimbingan yang sesuai dengan kebutuhanmu</p><br>
+                                    <p style="margin-left: 25px;">Pilih paket bimbingan yang sesuai dengan kebutuhanmu</p><br>
                                 </div>
                             </div>
                         </div>
@@ -1190,7 +1220,7 @@
                                 <div class="member-info">
                                     <h4>3. Jadwalkan Sesi</h4>
                                     <br>
-                                    <p>Mengirim bukti pembayaran dan menunggu verifikasi</p><br>
+                                    <p style="margin-left:12px;">Mengirim bukti pembayaran dan menunggu verifikasi</p><br>
                                 </div>
                             </div>
                         </div>
@@ -1206,7 +1236,7 @@
                                     <h4>4. Mulai Konsultasi</h4>
                                     <br>
                                     {{-- <span>CTO</span> --}}
-                                    <p>Kamu siap melakukan bimbingan bersama Mentor profesional</p><br>
+                                    <p style="margin-left: 20px;">Kamu siap melakukan bimbingan bersama Mentor profesional</p><br>
                                 </div>
                             </div>
                         </div>
@@ -1230,7 +1260,7 @@
             <div class="row">
                 <div class="col-xl-7">
                     <div class="section-title">
-                        <h3>Paling Sering Ditanyakan</h3>
+                        <h3 style="font-size: 30px; margin-left:-100px;">Paling Sering Ditanyakan</h3>
                     </div>
                     <div id="accordion" class="myaccordion">
                         <div class="card">
@@ -1340,11 +1370,11 @@
         </div>
     </section>
 
-    <section id="gambarkampus" class="gambarkampus" style="margin-top:-50px;">
+    <section id="gambarkampus" class="gambarkampus" style="margin-top:-100px;">
         <div class="section-title">
-            <h3>Kami telah membimbing<br> mahasiswa dari berbagai kampus</h3>
+            <h3 style="font-size: 35px;">Kami telah membimbing<br> mahasiswa dari berbagai kampus</h3>
         </div>
-        <div class="container">
+        <div class="container" style="margin-top: 50px;">
             <div class="row">
                 <img src="assets/img/kampus/ui.png" alt="Gambar 1" class="image">
                 <img src="assets/img/kampus/um.png" alt="Gambar 2" class="image">

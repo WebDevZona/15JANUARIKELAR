@@ -206,7 +206,7 @@ border-bottom-right-radius: 10px; */
 #marquee-container .stop {
     margin-top: 8px;
     width: 7%;
-    height: 35px;
+    height: 50px;
     position: absolute;
     left: 0;
     background-color: #09326f;

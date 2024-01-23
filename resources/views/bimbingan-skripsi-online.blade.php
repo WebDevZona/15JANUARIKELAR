@@ -168,11 +168,9 @@
                                 id="myVideo">
                                 <source src="assets/vidio/1.mp4" type="video/mp4">
                             </video>
-                            {{-- <button class="play-button" onclick="togglePlay()">▶ </button> --}}
                         </div>
-                        <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
+                        <!-- <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center"
                             data-aos="fade-up" data-aos-delay="100">
-                            {{-- text --}}
                             <style>
                                 .content-box {
                                     display: flex;
@@ -193,7 +191,6 @@
                             </style>
 
                             <div class="section-title">
-                                <!-- <h2>About</h2> -->
                                 <span class="garis">
                                     <h3
                                         style="margin-top: 130px; text-align: left; font-size: 45px; color: #000;
@@ -202,7 +199,6 @@
                                         Bimbingan Skripsi <br> Online (BSO)</h3>
                                 </span>
 
-                                <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
                             </div>
 
                             <div class="content-box">
@@ -228,7 +224,6 @@
                                 </div>
                             </div>
 
-
                             <div class="content-box">
                                 <span class="veryikasi">
                                     <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
@@ -250,7 +245,7 @@
                                         untuk semua jurusan</h5>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
             </section>
             <!-- End About Section -->
