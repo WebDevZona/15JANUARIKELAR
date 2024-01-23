@@ -79,8 +79,8 @@
         position: absolute;
                width: 1100px;
                margin-inline-start: -130px;
-               margin-top: -30px;
-               left:-10px;
+               margin-top: -100px;
+               left:0;
                height: 400px;
                display: block;
               ">
@@ -317,7 +317,7 @@
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "Sobat Insan<br><strong>Fandi </strong> <br>Mendaftar di Paket Hemat Bimbingan Skripsi Online",
+                text: "Sobat Insan<br><strong>Fandi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
             {
                 date: currentDay,
@@ -337,7 +337,7 @@
             {
                 date: currentDay,
                 month: currentMonth,
-                text: "Sobat Insan<br><strong>Fadil</strong> <br>Mendaftar di Paket Emerald Bimbingan Skripsi Online",
+                text: "Sobat Insan<br><strong>Fadil</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
             },
         ];
 
