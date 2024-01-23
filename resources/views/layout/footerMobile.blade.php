@@ -70,7 +70,7 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-3 ml-auto">
-            <div class="social-links" style=" margin-left:170px;">
+            <div class="social-links" style=" margin-left:140px;">
                 <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ"
                     class="youtube rounded-circle" style=" padding: 10px;"><i class="bx bxl-youtube"></i></a>
                 <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle"

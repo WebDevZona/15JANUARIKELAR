@@ -87,7 +87,7 @@
                     <div class="section-title">
                         <!-- <h2>About</h2> -->
                         <h3>Bimbingan Skripsi Online (BSO)</h3>
-                        <p style="margin-top: -2px;">Home > Bimbingan Skripsi Online (BSO)</p>
+                        <p style="margin-top: -2px;font-size: 12px !important;" style="">Home > Bimbingan Skripsi Online (BSO)</p>
                         {{-- <span>BSO</span> --}}
                     </div>
                 </div>
@@ -95,20 +95,20 @@
 
 
             <section id="hero" class="d-flex align-items-center"
-                style="background: url(assets/img/bg/bso.png);background-size: cover; ">
+                style="background: url(assets/img/bg/bso.png);background-size: cover;  ">
                 <div class="container" data-aos="zoom-out" data-aos-delay="100">
                     <div class="d-flex">
                         <div
-                            style="margin-top:-100px;width: 250px; height: 100%; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                            style="margin-top:-150px;width: 160px; height: 100%;  background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                             <div
-                                style="color: white; font-size: 23px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">
+                                style="color: white; font-size: 15px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">
                                 CLASS PROGRAM</div>
                         </div>
 
                     </div>
                     <div class="inijudulbso">
                         <h2
-                            style=" margin-top: -40px;
+                            style=" margin-top: -70px;
                         font-style: normal;
                         font-weight: 600;
                         line-height: 125%;
@@ -123,15 +123,15 @@
                     flex-shrink: 0;
                     font-family: Montserrat !important;
                     color: #FFF;
-                    font-size: 19px;
+                    font-size: 15px;
                     font-style: normal;
                     /* font-weight: 200; */
                     line-height: 125%;
                     letter-spacing:1px;">
-                        Bimbingan Skripsi Online (BSO) Class Program disediakan <br>
-                        secara khusus untuk membantu mahasiswa dalam memahami <br> langkah-langkah
-                        penyusunan dan pengerjaan skripsi dengan <br> sistem mentoring/pendampingan secara
-                        intensif dan privat <br> dalam bentuk paket hemat dan konsultasi reguler.</h2>
+                        Bimbingan Skripsi Online (BSO) Class<br> Program disediakan 
+                        secara khusus<br> untuk membantu mahasiswa dalam<br> memahami langkah-langkah<br>
+                        penyusunan dan pengerjaan skripsi<br> dengan sistem mentoring/<br>pendampingan secara
+                        intensif dan<br> privat dalam bentuk paket hemat dan<br> konsultasi reguler</h2>
             </section>
 
 
@@ -169,10 +169,9 @@
                             <!-- <h2>About</h2> -->
                             <span class="garis">
                                 <h3
-                                    style="margin-left:100px;margin-top: 120px; text-align: center; font-size: 30px; color: #000;
+                                    style="margin-left:110px;margin-top: 120px; text-align: center; font-size: 25px; color: #000;
                                 font-family: Montserrat; width:auto">
-                                    Keunggulan <br>
-                                    Bimbingan Skripsi <br> Online (BSO)</h3>
+                                    Keunggulan Bimbingan<br>Skripsi Online (BSO)</h3>
                             </span>
 
                             <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
@@ -266,7 +265,7 @@
                     style="
                             text-align:center;
                             color: black;
-                            font-size: 30px;
+                            font-size: 25px;
                             font-family: Montserrat;
                             font-weight: 580;
                             /* font-weight: 700;
@@ -965,7 +964,7 @@
                             <div id="paket1" class="paketbso card-body active"
                                 style="margin-top: -360px; text-align: left; ">
                                 <div
-                                    style="color: black; font-family: Montserrat; font-size: 24px; width:800px; margin-left: 380px; ">
+                                    style="color: black; font-family: Montserrat; font-size: 24px; width:800px; margin-left: 200px; ">
                                     Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan dalam pembuatan dan
                                     penyusunan judul skripsi </div>
 
@@ -2073,11 +2072,11 @@
                 </section>  -->
 
             <section id="testimonials" class="testimonials"
-                style="margin-top: 20px ;margin-bottom:30px; background: url(assets/img/bg/bgmentor.png);background-size: cover;">
+                style=" background: url(assets/img/bg/bgmentor.png);background-size: cover;">
 
                 <div class="section-title">
-                    <h3 style="margin-top: 80px; color:#000; font-size:50px">Mentor Profesional</h3>
-                    <h3 style="color:#000; font-size:50px">Class Program</h3>
+                    <h3 style=" color:#000; font-size:25px">Mentor Profesional</h3>
+                    <h3 style="color:#000; font-size:25px">Class Program</h3>
 
                 </div>
                 <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -2135,32 +2134,27 @@
 
                                 <!-- Anggota Tim 2 -->
                                 <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                                    <div class="konsultasi-content" style="padding-top: 20px">
+                                    <div class="konsultasi-content" >
                                         <h4>2. Lakukan Pembayaran</h4>
                                         <div class="member-img">
-                                            <div style="position: relative; display: flex; align-items: center;">
+                                            <div style=" align-items: center;">
                                                 <!-- Gambar pertama -->
-                                                <img style="margin-left: -80px; width: 100px;"
+                                                <img style="width: 100px;"
                                                     src="assets/img/bg/garis1.png" class="img-fluid" alt="">
                                                 <!-- Gambar kedua -->
                                                 <img src="assets/img/bg/al2.png" class="img-fluid"
-                                                    style="width: 180px; margin-left:-20px;" alt="">
+                                                    style="width: 180px; " alt="">
                                             </div>
-                                            <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                                            {{-- <img src="assets/img/bg/al2.png" class="img-fluid"  style="width: 180px; margin-left:20px;"
-                                                alt=""> --}}
+                                         
                                         </div>
-                                        <div class="member-infoo">
+                                        <div class="member-infoo" style="margin-bottom: -1000px;
+                                        ">
 
                                             <br>
                                             {{-- <span>Product Manager</span> --}}
                                             <p>Mengisi formulir pendaftaran sesuai dengan data diri yang lengkap dan benar
                                             </p><br>
-                                            {{-- <ul>
-              <li>Prestasi 1</li>
-              <li>Prestasi 2</li>
-              <li>Prestasi 3</li>
-            </ul> --}}
+                                          
                                         </div>
                                     </div>
                                 </div>
@@ -2177,18 +2171,13 @@
                                                 <img src="assets/img/bg/al3.png" class="img-fluid"
                                                     style="width: 255px; margin-left:-30px;  margin-top:5px; ">
                                             </div>
-                                            <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                                            {{-- <img src="assets/img/bg/al3.png" class="img-fluid" style="width: 255px;"alt=""> --}}
+                                           
                                         </div>
                                         <div class=" member-infoo">
                                             <br>
                                             {{-- <span>Product Manager</span> --}}
                                             <p>Mengirim bukti pembayaran dan menunggu verifikasi</p><br>
-                                            {{-- <ul>
-                                <li>Prestasi 1</li>
-                                <li>Prestasi 2</li>
-                                <li>Prestasi 3</li>
-                                </ul> --}}
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -2212,11 +2201,7 @@
                                             <br>
                                             {{-- <span>CTO</span> --}}
                                             <p>Kamu siap melakukan bimbingan bersama mentor</p><br>
-                                            {{-- <ul>
-                                <li>Prestasi 1</li>
-                                <li>Prestasi 2</li>
-                                <li>Prestasi 3</li>
-                                </ul> --}}
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -2240,37 +2225,7 @@
                             <div class="section-title" style="margin-bottom: 50px;">
                                 <h3 style="margin-top:0px !important">Paling Sering Ditanyakan</h3>
                             </div>
-                            {{-- <style>
-                                .accordion-button {
-                                    background-color: #3E87F8;
-                                    color: #fff;
-                                    border: none;
-                                    text-align: left;
-                                    padding: 20px;
-                                    font-size: 18px;
-                                    cursor: pointer;
-                                    transition: background-color 0.3s;
-                                    width: 100%;
-                                    text-decoration: none;
-                                    border-radius: 5px;
-                                }
-
-                                .accordion-button:hover {
-                                    background-color: #2952a3;
-                                }
-
-                                .accordion-body {
-                                    padding: 20px;
-                                    background-color: #f8f9fa;
-                                    border: 1px solid #dee2e6;
-                                    border-top: none;
-                                    border-radius: 0 0 5px 5px;
-                                }
-
-                                .accordion-item.active .accordion-button {
-                                    background-color: #2952a3;
-                                }
-                            </style> --}}
+                           
 
                             <div class="accordion" id="accordionFlushExample">
                                 <div class="accordion-item">

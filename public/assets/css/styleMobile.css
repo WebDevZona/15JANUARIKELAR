@@ -864,7 +864,7 @@ line-height: 31.4px; */
     color: #fff;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: "Manrope";
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: 100%;
@@ -1079,7 +1079,7 @@ section {
 
 .section-title h3 {
     margin: 15px 0 0 0;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -1437,11 +1437,11 @@ font-weight: 550;
     font-size: 24px;
     color: #fff;
     margin-top: -35px;
-    height: 180px;
+    height: 120px;
 }
 
 .heada .section-title {
-    margin-top: -10px;
+    margin-top: -25px;
 }
 
 /* -------------------------------------------------------------
@@ -5706,7 +5706,7 @@ margin-left: 10px;
     color: #09326f;
     text-align: center;
     font-family: Poppins;
-    font-size: 35px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 700;
     line-height: 65px;
@@ -5799,7 +5799,7 @@ margin-left: 10px;
 
 .profile-container {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -6724,7 +6724,7 @@ align-items: flex-start;
 
 .konsultasi-content h4 {
     color: #3e87f8;
-    font-size: 20px;
+    font-size: 15px;
     font-family: Montserrat;
     font-weight: 700;
     left: 0;
@@ -6866,8 +6866,8 @@ align-items: flex-start;
 
 .centered-content img {
     max-width: 100%;
-    height: auto;
-    margin-left: -15px;
+    height: 230px;
+    /* margin-left: -15px; */
     margin-top: 5px;
     margin-bottom: 10px; /* Sesuaikan nilai ini agar gambar tidak menumpuk */
     border: 1px solid #000; /* Ganti #000 dengan warna border yang diinginkan */
@@ -7049,7 +7049,7 @@ svg {
 }
 
 .container img {
-    /* width: 100px; */
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -7072,7 +7072,7 @@ svg {
 }
 
 .pro {
-    width: 125px;
+    width: 100px;
     height: auto;
     border-radius: 50%;
     border: 0px solid #333;
@@ -7320,7 +7320,7 @@ transform: translateX(100px);
 
 .profile-info p {
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: normal;
     text-align: left;
     line-height: 1.4;
@@ -8417,7 +8417,7 @@ button {
     margin-top: 10px;
     position: relative;
     margin-bottom: 1000px;
-    font-size: 14px;
+    font-size: 10px;
     text-align: center;
     width: 230px;
 }
