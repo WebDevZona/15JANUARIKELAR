@@ -2267,7 +2267,7 @@
                                                                         style="font-size: 18px !important;">Harga</span>
                                                                     <br><span class="blue-text"
                                                                         style="font-weight: 700 !important; font-size:25px !important; ">Rp.
-                                                                        47k</span>
+                                                                        47.000</span>
                                                                 </th>
                                                             </tr>
                                                         </thead>
@@ -2337,7 +2337,7 @@
                                                                         style="font-size: 18px !important;">Harga</span>
                                                                     <br><span class="blue-text"
                                                                         style="font-weight: 700 !important; font-size:25px !important; ">Rp.
-                                                                        66k</span>
+                                                                        66.000</span>
                                                                 </th>
                                                             </tr>
                                                         </thead>
@@ -2451,7 +2451,7 @@
                                                                         style="font-size: 18px !important;">Harga</span>
                                                                     <br><span class="blue-text"
                                                                         style="font-weight: 700 !important; font-size:25px !important; ">Rp.
-                                                                        62k</span>
+                                                                        62.000</span>
                                                                 </th>
                                                             </tr>
                                                         </thead>
@@ -2529,7 +2529,7 @@
                                                                         style="font-size: 18px !important;">Harga</span>
                                                                     <br><span class="blue-text"
                                                                         style="font-weight: 700 !important; font-size:25px !important; ">Rp.
-                                                                        57k</span>
+                                                                        57.000</span>
                                                                 </th>
                                                             </tr>
                                                         </thead>
@@ -2946,7 +2946,6 @@
                             </div>
                         </div>
                     </div>
-                </div> 
             </section>
 
             <section id="faq" class="faq section-bg"
@@ -3089,7 +3088,7 @@
                                 <a href="#pricing" class="btn btn-primary" style="border-radius: 10px; align-content: center;">Baca selengkapnya</a>
                             </div> --}}
                             </div>
-                            <script>
+                            {{-- <script>
                                 document.addEventListener('DOMContentLoaded', function() {
                                     var accordions = document.querySelectorAll('.accordion-button');
 
@@ -3099,7 +3098,7 @@
                                         });
                                     });
                                 });
-                            </script>
+                            </script> --}}
 
 
                         </div>
@@ -3108,6 +3107,8 @@
                 <script src="script.js"></script>
             </section>
 
+
+>>>>>>> 14c2702b2f4d92bd27cf88d3b049805ea5c712e2
             {{--
             WTGF
             <section id="menu" class="menu">

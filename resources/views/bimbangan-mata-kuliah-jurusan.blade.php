@@ -379,11 +379,13 @@
                             line-height: 125%; font-size:78px;">2564+</span> <br>
                         Mahasiswa <br> Lulus Bersama <br> Kami
                         <!-- <a href="#" class="custom-btn-buy">Daftar Sekarang</a> -->
-                        <div style="width: 80%; height: 100%; display: flex; justify-content: center; margin-top: -52px; margin-left:120px;">
-                            <div style="margin-left: 15px; width: 250px; height: 100%; padding: 6.40px; background: #3E87F8; box-shadow: 6.400178909301758px 6.400178909301758px 12.800357818603516px rgba(0, 0, 0, 0.15); border-radius: 32px; justify-content: center; align-items: center; gap: 6.40px; display: inline-flex; margin: 0 auto;">
-                                <div style="color: white; font-size: 20.48px; font-family: Montserrat; font-weight: 700; line-height: 25.60px; word-wrap: break-word"><a href="/login" style="color: #fff; letter-spacing: 0.1px;">Pesan Sekarang</a></div>
+                        <a href="URL_TARGET">
+                            <div style="margin-bottom: 30px; width: 250px;  margin-top:-30px; padding-botton: 30px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                                <div style=" letter-spacing: 1px; color: white; margin-top:-30px; font-size: 25px; font-family: Montserrat; font-weight: 600; line-height: 37.50px; word-wrap: break-word">
+                                    Pesan Sekarang
+                                </div>
                             </div>
-                        </div>
+                        </a>
                         <br>
 
                         <div class="row" style="margin-bottom:120px; ">
@@ -977,6 +979,7 @@
                                 <li class="left-aligned">
                                     <span class="checkmark">&#10003;</span>
                                     <span class="text">Untuk mahasiswa semester 5 dan 6</span>
+<<<<<<< HEAD
                                 </li>
                                 <li class="left-aligned">
                                     <span class="checkmark">&#10003;</span>
@@ -996,6 +999,27 @@
                                 </li>
                                 <li class="left-aligned">
                                     <span class="checkmark">&#10003;</span>
+=======
+                                </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+                                    <span class="text"> 6 Mata Kuliah (umum dan khusus)</span>
+                                </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+                                    <span class="text"> Konsultasi konsentrasi jurusan </span>
+                                </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+                                    <span class="text">Waktu bimbingan 24 kali pertemuan</span>
+                                </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+                                    <span class="text">Jadwal bimbingan 1 minggu, <br>3x pertemuan</span>
+                                </li>
+                                <li class="left-aligned">
+                                    <span class="checkmark">&#10003;</span>
+>>>>>>> 14c2702b2f4d92bd27cf88d3b049805ea5c712e2
                                     <span class="text">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
                                 </li>
 
