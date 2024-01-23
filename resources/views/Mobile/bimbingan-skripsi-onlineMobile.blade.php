@@ -2123,7 +2123,7 @@
                                             <img src="assets/img/bg/al11.png" class="img-fluid"
                                                 style="width: 180px; margin-left:20px;" alt="">
                                         </div>
-                                        <div class="member-infoo">
+                                        <div class="member-infoo" style="margin-bottom: -1000px;">
                                             <br>
                                             <p>Pilih paket bimbingan yang sesuai dengan kebutuhanmu</p><br>
 
@@ -2139,16 +2139,15 @@
                                         <div class="member-img">
                                             <div style=" align-items: center;">
                                                 <!-- Gambar pertama -->
-                                                <img style="width: 100px;"
-                                                    src="assets/img/bg/garis1.png" class="img-fluid" alt="">
+                                                {{-- <img style="width: 100px;"
+                                                    src="assets/img/bg/garis1.png" class="img-fluid" alt=""> --}}
                                                 <!-- Gambar kedua -->
                                                 <img src="assets/img/bg/al2.png" class="img-fluid"
                                                     style="width: 180px; " alt="">
                                             </div>
                                          
                                         </div>
-                                        <div class="member-infoo" style="margin-bottom: -1000px;
-                                        ">
+                                        <div class="member-infoo" style="margin-bottom: -1000px;">
 
                                             <br>
                                             {{-- <span>Product Manager</span> --}}
@@ -2165,15 +2164,15 @@
                                         <div class="member-img">
                                             <div style="position: relative; display: flex; align-items: center;">
                                                 <!-- Gambar pertama -->
-                                                <img style="margin-left: -50px; width: 100px;"
-                                                    src="assets/img/bg/garis1.png" class="img-fluid" alt="">
+                                                {{-- <img style="margin-left: -50px; width: 100px;"
+                                                    src="assets/img/bg/garis1.png" class="img-fluid" alt=""> --}}
                                                 <!-- Gambar kedua -->
                                                 <img src="assets/img/bg/al3.png" class="img-fluid"
                                                     style="width: 255px; margin-left:-30px;  margin-top:5px; ">
                                             </div>
                                            
                                         </div>
-                                        <div class=" member-infoo">
+                                        <div class=" member-infoo" style="margin-bottom: -1000px;">
                                             <br>
                                             {{-- <span>Product Manager</span> --}}
                                             <p>Mengirim bukti pembayaran dan menunggu verifikasi</p><br>
@@ -2189,8 +2188,8 @@
                                         <div class="member-img">
                                             <div style="position: relative; display: flex; align-items: center;">
                                                 <!-- Gambar pertama -->
-                                                <img style="margin-left: -50px; width: 100px;"
-                                                    src="assets/img/bg/garis1.png" class="img-fluid" alt="">
+                                                {{-- <img style="margin-left: -50px; width: 100px;"
+                                                    src="assets/img/bg/garis1.png" class="img-fluid" alt=""> --}}
                                                 <!-- Gambar kedua -->
                                                 <img src="assets/img/bg/al4.png" class="img-fluid"
                                                     style="width: 230px; margin-left: -20px;" alt="">
