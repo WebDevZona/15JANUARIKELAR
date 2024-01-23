@@ -56,7 +56,7 @@
 
                 <!-- Right Section with Social Media Links -->
 
-
+               
                 <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1"
                     style=" stroke: #003EB5;
         position: absolute;
@@ -127,9 +127,9 @@
                         <li><a href="#">Daftar</a></li>
                         <li><a href="#">Masuk</a></li>
                     </ul>
-
+                    
                 </div>
-
+               
                 {{-- <div class="link-container">
                     <a href="https://www.instagram.com/reel/C1eDXOAPKPI/?igsh=NTc4MTIwNjQ2YQ=="
                         style="text-decoration: none; color: black;">
@@ -168,9 +168,9 @@
                 <strong><span></span></strong>Copyright © 2020-2023 Class Program
 
             </div>
-
+           
         </div>
-
+        
     </div>
 
     <div id="whatsapp-button" onclick="openWhatsApp()">
