@@ -82,7 +82,7 @@
 
         <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/bmj.png); background-size: cover; margin-top: -18px; position: relative;">
 
-            <!-- <img style="height: 580px; margin-top: -30px; position: absolute; left: 0; top: 0;" src="assets/img/bg/bmjriska.png" alt="" /> -->
+            <img style="height: 580px; margin-top: -30px; position: absolute; left: 0; top: 0;" src="assets/img/bg/bmjriska.png" alt="" />
 
             <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: -50px; margin-bottom: 130px;">
                 <div style="width: 100%; display: flex; justify-content: center; margin-top: 50px;">
@@ -168,7 +168,7 @@
             </div>
 
 
-            <!-- <img style="height: 600px; margin-top: -50px; margin-left: 00px; position: absolute; right: 0; top: 0;" src="assets/img/bg/bmjandika.png" alt=""> -->
+            <img style="height: 600px; margin-top: -50px; margin-left: 00px; position: absolute; right: 0; top: 0;" src="assets/img/bg/bmjandika.png" alt="">
         </section>
 
         {{-- ok3 --}}
@@ -541,14 +541,14 @@
                                     </div>
 
                                     <div class="buttoncircle" style="display: flex; align-items: center;">
-                                        <i class="bi bi-check2-circle" style=" margin-left: 50px; color: #fff; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                        <i class="bi bi-check2-circle" style=" margin-left: 50px; color: #fff; margin-top: -45px; margin-right: 10px; font-size:30px;"></i>
                                         <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                             Konsultasi bersama Mentor terkait konsentrasi jurusan </div>
                                     </div>
 
                                     <div class="buttoncircle" style="display: flex; align-items: center;">
-                                        <i class="bi bi-check2-circle" style=" margin-left: 50px; color: #fff; margin-top: -10px; margin-right: 10px; font-size:30px;"></i>
-                                        <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                        <i class="bi bi-check2-circle" style=" margin-left: 50px; color: #fff; margin-top: -22px; margin-right: 10px; font-size:30px;"></i>
+                                        <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 10px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                             Review materi dari Mentor </div>
                                     </div>
 
@@ -863,7 +863,7 @@
                 </div>
                 <div class="section-title judul">
                     <h3 style="color:white; font-family:Montserrat;">Bimbingan Mata Kuliah Jurusan</h3>
-                    <h4 style="margin-bottom: 100px; color:white; font-family:Montserrat !important;">Memiliki tiga jenis paket dengan rincian dan biaya sebagai berikut</h4>
+                    <h4 style="margin-bottom: 100px; color:white; font-family:Montserrat !important;">Memiliki tiga jenis paket dengan rincian dan biaya sebagai berikut:</h4>
                 </div>
 
                 <div class="row align-items-center justify-content-center">

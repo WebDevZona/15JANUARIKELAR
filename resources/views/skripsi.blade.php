@@ -108,7 +108,7 @@
 
 
     <!-- ======= Benefit Section ======= -->
-    <section id="benefit" class="benefit">
+    <section id="benefit" class="benefit" style="margin-top: -50px;">
         <div class="container" data-aos="fade-up">
             <div class="d-flex" style="margin-left: 400px; margin-top:-20px ">
                 <a href="#pricing" class="btn-get-started scrollto" style="display: flex;
@@ -131,7 +131,7 @@
 
             <div class="section-title">
                 <h3>Apa Yang Akan Kamu Dapatkan</h3>
-                <h4 style="margin-bottom: 35px !important;">Kelas Pelatihan Skripsi Class Program </h4>
+                <h4 style="margin-bottom: 35px !important; margin-top:10px;">Kelas Pelatihan Skripsi Class Program </h4>
             </div>
 
             <div class="card-containerr">

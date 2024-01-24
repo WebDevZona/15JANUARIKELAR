@@ -1332,7 +1332,7 @@
                             </div>
                             <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
                                 <div class="card-body">
-                                    <p>Sistem belajar Class Program menggunakan sistem pendampingan yang sepenuhnya dilaksanakan secara online dengan metode Live teaching dan group sharing. Proses belajar turut dilengkapi berbagai fasilitas pendukung pembelajaran seperti flash card, Video Pembelajaran, dan lainnya.</p>
+                                    <p>Sistem belajar Class Program menggunakan sistem pendampingan yang sepenuhnya dilaksanakan secara online dengan metode Live teaching dan group sharing. Proses belajar turut dilengkapi berbagai fasilitas pendukung pembelajaran seperti flash card, video Pembelajaran, dan lainnya.</p>
                                 </div>
                             </div>
                         </div>
