@@ -1552,27 +1552,27 @@
                         <div id="paket2" class="paketbso card-body " style="margin-top: -360px; text-align: left; ">
                             <div style="color: black; font-family: Montserrat; font-size: 24px; width:800px; margin-left: 380px; ">
                                 Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan menuju seminar
-                                proposal (sempro) atau bimbingan bab 1-3.
+                                proposal (sempro) atau bimbingan bab 1-3
                             </div>
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 700px;">
                                     Sobat Insans akan dibantu dalam memahami proses penyusunan proposal penelitian
-                                    skripsi. </div>
+                                    skripsi </div>
                             </div>
 
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 700px;">
                                     Sobat Insans akan diberikan berbagai materi dasar seputar proposal skripsi oleh
-                                    mentor untuk memudahkan proses penyusunan. </div>
+                                    mentor untuk memudahkan proses penyusunan </div>
                             </div>
 
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 700px;">
                                     Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam
-                                    merumuskan judul skripsi.
+                                    merumuskan judul skripsi
                                 </div>
                             </div>
                         </div>
@@ -1580,27 +1580,27 @@
                         <div id="paket3" class="paketbso card-body " style="margin-top: -360px; text-align: left; ">
                             <div style="color: black; font-family: Montserrat; font-size: 24px; width:800px; margin-left: 380px; ">
                                 Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan menuju sidang skripsi
-                                atau bimbingan bab 4 hingga selesai. </div>
+                                atau bimbingan bab 4 hingga selesai </div>
 
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 700px;">
                                     Sobat Insans akan dibantu dalam memahami proses penyusunan hasil dan pembahasan
-                                    penelitian skripsi. </div>
+                                    penelitian skripsi </div>
                             </div>
 
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 700px;">
                                     Sobat Insans akan diberikan berbagai materi dasar seputar menganalisis penelitian
-                                    skripsi oleh mentor untuk memudahkan proses penyusunan. </div>
+                                    skripsi oleh mentor untuk memudahkan proses penyusunan </div>
                             </div>
 
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 700px;">
                                     Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam
-                                    merumuskan judul skripsi.
+                                    merumuskan judul skripsi
                                 </div>
                             </div>
                         </div>
@@ -1608,19 +1608,19 @@
                         <div id="paket4" class="paketbso card-body " style="margin-top: -360px; text-align: left; ">
                             <div style="color: black; font-family: Montserrat; font-size: 24px; width:800px; margin-left: 380px; ">
                                 Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan Simulasi Seminar
-                                Proposal dan Sidang Skripsi. </div>
+                                Proposal dan Sidang Skripsi </div>
 
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 700px;">
                                     Sobat Insans akan dibimbing dalam pembuatan dan cara mempresentasikan powerpoint
-                                    seminar proposal dan sidang skripsi. </div>
+                                    seminar proposal dan sidang skripsi </div>
                             </div>
 
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 700px;">
-                                    Sobat Insans akan dibimbing dalam simulasi seminar proposal dan sidang skripsi.
+                                    Sobat Insans akan dibimbing dalam simulasi seminar proposal dan sidang skripsi
                                 </div>
                             </div>
 
@@ -1628,14 +1628,14 @@
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 700px;">
                                     Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam
-                                    merumuskan judul skripsi.
+                                    merumuskan judul skripsi
                                 </div>
                             </div>
                         </div>
                         <div id="paket5" class="paketbso card-body " style="margin-top: -360px; text-align: left; ">
                             <div style="color: black; font-family: Montserrat; font-size: 24px; width:800px; margin-left: 380px; ">
                                 Dikhususkan kepada Sobat Insans yang sedang membutuhkan konsultasi skripsi dalam
-                                pembuatan dan penyusunan judul.
+                                pembuatan dan penyusunan judul
                             </div>
 
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
