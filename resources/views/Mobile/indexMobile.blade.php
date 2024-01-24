@@ -90,13 +90,13 @@
                         <div class="count-box">
                             <div class="left-content">
                                 <!-- <span class="plus" style="font-family: Manrope; margin-left: 10px; font-weight: 800;"><b>2979</b></span> -->
-                                <span class="plus" style="font-size: 18px;margin-top: 9px;position:absolute;margin-left:3px; font-family: Manrope; "><b>2979
+                                <span class="plus" style="font-size: 18px;margin-top: -2px;position:absolute;margin-left:3px; font-family: Manrope; "><b>2979
                                         <span style="font-family: Manrope;"><b></b></span><span style="font-family: Manrope; font-size: 25px;margin-top: -5px;position:absolute;margin-left:25px ">+</span> </b></span>
                                 <!-- <span class="plus" style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:5px; font-family: Manrope; ">+</span> -->
                             </div>
                             <div class="right-content" style="margin-left:0px">
                                 {{-- <p style="margin-left:50px">Peers to network and learn with</p> --}}
-                                <p style="margin-left: 63px; color: #000; font-family: Manrope;"><b style="font-family: Manrope;">Sobat Insans <br> yang Mendaftar</b></p>
+                                <p style="margin-left: 63px; color: #000; font-family: Manrope; margin-top:-10px;"><b style="font-family: Manrope;">Sobat Insans <br> yang Mendaftar</b></p>
 
                             </div>
                         </div>
@@ -105,12 +105,12 @@
                         <div class="count-box">
                             <div class="count-separator" style="margin-left:-18px"></div> <!-- Garis vertikal -->
                             <div class="left-content">
-                                <span class="plus" style="font-size: 18px;margin-top: 9px;position:absolute;margin-left:6px; font-family: Manrope; "><b>101
+                                <span class="plus" style="font-size: 18px;margin-top: -2px;position:absolute;margin-left:6px; font-family: Manrope; "><b>101
                                         <span style="font-family: Manrope;"><b></b></span><span style="font-family: Manrope; font-size: 25px;margin-top: -5px;position:absolute;margin-left:25px ">+</span> </b></span>
                             </div>
                             <div class="right-content" style="margin-left:1px">
 
-                                <p style="margin-left:50px; color: #000; font-family: Manrope;"><b>Mentor Class Program</b></p>
+                                <p style="margin-left:50px; color: #000; font-family: Manrope; margin-top:-10px;"><b>Mentor Class Program</b></p>
                             </div>
                         </div>
 
@@ -212,7 +212,7 @@
                                 font-weight: 800;
                                 line-height: normal;
                                 letter-spacing:2px;
-                                line-height: normal; white-space: normal;word-wrap: break-word;margin-left:18px;margin-top:-10px;margin-right:10px">
+                                line-height: normal; white-space: normal;word-wrap: break-word;margin-left:-9px;margin-top:-10px;margin-right:10px">
                             Sistem Bimbingan</span>
                     </div>
                     <h4 class="title">
@@ -229,7 +229,7 @@
                     </h4>
                     <div class="icon">
                     </div>
-                    <img src="assets/img/bg/gmb4.png" alt="Deskripsi Gambar" width="180px;" style=" margin-top: -130px;">
+                    <img src="assets/img/bg/gmb4.png" alt="Deskripsi Gambar" width="180px;" style=" margin-top: -120px;">
                 </div>
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="200" style="background: url(assets/img/bg/bg3.png);background-size: cover;">
@@ -263,7 +263,7 @@
                     </h4>
                     <div class="icon">
                     </div>
-                    <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar" width="200px;" style=" margin-top: -35px;">
+                    <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar" width="200px;" style="margin-top: -2px;">
                 </div>
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="300" style="background: url(assets/img/bg/bg2.png);background-size: cover;">
@@ -277,15 +277,16 @@
                         {{-- Mendapat 24 pertemuan --}}
                     </div>
                     <h4 class="title">
-                        <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">
-                            Class Program</p>
+                        <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal; margin-top:5px; margin-left:-10px;"> Class Program</p>
+
                         <p href="" style="color: #1E1E1E;
                                         font-family: Manrope;
-                                        font-size: 16px;
+                                        font-size: 15px;
+                                        margin-left:-10px;
                                         font-style: normal;
                                         font-weight: 700;
                                         line-height: normal;
-                                        margin-top:-13px">Durasi bimbingan hingga 4 jam</p>
+                                        margin-top:-13px">Durasi bimbingan <br> hingga 4 jam</p>
                     </h4>
                     <div class="icon">
                     </div>
@@ -303,20 +304,21 @@
                     </div>
 
                     <h4 class="title">
-                        <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">
-                            Class Program</p>
+                        <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal; margin-top:5px; margin-left:-10px;"> Class Program</p>
+
                         <p style="color: #1E1E1E;
                                         font-family: Manrope;
-                                        font-size: 16px;
+                                        font-size: 15px;
+                                        margin-left:-10px;
                                         font-style: normal;
                                         font-weight: 700;
                                         line-height: normal;
                                         margin-top:-13px">
-                            Mendapat berbagai fasilitas menarik</p>
+                            Mendapat berbagai <br> fasilitas menarik</p>
                     </h4>
                     <div class="icon">
                     </div>
-                    <img src="assets/img/bg/gmb1.png" alt="Deskripsi Gambar" width="100px" style="margin-top: -10px; ">
+                    <img src="assets/img/bg/gmb1.png" alt="Deskripsi Gambar" width="100px" style="margin-top: -4px; ">
                     {{-- <img src="assets/img/bg/gmb1.png"
                             alt="Deskripsi Gambar"style=" margin-top: -140px; margin-left:-10px;"> --}}
                 </div>
@@ -332,15 +334,17 @@
                         </span>
                     </div>
                     <h4 class="title">
-                        <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">
-                            Class Program</p>
+                        <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal; margin-top:5px; margin-left:-10px;"> Class Program</p>
+
                         <p href="" style="color: #1E1E1E;
                                         font-family: Manrope;
-                                        font-size: 16px;
+                                        font-size: 15px;
+margin-left:-10px;
+
                                         font-style: normal;
                                         font-weight: 700;
                                         line-height: normal;
-                                        margin-top:-13px">Harga sesuai kantong Mahasiswa</p>
+                                        margin-top:-13px">Harga sesuai <br> kantong Mahasiswa</p>
                     </h4>
                     <div class="icon">
                     </div>
@@ -440,7 +444,7 @@
 
     <section id="paketmentor" class="paketmentor mb-5" style="background-color: #f0f0f0; margin-bottom: 0px; ">
         <div class="paketmentorbg mb-5">
-            <h2 class="judul-tengah" style="margin-top:0px;;font-family: Manrope;">Konsultasi Reguler Bersama Mentor
+            <h2 class="judul-tengah" style="margin-top:0px; font-family: Manrope; ">Konsultasi Reguler Bersama Mentor
             </h2>
             <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2 mt-5 " style="margin: -50px;">
                 <div class="col">
