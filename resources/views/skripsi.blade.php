@@ -62,7 +62,7 @@
             <div class="judulketiga-skripsi">
                 <h3 style="font-size: 50px; color:#FFF;">Pelatihan Skripsi</h3>
             </div>
-            <h2 style="font-family: Montserrat;">Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh mentor</h2>
+            <h2 style="font-family: Montserrat;">Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh Mentor</h2>
         </div>
     </section>
     <!-- ======= End Section Hero ======= -->
@@ -145,7 +145,7 @@
                                     <img src="assets/img/logo/video.png" class="img-fluid" style="width: 250px;" alt="">
                                 </div>
                                 <div class="member-infoo">
-                                    <p>Sobat Insans akan mendapatkan resume materi berupa video dari mentor kelas pelatihan skripsi.</p>
+                                    <p>Sobat Insans akan mendapatkan resume materi berupa video dari Mentor kelas pelatihan skripsi.</p>
                                 </div>
                             </div>
                         </div>
@@ -160,7 +160,7 @@
                                     <img src="assets/img/logo/group-chat.png" class="img-fluid" style="width: 235px;" alt="">
                                 </div>
                                 <div class="member-infoo">
-                                    <p>Sobat Insans akan mendapatkan fasilitas bergabung di grup WhatsApp untuk konsultasi bersama mentor.</p>
+                                    <p>Sobat Insans akan mendapatkan fasilitas bergabung di grup WhatsApp untuk konsultasi bersama Mentor.</p>
                                 </div>
                             </div>
                         </div>

@@ -26,11 +26,11 @@
     <link href="assets/img/logo/logo2.png" rel="assets/img/logo/logo2.png">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-9YET8/TniDXKOiij1Qe1eblgJFFfD4jlYn/+9T6oPe4eVBN5LME6wJWoJPlD/Z1k3wrPQF0Gv9m9IPqFGe56WpA==" crossorigin="anonymous" />
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
         rel="stylesheet">
@@ -589,28 +589,28 @@
                     {{-- Platinum --}}
                     <div id="content3" class="content ">
                         <img class="ml-5"
-                            style="margin-bottom: 20px; float: left;  margin-left: -10px !important; height: auto; padding-left:30px;"
+                            style="margin-bottom: 20px; float: left; width: 400px; margin-left: 100px; height: auto; padding-left:30px;"
                             src="assets/img/bg/kotakk.png" alt="">
                         <div
-                        style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 50px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                            style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: black; font-size: 28px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                             Dikhususkan kepada Sobat Insans yang sedang <br>membutuhkan bimbingan menuju sidang
                             skripsi<br>atau bimbingan bab 4 hingga selesai
                         </div>
 
                         <div style="display: flex; align-items: center;">
                             <i class="fas fa-circle-check"
-                            style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                            style="font-family: Montserrat; text-align: left; margin-top: 15px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans akan dibantu dalam memahami proses penyusunan<br> hasil dan pembahasan
                                 penelitian skripsi </div>
                         </div>
 
                         <div style="display: flex; align-items: center;">
                             <i class="fas fa-circle-check"
-                            style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                            style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans akan diberikan berbagai materi dasar seputar menganalisis<br> penelitian
                                 skripsi oleh mentor untuk memudahkan proses penyusunan </div>
                         </div>
@@ -619,47 +619,47 @@
                     {{-- Diamond --}}
                     <div id="content4" class="content ">
                         <img class="ml-5"
-                            style="margin-bottom: 20px; float: left;  margin-left: -10px !important; height: auto; padding-left:30px;"
+                            style="margin-bottom: 20px; float: left; width: 400px; margin-left: 100px; height: auto; padding-left:30px;"
                             src="assets/img/bg/kotakk.png" alt="">
                         <div
-                        style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 50px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                            style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: black; font-size: 28px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                             Dikhususkan kepada Sobat Insans yang sedang<br> membutuhkan bimbingan Simulasi Seminar<br>
                             Proposal dan Sidang Skripsi
                         </div>
 
                         <div style="display: flex; align-items: center;">
                             <i class="fas fa-circle-check"
-                            style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                            style="font-family: Montserrat; text-align: left; margin-top: 15px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans akan dibimbing dalam pembuatan dan cara<br> mempresentasikan powerpoint seminar
                                 proposal dan sidang skripsi </div>
                         </div>
 
                         <div style="display: flex; align-items: center;">
                             <i class="fas fa-circle-check"
-                            style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                            style="font-family: Montserrat; text-align: left; margin-top: 15px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans akan dibimbing dalam simulasi seminar proposal<br> dan sidang skripsi </div>
                         </div>
                     </div>
                     {{-- Complate --}}
                     <div id="content5" class="content ">
                         <img class="ml-5"
-                        style="margin-bottom: 20px; float: left;  margin-left: -10px !important; height: auto; padding-left:30px;"
-                        src="assets/img/bg/kotakk.png" alt="">
-                    <div
-                        style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 50px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                            style="margin-bottom: 20px; float: left; width: 400px; margin-left: 100px; height: auto; padding-left:30px;"
+                            src="assets/img/bg/kotakk.png" alt="">
+                        <div
+                            style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: black; font-size: 28px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                             Dikhususkan kepada Sobat Insans yang sedang <br>membutuhkan bimbingan skripsi secara
                             menyeluruh<br> mulai dari pembuatan dan penyusunan judul hingga<br> sidang skripsi
                         </div>
 
                         <div style="display: flex; align-items: center;">
                             <i class="fas fa-circle-check"
-                            style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                            style="font-family: Montserrat; text-align: left; margin-top: 15px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans akan dibantu dalam merumuskan judul skripsi, <br>memahami penyusunan proposal
                                 penelitian skripsi, pembahasan<br> hasil penelitian skripsi, dan dibimbing dalam persiapan
                                 seminar proposal<br> dan sidang skripsi </div>
@@ -667,9 +667,9 @@
 
                         <div style="display: flex; align-items: center;">
                             <i class="fas fa-circle-check"
-                            style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                            style="font-family: Montserrat; text-align: left; margin-top: 15px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans dapat request pembahasan dengan Mentor<br> mengikuti progress pengerjaan
                                 skripsi </div>
                         </div>
@@ -733,7 +733,7 @@
                                                     </h4>
                                                     <h4 style="color: #1E1E1E">250.000</h4>
                                                 </div>
-                                                <div class="custom-pricee" ><strong>1
+                                                <div class="custom-pricee" style="margin-right: ;"><strong>1
                                                         Bulan</strong></div>
                                                 <hr style=" border: 2px solid #000; border-width: 1px;">
                                                 <ul>
@@ -885,13 +885,13 @@
 
                         <div style="margin-top: -90px; height: 55px; margin-left: 200px; top: 13px; position: absolute">
                             <div
-                                style="width: 290px; height: 50px; margin-left: -47px; left: 0px; top: 0px; position: absolute; background: rgba(233.75, 233.75, 233.75, 0.75); border-top-left-radius: 55px; border-top-right-radius: 55px; backdrop-filter: blur(130.68px)">
+                                style="width: 300px; height: 50px; margin-left: -47px; left: 0px; top: 0px; position: absolute; background: rgba(233.75, 233.75, 233.75, 0.75); border-top-left-radius: 55px; border-top-right-radius: 55px; backdrop-filter: blur(130.68px)">
                             </div>
                             <div
                                 style="width: 12px; height: 12px; left: -15px; top: 3px; position: absolute; background: #FF0000; border-radius: 9999px">
                             </div>
                             <div
-                                style="width: 12px; height: 12px; left:3px; top: 3px; position: absolute; background: #FFC700; border-radius: 9999px">
+                                style="width: 12px; height: 12px; left: px; top: 3px; position: absolute; background: #FFC700; border-radius: 9999px">
                             </div>
                             <div
                                 style="width: 12px; height: 12px; left:20px; top: 3px; position: absolute; background: #00D930; border-radius: 9999px">
@@ -999,8 +999,8 @@
                         {{-- Gold --}}
                         <div id="contentpaket2" class="contentpaket">
                             <div
-                            style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                            Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan menuju seminar
+                                style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 50px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan menuju seminar
                                 proposal (sempro) atau bimbingan bab 1-3
                             </div>
 
@@ -1034,63 +1034,62 @@
 
                         </div>
                         {{-- Platinum --}}
-                        <div id="contentpaket3" class="contentpaket ">
+                        <div id="content8" class="content ">
                             <div
-                            style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                            Dikhususkan kepada Sobat Insans yang sedang membutuhkan<br> bimbingan menuju sidang
+                                style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: black; font-size: 28px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                Dikhususkan kepada Sobat Insans yang sedang <br>membutuhkan bimbingan menuju sidang
                                 skripsi<br>atau bimbingan bab 4 hingga selesai
                             </div>
 
                             <div style="display: flex; align-items: center;">
                                 <i class="fas fa-circle-check"
-                                style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                    style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                 <div
-                                style="font-family: Montserrat; text-align: left; margin-top: 15px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                Sobat Insans akan dibantu dalam memahami proses penyusunan hasil dan pembahasan
-                                    penelitian skripsi </div>
+                                    style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                    Sobat Insans akan diberikan berbagai materi dasar seputar menganalisis penelitian
+                                    skripsi oleh mentor untuk memudahkan proses penyusunan </div>
                             </div>
 
                             <div style="display: flex; align-items: center;">
                                 <i class="fas fa-circle-check"
-                                style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                    style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                 <div
-                                style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                Sobat Insans akan diberikan berbagai materi dasar seputar menganalisis penelitian
-                                    skripsi oleh mentor untuk memudahkan proses penyusunan </div>
+                                    style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                    Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam
+                                    merumuskan judul skripsi </div>
                             </div>
 
                         </div>
                         {{-- Titanuim --}}
-                        <div id="contentpaket4" class="contentpaket ">
+                        <div id="content9" class="content ">
                             <div
-                            style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: black; font-size: 28px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan Simulasi Seminar
                                 Proposal dan Sidang Skripsi
                             </div>
 
                             <div style="display: flex; align-items: center;">
                                 <i class="fas fa-circle-check"
-                                style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                    style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                 <div
-                                style="font-family: Montserrat; text-align: left; margin-top: 15px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                    style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                     Sobat Insans akan dibimbing dalam pembuatan dan cara mempresentasikan powerpoint
                                     seminar proposal dan sidang skripsi </div>
                             </div>
 
                             <div style="display: flex; align-items: center;">
                                 <i class="fas fa-circle-check"
-                                style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                    style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                 <div
-                                style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                    style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                     Sobat Insans akan dibimbing dalam simulasi seminar proposal dan sidang skripsi </div>
                             </div>
                             <div style="display: flex; align-items: center;">
                                 <i class="fas fa-circle-check"
-                                style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
+                                    style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                 <div
-                                style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                    Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam
-                                    merumuskan judul skripsi </div>
+                                    style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                    Sobat Insans akan dibimbing dalam simulasi seminar proposal dan sidang skripsi </div>
                             </div>
                         </div>
 
@@ -1841,7 +1840,7 @@
                     </div>
                     <div class="profile-slider">
                         <div class="profile">
-                            <img class="pro" src="assets/img/team/team-1.jpg" alt="Gambar Profil"
+                            <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil"
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
                                 <div class="profile-info" style="height: 300px;">
@@ -1872,7 +1871,7 @@
                     </div>
                     <div class="profile-slider">
                         <div class="profile">
-                            <img class="pro" src="assets/img/team/team-4.jpg" alt="Gambar Profil"
+                            <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil"
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
                                 <div class="profile-info" style="height: 300px;">
@@ -1903,7 +1902,7 @@
                     </div>
                     <div class="profile-slider">
                         <div class="profile">
-                            <img class="pro" src="assets/img/team/team-2.jpg" alt="Gambar Profil"
+                            <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil"
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
                                 <div class="profile-info" style="height: 300px;">

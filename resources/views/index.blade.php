@@ -740,7 +740,7 @@
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
                                     </span>
                                 </span>
-                                Mendapatkan pelatihan dalam penyusunan dan pembuatan skripsi oleh mentor yang ahli di
+                                Mendapatkan pelatihan dalam penyusunan dan pembuatan skripsi oleh Mentor yang ahli di
                                 bidangnya.
                             </li>
                             <li style="font-size: 15px; text-align: left;">
@@ -799,7 +799,7 @@
                                     </span>
                                 </span>
                                 Mendapatkan pelatihan dalam penyusunan dan pembuatan Karya Tulis Ilmiah (KTI) oleh
-                                mentor yang ahli di bidangnya.
+                                Mentor yang ahli di bidangnya.
                             </li>
                             <li style="font-size: 15px; text-align: left;">
                                 <span class="circle">
@@ -1133,7 +1133,7 @@
                         <div class="profile-info">
                             <h1>Yola</h1>
                             <p>"Saya merasa puas dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya selalu
-                                dikoreksi positif secara baik oleh kaka mentor. BSO bagus sekali dan recommended
+                                dikoreksi positif secara baik oleh kaka Mentor. BSO bagus sekali dan recommended
                                 untuk Mahasiswa."</p>
                         </div>
                     </div>
@@ -1573,7 +1573,7 @@
 
         const faqData = [{
                 question: "Apa itu Class Program?",
-                answer: "Class Program adalah platform belajar online perkuliahan dan persiapan karir dengan sistem kenaikan kelas pertama di indonesia yang menyediakan berbagai macam program kelas serta akan dibimbing langsung oleh mentor yang ahli di bidangnya."
+                answer: "Class Program adalah platform belajar online perkuliahan dan persiapan karir dengan sistem kenaikan kelas pertama di indonesia yang menyediakan berbagai macam program kelas serta akan dibimbing langsung oleh Mentor yang ahli di bidangnya."
             },
             {
                 question: "Siapa saja yang bisa belajar di Class Program?",
@@ -1589,10 +1589,10 @@
             },
             {
                 question: "Bagaimana cara bimbingan di Class Program?",
-                answer: "MSobat Insan perlu melakukan registrasi terlebih dahulu. Lengkapi data diri, kemudian login menggunakan akun yang telah terdaftar. Setelah itu memilih program yang tersedia sesuai dengan kebutuhan sobat insan. Lalu lakukan pembayaran sesuai pesanan dan Sobat insan akan diarahkan ke Minma untuk mendapatkan mentor. Setelah semua proses selesai, Sobat Insans siap untuk belajar di Class Program."
+                answer: "MSobat Insan perlu melakukan registrasi terlebih dahulu. Lengkapi data diri, kemudian login menggunakan akun yang telah terdaftar. Setelah itu memilih program yang tersedia sesuai dengan kebutuhan sobat insan. Lalu lakukan pembayaran sesuai pesanan dan Sobat insan akan diarahkan ke Minma untuk mendapatkan Mentor. Setelah semua proses selesai, Sobat Insans siap untuk belajar di Class Program."
             },
             {
-                question: "Siapa mentor yang ada di Class Program?.",
+                question: "Siapa Mentor yang ada di Class Program?.",
                 answer: "Mentor di Class Program berasal dari lulusan-lulusan top kampus yang berpengalaman dan ahli di bidangnya."
             },
             {

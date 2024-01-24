@@ -1116,11 +1116,11 @@
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="flush-headingTwo">
                                             <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">02</div> <b>Apakah boleh request mentor?</b>
+                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">02</div> <b>Apakah boleh request Mentor?</b>
                                             </button>
                                         </h2>
                                         <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
-                                            <div class="accordion-body" style="text-align: left">Sobat Insans boleh menyampaikan keinginannya untuk dibimbing oleh mentor perempuan atau laki-laki, namun ini bersifat kondisional selama pilihan mentor masih tersedia.</div>
+                                            <div class="accordion-body" style="text-align: left">Sobat Insans boleh menyampaikan keinginannya untuk dibimbing oleh Mentor perempuan atau laki-laki, namun ini bersifat kondisional selama pilihan Mentor masih tersedia.</div>
                                         </div>
                                     </div>
 
@@ -1195,7 +1195,7 @@
 
             const faqData = [{
                     question: "Apa itu Class Program?",
-                    answer: "Class Program adalah platform belajar online perkuliahan dan persiapan karir dengan sistem kenaikan kelas pertama di indonesia yang menyediakan berbagai macam program kelas serta akan dibimbing langsung oleh mentor yang ahli di bidangnya."
+                    answer: "Class Program adalah platform belajar online perkuliahan dan persiapan karir dengan sistem kenaikan kelas pertama di indonesia yang menyediakan berbagai macam program kelas serta akan dibimbing langsung oleh Mentor yang ahli di bidangnya."
                 },
                 {
                     question: "Siapa saja yang bisa belajar di Class Program?",
@@ -1211,10 +1211,10 @@
                 },
                 {
                     question: "Bagaimana cara bimbingan di Class Program?",
-                    answer: "MSobat Insan perlu melakukan registrasi terlebih dahulu. Lengkapi data diri, kemudian login menggunakan akun yang telah terdaftar. Setelah itu memilih program yang tersedia sesuai dengan kebutuhan sobat insan. Lalu lakukan pembayaran sesuai pesanan dan Sobat insan akan diarahkan ke Minma untuk mendapatkan mentor. Setelah semua proses selesai, Sobat Insans siap untuk belajar di Class Program."
+                    answer: "MSobat Insan perlu melakukan registrasi terlebih dahulu. Lengkapi data diri, kemudian login menggunakan akun yang telah terdaftar. Setelah itu memilih program yang tersedia sesuai dengan kebutuhan sobat insan. Lalu lakukan pembayaran sesuai pesanan dan Sobat insan akan diarahkan ke Minma untuk mendapatkan Mentor. Setelah semua proses selesai, Sobat Insans siap untuk belajar di Class Program."
                 },
                 {
-                    question: "Siapa mentor yang ada di Class Program?.",
+                    question: "Siapa Mentor yang ada di Class Program?.",
                     answer: "Mentor di Class Program berasal dari lulusan-lulusan top kampus yang berpengalaman dan ahli di bidangnya."
                 },
                 {

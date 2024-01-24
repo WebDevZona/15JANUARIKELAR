@@ -78,7 +78,7 @@
                 <p style="letter-spacing:1px; font-family: Manrope; margin-top:15px; width:auto;">Bimbingan belajar online <br> perkuliahan
                     dan persiapan <br> karir dengan
                     sistem kenaikan<br> kelas pertama di Indonesia yang<br> menyediakan berbagai
-                    macam <br> program kelas serta akan<br> dibimbing langsung oleh <br> mentor yang ahli di bidangnya</p>
+                    macam <br> program kelas serta akan<br> dibimbing langsung oleh <br> Mentor yang ahli di bidangnya</p>
             </div>
             <div class="d-flex" style="margin-top: -15px;">
                 <a href="#pricing" class="btn-get-started scrollto"><strong>Daftar Sekarang</strong> </a>
@@ -89,23 +89,28 @@
                     <div class="count-boxes">
                         <div class="count-box">
                             <div class="left-content">
-                                <span style="font-family: Manrope; margin-left: 10px;"><b>2979</b></span><span class="plus" style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px; font-family: Manrope; ">+</span>
+                                <!-- <span class="plus" style="font-family: Manrope; margin-left: 10px; font-weight: 800;"><b>2979</b></span> -->
+                                <span class="plus" style="font-size: 18px;margin-top: 9px;position:absolute;margin-left:3px; font-family: Manrope; "><b>2979
+                                        <span style="font-family: Manrope;"><b></b></span><span style="font-family: Manrope; font-size: 25px;margin-top: -5px;position:absolute;margin-left:25px ">+</span> </b></span>
+                                <!-- <span class="plus" style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:5px; font-family: Manrope; ">+</span> -->
                             </div>
                             <div class="right-content" style="margin-left:0px">
                                 {{-- <p style="margin-left:50px">Peers to network and learn with</p> --}}
-                                <p style="margin-left: 25px; color: #000; font-family: Manrope;"><b style="font-family: Manrope;">Sobat Insans <br> yang Mendaftar</b></p>
+                                <p style="margin-left: 63px; color: #000; font-family: Manrope;"><b style="font-family: Manrope;">Sobat Insans <br> yang Mendaftar</b></p>
 
                             </div>
                         </div>
 
-                        <div class="count-separator" style=""></div> <!-- Garis vertikal -->
+                        <!-- <div class="count-separator" style=""></div> --><!-- Garis vertikal -->
                         <div class="count-box">
+                            <div class="count-separator" style="margin-left:-18px"></div> <!-- Garis vertikal -->
                             <div class="left-content">
-                                <span style="font-family: Manrope;"><b>101</b></span><span style="font-family: Manrope; font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
+                                <span class="plus" style="font-size: 18px;margin-top: 9px;position:absolute;margin-left:6px; font-family: Manrope; "><b>101
+                                        <span style="font-family: Manrope;"><b></b></span><span style="font-family: Manrope; font-size: 25px;margin-top: -5px;position:absolute;margin-left:25px ">+</span> </b></span>
                             </div>
                             <div class="right-content" style="margin-left:1px">
-                                {{-- <p >Mentor Class Program</p> --}}
-                                <p style="margin-left:0px; color: #000; font-family: Manrope;"><b>Mentor Class Program</b></p>
+
+                                <p style="margin-left:50px; color: #000; font-family: Manrope;"><b>Mentor Class Program</b></p>
                             </div>
                         </div>
 
@@ -197,7 +202,7 @@
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="background: url(assets/img/bg/bg4.png);background-size: cover;">
                     <div class="labels" style="margin-left:-20px; margin-top:-15px; ">
                         <span class="icon">
-                            <img src="assets/img/bg/ico4.png" alt="Deskripsi Gambar" style="margin-top:-5px; width:30px;position:absolute;margin-left:-10px">
+                            <img src="assets/img/bg/ico4.png" alt="Deskripsi Gambar" style="margin-top: -5px; width:20px; margin-right:5px; margin-left:0px;  display:inline;">
                         </span>
 
                         <span class="label-text" style="color: #FFF;
@@ -814,7 +819,7 @@
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
                                     </span>
                                 </span>
-                                Mendapatkan pelatihan dalam penyusunan dan pembuatan skripsi oleh mentor yang ahli di
+                                Mendapatkan pelatihan dalam penyusunan dan pembuatan skripsi oleh Mentor yang ahli di
                                 bidangnya.
                             </li>
                             <li style="font-size: 15px; text-align: left;">
@@ -873,7 +878,7 @@
                                     </span>
                                 </span>
                                 Mendapatkan pelatihan dalam penyusunan dan pembuatan Karya Tulis Ilmiah (KTI) oleh
-                                mentor yang ahli di bidangnya.
+                                Mentor yang ahli di bidangnya.
                             </li>
                             <li style="font-size: 15px; text-align: left;">
                                 <span class="circle">
@@ -1618,7 +1623,7 @@
 
         const faqData = [{
                 question: "Apa itu Class Program?",
-                answer: "Class Program adalah platform belajar online perkuliahan dan persiapan karir dengan sistem kenaikan kelas pertama di indonesia yang menyediakan berbagai macam program kelas serta akan dibimbing langsung oleh mentor yang ahli di bidangnya."
+                answer: "Class Program adalah platform belajar online perkuliahan dan persiapan karir dengan sistem kenaikan kelas pertama di indonesia yang menyediakan berbagai macam program kelas serta akan dibimbing langsung oleh Mentor yang ahli di bidangnya."
             },
             {
                 question: "Siapa saja yang bisa belajar di Class Program?",
@@ -1630,14 +1635,14 @@
             },
             {
                 question: "Bagaimana cara memilih program kelas yang sesuai di Class Program?",
-                answer: "Kelas Tugas Kuliah (KTK) diperuntukkan bagi sobat yang memerlukan bimbingan seputar tugas umum perkuliahan dengan sistem kenaikan kelas. Paket basic cocok untuk sobat yang ingin memahami tugas seputar penyusunan makalah, footnote dan endnote, jurnal, esai hingga materi karya tulis ilmiah yang umumnya ditemui pada semester 1-4. Sedangkan paket excellent diperuntukkan bagi sobat yang ingin memahami materi seputar metodologi penelitian dan skripsi yang umumnya ditemui pada semester 5 keatas. Bimbingan Mata Kuliah Jurusan (BMJ) cocok untuk sobat yang ingin mendalami materi mata kuliah yang ada di jurusan masing-masing dengan sistem pendampingan. Paket Bronze untuk semester 1-2, Paket emerald untuk semester 3-4 dan paket diamond untuk semester 5-6.Bimbingan Skripsi Online (BSO) diperuntukkan bagi sobat yang sedang menyusun tugas akhir atau skripsi dengan sistem mentoring. Paket Silver membimbing dalam pembuatan judul skripsi, paket gold membimbing dalam pembuatan proposal skripsi, paket platinum membimbing hasil dan pembahasan skripsi, dan paket diamond membimbing simulasi sempro atau sidang skripsi.Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft skill dan hard skill untuk terjun di dunia kerja."
+                answer: "Kelas Tugas Kuliah (KTK) diperuntukkan bagi sobat yang memerlukan bimbingan seputar tugas umum perkuliahan dengan sistem kenaikan kelas. Paket basic cocok untuk sobat yang ingin memahami tugas seputar penyusunan makalah, footnote dan endnote, jurnal, esai hingga materi karya tulis ilmiah yang umumnya ditemui pada semester 1-4. Sedangkan paket excellent diperuntukkan bagi sobat yang ingin memahami materi seputar metodologi penelitian dan skripsi yang umumnya ditemui pada semester 5 keatas. Bimbingan Mata Kuliah Jurusan (BMJ) cocok untuk sobat yang ingin mendalami materi mata kuliah yang ada di jurusan masing-masing dengan sistem pendampingan. Paket Bronze untuk semester 1-2, Paket emerald untuk semester 3-4 dan paket diamond untuk semester 5-6.Bimbingan Skripsi Online (BSO) diperuntukkan bagi sobat yang sedang menyusun tugas akhir atau skripsi dengan sistem Mentoring. Paket Silver membimbing dalam pembuatan judul skripsi, paket gold membimbing dalam pembuatan proposal skripsi, paket platinum membimbing hasil dan pembahasan skripsi, dan paket diamond membimbing simulasi sempro atau sidang skripsi.Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft skill dan hard skill untuk terjun di dunia kerja."
             },
             {
                 question: "Bagaimana cara bimbingan di Class Program?",
-                answer: "MSobat Insan perlu melakukan registrasi terlebih dahulu. Lengkapi data diri, kemudian login menggunakan akun yang telah terdaftar. Setelah itu memilih program yang tersedia sesuai dengan kebutuhan sobat insan. Lalu lakukan pembayaran sesuai pesanan dan Sobat insan akan diarahkan ke Minma untuk mendapatkan mentor. Setelah semua proses selesai, Sobat Insans siap untuk belajar di Class Program."
+                answer: "MSobat Insan perlu melakukan registrasi terlebih dahulu. Lengkapi data diri, kemudian login menggunakan akun yang telah terdaftar. Setelah itu memilih program yang tersedia sesuai dengan kebutuhan sobat insan. Lalu lakukan pembayaran sesuai pesanan dan Sobat insan akan diarahkan ke Minma untuk mendapatkan Mentor. Setelah semua proses selesai, Sobat Insans siap untuk belajar di Class Program."
             },
             {
-                question: "Siapa mentor yang ada di Class Program?.",
+                question: "Siapa Mentor yang ada di Class Program?.",
                 answer: "Mentor di Class Program berasal dari lulusan-lulusan top kampus yang berpengalaman dan ahli di bidangnya."
             },
             {

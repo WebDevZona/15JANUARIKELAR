@@ -502,7 +502,7 @@
                     <div style="display: flex; align-items: center;">
                         <i class="fas fa-circle-check" style=" margin-left: 50px; color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                         <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                            Sobat Insans akan diberikan berbagai materi dasar seputar proposal<br> skripsi oleh mentor
+                            Sobat Insans akan diberikan berbagai materi dasar seputar proposal<br> skripsi oleh Mentor
                             untuk memudahkan proses penyusunan </div>
                     </div>
 
@@ -1336,7 +1336,7 @@
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
                                                 <span class="feature-text">Sobat Insans akan diberikan berbagai materi
-                                                    dasar seputar proposal skripsi oleh mentor untuk memudahkan proses
+                                                    dasar seputar proposal skripsi oleh Mentor untuk memudahkan proses
                                                     penyusunan.</span>
                                             </li>
                                         </ul>
@@ -1365,7 +1365,7 @@
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
                                                 <span class="feature-text">Sobat Insans akan diberikan berbagai materi
-                                                    dasar seputar menganalisis penelitian skripsi oleh mentor untuk
+                                                    dasar seputar menganalisis penelitian skripsi oleh Mentor untuk
                                                     memudahkan proses penyusunan.</span>
                                             </li>
                                         </ul>
@@ -1565,7 +1565,7 @@
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 700px;">
                                     Sobat Insans akan diberikan berbagai materi dasar seputar proposal skripsi oleh
-                                    mentor untuk memudahkan proses penyusunan </div>
+                                    Mentor untuk memudahkan proses penyusunan </div>
                             </div>
 
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
@@ -1593,7 +1593,7 @@
                                 <i class="fas fa-circle-check" style="color: #1b5cc5; font-size: 30px; margin-right: 10px;"></i>
                                 <div style="font-family: Montserrat; color: black; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px; width: 700px;">
                                     Sobat Insans akan diberikan berbagai materi dasar seputar menganalisis penelitian
-                                    skripsi oleh mentor untuk memudahkan proses penyusunan </div>
+                                    skripsi oleh Mentor untuk memudahkan proses penyusunan </div>
                             </div>
 
                             <div style="margin-left: 400px; display: flex; width:600%; margin-top:10px;">
@@ -2306,7 +2306,7 @@
                                 </div>
                                 <p style="margin-top:30px; margin-bottom: 50px; text-align:center;">“Saya merasa puas
                                     dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya selalu
-                                    dikoreksi positif secara baik oleh kaka mentor. BSO bagus sekali dan recommended
+                                    dikoreksi positif secara baik oleh kaka Mentor. BSO bagus sekali dan recommended
                                     untuk Mahasiswa.”</p>
 
                                 <h1 style="text-align:center; margin-top: -20px;">Yola</h1>
@@ -2508,7 +2508,7 @@
                                     <div class="member-infoo">
                                         <br>
                                         {{-- <span>CTO</span> --}}
-                                        <p>Kamu siap bimbingan bersama mentor</p><br>
+                                        <p>Kamu siap bimbingan bersama Mentor</p><br>
                                         {{-- <ul>
                                 <li>Prestasi 1</li>
                                 <li>Prestasi 2</li>
@@ -2575,8 +2575,8 @@
                                 </h2>
                                 <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
                                     <div class="accordion-body"> Sobat Insans boleh menyampaikan keinginannya untuk
-                                        dibimbing oleh mentor perempuan atau laki-laki, namun ini bersifat kondisional
-                                        selama pilihan mentor masih tersedia</div>
+                                        dibimbing oleh Mentor perempuan atau laki-laki, namun ini bersifat kondisional
+                                        selama pilihan Mentor masih tersedia</div>
                                 </div>
                             </div>
                             <div class="accordion-item">
@@ -2687,7 +2687,7 @@
                             <img src="assets/img/bg/centang.png" alt="Check Mark">
                             </span>
                         </span>
-                        Mendapatkan pelatihan dalam penyusunan dan pembuatan skripsi oleh mentor yang ahli di bidangnya.
+                        Mendapatkan pelatihan dalam penyusunan dan pembuatan skripsi oleh Mentor yang ahli di bidangnya.
                         </li>
                         <li>
                         <span class="circle">
@@ -2732,7 +2732,7 @@
                             <img src="assets/img/bg/centang.png" alt="Check Mark">
                             </span>
                         </span>
-                        Mendapatkan pelatihan dalam penyusunan dan pembuatan Karya Tulis Ilmiah (KTI) oleh mentor yang ahli di bidangnya.
+                        Mendapatkan pelatihan dalam penyusunan dan pembuatan Karya Tulis Ilmiah (KTI) oleh Mentor yang ahli di bidangnya.
                         </li>
                         <li>
                         <span class="circle">
@@ -2776,7 +2776,7 @@
                             <img src="assets/img/bg/centang.png" alt="Check Mark">
                             </span>
                         </span>
-                        Mendapatkan pelatihan dalam penyusunan dan pembuatan Karya Tulis Ilmiah (KTI) oleh mentor yang ahli di bidangnya.
+                        Mendapatkan pelatihan dalam penyusunan dan pembuatan Karya Tulis Ilmiah (KTI) oleh Mentor yang ahli di bidangnya.
                         </li>
                         <li>
                         <span class="circle">
@@ -2820,7 +2820,7 @@
                             <img src="assets/img/bg/centang.png" alt="Check Mark">
                             </span>
                         </span>
-                        Mendapatkan pelatihan dalam penyusunan dan pembuatan Karya Tulis Ilmiah (KTI) oleh mentor yang ahli di bidangnya.
+                        Mendapatkan pelatihan dalam penyusunan dan pembuatan Karya Tulis Ilmiah (KTI) oleh Mentor yang ahli di bidangnya.
                         </li>
                         <li>
                         <span class="circle">
@@ -2885,7 +2885,7 @@
 
             const faqData = [{
                     question: "Apa itu Class Program?",
-                    answer: "Class Program adalah platform belajar online perkuliahan dan persiapan karir dengan sistem kenaikan kelas pertama di indonesia yang menyediakan berbagai macam program kelas serta akan dibimbing langsung oleh mentor yang ahli di bidangnya."
+                    answer: "Class Program adalah platform belajar online perkuliahan dan persiapan karir dengan sistem kenaikan kelas pertama di indonesia yang menyediakan berbagai macam program kelas serta akan dibimbing langsung oleh Mentor yang ahli di bidangnya."
                 },
                 {
                     question: "Siapa saja yang bisa belajar di Class Program?",
@@ -2901,10 +2901,10 @@
                 },
                 {
                     question: "Bagaimana cara bimbingan di Class Program?",
-                    answer: "MSobat Insan perlu melakukan registrasi terlebih dahulu. Lengkapi data diri, kemudian login menggunakan akun yang telah terdaftar. Setelah itu memilih program yang tersedia sesuai dengan kebutuhan sobat insan. Lalu lakukan pembayaran sesuai pesanan dan Sobat insan akan diarahkan ke Minma untuk mendapatkan mentor. Setelah semua proses selesai, Sobat Insans siap untuk belajar di Class Program."
+                    answer: "MSobat Insan perlu melakukan registrasi terlebih dahulu. Lengkapi data diri, kemudian login menggunakan akun yang telah terdaftar. Setelah itu memilih program yang tersedia sesuai dengan kebutuhan sobat insan. Lalu lakukan pembayaran sesuai pesanan dan Sobat insan akan diarahkan ke Minma untuk mendapatkan Mentor. Setelah semua proses selesai, Sobat Insans siap untuk belajar di Class Program."
                 },
                 {
-                    question: "Siapa mentor yang ada di Class Program?.",
+                    question: "Siapa Mentor yang ada di Class Program?.",
                     answer: "Mentor di Class Program berasal dari lulusan-lulusan top kampus yang berpengalaman dan ahli di bidangnya."
                 },
                 {
