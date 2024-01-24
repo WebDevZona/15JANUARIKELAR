@@ -147,14 +147,57 @@
 
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services">
-        <div class="container" data-aos="fade-up" style="">
+
+        <div class="container" data-aos="fade-up">
             <div class="section-title judul">
             </div>
-            <div class="row-1 justify-content-center">
+            <style>
+                .row {
+                    display: flex;
+                    overflow-x: auto;
+                    -webkit-overflow-scrolling: touch;
+                    /* Efek scroll halus di perangkat berbasis WebKit seperti iOS */
+                    padding-bottom: 20px;
+                    /* Tambahkan padding agar tombol scroll muncul sepenuhnya */
+                    white-space: nowrap;
+                    margin-left: -140px;
+                    flex-wrap: nowrap;
+
+
+                }
+
+                .icon-box {
+                    flex: 0 0 auto;
+                    margin-right: 10px;
+
+                }
+
+                .scroll-indicator {
+                    font-size: 20px;
+                    cursor: pointer;
+                    margin-top: 10px;
+                    /* Menambahkan margin atas agar terpisah dari konten */
+                    display: inline-block;
+                }
+            </style>
+
+
+            <div class="row justify-content-center">
+                <!-- untuk tutup kiri -->
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="background: url(assets/img/bg/bg4.png);background-size: cover;">
-                    <div class="labels" style="margin-left:-20px">
+                </div>
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="background: url(assets/img/bg/bg4.png);background-size: cover;">
+                </div>
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="background: url(assets/img/bg/bg4.png);background-size: cover;">
+                </div>
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="background: url(assets/img/bg/bg4.png);background-size: cover;">
+                </div>
+                <!-- akhir tutup kiri -->
+                <!-- ok -->
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="background: url(assets/img/bg/bg4.png);background-size: cover;">
+                    <div class="labels" style="margin-left:-20px; margin-top:-15px; ">
                         <span class="icon">
-                            <img src="assets/img/bg/ico4.png" alt="Deskripsi Gambar" style="margin-top:-5px; width:px;position:absolute;margin-left:-10px">
+                            <img src="assets/img/bg/ico4.png" alt="Deskripsi Gambar" style="margin-top:-5px; width:30px;position:absolute;margin-left:-10px">
                         </span>
 
                         <span class="label-text" style="color: #FFF;
@@ -168,15 +211,16 @@
                             Sistem Bimbingan</span>
                     </div>
                     <h4 class="title">
-                        <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">
+                        <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal; margin-top:5px; margin-left:-10px;">
                             Class Program</p>
                         <p href="" style="color: #1E1E1E;
                                       font-family: Manrope;
-                                      font-size: 16px;
+                                      font-size: 15px;
                                       font-style: normal;
                                       font-weight: 700;
+                                      margin-left:-10px;
                                       line-height: normal;
-                                      margin-top:-13px">Bimbingan online dan privat secara intensif</p>
+                                      margin-top:-13px">Bimbingan online <br> dan privat secara intensif</p>
                     </h4>
                     <div class="icon">
                     </div>
@@ -184,7 +228,7 @@
                 </div>
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="200" style="background: url(assets/img/bg/bg3.png);background-size: cover;">
-                    <div class="label" style="line-height:22px; margin-top:10px; text-align:left; padding-left:11px; padding-right:11px;">
+                    <div class="label" style="line-height:22px; margin-top:-15px; text-align:left; padding-left:11px; padding-right:11px;">
                         <span class="icon">
                             <img src="assets/img/bg/ke2.png" alt="Deskripsi Gambar" style="margin-top: -5px; width:20px; margin-right:5px; margin-left:0px;  display:inline;">
                         </span>
@@ -202,15 +246,15 @@
                             Pertemuan</span>
                     </div>
                     <h4 class="title">
-                        <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal;">
-                            Class Program</p>
+                        <p style="color: #1E1E1E;font-family: Manrope;font-size: 12px;font-style: normal;font-weight: 700;line-height: normal; margin-top:5px; margin-left:-10px;"> Class Program</p>
                         <p href="" style="color: #1E1E1E;
                                         font-family: Manrope;
-                                        font-size: 16px;
+                                        font-size: 15px;
+                                        margin-left:-10px;
                                         font-style: normal;
                                         font-weight: 700;
                                         line-height: normal;
-                                        margin-top:-13px">Mendapatkan kesempatan 30 kali pertemuan</p>
+                                        margin-top:-13px">Mendapat kesempatan<br>30 kali pertemuan</p>
                     </h4>
                     <div class="icon">
                     </div>
@@ -218,7 +262,7 @@
                 </div>
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="300" style="background: url(assets/img/bg/bg2.png);background-size: cover;">
-                    <div class="label" style="line-height:19px; margin-top:10px">
+                    <div class="label" style="line-height:19px; margin-top:-15px; ">
                         <span class="icon">
                             <img src="assets/img/bg/ico3.png" alt="Deskripsi Gambar" style="margin-top:-3px;width:15px;margin-right:5px;  display:inline;">
                         </span>
@@ -244,7 +288,7 @@
                 </div>
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="400" style="background: url(assets/img/bg/bg1.png);background-size: cover;">
-                    <div class="label" style="line-height:19px; margin-top:10px">
+                    <div class="label" style="line-height:19px; margin-top:-15px; ;    width: 200px;">
                         <span class="icon">
                             <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar" style="margin-top:-0px;width: 19px;margin-right:5px;  display:inline;">
                         </span>
@@ -273,7 +317,7 @@
                 </div>
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="500" style="background: url(assets/img/bg/bg5.png);background-size: cover;">
-                    <div class="label" style="line-height:19px; margin-top:10px">
+                    <div class="label" style="line-height:19px; margin-top:-15px; ">
                         <span class="icon">
                             <img src="assets/img/bg/akhir.png" alt="Deskripsi Gambar" style="margin-top:-0px;width:17px;margin-right:5px; display:inline;">
                         </span>
@@ -291,7 +335,7 @@
                                         font-style: normal;
                                         font-weight: 700;
                                         line-height: normal;
-                                        margin-top:-13px">Harga aman di kantong mahasiswa</p>
+                                        margin-top:-13px">Harga sesuai kantong Mahasiswa</p>
                     </h4>
                     <div class="icon">
                     </div>
@@ -299,6 +343,10 @@
                 </div>
             </div>
         </div>
+        <!-- Sertakan library jQuery dan Slick -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
         <script type="text/javascript">
             $(document).ready(function() {
                 $('.row-1').slick({
@@ -314,7 +362,7 @@
     </section>
 
     <!-- ======= PAKET POPULER UNTUK MAHASISWA ======= -->
-    <section id="popup" class="popup" style="padding:30px 0 80px 0; ">
+    <section id="popup" class="popup" style="padding:30px 0 80px 0; margin-top:-100px; ">
         <div class="button-container mb-4" style="margin-top:0px; width: 100%;">
             <span style="float: left; margin-left: 6%;"><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:0px;margin-right:5px"></span>
             <h1 class="custom-text" style=" font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; margin-left: 5px; margin-right:10px;">Paket

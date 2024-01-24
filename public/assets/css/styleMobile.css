@@ -1276,6 +1276,9 @@ border-radius: 0px;
     text-align: center;
     background-color: #106eea;
     color: #fff;
+    width: 180px;
+    margin-left: -20px;
+    margin-top: -50px;
     padding: 5px 15px;
     border-radius: 50px;
     margin-bottom: 10px;
@@ -1292,10 +1295,9 @@ border-radius: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #106eea; */
     color: #fff;
+    width: 200px;
     padding: 5px 15px;
-    /* border-radius: 50px; */
     border-radius: 29px 1px 66px 29px;
     background: #e62a36;
     margin-bottom: 10px;
@@ -1303,8 +1305,7 @@ border-radius: 0px;
 }
 
 .featured-services .icon-box .labels-text {
-    /* font-size: 14px;
-font-weight: bold; */
+
     color: #fff;
     font-family: Manrope;
     font-size: 20px;
