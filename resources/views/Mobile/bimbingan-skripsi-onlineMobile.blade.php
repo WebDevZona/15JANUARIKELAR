@@ -104,7 +104,7 @@
             <section id="hero" class="d-flex align-items-center"
                 style="background: url(assets/img/bg/bso.png);background-size: cover;  ">
                 <div class="container" data-aos="zoom-out" data-aos-delay="100">
-                    <div class="d-flex">
+                    <div class="d-flex" style="margin-top:-100px;">
                         <div
                             style="margin-top:-150px;width: 160px; height: 100%;  background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                             <div
