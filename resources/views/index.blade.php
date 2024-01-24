@@ -206,7 +206,7 @@
                     </h4>
                     <div class="icon">
                     </div>
-                    <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar" width="200px;" style=" margin-top: -35px;">
+                    <img src="assets/img/bg/gmb2.png" alt="Deskripsi Gambar" width="200px;" style=" margin-top: -10px;">
                 </div>
 
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="300" style="background: url(assets/img/bg/bg2.png);background-size: cover;">
