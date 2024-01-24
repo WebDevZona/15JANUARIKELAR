@@ -342,10 +342,10 @@
                             <div class="col">
                                 <div style="width: 180px; margin-top: 40px; height: 100px; background: #F5F5F4; linear-gradient:(180deg, white 0%, #ECF4FF 100%); box-shadow: 0px 18.36px 38.25px rgba(0, 0, 0, 0.15); border-radius: 18.36px; border: 0.76px #09326F solid;">
                                     <div class="card-title">
-                                        <img style="margin-top:15px; " src="assets/img/bg/ps1.png" alt="">
-                                        <div style="margin-top: -80px; margin-left:90px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">
+                                        <img style="margin-top:15px;margin-left:15px " src="assets/img/bg/ps1.png" alt="">
+                                        <div style="margin-top: -80px; margin-left:100px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">
                                             24+</div>
-                                        <div style="margin-top: -50px; margin-left:90px;  opacity: 0.50; color: #101828; font-size: 15px; font-family: Inter; font-weight: 400; letter-spacing: 1px; word-wrap: break-word">
+                                        <div style="margin-top: -50px; margin-left:100px;  opacity: 0.50; color: #101828; font-size: 15px; font-family: Inter; font-weight: 400; letter-spacing: 1px; word-wrap: break-word">
                                             Kampus</div>
                                     </div>
                                 </div>

@@ -183,7 +183,7 @@
                                     <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
                                 </span>
                                 <div class="content-text">
-                                    <h5 style="text-align: left; margin-left: 15px; font-size: 10px; color: #000;">
+                                    <h5 style="text-align: left; margin-left: 15px; font-size: 12px; color: #000;">
                                         Pendampingan oleh Mentor profesional secara privat online dan intensif</h5>
                                     {{-- <p  style="text-align: left; margin-left: 15px;">Sobat Insans akan mendapatkan pendampingan oleh Mentor profesional secara privat
                                     online dan intensif</p> --}}
@@ -195,7 +195,7 @@
                                     <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
                                 </span>
                                 <div class="content-text">
-                                    <h5 style="text-align: left; margin-left: 15px; font-size: 10px; color: #000;">Jadwal
+                                    <h5 style="text-align: left; margin-left: 15px; font-size: 12px; color: #000;">Jadwal
                                         bimbingan fleksibel, sesuai kesepakatan Sobat Insans dan Mentor</h5>
                                     {{-- <p  style="text-align: left; margin-left: 15px;">Bimbingan Skripsi Online (BSO) Class Program disediakan untuk semua jurusan</p> --}}
                                 </div>
@@ -207,7 +207,7 @@
                                     <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
                                 </span>
                                 <div class="content-text">
-                                    <h5 style="text-align: left; margin-left: 15px; font-size: 10px; color: #000;">
+                                    <h5 style="text-align: left; margin-left: 15px; font-size: 12px; color: #000;">
                                         Konsultasi langsung melalui Zoom Meet, Google Meet, Video Call WhatsApp dan telepon
                                     </h5>
                                     {{-- <p  style="text-align: left; margin-left: 15px;">Bimbingan Skripsi Online (BSO) Class Program disediakan untuk semua jurusan</p> --}}
@@ -219,7 +219,7 @@
                                     <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
                                 </span>
                                 <div class="content-text">
-                                    <h5 style="text-align: left; margin-left: 15px; font-size: 10px; color: #000;">Terbuka
+                                    <h5 style="text-align: left; margin-left: 15px; font-size: 12px; color: #000;">Terbuka
                                         untuk semua jurusan</h5>
                                 </div>
                             </div>
@@ -539,7 +539,7 @@
                             <i class="fas fa-circle-check"
                                 style="  color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                                style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 12px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam
                                 merumuskan judul skripsi
                             </div>
@@ -549,7 +549,7 @@
                             <i class="fas fa-circle-check"
                                 style=" color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                                style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 12px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans akan dibantu dalam menemukan masalah untuk judul <br> skripsi yang akan dibuat
                             </div>
                         </div>
@@ -562,7 +562,7 @@
                             src="assets/img/bg/kotakk.png" alt="">
                         <div
                             style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 50px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                            Dikhususkan kepada Sobat Insans yang sedang <br> membutuhkan bimbingan menuju seminar
+                            Dikhususkan kepada Sobat Insans yang sedang membutuhkan bimbingan menuju seminar
                             <br>proposal (sempro) atau bimbingan bab 1-3
                         </div>
 
@@ -570,7 +570,7 @@
                             <i class="fas fa-circle-check"
                                 style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                                style="font-family: Montserrat; text-align: left; margin-top: 15px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-top: 15px; color: black; font-size: 12px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans akan dibantu dalam memahami proses penyusunan<br> proposal penelitian skripsi
                             </div>
                         </div>
@@ -579,7 +579,7 @@
                             <i class="fas fa-circle-check"
                                 style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                             <div
-                                style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 12px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans akan diberikan berbagai materi dasar seputar proposal<br> skripsi oleh mentor
                                 untuk memudahkan proses penyusunan </div>
                         </div>
@@ -733,7 +733,7 @@
                                                     </h4>
                                                     <h4 style="color: #1E1E1E">250.000</h4>
                                                 </div>
-                                                <div class="custom-pricee" style="margin-right: ;"><strong>1
+                                                <div class="custom-pricee" style=""><strong>1
                                                         Bulan</strong></div>
                                                 <hr style=" border: 2px solid #000; border-width: 1px;">
                                                 <ul>
@@ -797,10 +797,10 @@
                                     color: #fff;
                                 }
 
-                                .carousel-control-prev:hover,
+                                /* .carousel-control-prev:hover,
                                 .carousel-control-next:hover {
-                                    /* background: rgba(23, 162, 184, 0.8); */
-                                }
+
+                                } */
                             </style> --}}
                             <!-- Navigation arrows -->
                             {{-- <a class="carousel-control-prev" href="#packageCarousel" role="button" data-slide="prev">
@@ -872,7 +872,7 @@
                         Konsultasi Reguler yang tersedia<br />di Bimbingan Skripsi Online (BSO)</p> --}}
 
                     <!-- test1 -->
-                    <div style="margin-top:-200px;  height: 100%; position: relative">
+                    <div style="margin-top:-230px;  height: 100%; position: relative">
                         <div style="width: 100px;  left: 0px; top: 0px; position: absolute">
                             <div
                                 style="width: 30px; height: 30px; left: 30px; top: 8px; position: absolute; transform: rotate(180deg); transform-origin: 0 0; background: #09326F; border-radius: 9999px">
@@ -970,7 +970,7 @@
                                 <i class="fas fa-circle-check"
                                     style="  color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                 <div
-                                    style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                    style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 12px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                     Sobat Insans akan dibantu dalam menemukan masalah untuk judul skripsi yang akan
                                     dibuat
                                 </div>
@@ -980,7 +980,7 @@
                                 <i class="fas fa-circle-check"
                                     style=" color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                 <div
-                                    style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                    style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 12px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                     Sobat Insans dapat konsultasi kepada Mentor objek permasalahan yang akan digunakan
                                     dalam perumusan judul skripsi
                                 </div>
@@ -989,7 +989,7 @@
                                 <i class="fas fa-circle-check"
                                     style=" color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                 <div
-                                    style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                    style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 12px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                     Sobat Insans dapat konsultasi opsi judul yang dimiliki dan membedahnya bersama
                                     Mentor
                                 </div>
@@ -1008,7 +1008,7 @@
                                 <i class="fas fa-circle-check"
                                     style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                 <div
-                                    style="font-family: Montserrat; text-align: left; margin-top: 15px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                    style="font-family: Montserrat; text-align: left; margin-top: 15px; color: black; font-size: 12px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                     Sobat Insans akan dibantu dalam memahami proses penyusunan proposal penelitian
                                     skripsi
                                 </div>
@@ -1018,7 +1018,7 @@
                                 <i class="fas fa-circle-check"
                                     style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                 <div
-                                    style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                    style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 12px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                     Sobat Insans akan diberikan berbagai materi dasar seputar proposal skripsi oleh
                                     mentor untuk memudahkan proses penyusunan </div>
                             </div>
@@ -1026,7 +1026,7 @@
                                 <i class="fas fa-circle-check"
                                     style="color: #1b5cc5; margin-top: -15px; margin-right: 10px; font-size:30px;"></i>
                                 <div
-                                    style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 15px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                    style="font-family: Montserrat; text-align: left; margin-top: 20px; color: black; font-size: 12px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                     Sobat Insans dapat membawa objek permasalahan dan Mentor akan membimbing dalam
                                     merumuskan judul skripsi </div>
                             </div>
@@ -1813,7 +1813,7 @@
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
                                 <div class="profile-info" style="height: 300px;">
-                                    <div style="text-align:center;  margin-top: 50px;">
+                                    <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
@@ -1825,12 +1825,13 @@
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
                                     </div>
-                                    <p style="margin-top:30px; margin-bottom: 50px; text-align:center;">“Alhamdulillah
+                                    <p style="margin-top:10px; margin-bottom: 50px; text-align:center;">“Alhamdulillah
                                         saya sangat-sangat puas konsultasi di BSO Class Program. Arahan Mentor dan Kak Dewi
                                         membantu saya untuk menemukan solusi mengenai permasalahan skripsi. Kedepannya saya
                                         akan konsultasi kembali disini.”</p>
 
-                                    <h1 style="text-align:center; margin-top: -20px;">Fitri Wahyuni Lubis</h1>
+                                    <h1 style="text-align:center; margin-top: -20px;    font-size: 18px!important;
+                                    ">Fitri Wahyuni Lubis</h1>
                                     <p style="text-align:center; margin-top: -20px; ">Sastra Indonesia -<a
                                             style="font-style: italic !important;"> Universitas Negeri Medan</a></p>
                                 </div>
@@ -1844,7 +1845,7 @@
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
                                 <div class="profile-info" style="height: 300px;">
-                                    <div style="text-align:center;  margin-top: 50px;">
+                                    <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
@@ -1856,12 +1857,12 @@
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
                                     </div>
-                                    <p style="margin-top:30px; margin-bottom: 50px;text-align:center;">“Ikut BSO ternyata
+                                    <p style="margin-top:10px; margin-bottom: 50px;text-align:center;">“Ikut BSO ternyata
                                         sangat menginspirasi dan insightful. Mentor sangat responsif, memberikan panduan dan
                                         feedback konstruktif yang membantu saya untuk memahami pembuatan judul skripsi.
                                         Meskipun belajarnya online, tapi sangat happy dan enjoy”.</p>
 
-                                    <h1 style="text-align:center; margin-top: -20px;">Adinda</h1>
+                                    <h1 style="text-align:center; margin-top: -20px;font-size: 18px!important;">Adinda</h1>
                                     <p style="text-align:center; margin-top: -20px; ">Pendidikan Bahasa Inggris -<a
                                             style="font-style: italic !important;"> Universitas Negeri Surabaya</a></p>
                                 </div>
@@ -1875,7 +1876,7 @@
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
                                 <div class="profile-info" style="height: 300px;">
-                                    <div style="text-align:center;  margin-top: 50px;">
+                                    <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
@@ -1887,12 +1888,12 @@
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
                                     </div>
-                                    <p style="margin-top:30px; margin-bottom: 50px; text-align:center;">“Saya merasa puas
+                                    <p style="margin-top:10px; margin-bottom: 50px; text-align:center;">“Saya merasa puas
                                         dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya selalu
                                         dikoreksi positif secara baik oleh kaka mentor. BSO bagus sekali dan recommended
                                         untuk Mahasiswa.”</p>
 
-                                    <h1 style="text-align:center; margin-top: -20px;">Yola</h1>
+                                    <h1 style="text-align:center; margin-top: -20px;font-size: 18px!important;">Yola</h1>
                                     <p style="text-align:center; margin-top: -20px; ">Pariwisata Bisnis - <a
                                             style="font-style: italic !important;">Universitas Brawijaya</a></p>
                                 </div>
@@ -1906,7 +1907,7 @@
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
                                 <div class="profile-info" style="height: 300px;">
-                                    <div style="text-align:center;  margin-top: 50px;">
+                                    <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
@@ -1918,12 +1919,12 @@
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
                                     </div>
-                                    <p style="margin-top:30px; margin-bottom: 50px; text-align:center;">“Halo Kak Dewi.
+                                    <p style="margin-top:10px; margin-bottom: 50px; text-align:center;">“Halo Kak Dewi.
                                         Saya rutin ikut bimbingan, seminggu 3 kali. Dalam proses bimbingan, jujur saya
                                         sangat terbantu. Banyak hal yang saya tanyakan dan dapat terjawab oleh Mentor saya.”
                                     </p>
 
-                                    <h1 style="text-align:center; margin-top: -20px;">Hildan Ramdani</h1>
+                                    <h1 style="text-align:center; margin-top: -20px;font-size: 18px!important;">Hildan Ramdani</h1>
                                     <p style="text-align:center; margin-top: -20px; ">Ilmu Komunikasi -<a
                                             style="font-style: italic !important;"> Universitas Garut</a></p>
                                 </div>
@@ -1937,7 +1938,7 @@
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
                                 <div class="profile-info" style="height: 300px;">
-                                    <div style="text-align:center;  margin-top: 50px;">
+                                    <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
                                         <i class="fa-solid fa-star"
@@ -1949,12 +1950,12 @@
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
                                     </div>
-                                    <p style="margin-top:30px; margin-bottom: 50px; text-align:center;">“Saya puas dengan
+                                    <p style="margin-top:10px; margin-bottom: 50px; text-align:center;">“Saya puas dengan
                                         bimbingannya kak. Awalnya saya tidak mengerti tahapan skripsi, ketika mulai
                                         bimbingan, saya jadi mengerti hal-hal penting dan tahapan dalam pembuatan judul
                                         serta penentuan variabel. Terima kasih banyak.”</p>
 
-                                    <h1 style="text-align:center; margin-top: -20px;">Azizah Nurul</h1>
+                                    <h1 style="text-align:center; margin-top: -20px;font-size: 18px!important;">Azizah Nurul</h1>
                                     <p style="text-align:center; margin-top: -20px; ">Pendidikan Tata Busana -<a
                                             style="font-style: italic !important;"> Universitas Negeri Malang</a></p>
                                 </div>
@@ -2648,3 +2649,5 @@
 
     </html>
 @endsection
+
+s
