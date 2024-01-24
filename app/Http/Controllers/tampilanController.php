@@ -22,20 +22,19 @@ class tampilanController extends Controller
 {
     public function index()
     {
-    // Mendapatkan data dari model
-    $youtube = Youtube::get();
-    $data = Video::get();
-    $berita = Berita::get();
+        // Mendapatkan data dari model
+        $youtube = Youtube::get();
+        $data = Video::get();
+        $berita = Berita::get();
 
-    // Memeriksa apakah pengguna menggunakan perangkat mobile
-    if (Agent::isMobile()) {
-        // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
-        return view('mobile/indexMobile', compact('data', 'youtube', 'berita'));
-    } else {
-        // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
-        return view('index', compact('data', 'youtube', 'berita'));
-    }
-
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/indexMobile', compact('data', 'youtube', 'berita'));
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('index', compact('data', 'youtube', 'berita'));
+        }
     }
     public function ktk()
     {
@@ -45,7 +44,14 @@ class tampilanController extends Controller
     public function bmj()
     {
 
-        return view('bimbangan-mata-kuliah-jurusan');
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/bimbangan-mata-kuliah-jurusanMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('bimbangan-mata-kuliah-jurusan');
+        }
     }
     public function tentang()
     {
@@ -79,8 +85,13 @@ class tampilanController extends Controller
     }
     public function skripsi()
     {
-
-        return view('skripsi');
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/skripsiMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('skripsi');
+        }
     }
 
     public function artikel()
