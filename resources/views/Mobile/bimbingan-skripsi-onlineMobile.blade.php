@@ -733,7 +733,7 @@
                                                     </h4>
                                                     <h4 style="color: #1E1E1E">250.000</h4>
                                                 </div>
-                                                <div class="custom-pricee" style="margin-right: ;"><strong>1
+                                                <div class="custom-pricee" ><strong>1
                                                         Bulan</strong></div>
                                                 <hr style=" border: 2px solid #000; border-width: 1px;">
                                                 <ul>
@@ -1231,7 +1231,7 @@
                                                     </thead>
                                                 </table>
                                                 <ul class="deskripsi" style="list-style: none;">
-                                                   
+
                                                     <strong> Materi: </strong>
                                                     <li style="align-items:flex-start;"><i
                                                             class="fa-solid fa-circle-check"

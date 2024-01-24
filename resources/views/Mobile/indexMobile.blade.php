@@ -376,7 +376,7 @@
                         <h5 class="modal-title">Selamat datang di Class Program!</h5>
                         <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body" style="margin-top: -50px; ">
+                    <div class="modal-body" style="margin-top: -10px; ">
                         <p style="color: #000; font-weight: 500;">Ingin bimbingan mata kuliah untuk semester berapa?</p>
                         <!-- <p>Ingin cari produk untuk semester berapa?</p> -->
                     </div>
