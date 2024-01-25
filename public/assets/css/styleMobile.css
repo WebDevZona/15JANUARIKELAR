@@ -2701,6 +2701,7 @@ animation: gradientAnimation 4s ease infinite;
     padding-bottom: 16px;
     text-align: left;
     color: #302f2f;
+    width: 100px;
     font-family: "Manrope";
     /* font-size: 32.97px; */
     font-style: normal;
@@ -2774,9 +2775,10 @@ animation: gradientAnimation 4s ease infinite;
     /* position: absolute; */
     /* left: 50%; */
     /* transform: translateX(-50%); */
-
+    border-radius: 25px;
+    border: 2px solid #1b5cc5;
     border-radius: 10px;
-    background: var(--midnight-blue-950, #cec3c3);
+    background: var(--midnight-blue-950, #ffffff);
     display: inline-block;
     width: fit-content;
     text-align: center;
@@ -2802,9 +2804,9 @@ animation: gradientAnimation 4s ease infinite;
 }
 
 .pricing .btn-buyy:hover {
-    background: #3b8af2;
+    background: #064ba5;
+    color: white;
 }
-
 .pricing .featured h3 {
     color: #fff;
     background: #106eea;
