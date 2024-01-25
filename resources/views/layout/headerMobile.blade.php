@@ -1,41 +1,54 @@
-<header id="header" class="d-flex align-items-center">
+<!-- Header Section -->
+<header id="header" class="d-flex align-items-center" style="margin-top: -5px;">
     <div class="container d-flex align-items-center justify-content-between">
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto" href="/" style="margin-right:30px">Home</a></li>
-                <li class="dropdown"><a style="cursor: pointer;"><span>Produk</span> <i class="bi bi-chevron-down nav-link scrollto active" style="margin-left:-10px;"></i></a>
-                    <ul style="border-radius: 15px;">
-                        <li><a class="nav-link scrollto" href="nonaktif">Kelas Tugas Kuliah (KTK)</a></li>
-                        <li><a class="nav-link scrollto" href="bimbangan-mata-kuliah-jurusan">Bimbingan Mata Kuliah Jurusan (BMJ)</a></li>
-                        <li><a class="nav-link scrollto" href="bimbingan-skripsi-online">Bimbingan Skripsi Online (BSO)</a></li>
-                        <li><a class="nav-link scrollto" href="kelas-persiapan-karir">Kelas Persiapan Karir (KPK)</a></li>
-                        <!-- href="kelas-persiapan-karir" -->
+                <li><a href="/" class="nav-link scrollto">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link scrollto">
+                        <span>Produk</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul>
+                        <li><a href="nonaktif" class="nav-link scrollto">Kelas Tugas Kuliah (KTK)</a></li>
+                        <li><a href="bimbangan-mata-kuliah-jurusan" class="nav-link scrollto">Bimbingan Mata Kuliah Jurusan (BMJ)</a></li>
+                        <li><a href="bimbingan-skripsi-online" class="nav-link scrollto">Bimbingan Skripsi Online (BSO)</a></li>
+                        <li><a href="kelas-persiapan-karir" class="nav-link scrollto">Kelas Persiapan Karir (KPK)</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a style="cursor: pointer;"><span>Workshop</span> <i class="bi bi-chevron-down nav-link scrollto active" style="margin-left:-10px;"></i></a>
-                    <ul style="border-radius: 15px;">
-                        <li><a class="nav-link scrollto" href="nonaktif">KTI</a></li>
-                        <li><a class="nav-link scrollto" href="skripsi">Skripsi</a></li>
+                <!-- Tambahkan Menu Lainnya -->
+                <li class="dropdown">
+                    <a href="#" class="nav-link scrollto">
+                        <span>Workshop</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul>
+                        <li><a href="nonaktif" class="nav-link scrollto">KTI</a></li>
+                        <li><a href="skripsi" class="nav-link scrollto">Skripsi</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a style="cursor: pointer;"><span>Creative Class</span> <i class="bi bi-chevron-down nav-link scrollto active" style="margin-left:-10px;"></i></a>
-                    <ul style="border-radius: 15px;">
-                        <li><a class="nav-link scrollto" href="nonaktif">Kelas Adobe Photoshop</a></li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link scrollto">
+                        <span>Creative Class</span>
+                        <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul>
+                        <li><a href="nonaktif" class="nav-link scrollto">Kelas Adobe Photoshop</a></li>
                     </ul>
                 </li>
-
-                <li><a class="nav-link scrollto" href="#konsultasi" style="margin-right:30px">Alur bimbingan</a></li>
-
-                <li><a class="nav-link scrollto" href="#testimonials" style="margin-right:30px">Mentor</a></li>
-                <li><a class="nav-link scrollto" href="#testibaru" style="margin-right:30px">Testimoni</a></li>
-                <li><a class="nav-link scrollto" href="#faq" style="margin-right:30px">FAQ</a></li>
+                <li><a href="#konsultasi" class="nav-link scrollto">Alur bimbingan</a></li>
+                <li><a href="#testimonials" class="nav-link scrollto">Mentor</a></li>
+                <li><a href="#testibaru" class="nav-link scrollto">Testimoni</a></li>
+                <li><a href="#faq" class="nav-link scrollto">FAQ</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
             <div class="close-nav"></div>
         </nav>
     </div>
 </header>
-<header id="marquee-container" >
+
+<!-- Marquee Section -->
+<header id="marquee-container">
     <div class="stop">
         <div class="ok">
             <div class="stopp"><b>TESTIMONI </b></div>
@@ -44,19 +57,27 @@
     <marquee id="marquee">
         <ul>
             <li>Magdalena Melisa: Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir gitu aja banyak ide muncul.</li>
-            <li>Adinda Cahayani Supriyanto: Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan skripsi online yang berkualitas dan juga ramah dikantong.</li>
-            <li>Napa Lestari: Dengan mengikuti BSO skripsi saya selesai lebih cepat.</li>
-            <li>Hanifah Alya Mu'adzah: Mentornya baik-baik dan kalau jelasin materi rinci, bukan hanya mentor namun adminnya juga the best.</li>
-            <li>Puji: Menambah ilmu baru, wawasan, santai, disiplin, manajemen waktu baik.</li>
+
         </ul>
     </marquee>
-
 </header>
 
 <style>
+    body {
+        padding-top: 10px;
+        /* Sesuaikan dengan ukuran yang diinginkan */
+    }
+
+    #header {
+        margin-top: 0;
+        /* Hapus atau atur ke nilai positif jika diperlukan */
+    }
+
     .navbar {
         /* Gaya untuk tampilan desktop */
     }
+
+
 
     .nav-open ul {
         display: block;

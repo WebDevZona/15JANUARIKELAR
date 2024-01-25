@@ -90,27 +90,27 @@
                         <div class="count-box">
                             <div class="left-content">
                                 <!-- <span class="plus" style="font-family: Manrope; margin-left: 10px; font-weight: 800;"><b>2979</b></span> -->
-                                <span class="plus" style="font-size: 18px;margin-top: -2px;position:absolute;margin-left:3px; font-family: Manrope; "><b>2979
+                                <span class="plus" style="font-size: 18px;margin-top: -2px;position:absolute;margin-left:-3px; font-family: Manrope; "><b>2979
                                         <span style="font-family: Manrope;"><b></b></span><span style="font-family: Manrope; font-size: 25px;margin-top: -5px;position:absolute;margin-left:25px ">+</span> </b></span>
                                 <!-- <span class="plus" style="font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:5px; font-family: Manrope; ">+</span> -->
                             </div>
                             <div class="right-content" style="margin-left:0px">
                                 {{-- <p style="margin-left:50px">Peers to network and learn with</p> --}}
-                                <p style="margin-left: 63px; color: #000; font-family: Manrope; margin-top:-10px;"><b style="font-family: Manrope;">Sobat Insans <br> yang Mendaftar</b></p>
+                                <p style="margin-left: 63px; color: #000; font-family: Manrope; margin-top:-10px;"><b style="font-size: 12px; font-family: Manrope;">Sobat Insans <br> yang Mendaftar</b></p>
 
                             </div>
                         </div>
 
                         <!-- <div class="count-separator" style=""></div> --><!-- Garis vertikal -->
                         <div class="count-box">
-                            <div class="count-separator" style="margin-left:-18px"></div> <!-- Garis vertikal -->
+                            <div class="count-separator" style="margin-left:-23px"></div> <!-- Garis vertikal -->
                             <div class="left-content">
-                                <span class="plus" style="font-size: 18px;margin-top: -2px;position:absolute;margin-left:6px; font-family: Manrope; "><b>101
+                                <span class="plus" style="font-size: 18px;margin-top: -2px;position:absolute;margin-left:10px; font-family: Manrope; "><b>101
                                         <span style="font-family: Manrope;"><b></b></span><span style="font-family: Manrope; font-size: 25px;margin-top: -5px;position:absolute;margin-left:25px ">+</span> </b></span>
                             </div>
                             <div class="right-content" style="margin-left:1px">
 
-                                <p style="margin-left:50px; color: #000; font-family: Manrope; margin-top:-10px;"><b>Mentor Class Program</b></p>
+                                <p style="margin-left:50px; color: #000; font-family: Manrope; margin-top:-10px;font-size: 12px;"><b>Mentor Class <br> Program</b></p>
                             </div>
                         </div>
 
@@ -444,11 +444,23 @@ margin-left:-10px;
 
     <section id="paketmentor" class="paketmentor mb-5" style="background-color: #f0f0f0; margin-bottom: 0px; ">
         <div class="paketmentorbg mb-5">
-            <h2 class="judul-tengah" style="margin-top:0px; font-family: Manrope; ">Konsultasi Reguler Bersama Mentor
-            </h2>
-            <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2 mt-5 " style="margin: -50px;">
+        <h2 class="judul-tengah" style="margin-top:0px; font-family: Manrope; margin-bottom:-50px; ">Konsultasi Reguler Bersama Mentor
+                </h2>
+            <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2 mt-5 " style="margin: -50px; margin-top:-50px;">
+
+                <!-- debug -->
                 <div class="col">
-                    <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
+                </div>
+                <div class="col">
+                </div>
+                <div class="col">
+                </div>
+                <div class="col">
+                </div>
+                <!-- debug -->
+                <!-- ok -->
+                <div class="col">
+                    <div class="card " style="width: 300px; margin-left:-360px; margin-right:210px; border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
@@ -491,7 +503,7 @@ margin-left:-10px;
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
+                    <div class="card " style="width: 250px; margin-left:-390px; margin-right:180px; border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
@@ -544,8 +556,8 @@ margin-left:-10px;
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
+                <div class="col" style="margin-left:-350px;">
+                    <div class="card " style="width: 300px; margin-left:-105px; margin-right:90px;  border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
@@ -590,7 +602,7 @@ margin-left:-10px;
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
+                    <div class="card " style="width: 300px; margin-left:-120px; margin-right:-200px; border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
@@ -633,6 +645,7 @@ margin-left:-10px;
                     </div>
                 </div>
             </div>
+
         </div>
         </div>
     </section>
