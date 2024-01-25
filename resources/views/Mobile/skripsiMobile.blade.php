@@ -60,21 +60,36 @@
             </div>
         </section>
 
-
-        <section id="hero-skripsi" class="d-flex align-items-center" style="height:50vh!important;">
+        <style>
+            #hero-skripsi {
+                margin: 0 !important;
+                padding: 0 !important;
+                background: url(/assets/img/bg/bg-skripsi.png) !important;
+                background-size: !important;
+                background-position: center !important;
+                background-repeat: no-repeat !important;
+                height: 35vh !important;
+                display: flex !important;
+                align-items: center !important;
+                justify-content: center !important;
+                margin-left: -150px !important;
+            }
+        </style>
+        <section id="hero-skripsi" class="d-flex align-items-center" style="height:35vh!important;">
             <div class="container" data-aos="zoom-out" data-aos-delay="100">
                 <div class="d-flex" style="">
                     <strong class="scrollto"
-                        style="background: #3E87F8;border-radius: 50px; margin-left: 110px; box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.15); font-family: 'Manrope'; margin-top: 20px; color: #fff; font-size: 12px; font-style: normal; font-weight: 800; line-height: 100%; padding: 14px 20px;">CLASS
+                        style="background: #3E87F8;border-radius: 50px; margin-left: 255px; box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.15); font-family: 'Manrope'; margin-top: 20px; color: #fff; font-size: 12px; font-style: normal; font-weight: 800; line-height: 100%; padding: 8px 18px;">CLASS
                         PROGRAM</strong>
                 </div>
-                <div class="judulketiga-skripsi" style="margin-left:120px !important;">
-                    <h3 style="font-size: 25px; color:#FFF;">Pelatihan Skripsi</h3>
+                <div class="judulketiga-skripsi" style="margin-left:200px !important;">
+                    <h3 style="font-size: 25px; margin-left:25px; color:#FFF;">Pelatihan Skripsi</h3>
                 </div>
                 <h2
-                    style="color: #FFF !important; margin-top: 10px !important; width: 600px !important; margin-left: 120px !important; font-family: 'Manrope' !important; font-size: 15px !important; width:200px !important;line-height:normal !important; ">
+                    style="color: #FFF !important; margin-top: 10px !important; width: 300px !important; margin-left: 165px !important; font-family: 'Manrope' !important; font-size: 12px !important; line-height: normal !important; text-align: center !important;">
                     Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika
-                    dan penyusunan skripsi yang akan dibimbing langsung oleh Mentor</h2>
+                    dan penyusunan skripsi yang akan dibimbing langsung oleh Mentor
+                </h2>
             </div>
         </section>
         <!-- ======= End Section Hero ======= -->
@@ -90,8 +105,8 @@
                             /* display: flex !important; */
                             width: 180px !important;
                             align-self: center !important;
-                            margin-left: 100px !important;
-                            padding: 15.455px !important;
+                            margin-left: 80px !important;
+                            padding: 12px !important;
                             justify-content: center !important;
                             border-radius: 77.273px !important;
                             align-items: center !important;
@@ -105,8 +120,7 @@
                             font-style: normal !important;
                             font-weight: 800 !important;
                             line-height: 125% !important;
-                            /* letter-spacing: -1px !important; */
-                    </style>
+                            letter-spacing: 2px !important;
 
                     }
                     </style>
@@ -117,55 +131,44 @@
                     <h3 style="font-size: 20px !important;">Materi Yang Didapatkan Pelatihan Skripsi</h3>
                     <h4 style="font-size: 15px !important;">Pelatihan Skripsi Class Program</h4>
                 </div>
-
                 <style>
                     .centered-content1 {
                         display: flex;
-                        justify-content: center;
+                        justify-content: space-between;
                         align-items: center;
+                        max-width: 100%;
+                        overflow-x: auto; /* Tambahkan overflow-x untuk memberikan scroll horizontal jika diperlukan */
+                        margin: auto;
                     }
-
+                
                     .centered-content1 img {
-                        max-width: 200%;
-                        /* Memastikan gambar tidak melebihi lebar container */
-                        max-height: 200%;
-                        /* Memastikan gambar tidak melebihi tinggi container */
-                        width: auto;
-                        /* Membuat gambar dapat memperbesar */
+                        max-width: 50%; /* Mengubah max-width menjadi 50% */
                         height: auto;
-                        /* Membuat gambar dapat memperbesar */
-                        margin-left: 30px;
-                        margin-top: 5px;
-                        margin-bottom: 10px;
-                        /* Sesuaikan nilai ini agar gambar tidak menumpuk */
                         border: 1px solid #000;
-                        /* Ganti #000 dengan warna border yang diinginkan */
                         border-radius: 10%;
                         box-sizing: border-box;
-                        /* Untuk memastikan border dan padding tidak menambah lebar elemen */
+                        margin-left: 5px;
+                        transition: transform 0.3s ease-in-out; /* Menambahkan efek transisi pada transformasi */
+                        transform: scale(1); /* Mengatur skala default menjadi 1 */
                     }
                 </style>
+                                
+                
                 <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="centered-content">
-                                <div class="image-container">
-                                    <img src="assets/img/bg/cart-1.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="image-container">
-                                    <img src="assets/img/bg/cart-3.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="image-container">
-                                    <img src="assets/img/bg/cart-2.png" class="img-fluid" alt="">
-                                </div>
-                                <div class="image-container">
-                                    <img src="assets/img/bg/cart-4.png" class="img-fluid" alt="">
-                                </div>
+                            <div class="centered-content1">
+                                <img src="assets/img/bg/cart-1.png" class="img-thumbnail" alt="...">
+                                <img src="assets/img/bg/cart-3.png" class="img-thumbnail" alt="...">
+                                <img src="assets/img/bg/cart-2.png" class="img-thumbnail" alt="...">
+                                <img src="assets/img/bg/cart-4.png" class="img-thumbnail" alt="...">
                             </div>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
                 </div>
+                                                              
+
                 <!-- Initialize Swiper -->
                 <script>
                     var swiper = new Swiper('.testimonials-slider', {
@@ -402,87 +405,87 @@
 
         <!-- ======= Qn A Section ======= -->
         <!-- <section id="faq" class="faq section-bg" style="background-size: cover; margin-top: -200px; background-color: #bbcde9; position: relative;">
-                    <img src="assets/img/bg/kananatasfaq.png" style="position: absolute; top: 0; right: 0; width: 200px; height: 250px;" alt="">
-                    <img src="assets/img/bg/kirifaq.png.png" style="position: absolute;  bottom: 0;left: 0; width: 200px; height: 250px;" alt="">
-                    {{-- ackground: url(assets/img/bg/bso4.png); --}}
-                                <div class="background-faq"></div>
-                                <div class="container kontener" data-aos="fade-up">
+                        <img src="assets/img/bg/kananatasfaq.png" style="position: absolute; top: 0; right: 0; width: 200px; height: 250px;" alt="">
+                        <img src="assets/img/bg/kirifaq.png.png" style="position: absolute;  bottom: 0;left: 0; width: 200px; height: 250px;" alt="">
+                        {{-- ackground: url(assets/img/bg/bso4.png); --}}
+                                    <div class="background-faq"></div>
+                                    <div class="container kontener" data-aos="fade-up">
 
-                                        <div class="col-xl-6" style="text-align: center; margin-top: 200px; margin-bottom: 50px;">
-                                            <div class="section-title">
-                                                <h3>Paling Sering Ditanyakan</h3>
+                                            <div class="col-xl-6" style="text-align: center; margin-top: 200px; margin-bottom: 50px;">
+                                                <div class="section-title">
+                                                    <h3>Paling Sering Ditanyakan</h3>
+                                                </div>
+
+                                                    <div class="accordion" id="accordionFlushExample">
+                                                        <div class="accordion-item" >
+                                                            <h2 class="accordion-header" id="flush-headingOne">
+                                                                <button  class="accordion-button collapsed"  type="button" data-toggle="collapse" data-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">01</div> <b>Apakah di Class Program bisa ganti Mentor?</b>
+                                                                </button>
+                                                            </h2>
+                                                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
+                                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header" id="flush-headingTwo">
+                                                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">02</div>  <b>Apakah bisa bimbingan malam hari?</b>
+                                                                </button>
+                                                            </h2>
+                                                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
+                                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header" id="flush-headingthree">
+                                                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
+                                                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">03</div><b>Apakah bimbingan menggunakan video call?</b>
+                                                                </button>
+                                                            </h2>
+                                                            <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
+                                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header" id="flush-headingfour">
+                                                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
+                                                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">04</div><b>Sistem pembayaran bagaimana?</b>
+                                                                </button>
+                                                            </h2>
+                                                            <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-parent="#accordionFlushExample">
+                                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="accordion-item">
+                                                            <h2 class="accordion-header" id="flush-headingfive">
+                                                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
+                                                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">05</div><b>Apakah bimbingan private?</b>
+                                                                </button>
+                                                            </h2>
+                                                            <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
+                                                                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                     <a href="#pricing" style="width: 100%; margin-top: 25px; height: auto; position: relative; display: flex; align-items: center; justify-content: center; text-decoration: none;">
+                                                        <div style="width: 200px; height: 50px; position: relative; background: #0849B2; border-radius: 20.32px;">
+                                                            <div style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); color: white; font-size: 20px; font-family: Raleway; font-weight: 700; word-wrap: break-word">
+                                                                Baca selengkapnya
+                                                            </div>
+                                                        </div>
+                                                     </a>
+
                                             </div>
 
-                                                <div class="accordion" id="accordionFlushExample">
-                                                    <div class="accordion-item" >
-                                                        <h2 class="accordion-header" id="flush-headingOne">
-                                                            <button  class="accordion-button collapsed"  type="button" data-toggle="collapse" data-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">01</div> <b>Apakah di Class Program bisa ganti Mentor?</b>
-                                                            </button>
-                                                        </h2>
-                                                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
-                                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="flush-headingTwo">
-                                                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">02</div>  <b>Apakah bisa bimbingan malam hari?</b>
-                                                            </button>
-                                                        </h2>
-                                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
-                                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="flush-headingthree">
-                                                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
-                                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">03</div><b>Apakah bimbingan menggunakan video call?</b>
-                                                            </button>
-                                                        </h2>
-                                                        <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
-                                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="flush-headingfour">
-                                                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">04</div><b>Sistem pembayaran bagaimana?</b>
-                                                            </button>
-                                                        </h2>
-                                                        <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-parent="#accordionFlushExample">
-                                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="accordion-item">
-                                                        <h2 class="accordion-header" id="flush-headingfive">
-                                                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
-                                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">05</div><b>Apakah bimbingan private?</b>
-                                                            </button>
-                                                        </h2>
-                                                        <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
-                                                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                                 <a href="#pricing" style="width: 100%; margin-top: 25px; height: auto; position: relative; display: flex; align-items: center; justify-content: center; text-decoration: none;">
-                                                    <div style="width: 200px; height: 50px; position: relative; background: #0849B2; border-radius: 20.32px;">
-                                                        <div style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); color: white; font-size: 20px; font-family: Raleway; font-weight: 700; word-wrap: break-word">
-                                                            Baca selengkapnya
-                                                        </div>
-                                                    </div>
-                                                 </a>
-
-                                        </div>
-
-                                </div>
-                                <script src="script.js"></script>
-                </section>
-                 -->
+                                    </div>
+                                    <script src="script.js"></script>
+                    </section>
+                     -->
         <section id="faq" class="faq section-bg"
             style="background-size: cover; background-color: #bbcde9; position: relative; margin-top:-200px;">
             <img src="assets/img/bg/kananatasfaq.png"
@@ -513,8 +516,8 @@
                         }
 
                         /* .accordion-button::after {
-                                        content: none;
-                                    } */
+                                            content: none;
+                                        } */
 
                         .accordion-body {
                             border-top-left-radius: 0;
@@ -627,12 +630,12 @@
                             </div>
                         </div>
                         <!--  <a href="#pricing" style="width: 100%; margin-top: 25px; height: auto; position: relative; display: flex; align-items: center; justify-content: center; text-decoration: none;">
-                                <div style="width: 200px; height: 50px; position: relative; background: #0849B2; border-radius: 20.32px;">
-                                    <div style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); color: white; font-size: 20px; font-family: Raleway; font-weight: 700; word-wrap: break-word">
-                                        Baca selengkapnya
+                                    <div style="width: 200px; height: 50px; position: relative; background: #0849B2; border-radius: 20.32px;">
+                                        <div style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); color: white; font-size: 20px; font-family: Raleway; font-weight: 700; word-wrap: break-word">
+                                            Baca selengkapnya
+                                        </div>
                                     </div>
-                                </div>
-                            </a> -->
+                                </a> -->
                     </div>
                 </div>
         </section>
@@ -640,69 +643,69 @@
 
 
         <!--   <section id="qna" class="qna" style="color:#e4ebf7;">
-                    <div class="container">
+                        <div class="container">
 
-                      <div class="section-title" style="margin-top: 180px;">
-                        <h3 style="color: var(--Midnight-Blue-950, #09326F); font-family: Nunito;">Frequently Asked Questions</h3>
-                      </div>
+                          <div class="section-title" style="margin-top: 180px;">
+                            <h3 style="color: var(--Midnight-Blue-950, #09326F); font-family: Nunito;">Frequently Asked Questions</h3>
+                          </div>
 
-                      <div class="accordion">
-                        <div class="accordion-item">
-                          <div class="accordion-header">
-                            <h1>1. Where is my order? Quisque molestie</h1>
-                            <span class="icon" style=" margin-left: 445px;"><img src="assets/img/bg/_.png" style="width: 35px;"></span>
+                          <div class="accordion">
+                            <div class="accordion-item">
+                              <div class="accordion-header">
+                                <h1>1. Where is my order? Quisque molestie</h1>
+                                <span class="icon" style=" margin-left: 445px;"><img src="assets/img/bg/_.png" style="width: 35px;"></span>
+                              </div>
+                              <div class="accordion-content">
+                                <p>Content for Section 1 goes here.</p>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <div class="accordion-header">
+                              <h1> 2. How can I return an item purchased online?</h1>
+                              <span class="icon" ><img src="assets/img/bg/_.png" style="width: 35px;"></span>
+                              </div>
+                              <div class="accordion-content">
+                                <p>The are going to use a passage of Lorem Ipsum, you need to be sure tdembarrassing hidden in the middle of text. All the Lorem generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <div class="accordion-header">
+                              <h1>3. Can I cancel or change my order?</h1>
+                                <span class="icon" style=" margin-left: 478px;"><img src="assets/img/bg/_.png" style="width: 35px;"></span>
+                              </div>
+                              <div class="accordion-content">
+                                <p>Content for Section 1 goes here.</p>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <div class="accordion-header">
+                              <h1>4. I have a promotional or discount code?</h1>
+                                <span class="icon" style=" margin-left: 436px;"><img src="assets/img/bg/_.png" style="width: 35px;"></span>
+                              </div>
+                              <div class="accordion-content">
+                                <p>Content for Section 1 goes here.</p>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <div class="accordion-header">
+                              <h1>5. Can I integrate my store with Facebook?</h1>
+                                <span class="icon"  style=" margin-left: 425px;"><img src="assets/img/bg/_.png" style="width: 35px;"></span>
+                              </div>
+                              <div class="accordion-content">
+                                <p>Content for Section 1 goes here.</p>
+                              </div>
+                            </div>
+
+
                           </div>
-                          <div class="accordion-content">
-                            <p>Content for Section 1 goes here.</p>
-                          </div>
+
+                          <script src="script.js"></script>
                         </div>
-
-                        <div class="accordion-item">
-                          <div class="accordion-header">
-                          <h1> 2. How can I return an item purchased online?</h1>
-                          <span class="icon" ><img src="assets/img/bg/_.png" style="width: 35px;"></span>
-                          </div>
-                          <div class="accordion-content">
-                            <p>The are going to use a passage of Lorem Ipsum, you need to be sure tdembarrassing hidden in the middle of text. All the Lorem generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
-                          </div>
-                        </div>
-
-                        <div class="accordion-item">
-                          <div class="accordion-header">
-                          <h1>3. Can I cancel or change my order?</h1>
-                            <span class="icon" style=" margin-left: 478px;"><img src="assets/img/bg/_.png" style="width: 35px;"></span>
-                          </div>
-                          <div class="accordion-content">
-                            <p>Content for Section 1 goes here.</p>
-                          </div>
-                        </div>
-
-                        <div class="accordion-item">
-                          <div class="accordion-header">
-                          <h1>4. I have a promotional or discount code?</h1>
-                            <span class="icon" style=" margin-left: 436px;"><img src="assets/img/bg/_.png" style="width: 35px;"></span>
-                          </div>
-                          <div class="accordion-content">
-                            <p>Content for Section 1 goes here.</p>
-                          </div>
-                        </div>
-
-                        <div class="accordion-item">
-                          <div class="accordion-header">
-                          <h1>5. Can I integrate my store with Facebook?</h1>
-                            <span class="icon"  style=" margin-left: 425px;"><img src="assets/img/bg/_.png" style="width: 35px;"></span>
-                          </div>
-                          <div class="accordion-content">
-                            <p>Content for Section 1 goes here.</p>
-                          </div>
-                        </div>
-
-
-                      </div>
-
-                      <script src="script.js"></script>
-                    </div>
-                  </section> -->
+                      </section> -->
 
         <!-- =======  End Qn A Section ======= -->
         <div id="preloader"></div>
