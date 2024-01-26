@@ -3510,9 +3510,10 @@ text-align: center; */
 }
 
 .caption-container {
+    margin-top: 20px;
     background-color: #ffffff;
     padding: 10px;
-    max-width: 50%;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -3547,10 +3548,11 @@ text-align: center; */
     background-color: #3e87f8;
     border: 1px solid #3e87f8;
     padding: 5px;
-    width: 500px;
+    width: 350px;
     text-align: center;
     border-radius: 10px;
-    margin-top: 30px;
+    margin-top: 45px;
+    margin-bottom: 100px;
     box-shadow: 0px 0px 5px rgb(255, 248, 248);
     top: -80px;
     left: 50%;
@@ -3576,7 +3578,7 @@ text-align: center; */
     position: relative;
 }
 
-/* Efek transisi gambar */
+
 #gambar {
     opacity: 1;
     transition: opacity 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -5893,16 +5895,25 @@ transform: translateX(100px);
     /* Ubah opacity menjadi 1 untuk munculkan elemen */
 }
 
-.profile-image {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
+/* .profile-image {
+
+    border-radius: 25px;
     border: 0px solid #333;
     margin-right: 10px;
-    margin-top: 50px;
+    margin-top: 30%;
     align-self: flex-start;
     position: center;
+} */
+.profile-image {
+    max-width: 120px; /* Sesuaikan lebar maksimum gambar sesuai kebutuhan */
+    width: 120px; /* Sesuaikan lebar gambar */
+    height: auto; /* Gunakan nilai 'auto' agar tinggi mengikuti aspek rasio gambar asli */
+    border-radius: 25px;
+    border: 0px solid #333;
+    position: center;
+    margin-right: 10px; /* Sesuaikan jarak antara gambar dan teks sesuai kebutuhan */
 }
+
 
 .profile-info {
     text-align: left;
@@ -5942,13 +5953,16 @@ transform: translateX(100px);
 
 .profile-image {
     margin-right: 20px; /* Sesuaikan jarak antara gambar dan teks sesuai kebutuhan */
-    max-width: 100px; /* Sesuaikan lebar maksimum gambar sesuai kebutuhan */
-    height: auto;
+    max-width:  120px; /* Sesuaikan lebar maksimum gambar sesuai kebutuhan */
+    width:  120px; /* Gunakan nilai 'auto' agar lebar mengikuti aspek rasio gambar asli */
+    height: 150px; /* Gunakan nilai 'auto' agar tinggi mengikuti aspek rasio gambar asli */
+    max-height: 150px; /* Sesuaikan tinggi maksimum gambar sesuai kebutuhan */
 }
 
 .profile-info {
     color: #fff;
     font-family: Manrope;
+    max-width: 400px; /* Sesuaikan lebar maksimum teks sesuai kebutuhan */
 }
 
 .profile-info h1 {
@@ -5960,11 +5974,14 @@ transform: translateX(100px);
 
 .profile-info p {
     color: white;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: normal;
     text-align: left;
-    line-height: 1.4;
+    line-height: 1.5;
+    margin: 0;
 }
+
+
 
 .comment {
     background-color: #f0f0f0;
@@ -7213,6 +7230,8 @@ transform: translateX(100px);
     align-self: flex-start;
     position: center;
 }
+
+
 
 .kotak-skripsi .profile-info {
     text-align: center;

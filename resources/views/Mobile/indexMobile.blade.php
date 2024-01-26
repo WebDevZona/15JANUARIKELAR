@@ -460,7 +460,7 @@ margin-left:-10px;
                 <!-- debug -->
                 <!-- ok -->
                 <div class="col">
-                    <div class="card " style="width: 300px; margin-left:-360px; margin-right:210px; border-radius: 25px; border: 5px solid #1b5cc5;">
+                    <div class="card " style="width: 300px; margin-left:-360px; margin-right:280px;  border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
@@ -503,7 +503,7 @@ margin-left:-10px;
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card " style="width: 250px; margin-left:-390px; margin-right:180px; border-radius: 25px; border: 5px solid #1b5cc5;">
+                    <div class="card " style="width: 300px; margin-left:-375px; border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
@@ -557,7 +557,7 @@ margin-left:-10px;
                     </div>
                 </div>
                 <div class="col" style="margin-left:-350px;">
-                    <div class="card " style="width: 300px; margin-left:-105px; margin-right:90px;  border-radius: 25px; border: 5px solid #1b5cc5;">
+                    <div class="card " style="width: 300px; margin-left:-50px; border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
@@ -602,7 +602,7 @@ margin-left:-10px;
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card " style="width: 300px; margin-left:-120px; margin-right:-200px; border-radius: 25px; border: 5px solid #1b5cc5;">
+                    <div class="card " style="width: 300px; margin-left:-80px; margin-right:-280px; border-radius: 25px; border: 5px solid #1b5cc5;">
                         <div class="card-body">
                             <h5 class="card-title">
                                 <table>
@@ -695,7 +695,7 @@ margin-left:-10px;
                         <ul>
                             <li><strong style=""> Bimbingan Mata Kuliah <br> Jurusan (BMJ)</strong></li>
                             <li style="color:black;">Kelas Tugas Kuliah (KTK) <br>
-                             Class Program disediakan <br> secara khusus untuk <br>
+                                Class Program disediakan <br> secara khusus untuk <br>
                                 membantu Sobat Insans <br> dalam langkah-langkah
                                 penyusunan tugas kuliah <br> dengan sistem mentoring/ <br> pendampingan secara intens <br> dan kenaikan
                                 kelas.</li>
@@ -716,10 +716,11 @@ margin-left:-10px;
                         <ul>
                             <li><strong style=""> Kelas Tugas Kuliah (KTK)</strong></li>
                             <li style="color:black;">Kelas Tugas Kuliah (KTK)
-                            <br> Class Program disediakan <br> secara khusus untuk <br>
+                                <br> Class Program disediakan <br> secara khusus untuk <br>
                                 membantu Sobat Insans <br> dalam langkah-langkah
                                 penyusunan tugas kuliah <br> dengan sistem mentoring/ <br>
-                                 pendampingan secara intens <br> dan kenaikan kelas.</li>
+                                pendampingan secara intens <br> dan kenaikan kelas.
+                            </li>
                         </ul>
                         <div class="btn-wrap">
                             <a href="bimbingan-skripsi-online" class="btn-buy">Lihat Detail</a>
@@ -737,8 +738,8 @@ margin-left:-10px;
                         <ul>
                             <li><strong style="">Kelas Persiapan <br> Karir (KPK)</strong></li>
                             <li style="color:black;">Kelas Persiapan Karir (KPK) <br>
-                            Class Program disediakan <br> secara khusus untuk <br> membantu Sobat
-                            Insans <br> dalam mengasah soft <br> skill dan hard skill untuk <br> terjun ke dunia kerja.</li>
+                                Class Program disediakan <br> secara khusus untuk <br> membantu Sobat
+                                Insans <br> dalam mengasah soft <br> skill dan hard skill untuk <br> terjun ke dunia kerja.</li>
                         </ul>
                         <div class="btn-wrap">
                             <a href="bimbingan-skripsi-online" class="btn-buy">Lihat Detail</a>
@@ -758,9 +759,10 @@ margin-left:-10px;
                             <li><strong style="">Creative Class</strong></li>
                             <br>
                             <li style="color:black;">Creative Class adalah <br>
-                             program yang disediakan <br> secara khusus untuk
-                               <br> membantu Sobat Insans <br> dalam
-                                melatih kemampuan <br> design grafis dengan <br> sistem kenaikan kelas.</li>
+                                program yang disediakan <br> secara khusus untuk
+                                <br> membantu Sobat Insans <br> dalam
+                                melatih kemampuan <br> design grafis dengan <br> sistem kenaikan kelas.
+                            </li>
                         </ul>
                         <div class="btn-wrap">
                             <a href="bimbingan-skripsi-online" class="btn-buy">Lihat Detail</a>
@@ -787,7 +789,7 @@ margin-left:-10px;
         {{-- <img src="assets/img/bg/yt2.png" alt="Left Image" class="left-image">
         <img src="assets/img/bg/yt3.png" alt="Right Image" class="right-image"> --}}
         <div class="container" data-aos="fade-up" style="margin-top: 30px;">
-            <div class="row skills-content">
+            <div class="skills-content">
                 <div class="col-md-7 mx-auto">
                     <!-- Left image -->
                     <div class="video-container">
@@ -813,7 +815,7 @@ margin-left:-10px;
     <section id="menu" class="menu">
         <div class="container" style="margin-top: 0px">
             <div class="content" id="content1">
-                <div class="row blok">
+                <div class="" style="width: 140%; border-radius:25px; margin-left:-45px; margin-right:-35px;">
                     <div class="col-lg-6 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
                         <h3 style="color: #2A2A2A;
                                 font-family: Manrope;
@@ -872,7 +874,7 @@ margin-left:-10px;
             </div>
 
             <div class="content" id="content2">
-                <div class="row">
+                <div class="" style="width: 140%; border-radius:25px; margin-left:-45px; margin-right:-35px;">
                     <div class="col-lg-6 pt-4 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
                         <h3 style="color: #2A2A2A;
                             font-family: Manrope;
@@ -1089,7 +1091,7 @@ margin-left:-10px;
                         outline: none !important;">
                     </div>
                     <div class="centered-content">
-                        <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="" style="border: none !important;
+                        <img src="assets/img/team/a.png" height="auto" class="img-fluid" alt="" style="height: 18px; width: 60px; border: none !important;
                         outline: none !important;">
                     </div>
                 </div>
@@ -1097,6 +1099,7 @@ margin-left:-10px;
             <div class="swiper-pagination"></div>
         </div>
         </div>
+        <div></div>
     </section>
 
 
@@ -1143,23 +1146,23 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="galeri" class="galeri" style="margin-top: -50px;">
+    <section id="galeri" class="galeri" style="margin-top: -100px;">
         <div class="section-title " style=" font-family: 'Roboto', sans-serif;
                                     text-transform: uppercase;
                                     font-size: 48px;
                                     position: relative;
                                     letter-spacing: 2px;
+                                    margin-top: -50px;
                                     padding-bottom: 10px;
                                     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);">
             <!-- <h2>About</h2> -->
-            <div class="left-align" style=" text-align: left;">
-                <h3 style="font-size:40px; color:#000; font-weight: 800;color:black; margin-left: 120px; font-family: 'Manrope'; ">Janji Mentor untuk <br> Sobat Insans
-                    Insans...</h3>
+            <div class="left-align" style=" text-align: left; ">
+                <h3 style="font-size:20px; color:#000; font-weight: 800;color:black;text-align: center; font-family: 'Manrope'; ">Janji Mentor untuk <br> Insans...</h3>
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
         </div>
 
-        <div class="galeri-container">
+        <div class="card galeri-container">
             <div class="image-container">
                 <div class="thought-bubble">
                     <div class="arrow-down"></div>
@@ -1200,22 +1203,21 @@ margin-left:-10px;
             <br>
             <div class="profile-slider">
                 <div class="profile">
+                    <h1 style="font-size:20px; margin-top:10px; font-weight: bold;">Yohanes Hernandes SYohan</h1>
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-2.jpg" alt="Gambar Profil">
                         <div class="profile-info">
-                            <h1>Yohanes Hernandes SYohan</h1>
                             <p>" Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
                                 gitu aja banyak ide muncul."</p>
                         </div>
                     </div>
                 </div>
                 <div class="profile">
-
+                    <h1 style="font-size:20px; margin-top:10px; font-weight: bold;">ELouis Patric</h1>
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil">
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="profile-info">
-                            <h1>ELouis Patric</h1>
                             <p>" Gan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
                                 gitu aja banyak ide muncul."
                             </p>
@@ -1225,11 +1227,11 @@ margin-left:-10px;
                 </div>
 
                 <div class="profile">
+                    <h1 style="font-size:20px; margin-top:10px; font-weight: bold;">Adinda Cahayani Supriyanto</h1>
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="profile-info">
-                            <h1>Adinda Cahayani Supriyanto</h1>
                             <p>" Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan
                                 skripsi online yang berkualitas dan juga ramah dikantong."</p>
                         </div>
@@ -1254,7 +1256,7 @@ margin-left:-10px;
                 <br>
                 <div class="team-slider">
 
-                    <div class="row" id="team-members">
+                    <div class="" id="team-members">
                         <!-- Anggota Tim 1 -->
                         <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
                             <div class="konsultasi-content">
@@ -1332,21 +1334,36 @@ margin-left:-10px;
         <div class=" background-faq">
         </div>
         <div class="container" data-aos="fade-up">
-            <div class="row">
+            <div class="">
                 <div class="col-xl-7">
                     <div class="section-title">
                         <h3>Paling Sering Ditanyakan</h3>
                     </div>
+                    <style>
+                        .fa-stack {
+                            margin-right: 25px;
+                            /* Adjust the margin as needed */
+
+
+                        }
+
+
+                        .accordion p {
+                            white-space: nowrap;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                        }
+                    </style>
                     <div id="accordion" class="myaccordion">
                         <div class="card">
                             <div class="card-header" id="headingOne">
                                 <h2 class="mb-0">
                                     <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                        <p style="color: #000;">Apa yang dimaksud dengan Sobat Insans?</p>
                                         <span class="fa-stack fa-sm">
                                             <i class="fas fa-circle fa-stack-2x"></i>
                                             <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                         </span>
+                                        <p style="color: #000; margin-top:40px; text-align: start; width: 400px;">Apa yang dimaksud dengan Sobat Insans?</p>
                                     </button>
                                 </h2>
                             </div>
@@ -1360,11 +1377,11 @@ margin-left:-10px;
                             <div class="card-header" id="headingTwo">
                                 <h2 class="mb-0">
                                     <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        <p style="color: #000;">Siapa saja yang bisa belajar di Class Program?</p>
                                         <span class="fa-stack fa-2x">
                                             <i class="fas fa-circle fa-stack-2x"></i>
                                             <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                         </span>
+                                        <p style="color: #000; margin-top:40px; text-align: start; width: 400px;">Siapa saja yang bisa belajar di Class Program?</p>
                                     </button>
                                 </h2>
                             </div>
@@ -1379,11 +1396,11 @@ margin-left:-10px;
                             <div class="card-header" id="headingThree">
                                 <h2 class="mb-0">
                                     <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        <p style="color: #000;">Siapa Mentor yang ada di Class Program?</p>
                                         <span class="fa-stack fa-2x">
                                             <i class="fas fa-circle fa-stack-2x"></i>
                                             <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                         </span>
+                                        <p style="color: #000; margin-top:40px; text-align: start; width: 400px;">Siapa Mentor yang ada di Class Program?</p>
                                     </button>
                                 </h2>
                             </div>
@@ -1397,11 +1414,12 @@ margin-left:-10px;
                             <div class="card-header" id="heading4">
                                 <h2 class="mb-0">
                                     <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                        <p style="color: #000;">Bagaimana jadwal bimbingan di Class Program?</p>
                                         <span class="fa-stack fa-2x">
                                             <i class="fas fa-circle fa-stack-2x"></i>
                                             <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                         </span>
+
+                                        <p style="color: #000; margin-top:60px; text-align: start; width: 500px;">Bagaimana jadwal bimbingan di Class Program?</p>
                                     </button>
                                 </h2>
                             </div>
@@ -1415,11 +1433,11 @@ margin-left:-10px;
                             <div class="card-header" id="heading5">
                                 <h2 class="mb-0">
                                     <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                        <p style="color: #000;">Apakah di Class Program bisa ganti Mentor?</p>
                                         <span class="fa-stack fa-2x">
                                             <i class="fas fa-circle fa-stack-2x"></i>
                                             <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                         </span>
+                                        <p style="color: #000; margin-top:40px; text-align: start; width: 400px;">Apakah di Class Program bisa ganti Mentor?</p>
                                     </button>
                                 </h2>
                             </div>
@@ -1445,30 +1463,28 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="gambarkampus" class="gambarkampus" style="margin-top:-50px;">
+    <section id="gambarkampus" class="gambarkampus" style="margin-top:-100px;">
         <div class="section-title">
             <h3>Kami telah membimbing<br> mahasiswa dari berbagai kampus</h3>
         </div>
+
         <div class="container">
-            <div class="row">
+            <div class="">
                 <img src="assets/img/kampus/ui.png" alt="Gambar 1" class="image">
                 <img src="assets/img/kampus/um.png" alt="Gambar 2" class="image">
                 <img src="assets/img/kampus/unnes.png" alt="Gambar 3" class="image">
                 <img src="assets/img/kampus/uny.png" alt="Gambar 4" class="image">
-            </div>
-            <div class="row">
+
                 <img src="assets/img/kampus/unj.png" alt="Gambar 7" class="image">
                 <img src="assets/img/kampus/ub.png" alt="Gambar 8" class="image">
                 <img src="assets/img/kampus/ugm.png" alt="Gambar 5" class="image">
                 <img src="assets/img/kampus/itb.png" alt="Gambar 6" class="image">
-            </div>
-            <div class="row">
+
                 <img src="assets/img/kampus/uns.png" alt="Gambar 10" class="image">
                 <img src="assets/img/kampus/ut.png" alt="Gambar 11" class="image">
                 <img src="assets/img/kampus/unm.png" alt="Gambar 12" class="image">
                 <img src="assets/img/kampus/unesa.png" alt="Gambar 9" class="image">
-            </div>
-            <div class="row">
+
                 <img src="assets/img/kampus/pajajaran.png" alt="Gambar 10" class="image">
                 <img src="assets/img/kampus/undip.png" alt="Gambar 11" class="image">
                 <img src="assets/img/kampus/unsri.png" alt="Gambar 12" class="image">
@@ -1509,7 +1525,7 @@ margin-left:-10px;
 
         const images = [
             "assets/img/clients/client-1.png",
-            "assets/img/clients/client-2.png",
+            "assets/img/clients/client-4.png",
             "assets/img/clients/client-3.png",
             "assets/img/clients/client-4.png",
             "assets/img/clients/client-5.png",
@@ -1521,7 +1537,7 @@ margin-left:-10px;
         for (let i = 0; i < imagesElements.length; i++) {
             imagesElements[i].style.width = '300px';
             imagesElements[i].style.height = '200px';
-            imagesElements[i].style.marginTop = '50px';
+            imagesElements[i].style.marginTop = '80px';
         }
 
 
