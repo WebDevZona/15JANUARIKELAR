@@ -48,7 +48,7 @@
 
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/styleMobile.css" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: BizLand
@@ -61,7 +61,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 </head>
 
-@extends('layout.header')
+@extends('layout.headerMobile')
 @section('content')
 
 <body>

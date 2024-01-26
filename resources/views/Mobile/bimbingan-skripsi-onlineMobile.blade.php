@@ -2165,29 +2165,30 @@
 
                 <div class="section-title">
                     <h3 style=" color:#000; font-size:25px">Mentor Profesional</h3>
-                    <h3 style="color:#000; font-size:25px">Class Program</h3>
+                    <h3 style="color:#000; font-size:25px; margin-top:-5px">Class Program</h3>
 
                 </div>
                 <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" id="mentor-ali">
                             <div class="centered-content">
                                 <img src="assets/img/team/Mentor_ali.png" class="img-fluid" alt="" style="border: none !important; outline: none !important;">
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" id="mentor-faidatul">
                             <div class="centered-content">
                                 <img src="assets/img/team/Mentor_Faidatul.png" class="img-fluid" alt="" style="border: none !important; outline: none !important;">
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" id="mentor-denny">
                             <div class="centered-content">
                                 <img src="assets/img/team/Mentor_Denny.png" class="img-fluid" alt="" style="border: none !important; outline: none !important;">
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+                    {{-- <div class="swiper-pagination"></div> --}}
                 </div>
+                
                 </div>
             </section>
 
