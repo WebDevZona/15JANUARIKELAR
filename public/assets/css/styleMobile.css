@@ -2202,6 +2202,8 @@ line-height: bold; */
 .testimonials .swiper-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
+    text-align: center;
+    margin-left: -20px;
     background-color: rgba(255, 255, 255, 0.5);
     opacity: 1;
 }
@@ -6880,7 +6882,7 @@ align-items: flex-start;
 
 .centered-content img {
     max-width: 100%;
-    height: 230px;
+    height: 500px;
     /* margin-left: -15px; */
     margin-top: 5px;
     margin-bottom: 10px; /* Sesuaikan nilai ini agar gambar tidak menumpuk */

@@ -1083,21 +1083,23 @@ margin-left:-10px;
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="centered-content">
-                        <img src="assets/img/team/mentor1.png" class="img-fluid" alt="" style="border: none !important;
-                        outline: none !important;">
-                        <img src="assets/img/team/mentor2.png" class="img-fluid" alt="" style="border: none !important;
-                        outline: none !important;">
-                        <img src="assets/img/team/mentor3.png" class="img-fluid" alt="" style="border: none !important;
-                        outline: none !important;">
+                        <img src="assets/img/team/mentor1.png" class="img-fluid" alt="" style="border: none !important; outline: none !important;">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="centered-content">
-                        <img src="assets/img/team/a.png" height="auto" class="img-fluid" alt="" style="height: 18px; width: 60px; border: none !important;
-                        outline: none !important;">
+                        <img src="assets/img/team/mentor2.png" class="img-fluid" alt="" style="border: none !important; outline: none !important;">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="centered-content">
+                        <img src="assets/img/team/mentor3.png" class="img-fluid" alt="" style="border: none !important; outline: none !important;">
                     </div>
                 </div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
+
         </div>
         <div></div>
     </section>
