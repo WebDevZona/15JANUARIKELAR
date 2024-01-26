@@ -1107,14 +1107,14 @@ margin-left:-10px;
 
 
 
-    <section id="testibaru" class="testibaru section-bg " style="margin-top: -155px;">
+    <section id="testibaru" class="testibaru section-bg " style="margin-top: -280px;">
         <div class="pyoutube">
             <br>
             <div class="youtubeeeeeee">
                 <div class="gabung">
                     <!-- Ganti dengan path gambar profil Anda -->
                     <div class="info">
-                        <h1 style="text-align: center; color: #FFF; font-family: Poppins; font-size: 12px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">Lebih Dekat dengan Class Program</h1>
+                        <!-- <h1 style=" text-align: center; color: #FFF; font-family: Poppins; font-size: 12px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">Lebih Dekat dengan Class Program</h1> -->
                         <!-- <div class="social-linkss" style="text-align: center; margin-left:150px; margin-top:50px;">
                             <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style=" padding: 30px;"></a>
                         </div> -->
@@ -1148,7 +1148,7 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="galeri" class="galeri" style="margin-top: -100px;">
+    <section id="galeri" class="galeri" style="margin-top: -120px;">
         <div class="section-title " style=" font-family: 'Roboto', sans-serif;
                                     text-transform: uppercase;
                                     font-size: 48px;
@@ -1198,7 +1198,7 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="testibaru" class="testibaru section-bg">
+    <section id="testibaru" class="testibaru section-bg" style="margin-top: -100px;">
         <div class="profile-container">
             <p>Cerita Sobat Insans</p>
             <p1>Selama Bergabung di Class Program</p1>
@@ -1248,8 +1248,7 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="konsultasi" class="konsultasi section-bg" style="font-family: 'Manrope', sans-serif;margin-top: -100px;
-            margin-top: -100px;  margin-bottom:50px;  background: url(assets/img/bg/alurin.png);background-size: cover;">
+    <section id="konsultasi" class="konsultasi section-bg" style="font-family: 'Manrope', sans-serif;margin-top: -200px; margin-bottom:50px;  background: url(assets/img/bg/alurin.png);background-size: cover;">
         <div class="container" data-aos="fade-up">
             <div class="section-title">
                 {{-- <h2>Team</h2> --}}
@@ -1331,7 +1330,7 @@ margin-left:-10px;
     <!-- ======= Frequently Asked Questions Section ======= -->
 
 
-    <section id="faq" class="faq section-bg" style="margin-top: -110px;">
+    <section id="faq" class="faq section-bg" style="margin-top: -150px;">
 
         <div class=" background-faq">
         </div>
@@ -1356,7 +1355,7 @@ margin-left:-10px;
                             text-overflow: ellipsis;
                         }
                     </style>
-                    <div id="accordion" class="myaccordion">
+                    <div id="accordion" class="myaccordion" style="margin-top: -5px;">
                         <div class="card">
                             <div class="card-header" id="headingOne">
                                 <h2 class="mb-0">
@@ -1465,7 +1464,7 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="gambarkampus" class="gambarkampus" style="margin-top:-100px;">
+    <section id="gambarkampus" class="gambarkampus" style="margin-top:-150px;">
         <div class="section-title">
             <h3>Kami telah membimbing<br> mahasiswa dari berbagai kampus</h3>
         </div>

@@ -1083,21 +1083,23 @@ margin-left:-10px;
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="centered-content">
-                        <img src="assets/img/team/mentor1.png" class="img-fluid" alt="" style="border: none !important;
-                        outline: none !important;">
-                        <img src="assets/img/team/mentor2.png" class="img-fluid" alt="" style="border: none !important;
-                        outline: none !important;">
-                        <img src="assets/img/team/mentor3.png" class="img-fluid" alt="" style="border: none !important;
-                        outline: none !important;">
+                        <img src="assets/img/team/mentor1.png" class="img-fluid" alt="" style="border: none !important; outline: none !important;">
                     </div>
+                </div>
+                <div class="swiper-slide">
                     <div class="centered-content">
-                        <img src="assets/img/team/a.png" height="auto" class="img-fluid" alt="" style="height: 18px; width: 60px; border: none !important;
-                        outline: none !important;">
+                        <img src="assets/img/team/mentor2.png" class="img-fluid" alt="" style="border: none !important; outline: none !important;">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="centered-content">
+                        <img src="assets/img/team/mentor3.png" class="img-fluid" alt="" style="border: none !important; outline: none !important;">
                     </div>
                 </div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
+
         </div>
         <div></div>
     </section>
@@ -1146,18 +1148,18 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="galeri" class="galeri" style="margin-top: -50px;">
+    <section id="galeri" class="galeri" style="margin-top: -100px;">
         <div class="section-title " style=" font-family: 'Roboto', sans-serif;
                                     text-transform: uppercase;
                                     font-size: 48px;
                                     position: relative;
                                     letter-spacing: 2px;
+                                    margin-top: -50px;
                                     padding-bottom: 10px;
                                     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);">
             <!-- <h2>About</h2> -->
-            <div class="left-align" style=" text-align: left;">
-                <h3 style="font-size:20px; color:#000; font-weight: 800;color:black; margin-left: 10px; font-family: 'Manrope'; ">Janji Mentor untuk <br> Sobat Insans
-                    Insans...</h3>
+            <div class="left-align" style=" text-align: left; ">
+                <h3 style="font-size:20px; color:#000; font-weight: 800;color:black;text-align: center; font-family: 'Manrope'; ">Janji Mentor untuk <br> Insans...</h3>
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
         </div>
@@ -1203,22 +1205,21 @@ margin-left:-10px;
             <br>
             <div class="profile-slider">
                 <div class="profile">
+                    <h1 style="font-size:20px; margin-top:10px; font-weight: bold;">Yohanes Hernandes SYohan</h1>
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-2.jpg" alt="Gambar Profil">
                         <div class="profile-info">
-                            <h1>Yohanes Hernandes SYohan</h1>
                             <p>" Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
                                 gitu aja banyak ide muncul."</p>
                         </div>
                     </div>
                 </div>
                 <div class="profile">
-
+                    <h1 style="font-size:20px; margin-top:10px; font-weight: bold;">ELouis Patric</h1>
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil">
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="profile-info">
-                            <h1>ELouis Patric</h1>
                             <p>" Gan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
                                 gitu aja banyak ide muncul."
                             </p>
@@ -1228,11 +1229,11 @@ margin-left:-10px;
                 </div>
 
                 <div class="profile">
+                    <h1 style="font-size:20px; margin-top:10px; font-weight: bold;">Adinda Cahayani Supriyanto</h1>
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="profile-info">
-                            <h1>Adinda Cahayani Supriyanto</h1>
                             <p>" Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan
                                 skripsi online yang berkualitas dan juga ramah dikantong."</p>
                         </div>
@@ -1526,7 +1527,7 @@ margin-left:-10px;
 
         const images = [
             "assets/img/clients/client-1.png",
-            "assets/img/clients/client-2.png",
+            "assets/img/clients/client-4.png",
             "assets/img/clients/client-3.png",
             "assets/img/clients/client-4.png",
             "assets/img/clients/client-5.png",
@@ -1538,7 +1539,7 @@ margin-left:-10px;
         for (let i = 0; i < imagesElements.length; i++) {
             imagesElements[i].style.width = '300px';
             imagesElements[i].style.height = '200px';
-            imagesElements[i].style.marginTop = '50px';
+            imagesElements[i].style.marginTop = '80px';
         }
 
 
