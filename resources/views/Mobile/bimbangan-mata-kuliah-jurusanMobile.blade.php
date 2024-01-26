@@ -82,7 +82,7 @@
 
         <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/bmj.png); background-size: cover; margin-top: -18px; position: relative;">
 
-            <img style="height: 580px; margin-top: -30px; position: absolute; left:0px;  top: 0;" src="assets/img/bg/bmjriska.png" alt="" />
+            {{-- <img style="height: 580px; margin-top: -30px; position: absolute; left:0px;  top: 0;" src="assets/img/bg/bmjriska.png" alt="" /> --}}
 
             <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: -50px; margin-bottom: 130px;">
                 <div style="width: 100%; display: flex; justify-content: center; margin-top: 50px;">
@@ -91,7 +91,7 @@
                     </div>
                 </div>
 
-                <div style="width: 100%; text-align: center; color: #09326F; font-size: 60px; font-family: Montserrat; font-weight: 800; line-height: 81.25px; word-wrap: break-word; margin-top: 20px; margin-left: 20px;">Bimbingan Mata<br />Kuliah Jurusan (BMJ)</div>
+                <div style="width: 100%; text-align: center; color: #09326F; font-size: 25px; font-family: Montserrat; font-weight: 800;  word-wrap: break-word; margin-top: 20px; ">Bimbingan Mata<br />Kuliah Jurusan (BMJ)</div>
 
                 <div style="width: 600px; margin-left: 50px; height: 100%; margin-top: 5px; text-align: center; color: #202020; font-size: 20px; font-family: Montserrat; font-weight: 500; line-height: 20px; word-wrap: break-word; margin: 0 auto;">
                 </div>
@@ -168,7 +168,7 @@
             </div>
 
 
-            <img style="height: 600px; margin-top: -50px; margin-left: 00px; position: absolute; right: 0; top: 0;" src="assets/img/bg/bmjandika.png" alt="">
+            {{-- <img style="height: 600px; margin-top: -50px; margin-left: 00px; position: absolute; right: 0; top: 0;" src="assets/img/bg/bmjandika.png" alt=""> --}}
         </section>
 
         {{-- ok3 --}}

@@ -102,20 +102,20 @@
 
 
             <section id="hero" class="d-flex align-items-center"
-                style="background: url(assets/img/bg/bso.png);background-size: cover;  ">
+                style="background: url(assets/img/bg/bso.png);background-size: cover;     height: 70vh !important;                ">
                 <div class="container" data-aos="zoom-out" data-aos-delay="100">
-                    <div class="d-flex" style="margin-top:-100px;">
+                    <div class="d-flex" style="margin-top:-200px;">
                         <div
-                            style="margin-top:-100px;width: 160px; height: 100%;  background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                            style="margin-top:200px;width: 160px; height: 100%;  background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                             <div
                                 style="color: white; font-size: 15px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">
                                 CLASS PROGRAM</div>
                         </div>
 
                     </div>
-                    <div class="inijudulbso">
+                    <div class="inijudulbso" style="margin-top: px !important;">
                         <h2
-                            style=" margin-top: -70px;
+                            style=" margin-top: px !important;;
                         font-style: normal;
                         font-weight: 600;
                         line-height: 125%;
@@ -1988,7 +1988,7 @@
                             <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil"
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
-                                <div class="profile-info" style="height: 300px;">
+                                <div class="profile-info" style="height: 300px; margin-left:0% !important;">
                                     <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
@@ -2022,7 +2022,7 @@
                             <img class="pro" src="assets/img/team/team-1.jpg" alt="Gambar Profil"
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
-                                <div class="profile-info" style="height: 300px;">
+                                <div class="profile-info" style="height: 300px; margin-left:0% !important;">
                                     <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
@@ -2053,7 +2053,7 @@
                             <img class="pro" src="assets/img/team/team-4.jpg" alt="Gambar Profil"
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
-                                <div class="profile-info" style="height: 300px;">
+                                <div class="profile-info" style="height: 300px; margin-left:0% !important;">
                                     <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
@@ -2084,7 +2084,7 @@
                             <img class="pro" src="assets/img/team/team-2.jpg" alt="Gambar Profil"
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
-                                <div class="profile-info" style="height: 300px;">
+                                <div class="profile-info" style="height: 300px; margin-left:0% !important;">
                                     <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>
@@ -2116,7 +2116,7 @@
                             <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil"
                                 style=" border: 8px solid #ffffff !important;">
                             <div class="gabung">
-                                <div class="profile-info" style="height: 300px;">
+                                <div class="profile-info" style="height: 300px; margin-left:0% !important;">
                                     <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
                                         <i class="fa-solid fa-star"
                                             style="color: #f1d209; font-size: 12px !important;"></i>

@@ -5851,8 +5851,8 @@ border-radius: 10px; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 20px;
-    margin-right: 20px;
+    /* padding: 20px; */
+    /* margin-right: 20px; */
     transition: transform 0.5s ease;
     min-height: 280px;
     color: #fff;
