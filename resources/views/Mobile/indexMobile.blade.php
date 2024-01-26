@@ -442,8 +442,9 @@ margin-left:-10px;
 
     </section>
 
-    <section id="paketmentor" class="paketmentor mb-5" style="background-color: #f0f0f0; margin-bottom: 0px; ">
+    <section id="paketmentor" class="paketmentor mb-5" style="background-color: #f0f0f0; margin-bottom: 0px; padding: 50px 0;">
         <div class="paketmentorbg mb-5">
+
             <h2 class="judul-tengah" style="margin-top:0px; font-family: Manrope; margin-bottom:-50px; ">Konsultasi Reguler Bersama Mentor
             </h2>
             <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2 mt-5 " style="margin: -50px; margin-top:-50px;">
@@ -644,6 +645,7 @@ margin-left:-10px;
                         </div>
                     </div>
                 </div>
+
             </div>
 
         </div>
@@ -1104,9 +1106,6 @@ margin-left:-10px;
         <div></div>
     </section>
 
-
-
-
     <section id="testibaru" class="testibaru section-bg " style="margin-top: -280px;">
         <div class="pyoutube">
             <br>
@@ -1114,12 +1113,6 @@ margin-left:-10px;
                 <div class="gabung">
                     <!-- Ganti dengan path gambar profil Anda -->
                     <div class="info">
-                        <!-- <h1 style=" text-align: center; color: #FFF; font-family: Poppins; font-size: 12px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">Lebih Dekat dengan Class Program</h1> -->
-                        <!-- <div class="social-linkss" style="text-align: center; margin-left:150px; margin-top:50px;">
-                            <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style=" padding: 30px;"></a>
-                        </div> -->
-
-
                         <style>
                             .btnyt:hover .yt {
                                 background-color: blue;
@@ -1131,12 +1124,13 @@ margin-left:-10px;
                                 /* Change to your desired hover color */
                             }
                         </style>
-
+                        <!-- <h3 style="font-size:20px; color:#000; font-weight: 800;color:black;text-align: center; font-family: 'Manrope'; ">Janji Mentor untuk <br> Insans...</h3> -->
+                        <h1 style="font-size:25px; font-weight: 800; font-family: 'Manrope'; text-align: center; margin-left:-180px; margin-top:30px; margin-bottom:50px;">Lebih Dekat <br> dengan Class Program</h1>
                         <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt">
                             <div style="display: inline-block; position: relative; margin-left: 450px; margin-top: -800px;">
                                 <div class="yt" style="text-align: center;">
-                                    <div style="margin-top:20px; width: 80px; height: 80px; margin-left: 35px;  border-radius: 50%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
-                                    <i style="text-align: center; margin-top:20px; position: absolute; top: 35%;  margin-left: 35px; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;" class="bx bxl-youtube"></i>
+                                    <div style="margin-top:20px; width: 80px; height: 80px; margin-left: -320px;  border-radius: 50%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+                                    <i style="text-align: center; margin-top:20px; position: absolute; top: 35%;  margin-left: -320px; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;" class="bx bxl-youtube"></i>
                                 </div>
                             </div>
                         </a>
@@ -1198,7 +1192,7 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="testibaru" class="testibaru section-bg" style="margin-top: -100px;">
+    <!-- <section id="testibaru" class="testibaru section-bg" style="margin-top: -100px;">
         <div class="profile-container">
             <p>Cerita Sobat Insans</p>
             <p1>Selama Bergabung di Class Program</p1>
@@ -1218,13 +1212,13 @@ margin-left:-10px;
                     <h1 style="font-size:20px; margin-top:10px; font-weight: bold;">ELouis Patric</h1>
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil">
-                        <!-- Ganti dengan path gambar profil Anda -->
+
                         <div class="profile-info">
                             <p>" Gan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
                                 gitu aja banyak ide muncul."
                             </p>
                         </div>
-                        <!-- Tambahkan elemen tambahan di sini -->
+
                     </div>
                 </div>
 
@@ -1232,7 +1226,7 @@ margin-left:-10px;
                     <h1 style="font-size:20px; margin-top:10px; font-weight: bold;">Adinda Cahayani Supriyanto</h1>
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
-                        <!-- Ganti dengan path gambar profil Anda -->
+
                         <div class="profile-info">
                             <p>" Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan
                                 skripsi online yang berkualitas dan juga ramah dikantong."</p>
@@ -1242,9 +1236,154 @@ margin-left:-10px;
             </div>
             <div class="profile-navigation">
                 <button id="prevProfile">
-                    {{-- << /button> --}}
+
                     <button id="nextProfile">></button>
             </div>
+        </div>
+    </section> -->
+
+    <section id="testibaru" class="testibaru section-bg" style="margin-bottom:15px;">
+        <div class="profile-container" style="position: absolute; ">
+            <p style="margin-top:50px; color:#000;">Cerita Sobat Insans</p>
+            <br>
+            <!-- <p1>Selama Bergabung di Class Program</p1> -->
+            <br>
+            <!-- testi1 -->
+
+            <br>
+            <div class="profile-slider">
+                <div class="profile">
+                    <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
+                    <div class="gabung">
+                        <div class="profile-info" style="height: 300px; margin-left:0% !important;">
+                            <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                            </div>
+                            <p style="margin-top:10px; margin-bottom: 50px; text-align:center;">“Alhamdulillah
+                                saya sangat-sangat puas konsultasi di BSO Class Program. Arahan Mentor dan Kak Dewi
+                                membantu saya untuk menemukan solusi mengenai permasalahan skripsi. Kedepannya saya
+                                akan konsultasi kembali disini.”</p>
+
+                            <h1 style="text-align:center; margin-top: -20px;    font-size: 18px!important;
+                                    ">
+                                Fitri Wahyuni Lubis</h1>
+                            <p style="text-align:center; margin-top: -20px; ">Sastra Indonesia -<a style="font-style: italic !important;"> Universitas Negeri Medan</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="profile-slider">
+                <div class="profile">
+                    <img class="pro" src="assets/img/team/team-1.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
+                    <div class="gabung">
+                        <div class="profile-info" style="height: 300px; margin-left:0% !important;">
+                            <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                            </div>
+                            <p style="margin-top:10px; margin-bottom: 50px;text-align:center;">“Ikut BSO ternyata
+                                sangat menginspirasi dan insightful. Mentor sangat responsif, memberikan panduan dan
+                                feedback konstruktif yang membantu saya untuk memahami pembuatan judul skripsi.
+                                Meskipun belajarnya online, tapi sangat happy dan enjoy”.</p>
+
+                            <h1 style="text-align:center; margin-top: -20px;font-size: 18px!important;">Adinda</h1>
+                            <p style="text-align:center; margin-top: -20px; ">Pendidikan Bahasa Inggris -<a style="font-style: italic !important;"> Universitas Negeri Surabaya</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="profile-slider">
+                <div class="profile">
+                    <img class="pro" src="assets/img/team/team-4.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
+                    <div class="gabung">
+                        <div class="profile-info" style="height: 300px; margin-left:0% !important;">
+                            <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                            </div>
+                            <p style="margin-top:10px; margin-bottom: 50px; text-align:center;">“Saya merasa puas
+                                dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya selalu
+                                dikoreksi positif secara baik oleh kaka mentor. BSO bagus sekali dan recommended
+                                untuk Mahasiswa.”</p>
+
+                            <h1 style="text-align:center; margin-top: -20px;font-size: 18px!important;">Yola</h1>
+                            <p style="text-align:center; margin-top: -20px; ">Pariwisata Bisnis - <a style="font-style: italic !important;">Universitas Brawijaya</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="profile-slider">
+                <div class="profile">
+                    <img class="pro" src="assets/img/team/team-2.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
+                    <div class="gabung">
+                        <div class="profile-info" style="height: 300px; margin-left:0% !important;">
+                            <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                            </div>
+                            <p style="margin-top:10px; margin-bottom: 50px; text-align:center;">“Halo Kak Dewi.
+                                Saya rutin ikut bimbingan, seminggu 3 kali. Dalam proses bimbingan, jujur saya
+                                sangat terbantu. Banyak hal yang saya tanyakan dan dapat terjawab oleh Mentor saya.”
+                            </p>
+
+                            <h1 style="text-align:center; margin-top: -20px;font-size: 18px!important;">Hildan
+                                Ramdani</h1>
+                            <p style="text-align:center; margin-top: -20px; ">Ilmu Komunikasi -<a style="font-style: italic !important;"> Universitas Garut</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="profile-slider">
+                <div class="profile">
+                    <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
+                    <div class="gabung">
+                        <div class="profile-info" style="height: 300px; margin-left:0% !important;">
+                            <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                            </div>
+                            <p style="margin-top:10px; margin-bottom: 50px; text-align:center;">“Saya puas dengan
+                                bimbingannya kak. Awalnya saya tidak mengerti tahapan skripsi, ketika mulai
+                                bimbingan, saya jadi mengerti hal-hal penting dan tahapan dalam pembuatan judul
+                                serta penentuan variabel. Terima kasih banyak.”</p>
+
+                            <h1 style="text-align:center; margin-top: -20px;font-size: 18px!important;">Azizah
+                                Nurul</h1>
+                            <p style="text-align:center; margin-top: -20px; ">Pendidikan Tata Busana -<a style="font-style: italic !important;"> Universitas Negeri Malang</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- <div class="centered-content">
+                    <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">
+                </div> --}}
+        <div class="profile-navigation">
+            <button id="prevProfile">
+                {{-- << /button> --}}
+                <button id="nextProfile">></button>
+        </div>
         </div>
     </section>
 
