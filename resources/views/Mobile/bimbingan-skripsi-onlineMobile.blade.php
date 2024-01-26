@@ -2144,9 +2144,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="centered-content">
+                {{-- <div class="centered-content">
                     <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">
-                </div>
+                </div> --}}
                 <div class="profile-navigation">
                     <button id="prevProfile">
                         {{-- << /button> --}}
@@ -2172,20 +2172,18 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="centered-content">
-                                <img src="assets/img/team/Mentor_ali.png" class="img-fluid" alt=""
-                                    style="border: none !important;
-                            outline: none !important;">
-                                <img src="assets/img/team/Mentor_Faidatul.png" class="img-fluid" alt=""
-                                    style="border: none !important;
-                            outline: none !important;">
-                                <img src="assets/img/team/Mentor_Denny.png" class="img-fluid" alt=""
-                                    style="border: none !important;
-                            outline: none !important;">
+                                <img src="assets/img/team/Mentor_ali.png" class="img-fluid" alt="" style="border: none !important; outline: none !important;">
                             </div>
-                            {{-- <div class="centered-content">
-                            <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="" style="border: none !important;
-                            outline: none !important;">
-                        </div> --}}
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="centered-content">
+                                <img src="assets/img/team/Mentor_Faidatul.png" class="img-fluid" alt="" style="border: none !important; outline: none !important;">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="centered-content">
+                                <img src="assets/img/team/Mentor_Denny.png" class="img-fluid" alt="" style="border: none !important; outline: none !important;">
+                            </div>
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
