@@ -103,10 +103,10 @@
 
                         <!-- <div class="count-separator" style=""></div> --><!-- Garis vertikal -->
                         <div class="count-box">
-                            <div class="count-separator" style="margin-left:-23px"></div> <!-- Garis vertikal -->
+                            <div class="count-separator" style="margin-left:-25px"></div> <!-- Garis vertikal -->
                             <div class="left-content">
                                 <span class="plus" style="font-size: 18px;margin-top: -2px;position:absolute;margin-left:10px; font-family: Manrope; "><b>101
-                                        <span style="font-family: Manrope;"><b></b></span><span style="font-family: Manrope; font-size: 25px;margin-top: -5px;position:absolute;margin-left:25px ">+</span> </b></span>
+                                        <span style="font-family: Manrope;"><b></b></span><span style="font-family: Manrope; font-size: 25px;margin-top: -5px;position:absolute;margin-left:23px ">+</span> </b></span>
                             </div>
                             <div class="right-content" style="margin-left:1px">
 
@@ -444,8 +444,8 @@ margin-left:-10px;
 
     <section id="paketmentor" class="paketmentor mb-5" style="background-color: #f0f0f0; margin-bottom: 0px; ">
         <div class="paketmentorbg mb-5">
-        <h2 class="judul-tengah" style="margin-top:0px; font-family: Manrope; margin-bottom:-50px; ">Konsultasi Reguler Bersama Mentor
-                </h2>
+            <h2 class="judul-tengah" style="margin-top:0px; font-family: Manrope; margin-bottom:-50px; ">Konsultasi Reguler Bersama Mentor
+            </h2>
             <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2 mt-5 " style="margin: -50px; margin-top:-50px;">
 
                 <!-- debug -->
@@ -651,43 +651,31 @@ margin-left:-10px;
     </section>
 
 
+    <!-- masuk ke langsung bso -->
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing" style="margin-top: -50px; margin-bottom: 50px">
         <div class="container" data-aos="fade-up">
             <div class="row" style="margin-top: -80px;">
+
                 <div class="pricingan col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="box featured">
-                        <!-- <h3>Bimbingan Mata Kuliah Jurusan (BMJ)</h3> -->
+                </div>
+                <div class="pricingan col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                </div>
+                <div class="pricingan col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                </div>
+                <div class="pricingan col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                </div>
+                <!-- ok -->
+                <!-- Zahra -->
+                <div class="pricingan col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="box">
+                        <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
                         <h4><img src="assets/img/bg/program1.png" class="img-fluid" alt="" style=""></h4>
                         <ul>
-                            <li><strong style="">Bimbingan Skripsi Online (BSO)</strong></li>
-                            <li style="color:black;">Bimbingan Skripsi Online (BSO) Class Program disediakan secara
-                                khusus untuk membantu Sobat Insans dalam memahami cara penyusunan dan pengerjaan skripsi
-                                dengan sistem mentoring atau pendampingan secara intensif dan privat.
-                            </li>
-                        </ul>
-                        <div class="btn-wrap" style="margin-top: -30px;">
-                            <a href="bimbingan-skripsi-online" class="btn-buy">Lihat Detail</a>
-                        </div>
-                        <br>
-                        <div class="btn-wrap">
-                            <a href="bimbingan-skripsi-online#pricing" class="btn-buyy" href="#pakethematbso">Pilih Paket</a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="pricingan col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                    <div class="box featured">
-                        <!-- <h3>Bimbingan Mata Kuliah Jurusan (BMJ)</h3> -->
-                        <h4><img src="assets/img/bg/program2.png" class="img-fluid" alt="" style=""></h4>
-                        <ul>
-                            <li><strong style="">Bimbingan Mata Kuliah Jurusan (BMJ)</strong></li>
-                            <li style="color:black;">Bimbingan Mata Kuliah Jurusan (BMJ) Class Program disediakan
-                                secara
-                                khusus untuk membantu Sobat Insans dalam memahami materi
-                                mata kuliah jurusan dengan sistem mentoring atau pendampingan secara intensif dan
-                                privat.
+                            <li><strong style=""> Bimbingan Skripsi <br> Online BSO (BSO)</strong></li>
+                            <li style="color:black; width: 500px;">Bimbingan Skripsi Online (BSO) <br> Class Program disediakan <br>
+                                secara khusus untuk <br> membantu Sobat Insans <br> dalam memahami cara <br> penyusunan dan pengerjaan
+                                <br> skripsi dengan sistem <br> mentoring atau pendampingan <br> secara intensif dan privat.
                             </li>
                         </ul>
                         <div class="btn-wrap">
@@ -703,13 +691,13 @@ margin-left:-10px;
                 <div class="pricingan col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                     <div class="box">
                         <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
-                        <h4><img src="assets/img/bg/program3.png" class="img-fluid" alt="" style=""></h4>
+                        <h4><img src="assets/img/bg/program2.png" class="img-fluid" alt="" style=""></h4>
                         <ul>
-                            <li><strong style=""> Kelas Tugas Kuliah (KTK)</strong></li>
-                            <li style="color:black;">Kelas Tugas Kuliah (KTK) Class Program disediakan secara khusus
-                                untuk
-                                membantu Sobat Insans dalam langkah-langkah
-                                penyusunan tugas kuliah dengan sistem mentoring/ pendampingan secara intens dan kenaikan
+                            <li><strong style=""> Bimbingan Mata Kuliah <br> Jurusan (BMJ)</strong></li>
+                            <li style="color:black;">Kelas Tugas Kuliah (KTK) <br>
+                             Class Program disediakan <br> secara khusus untuk <br>
+                                membantu Sobat Insans <br> dalam langkah-langkah
+                                penyusunan tugas kuliah <br> dengan sistem mentoring/ <br> pendampingan secara intens <br> dan kenaikan
                                 kelas.</li>
                         </ul>
                         <div class="btn-wrap">
@@ -721,17 +709,36 @@ margin-left:-10px;
                         </div>
                     </div>
                 </div>
-
+                <div class="pricingan col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="box">
+                        <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
+                        <h4><img src="assets/img/bg/program3.png" class="img-fluid" alt="" style=""></h4>
+                        <ul>
+                            <li><strong style=""> Kelas Tugas Kuliah (KTK)</strong></li>
+                            <li style="color:black;">Kelas Tugas Kuliah (KTK)
+                            <br> Class Program disediakan <br> secara khusus untuk <br>
+                                membantu Sobat Insans <br> dalam langkah-langkah
+                                penyusunan tugas kuliah <br> dengan sistem mentoring/ <br>
+                                 pendampingan secara intens <br> dan kenaikan kelas.</li>
+                        </ul>
+                        <div class="btn-wrap">
+                            <a href="bimbingan-skripsi-online" class="btn-buy">Lihat Detail</a>
+                        </div>
+                        <br>
+                        <div class="btn-wrap">
+                            <a href="bimbingan-skripsi-online" class="btn-buyy">Pilih Paket</a>
+                        </div>
+                    </div>
+                </div>
                 <div class="pricingan col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
                     <div class="box">
                         <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
                         <h4><img src="assets/img/bg/program4.png" class="img-fluid" alt="" style=""></h4>
                         <ul>
-                            <li><strong style="">Kelas Persiapan Karir (KPK)</strong></li>
-                            <li style="color:black;">Kelas Persiapan Karir (KPK) Class Program disediakan secara khusus
-                                untuk
-                                membantu Sobat
-                                Insans dalam mengasah soft skill dan hard skill untuk terjun ke dunia kerja.</li>
+                            <li><strong style="">Kelas Persiapan <br> Karir (KPK)</strong></li>
+                            <li style="color:black;">Kelas Persiapan Karir (KPK) <br>
+                            Class Program disediakan <br> secara khusus untuk <br> membantu Sobat
+                            Insans <br> dalam mengasah soft <br> skill dan hard skill untuk <br> terjun ke dunia kerja.</li>
                         </ul>
                         <div class="btn-wrap">
                             <a href="bimbingan-skripsi-online" class="btn-buy">Lihat Detail</a>
@@ -750,9 +757,10 @@ margin-left:-10px;
                         <ul>
                             <li><strong style="">Creative Class</strong></li>
                             <br>
-                            <li style="color:black;">Creative Class adalah program yang disediakan secara khusus untuk
-                                membantu Sobat Insans dalam
-                                melatih kemampuan design grafis dengan sistem kenaikan kelas.</li>
+                            <li style="color:black;">Creative Class adalah <br>
+                             program yang disediakan <br> secara khusus untuk
+                               <br> membantu Sobat Insans <br> dalam
+                                melatih kemampuan <br> design grafis dengan <br> sistem kenaikan kelas.</li>
                         </ul>
                         <div class="btn-wrap">
                             <a href="bimbingan-skripsi-online" class="btn-buy">Lihat Detail</a>

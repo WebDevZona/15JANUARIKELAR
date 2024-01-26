@@ -38,8 +38,14 @@ class tampilanController extends Controller
     }
     public function ktk()
     {
-
-        return view('Kelas-Tugas-Kuliah');
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/Kelas-Tugas-KuliahMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('Kelas-Tugas-Kuliah');
+        }
     }
     public function bmj()
     {
@@ -55,8 +61,14 @@ class tampilanController extends Controller
     }
     public function tentang()
     {
-
-        return view('tentang');
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/tentangMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('tentang');
+        }
     }
     public function bso()
     {
@@ -70,18 +82,36 @@ class tampilanController extends Controller
     }
     public function kpk()
     {
-
-        return view('kelas-persiapan-karir');
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/kelas-persiapan-karirMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('kelas-persiapan-karir');
+        }
     }
     public function kontak()
     {
-
-        return view('kontak');
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/kontakMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('kontak');
+        }
     }
     public function kti()
     {
-
-        return view('kti');
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/ktiMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('kti');
+        }
     }
     public function skripsi()
     {
@@ -102,13 +132,25 @@ class tampilanController extends Controller
 
     public function nonaktif()
     {
-
-        return view('nonaktif');
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/nonaktifMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('nonaktif');
+        }
     }
     public function pembelian()
     {
-
-        return view('pembelian');
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/pembelianMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('pembelian');
+        }
     }
     public function checkout(Request $request, $id_produk, $id, $nama_voucher = null, $judulskripsi, $problem, $jurusan)
     {

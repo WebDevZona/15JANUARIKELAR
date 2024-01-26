@@ -78,7 +78,7 @@
                         <li><a class="nav-link scrollto" href="nonaktif">Kelas Tugas Kuliah (KTK)</a></li>
                         <li><a class="nav-link scrollto" href="bimbangan-mata-kuliah-jurusan">Bimbingan Mata Kuliah Jurusan (BMJ)</a></li>
                         <li><a class="nav-link scrollto" href="bimbingan-skripsi-online">Bimbingan Skripsi Online (BSO)</a></li>
-                        <li><a class="nav-link scrollto" href="kelas-persiapan-karir">Kelas Persiapan Karir (KPK)</a></li>
+                        <li><a class="nav-link scrollto" href="nonaktif">Kelas Persiapan Karir (KPK)</a></li>
                         <!-- href="kelas-persiapan-karir" -->
                     </ul>
                 </li>

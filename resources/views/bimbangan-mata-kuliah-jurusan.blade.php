@@ -82,7 +82,7 @@
 
         <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/bmj.png); background-size: cover; margin-top: -18px; position: relative;">
 
-            <img style="height: 580px; margin-top: -30px; position: absolute; left: 0; top: 0;" src="assets/img/bg/bmjriska.png" alt="" />
+            <img style="height: 580px; margin-top: -30px; position: absolute; left:0px;  top: 0;" src="assets/img/bg/bmjriska.png" alt="" />
 
             <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: -50px; margin-bottom: 130px;">
                 <div style="width: 100%; display: flex; justify-content: center; margin-top: 50px;">
@@ -111,48 +111,48 @@
                             </div>
                             <div class="right-content" style="margin-left:0px">
                                 {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
-                                <p style="margin-left: 0px; color: #000; font-family: Manrope;"><b>Sobat Insans yang Mendaftar</b></p>
+                                <p style="margin-left: 0px; color: #000; font-family: Manrope;"><b>Waktu bimbingan 24 kali pertemuan</b></p>
 
                             </div>
                         </div>
 
-                        <div class="count-separator" style=""></div> <!-- Garis vertikal -->
+                        <div class="count-separator" style="margin-top: 15px;"></div> <!-- Garis vertikal -->
                         <div class="count-box">
                             <div class="left-content">
                                 <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img style="width:50px; margin-top: 30px;" src="assets/img/bg/bmjgraduation.png" alt="">
+                                    <img style="width:78px; margin-top: 30px;" src="assets/img/bg/durasibimbingan.png" alt="">
                                 </div>
                             </div>
                             <div class="right-content" style="margin-left:1px">
                                 {{-- <p >Mentor Class Program</p> --}}
-                                <p style="margin-left:0px; color: #000; font-family: Manrope;"><b>Mentor Class Program</b></p>
+                                <p style="margin-left:0px; color: #000; font-family: Manrope;"><b>Durasi bimbingan <br> 2 hingga 4 jam</b></p>
                             </div>
                         </div>
 
-                        <div class="count-separator" style="margin-left:20px"></div>
+                        <div class="count-separator" style="margin-left:20px; margin-top: 15px;"></div>
                         <div class="count-box">
                             <div class="left-content">
                                 <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img style="width:50px; margin-top: 30px;" src="assets/img/bg/bmjgraduation.png" alt="">
+                                    <img style="width:100px; margin-top: 30px;" src="assets/img/bg/prosesbimbingan.png" alt="">
                                 </div>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px;  color: #000; font-family: Manrope;"><b>Kampus terdaftar bersama kami</b></p>
+                                <p style="margin-left:0px;margin-right:10px;  color: #000; font-family: Manrope;"><b>Proses bimbingan hingga 2 bulan</b></p>
                             </div>
                         </div>
 
-                        <div class="count-separator"></div>
+                        <div class="count-separator" style="margin-top: 15px;"></div>
                         <div class="count-box">
                             <div class="left-content">
                                 <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img style="width:50px; margin-top: 30px;" src="assets/img/bg/bmjgraduation.png" alt="">
+                                    <img style="width:78px; margin-top: 30px;" src="assets/img/bg/jadwalbimbingan.png" alt="">
                                 </div>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;"><b>Jurusan terdaftar bersama kami</b></p>
+                                <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;"><b>Jadwal bimbingan 3 kali dalam seminggu</b></p>
                             </div>
                         </div>
-                        <div class="count-separator"></div>
+                        <div class="count-separator" style="margin-top: 15px;"></div>
                         <div class="count-box">
                             <div class="left-content">
                                 <div style="display: flex; align-items: center; justify-content: center;">
@@ -160,7 +160,7 @@
                                 </div>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;"><b>Total program <br> yang tersedia</b></p>
+                                <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;"><b>Bimbingan sampai <br> 6 mata kuliah</b></p>
                             </div>
                         </div>
                     </div>
