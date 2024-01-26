@@ -71,23 +71,23 @@
         <!-- ======= Hero Section ======= -->
         {{-- Header atas --}}
         {{-- ok1 --}}
-        <!-- <section id="about" class="heada" style="background: url(assets/img/bg/utama2.png);background-size: cover; ">
+        <section id="about" class="heada" style="background: url(assets/img/bg/utama2.png);background-size: cover; ">
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
                     <h3 style="color:black;">Bimbingan Mata Kuliah Jurusan (BMJ)</h3>
-                    <p style="color:black; margin-top:-2px;">Home > Bimbingan Mata Kuliah Jurusan (BMJ)</p>
+                    <p style="color:black; font-size: 12px !important; margin-top: -2px;font-family:Manrope !important; font-weight:300;">Home > Bimbingan Mata Kuliah Jurusan (BMJ)</p>
                 </div>
             </div>
-        </section> -->
+        </section>
 
-        <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/bmj.png); background-size: cover; margin-top: -18px; position: relative;">
+        <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/bmj.png); background-size: cover; position: relative; height: 50vh !important;">
 
             {{-- <img style="height: 580px; margin-top: -30px; position: absolute; left:0px;  top: 0;" src="assets/img/bg/bmjriska.png" alt="" /> --}}
 
-            <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: -50px; margin-bottom: 130px;">
-                <div style="width: 100%; display: flex; justify-content: center; margin-top: 50px;">
-                    <div style="margin-left: 15px; width: 250px; height: 100%; padding: 6.40px; background: #3E87F8; box-shadow: 6.400178909301758px 6.400178909301758px 12.800357818603516px rgba(0, 0, 0, 0.15); border-radius: 32px; justify-content: center; align-items: center; gap: 6.40px; display: inline-flex; margin: 0 auto;">
-                        <div style="color: white; font-size: 20.48px; font-family: Montserrat; font-weight: 700; line-height: 25.60px; word-wrap: break-word">CLASS PROGRAM</div>
+            <div class="container" data-aos="zoom-out" data-aos-delay="100" style=" margin-bottom: 130px; margin-top:100px;">
+                <div style="width: 100%; display: flex; justify-content: center; ">
+                    <div style="margin-left: 15px; width: 180px; height: 100%; padding: 6.40px; background: #3E87F8; box-shadow: 6.400178909301758px 6.400178909301758px 12.800357818603516px rgba(0, 0, 0, 0.15); border-radius: 32px; justify-content: center; align-items: center; gap: 6.40px; display: inline-flex; margin: 0 auto;">
+                        <div style="color: white; font-size: 12px; font-family: Montserrat; font-weight: 700; line-height: 25.60px; word-wrap: break-word">CLASS PROGRAM</div>
                     </div>
                 </div>
 
@@ -95,12 +95,12 @@
 
                 <div style="width: 600px; margin-left: 50px; height: 100%; margin-top: 5px; text-align: center; color: #202020; font-size: 20px; font-family: Montserrat; font-weight: 500; line-height: 20px; word-wrap: break-word; margin: 0 auto;">
                 </div>
-                <p style="margin-left: 65px; margin-top: 2px; text-align: center; color: #202020; font-size: 19px; font-family: Montserrat; font-weight: 500;  ">
-                    Bimbingan Mata kuliah Jurusan (BMJ) Class Program <br> disediakan secara khusus untuk membantu mahasiswa <br> dalam memahami materi-materi mata kuliah yang ada <br> di jurusan dengan sistem mentoring/pendampingan.
+                <p style=" margin-top: 2px; text-align: center; color: #202020; font-size: 12px; font-family: Montserrat; font-weight: 500;  ">
+                    Bimbingan Mata kuliah Jurusan (BMJ) Class Program disediakan secara khusus untuk membantu mahasiswa dalam memahami materi-materi mata kuliah yang ada di jurusan dengan sistem mentoring/pendampingan
                 </p>
 
             </div>
-            <div id="counts" class="counts" style="margin-left: 115px; margin-top:450px;  z-index: 2 !important;">
+            <div id="counts" class="counts" style=" margin-top:-450px;  z-index: 2 !important;">
                 <div class="container">
                     <div class="count-boxes">
                         <div class="count-box">
@@ -130,7 +130,7 @@
                         </div>
 
                         <div class="count-separator" style="margin-left:20px; margin-top: 15px;"></div>
-                        <div class="count-box">
+                        {{-- <div class="count-box">
                             <div class="left-content">
                                 <div style="display: flex; align-items: center; justify-content: center;">
                                     <img style="width:100px; margin-top: 30px;" src="assets/img/bg/prosesbimbingan.png" alt="">
@@ -162,7 +162,7 @@
                             <div class="right-content" style="margin-left:-1px">
                                 <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;"><b>Bimbingan sampai <br> 6 mata kuliah</b></p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -179,14 +179,14 @@
                         <div class="section-title">
                             <!-- <h2>About</h2> -->
                             <span class="gariss">
-                                <h3 style="color: black; margin-top: 70px; text-align: center; font-size: 45px; font-family: Montserrat;">
+                                <h3 style="color: black; margin-top: 70px; text-align: center; font-size: 20px; font-family: Montserrat; margin-left:20px;">
                                     Keunggulan Bimbingan <br> Mata Kuliah Jurusan</h3>
                             </span>
                         </div>
                         <style>
                             /* CSS untuk card */
                             .card {
-                                width: 18%;
+                                width: 90%;
                                 /* Adjust the width to fit 5 cards in a row */
                                 height: 305px;
                                 background: linear-gradient(180deg, white 0%, #F1F4F8 100%);
@@ -214,7 +214,7 @@
                             }
                         </style>
 
-                        <div style="margin-top:30px;">
+                        <div style="margin-top:30px; margin-left:50px;">
                             <!-- Card 1 -->
                             <div class="card">
                                 <div style="display: flex; align-items: center; justify-content: center;">
@@ -286,8 +286,8 @@
 
         <section id="about" style="margin-top: -800px; margin-bottom: 250px;">
             <div class="container" data-aos="fade-up">
-                <div style="margin-left: 35px;width: 95%; height: 100%; margin-bottom:800px; position: relative; opacity: 0.85">
-                    <img style="margin-left: 35px; width: 95%; height: auto; position: absolute; mix-blend-mode: multiply; top: 0; left: 0;" src="assets/img/bg/bmjbg.png" alt="">
+                <div style="width: 95%; height: 100%; margin-bottom:800px; position: relative; opacity: 0.85">
+                    <img style="width: 95%; height: auto; position: absolute; mix-blend-mode: multiply; top: 0; left: 0;" src="assets/img/bg/bmjbg.png" alt="">
                 </div>
 
                 <div class="row align-items-center justify-content-between" style="margin-top: -80px; position: relative;">
@@ -377,7 +377,7 @@
                         <br>
                         <br>
                         <span style="color: #3E87F8; font-family: Montserrat; font-weight: 700;letter-spacing:2px;
-                            line-height: 125%; font-size:78px;">2564+</span> <br>
+                            line-height: 125%; font-size:40px;">2564+</span> <br>
                         Mahasiswa <br> Lulus Bersama <br> Kami
                         <!-- <a href="#" class="custom-btn-buy">Daftar Sekarang</a> -->
                         <div style="width: 80%; height: 100%; display: flex; justify-content: center; margin-top: -52px; margin-left:120px;">
@@ -423,7 +423,7 @@
                     <div class="section-title">
                         <!-- <h2>About</h2> -->
                         <span class="gariss">
-                            <h3 style="color: black; margin-top: 100px; text-align: center; font-size: 45px; padding-bottom: 20px;">
+                            <h3 style="color: black; margin-top: 100px; text-align: center; font-size: 20px; padding-bottom: 20px;">
                                 Kenali Paket yang Tersedia<br />di Bimbingan Mata Kuliah Jurusan</h3>
                         </span>
                     </div>
@@ -517,7 +517,7 @@
                                 </div>
 
                                 <div id="kontenbmj1" class="kontenbmj aktif">
-                                    <img style="margin-bottom:50px; margin-top:-63px;  float: left; width: 418px;   margin-left: 120px;   height: auto;" src="assets/img/bg/bronze.png" alt="">
+                                    <img style="margin-bottom:50px; margin-top:-63px;  float: left; width: 418px;   margin-left: -120px;   height: auto;" src="assets/img/bg/bronze.png" alt="">
                                     <div style="font-family: Montserrat; text-align: left; margin-left: 500px; margin-top: 50px; color: white; font-size: 20px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                         Program bimbingan yang dikhususkan untuk mahasiswa <br>semester 1-2 dengan mata kuliah umum sampai khusus <br> sesuai jurusan dan konsultasi konsentrasi jurusan.
                                     </div>
@@ -862,8 +862,8 @@
                     </div>
                 </div>
                 <div class="section-title judul">
-                    <h3 style="color:white; font-family:Montserrat;">Bimbingan Mata Kuliah Jurusan</h3>
-                    <h4 style="margin-bottom: 100px; color:white; font-family:Montserrat !important;">Memiliki tiga jenis paket dengan rincian dan biaya sebagai berikut:</h4>
+                    <h3 style="color:white; font-family:Montserrat; font-size:20px !important;">Bimbingan Mata Kuliah Jurusan</h3>
+                    <h4 style="margin-bottom: 100px; color:white; font-family:Montserrat !important; font-size:12px !important;">Memiliki tiga jenis paket dengan rincian dan biaya sebagai berikut:</h4>
                 </div>
 
                 <div class="row align-items-center justify-content-center">
@@ -1046,8 +1046,8 @@
 
             </div> --}}
             <div class="section-title" style="margin-top: 100px; color:#000;">
-                <h3 style=" font-size: 45px;  margin-top:0px  !important;">Mantor Profesional</h3>
-                <h4 style=" margin-top:10px !important; ">Bimbingan Mata Kuliah Jurusan</h4>
+                <h3 style=" font-size: 20px;  margin-top:0px  !important;">Mantor Profesional</h3>
+                <h4 style=" margin-top:10px !important; font-size:18px !important; ">Bimbingan Mata Kuliah Jurusan</h4>
             </div>
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
                 <div class="swiper-wrapper">
@@ -1077,7 +1077,7 @@
 
         <section id="testimonials" class="testimonials" style=" margin-top: -50px; background: url(assets/img/bg/bgalur.png); background-size: cover; position: relative; text-align: center;">
             <div class="section-title" style="margin-top: px; color:#000;">
-                <h3 style=" font-size: 50px;  margin-top:0px  !important;">Alur Bimbingan</h3>
+                <h3 style=" font-size: 25px;  margin-top:0px  !important;">Alur Bimbingan</h3>
             </div>
             <img src="assets/img/bg/alurbimbingan.png" style="max-width: 45%;  height: auto; display: inline-block; margin-top: 50px;" class="img-fluid" alt="">
         </section>
