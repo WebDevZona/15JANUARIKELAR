@@ -100,48 +100,48 @@
                 </p>
 
             </div>
-            <div id="counts" class="counts" style=" margin-top:-450px;  z-index: 2 !important;">
+            <div id="counts" class="counts" style=" margin-top:250px;z-index: 2 !important; margin-right:100px; width:100%;">
                 <div class="container">
                     <div class="count-boxes">
                         <div class="count-box">
                             <div class="left-content">
                                 <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img style="width:50px; margin-top: 30px;" src="assets/img/bg/bmjschedule.png" alt="">
+                                    <img style="width:15px; margin-top: 30px;" src="assets/img/bg/bmjschedule.png" alt="">
                                 </div>
                             </div>
                             <div class="right-content" style="margin-left:0px">
                                 {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
-                                <p style="margin-left: 0px; color: #000; font-family: Manrope;"><b>Waktu bimbingan 24 kali pertemuan</b></p>
+                                <p style="margin-left: 0px; color: #000; font-family: Manrope; font-size:8px;"><b>Waktu bimbingan<br>24 kali pertemuan</b></p>
 
                             </div>
                         </div>
 
-                        <div class="count-separator" style="margin-top: 15px;"></div> <!-- Garis vertikal -->
+                        <div class="count-separator" style="margin-top: 15px; margin-left:-30px;"></div> <!-- Garis vertikal -->
                         <div class="count-box">
                             <div class="left-content">
                                 <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img style="width:78px; margin-top: 30px;" src="assets/img/bg/durasibimbingan.png" alt="">
+                                    <img style="width:20px; margin-top: 30px;" src="assets/img/bg/durasibimbingan.png" alt="">
                                 </div>
                             </div>
                             <div class="right-content" style="margin-left:1px">
                                 {{-- <p >Mentor Class Program</p> --}}
-                                <p style="margin-left:0px; color: #000; font-family: Manrope;"><b>Durasi bimbingan <br> 2 hingga 4 jam</b></p>
+                                <p style="margin-left:0px; color: #000; font-family: Manrope; font-size:8px;"><b>Durasi bimbingan <br> 2 hingga 4 jam</b></p>
                             </div>
                         </div>
 
-                        <div class="count-separator" style="margin-left:20px; margin-top: 15px;"></div>
-                        {{-- <div class="count-box">
+                        <div class="count-separator" style="margin-left:px; margin-top: 15px;"></div>
+                        <div class="count-box">
                             <div class="left-content">
                                 <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img style="width:100px; margin-top: 30px;" src="assets/img/bg/prosesbimbingan.png" alt="">
+                                    <img style="width:20px; margin-top: 30px;" src="assets/img/bg/prosesbimbingan.png" alt="">
                                 </div>
                             </div>
                             <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px;  color: #000; font-family: Manrope;"><b>Proses bimbingan hingga 2 bulan</b></p>
+                                <p style="margin-left:0px;margin-right:10px;  color: #000; font-family: Manrope;font-size:8px;"><b>Proses<br>bimbingan<br>hingga 2 bulan</b></p>
                             </div>
                         </div>
 
-                        <div class="count-separator" style="margin-top: 15px;"></div>
+                        {{-- <div class="count-separator" style="margin-top: 15px;"></div>
                         <div class="count-box">
                             <div class="left-content">
                                 <div style="display: flex; align-items: center; justify-content: center;">
@@ -286,12 +286,12 @@
 
         <section id="about" style="margin-top: -800px; margin-bottom: 250px;">
             <div class="container" data-aos="fade-up">
-                <div style="width: 95%; height: 100%; margin-bottom:800px; position: relative; opacity: 0.85">
-                    <img style="width: 95%; height: auto; position: absolute; mix-blend-mode: multiply; top: 0; left: 0;" src="assets/img/bg/bmjbg.png" alt="">
+                <div style="width: 100%; height: 100%; margin-bottom:800px; position: relative; opacity: 0.85">
+                    <img style="width: 100%; height: 900px; position: absolute; mix-blend-mode: multiply; top: 0; left: 0;" src="assets/img/bg/bmjbg.png" alt="">
                 </div>
 
                 <div class="row align-items-center justify-content-between" style="margin-top: -80px; position: relative;">
-                    <div class="col-lg-6 text-center">
+                    {{-- <div class="col-lg-6 text-center">
                         <style>
                             .row {
                                 /* display: flex;
@@ -314,15 +314,15 @@
                         <video width="260" height="460" controls style="margin-top: 30px; margin-left: 10px; border-radius: 2%; box-shadow: 0px 0px 15px rgba(0, 0, 255, 0.2); " id="myVideo">
                             <source src="assets/video/1.mp4" type="video/mp4">
                         </video>
-                    </div>
+                    </div> --}}
 
-                    <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="=pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
 
                         <div class="section-title">
                             <span class="a">
-                                <h3 style="margin-top: 25px; margin-left: -100px; text-align: left; font-size: 40px; color: #ffff; font-family: Montserrat;">Nanti di BMJ bakal <br> ngapain aja sih?</h3>
+                                <h3 style="margin-top: 25px; font-size: 20px; color: #ffff; font-family: Montserrat;">Nanti di BMJ bakal <br> ngapain aja sih?</h3>
                             </span>
-                            <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
+                            <div style="width: 100%;  height: 100%; position: relative">
                                 <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px; font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
                                     Sobat Insans akan mendapatkan pemahaman mendalam terkait mata kuliah yang dipilih.
                                 </div>
@@ -330,7 +330,7 @@
                                 <img style="width: 27px; height: 27px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
                             </div>
                             <!-- 2 -->
-                            <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
+                            <div style="width: 100%; height: 100%; position: relative">
                                 <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
                                     Sobat Insans bisa mengkonsultasikan kendala-kendalanya terkait mata kuliah yang sedang ditempuh.
                                 </div>
@@ -338,7 +338,7 @@
                                 <img style="width: 27px; height: 27px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
                             </div>
                             <!-- 3 -->
-                            <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
+                            <div style="width: 100%; height: 100%; position: relative">
                                 <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
                                     Sobat Insans akan mendapatkan kisi-kisi UAS untuk latihan.
                                 </div>
