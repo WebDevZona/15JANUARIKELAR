@@ -768,11 +768,14 @@ text-align: center;
 #heroa .container .judulawal {
     /* width: 40%; */
     margin-top: 10px;
+    align-items: center;
+
 }
 
 #hero .container .judulawal {
     /* width: 40%; */
     margin-top: 10px;
+    align-items: center;
 }
 
 /* #hero .btn-get-awaaal {
@@ -3714,10 +3717,7 @@ margin: 50px; */
 .menu .content-selector .btn:hover {
     border-radius: 50px;
     background-color: #2b65ec;
-
-    /* Warna latar belakang saat hover */
     color: black;
-    /* Warna teks saat hover */
 }
 
 .menu button {
@@ -5297,13 +5297,13 @@ justify-content: center; */
 }
 
 iframe {
-    border-radius: 5px;
+    border-radius: 25px;
     position: absolute;
     margin-left: 11px;
     top: 10px;
     left: 0;
     width: 93%;
-    height: 93%;
+    height: 90%;
 }
 
 .video-description {
@@ -5750,9 +5750,9 @@ margin-left: 10px;
     color: #09326f;
     text-align: center;
     font-family: "Poppins";
-    font-size: 18px;
+    font-size: 23px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 65px;
     /* 216.667% */
 }
@@ -7924,7 +7924,7 @@ button {
 
         backdrop-filter: blur(12.5px);
         /* margin: 10px; Jarak dari tepi halaman */
-        margin-top: 30px;
+        margin-top: 60px;
         /* Jarak dari tepi halaman */
         /* Sesuaikan tinggi dan lebar sesuai kebutuhan */
         height: 80px;

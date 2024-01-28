@@ -307,85 +307,81 @@
 
 <body>
 
+    <div class="back-to-home">
+        <a href="/" style="color:white;"><i class="fa fa-arrow-left"> Kembali ke Homepage</i></i></a>
+    </div>
     <!-- <div class=""> -->
-    <div class="login-container col-lg-6 col-md-12">
-        @if(session('sukses'))
-        <div class="callout callout-success alert alert-success alert-dismissible fade show" role="alert">
-            <h5><i class="fas fa-check"></i> Sukses :</h5>
-            {{session('sukses')}}
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        @endif
-        @if(session('error'))
-        <div class="callout callout-danger alert alert-danger alert-dismissible fade show" role="alert">
-            <h5><i class="fas fa-info"></i> Peringatan :</h5>
-            {{session('error')}}
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-        @endif
-        <h1 style="font-size: 45px; color:#000; margin-top: 15px;"><strong> Selamat Datang <br> di Class Program</strong></h1>
-
-        <h4 style="font-size: 25px; margin-top:-10px;">Belum punya akun? <a href="register">Daftar yuk!</a> </h4>
-
-
-        <form action="postlogin" style="margin-top: -10px;" method="POST">
-            @csrf
-            <div class="form-group">
-                <div class="input-icon">
-                    <span class="input-icon__icon">
-                        <i class="fa fa-envelope"></i>
-                    </span>
-                    <label for="username" style="font-size:13px; display: inline-block; margin-left: 5px;">Email:</label>
-
+    <div class="container" style="margin-top: 60px;">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-12">
+                @if(session('sukses'))
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <h5><i class="fas fa-check"></i> Sukses :</h5>
+                    {{session('sukses')}}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
+                @endif
+                @if(session('error'))
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    <h5><i class="fas fa-info"></i> Peringatan :</h5>
+                    {{session('error')}}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                @endif
+                <div class="card my-4">
+                    <div class="card-body">
+                        <h1 class="card-title" style="font-size: 2rem; color: #000; margin-top: 15px;"><strong>Selamat Datang di Class Program</strong></h1>
+                        <h4 class="card-subtitle mb-3" style="font-size: 1.25rem; margin-top: -10px;">Belum punya akun? <a href="register">Daftar yuk!</a></h4>
 
-                <div class="input-icon">
-                    {{-- <input type="text" id="username" name="username" placeholder="Masukkan Email" required> --}}
-                    <input type="email" name="email" class="form_login" placeholder="email" required email oninvalid="this.setCustomValidity('Pastikan anda sudah mengisikan email dengan benar !')" oninput="setCustomValidity('')">
+                        <form action="postlogin" method="POST">
+                            @csrf
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                                    </div>
+                                    <label for="username" class="sr-only">Email:</label>
+                                    <input type="email" name="email" class="form-control" placeholder="Email" required email oninvalid="this.setCustomValidity('Pastikan anda sudah mengisikan email dengan benar !')" oninput="setCustomValidity('')">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fa fa-lock"></i></span>
+                                    </div>
+                                    <label for="password" class="sr-only">Password:</label>
+                                    <input id="password" type="password" name="password" class="form-control" placeholder="Password" required oninvalid="this.setCustomValidity('Harap masukkan password !')" oninput="setCustomValidity('')">
+                                </div>
+                            </div>
+                            <a href="/forgot-password" class="dropdown-item text-right" style="color: blue;">Lupa password ?</a>
+                            <div class="form-group text-center">
+                                <button class="btn btn-primary" type="submit">Login</button>
+                            </div>
+                        </form>
+                        <div class="container mt-4">
+                            <div class="hr-text">or</div>
+                            <hr>
+                        </div>
+                        <div class="form-groupz text-center">
+                            <button class="btn btn-light">
+                                <span><img src="assets/img/logo/gogle.png" alt="Google Logo"></span>
+                                <a href="{{ url('auth/google') }}">@csrf Masuk dengan Google</a>
+                            </button>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            <div class="form-group">
-                <div class="input-icon">
-                    <span class="input-icon__icon">
-                        <i class="fa fa-lock"></i>
-                    </span>
-                    <label for="username" style="font-size:13px; display: inline-block; margin-left: 5px;">Password:</label>
-                </div>
-                <div class="input-icon">
-                    {{-- <input type="password" id="password" name="password" placeholder="Masukkan password" required> --}}
-                    <input id="password" type="password" name="password" class="form_login" placeholder="password" required oninvalid="this.setCustomValidity('Harap masukkan password !')" oninput="setCustomValidity('')">
-
-                </div>
-            </div>
-            <a href="/forgot-password" class="dropdown-item" style="margin-left:380px; color: blue;">Lupa password ?</a>
-            <center>
-                <div class="form-group">
-                    <button style="border-radius: 25px; " type="submit">Login</button>
-                </div>
-            </center>
-            <p> </p>
-            <br>
-        </form>
-        <div class="container" style="margin-top: -20px;">
-            <div class="hr-text">or</div>
-            <hr>
         </div>
-        <!-- </div> -->
-        <center>
-            <div class="form-groupz">
-                <button type="submit">
-                    <span><img src="assets/img/logo/gogle.png"></span> <a href="{{ url('auth/google') }}"> @csrf Masuk dengan Google</a>
-                </button>
-            </div>
-        </center>
     </div>
 
 
-    <div class="login-terbaru col-lg-6 col-md-0">
+
+    <!-- <div class="login-terbaru col-lg-6 col-md-0">
 
         <div class="back-to-home">
             <a href="/" style="color:white;"><i class="fa fa-arrow-left"> Kembali ke Homepage</i></i></a>
@@ -400,7 +396,7 @@
             <span id="whatsapp-text">Ada Pertanyaan? <br> Hubungi Minma</span>
         </div>
 
-    </div>
+    </div> -->
 </body>
 <script>
     function openWhatsApp() {

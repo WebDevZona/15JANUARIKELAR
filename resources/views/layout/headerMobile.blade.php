@@ -40,6 +40,7 @@
                 <li><a href="#testimonials" class="nav-link scrollto">Mentor</a></li>
                 <li><a href="#testibaru" class="nav-link scrollto">Testimoni</a></li>
                 <li><a href="#faq" class="nav-link scrollto">FAQ</a></li>
+                <li><a href="/login" class="nav-link scrollto">Masuk</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
             <div class="close-nav"></div>
