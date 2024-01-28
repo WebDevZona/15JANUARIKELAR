@@ -100,7 +100,7 @@
                 </p>
 
             </div>
-            <div id="counts" class="counts" style=" margin-top:250px;z-index: 2 !important; margin-right:100px; width:100%;">
+            <div id="counts" class="counts" style=" margin-top:250px;z-index: 2 !important; margin-right:100px; width:100%; position: absolute !important;">
                 <div class="container">
                     <div class="count-boxes">
                         <div class="count-box">
