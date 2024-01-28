@@ -11,6 +11,7 @@ use Laravel\Socialite\Facades\Socialite;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Jenssegers\Agent\Facades\Agent;
 
 class AuthController extends Controller
 {
@@ -30,7 +31,14 @@ class AuthController extends Controller
                 return redirect('/dashboard')->with('warning', 'Maaf tindakan anda tidak dibenarkan, tidak usah macem-macem lah !');
             }
         }
-        return view('auths.login');
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('auths.loginMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('auths.login');
+        }
     }
     public function loginn()
     {
@@ -53,8 +61,14 @@ class AuthController extends Controller
     public function daftar()
     {
         // return view('auths.login');
-      
-        return view('auths.register');
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('auths.registerMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('auths.register');
+        }
     }
     public function pendaftaran(Request $request)
     {
@@ -73,21 +87,21 @@ class AuthController extends Controller
             'password.min' => 'Password harus memiliki setidaknya :min karakter.',
         ]);
 
-            $user = User::create([
-                'email' => $request->email,
-                'name' => $request->name,
-                'jeniskelamin' => $request->jeniskelamin,
-                'ttl' => $request->ttl,
-                'asal' => $request->asal,
-                'nomer' => $request->nomer,
-                'kampus' => $request->kampus,
-                'jurusan' => $request->jurusan,
-                'semester' => $request->semester,
-                'role' => 'user',
-                'password' => Hash::make($request->input('password')),
-                // 'password' =>  $request->password,
-            ]);           
-            // dd($user);
+        $user = User::create([
+            'email' => $request->email,
+            'name' => $request->name,
+            'jeniskelamin' => $request->jeniskelamin,
+            'ttl' => $request->ttl,
+            'asal' => $request->asal,
+            'nomer' => $request->nomer,
+            'kampus' => $request->kampus,
+            'jurusan' => $request->jurusan,
+            'semester' => $request->semester,
+            'role' => 'user',
+            'password' => Hash::make($request->input('password')),
+            // 'password' =>  $request->password,
+        ]);
+        // dd($user);
 
         return redirect()->route('login')->with('sukses', 'Data pengguna berhasil ditambahkan');
     }
@@ -213,14 +227,14 @@ class AuthController extends Controller
 
     public function handleGoogleCallback()
     {
-        
+
         try {
             $user = Socialite::driver('google')->stateless()->user();
             // dd($user);
         } catch (\Exception $e) {
-            return redirect('/login')->with('error','Try after some time');
+            return redirect('/login')->with('error', 'Try after some time');
         }
-            $existingUser = User::where('email', $user->email)->first();
+        $existingUser = User::where('email', $user->email)->first();
 
 
         // $existingUser = User::where('email', $user->email)->first();
@@ -238,7 +252,7 @@ class AuthController extends Controller
             $newUser->email = $user->email;
             $newUser->role = 'user';
             $newUser->save();
-    
+
             // Login pengguna baru dan arahkan ke halaman dashboard
             auth()->login($newUser);
             // $data_admin = \App\User::where('role', "admin")->get();
@@ -248,42 +262,40 @@ class AuthController extends Controller
 
 
     public function prosesKirimEmail(Request $request)
-{
-    $inputEmail = $request->input('email');
-    $user = User::where('email', $inputEmail)->first();
-    // $hallo=$user->email;
-    // dd($hallo);
-    if ($user) {
-        session(['email_sebelumnya' => $user->email]);
+    {
+        $inputEmail = $request->input('email');
+        $user = User::where('email', $inputEmail)->first();
+        // $hallo=$user->email;
+        // dd($hallo);
+        if ($user) {
+            session(['email_sebelumnya' => $user->email]);
 
-        Mail::to($user->email)->send(new lupapasword($user));
-        return redirect()->route('email');
-    } else {
-        return redirect()->back()->with('error', 'Email tidak ditemukan.');
+            Mail::to($user->email)->send(new lupapasword($user));
+            return redirect()->route('email');
+        } else {
+            return redirect()->back()->with('error', 'Email tidak ditemukan.');
+        }
     }
-}
 
-public function tampilan()
-{
-   
-    $emailSebelumnya = session('email_sebelumnya');
-// dd($emailSebelumnya);
+    public function tampilan()
+    {
+
+        $emailSebelumnya = session('email_sebelumnya');
+        // dd($emailSebelumnya);
         return view('auths.email', compact('emailSebelumnya'));
-  
-}
-
-public function kirimUlang(Request $request)
-{
-    $inputEmail = $request->input('email');
-    $user = User::where('email', $inputEmail)->first();
-    // $hallo=$user->email;
-    // dd($hallo);
-    if ($user) {    
-        Mail::to($inputEmail)->send(new lupapasword($user));
-        return redirect()->back()->with('sukses', 'Email telah dikirimkan');
-    } else {
-        return redirect()->back()->with('error', 'Email tidak ditemukan.');
     }
-}
 
+    public function kirimUlang(Request $request)
+    {
+        $inputEmail = $request->input('email');
+        $user = User::where('email', $inputEmail)->first();
+        // $hallo=$user->email;
+        // dd($hallo);
+        if ($user) {
+            Mail::to($inputEmail)->send(new lupapasword($user));
+            return redirect()->back()->with('sukses', 'Email telah dikirimkan');
+        } else {
+            return redirect()->back()->with('error', 'Email tidak ditemukan.');
+        }
+    }
 }

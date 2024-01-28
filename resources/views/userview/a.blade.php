@@ -65,22 +65,22 @@
     </script>
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/dekstop2.png);background-size: cover; margin-top: -50px">
+    <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/dekstop2.png);background-size: cover; margin-top: -50px; height: 78vh;">
         <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: 200px">
-            <div class="judulawal" style="margin-top:-120px;">
-                <a href="#about" class="btn-get-awaaal awaaal" style="margin-top:-120px; font-family:'Manrope';"><strong>Bersama Class
+            <div class="judulawal" style="margin-top:15px; align-items: center; margin-left:48px;">
+                <a href="#about" class="btn-get-awaaal awaaal" style=" margin-top:15px; font-family:'Manrope';"><strong>Bersama Class
                         Program</strong> </a>
             </div>
-            <div class="judulkedua" style="font-family:'Manrope';">
-                <h3>Semua Bisa</h3>
-                <h3>Lulus Kuliah</h3>
-
-                <p style="letter-spacing:1px; font-family: Manrope; margin-top:15px; width:auto;">Bimbingan belajar online <br> perkuliahan
-                    dan persiapan <br> karir dengan
-                    sistem kenaikan<br> kelas pertama di Indonesia yang<br> menyediakan berbagai
-                    macam <br> program kelas serta akan<br> dibimbing langsung oleh <br> Mentor yang ahli di bidangnya</p>
+            <div class="judulkedua" style="font-family:'Manrope'; text-align: center; margin-top: 30px;  margin-left:0px;">
+                <h3 style=" margin-left:-5px; font-size: 30px;">Semua Bisa Lulus Kuliah</h3>
+                <!-- <h3 style=" margin-left:-5px;"></h3> -->
+                <p style="letter-spacing:1px; margin-left:-10px; font-family: Manrope; font-size: 13px; text-align: center; margin-top:25px; width:auto;">Bimbingan belajar online perkuliahan
+                    <br> dan persiapan karir dengan
+                    sistem kenaikan <br> kelas pertama di Indonesia yang menyediakan berbagai
+                    macam program kelas serta akan <br> dibimbing langsung oleh Mentor yang ahli <br> di bidangnya
+                </p>
             </div>
-            <div class="d-flex" style="margin-top: -15px;">
+            <div class="d-flex" style="margin-bottom: -35px; margin-left:75px;">
                 <a href="#pricing" class="btn-get-started scrollto"><strong>Daftar Sekarang</strong> </a>
             </div>
 
@@ -157,7 +157,7 @@
             <div class="section-title judul">
             </div>
             <style>
-                .row {
+                .row1 {
                     display: flex;
                     overflow-x: auto;
                     -webkit-overflow-scrolling: touch;
@@ -187,7 +187,7 @@
             </style>
 
 
-            <div class="row justify-content-center">
+            <div class="row1 justify-content-center">
                 <!-- untuk tutup kiri -->
                 <div class="icon-box" data-aos="fade-up" data-aos-delay="100" style="background: url(assets/img/bg/bg4.png);background-size: cover;">
                 </div>
@@ -358,7 +358,7 @@ margin-left:-10px;
 
         <script type="text/javascript">
             $(document).ready(function() {
-                $('.row-1').slick({
+                $('.row1-1').slick({
                     infinite: true, // Bergulir tak terbatas
                     slidesToShow: 1, // Menunjukkan satu slide pada suatu waktu
                     slidesToScroll: 1, // Bergeser satu slide pada suatu waktu
@@ -439,215 +439,229 @@ margin-left:-10px;
                 </div>
             </div>
         </div>
-
     </section>
 
-    <section id="paketmentor" class="paketmentor mb-5" style="background-color: #f0f0f0; margin-bottom: 0px; ">
-        <div class="paketmentorbg mb-5">
-            <h2 class="judul-tengah" style="margin-top:0px; font-family: Manrope; margin-bottom:-50px; ">Konsultasi Reguler Bersama Mentor
-            </h2>
-            <div class="row row-cols-1 row-cols-md-4 g-4 ml-2 mr-2 mt-5 " style="margin: -50px; margin-top:-50px;">
+    <div>
+        <!-- <h2 class="judul-tengah" style=" font-family: Manrope; font-size:25px; text-align: center;">/h2> -->
+        <h1 class="custom-text" style=" background-color: #f0f0f0; margin-top:30px; font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; text-align: center;">Konsultasi Reguler Bersama Mentor </h1>
+    </div>
+    <section id="paketmentor" class="paketmentor mb-5" style="background-color: #f0f0f0; margin-bottom: 0px; padding: 50px 0;">
 
-                <!-- debug -->
-                <div class="col">
+        <div class="container" data-aos="fade-up">
+            <style>
+                .pricingan1 {
+                    /* margin-right: 100px; */
+
+                    /* Adjust this value based on your preference */
+                }
+            </style>
+            <div class="row1">
+
+                <div class="pricingan1 col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 </div>
-                <div class="col">
+                <div class="pricingan1 col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 </div>
-                <div class="col">
+                <div class="pricingan1 col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 </div>
-                <div class="col">
+                <div class="pricingan1 col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 </div>
-                <!-- debug -->
                 <!-- ok -->
-                <div class="col">
-                    <div class="card " style="width: 300px; margin-left:-360px; margin-right:280px;  border-radius: 25px; border: 5px solid #1b5cc5;">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <table>
+                <!-- Zahra -->
+                <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="box">
+                        <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <table class="table table-no-border">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" style="text-align: left;">Reguler
+                                                    <br><span class="green-text">Silver</span>
+                                                </th>
+                                                <th scope="col">Harga
+                                                    <br><span class="blue-text">Rp 47.000</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </h5>
+                                <p class="card-text">
+                                <table class="table table-no-border">
                                     <thead>
                                         <tr>
-                                            <th scope="col" style="text-align: left;">Reguler
-                                                <br><span class="green-text">Silver</span>
-                                            </th>
-                                            <th scope="col">Harga
-                                                <br><span class="blue-text">Rp 47.000</span>
-                                            </th>
+                                            <th scope="col">1 Sesi</th>
+                                            <th scope="col">1 Jam Konsultasi</th>
                                         </tr>
                                     </thead>
                                 </table>
-                            </h5>
-                            <p class="card-text">
-                            <table class="table table-no-border">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">1 Sesi</th>
-                                        <th scope="col">1 Jam Konsultasi</th>
-                                    </tr>
-                                </thead>
-                            </table>
-                            <ul class="deskripsi" style="list-style: none;">
-                                {{-- <i class="fa-solid fa-check"></i> --}}
-                                <strong> Materi: </strong>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;margin-left: -22px;"></i> Topik penelitian. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Variabel penelitian. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Objek penelitian. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Judul penelitian. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Rumusan masalah penelitian.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Dasar teori berdasarkan variabel yang digunakan.</li>
-                            </ul>
-                            </p>
-                        </div>
-                        <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                                <ul class="deskripsi list-unstyled">
+                                    <strong> Materi: </strong>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Topik penelitian. </li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Variabel penelitian. </li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Objek penelitian. </li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Judul penelitian. </li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Rumusan masalah penelitian.</li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Dasar teori berdasarkan variabel yang digunakan.</li>
+                                </ul>
+                                </p>
+                            </div>
+                            <div class="card-footer text-center" style="border-radius: 0 0 25px 25px;">
+                                <a href="#" class="btn btn-primary" style="border-radius: 25px;">Daftar Sekarang</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card " style="width: 300px; margin-left:-375px; border-radius: 25px; border: 5px solid #1b5cc5;">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th scope="col" style="text-align: left;">Reguler
-                                                <br><span class="green-text">Gold</span>
-                                            </th>
-                                            <th scope="col">Harga
-                                                <br><span class="blue-text">Rp 66.000</span>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                </table>
-                            </h5>
-                            <p class="card-text">
-                            <table class="table table-no-border">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">1 Sesi</th>
-                                        <th scope="col">1 Jam Konsultasi</th>
-                                    </tr>
-                                </thead>
-                            </table>
-                            <ul class="deskripsi" style="list-style: none;">
-                                {{-- <i class="fa-solid fa-check"></i> --}}
-                                <strong> Materi: </strong>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Latar belakang.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Identifikasi masalah. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Rumusan masalah. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Tujuan dan manfaat penelitian. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teori dasar.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Kerangka konseptual.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Tinjauan literatur.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Riset-riset terkait.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Kerangka konsep.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Hipotesis penelitian.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Metode penelitian.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Populasi dan sampel.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Variabel-variabel penelitian.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknik pengumpulan data.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknik analisis data.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknik validasi data.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Prosedur penelitian.</li>
-                            </ul>
-                            </p>
-                        </div>
-                        <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col" style="margin-left:-350px;">
-                    <div class="card " style="width: 300px; margin-left:-50px; border-radius: 25px; border: 5px solid #1b5cc5;">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th scope="col" style="text-align: left;">Reguler
-                                                <br><span class="green-text">Platinum</span>
-                                            </th>
-                                            <th scope="col">Harga
-                                                <br><span class="blue-text">Rp 62.000</span>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                </table>
-                            </h5>
-                            <p class="card-text">
-                            <table class="table table-no-border">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">1 Sesi</th>
-                                        <th scope="col">1 Jam Konsultasi</th>
-                                    </tr>
-                                </thead>
-                            </table>
-                            <ul class="deskripsi" style="list-style: none;">
-                                {{-- <i class="fa-solid fa-check"></i> --}}
-                                <strong> Materi: </strong>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Input data.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Olah data. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Tabulasi data. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Interpretasi data. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Hasil dan pembahasan.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Menyusun transkrip wawancara.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Menyusun hasil wawancara.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Kesimpulan, keterbatasan, dan saran penelitia.</li>
-                            </ul>
-                            </p>
-                        </div>
-                        <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card " style="width: 300px; margin-left:-80px; margin-right:-280px; border-radius: 25px; border: 5px solid #1b5cc5;">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th scope="col" style="text-align: left;">Reguler
-                                                <br><span class="green-text">Titanium</span>
-                                            </th>
-                                            <th scope="col">Harga
-                                                <br><span class="blue-text">Rp 57.000</span>
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                </table>
-                            </h5>
-                            <p class="card-text">
-                            <table class="table table-no-border">
-                                <thead>
-                                    <tr>
-                                        <th scope="col">1 Sesi</th>
-                                        <th scope="col">1 Jam Konsultasi</th>
-                                    </tr>
-                                </thead>
-                            </table>
-                            <ul class="deskripsi" style="list-style: none;">
-                                {{-- <i class="fa-solid fa-check"></i> --}}
-                                <strong> Materi: </strong>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review proposal skripsi <br> bab 1-3.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review skripsi full bab 1-5. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Review artikel jurnal. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknis penulisan skripsi atau artikel jurnal yang masih keliru. </li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknis penulisan skripsi atau artikel jurnal yang masih keliru.</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Saran dan masukan terhadap file skripsi atau artikel jurnal.</li>
-                            </ul>
-                            </p>
-                        </div>
-                        <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-        </div>
+                <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="box">
+                        <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" style="text-align: left;">Reguler
+                                                    <br><span class="green-text">Gold</span>
+                                                </th>
+                                                <th scope="col">Harga
+                                                    <br><span class="blue-text">Rp 66.000</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </h5>
+                                <p class="card-text">
+                                <table class="table table-no-border">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">1 Sesi</th>
+                                            <th scope="col">1 Jam Konsultasi</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <ul class="deskripsi" style="list-style: none;">
+                                    {{-- <i class="fa-solid fa-check"></i> --}}
+                                    <strong> Materi: </strong>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Latar belakang.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Identifikasi masalah. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Rumusan masalah. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Tujuan dan manfaat penelitian. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teori dasar.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Kerangka konseptual.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Tinjauan literatur.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Riset-riset terkait.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Kerangka konsep.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Hipotesis penelitian.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Metode penelitian.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Populasi dan sampel.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Variabel-variabel penelitian.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknik pengumpulan data.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknik analisis data.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknik validasi data.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Prosedur penelitian.</li>
+                                </ul>
+                                </p>
+                            </div>
+                            <div class="card-footer text-center" style="border-radius: 0 0 25px 25px;">
+                                <a href="#" class="btn btn-primary" style="border-radius: 25px;">Daftar Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="box">
+                        <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" style="text-align: left;">Reguler
+                                                    <br><span class="green-text">Platinum</span>
+                                                </th>
+                                                <th scope="col">Harga
+                                                    <br><span class="blue-text">Rp 62.000</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </h5>
+                                <p class="card-text">
+                                <table class="table table-no-border">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">1 Sesi</th>
+                                            <th scope="col">1 Jam Konsultasi</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <ul class="deskripsi" style="list-style: none;">
+                                    {{-- <i class="fa-solid fa-check"></i> --}}
+                                    <strong> Materi: </strong>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Input data.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Olah data. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Tabulasi data. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Interpretasi data. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Hasil dan pembahasan.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Menyusun transkrip wawancara.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Menyusun hasil wawancara.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Kesimpulan, keterbatasan, dan saran penelitia.</li>
+                                </ul>
+                                </p>
+                            </div>
+                            <div class="card-footer text-center" style="border-radius: 0 0 25px 25px;">
+                                <a href="#" class="btn btn-primary" style="border-radius: 25px;">Daftar Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="box">
+                        <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" style="text-align: left;">Reguler
+                                                    <br><span class="green-text">Titanium</span>
+                                                </th>
+                                                <th scope="col">Harga
+                                                    <br><span class="blue-text">Rp 57.000</span>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </h5>
+                                <p class="card-text">
+                                <table class="table table-no-border">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">1 Sesi</th>
+                                            <th scope="col">1 Jam Konsultasi</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                                <ul class="deskripsi" style="list-style: none;">
+                                    {{-- <i class="fa-solid fa-check"></i> --}}
+                                    <strong> Materi: </strong>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review proposal skripsi <br> bab 1-3.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review skripsi full bab 1-5. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Review artikel jurnal. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknis penulisan skripsi atau artikel jurnal yang masih keliru. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknis penulisan skripsi atau artikel jurnal yang masih keliru.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Saran dan masukan terhadap file skripsi atau artikel jurnal.</li>
+                                </ul>
+                                </p>
+                            </div>
+                            <div class="card-footer text-center" style="border-radius: 0 0 25px 25px;">
+                                <a href="#" class="btn btn-primary" style="border-radius: 25px;">Daftar Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     </section>
 
 
@@ -655,16 +669,13 @@ margin-left:-10px;
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing" style="margin-top: -50px; margin-bottom: 50px">
         <div class="container" data-aos="fade-up">
-            <div class="row" style="margin-top: -80px;">
+            <div class="row1" style="margin-top: -80px;">
 
                 <div class="pricingan col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 </div>
                 <div class="pricingan col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
                 </div>
-                <div class="pricingan col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                </div>
-                <div class="pricingan col-lg-2 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                </div>
+
                 <!-- ok -->
                 <!-- Zahra -->
                 <div class="pricingan col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
@@ -775,8 +786,6 @@ margin-left:-10px;
                 </div>
 
             </div>
-
-        </div>
     </section>
     <!-- End Pricing Section -->
 
@@ -784,7 +793,7 @@ margin-left:-10px;
     <!-- HTML -->
     <section id="youtube" class="youtube" style="margin-top: -150px;">
         <div class="section-title judul">
-            <h3>Coba GRATIS <br> Kelas Tugas Kuliah (KTK) sekarang juga! <span style=""><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:-10px;margin-right:5px"></span></h3>
+            <h3 style="font-size: 17px;">Coba secara Gratis <br> Kelas Tugas Kuliah (KTK) sekarang juga! <span style=""><img src="assets/img/logo/bintang.png" alt="bintang" style="width: 30px;margin-top:-10px;margin-right:5px"></span></h3>
         </div>
         {{-- <img src="assets/img/bg/yt2.png" alt="Left Image" class="left-image">
         <img src="assets/img/bg/yt3.png" alt="Right Image" class="right-image"> --}}
@@ -795,7 +804,7 @@ margin-left:-10px;
                     <div class="video-container">
                         <div class="video-container2">
                             <div class="video-wrapper">
-                                <iframe width="2000" height="315" style="border-radius: 25px;" src="https://www.youtube.com/embed/puKINTRTDZk?si=3ZqaSjYv1Yl6XsnG" title="YouTube video player" frameborder="0" allow="accelerometer;
+                                <iframe width="2000" height="300" style="border-radius: 25px;" src="https://www.youtube.com/embed/puKINTRTDZk?si=3ZqaSjYv1Yl6XsnG" title="YouTube video player" frameborder="0" allow="accelerometer;
                                      autoplay; clipboard-write; encrypted-media; gyroscope;
                                       picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
@@ -819,25 +828,27 @@ margin-left:-10px;
                     <div class="col-lg-6 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
                         <h3 style="color: #2A2A2A;
                                 font-family: Manrope;
-                                font-size: 50px;
-                                margin-top:50px;
+                                font-size: 40px;
+                 margin-top:10px;
+                                margin-bottom:20px;
                                 font-style: normal;
                                 font-weight: 800;
+                                text-align:center;
                                 /* line-spacing: 2px; */
                                 line-height: 100%; /* 82.685px */
                                 letter-spacing:1px;
                                 /* Add drop shadow properties */
                                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-                                text-align: left;">
+                              ">
                             WORKSHOP CLASS PROGRAM</h3>
                         <!-- style="border-radius: 25px; border: 5px solid #1b5cc5;" -->
-                        <div class="content-selector" style="border-radius: 50px; border: 2.5px solid #000; width: 220px; height: 60px;">
+                        <div class="content-selector" style="border-radius: 50px; border: 2.5px solid #000; margin-top:-2px; width: 230px; height: 62px; margin-left:50px; margin-bottom:5px;">
                             <button id="content1Btn" class="btn btn-primary active" style="margin-top: 5px; margin-left:-2px;"><b>Skripsi</b></button>
                             <button id="content2Btn" style="margin-top: 5px; margin-right:-2px;" class="btn btn-primary"><b>KTI</b></button>
                         </div>
                         <p style="font-size: 18px; text-align: left;">
                             Workshop yang bertujuan untuk mendalami materi penyusunan skripsi dengan
-                            sistematika yang baik <br> dan benar. Berikut keuntungan yang bisa Sobat Insans dapatkan:
+                            sistematika yang baik dan benar. Berikut keuntungan yang bisa Sobat Insans dapatkan:
                         </p>
                         <ul>
                             <li style="font-size: 15px; text-align: left;">
@@ -866,10 +877,10 @@ margin-left:-10px;
                         </div>
                     </div>
 
-                    <div class="gambareo col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100" style="margin-top: 10px;">
+                    <!-- <div class="gambareo col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100" style="margin-top: 10px;">
                         <br> <br>
                         <img src="assets/img/bg/wshop1.png" class="img-fluid" alt="" style="width: 100%;  margin-bottom: 0px;">
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -878,8 +889,9 @@ margin-left:-10px;
                     <div class="col-lg-6 pt-4 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
                         <h3 style="color: #2A2A2A;
                             font-family: Manrope;
-                            font-size: 50px;
-                            margin-top:50px;
+                            font-size: 40px;
+                 margin-top:10px;
+                                margin-bottom:20px;
                             font-style: normal;
                             font-weight: 800;
                             /* line-spacing: 2px; */
@@ -887,11 +899,12 @@ margin-left:-10px;
                             letter-spacing:1px;
                              /* Add drop shadow properties */
                              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-                             text-align: left;">
+                             text-align: center;">
                             WORKSHOP CLASS PROGRAM</h3>
-                        <div class="content-selector" style="border-radius: 50px; border: 2.5px solid #000; width: 220px; height: 60px;">
+
+                        <div class="content-selector" style="border-radius: 50px; border: 2.5px solid #000; margin-top:-2px; width: 230px; height: 62px; margin-left:50px; margin-bottom:5px;">
                             <button id="content3Btn" class="btn btn-primary active" style="margin-top: 5px; margin-left:-2px;"><b>Skripsi</b></button>
-                            <button id="content4Btn" class="btn btn-primary" style="margin-top: 5px; margin-right:-2px;"><b>KTI</b></button>
+                            <button id="content4Btn" style="margin-top: 5px; margin-right:-2px;" class="btn btn-primary"><b>KTI</b></button>
                         </div>
                         <p style="font-size: 18px; text-align: left;">
                             Workshop yang bertujuan untuk mendalami materi penyusunan serta pembuatan Karya Tulis Ilmiah
@@ -923,10 +936,10 @@ margin-left:-10px;
                             </button>
                         </div>
                     </div>
-                    <div class="gambareo col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100" style="margin-top: 10px;">
-                        <br> <br>
-                        <img src="assets/img/bg/wshop3.png" class="img-fluid" alt="" style="width: 100%; ">
-                    </div>
+                    <!-- <div class="gambareo col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100" style="margin-top: 10px;">
+                            <br> <br>
+                            <img src="assets/img/bg/wshop3.png" class="img-fluid" alt="" style="width: 100%; ">
+                        </div> -->
                 </div>
             </div>
         </div>
@@ -1104,22 +1117,13 @@ margin-left:-10px;
         <div></div>
     </section>
 
-
-
-
-    <section id="testibaru" class="testibaru section-bg " style="margin-top: -155px;">
+    <section id="testibaru" class="testibaru section-bg " style="margin-top: -280px;">
         <div class="pyoutube">
             <br>
             <div class="youtubeeeeeee">
                 <div class="gabung">
                     <!-- Ganti dengan path gambar profil Anda -->
                     <div class="info">
-                        <h1 style="text-align: center; color: #FFF; font-family: Poppins; font-size: 12px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">Lebih Dekat dengan Class Program</h1>
-                        <!-- <div class="social-linkss" style="text-align: center; margin-left:150px; margin-top:50px;">
-                            <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style=" padding: 30px;"></a>
-                        </div> -->
-
-
                         <style>
                             .btnyt:hover .yt {
                                 background-color: blue;
@@ -1131,12 +1135,13 @@ margin-left:-10px;
                                 /* Change to your desired hover color */
                             }
                         </style>
-
+                        <!-- <h3 style="font-size:20px; color:#000; font-weight: 800;color:black;text-align: center; font-family: 'Manrope'; ">Janji Mentor untuk <br> Insans...</h3> -->
+                        <h1 style="font-size:25px; font-weight: 800; font-family: 'Manrope'; text-align: center; margin-left:-180px; margin-top:30px; margin-bottom:50px;">Lebih Dekat <br> dengan Class Program</h1>
                         <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt">
                             <div style="display: inline-block; position: relative; margin-left: 450px; margin-top: -800px;">
                                 <div class="yt" style="text-align: center;">
-                                    <div style="margin-top:20px; width: 80px; height: 80px; margin-left: 35px;  border-radius: 50%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
-                                    <i style="text-align: center; margin-top:20px; position: absolute; top: 35%;  margin-left: 35px; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;" class="bx bxl-youtube"></i>
+                                    <div style="margin-top:20px; width: 80px; height: 80px; margin-left: -320px;  border-radius: 50%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+                                    <i style="text-align: center; margin-top:20px; position: absolute; top: 35%;  margin-left: -320px; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;" class="bx bxl-youtube"></i>
                                 </div>
                             </div>
                         </a>
@@ -1148,7 +1153,7 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="galeri" class="galeri" style="margin-top: -100px;">
+    <section id="galeri" class="galeri" style="margin-top: -120px;">
         <div class="section-title " style=" font-family: 'Roboto', sans-serif;
                                     text-transform: uppercase;
                                     font-size: 48px;
@@ -1198,7 +1203,7 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="testibaru" class="testibaru section-bg">
+    <!-- <section id="testibaru" class="testibaru section-bg" style="margin-top: -100px;">
         <div class="profile-container">
             <p>Cerita Sobat Insans</p>
             <p1>Selama Bergabung di Class Program</p1>
@@ -1218,13 +1223,13 @@ margin-left:-10px;
                     <h1 style="font-size:20px; margin-top:10px; font-weight: bold;">ELouis Patric</h1>
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil">
-                        <!-- Ganti dengan path gambar profil Anda -->
+
                         <div class="profile-info">
                             <p>" Gan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
                                 gitu aja banyak ide muncul."
                             </p>
                         </div>
-                        <!-- Tambahkan elemen tambahan di sini -->
+
                     </div>
                 </div>
 
@@ -1232,7 +1237,7 @@ margin-left:-10px;
                     <h1 style="font-size:20px; margin-top:10px; font-weight: bold;">Adinda Cahayani Supriyanto</h1>
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
-                        <!-- Ganti dengan path gambar profil Anda -->
+
                         <div class="profile-info">
                             <p>" Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan
                                 skripsi online yang berkualitas dan juga ramah dikantong."</p>
@@ -1242,14 +1247,158 @@ margin-left:-10px;
             </div>
             <div class="profile-navigation">
                 <button id="prevProfile">
-                    {{-- << /button> --}}
+
                     <button id="nextProfile">></button>
             </div>
         </div>
+    </section> -->
+
+    <section id="testibaru" class="testibaru section-bg" style="margin-bottom:15px; margin-top:-80px;">
+        <div class="profile-container" style="position: absolute; ">
+            <p style="margin-top:50px; color:#000;">Cerita Sobat Insans</p>
+            <br>
+            <!-- <p1>Selama Bergabung di Class Program</p1> -->
+            <br>
+            <!-- testi1 -->
+
+            <br>
+            <div class="profile-slider" style="margin-top: -30px;">
+                <div class="profile">
+                    <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
+                    <div class="gabung">
+                        <div class="profile-info" style="height: 300px; margin-left:0% !important;">
+                            <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                            </div>
+                            <p style="margin-top:10px; margin-bottom: 50px; text-align:center;">“Alhamdulillah
+                                saya sangat-sangat puas konsultasi di BSO Class Program. Arahan Mentor dan Kak Dewi
+                                membantu saya untuk menemukan solusi mengenai permasalahan skripsi. Kedepannya saya
+                                akan konsultasi kembali disini.”</p>
+
+                            <h1 style="text-align:center; margin-top: -20px;    font-size: 18px!important;
+                                    ">
+                                Fitri Wahyuni Lubis</h1>
+                            <p style="text-align:center; margin-top: -20px; ">Sastra Indonesia -<a style="font-style: italic !important;"> Universitas Negeri Medan</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="profile-slider">
+                <div class="profile">
+                    <img class="pro" src="assets/img/team/team-1.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
+                    <div class="gabung">
+                        <div class="profile-info" style="height: 300px; margin-left:0% !important;">
+                            <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                            </div>
+                            <p style="margin-top:10px; margin-bottom: 50px;text-align:center;">“Ikut BSO ternyata
+                                sangat menginspirasi dan insightful. Mentor sangat responsif, memberikan panduan dan
+                                feedback konstruktif yang membantu saya untuk memahami pembuatan judul skripsi.
+                                Meskipun belajarnya online, tapi sangat happy dan enjoy”.</p>
+
+                            <h1 style="text-align:center; margin-top: -20px;font-size: 18px!important;">Adinda</h1>
+                            <p style="text-align:center; margin-top: -20px; ">Pendidikan Bahasa Inggris -<a style="font-style: italic !important;"> Universitas Negeri Surabaya</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="profile-slider">
+                <div class="profile">
+                    <img class="pro" src="assets/img/team/team-4.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
+                    <div class="gabung">
+                        <div class="profile-info" style="height: 300px; margin-left:0% !important;">
+                            <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                            </div>
+                            <p style="margin-top:10px; margin-bottom: 50px; text-align:center;">“Saya merasa puas
+                                dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya selalu
+                                dikoreksi positif secara baik oleh kaka mentor. BSO bagus sekali dan recommended
+                                untuk Mahasiswa.”</p>
+
+                            <h1 style="text-align:center; margin-top: -20px;font-size: 18px!important;">Yola</h1>
+                            <p style="text-align:center; margin-top: -20px; ">Pariwisata Bisnis - <a style="font-style: italic !important;">Universitas Brawijaya</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="profile-slider">
+                <div class="profile">
+                    <img class="pro" src="assets/img/team/team-2.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
+                    <div class="gabung">
+                        <div class="profile-info" style="height: 300px; margin-left:0% !important;">
+                            <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                            </div>
+                            <p style="margin-top:10px; margin-bottom: 50px; text-align:center;">“Halo Kak Dewi.
+                                Saya rutin ikut bimbingan, seminggu 3 kali. Dalam proses bimbingan, jujur saya
+                                sangat terbantu. Banyak hal yang saya tanyakan dan dapat terjawab oleh Mentor saya.”
+                            </p>
+
+                            <h1 style="text-align:center; margin-top: -20px;font-size: 18px!important;">Hildan
+                                Ramdani</h1>
+                            <p style="text-align:center; margin-top: -20px; ">Ilmu Komunikasi -<a style="font-style: italic !important;"> Universitas Garut</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="profile-slider">
+                <div class="profile">
+                    <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
+                    <div class="gabung">
+                        <div class="profile-info" style="height: 300px; margin-left:0% !important;">
+                            <div style="text-align:center;  margin-top: 30px; margin-left:-20px;">
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                                <i class="fa-solid fa-star" style="color: #f1d209; font-size: 12px !important;"></i>
+                            </div>
+                            <p style="margin-top:10px; margin-bottom: 50px; text-align:center;">“Saya puas dengan
+                                bimbingannya kak. Awalnya saya tidak mengerti tahapan skripsi, ketika mulai
+                                bimbingan, saya jadi mengerti hal-hal penting dan tahapan dalam pembuatan judul
+                                serta penentuan variabel. Terima kasih banyak.”</p>
+
+                            <h1 style="text-align:center; margin-top: -20px;font-size: 18px!important;">Azizah
+                                Nurul</h1>
+                            <p style="text-align:center; margin-top: -20px; ">Pendidikan Tata Busana -<a style="font-style: italic !important;"> Universitas Negeri Malang</a></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- <div class="centered-content">
+                    <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">
+                </div> --}}
+        <div class="profile-navigation">
+            <button id="prevProfile">
+                {{-- << /button> --}}
+                <button id="nextProfile">></button>
+        </div>
+        </div>
     </section>
 
-    <section id="konsultasi" class="konsultasi section-bg" style="font-family: 'Manrope', sans-serif;margin-top: -100px;
-            margin-top: -100px;  margin-bottom:50px;  background: url(assets/img/bg/alurin.png);background-size: cover;">
+    <section id="konsultasi" class="konsultasi section-bg" style="font-family: 'Manrope', sans-serif;margin-top: -210px; margin-bottom:50px;  background: url(assets/img/bg/alurin.png);background-size: cover;">
         <div class="container" data-aos="fade-up">
             <div class="section-title">
                 {{-- <h2>Team</h2> --}}
@@ -1267,9 +1416,9 @@ margin-left:-10px;
                                     <img src="assets/img/bg/cuate.png" class="img-fluid" style="margin-top: -10px; width: 180px;" alt="">
                                 </div>
                                 <div class="member-info">
-                                    <h4>1. Pesan Produk</h4>
+                                    <h4 style="font-family: Poppins; font-size: 20px;">1. Pesan Produk</h4>
                                     <br>
-                                    <p>Pilih paket bimbingan yang sesuai dengan kebutuhanmu</p>
+                                    <p style="margin-top: -30px;">Pilih paket bimbingan yang sesuai dengan kebutuhanmu</p>
                                 </div>
                             </div>
                         </div>
@@ -1281,10 +1430,10 @@ margin-left:-10px;
                                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
                                     <img src="assets/img/bg/bro.png" class="img-fluid" style="width: 165px;" alt="">
                                 </div>
-                                <div class="member-info" style="margin: -20px;">
-                                    <h4>2. Lakukan Pembayaran</h4>
+                                <div class="member-info">
+                                    <h4 style="font-family: Poppins; font-size: 20px;">2. Lakukan Pembayaran</h4>
                                     <br>
-                                    <p>Pilih paket bimbingan yang sesuai dengan kebutuhanmu</p><br>
+                                    <p style="margin-top: -30px;">Mengisi formulir pendaftaran sesuai dengan data diri yang lengkap dan benar</p>
                                 </div>
                             </div>
                         </div>
@@ -1297,9 +1446,9 @@ margin-left:-10px;
                                     <img src="assets/img/bg/cuatei.png" class="img-fluid" style="width: 255px;" alt="">
                                 </div>
                                 <div class="member-info">
-                                    <h4>3. Jadwalkan Sesi</h4>
+                                    <h4 style="font-family: Poppins; font-size: 20px;">3. Selesaikan Pembayaran</h4>
                                     <br>
-                                    <p>Mengirim bukti pembayaran dan menunggu verifikasi</p><br>
+                                    <p style="margin-top: -30px;">Mengirim bukti pembayaran dan menunggu verifikasi</p>
                                 </div>
                             </div>
                         </div>
@@ -1312,10 +1461,9 @@ margin-left:-10px;
                                     <img src="assets/img/bg/rafiki.png" class="img-fluid" style="width: 240px;" alt="">
                                 </div>
                                 <div class="member-info">
-                                    <h4>4. Mulai Konsultasi</h4>
+                                    <h4 style="font-family: Poppins; font-size: 20px;">4. Mulai Bimbingan</h4>
                                     <br>
-                                    {{-- <span>CTO</span> --}}
-                                    <p>Kamu siap melakukan bimbingan bersama Mentor profesional</p><br>
+                                    <p style="margin-top: -30px;">Sobat Insans siap bimbingan bersama Mentor</p>
                                 </div>
                             </div>
                         </div>
@@ -1331,7 +1479,7 @@ margin-left:-10px;
     <!-- ======= Frequently Asked Questions Section ======= -->
 
 
-    <section id="faq" class="faq section-bg" style="margin-top: -110px;">
+    <section id="faq" class="faq section-bg" style="margin-top: -150px;">
 
         <div class=" background-faq">
         </div>
@@ -1356,14 +1504,14 @@ margin-left:-10px;
                             text-overflow: ellipsis;
                         }
                     </style>
-                    <div id="accordion" class="myaccordion">
+                    <div id="accordion" class="myaccordion" style="margin-top: -5px;">
                         <div class="card">
                             <div class="card-header" id="headingOne">
                                 <h2 class="mb-0">
                                     <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                         <span class="fa-stack fa-sm">
                                             <i class="fas fa-circle fa-stack-2x"></i>
-                                            <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                                            <i class="fas fa-plus fa-stack-1x fa-inverse" style="margin-left: 6px;"></i>
                                         </span>
                                         <p style="color: #000; margin-top:40px; text-align: start; width: 400px;">Apa yang dimaksud dengan Sobat Insans?</p>
                                     </button>
@@ -1381,7 +1529,7 @@ margin-left:-10px;
                                     <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <span class="fa-stack fa-2x">
                                             <i class="fas fa-circle fa-stack-2x"></i>
-                                            <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                                            <i class="fas fa-plus fa-stack-1x fa-inverse" style="margin-left: 6px;"></i>
                                         </span>
                                         <p style="color: #000; margin-top:40px; text-align: start; width: 400px;">Siapa saja yang bisa belajar di Class Program?</p>
                                     </button>
@@ -1400,7 +1548,7 @@ margin-left:-10px;
                                     <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         <span class="fa-stack fa-2x">
                                             <i class="fas fa-circle fa-stack-2x"></i>
-                                            <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                                            <i class="fas fa-plus fa-stack-1x fa-inverse" style="margin-left: 6px;"></i>
                                         </span>
                                         <p style="color: #000; margin-top:40px; text-align: start; width: 400px;">Siapa Mentor yang ada di Class Program?</p>
                                     </button>
@@ -1418,7 +1566,7 @@ margin-left:-10px;
                                     <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
                                         <span class="fa-stack fa-2x">
                                             <i class="fas fa-circle fa-stack-2x"></i>
-                                            <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                                            <i class="fas fa-plus fa-stack-1x fa-inverse" style="margin-left: 7px;"></i>
                                         </span>
 
                                         <p style="color: #000; margin-top:60px; text-align: start; width: 500px;">Bagaimana jadwal bimbingan di Class Program?</p>
@@ -1437,7 +1585,7 @@ margin-left:-10px;
                                     <button class="d-flex align-items-center justify-content-between btn btn-link collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
                                         <span class="fa-stack fa-2x">
                                             <i class="fas fa-circle fa-stack-2x"></i>
-                                            <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
+                                            <i class="fas fa-plus fa-stack-1x fa-inverse" style="margin-left: 6px;"></i>
                                         </span>
                                         <p style="color: #000; margin-top:40px; text-align: start; width: 400px;">Apakah di Class Program bisa ganti Mentor?</p>
                                     </button>
@@ -1465,32 +1613,69 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="gambarkampus" class="gambarkampus" style="margin-top:-100px;">
+    <section id="gambarkampus" class="gambarkampus" style="margin-top:-150px;">
         <div class="section-title">
             <h3>Kami telah membimbing<br> mahasiswa dari berbagai kampus</h3>
         </div>
 
         <div class="container">
+            <style>
+                table {
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+
+                td {
+                    width: 30%;
+
+                    /* Membagi lebar tabel menjadi tiga bagian */
+                    text-align: center;
+                    /* Pusatkan gambar di dalam setiap sel */
+                }
+
+                .image {
+
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+                    margin: 0 auto;
+                    /* Pusatkan gambar di dalam sel */
+                }
+            </style>
             <div class="">
-                <img src="assets/img/kampus/ui.png" alt="Gambar 1" class="image">
-                <img src="assets/img/kampus/um.png" alt="Gambar 2" class="image">
-                <img src="assets/img/kampus/unnes.png" alt="Gambar 3" class="image">
-                <img src="assets/img/kampus/uny.png" alt="Gambar 4" class="image">
+                <table>
+                    <tr>
+                        <td><img src="assets/img/kampus/ui.png" alt="Gambar 1" class="image"></td>
+                        <td><img src="assets/img/kampus/um.png" alt="Gambar 2" class="image"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="assets/img/kampus/unnes.png" alt="Gambar 3" class="image"></td>
+                        <td><img src="assets/img/kampus/uny.png" alt="Gambar 4" class="image"></td>
+                    </tr>
+                    <tr>
+                        <td> <img src="assets/img/kampus/unj.png" alt="Gambar 7" class="image"></td>
+                        <td> <img src="assets/img/kampus/ub.png" alt="Gambar 8" class="image"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="assets/img/kampus/ugm.png" alt="Gambar 5" class="image"></td>
+                        <td> <img src="assets/img/kampus/itb.png" alt="Gambar 6" class="image"></td>
+                    </tr>
+                    <tr>
+                        <td> <img src="assets/img/kampus/uns.png" alt="Gambar 10" class="image"></td>
+                        <td><img src="assets/img/kampus/ut.png" alt="Gambar 11" class="image"></td>
+                    </tr>
+                    <tr>
+                        <td> <img src="assets/img/kampus/unm.png" alt="Gambar 12" class="image"></td>
+                        <td> <img src="assets/img/kampus/unesa.png" alt="Gambar 9" class="image"></td>
+                    </tr>
+                    <tr>
+                        <td> <img src="assets/img/kampus/pajajaran.png" alt="Gambar 10" class="image"></td>
+                        <td> <img src="assets/img/kampus/undip.png" alt="Gambar 11" class="image"></td>
+                    </tr>
+                    <!-- <td> <img src="assets/img/kampus/unsri.png" alt="Gambar 12" class="image"></td> -->
 
-                <img src="assets/img/kampus/unj.png" alt="Gambar 7" class="image">
-                <img src="assets/img/kampus/ub.png" alt="Gambar 8" class="image">
-                <img src="assets/img/kampus/ugm.png" alt="Gambar 5" class="image">
-                <img src="assets/img/kampus/itb.png" alt="Gambar 6" class="image">
 
-                <img src="assets/img/kampus/uns.png" alt="Gambar 10" class="image">
-                <img src="assets/img/kampus/ut.png" alt="Gambar 11" class="image">
-                <img src="assets/img/kampus/unm.png" alt="Gambar 12" class="image">
-                <img src="assets/img/kampus/unesa.png" alt="Gambar 9" class="image">
-
-                <img src="assets/img/kampus/pajajaran.png" alt="Gambar 10" class="image">
-                <img src="assets/img/kampus/undip.png" alt="Gambar 11" class="image">
-                <img src="assets/img/kampus/unsri.png" alt="Gambar 12" class="image">
-                <img src="assets/img/kampus/akhir.png" alt="Gambar 9" class="image">
+                </table>
             </div>
         </div>
     </section>
