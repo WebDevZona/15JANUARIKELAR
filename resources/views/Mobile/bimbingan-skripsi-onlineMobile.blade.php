@@ -406,7 +406,7 @@
                                         <div class="card-title">
                                             <img style="margin-top:15px; margin-left:12px; width:48px; " src="assets/img/bg/ps1.png" alt="">
                                             <div
-                                                style="margin-top: -60px; margin-left:80px; color: #101828; font-size: 20px; font-family: Inter; font-weight: 800; letter-spacing: 1px; word-wrap: break-word">
+                                                style="margin-top: -55px; margin-left:80px; color: #101828; font-size: 20px; font-family: Inter; font-weight: 800; letter-spacing: 1px; word-wrap: break-word">
                                                 24+</div>
                                             <div
                                                 style="margin-top: -35px; margin-left:70px;   opacity: 0.50; color: #101828; font-size: 15px; font-family: Inter; font-weight: 400; letter-spacing: 1px; word-wrap: break-word">
@@ -479,23 +479,23 @@
                             }
                         </style>
                         <ul class="nav nav-pills card-header-pills" id="buttonGroup" style="font-size: 12px;" >
-                            <li class="nav-item" style="border-radius:50%; ">
+                            <li class="nav-item" style="border-radius:50%;margin-left: 20px;">
                                 <button style="border-radius: 50px" class="nav-link color-white2"
                                     onclick="showContent('content1')"><b style=" font-weight:bold !important;">PAKET SILVER</b></button>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" style="    margin-left: px;">
                                 <button style="border-radius: 50px; margin-left:25px;" class="nav-link color-white2"
                                     onclick="showContent('content2')"><b>PAKET GOLD</b></button>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" >
                                 <button style="border-radius: 50px" class="nav-link color-white2"
                                     onclick="showContent('content3')"><b>PAKET PLATINUM</b></button>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" style="    margin-left: 10px;">
                                 <button style="border-radius: 50px" class="nav-link color-white2"
                                     onclick="showContent('content4')"><b>PAKET DIAMOND</b></button>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" style="    margin-left: 80px;">
                                 <button style="border-radius: 50px" class="nav-link color-white2"
                                     onclick="showContent('content5')"><b>PAKET COMPLETE</b></button>
                             </li>
