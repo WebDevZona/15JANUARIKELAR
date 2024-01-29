@@ -500,8 +500,8 @@ margin-left:-10px;
                                     <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Variabel penelitian. </li>
                                     <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Objek penelitian. </li>
                                     <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Judul penelitian. </li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Rumusan masalah penelitian.</li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Dasar teori berdasarkan variabel yang digunakan.</li>
+                                    <li ><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Rumusan masalah penelitian.</li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px;"></i> Dasar teori berdasarkan <br> variabel yang digunakan.</li>
                                 </ul>
                                 </p>
                             </div>
@@ -606,7 +606,7 @@ margin-left:-10px;
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Hasil dan pembahasan.</li>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Menyusun transkrip wawancara.</li>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Menyusun hasil wawancara.</li>
-                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Kesimpulan, keterbatasan, dan saran penelitia.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Kesimpulan, keterbatasan, <br> dan saran penelitia.</li>
                                 </ul>
                                 </p>
                             </div>
@@ -650,9 +650,9 @@ margin-left:-10px;
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review proposal skripsi <br> bab 1-3.</li>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review skripsi full bab 1-5. </li>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Review artikel jurnal. </li>
-                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknis penulisan skripsi atau artikel jurnal yang masih keliru. </li>
-                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknis penulisan skripsi atau artikel jurnal yang masih keliru.</li>
-                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Saran dan masukan terhadap file skripsi atau artikel jurnal.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknis penulisan skripsi <br> atau artikel jurnal yang <br> masih keliru. </li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknis penulisan skripsi <br> atau artikel jurnal yang <br> masih keliru.</li>
+                                    <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Saran dan masukan terhadap <br> file skripsi atau artikel jurnal.</li>
                                 </ul>
                                 </p>
                             </div>
@@ -951,44 +951,7 @@ margin-left:-10px;
 
     <section id="berita" class="berita container" style="margin-top:-35px">
         <div class="content_area">
-            <style>
-                /* Add your existing styles here */
-                .single_cat_right_content {
-                    display: flex;
-                    overflow-x: auto;
-                    white-space: nowrap;
-                }
-
-                .left_content {
-                    margin-right: 20px;
-                    /* Adjust the margin as needed */
-                }
-
-                /* Responsive styles for mobile */
-                @media only screen and (max-width: 767px) {
-                    .content_area {
-                        flex-direction: column;
-                    }
-
-                    .main_content {
-                        width: 100%;
-                    }
-
-                    .right_coloum {
-                        width: 100%;
-                        margin-top: 20px;
-                        /* Adjust the margin as needed */
-                    }
-
-                    .single_left_coloum img {
-                        width: 100%;
-                        /* Make images responsive within their containers */
-                        height: auto;
-                    }
-
-                    /* Add more responsive styles as needed */
-                }
-            </style>
+         
 
             <div class="main_content floatleft">
                 <div class="left_coloum floatleft">
@@ -1021,9 +984,8 @@ margin-left:-10px;
                         </svg>
                     </span>
 
-
                     <span class="right-scroll-button" onclick="scrollRight()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -30px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-left: -100px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                                 <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />

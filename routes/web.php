@@ -469,3 +469,13 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
 Route::get('/ok', function () {
     return view('/emails/lupapasword');
 });
+
+// payment gatway
+// Route::post('/create-transaction', [PaymentController::class, 'createTransaction']);
+// Route::get('/pembayaran', 'PaymentController@createTransaction');
+Route::post('/pembayaran', 'PaymentController@submitPayment')->name('submit.payment');
+Route::post('/bukti', 'PaymentController@foto')->name('submit.bukti');
+Route::get('/mima', 'PaymentController@mima')->name('mima');
+
+// Route::post('/payment/{id}/foto', 'PaymentController@foto')->name('payment.foto');
+
