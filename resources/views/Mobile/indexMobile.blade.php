@@ -479,7 +479,7 @@ margin-left:-10px;
                                                     <br><span class="green-text">Silver</span>
                                                 </th>
                                                 <th scope="col">Harga
-                                                    <br><span class="blue-text">Rp 47.000</span>
+                                                    <br><span class="blue-text">Rp 179.000</span>
                                                 </th>
                                             </tr>
                                         </thead>
@@ -496,12 +496,11 @@ margin-left:-10px;
                                 </table>
                                 <ul class="deskripsi list-unstyled">
                                     <strong> Materi: </strong>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Topik penelitian. </li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Variabel penelitian. </li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Objek penelitian. </li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Judul penelitian. </li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Rumusan masalah penelitian.</li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Dasar teori berdasarkan variabel yang digunakan.</li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Topik pembahasan by request </li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Tidak ada batas pertanyaan ke Mentor </li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Masa aktif bimbingan hingga 14 hari </li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Total durasi bimbingan 12 jam </li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Max 4 jam di setiap pertemuan</li>
                                 </ul>
                                 </p>
                             </div>
@@ -512,7 +511,7 @@ margin-left:-10px;
                     </div>
                 </div>
 
-                <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                {{-- <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                     <div class="box">
                         <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
                             <div class="card-body">
@@ -540,7 +539,7 @@ margin-left:-10px;
                                     </thead>
                                 </table>
                                 <ul class="deskripsi" style="list-style: none;">
-                                    {{-- <i class="fa-solid fa-check"></i> --}}
+                                    <i class="fa-solid fa-check"></i>
                                     <strong> Materi: </strong>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Latar belakang.</li>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Identifikasi masalah. </li>
@@ -567,9 +566,9 @@ margin-left:-10px;
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                {{-- <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                     <div class="box">
                         <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
                             <div class="card-body">
@@ -597,7 +596,7 @@ margin-left:-10px;
                                     </thead>
                                 </table>
                                 <ul class="deskripsi" style="list-style: none;">
-                                    {{-- <i class="fa-solid fa-check"></i> --}}
+                                    <i class="fa-solid fa-check"></i>
                                     <strong> Materi: </strong>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Input data.</li>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Olah data. </li>
@@ -615,9 +614,9 @@ margin-left:-10px;
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                {{-- <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                     <div class="box">
                         <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
                             <div class="card-body">
@@ -645,7 +644,7 @@ margin-left:-10px;
                                     </thead>
                                 </table>
                                 <ul class="deskripsi" style="list-style: none;">
-                                    {{-- <i class="fa-solid fa-check"></i> --}}
+                                    <i class="fa-solid fa-check"></i>
                                     <strong> Materi: </strong>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review proposal skripsi <br> bab 1-3.</li>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review skripsi full bab 1-5. </li>
@@ -661,7 +660,7 @@ margin-left:-10px;
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
     </section>
 
 
