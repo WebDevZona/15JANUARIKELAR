@@ -49,8 +49,8 @@
                                     {{-- <img class="profile-user-img img-fluid img-circle" src={{$data->image}} alt="User profile picture" style="max-height: 100px;max-width:100px"> --}}
                                 </div>
                                 <h3 class="profile-username text-center"><b>{{$data->nama}}</b></h3>
-                              
-                                <ul class="list-group list-group-unbordered mb-3">                                
+
+                                <ul class="list-group list-group-unbordered mb-3">
                                     <li class="list-group-item">
                                         <b>NISN/Induk</b>
                                         <a class="float-right">{{$data->nis}}</a>
@@ -64,7 +64,7 @@
                                     <li class="list-group-item">
                                         <b>tanggungan Orang Tua</b> <a class="float-right">{{$data->tanggungan == null?0:$data->tanggungan}}</a>
                                     </li>
-                                   
+
                                 </ul>
                             </div>
                             <!-- /.card-body -->

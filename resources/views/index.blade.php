@@ -73,7 +73,7 @@
                     macam <br> program kelas serta akan dibimbing langsung oleh <br> mentor yang ahli di bidangnya.</p>
             </div>
             <div class="d-flex" style="margin-top: -15px;">
-                <a href="#pricing" class="btn-get-started scrollto"><strong>Daftar Sekarang</strong> </a>
+                <a href="register" class="btn-get-started scrollto"><strong>Daftar Sekarang</strong> </a>
             </div>
 
             <div id="counts" class="counts">
@@ -403,7 +403,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="#" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="login" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -599,7 +599,7 @@
                         </div>
                         <br>
                         <div class="btn-wrap">
-                            <a href="bimbingan-skripsi-online" class="btn-buyy">Pilih Paket</a>
+                            <a href="bimbingan-skripsi-online#pricing" class="btn-buyy">Pilih Paket</a>
                         </div>
                     </div>
                 </div>
@@ -621,7 +621,7 @@
                         </div>
                         <br>
                         <div class="btn-wrap">
-                            <a href="bimbingan-skripsi-online" class="btn-buyy">Pilih Paket</a>
+                            <a href="bimbingan-skripsi-online#pricing" class="btn-buyy">Pilih Paket</a>
                         </div>
                     </div>
                 </div>
@@ -642,7 +642,7 @@
                         </div>
                         <br>
                         <div class="btn-wrap">
-                            <a href="bimbingan-skripsi-online" class="btn-buyy">Pilih Paket</a>
+                            <a href="bimbingan-skripsi-online#pricing" class="btn-buyy">Pilih Paket</a>
                         </div>
                     </div>
                 </div>
@@ -663,7 +663,7 @@
                         </div>
                         <br>
                         <div class="btn-wrap">
-                            <a href="bimbingan-skripsi-online" class="btn-buyy">Pilih Paket</a>
+                            <a href="bimbingan-skripsi-online#pricing" class="btn-buyy">Pilih Paket</a>
                         </div>
                     </div>
                 </div>

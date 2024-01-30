@@ -1103,17 +1103,17 @@ margin-left:-10px;
                                         {{ $item->sumber }}
                                     </a>
                                 </h3>
-    
+
                                 <p>
                                     <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
                                         <img src="{{ asset('foto_upload/' . $item->foto) }}" alt="Youtube Thumbnail" style="vertical-align: middle;width: 195px; height: auto; margin-right:-50px;" />
                                         <a href="{{ asset($item->tampilan) }}" style="text-decoration: none; color: black; margin-top:5px; display: inline-block; text-align: left;width: 195px; ">
                                             {{ $item->judul }}
                                         </a>
-    
+
                                     </strong>
                                 </p>
-    
+
                                 <p class="single_cat_right_content_meta" style="color: #696969; font-family: Manrope; font-style: normal; line-height: normal;">
                                     {{ $item->waktu }}
                                 </p>
@@ -1123,7 +1123,7 @@ margin-left:-10px;
 
                         </div>
                     </div>
-                  
+
                 </div>
             </div>
     </section>

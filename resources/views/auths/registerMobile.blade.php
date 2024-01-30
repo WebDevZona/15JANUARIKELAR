@@ -527,7 +527,7 @@
                                 <div class="icon-label" style="text-align: start;">
                                     <i class="fas fa-phone-alt"></i>
                                     Nomor HP
-                                    <input name="nomer" type="number" class="form-control bg-light" id="nomer" placeholder="Nomor HP" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                                    <input name="nomer" type="text" class="form-control bg-light" id="nomer" placeholder="Nomor HP" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                                 </div>
                                 <div class="icon-label" style="text-align: start;">
                                     <i class="fas fa-venus-mars"></i>

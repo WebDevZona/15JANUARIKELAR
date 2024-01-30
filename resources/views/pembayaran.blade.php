@@ -581,23 +581,29 @@
 @section('content')
 
 <body>
+    <!-- Your header section -->
+    @extends('layout.header')
+    @section('content')
+
     <div class="luar">
         <div class="pembayaran">
+            <!-- Formulir Pendaftaran -->
             <h3 style="color: #333;">Form Data Diri</h3>
             <div class="step-pembayaran">
                 <div class="step left">1</div>
-                <div class="separator" style=" border: 1px solid #007bff;     background-color: #007bff; "></div>
+                <div class="separator" style="border: 1px solid #007bff; background-color: #007bff;"></div>
                 <div class="step center">2</div>
                 <div class="separator"></div>
                 <div class="step right">3</div>
             </div>
 
             <div class="registration-form">
-                <form class="row g-3 ">
+                <form class="row g-3" method="post" action="{{ route('submit.payment') }}">
+                    @csrf
+                    <!-- Informasi Pengguna -->
                     <div class="col-md-6">
                         <label for="name">Nama Lengkap</label>
                         <input value="{{$Users->name}}" class="form-control" name="name" type="text" id="name" placeholder="Nama">
-
                     </div>
 
                     <div class="col-md-6">
@@ -607,126 +613,120 @@
                             <option value="perempuan">Perempuan</option>
                         </select>
                     </div>
+
                     <div class="col-md-6">
                         <label for="email">Email</label>
                         <input value="{{$Users->email}}" type="email" id="email" name="email" placeholder="Email">
                         <div class="info">*Pastikan email kamu sudah benar</div>
                     </div>
+
                     <div class="col-md-6">
                         <label for="nomer">Nomor Telepon</label>
                         <input type="text" value="{{$Users->nomer}}" id="nomer" name="nomer" placeholder="Nomor Telepon">
                     </div>
-                    <!-- <div class="col-12">
-                        <label for="semester">Judul skripsi</label>
-                        <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
-                    </div> -->
+
+                    <!-- Informasi Akademik -->
                     <div class="col-md-4">
                         <label for="kampus">Kampus</label>
                         <input type="text" value="{{$Users->kampus}}" id="kampus" name="kampus" placeholder="Kampus">
                     </div>
+
                     <div class="col-md-4">
-                        <!-- <label for="kampus">Kampus</label>
-                        <input type="text" value="{{$Users->jurusan}}" id="kampus" name="kampus" placeholder="Kampus">
-                    </div> -->
-                        <label for="id_jurusan">Jurasan yang akan di pilih</label>
-                        <select id="jurasanSelect">
+                        <label for="id_jurusan">Jurasan yang akan dipilih</label>
+                        <select id="jurasanSelect" name="id_jurusan">
                             <option value="">-- Pilih Jurasan --</option>
                             @foreach($datas as $ibui)
-                            <option value="{{$ibui->id}}" data-publish="{{$ibui->publish}}" data-nama="{{$ibui->nama}}">{{$ibui->nama}}</option>
+                            <option value="{{$ibui->nama}}" data-publish="{{$ibui->publish}}" data-nama="{{$ibui->nama}}">{{$ibui->nama}}</option>
                             @endforeach
                         </select>
                     </div>
+
                     <div class="col-md-4">
                         <label for="semester">Semester</label>
                         <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
                     </div>
-                    <!-- <div class="col-12">
-                        <label for="semester">Problem Selama bimbingan (Dosen)</label>
-                        <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
-                    </div> -->
 
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary"><a id="paket-link" style="color: #FFFFFF;" href="{{ route('pembayaran', [
-                    'id_produk' => $id_pesdik_login->id_produk,
-                    'id' => auth()->id( ),
-                    'nama_voucher' => isset($response->voucher) ? $response->voucher->nama : ''
-                ]) }}"> Lanjut <i class="fa fa-arrow-right"></i></button>
+                    <div class=" card col-12">
+                        <h3 style="color: #333; margin-top:30px;">Details Pembayaran</h3>
+                        <b> <span>Program: {{$Produk->produk}}</span> <br>
+                            <span>Paket: {{$Produk->produk}}</span> <br>
+                            <span>Harga: ${{ number_format($Produk->harga, 2) }}</span></b>
+                        <div class="order-total">
+                            <span>Total Harga: ${{ number_format($Produk->harga )}}</span> <br>
+                            <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
+                            <div class="text-right" style="margin-left: 80%; marin-top:-20px">
+                                <button type="submit" class="btn btn-primary" style="width: 150px;">
+                                    Checkout
+                                </button>
+                            </div>
+
+                        </div>
                     </div>
-
-
+                    <!-- Tombol Submit -->
+                    <!-- <div class="col-12">
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary" onclick="showDetailPesanan()">
+                                Submit <i class="fa fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div> -->
 
                 </form>
             </div>
-            {{-- <div class="info">Registrasi akun Satu Persen diperlukan untuk memilih jadwal mentoring.</div> --}}
-        </div>
-        <div id="popup" class="popup">
-            <!-- Konten popup di sini -->
-            <p>Mohon Maaf Untuk Sementara Jurusan yang Kamu Pilih Sudah Penuh Silakan Hubungi Minma</p>
-            <button id="chatButton">Chat via WhatsApp</button>
-            <button id="closePopup" class="close-button">Tutup</button>
-        </div>
+            <!-- <div id="detailPesananContainer" style="display: none;">
+                <div class="pesanan-checkout" style="display: none;">
+                    <div class="order-header">
+                        <h3 style="color: #333;">Detail Pesanan</h3>
+                    </div>
+                    <div class="order-details">
+                        <div class="item">
+                            <span>Program: {{$Produk->produk}}</span>
+                            <span>Paket: {{$Produk->produk}}</span>
+                            <span>Harga: ${{ number_format($Produk->harga, 2) }}</span>
+                            <div class="order-summary">
+                                @if ($voucher->discount ??'')
+                                <span>Discount: {{ $voucher->discount }}%</span>
+                                <span class="total">Total: ${{ number_format($Produk->harga - ($Produk->harga * ($voucher->discount / 100)), 2) }}</span>
+                            </div>
 
-        <!-- Inside your existing HTML structure -->
-        <div class="pesanan-checkout" style="display: none;">
-            <div class="order-header">
-                <h3 style="color: #333;">Detail Pesanan</h3>
-            </div>
-            <div class="order-details">
-                <div class="item">
-                    <span>Program: {{$Produk->produk}}</span>
-                    <span>Paket: {{$Produk->produk}}</span>
-                    <span>Harga: ${{ number_format($Produk->harga, 2) }}</span>
-                    <div class="order-summary">
-                        @if ($voucher->discount ??'')
-                        <span>Discount: {{ $voucher->discount }}%</span>
-                        <span class="total">Total: ${{ number_format($Produk->harga - ($Produk->harga * ($voucher->discount / 100)), 2) }}</span>
+                        </div>
+                        <div class="order-total">
+                            <span>Total Harga: ${{ number_format($Produk->harga - ($Produk->harga * ($voucher->discount / 100)), 2) }}</span>
+
+                            <a style="margin-bottom: 20px;" href="/rekening" id="checkoutButton" onclick="showRekening()">Checkout</a>
+
+                        </div>
+                        @else
+                        <span style="margin-bottom: 20px;" class="total">Total: ${{ number_format($Produk->harga, 2) }}</span>
                     </div>
                 </div>
                 <div class="order-total">
-                    <span>Total Harga: ${{ number_format($Produk->harga - ($Produk->harga * ($voucher->discount / 100)), 2) }}</span>
-                    <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
+                    <span style="margin-bottom: 20px; margin-top:-50px;">Total Harga: ${{ number_format($Produk->harga, 2) }}</span>
+
                     <a style="margin-bottom: 20px;" href="/rekening" id="checkoutButton" onclick="showRekening()">Checkout</a>
 
+
                 </div>
-                @else
-                <span style="margin-bottom: 20px;" class="total">Total: ${{ number_format($Produk->harga, 2) }}</span>
-            </div>
-        </div>
-        <div class="order-total">
-            <span style="margin-bottom: 20px; margin-top:-50px;">Total Harga: ${{ number_format($Produk->harga, 2) }}</span>
-            <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
-            <a style="margin-bottom: 20px;" href="/rekening" id="checkoutButton" onclick="showRekening()">Checkout</a>
+                @endif
+            </div> -->
 
-            <!-- Ubah ID ini -->
-        </div>
-        @endif
 
-    </div>
+            <!-- JavaScript Section -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+                function showDetailPesanan() {
+                    // Mengubah display dari kontainer "Detail Pesanan" menjadi 'block' untuk menampilkannya
+                    document.getElementById('detailPesananContainer').style.display = 'block';
+                }
+            </script>
 
-    <!-- <div id="rekeningInfo" style="display:none;">
-        <div class="kartu-kredit">
-            <img class="logo-bank" src="{{asset('assets/img/logo/BCA1.png')}}" alt="Logo Bank">
-            <div class="nomor-kartu">
-                1234 5678 9012 3456
-            </div>
-            <div class="nama-pemegang-kartu">
-                NAMA PEMEGANG KARTU
-            </div>
-            <div class="tanggal-kedaluwarsa">
-                THRU 12/23
-            </div>
-        </div>
 
-        <div class="unggah" style="float: right;width:50%;margin-top:-20%">
-            <label class="upload-button" for="file-upload">Unggah Foto</label>
-            <input id="file-upload" class="file-upload" type="file" accept="image/*" onchange="displayUploadedPhoto(this)">
-            <div id="uploaded-photo"></div>
         </div>
-    </div> -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    </div>
     </div>
 </body>
+
+</html>
+@endsection
 <script>
     function showRekening() {
         var rekeningInfo = document.getElementById("rekeningInfo");

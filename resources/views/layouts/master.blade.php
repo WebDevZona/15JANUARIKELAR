@@ -114,9 +114,9 @@
                             <i class="fas fa-user mr-2"></i> Lihat Profil
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a href="/auths/{{auth()->user()->id}}/gantipassword" class="dropdown-item">
+                        <!-- <a href="/auths/{{auth()->user()->id}}/gantipassword" class="dropdown-item">
                             <i class="fas fa-user-cog mr-2"></i> Ganti Password
-                        </a>
+                        </a> -->
                         <div class="dropdown-divider"></div>
                         <a href="/logout" class="dropdown-item" onclick="return confirm('Apakah anda yakin ingin keluar dari sistem ?')">
                             <i class="fas fa-sign-out-alt mr-2"></i> Keluar
@@ -131,7 +131,7 @@
         <aside class="main-sidebar sidebar-light-primary elevation-4">
             <!-- Brand Logo -->
             @if (auth()->user()->role == 'admin' || auth()->user()->role == 'user' )
-            <a href="#" class="brand-link bg-info">
+            <a href="/dashboard" class="brand-link bg-info">
                 <center>
                     <img src="../../../../assets/img/logo/logo2.png" alt="Logo" class="brand-image" style="opacity: 8;">
                 </center>
@@ -171,15 +171,21 @@
                     </li>
 
                 </ul>
+
             </div>
             @endif
             <!-- Sidebar -->
-            <div class="sidebar" style="margin-top: 0px;">
+            <div class="sidebar" style="margin-top: 10px;">
                 @if (auth()->user()->role == 'admin')
+
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <div class="dropdown-divider" style="margin-top: -3px;"></div>
                     <!-- Sidebar Menu -->
                     <!-- Add icons to the links using the .nav-icon class
                         with font-awesome or any other icon font library -->
+                    Manajemen Picture
+                    <div class="dropdown-divider"></div>
+
                     <li class="nav-item">
                         <a href="/produk/index" class="nav-link">
                             <i class="nav-icon fas fa-bars"></i>
@@ -205,22 +211,15 @@
                             </p>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="/SobatInsan/index" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
                                 Sobat Insan
                             </p>
                         </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/jurusan/index" class="nav-link">
-                            <i class="nav-icon fas fa-layer-group"></i>
-                            <p>
-                                Jurusan
-                            </p>
-                        </a>
-                    </li>
+                    </li> -->
+
                     <!-- <li class="nav-item">
                         <a href="/artikel/index" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
@@ -305,6 +304,15 @@
                     </li> --}}
 
                     <li class="nav-item">
+                        <a href="/jurusan/index" class="nav-link">
+                            <i class="nav-icon fas 	fa fa-file"></i>
+                            <!-- <i class="nav-icon fas fa-layer-group"></i> -->
+                            <p>
+                                Jurusan
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a href="/mentor/index" class="nav-link">
                             <i class="nav-icon fas 	fa fa-file"></i>
                             <p>
@@ -313,53 +321,70 @@
                         </a>
                     </li>
 
-                    <li class="nav-item">
+
+
+
+                    <!-- <li class="nav-item">
                         <a href="/rekomen/index" class="nav-link">
                             <i class="nav-icon fas 	fa fa-file"></i>
                             <p>
                                 Rekomen
                             </p>
                         </a>
-                    </li>
-                    <li class="nav-item">
+                    </li> -->
+                    <!-- <li class="nav-item">
                         <a href="/pengumumancp/index" class="nav-link">
                             <i class="nav-icon fas 	fa fa-file"></i>
                             <p>
                                 Pengumuman
                             </p>
                         </a>
-                    </li>
+                    </li> -->
 
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="/voucher/index" class="nav-link">
                             <i class="nav-icon fas 	fa fa-file"></i>
                             <p>
                                 Voucher
                             </p>
                         </a>
-                    </li>
+                    </li> -->
 
                 </ul>
                 @endif
                 @if (auth()->user()->role == 'admin' || auth()->user()->role == 'PetugasAdministrasiSurat' || auth()->user()->role == 'PetugasAdministrasiKeuangan')
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <!-- Sidebar Menu -->
-                    <a class="text-black">
-                        <p>
-                            Profil
-                        </p>
-                    </a>
-                    <!-- Add icons to the links using the .nav-icon class
-                        with font-awesome or any other icon font library -->
-
                     @if (auth()->user()->role == 'admin')
+                    <div class=" -lg -right">
+                        <!-- <span class="dropdown-item dropdown-header">Profil</span> -->
+                    </div>
                     <li class="nav-item">
                         <a href="{{ route('pengguna.index') }}" class="nav-link">
-                            <i class="fas fa-user-cog nav-icon"></i>
+                            <!-- <i class="fas fa-user-cog nav-icon"></i> -->
+                            <i class="fas fa-user mr-2"></i>
                             <p>
-                                Pengguna
+                                Manajemen User
                             </p>
                         </a>
+                    </li>
+                    <li class="">
+                        <!-- <a class="dropdown-toggle " href="javascript:void(0)" data-toggle="dropdown">
+                            <i class="fas fa-user mr-2"></i> &nbsp;<span>{{auth()->user()->name}}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i>
+                        </a> -->
+                        <div class=" -lg -right">
+                            <!-- <span class="dropdown-item dropdown-header">Profil</span> -->
+                            <div class="dropdown-divider"></div>
+                            Administrator
+
+                            <div class="dropdown-divider"></div>
+                            <a href="/auths/{{auth()->user()->id}}/gantipassword" class="dropdown-item">
+                                <i class="fas fa-user-cog mr-2"></i> Ganti Password
+                            </a>
+                            <div class="dropdown-divider"></div>
+
+                        </div>
+
                     </li>
                     @endif
                 </ul>
@@ -416,10 +441,7 @@
         <!-- /.content-wrapper -->
 
         <footer class="main-footer bg-info">
-            {{-- <div class="float-right d-none d-sm-block">
-                <b>Smpn 1 sron banyuwangi | </b>
-                Versi 1.0.0
-            </div> --}}
+
             Copyright &copy; 2023 - 2024 | by : Dimas Wildan & Aldi
         </footer>
 
