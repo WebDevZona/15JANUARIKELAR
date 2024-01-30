@@ -1325,7 +1325,7 @@
                                                                         style="font-size: 18px !important;">Harga</span>
                                                                     <br><span class="blue-text"
                                                                         style="font-weight: 700 !important; font-size:20px !important; ">Rp.
-                                                                        47.000</span>
+                                                                        179K</span>
                                                                 </th>
                                                             </tr>
                                                         </thead>
@@ -1348,27 +1348,26 @@
                                                     <li style="align-items:flex-start;"><i
                                                             class="fa-solid fa-circle-check"
                                                             style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>
-                                                        Topik penelitian </li>
+                                                            Topik pembahasan by request
+                                                        </li>
                                                     <li style="align-items:flex-start;"><i
                                                             class="fa-solid fa-circle-check"
                                                             style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>
-                                                        Variabel penelitian </li>
+                                                            Tidak ada batas pertanyaan ke Mentor </li>
                                                     <li style="align-items:flex-start;"><i
                                                             class="fa-solid fa-circle-check"
                                                             style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i>
-                                                        Objek penelitian </li>
+                                                            Masa aktif bimbingan hingga 14 hari </li>
                                                     <li style="align-items:flex-start;"><i
                                                             class="fa-solid fa-circle-check"
                                                             style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>
-                                                        Judul penelitian </li>
+                                                            Total durasi bimbingan 12 jam
+                                                        </li>
                                                     <li style="align-items:flex-start;"><i
                                                             class="fa-solid fa-circle-check"
                                                             style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>
-                                                        Rumusan masalah penelitian</li>
-                                                    <li style="align-items:flex-start;"><i
-                                                            class="fa-solid fa-circle-check"
-                                                            style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>
-                                                        Dasar teori berdasarkan variabel yang digunakan</li>
+                                                            Max 4 jam di setiap pertemuan</li>
+                                                    
                                                 </ul>
                                                 </p>
                                             </div>

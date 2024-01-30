@@ -479,7 +479,7 @@ margin-left:-10px;
                                                     <br><span class="green-text">Silver</span>
                                                 </th>
                                                 <th scope="col">Harga
-                                                    <br><span class="blue-text">Rp 47.000</span>
+                                                    <br><span class="blue-text">Rp 179.000</span>
                                                 </th>
                                             </tr>
                                         </thead>
@@ -500,8 +500,8 @@ margin-left:-10px;
                                     <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Variabel penelitian. </li>
                                     <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Objek penelitian. </li>
                                     <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Judul penelitian. </li>
-                                    <li ><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Rumusan masalah penelitian.</li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px;"></i> Dasar teori berdasarkan <br> variabel yang digunakan.</li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Rumusan masalah penelitian.</li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5;"></i> Dasar teori berdasarkan variabel yang digunakan.</li>
                                 </ul>
                                 </p>
                             </div>
@@ -512,7 +512,7 @@ margin-left:-10px;
                     </div>
                 </div>
 
-                <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                {{-- <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                     <div class="box">
                         <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
                             <div class="card-body">
@@ -540,7 +540,7 @@ margin-left:-10px;
                                     </thead>
                                 </table>
                                 <ul class="deskripsi" style="list-style: none;">
-                                    {{-- <i class="fa-solid fa-check"></i> --}}
+                                    <i class="fa-solid fa-check"></i>
                                     <strong> Materi: </strong>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Latar belakang.</li>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Identifikasi masalah. </li>
@@ -567,9 +567,9 @@ margin-left:-10px;
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                {{-- <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                     <div class="box">
                         <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
                             <div class="card-body">
@@ -597,7 +597,7 @@ margin-left:-10px;
                                     </thead>
                                 </table>
                                 <ul class="deskripsi" style="list-style: none;">
-                                    {{-- <i class="fa-solid fa-check"></i> --}}
+                                    <i class="fa-solid fa-check"></i>
                                     <strong> Materi: </strong>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Input data.</li>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Olah data. </li>
@@ -615,9 +615,9 @@ margin-left:-10px;
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
-                <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                {{-- <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                     <div class="box">
                         <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
                             <div class="card-body">
@@ -645,7 +645,7 @@ margin-left:-10px;
                                     </thead>
                                 </table>
                                 <ul class="deskripsi" style="list-style: none;">
-                                    {{-- <i class="fa-solid fa-check"></i> --}}
+                                    <i class="fa-solid fa-check"></i>
                                     <strong> Materi: </strong>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review proposal skripsi <br> bab 1-3.</li>
                                     <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review skripsi full bab 1-5. </li>
@@ -661,7 +661,7 @@ margin-left:-10px;
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
     </section>
 
 
@@ -951,7 +951,7 @@ margin-left:-10px;
 
     <section id="berita" class="berita container" style="margin-top:-35px">
         <div class="content_area">
-         
+
 
             <div class="main_content floatleft">
                 <div class="left_coloum floatleft">
@@ -1072,17 +1072,17 @@ margin-left:-10px;
                                         {{ $item->sumber }}
                                     </a>
                                 </h3>
-    
+
                                 <p>
                                     <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
                                         <img src="{{ asset('foto_upload/' . $item->foto) }}" alt="Youtube Thumbnail" style="vertical-align: middle;width: 195px; height: auto; margin-right:-50px;" />
                                         <a href="{{ asset($item->tampilan) }}" style="text-decoration: none; color: black; margin-top:5px; display: inline-block; text-align: left;width: 195px; ">
                                             {{ $item->judul }}
                                         </a>
-    
+
                                     </strong>
                                 </p>
-    
+
                                 <p class="single_cat_right_content_meta" style="color: #696969; font-family: Manrope; font-style: normal; line-height: normal;">
                                     {{ $item->waktu }}
                                 </p>
@@ -1092,7 +1092,7 @@ margin-left:-10px;
 
                         </div>
                     </div>
-                  
+
                 </div>
             </div>
     </section>
