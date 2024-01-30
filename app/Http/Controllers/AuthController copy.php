@@ -2,9 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Video;
-use App\Youtube;
-use App\Berita;
 use App\Mail\lupapasword;
 use Illuminate\Support\Facades\Mail;
 use App\User;
@@ -14,6 +11,7 @@ use Laravel\Socialite\Facades\Socialite;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Jenssegers\Agent\Facades\Agent;
 
 class AuthController extends Controller
 {
@@ -33,7 +31,14 @@ class AuthController extends Controller
                 return redirect('/dashboard')->with('warning', 'Maaf tindakan anda tidak dibenarkan, tidak usah macem-macem lah !');
             }
         }
-        return view('auths.login');
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('auths.loginMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('auths.login');
+        }
     }
     public function loginn()
     {
@@ -56,8 +61,14 @@ class AuthController extends Controller
     public function daftar()
     {
         // return view('auths.login');
-
-        return view('auths.register');
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('auths.registerMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('auths.register');
+        }
     }
     public function pendaftaran(Request $request)
     {
@@ -97,32 +108,36 @@ class AuthController extends Controller
 
     public function postlogin(Request $request)
     {
-        $credentials = $request->only('email', 'password');
+        $cre = $request->only('email', 'password');
+        if (Auth::attempt($cre)) {
+            //mengambil data siswa login
+            $siswalogin = $request->input('email');
+            $pisah_email = explode("@", $siswalogin);
+            $nisn = $pisah_email[0];
+            // $id_pesdik = \App\Pesdik::where('nisn', $nisn)->get();
+            // $id_pesdik_login = $id_pesdik->first();
 
-        if (Auth::attempt($credentials)) {
-            $siswaLogin = $request->input('email');
-            $nisn = explode("@", $siswaLogin)[0];
-            $role = Auth::user()->role;
+            // //data untuk ditampilkan ke dashboard
+            // $data_login = \App\Login::orderByRaw('created_at DESC')->limit(25)->get();
+            $data_admin = \App\User::where('role', "admin")->get();
+            // $data_petugas = \App\Tendik::all();
+            // $data_pengumuman = \App\Pengumuman::orderByRaw('created_at DESC')->limit(5)->get();
 
-            if ($role == 'user') {
-                $dataAdmin = User::where('role', 'admin')->get();
-                $youtube = Youtube::get();
-                $data = Video::get();
-                $berita = Berita::get();
-                return view('index', compact('dataAdmin', 'data', 'youtube', 'berita'));
-            } elseif ($role == 'admin') {
-                $dataAdmin = User::where('role', 'admin')->get();
-                $youtube = Youtube::get();
-                $data = Video::get();
-                $berita = Berita::get();
-                return view('dashboard', compact('dataAdmin', 'data', 'youtube', 'berita'));
-            }
+            //Riwayat Login
+            $email = $request->input('email');
+            // $id_pengguna = \App\User::select('name')->where('email', $email)->get();
+            // $pengguna_login = $id_pengguna->first();
+
+            // $login = new Login();
+            // $login->name   = $pengguna_login->name;
+            // $login->email   = $email;
+            // $login->save();
+            //EndRiwayat Login
+
+            return view('/dashboard', compact('data_admin'));
         }
-
         return redirect()->back()->with('error', 'Email atau Password salah!');
     }
-
-
     public function postemail(Request $request)
     {
         $cre = $request->only('email');
