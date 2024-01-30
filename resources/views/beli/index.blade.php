@@ -38,7 +38,7 @@
         <div class="row">
             <div class="col">
                 <h4><i class="nav-icon fas fa-child my-0 btn-sm-1"></i> Data Pembeli</h3>
-                <hr>
+                    <hr>
             </div>
         </div>
         <div>
@@ -53,15 +53,36 @@
                     <table class="table table-hover table-head-fixed" id='tabelAgendaMasuk'>
                         <thead>
                             <tr class="bg-light">
-                                <th>No.</th>
-                                {{-- <th>NIS</th> --}}
-                                <th><div style="width:110px;">Pembeli</div></th>
-                                {{-- <th><div style="width:110px;">Publish</div></th> --}}
-                                <th><div style="width:110px;">Paket</div></th>
-                                <th><div style="width:110px;">Harga</div></th>
-                                <th><div style="width:110px;">Voucher</div></th>
-                                <th><div style="width:110px;">hasil</div></th>
-                                {{-- <th><div style="width:110px;">alamat</div></th> --}}                               
+                                <th>
+                                    <div style="width:110px;">No.</td>
+                                </th>
+                                <th>
+                                    <div style="width:110px;">Nama</td>
+                                </th>
+                                <th>
+                                    <div style="width:110px;">Jenis Kelamin</div>
+                                </th>
+                                <th>
+                                    <div style="width:110px;">Email</div>
+                                </th>
+                                <th>
+                                    <div style="width:110px;">Nomer HP</div>
+                                </th>
+                                <th>
+                                    <div style="width:110px;">Kampus</div>
+                                </th>
+                                <th>
+                                    <div style="width:110px;">Jurusan</div>
+                                </th>
+                                <th>
+                                    <div style="width:110px;">Semester</div>
+                                </th>
+                                <th>
+                                    <div style="width:110px;">Foto Bukti Pembayaran</div>
+                                </th>
+                                <th>
+                                    <div style="width:110px;">Aksi</div>
+                                </th>
                             </tr>
                         </thead>
                         <tbody>
@@ -70,12 +91,36 @@
                             <?php $no++; ?>
                             <tr>
                                 <td>{{$no}}</td>
-                                <td>{{$beli->user}}</td>
-                                <td>{{$beli->paket}}</td>
-                                <td>{{$beli->harga}}</td>
-                                <td>{{$beli->voucher}}%</td>
-                                <td>{{$beli->harga - $beli->harga * $beli->voucher/100}}</td>                               
+                                <td>{{$beli->name}}</td>
+                                <td>{{$beli->jeniskelamin}}</td>
+                                <td>{{$beli->email}}</td>
+                                <td>{{$beli->nomer}}</td>
+                                <td>{{$beli->kampus}}</td>
+                                <td>{{$beli->id_jurusan}}</td>
+                                <td>{{$beli->semester}}</td>
+                                <td>
+                                    @if($beli->foto)
+                                    {{-- @if( in_array(pathinfo($beli->foto, PATHINFO_EXTENSION), ['png', 'jpg', 'JPEG'])) --}}
+                                    <img src="{{ asset('foto_upload/'.$beli->foto) }}" alt="" title="" style="height: 100px;width:150px;">
+                                    @else
+                                    <p>Tidak ada foto profil.</p>
+                                    @endif
+                                </td>
+                                <td>
+                                    <!-- <a href="{{ route('beli.edit', $beli->id) }}" class="btn btn-warning">Edit</a> -->
+                                    <form action="{{ route('beli.destroy', $beli->id) }}" method="POST" style="display: inline;">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class="btn btn-danger" onclick="return confirm('Yakin ingin menghapus?')">Hapus</button>
+                                        @if(session('sukses'))
+                                        <div class="alert alert-success">{{ session('sukses') }}</div>
+                                        @endif
+
+                                    </form>
+                                </td>
+                                <!-- <td>{{$beli->harga - $beli->harga * $beli->voucher/100}}</td> -->
                             </tr>
+
                             @endforeach
                         </tbody>
                     </table>

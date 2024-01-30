@@ -9,10 +9,9 @@ use Jenssegers\Agent\Agent;
 
 class PaymentController extends Controller
 {
-    private $idpayment = '';
-
     public function submitPayment(Request $request)
     {
+
         // Validation (add more as needed)
         $request->validate([
             'name' => 'required|string',
@@ -20,7 +19,7 @@ class PaymentController extends Controller
             'email' => 'required|email',
             'nomer' => 'required|string',
             'kampus' => 'required|string',
-            'id_jurusan' => 'required|string', // Assuming 'jurusans' is the table name for jurusan
+            'id_jurusan' => 'required|string',
             'semester' => 'required|string',
         ]);
 
@@ -37,16 +36,19 @@ class PaymentController extends Controller
             // Add other fields as needed
         ]);
 
-        // Set ID payment to be used in the next request
-        $this->idpayment = $payment->id;
+        // Store payment ID in the session
+        $request->session()->put('idpayment', $payment->id);
 
-        return view('bukti', ['idpayment' => $this->idpayment]);
+        // Return view with the payment ID
+        return view('bukti', ['idpayment' => $payment->id]);
     }
 
     public function foto(Request $request)
     {
         $request->validate([
-            'foto' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            // 'foto' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+            // 'foto' => 'required|image|max:2048',
+
         ]);
 
         $image = $request->file('foto');
@@ -65,7 +67,6 @@ class PaymentController extends Controller
         // Redirect with success message or any other logic
         return redirect()->route('mima')->with('success', 'Foto berhasil diunggah');
     }
-
     public function mima()
     {
         // Your 'mima' logic goes here

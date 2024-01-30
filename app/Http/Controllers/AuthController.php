@@ -183,6 +183,8 @@ class AuthController extends Controller
         return view('auths.gantipassword', compact('data_pengguna'));
     }
 
+
+
     public function simpanpassword(Request $request, $id)
     {
         $pengguna = User::findorfail($id);

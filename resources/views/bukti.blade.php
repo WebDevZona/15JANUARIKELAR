@@ -42,6 +42,44 @@
             /* Set your preferred background color */
         }
 
+        .kartu-kredit {
+            width: 300px;
+            background-color: #0055A4;
+            /* Warna BCA */
+            color: #FFFFFF;
+            /* Warna teks */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        /* Logo Bank */
+        .logo-bank {
+            width: 100px;
+            height: 30px;
+            margin-bottom: 10px;
+        }
+
+        /* Nomor Kartu */
+        .nomor-kartu {
+            font-size: 18px;
+            margin-bottom: 10px;
+            letter-spacing: 4px;
+            /* Spasi antar digit nomor kartu */
+        }
+
+        /* Nama Pemegang Kartu */
+        .nama-pemegang-kartu {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        /* Tanggal Kedaluwarsa */
+        .tanggal-kedaluwarsa {
+            font-size: 14px;
+        }
+
         .custom-backgroundsss {
             display: flex;
             align-items: center;
@@ -93,9 +131,24 @@
 
 <body>
     <div class="custom-backgroundsss">
-        <div class="maintenance-container">
-            <form class="row g-3" method="POST" action="{{ route('submit.bukti') }}" enctype="multipart/form-data">
+        <div class="kartu-kredit">
+            <img class="logo-bank" src="{{asset('assets/img/logo/BCA1.png')}}" alt="Logo Bank">
+            <div class="nomor-kartu">
+                1234 5678 9012 3456
+            </div>
+            <div class="nama-pemegang-kartu">
+                NAMA PEMEGANG KARTU
+            </div>
+            <div class="tanggal-kedaluwarsa">
+                THRU 12/23
+            </div>
+        </div>
+        <div class="">
 
+        </div>
+        <div class="maintenance-container" style="margin-left: 50px;">
+
+            <form class="row g-3" method="POST" action="{{ route('submit.bukti') }}" enctype="multipart/form-data">
                 @csrf
                 <div class="input-group">
                     <input type="file" class="form-control" name="foto" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
@@ -107,7 +160,7 @@
 
         </div>
     </div>
-</body>
+</body> 
 
 </html>
 @endsection

@@ -69,8 +69,24 @@ Route::post('/kirim-ulang-email', 'AuthController@kirimUlang')->name('proses-kir
 Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     Route::get('/kirimemail', 'MalasngodingController@index');
 
+    // Menampilkan daftar pembayaran
+    Route::get('/beli/index', 'BeliController@index')->name('beli.index');
 
-    Route::get('/beli/index', 'BeliController@index')->name('beli');
+    // Menampilkan form tambah pembayaran
+    Route::get('/beli/create', 'BeliController@create')->name('beli.create');
+
+    // Menyimpan data pembayaran baru
+    Route::post('/beli/store', 'BeliController@store')->name('beli.store');
+
+    // Menampilkan form edit pembayaran
+    Route::get('/beli/edit/{id}', 'BeliController@edit')->name('beli.edit');
+
+    // Menyimpan perubahan pada data pembayaran yang diedit
+    Route::put('/beli/update/{id}', 'BeliController@update')->name('beli.update');
+
+    // Menghapus data pembayaran
+    Route::delete('/beli/destroy/{id}', 'BeliController@destroy')->name('beli.destroy');
+
 
     Route::get('/siswa/index', 'SiswaController@index')->name('siswa');
     Route::get('/siswa/create', 'SiswaController@create');
@@ -439,6 +455,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
 
     Route::get('/', function () {
         return view('/dashboard');
+        Route::get('/dashboard', 'DashboardController@data')->name('dashboard.data');
     });
 
     Route::post('rekening', 'BeliController@pembeli')->name('rekening');
@@ -447,7 +464,13 @@ Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuan
     Route::get('/userview/paketbso', 'UserviewController@bso');
     Route::get('/userview/paketbmj', 'UserviewController@bmj');
 
+    // SAMPE SINI PASS ISTI
+    Route::get('/paket/konsultasi', 'paketController@paket');
+    Route::get('/paket/paketbso', 'paketController@bso');
+    Route::get('/paket/paketbmj', 'UserviewController@bmj');
+
     Route::get('/dashboard', 'DashboardController@index');
+
     // pembelian
     Route::get('/pengumuman/index', 'PengumumanController@index');
     Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
@@ -478,4 +501,3 @@ Route::post('/bukti', 'PaymentController@foto')->name('submit.bukti');
 Route::get('/mima', 'PaymentController@mima')->name('mima');
 
 // Route::post('/payment/{id}/foto', 'PaymentController@foto')->name('payment.foto');
-

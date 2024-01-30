@@ -591,7 +591,7 @@
             <div class="profile-slider">
                 <div class="profile" style="z-index: none !important;margin-bottom: -150px !important;">
                     <div class="gabung">
-                        <img class="profile-image" src="assets/img/bg/riska.png" alt="Gambar Profil" style="width: 300px !important; margin-left:250px !important; margin-top:10px !important;">
+                        <img class="profile-image" src="assets/img/bg/riska.png" alt="Gambar Profil" style="width: 300px !important; margin-left:250px !important; margin-top:30px !important;">
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="profile-info">
                             <!-- <h1>ELouis Patric</h1> -->
