@@ -70,9 +70,9 @@
                                 <th>
                                     <div style="width:110px;">Produk</div>
                                 </th>
-                                <th>
+                                <!-- <th>
                                     <div style="width:110px;">Foto</div>
-                                </th>
+                                </th> -->
                                 {{-- <th><div style="width:110px;">alamat</div></th>
                                 <th><div style="width:110px;">Jenis Kelamin</div></th> --}}
                                 <th>
@@ -92,14 +92,14 @@
                                 <td>{{$pengertianProduk->id_produk}}</td>
                                 {{-- <td>{{$pengertianProduk->publish}}</td>
                                 <td>{{$pengertianProduk->id_pengertianProduk}}</td> --}}
-                                <td>
+                                <!-- <td>
                                     @if($pengertianProduk->foto)
                                     {{-- @if( in_array(pathinfo($pengertianProduk->foto, PATHINFO_EXTENSION), ['png', 'jpg', 'JPEG'])) --}}
                                     <img src="{{ asset('foto_upload/'.$pengertianProduk->foto) }}" alt="" title="" style="height: 150px;width:100px;">
                                     @else
                                     <p>Tidak ada foto profil.</p>
                                     @endif
-                                </td>
+                                </td> -->
                                 <td>
                                     <center>
                                         <div class="ok" style="width:220px;">

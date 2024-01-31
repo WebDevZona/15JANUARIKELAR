@@ -484,4 +484,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
 
     // Menghapus data pembayaran
     Route::delete('/beli/destroy/{id}', 'BeliController@destroy')->name('beli.destroy');
+
+    Route::get('/auths/gantipassword/{id}', 'AuthController@gantipassword')->name('auths.gantipassword');
+    Route::post('/auths/{id}/simpanpassword', 'AuthController@simpanpassword');
 });

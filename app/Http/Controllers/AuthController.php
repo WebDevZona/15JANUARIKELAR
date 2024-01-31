@@ -105,11 +105,10 @@ class AuthController extends Controller
             $role = Auth::user()->role;
 
             if ($role == 'user') {
-                $dataAdmin = User::where('role', 'admin')->get();
                 $youtube = Youtube::get();
                 $data = Video::get();
                 $berita = Berita::get();
-                return view('index', compact('dataAdmin', 'data', 'youtube', 'berita'));
+                return view('index', compact('data', 'youtube', 'berita'));
             } elseif ($role == 'admin') {
                 $dataAdmin = User::where('role', 'admin')->get();
                 $youtube = Youtube::get();

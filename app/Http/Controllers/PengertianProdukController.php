@@ -53,12 +53,12 @@ class PengertianProdukController extends Controller
      */
     public function store(Request $request)
     {
-        $image           = $request->file('foto');
-        //mengambil nama image
-        $nama_image      = $image->getClientOriginalName();
+        // $image           = $request->file('foto');
+        // //mengambil nama image
+        // $nama_image      = $image->getClientOriginalName();
 
-        //memindahkan cover ke folder tujuan
-        $image->move('foto_upload', $image->getClientOriginalName());
+        // //memindahkan cover ke folder tujuan
+        // $image->move('foto_upload', $image->getClientOriginalName());
         $PengertianProduk = new PengertianProduk;
         // $Produk->foto          = $nama_image;
         $PengertianProduk->judul             = $request->input('judul');
@@ -66,7 +66,7 @@ class PengertianProdukController extends Controller
         // $PengertianProduk->foto          = $request->input('foto');
         $PengertianProduk->ket         = $request->input('ket');
         $PengertianProduk->id_produk         = $request->input('produk');
-        $PengertianProduk->foto          = $nama_image;
+        // $PengertianProduk->foto          = $nama_image;
         $PengertianProduk->save();
         return redirect()->route('PengertianProduk')->with('sukses', 'Data PengertianProduk Berhasil Ditambah');
     }
@@ -120,17 +120,17 @@ class PengertianProdukController extends Controller
         $PengertianProduk->isi             = $request->input('isi');
         // $PengertianProduk->foto          = $request->input('foto');
         $PengertianProduk->ket         = $request->input('ket');
-        $PengertianProduk->id_produk         = $request->input('id_produk');
+        // $PengertianProduk->id_produk         = $request->input('id_produk');
         // $PengertianProduk->publish   = $request->input('publish');
-        if ($request->file('foto') == "") {
-            $PengertianProduk->foto = $PengertianProduk->foto;
-        } else {
+        // if ($request->file('foto') == "") {
+        //     $PengertianProduk->foto = $PengertianProduk->foto;
+        // } else {
 
-            $file       = $request->file('foto');
-            $fileName   = $file->getClientOriginalName();
-            $request->file('foto')->move("foto_pengetrian/", $fileName);
-            $Produk->foto = $fileName;
-        }
+        //     $file       = $request->file('foto');
+        //     $fileName   = $file->getClientOriginalName();
+        //     $request->file('foto')->move("foto_pengetrian/", $fileName);
+        //     $Produk->foto = $fileName;
+        // }
         $PengertianProduk->update();
 
         // $data->cover = $cover;

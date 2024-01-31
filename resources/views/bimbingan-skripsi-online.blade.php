@@ -657,7 +657,7 @@
                                                 </li>
                                             </ul>
                                             <div class="custom-btn-wrap" style="margin-top:-6%">
-                                                <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
+                                                <a href="/pembelian/apahayooo" class="custom-btn-buy">Daftar Sekarang</a>
                                             </div>
                                         </div>
                                     </div>
@@ -707,7 +707,7 @@
                                                 </li>
                                             </ul>
                                             <div class="custom-btn-wrap" style="margin-top:-2%">
-                                                <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
+                                                <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
                                             </div>
                                         </div>
                                     </div>

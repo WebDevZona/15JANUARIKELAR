@@ -66,9 +66,9 @@
                     <option value="ya">Ya</option>
                     <option value="tidak">Tidak</option>
                     </select> --}}
-                    <label for="foto">foto</label>
+                    <!-- <label for="foto">foto</label>
                     <input value="{{$PengertianProduk->foto}}" name="foto" type="file" class="form-control" id="nama" placeholder="{{$PengertianProduk->foto}}">
-                    <img src="{{ asset('foto_upload/'.$PengertianProduk->foto) }}" alt="" title="" style="height: 150px;width:100px;">
+                    <img src="{{ asset('foto_upload/'.$PengertianProduk->foto) }}" alt="" title="" style="height: 150px;width:100px;"> -->
                 </div>
             </div>
             <hr>

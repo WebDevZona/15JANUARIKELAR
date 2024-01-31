@@ -60,8 +60,8 @@
                                 <th><div style="width:110px;">Harga buat di coret</div></th>
                                 <th><div style="width:110px;">Harga</div></th>
                                 <th><div style="width:110px;">Paket</div></th>
-                                <th><div style="width:110px;">Foto</div></th>
-                                <th><div style="width:110px;">status</div></th>
+                                <!-- <th><div style="width:110px;">Foto</div></th>
+                                <th><div style="width:110px;">status</div></th> -->
                                 <th><center> Aksi</center></th>
                             </tr>
                         </thead>
@@ -76,7 +76,7 @@
                                 <td>{{$produk->harga}}</td>
                                 <td>{{$produk->produk}}</td>
                                 {{-- <td>{{$produk->nama_produk}}</td> --}}
-                                <td>
+                                <!-- <td>
                                     @if($produk->foto)
                                     {{-- @if( in_array(pathinfo($produk->foto, PATHINFO_EXTENSION), ['png', 'jpg', 'JPEG'])) --}}
                                     <img src="{{ asset('foto_upload/'.$produk->foto) }}" alt="" title=""style="height: 150px;width:100px;">
@@ -92,7 +92,7 @@
                                                 {{ $produk->publish === 'ya' ? 'Publish' : 'Unpublish' }}
                                             </button>
                                         </form>
-                                    </td>
+                                    </td> -->
                                 {{-- <td>{{$produk->jenis_kelamin}}</td> --}}
                                 <td>
                                     <center>

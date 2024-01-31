@@ -73,8 +73,8 @@
                     <input value="{{old('produk')}}" name="produk" type="text" class="form-control" id="produk" placeholder="produk" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                     <!-- <label for="produk">Paket</label>
                     <input value="{{old('')}}" name="ket" type="text" class="form-control" id="ket" placeholder="Paket" required oninvalid="this.setCustomValidity('Nama Produk Harus Sama Dengan Nama Paket Di Produk!')" oninput="setCustomValidity('')"> -->
-                    <label for="foto">Foto</label>
-                    <input value="{{old('foto')}}" name="foto" type="file" class="form-control" id="foto" placeholder="foto" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    <!-- <label for="foto">Foto</label>
+                    <input value="{{old('foto')}}" name="foto" type="file" class="form-control" id="foto" placeholder="foto" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')"> -->
                 </div>
             </div>
             <hr>

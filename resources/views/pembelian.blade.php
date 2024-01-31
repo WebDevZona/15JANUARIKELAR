@@ -231,7 +231,9 @@
                 {{-- <p>Pilih yang sesuai kebutuhan kamu</p> --}}
                 <div class="package">
                     <div class="package-details">
-                        <h3>Paket: {{ $id_pesdik_login->id_produk }} </h3>
+                        <!-- <h3>Paket: {{ $id_pesdik_login->id_produk }} </h3> -->
+                        <h3> Paket: {{ $Produk->nama_produk }}</h3>
+
                         {{-- <p>Waktu: 75 Menit</p>
                         <p>Metode: Via Voice Call/Chat</p> --}}
                         <ul class="features">
@@ -246,7 +248,7 @@
                     </div>
                     <div class="price">
                         <p>
-                            @if(isset($Produk) && is_object($Produk))       
+                            @if(isset($Produk) && is_object($Produk))
                             <del style="color: #999;">Rp{{ $Produk->harga1 }}</del>
                         <div style="font-size: 22px; color: #000; font-weight: bold;">Rp{{ $Produk->harga }}</div>
                         @else
