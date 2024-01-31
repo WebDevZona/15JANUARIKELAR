@@ -91,7 +91,7 @@
                     </div>
                 </div>
 
-                <div style="width: 100%; text-align: center; color: #09326F; font-size: 60px; font-family: Montserrat; font-weight: 800; line-height: 81.25px; word-wrap: break-word; margin-top: 20px; margin-left: 20px;">Bimbingan Mata<br />Kuliah Jurusan (BMJ)</div>
+                <div style="width: 100%; text-align: center; color: #09326F; font-size: 60px; font-family: Montserrat; font-weight: 800; line-height: 70px; word-wrap: break-word; margin-top: 20px; margin-left: 20px;">Bimbingan Mata<br />Kuliah Jurusan (BMJ)</div>
 
                 <div style="width: 600px; margin-left: 50px; height: 100%; margin-top: 5px; text-align: center; color: #202020; font-size: 20px; font-family: Montserrat; font-weight: 500; line-height: 20px; word-wrap: break-word; margin: 0 auto;">
                 </div>

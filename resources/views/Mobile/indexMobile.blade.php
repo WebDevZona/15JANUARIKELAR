@@ -489,8 +489,8 @@ margin-left:-10px;
                                 <table class="table table-no-border">
                                     <thead>
                                         <tr>
-                                            <th scope="col">1 Sesi</th>
-                                            <th scope="col">1 Jam Konsultasi</th>
+                                            <th scope="col">14 Hari</th>
+                                            <th scope="col">12 Jam Konsultasi</th>
                                         </tr>
                                     </thead>
                                 </table>
