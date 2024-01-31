@@ -7,10 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 class Produk extends Model
 {
     protected $table = 'produk';
-    
-    protected $fillable = ['nama_produk', 'produk','publish', 'harga', 'foto'];
+
+    protected $fillable = ['nama_produk', 'produk', 'harga'];
     public function pengertianproduk()
     {
-      return $this->hasMany('App\PengertianProduk');
+        return $this->hasMany('App\PengertianProduk');
     }
 }

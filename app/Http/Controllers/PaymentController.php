@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Closure;
 use App\Payment;
 use Illuminate\Http\Request;
 use Midtrans\Config;
@@ -72,4 +73,13 @@ class PaymentController extends Controller
         // Your 'mima' logic goes here
         return view('mima');
     }
+
+    // public function handle($request, Closure $next)
+    // {
+    //     if (auth()->user() && auth()->user()->hasRole('user')) {
+    //         return $next($request);
+    //     }
+
+    //     return redirect('/');  // Make sure this redirection makes sense
+    // }
 }

@@ -51,14 +51,14 @@
                     <label for="harga">Harga</label>
                     <input value="{{$Produk->harga}}" name="harga" type="text" class="form-control" id="harga" placeholder="harga" >
                     <label for="publish">Status</label>
-                    <select name="publish" id="publish" class="form-control bg-light" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    <!-- <select name="publish" id="publish" class="form-control bg-light" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                         <option value="{{$Produk->publish}}">{{$Produk->publish}}</option>
                         <option value="ya">Publish</option>
                         <option value="tidak">Non Publish</option>
                     </select>
                     <label for="foto">foto</label>
                     <input value="{{$Produk->foto}}" name="foto" type="file" class="form-control" id="nama" placeholder="{{$Produk->foto}}" >
-                    <img src="{{ asset('foto_upload/'.$Produk->foto) }}" alt="" title=""style="height: 150px;width:100px;">
+                    <img src="{{ asset('foto_upload/'.$Produk->foto) }}" alt="" title=""style="height: 150px;width:100px;"> -->
                 </div>
             </div>
             <hr>

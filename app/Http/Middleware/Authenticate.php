@@ -12,9 +12,18 @@ class Authenticate extends Middleware
      * @param  \Illuminate\Http\Request  $request
      * @return string
      */
+    // protected function redirectTo($request)
+    // {
+    //     return route('index');
+    //     return route('dashboard');
+    // }
+
     protected function redirectTo($request)
     {
+        if ($request->user() && $request->user()->isAdmin()) {
+            return route('dashboard');
+        }
+
         return route('index');
-        return route('dashboard');
     }
 }

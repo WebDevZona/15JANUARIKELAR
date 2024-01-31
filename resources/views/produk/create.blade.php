@@ -45,18 +45,18 @@
                     <label for="nama_produk">Nama produk</label>
                     <input value="{{old('nama_produk')}}" name="nama_produk" type="text" class="form-control" id="nama_produk" placeholder="Nama produk" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                     <label for="publish">Status</label>
-                    <select name="publish" id="publish" class="form-control bg-light" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    <!-- <select name="publish" id="publish" class="form-control bg-light" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                         <option value="ya">Publish</option>
                         <option value="tidak">Non Publish</option>
-                    </select>
+                    </select> -->
                     <label for="harga1">harga buat di coret</label>
                     <input value="{{old('harga1')}}" name="harga1" type="text" class="form-control" id="harga1" placeholder="harga" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                     <label for="harga">Harga</label>
                     <input value="{{old('harga')}}" name="harga" type="text" class="form-control" id="harga" placeholder="harga" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                     <label for="produk">Paket</label>
                     <input value="{{old('produk')}}" name="produk" type="text" class="form-control" id="produk" placeholder="produk" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                    <label for="foto">Foto</label>
-                    <input value="{{old('foto')}}" name="foto" type="file" class="form-control" id="foto" placeholder="foto" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    <!-- <label for="foto">Foto</label>
+                    <input value="{{old('foto')}}" name="foto" type="file" class="form-control" id="foto" placeholder="foto" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')"> -->
 
                 </div>
             </div>

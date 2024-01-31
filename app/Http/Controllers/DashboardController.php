@@ -30,31 +30,4 @@ class DashboardController extends Controller
         $data_pengumuman = \App\Pengumuman::orderByRaw('created_at DESC')->limit(5)->get();
         return view('dashboard', compact('data_admin', 'data_login', 'data_pengumuman', 'data_petugas', 'id_pesdik_login'));
     }
-
-    public function data()
-    {
-        // Retrieve the data you want to pass to the view
-        $regulerData = [
-            'type' => 'Reguler',
-            'level' => 'Silver',
-            'price' => 'Rp 47.000',
-            'features' => [
-                '1 Sesi',
-                '1 Jam Konsultasi',
-                // Add other features as needed
-            ],
-            'descriptions' => [
-                'Topik penelitian.',
-                'Variabel penelitian.',
-                'Objek penelitian.',
-                'Judul penelitian.',
-                'Rumusan masalah penelitian.',
-                'Dasar teori berdasarkan variabel yang digunakan.',
-                // Add other descriptions as needed
-            ],
-        ];
-
-        // Pass the data to the view
-        return view('dashboard', compact('regulerData'));
-    }
 }

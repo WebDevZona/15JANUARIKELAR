@@ -476,7 +476,7 @@
                                     <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content5')"><b>PAKET COMPLETE</b></button>
                                 </li>
                             </ul>
-                        
+
                     </div>
 
                     <script>
@@ -890,7 +890,7 @@
                                                 </li>
                                             </ul>
                                             <div class="custom-btn-wrap" style="margin-top:-2%">
-                                                <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
+                                                <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
                                             </div>
                                         </div>
                                     </div> --}}

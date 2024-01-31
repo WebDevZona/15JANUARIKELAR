@@ -191,7 +191,7 @@
                             <i class="nav-icon fas fa-bars"></i>
 
                             <p>
-                                Produk
+                                Harga Produk
                             </p>
                         </a>
                     </li>
@@ -199,7 +199,7 @@
                         <a href="/pengertianProduk/index" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
                             <p>
-                                Pengertian Produk
+                                Deskripsi Produk
                             </p>
                         </a>
                     </li>

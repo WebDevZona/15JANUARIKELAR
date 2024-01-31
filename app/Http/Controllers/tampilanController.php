@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+
 use App\Video;
 use App\Youtube;
 use App\Berita;
@@ -72,12 +73,15 @@ class tampilanController extends Controller
     }
     public function bso()
     {
+        // $datas = Produk::get();
+            $productIds = Produk::pluck('id');
+
         if (Agent::isMobile()) {
             // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
-            return view('mobile/bimbingan-skripsi-onlineMobile');
+            return view('mobile/bimbingan-skripsi-onlineMobile',  compact('productIds'));
         } else {
             // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
-            return view('bimbingan-skripsi-online');
+            return view('bimbingan-skripsi-online',  compact('productIds'));
         }
     }
     public function kpk()

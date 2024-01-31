@@ -65,20 +65,20 @@ class ProdukController extends Controller
     public function store(Request $request)
     {
 
-        $image           = $request->file('foto');
-        //mengambil nama image
-        $nama_image      = $image->getClientOriginalName();
+        // $image           = $request->file('foto');
+        // //mengambil nama image
+        // $nama_image      = $image->getClientOriginalName();
 
-        //memindahkan cover ke folder tujuan
-        $image->move('foto_upload',$image->getClientOriginalName());
+        // //memindahkan cover ke folder tujuan
+        // $image->move('foto_upload',$image->getClientOriginalName());
             $Produk = new Produk;
-            $Produk->foto          = $nama_image;
+            // $Produk->foto          = $nama_image;
             $Produk->nama_produk             = $request->input('nama_produk');
             $Produk->produk             = $request->input('produk');
             $Produk->harga1             = $request->input('harga1');
             $Produk->harga             = $request->input('harga');
             // $Produk->ket        = $request->input('ket');
-            $Produk->publish   = $request->input('publish');
+            // $Produk->publish   = $request->input('publish');
             $Produk->save();
         return redirect()->route('produk')->with('sukses', 'Data Produk Berhasil Ditambah');
 
@@ -133,21 +133,21 @@ class ProdukController extends Controller
         // $Produk->foto          = $nama_image;
         $Produk->nama_produk             = $request->input('nama_produk');
         $Produk->produk             = $request->input('produk');
-        $Produk->publish   = $request->input('publish');
+        // $Produk->publish   = $request->input('publish');
         $Produk->harga1             = $request->input('harga1');
         $Produk->harga             = $request->input('harga');
-        if($request->file('foto') == "")
-        {
-           $Produk->foto =$Produk->foto;
-        }
-        else
-        {
+        // if($request->file('foto') == "")
+        // {
+        //    $Produk->foto =$Produk->foto;
+        // }
+        // else
+        // {
 
-            $file       = $request->file('foto');
-            $fileName   = $file->getClientOriginalName();
-            $request->file('foto')->move("foto_upload/", $fileName);
-           $Produk->foto = $fileName;
-        }
+        //     $file       = $request->file('foto');
+        //     $fileName   = $file->getClientOriginalName();
+        //     $request->file('foto')->move("foto_upload/", $fileName);
+        //    $Produk->foto = $fileName;
+        // }
         $Produk->update();
 
         // $data->cover = $cover;
