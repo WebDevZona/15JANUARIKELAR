@@ -1416,7 +1416,7 @@
         </section>
 
 
-        <section id="galeri" class="galeri" style="margin-top: -50px;">
+        <section id="galeri" class="galeri" style="margin-top: -50px; margin-bottom:-50px;">
             <div class="section-title "
                 style=" font-family: 'Roboto', sans-serif;
                                     text-transform: uppercase;
@@ -1476,83 +1476,83 @@
                 <p style="margin-left: 10px;">Cerita Sobat Insans</p>
                 <p1 style="margin-left: 10px;">Selama Bergabung di Class Program</p1>
                 <br>
-                <div class="profile-slider" style="margin-left: 10px;">
-                    <div class="profile">
+                <div class="profile-slider" style="margin-left: 10px; height:40% !important;">
+                    <div class="profile" style="margin-right: 0% !important">
                         <div class="gabung">
-                            <img class="profile-image" src="assets/img/team/team-2.jpg" alt="Gambar Profil">
+                            <img class="profile-image" src="assets/img/team/team-2.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto;">
                             <div class="profile-info">
-                                <h1>Yohanes Hernandes SYohan</h1>
-                                <p>" Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
+                                <h1 style="font-size:20px; margin-top:40px">Yohanes Hernandes SYohan</h1>
+                                <p style="font-size: 15px;">" Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
                                     gitu aja banyak ide muncul."</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="profile">
+                    {{-- <div class="profile">
                         <div class="gabung">
                             <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
-                                <h1>ELouis Patric</h1>
-                                <p>" Gan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
+                                <h1 style="font-size:20px;">ELouis Patric</h1>
+                                <p style="font-size: 15px;">" Gan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
                                     gitu aja banyak ide muncul."
                                 </p>
                             </div>
                             <!-- Tambahkan elemen tambahan di sini -->
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <div class="profile">
+                    {{-- <div class="profile">
                         <div class="gabung">
                             <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
-                                <h1>Adinda Cahayani Supriyanto</h1>
-                                <p>" Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan
+                                <h1 style="font-size:20px;">Adinda Cahayani Supriyanto</h1>
+                                <p style="font-size: 15px;">" Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan
                                     skripsi online yang berkualitas dan juga ramah dikantong."</p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
                     <!-- lanjutan -->
-                    <div class="profile">
+                    {{-- <div class="profile">
                         <div class="gabung">
                             <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
-                                <h1>Yola</h1>
-                                <p>"Saya merasa puas dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya
+                                <h1 style="font-size:20px;">Yola</h1>
+                                <p style="font-size: 15px;">"Saya merasa puas dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya
                                     selalu
                                     dikoreksi positif secara baik oleh kaka Mentor. BSO bagus sekali dan recommended
                                     untuk Mahasiswa."</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="profile">
+                    </div> --}}
+                    {{-- <div class="profile">
                         <div class="gabung">
                             <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
-                                <h1>Hildan Ramdani</h1>
-                                <p>"Halo Kak Dewi. Saya rutin ikut bimbingan, seminggu 3 kali. Dalam proses bimbingan, jujur
+                                <h1 style="font-size:20px;">Hildan Ramdani</h1>
+                                <p style="font-size: 15px;">"Halo Kak Dewi. Saya rutin ikut bimbingan, seminggu 3 kali. Dalam proses bimbingan, jujur
                                     saya
                                     sangat terbantu. Banyak hal yang saya tanyakan dan dapat terjawab oleh Mentor saya."</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="profile">
+                    </div> --}}
+                    {{-- <div class="profile">
                         <div class="gabung">
                             <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
-                                <h1>Azizah Nurul<< /h1>
-                                        <p>"Saya puas dengan bimbingannya kak. Awalnya saya tidak mengerti tahapan skripsi,
+                                <h1 style="font-size:20px;">Azizah Nurul</h1>
+                                        <p style="font-size: 15px;">"Saya puas dengan bimbingannya kak. Awalnya saya tidak mengerti tahapan skripsi,
                                             ketika mulai
                                             bimbingan, saya jadi mengerti hal-hal penting dan tahapan dalam pembuatan judul
                                             serta penentuan variabel. Terima kasih banyak."</p>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="profile-navigation">
                     <button id="prevProfile">
