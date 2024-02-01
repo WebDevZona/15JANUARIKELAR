@@ -434,7 +434,6 @@
                                 </thead>
                             </table>
                             <ul class="deskripsi" style="list-style: none;">
-                                {{-- <i class="fa-solid fa-check"></i> --}}
                                 <strong> Materi: </strong>
                                 <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Latar belakang.</li>
                                 <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Identifikasi masalah. </li>
