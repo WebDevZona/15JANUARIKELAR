@@ -47,8 +47,8 @@
     <section id="about" class="heada" style="background: url(assets/img/bg/utama.png);background-size: cover; ">
         <div class="container" data-aos="fade-up">
             <div class="section-title">
-                <h3 style="font-size:40px; font-family:Manrope !important; font-weight:900;">Pelatihan Skripsi</h3>
-                <p style="margin-top: -2px;font-family:Manrope !important; font-weight:300;">Home > Pelatihan Skripsi</p>
+                <h3 style="font-size:40px !important; font-family:Manrope !important; font-weight:900;">Pelatihan Skripsi</h3>
+                <p style="margin-top: -2px;font-family:Manrope !important;  font-size:15px;font-weight:400;">Home > Pelatihan Skripsi</p>
             </div>
         </div>
     </section>
@@ -60,7 +60,7 @@
                 <strong class="btn-get-started-skripsi1 scrollto" style="background: #3E87F8">CLASS PROGRAM</strong>
             </div>
             <div class="judulketiga-skripsi">
-                <h3 style="font-size: 50px; color:#FFF;">Pelatihan Skripsi</h3>
+                <h3 style="font-size: 40px; color:#FFF;">Pelatihan Skripsi</h3>
             </div>
             <h2 style="font-family: Montserrat;">Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh Mentor</h2>
         </div>

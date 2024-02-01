@@ -1047,27 +1047,56 @@
                 <div class="main_content floatleft">
                     <div class="left_coloum floatleft">
                         <h4 style="margin-bottom: 20px; font-size:18px">Rekomendasi video untukmu</h4>
-                        <div class="single_left_coloum_wrapper" id="scrollableColumn">
+                        <div class="single_left_coloum_wrapper" id="scrollableColumn" >
                             <div class="scrollable_left_coloum">
                                 @if ($berita->isNotEmpty())
                                     @foreach ($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
-                                        <div class="single_left_coloum" style="">
+                                        <div class="single_left_coloum" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
                                             <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link">
-                                                <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}"
-                                                    alt="Youtube Thumbnail" class="thumbnail" />
-                                                <svg class="play-icon" style="top: 55% !important;"
-                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" class="thumbnail" />
+                                                <svg class="play-icon" style="top: 55% !important;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                                     <path d="M8 5v14l11-7z" />
                                                 </svg>
-
                                             </a>
-                                            <p style="color:black; font-size: 12px !important;">Video : <span
-                                                    style="color:black;font-size: 12px !important;  ">{{ $penegnbalikcuk->judul }}</span>
-                                            </p>
+                                            <p style="color: black; font-size: 12px !important;">Video: <span style="color: black; font-size: 12px !important;">{{ $penegnbalikcuk->judul }}</span></p>
+                                            <p id="duration_{{ $penegnbalikcuk->id }}" style="color: black; font-size: 12px !important;"></p>
                                         </div>
+                            
+                                        <script>
+                                            // Fetch and display YouTube video duration
+                                            function fetchVideoDuration(videoId, elementId) {
+                                                var apiKey = 'AIzaSyA51N396Cy-PFqNBYqnbnfSu2ax9eGS-P0';
+                                                var apiUrl = 'https://www.googleapis.com/youtube/v3/videos';
+                            
+                                                // Make a request to YouTube Data API
+                                                fetch(apiUrl + '?id=' + videoId + '&key=' + apiKey + '&part=contentDetails')
+                                                    .then(response => response.json())
+                                                    .then(data => {
+                                                        // Parse the ISO 8601 duration format and display it
+                                                        var duration = parseISO8601Duration(data.items[0].contentDetails.duration);
+                                                        document.getElementById(elementId).innerText = 'Duration: ' + duration;
+                                                    })
+                                                    .catch(error => console.error('Error fetching video duration:', error));
+                                            }
+                            
+                                            // Function to parse ISO 8601 duration format
+                                            function parseISO8601Duration(duration) {
+                                                var match = duration.match(/PT(\d+H)?(\d+M)?(\d+S)?/);
+                            
+                                                var hours = (parseInt(match[1]) || 0);
+                                                var minutes = (parseInt(match[2]) || 0);
+                                                var seconds = (parseInt(match[3]) || 0);
+                            
+                                                return (hours > 0 ? hours + 'h ' : '') + (minutes > 0 ? minutes + 'm ' : '') + (seconds > 0 ? seconds + 's' : '');
+                                            }
+                            
+                                            // Call the fetchVideoDuration function for each video
+                                            fetchVideoDuration('{{ $penegnbalikcuk->youtube_video_id }}', 'duration_{{ $penegnbalikcuk->id }}');
+                                        </script>
                                     @endforeach
                                 @endif
                             </div>
+                                                     
                         </div>
                         <span class="left-scroll-button" onclick="customScrollLeft()">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35"
@@ -1116,7 +1145,7 @@
                                 </defs>
                             </svg>
                         </span>
-                        <hr style="border: 2px solid rgba(0, 0, 0, 0.48);  margin-top:-10px;">
+                        <hr style="border: 2px solid rgba(0, 0, 0, 0.48);  margin-top:-5px;">
 
                         <style>
                             .single_left_coloum {
@@ -1136,7 +1165,7 @@
                                 transform: translate(-50%, -50%);
                                 width: 60px;
                                 height: 60px;
-                                fill: #fff;
+                                fill: #000000;
                                 transition: opacity 0.3s ease-in-out;
                                 opacity: 0;
                             }
@@ -1155,9 +1184,10 @@
                             @if ($berita->isNotEmpty())
                                 @foreach ($data->sortByDesc('created_at')->take(10) as $video)
                                     <a href="{{ $video->tampilan }}" style="text-decoration: none; color: black;">
-                                        <div class="single_left_coloum">
+                                        <div class="single_left_coloum"  style="    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Bayangan dengan warna biru lebih gelap */
+                                        ">
                                             <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail"
-                                                style="width: 150px !important; height:200px !important;" />
+                                                style="width: 100% !important; height:200px !important;" />
                                             <svg class="play-iconn" xmlns="http://www.w3.org/2000/svg"
                                                 viewBox="0 0 24 24">
                                                 <path d="M8 5v14l11-7z" />
@@ -1271,7 +1301,7 @@
                             @if ($berita->isNotEmpty())
                                 @foreach ($berita->sortByDesc('created_at')->take(3) as $item)
                                     <div class="content_wrapper">
-                                        <div class="left_content">
+                                        <div class="left_content" >
                                             <h3>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23"
                                                     viewBox="0 0 18 23" fill="none"
@@ -1303,7 +1333,8 @@
                                                 {{ $item->waktu }}
                                             </p>
                                         </div>
-                                        <div class="right_content">
+                                        <div class="right_content"  style="    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Bayangan dengan warna biru lebih gelap */
+                                        ">
                                             <img src="{{ asset('foto_upload/' . $item->foto) }}"
                                                 style="    border-radius: 10px;" alt="Youtube Thumbnail" />
                                         </div>
@@ -1366,7 +1397,35 @@
 .testibaru .pyoutube {
     position: relative;
     z-index: 2;
+    width: 80%;
 }
+
+.yutup{
+    background: url('assets/img/bg/yutup.png'); /* Replace 'your-image-url.jpg' with the actual URL of your image */
+    background-size: cover; /* Adjust this property based on your needs */
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    transition: transform 0.5s ease;
+    /* min-height: 280px; */
+    color: #fff;
+    font-family: Manrope;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    justify-content: center;
+    margin-left: 100px;
+
+   
+}
+.yutup:hover {
+    transform: scale(1.1); /* Efek zoom pada hover */
+}
+
 
 </style>
 
@@ -1377,15 +1436,15 @@
                 <img src="assets/img/bg/bg_biru_setengah.png" alt="" style="height: 40vh; width: 100%; object-fit: cover;    margin-top: 150px;
                 ">
             </div>
-            <div class="pyoutube" style="margin-top: -200px;">
+            <div class="pyoutube" style="margin-top: -200px;, ">
                 <br>
-                <div class="youtubeeeeeee">
+                <div class="yutup">
                     <div class="gabung"
                         {{-- style="background: url(assets/img/bg/bgyou.png); position: absolute;  width: 1100px; height: 300px; margin-top:-40px; margin-left:-30px;  border-radius: 25px;"--}}>
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="info">
                             <h1
-                                style="margin-left:150px; text-align: center; color: #FFF; font-family: Poppins; font-size: 35px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">
+                                style="margin-left:150px; text-align: center; color: #FFF; font-family: Poppins; font-size: 30px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">
                                 Lebih Dekat dengan Class Program</h1>
                             <style>
                                 .btnyt:hover .yt {
@@ -1399,12 +1458,12 @@
 
                             <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt">
                                 <div
-                                    style="display: inline-block; position: relative; margin-left: 450px; margin-top: -800px;">
+                                    style="display: inline-block; position: relative; margin-left: 380px; ">
                                     <div class="yt" style="text-align: center;">
                                         <div
-                                            style="margin-top:20px; width: 80px; height: 80px; margin-left: 35px;  border-radius: 50%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                                            style=" width: 60px; height: 60px; margin-left: 35px;  border-radius: 50%; background-color: white; position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);">
                                         </div>
-                                        <i style="text-align: center; margin-top:20px; position: absolute; top: 35%;  margin-left: 35px; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;"
+                                        <i style="text-align: center;  position: absolute; top: 20%;  margin-left: 35px; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 30px;"
                                             class="bx bxl-youtube"></i>
                                     </div>
                                 </div>
