@@ -1370,7 +1370,7 @@
 
 </style>
 
-      
+
 
         <section id="testibaru" class="testibaru section-bg " style="margin-bottom:-100px;">
             <div id="background-image">
@@ -1381,7 +1381,7 @@
                 <br>
                 <div class="youtubeeeeeee">
                     <div class="gabung"
-                        {{-- style="background: url(assets/img/bg/bgyou.png); position: absolute;  width: 1100px; height: 300px; margin-top:-40px; margin-left:-30px;  border-radius: 25px;"--}}> 
+                        {{-- style="background: url(assets/img/bg/bgyou.png); position: absolute;  width: 1100px; height: 300px; margin-top:-40px; margin-left:-30px;  border-radius: 25px;"--}}>
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="info">
                             <h1

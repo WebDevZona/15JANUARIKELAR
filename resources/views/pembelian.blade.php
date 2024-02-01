@@ -238,8 +238,8 @@
                         <p>Metode: Via Voice Call/Chat</p> --}}
                         <ul class="features">
                             <li>{!! $id_pesdik_login->isi !!}</li>
-                            <p>untuk mendapatkan potongan 50%,gunakan kupon-></p>
-                            <p>hanya berlaku untuk pembelian kelas/ transaksi</p>
+                            <!-- <p>untuk mendapatkan potongan 50%,gunakan kupon-></p>
+                            <p>hanya berlaku untuk pembelian kelas/ transaksi</p> -->
                             {{-- <li>✔ Tes Minat Karier</li>
                     <li>✔ PDF Interpretasi Hasil Tes</li>
                     <li>✔ Lembar Kerja (Worksheet) yang didesain khusus untuk membantu permasalahanmu</li> --}}

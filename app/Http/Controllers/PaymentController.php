@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Produk;
 use Closure;
 use App\Payment;
 use Illuminate\Http\Request;
@@ -40,8 +41,15 @@ class PaymentController extends Controller
         // Store payment ID in the session
         $request->session()->put('idpayment', $payment->id);
 
+        $productIds = Produk::pluck('id');
+        $products = Produk::whereIn('id', $productIds)->get();
+
+        return view('bukti', ['idpayment' => $payment->id, 'products' => $products]);
+
+        // $productIds = Produk::pluck('id');
+        // return view('bukti', ['idpayment' => $payment->id, 'productIds' => $productIds]);
         // Return view with the payment ID
-        return view('bukti', ['idpayment' => $payment->id]);
+        // return view('bukti', ['idpayment' => $payment->id], 'productIds');
     }
 
     public function foto(Request $request)

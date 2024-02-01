@@ -50,10 +50,10 @@
         </style>
         <div class="wa" style="text-align: center; width: 100%; margin-top:-100px; color:FFF;">
             <div style="margin-left: 30%; margin-top: -70px; margin-bottom: -450px; transform: translateX(-50%);">
-                <p class="mt-4" style="font-size: 50px; margin-bottom: 0px; color:FFF;"><b>Silahkan Konfirmasi</b> <br> Pembayaran Melalui Minma </p>
-                <a href="/login" style="text-decoration: none;">
-                    <div style="width: 300px; padding: 10px; background: #FFF; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
-                        <div style="letter-spacing: 1px; width: 500px; color: blue; font-size: 25px; font-family: Montserrat; font-weight: 600; line-height: 37.50px; word-wrap: break-word">
+                <p class="mt-4" style="font-size: 30px; margin-bottom: 0px; color:FFF;"><b>Silahkan Konfirmasi</b> <br> Pembayaran Melalui Minma </p>
+                <a href="javascript:void(0);" onclick="openWhatsApp()" style="text-decoration: none; margin-top:30px;">
+                    <div style="width: 300px; padding: 10px; margin-top:30px; background: #FFF; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                        <div style="letter-spacing: 1px; width: 500px; color: blue; font-size: 20px; font-family: Montserrat; font-weight: 600; line-height: 37.50px; word-wrap: break-word">
                             Pesan Sekarang
                             <img style="width: 50px;" src="assets/img/logo/wa2.png" alt="">
                         </div>
@@ -61,7 +61,18 @@
                 </a>
             </div>
         </div>
+        <script>
+            function openWhatsApp() {
+                var message =
+                    "Hallo Minma. Saya mau tanya-tanya nih mengenai Program Kelas di Class Program."; // Pesan yang ingin Anda kirim
+                var phoneNumber = "6281234361959"; // Nomor WhatsApp yang dituju (tanpa tanda '+')
 
+                // Membuat URL untuk mengarahkan pengguna ke halaman WhatsApp
+                var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+
+                window.open(whatsappURL, "_blank");
+            }
+        </script>
     </section>
 
     <!-- <div class="row ml-5 mr-5 mt-5 mb-5">

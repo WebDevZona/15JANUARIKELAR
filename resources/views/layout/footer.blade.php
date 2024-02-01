@@ -70,9 +70,12 @@
 
                 <div class="col-lg-4 col-md-3 ml-auto">
                     <div class="social-links" style="text-align: right;">
-                        <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style=" padding: 10px;"><i class="bx bxl-youtube"></i></a>
-                        <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle" style=" padding: 10px;"><i class="bx bxl-tiktok"></i></a>
-                        <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle" style=" padding: 10px;"><i class="bx bxl-instagram"></i></a>
+                        <!-- <a href="assets/img/logo/yt.jpg" class="youtube rounded-circle" style=" padding: 10px;"></a><img src="assets/img/logo/yt.png" style="border-radius: 50%;" alt=""> -->
+                        <img src="assets/img/logo/yt.png" class="youtube rounded-circle" style="border-radius: 100%;  width: 50px;" alt="">
+                        <img src="assets/img/logo/instagram.webp" class="youtube rounded-circle" style="border-radius: 100%; width: 50px;" alt="">
+                        <img src="assets/img/logo/tiktok.png" class="youtube rounded-circle" style="border-radius: 100%; width: 50px;  " alt="">
+                        <!-- <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle" style=" padding: 10px;"></a>
+                        <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle" style=" padding: 10px;"></a> -->
                     </div>
                 </div>
                 <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1" style=" stroke: #003EB5;

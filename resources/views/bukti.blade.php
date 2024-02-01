@@ -130,7 +130,7 @@
 @section('content')
 
 <body>
-    <div class="custom-backgroundsss">
+    <!-- <div class="custom-backgroundsss">
         <div class="kartu-kredit">
             <img class="logo-bank" src="{{asset('assets/img/logo/BCA1.png')}}" alt="Logo Bank">
             <div class="nomor-kartu">
@@ -159,8 +159,143 @@
             </form>
 
         </div>
+    </div> -->
+    <div class="card ml-5 mt-5 mb-5" style=" width: 50rem; height: 50rem; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius: 20px 0px 20px 0px; border-top: 5px solid #1b5cc5; border-bottom: 5px solid #1b5cc5;">
+        <div class="card-body">
+            <h1 class="card-title" style="margin-top:10px; color: var(--Midnight-Blue-950, #09326F); font-weight: 800; text-align: center;">Unggah Bukti Pembayaran</h1>
+            <div class="row" style="margin-top:60px;">
+                <div class="col-sm-6">
+                    <div class="">
+                        <div class="card-body">
+                            <b> <span>Program: {{ $products->first()->produk }}</span> <br>
+                                <span>Paket: {{ $products->first()->nama_produk }}</span> <br>
+                                <span>Harga: ${{ number_format($products->first()->harga, 2) }}</span></b>
+                            <table class="table" style="font-size:14px; color: #000; font-family: Roboto;">
+                                <tbody>
+                                    <tr>
+                                        <td>Recipient</td>
+                                        <td>ARIEF WAHDAN ALFHAT</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bank Destination</td>
+                                        <td>BCA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Account Number</td>
+                                        <td>8930462013</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Transaction ID</td>
+                                        <td>2435GASFD7523</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="">
+                        <div class="card-body" style="border-top: 2px dashed #1b5cc5; border-bottom: 2px dashed #1b5cc5;">
+                            <table class="table" style="font-size:14px; color: #000; font-family: Roboto;">
+                                <tbody>
+                                    <tr>
+                                        <td>Recipient</td>
+                                        <td>ARIEF WAHDAN ALFHAT</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bank Destination</td>
+                                        <td>BCA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Account Number</td>
+                                        <td>8930462013</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Transaction ID</td>
+                                        <td>2435GASFD7523</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- upload -->
+            <form class="row g-3" method="POST" action="{{ route('submit.bukti') }}" enctype="multipart/form-data">
+                @csrf
+                <div class="card text-center" style="margin-top: 50px; border-style: dashed;" ondragover="allowDrop(event)" ondrop="handleDrop(event)">
+                    <style>
+                        .form-control {}
+
+                        .existing-content {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    </style>
+
+
+
+                    <div class="card-body">
+                        <!-- Existing content container -->
+                        <div class="card-container" ondragover="allowDrop(event)" ondrop="handleDrop(event)">
+                            <div class="existing-content">
+                                <img src="assets/img/logo/Upload.png" style="width: 100px;" alt="">
+                                <h5 class="card-title">Upload </h5>
+                                <div class="input-group">
+                                    <input type="file" class="form-control" name="foto" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
+                                </div>
+                                <br>
+                                <p class="card-text">Supported formats: JPEG, PNG, JPG</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                        function allowDrop(event) {
+                            event.preventDefault();
+                        }
+
+                        function handleDrop(event) {
+                            event.preventDefault();
+
+                            var files = event.dataTransfer.files;
+
+                            // Handle the dropped files
+                            handleFiles(files);
+                        }
+
+                        function handleFiles(files) {
+                            // You need to implement your logic to handle the files
+                            // For demonstration purposes, let's upload the file using AJAX
+
+                            var formData = new FormData();
+                            formData.append('file', files[0]);
+
+                            // Perform AJAX upload
+                            var xhr = new XMLHttpRequest();
+                            xhr.open('POST', '/upload-endpoint', true);
+                            xhr.onload = function() {
+                                if (xhr.status === 200) {
+                                    console.log('File uploaded successfully');
+                                } else {
+                                    console.error('File upload failed');
+                                }
+                            };
+                            xhr.send(formData);
+                        }
+                    </script>
+
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                    Upload Bukti
+                </button>
+            </form>
+
+        </div>
     </div>
-</body> 
+</body>
 
 </html>
 @endsection
