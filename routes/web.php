@@ -41,8 +41,6 @@ Route::get('/sendmail', 'EmailController@index');
 Route::get('/login', 'AuthController@login')->name('login');
 // Route::get('/register', 'AuthController@loginn')->name('loginn');
 Route::post('/postlogin', 'AuthController@postlogin');
-Route::get('/forgot-password', 'AuthController@loginn')->name('loginn');
-Route::post('/forgot-password', 'AuthController@postemail');
 Route::get('/register', 'AuthController@daftar')->name('daftar');
 Route::post('/registration.submit', 'AuthController@pendaftaran')->name('registration.submit');
 Route::get('/logout', 'AuthController@logout');
@@ -421,27 +419,6 @@ Route::group(['middleware' => ['auth', 'checkRole:Siswa']], function () {
     Route::get('/pembayaran/transaksipembayaran/{id}/siswaindex', 'TransaksiPembayaranController@siswaindex');
 });
 
-//Route untuk user
-Route::group(['middleware' => ['auth', 'checkRole:user']], function () {
-    Route::get('/', function () {
-        return view('/dashboard');
-    });
-    // Route::get('/', function () {
-    //     return view('/dashboard');
-    // });
-
-    // Route::get('/dashboard', 'DashboardController@index');
-    Route::get('/checkout/{id_produk}/{id}/{nama_voucher?}/{judulskripsi}/{problem}/{jurusan}', 'tampilanController@checkout')->name('checkout');
-    Route::get('/pembelian/{id_produk}', 'tampilanController@Pengertian')->name('pembelian');
-    Route::post('/pembayaran', 'PaymentController@submitPayment')->name('submit.payment');
-    Route::post('/bukti', 'PaymentController@foto')->name('submit.bukti');
-    Route::get('/mima', 'PaymentController@mima')->name('mima');
-    Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
-
-    Route::get('/pengumuman/index', 'PengumumanController@index');
-    Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
-});
-
 //Route untuk user Admin, Petugas Administrasi Surat, Petugas Administrasi Keuangan dan Siswa
 Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuangan,PetugasAdministrasiSurat,Siswa']], function () {
     Route::get('/auths/{id}/gantipassword', 'AuthController@gantipassword');
@@ -466,25 +443,46 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     Route::get('/pengumuman/index', 'PengumumanController@index');
     Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
 
-
     // Menampilkan daftar pembayaran
     Route::get('/beli/index', 'BeliController@index')->name('beli.index');
-
     // Menampilkan form tambah pembayaran
     Route::get('/beli/create', 'BeliController@create')->name('beli.create');
-
     // Menyimpan data pembayaran baru
     Route::post('/beli/store', 'BeliController@store')->name('beli.store');
-
     // Menampilkan form edit pembayaran
     Route::get('/beli/edit/{id}', 'BeliController@edit')->name('beli.edit');
-
     // Menyimpan perubahan pada data pembayaran yang diedit
     Route::put('/beli/update/{id}', 'BeliController@update')->name('beli.update');
-
     // Menghapus data pembayaran
     Route::delete('/beli/destroy/{id}', 'BeliController@destroy')->name('beli.destroy');
+});
+
+
+//Route untuk user
+Route::group(['middleware' => ['auth', 'checkRole:user']], function () {
+    Route::get('/', function () {
+        return view('/dashboard');
+    });
+    // Route::get('/', function () {
+    //     return view('/dashboard');
+    // });
+
+    // Route::get('/dashboard', 'DashboardController@index');
+    Route::get('/checkout/{id_produk}/{id}/{nama_voucher?}/{judulskripsi}/{problem}/{jurusan}', 'tampilanController@checkout')->name('checkout');
+    Route::get('/pembelian/{id_produk}', 'tampilanController@Pengertian')->name('pembelian');
+    Route::post('/pembayaran', 'PaymentController@submitPayment')->name('submit.payment');
+    Route::post('/bukti', 'PaymentController@foto')->name('submit.bukti');
+    Route::get('/mima', 'PaymentController@mima')->name('mima');
+    Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
+
+    Route::get('/pengumuman/index', 'PengumumanController@index');
+    Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
 
     Route::get('/auths/gantipassword/{id}', 'AuthController@gantipassword')->name('auths.gantipassword');
     Route::post('/auths/{id}/simpanpassword', 'AuthController@simpanpassword');
+    Route::post('/postemail', 'AuthController@postemail');
+
+    Route::post('/proses-kirim-ulang-email', 'AuthController@prosesKirimUlangEmail')->name('proses-kirim-ulang-email');
+    Route::get('/forgot-password', 'AuthController@loginn')->name('loginn');
+    Route::post('/forgot-password', 'AuthController@postemail');
 });

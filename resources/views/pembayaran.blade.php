@@ -648,9 +648,9 @@
                         <h3 style="color: #333; margin-top:30px;">Details Pembayaran</h3>
                         <b> <span>Program: {{$Produk->produk}}</span> <br>
                             <span>Paket: {{$Produk->produk}}</span> <br>
-                            <span>Harga: ${{ number_format($Produk->harga, 2) }}</span></b>
+                            <span>Harga: {{ number_format($Produk->harga) }}</span></b>
                         <div class="order-total">
-                            <span>Total Harga: ${{ number_format($Produk->harga )}}</span> <br>
+                            <span>Total Harga: {{ number_format($Produk->harga )}}</span> <br>
                             <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
                             <div class="text-right" style="margin-left: 80%; marin-top:-20px">
                                 <button type="submit" class="btn btn-primary" style="width: 150px;">

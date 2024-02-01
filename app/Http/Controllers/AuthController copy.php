@@ -12,6 +12,9 @@ use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Jenssegers\Agent\Facades\Agent;
+use Illuminate\Auth\Notifications\ResetPassword;
+use Illuminate\Support\Facades\Password;
+
 
 class AuthController extends Controller
 {
@@ -140,6 +143,7 @@ class AuthController extends Controller
     }
     public function postemail(Request $request)
     {
+
         $cre = $request->only('email');
         if (Auth::attempt($cre)) {
             //mengambil data siswa login
@@ -171,8 +175,11 @@ class AuthController extends Controller
         return redirect()->back()->with('error', 'Email atau Password salah!');
     }
 
-    public function logout()
+    public function logout(Request $request)
     {
+        auth('web')->logout();
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
         Auth::logout();
         return redirect('/index');
     }
@@ -220,16 +227,18 @@ class AuthController extends Controller
     }
 
 
-    public function redirectToGoogle()
+    public function redirect()
     {
-        return Socialite::driver('google')->stateless()->redirect();
+
+        return Socialite::driver('google')->redirect();
     }
 
     public function handleGoogleCallback()
     {
 
         try {
-            $user = Socialite::driver('google')->stateless()->user();
+
+            $user = Socialite::driver('google')->user();
             // dd($user);
         } catch (\Exception $e) {
             return redirect('/login')->with('error', 'Try after some time');
@@ -261,20 +270,33 @@ class AuthController extends Controller
     }
 
 
-    public function prosesKirimEmail(Request $request)
-    {
-        $inputEmail = $request->input('email');
-        $user = User::where('email', $inputEmail)->first();
-        // $hallo=$user->email;
-        // dd($hallo);
-        if ($user) {
-            session(['email_sebelumnya' => $user->email]);
+    // public function prosesKirimEmail(Request $request)
+    // {
+    //     $inputEmail = $request->input('email');
+    //     $user = User::where('email', $inputEmail)->first();
+    //     // $hallo=$user->email;
+    //     // dd($hallo);
+    //     if ($user) {
+    //         session(['email_sebelumnya' => $user->email]);
 
-            Mail::to($user->email)->send(new lupapasword($user));
-            return redirect()->route('email');
-        } else {
-            return redirect()->back()->with('error', 'Email tidak ditemukan.');
-        }
+    //         Mail::to($user->email)->send(new lupapasword($user));
+    //         return redirect()->route('email');
+    //     } else {
+    //         return redirect()->back()->with('error', 'Email tidak ditemukan.');
+    //     }
+    // }
+
+    public function prosesKirimUlangEmail(Request $request)
+    {
+        $request->validate(['email' => 'required|email']);
+
+        $status = Password::sendResetLink(
+            $request->only('email')
+        );
+
+        return $status === Password::RESET_LINK_SENT
+            ? back()->with(['sukses' => __($status), 'emailSebelumnya' => $request->email])
+            : back()->withErrors(['error' => __($status)]);
     }
 
     public function tampilan()
