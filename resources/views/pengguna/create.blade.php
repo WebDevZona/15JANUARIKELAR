@@ -35,6 +35,11 @@
                         <option value="admin">Administrator</option>
                         <option value="user">User</option>
                     </select>
+                    <!-- <label for="role">Status</label>
+                    <select name="status" id="status" class="form-control bg-light" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                        <option value="ya">Aktif</option>
+                        <option value="tidak">Non Aktif</option>
+                    </select> -->
                 </div>
             </div>
             <hr>

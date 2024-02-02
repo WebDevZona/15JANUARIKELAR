@@ -214,138 +214,83 @@
 @extends('layout.header')
 @section('content')
 
+
 <body>
+    <div class="wokewoke">
+        <div class="containerr">
+            <h1>Pesan </h1>
+            <div class="step-containerr">
+                <div class="step left">1</div>
+                <div class="separator"></div>
+                <div class="step center">2</div>
+                <div class="separator"></div>
+                <div class="step right">3</div>
+            </div>
+            {{-- <h2>Pilih Daftar Paket</h2> --}}
+            {{-- <p>Pilih yang sesuai kebutuhan kamu</p> --}}
+            <div class="package">
+                <div class="package-details">
+                    <!-- <h3>Paket: {{ $id_pesdik_login->id_produk }} </h3> -->
+                    <h3> Paket: {{ $Produk->nama_produk }}</h3>
 
-    <body>
-        <div class="wokewoke">
-            <div class="containerr">
-                <h1>Pesan </h1>
-                <div class="step-containerr">
-                    <div class="step left">1</div>
-                    <div class="separator"></div>
-                    <div class="step center">2</div>
-                    <div class="separator"></div>
-                    <div class="step right">3</div>
-                </div>
-                {{-- <h2>Pilih Daftar Paket</h2> --}}
-                {{-- <p>Pilih yang sesuai kebutuhan kamu</p> --}}
-                <div class="package">
-                    <div class="package-details">
-                        <!-- <h3>Paket: {{ $id_pesdik_login->id_produk }} </h3> -->
-                        <h3> Paket: {{ $Produk->nama_produk }}</h3>
-
-                        {{-- <p>Waktu: 75 Menit</p>
+                    {{-- <p>Waktu: 75 Menit</p>
                         <p>Metode: Via Voice Call/Chat</p> --}}
-                        <ul class="features">
-                            <li>{!! $id_pesdik_login->isi !!}</li>
-                            <!-- <p>untuk mendapatkan potongan 50%,gunakan kupon-></p>
+                    <ul class="features">
+                        <li>{!! $id_pesdik_login->isi !!}</li>
+                        <!-- <p>untuk mendapatkan potongan 50%,gunakan kupon-></p>
                             <p>hanya berlaku untuk pembelian kelas/ transaksi</p> -->
-                            {{-- <li>✔ Tes Minat Karier</li>
+                        {{-- <li>✔ Tes Minat Karier</li>
                     <li>✔ PDF Interpretasi Hasil Tes</li>
                     <li>✔ Lembar Kerja (Worksheet) yang didesain khusus untuk membantu permasalahanmu</li> --}}
-                        </ul>
-                        {{-- <p>*pilih  </p> --}}
-                    </div>
-                    <div class="price">
-                        <p>
-                            @if(isset($Produk) && is_object($Produk))
-                            <del style="color: #999;">Rp{{ $Produk->harga1 }}</del>
-                        <div style="font-size: 22px; color: #000; font-weight: bold;">Rp{{ $Produk->harga }}</div>
-                        @else
-                        <!-- Handle case where $Produk is not set or not an object -->
-                        <span style="color: red;">Error: Invalid Product Data</span>
-                        @endif
-                        </p>
+                    </ul>
+                    {{-- <p>*pilih  </p> --}}
+                </div>
+                <div class="price">
+                    <p>
+                        @if(isset($Produk) && is_object($Produk))
+                        <del style="color: #999;">Rp{{ $Produk->harga1 }}</del>
+                    <div style="font-size: 22px; color: #000; font-weight: bold;">Rp{{ $Produk->harga }}</div>
+                    @else
+                    <!-- Handle case where $Produk is not set or not an object -->
+                    <span style="color: red;">Error: Invalid Product Data</span>
+                    @endif
+                    </p>
 
-                        @if(isset($id_pesdik_login) && is_object($id_pesdik_login))
-                        <a id="paket-link" href="{{ route('pembayaran', [
+                    @if(isset($id_pesdik_login) && is_object($id_pesdik_login))
+                    <a id="paket-link" href="{{ route('pembayaran', [
             'id_produk' => $id_pesdik_login->id_produk,
             'id' => auth()->id(),
             'nama_voucher' => isset($response->voucher) ? $response->voucher->nama : ''
         ]) }}">
-                            <button class="select-button">PILIH PAKET</button>
-                        </a>
-                        @else
-                        <!-- Handle case where $id_pesdik_login is not set or not an object -->
-                        <span style="color: red;">Error: Invalid id_pesdik_login Data</span>
-                        <a href="#" onclick="showLoginPopup()"><button class="select-button">PILIH PAKET</button></a>
-                        @endif
-                    </div>
-                </div><br>
+                        <button class="select-button">PILIH PAKET</button>
+                    </a>
+                    @else
+                    <!-- Handle case where $id_pesdik_login is not set or not an object -->
+                    <span style="color: red;">Error: Invalid id_pesdik_login Data</span>
+                    <a href="#" onclick="showLoginPopup()"><button class="select-button">PILIH PAKET</button></a>
+                    @endif
+                </div>
+            </div><br>
 
-                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-                <!-- untuk vocer -->
+            <!-- untuk vocer -->
 
-                <!-- <form method="post" action="{{ route('validateVoucher') }}" id="voucher-form">
+            <!-- <form method="post" action="{{ route('validateVoucher') }}" id="voucher-form">
                     @csrf
                     <p>Pakai voucher lebih hemat loh!</p>
                     <input type="text" name="voucher_code" id="voucher_code" placeholder="Kode Voucher">
                     <input type="submit" value="Submit">
                 </form> -->
-                <div id="voucher-result">
-                    <!-- Hasil validasi atau pesan kesalahan akan ditampilkan di sini -->
-                </div>
-                <div id="voucher-code-display">
-                    <!-- Kode voucher akan ditampilkan di sini setelah validasi -->
-                </div>
-                <!-- Kode JavaScript yang telah dimodifikasi -->
-                <script>
-                    $(document).ready(function() {
-                    $('#voucher-form').on('submit', function(e) {
-                            e.preventDefault();
-                            var voucherCode = $('#voucher_code').val();
-
-                            $.ajax({
-                                    type: "POST",
-                                    url: "{{ route('validateVoucher') }}",
-                                    data: {
-                                        _token: "{{ csrf_token() }}",
-                                        voucher_code: voucherCode
-                                    },
-                                    success: function(response) {
-                                        $('#voucher-result').html(response.message);
-                                        if (response.voucher) {
-                                            // Ubah atribut href dari elemen <a> dengan id "paket-link"
-                                            var newHref = "{{ route('pembayaran', [
-                                            'id_produk' => $id_pesdik_login - > id_produk,
-                                                'id' => auth() - > id(),
-                                                'nama_voucher' => '',
-                                        ])
-                                }
-                            }
-                            "; // Mulai dengan URL dasar
-
-                            if (response.voucher.nama) {
-                                // Jika ada nama voucher, tambahkan nama_voucher ke URL
-                                newHref += '?nama_voucher=' + response.voucher.nama;
-                            }
-
-                            // Set atribut href dengan URL yang baru
-                            $('#paket-link').attr('href', newHref);
-                        } else {
-                            $('#voucher-code-display').html('');
-                        }
-                    },
-                    error: function(xhr, status, error) {
-                        console.error(error);
-                    }
-                    });
-                    });
-                    });
-
-                    function showLoginPopup() {
-                        var popup = document.getElementById('loginPopup');
-                        popup.style.display = 'block';
-                    }
-
-                    function closeLoginPopup() {
-                        var popup = document.getElementById('loginPopup');
-                        popup.style.display = 'none';
-                    }
-                </script>
-    </body>
-
-    @endsection
+            <div id="voucher-result">
+                <!-- Hasil validasi atau pesan kesalahan akan ditampilkan di sini -->
+            </div>
+            <div id="voucher-code-display">
+                <!-- Kode voucher akan ditampilkan di sini setelah validasi -->
+            </div>
+            <!-- Kode JavaScript yang telah dimodifikasi -->
+      
+</body>
 
 </html>
+@endsection

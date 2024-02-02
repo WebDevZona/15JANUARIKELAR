@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\User;   
 use App\Pengumumancp;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -18,8 +19,8 @@ class PengumumancpController extends Controller
 
     public function index()
     {
-        
-        if(Auth::user()->level == 'admin') {
+
+        if (Auth::user()->level == 'admin') {
             Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
             return redirect()->to('/');
         }
@@ -30,16 +31,16 @@ class PengumumancpController extends Controller
     public function updatePublishStatus(Request $request)
     {
         $id = $request->id;
-        $pengumumancp = Pengumumancp::findOrFail($id);
+        $pengumumancp = User::findOrFail($id);
 
         // Toggle the publish status
-        $pengumumancp->publish = $pengumumancp->publish === 'ya' ? 'tidak' : 'ya';
+        $pengumumancp->status = $pengumumancp->status === 'aktif' ? 'nonaktif' : 'aktif';
 
         $pengumumancp->save();
-        // dd($SobatInsan);
 
-        return redirect()->back()->with('sukses', 'Status publish berhasil diubah.');
+        return redirect()->back()->with('sukses', 'Status berhasil diubah.');
     }
+
 
     /**
      * Show the form for creating a new resource.
@@ -48,7 +49,7 @@ class PengumumancpController extends Controller
      */
     public function create()
     {
-        if(Auth::user()->level == 'admin') {
+        if (Auth::user()->level == 'admin') {
             Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
             return redirect()->to('/');
         }
@@ -65,18 +66,17 @@ class PengumumancpController extends Controller
     public function store(Request $request)
     {
 
-      
-            $pengumumancp = new Pengumumancp;
-            
-            $pengumumancp->nama             = $request->input('nama');
-         
-            $pengumumancp->tutup             = $request->input('tutup');
-            $pengumumancp->link             = $request->input('link');
-            // $pengumumancp->ket        = $request->input('ket');
-            $pengumumancp->publish   = $request->input('publish');      
-            $pengumumancp->save();
-        return redirect()->route('pengumumancp')->with('sukses', 'Data pengumumancp Berhasil Ditambah');
 
+        $pengumumancp = new Pengumumancp;
+
+        $pengumumancp->nama             = $request->input('nama');
+
+        $pengumumancp->tutup             = $request->input('tutup');
+        $pengumumancp->link             = $request->input('link');
+        // $pengumumancp->ket        = $request->input('ket');
+        $pengumumancp->publish   = $request->input('publish');
+        $pengumumancp->save();
+        return redirect()->route('pengumumancp')->with('sukses', 'Data pengumumancp Berhasil Ditambah');
     }
     /**
      * Display the specified resource.
@@ -86,9 +86,9 @@ class PengumumancpController extends Controller
      */
     public function show($id)
     {
-        if(Auth::user()->level == 'admin') {
-                Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
-                return redirect()->to('/'); 
+        if (Auth::user()->level == 'admin') {
+            Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
+            return redirect()->to('/');
         }
 
         $data = Pengumumancp::findOrFail($id);
@@ -102,17 +102,15 @@ class PengumumancpController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Request $request,$id)
-    {   
-        if(Auth::user()->level == 'admin') {
-                Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
-                return redirect()->to('/');
+    public function edit(Request $request, $id)
+    {
+        if (Auth::user()->level == 'admin') {
+            Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
+            return redirect()->to('/');
         }
         $pengumumancp = Pengumumancp::findOrFail($id);
-    
-        return view('pengumumancp/edit', compact('pengumumancp'));
 
-    
+        return view('pengumumancp/edit', compact('pengumumancp'));
     }
 
     /**
@@ -122,16 +120,16 @@ class PengumumancpController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request,$id)
+    public function update(Request $request, $id)
     {
         $pengumumancp = Pengumumancp::where('id', $id)->first();
         // $pengumumancp->foto          = $nama_image;
         $pengumumancp->nama             = $request->input('nama');
         $pengumumancp->tutup             = $request->input('tutup');
         $pengumumancp->link             = $request->input('link');
-        $pengumumancp->publish   = $request->input('publish');   
-        // $pengumumancp->harga             = $request->input('harga');   
-     
+        $pengumumancp->publish   = $request->input('publish');
+        // $pengumumancp->harga             = $request->input('harga');
+
         $pengumumancp->update();
 
         // $data->cover = $cover;
@@ -149,11 +147,10 @@ class PengumumancpController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function delete($id)
-    
+
     {
         Pengumumancp::findOrFail($id)->delete();
         // alert()->success('Berhasil.','Data telah dihapus!');
         return redirect()->route('pengumumancp')->with('sukses', 'Data pengumumancp Berhasil Dihapus');
     }
-
 }
