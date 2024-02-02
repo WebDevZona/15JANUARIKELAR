@@ -8,7 +8,7 @@
     <!-- Tambahkan Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-     body {
+        body {
             background-color: #f5f5f5;
             display: flex;
             justify-content: center;
@@ -109,36 +109,37 @@
             text-decoration: none;
             color: #007bff;
         }
-</style>
+    </style>
 </head>
 
 <body>
     <a class="back-to-home" href="/ ">Kembali ke Homepage</a>
-<div class="login-container col-lg-6 col-md-12">
-    <div class="message-container"style=" text-align: center;">
-        @if(session('sukses'))
-        <div class="message success-message">
-            <i class="fas fa-check"></i> {{ session('sukses') }}
+    <div class="login-container col-lg-6 col-md-12">
+        <div class="message-container" style=" text-align: center;">
+            @if(session('sukses'))
+            <div class="message success-message">
+                <i class="fas fa-check"></i> {{ session('sukses') }}
+            </div>
+            @endif
+            @if(session('error'))
+            <div class="message error-message">
+                <i class="fas fa-info"></i> {{ session('error') }}
+            </div>
+            @endif
         </div>
-        @endif
-        @if(session('error'))
-        <div class="message error-message">
-            <i class="fas fa-info"></i> {{ session('error') }}
-        </div>
-        @endif
-    </div>
-    <h4 class="forgot-password">Lupa Password?</h4>
+        <h4 class="forgot-password">Lupa Password?</h4>
         <p>Periksa Inbox email kamu, karena kami telah mengirimkan link untuk mengganti password akun-mu.</p>
 
         <p>Belum mendapatkan email?</p>
-     <form action="{{ route('proses-kirim-ulang-email') }}" method="POST">
-        @csrf
-        <input type="hidden" name="email" value="{{ $emailSebelumnya }}">
-        <div class="form-group" style="text-align: center;">
-            <button type="submit">Kirim Ulang Email</button>
-        </div>
-    </form>
-    
+        <form action="{{ route('proses-kirim-ulang-email') }}" method="POST">
+            @csrf
+            <input type="hidden" name="email" value="{{ $emailSebelumnya }}">
+            <div class="form-group" style="text-align: center;">
+                <button type="submit">Kirim Ulang Email</button>
+            </div>
+        </form>
+
+
 </body>
 
 

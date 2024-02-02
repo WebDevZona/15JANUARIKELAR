@@ -347,7 +347,7 @@
                                         <img style="margin-top:15px;margin-left:15px " src="assets/img/bg/ps1.png" alt="">
                                         <div style="margin-top: -80px; margin-left:100px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">
                                             24+</div>
-                                        <div style="margin-top: -50px; margin-left:100px;  opacity: 0.50; color: #101828; font-size: 15px; font-family: Inter; font-weight: 600; letter-spacing: 1px; word-wrap: break-word">
+                                        <div style="margin-top: -50px; margin-left:100px;  opacity: 0.50; color: #000000 !important; font-size: 15px; font-family: Inter; font-weight: 600; letter-spacing: 1px; word-wrap: break-word">
                                             Kampus</div>
                                     </div>
                                 </div>
@@ -358,7 +358,7 @@
                                         <img style="margin-top:15px;" src="assets/img/bg/ps2.png" alt="">
                                         <div style="margin-top: -76px; margin-left:90px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">
                                             78+</div>
-                                        <div style="margin-top: -50px; margin-left:90px;  opacity: 0.50; color: #101828; font-size: 15px; font-family: Inter; font-weight: 600; letter-spacing: 1px; word-wrap: break-word">
+                                        <div style="margin-top: -50px; margin-left:90px;  opacity: 0.50; color: #000000 !important; font-size: 15px; font-family: Inter; font-weight: 600; letter-spacing: 1px; word-wrap: break-word">
                                             Mentor</div>
                                     </div>
                                 </div>
@@ -383,7 +383,7 @@
                     font-family: Montserrat;
                     font-size: 35px;
                     font-style: normal;
-                    margin-top: -170px;
+                    margin-top: -200px;
                     font-weight: 700;
                     line-height: 125%; /* 100px */">
                 Paket Hemat yang Tersedia di <br> Bimbingan Skripsi Online (BSO)
@@ -586,7 +586,19 @@
             </div>
         </section>
 
-
+        <style>
+            #pricing {
+           
+           background-image: url('assets/img/bg/bso-background.png');
+           background-color: #09326f;
+           background-size: cover;
+           height: 140vh;
+           background-repeat: no-repeat;
+           background-position: center;
+           margin-bottom: 100px;
+           /* Add other styles as needed */
+       }
+       </style>
 
 
         <!-- ======= Pricing Section ======= -->
@@ -605,16 +617,17 @@
                     <!-- <h3 class="bsa" style="color:white;">Bimbingan Skripsi Online (BSO)</h3> -->
                     <h3 style="color:white; font-size: 30px; text-align:center; margin-top:15px;">Bimbingan Skripsi
                         Online</h3>
-                    <h4 style="margin-bottom: 80px; text-align: center; color:white; font-size:15px; font-weight:200;">
+                    <h4 style="margin-bottom: 50px; text-align: center; color:white; font-size:15px; font-weight:200;">
                         Memiliki lima jenis paket hemat
                         dengan rincian dan biaya sebagai berikut:</h4>
                 </div>
 
-                <div id="packageCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -40px">
+                <div id="packageCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -40px; margin-left:50px;">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="container">
                                 <div class="row">
+                                    {{--Silver --}}
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                                         <div class="custom-box" style="height: 380px; border-radius: 15px; width:280px;">
                                             <h4 class="custom-package" style="color: #FFF;
@@ -803,7 +816,7 @@
                                                 margin-left: 28px;
                                                 background: linear-gradient(0deg, #09326F 0%, #3E87F8 100%), #3E87F8;
                                                 ">
-                                                PAKET GOLD</h4>
+                                                PLATINUM</h4>
                                             <div class="rupiah-display" style="position: relative;">
                                                 <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
                                                     <strong class="rp" style="margin-left: 30px;">Rp</strong>
@@ -901,6 +914,155 @@
                                             </div>
                                         </div>
                                     </div> --}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    {{-- DIAMOND --}}
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="custom-box" style="height: 380px; border-radius: 15px; width:280px;">
+                                            <h4 class="custom-package" style="color: #FFF;
+                                                font-family: Montserrat;
+                                                font-size: 15px;
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                line-height: 125%; /* 40px */
+                                                width:180px;
+                                                height: 40px;
+                                                margin-left: 28px;
+                                                background: linear-gradient(0deg, #09326F 0%, #3E87F8 100%), #3E87F8;
+                                                ">
+                                                DIAMOND</h4>
+                                            <div class="rupiah-display" style="position: relative;">
+                                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
+                                                    <strong class="rp" style="margin-left: 30px;">Rp</strong>
+                                                </h4>
+                                                <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px">
+                                                    200.000</h4>
+                                            </div>
+                                            <div class="custom-pricee" style="margin-right:14px; margin-top:-10px;">
+                                                <strong>14
+                                                    Hari</strong>
+                                            </div>
+                                            <hr style=" border: 2px solid #000; border-width: 1px;">
+                                            <ul class="deskripsi" style="list-style: none;">
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px">Bimbingan intensif pembuatan <br>
+                                                        powerpoint proposal dan skripsi</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px">Bimbingan presentasi proposal <br>dan
+                                                        skripsi</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px">Bimbingan simulasi seminar <br> proposal
+                                                        dan skripsi</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px">Konsultasi proposal dan skripsi <br> yang
+                                                        telah dibuat</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px"> Waktu bimbingan 7x pertemuan</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px"> Durasi bimbingan per pertemuan <br> minimal
+                                                        2 jam maksimal 4 jam</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px"> Template powerpoint</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px">Sertifikat</span>
+                                                </li>
+                                            </ul>
+                                            <div class="custom-btn-wrap" style="margin-top:-10%">
+                                                <a href="/pembelian/bso" class="custom-btn-buy" style="width:80%;font-size:12px">Daftar Sekarang</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {{-- COMPLATE --}}
+                                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="custom-box" style="height: 380px; border-radius: 15px; width:280px;">
+                                            <h4 class="custom-package" style="color: #FFF;
+                                                font-family: Montserrat;
+                                                font-size: 15px;
+                                                font-style: normal;
+                                                font-weight: 700;
+                                                line-height: 125%; /* 40px */
+                                                width:180px;
+                                                height: 40px;
+                                                margin-left: 28px;
+                                                background: linear-gradient(0deg, #09326F 0%, #3E87F8 100%), #3E87F8;
+                                                ">
+                                                COMPLATE</h4>
+                                            <div class="rupiah-display" style="position: relative;">
+                                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
+                                                    <strong class="rp" style="margin-left: 30px;">Rp</strong>
+                                                </h4>
+                                                <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px">
+                                                    1.010.000</h4>
+                                            </div>
+                                            <div class="custom-pricee" style="margin-right:14px; margin-top:-10px;">
+                                                <strong>3
+                                                    Bulan</strong>
+                                            </div>
+                                            <hr style=" border: 2px solid #000; border-width: 1px;">
+                                            <ul class="deskripsi" style="list-style: none;">
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan intensif
+                                                        pembuatan <br> judul
+                                                        skripsi</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan intensif pembuatan <br> bab
+                                                        1-3</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px">Bimbingan intensif pembuatan <br> bab 4
+                                                        sampai selesai</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan penyusunan ppt <br>proposal dan
+                                                        skripsi</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan presentasi proposal <br>dan
+                                                        skripsi</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan simulasi seminar <br>proposal dan
+                                                        sidang skripsi</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px">Waktu bimbingan 30x pertemuan</span>
+                                                </li>
+                                            </ul>
+                                            <div class="custom-btn-wrap" style="margin-top:-10%">
+                                                <a href="/pembelian/bso" class="custom-btn-buy" style="width:80%;font-size:12px">Daftar Sekarang</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -1065,7 +1227,7 @@
                             }
                         </style>
                         <!-- Navigation arrows -->
-                        {{-- <a class="carousel-control-prev" href="#packageCarousel" role="button" data-slide="prev">
+                        <a class="carousel-control-prev" href="#packageCarousel" role="button" data-slide="prev">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 30px; margin-top: 50px;" viewBox="0 0 35" fill="none">
                                 <g filter="url(#filter0_b_229_15)">
                                     <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
@@ -1084,7 +1246,7 @@
                                 <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="none" stroke="white" stroke-width="3" />
                             </svg>
                             <span class="sr-only">Next</span>
-                        </a> --}}
+                        </a>
                     </div>
 
                 </div>
@@ -2395,7 +2557,7 @@
                                     <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
                                     <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
                                 </div>
-                                <p style="margin-top:30px; margin-bottom: 50px; text-align:center; font-size:12px;">
+                                <p style="margin-top:30px; margin-bottom: 50px; text-align:center; font-size:15px;">
                                     “Alhamdulillah
                                     saya sangat-sangat puas konsultasi di BSO Class Program. Arahan Mentor dan Kak Dewi
                                     membantu saya untuk menemukan solusi mengenai permasalahan skripsi. Kedepannya saya
@@ -2609,7 +2771,7 @@
 
                             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                                 <div class="konsultasi-content">
-                                    <h4>3. Selsai Pembayaran</h4>
+                                    <h4>3. Selesai Pembayaran</h4>
                                     <div class="member-img">
                                         <div style="position: relative; display: flex; align-items: center;">
                                             <!-- Gambar pertama -->

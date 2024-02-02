@@ -15,7 +15,8 @@
     <link href="assets/img/logo/logo2.png" rel="icon">
     <link href="assets/img/logo/logo2.png" rel="assets/img/logo/logo2.png">
 
-
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 
     <style>
         body {
@@ -327,9 +328,9 @@
             </button>
         </div>
         @endif
-        <h1 style="font-size: 45px; color:#000; margin-top: 15px;"><strong> Selamat Datang <br> di Class Program</strong></h1>
+        <h1 style="font-size: 45px; color:#000; font-family:montserrat; margin-top: 15px;"><strong> Selamat Datang <br> di Class Program</strong></h1>
 
-        <h4 style="font-size: 25px; margin-top:-10px;">Belum punya akun? <a href="register">Daftar yuk!</a> </h4>
+        <h4 style="font-size: 25px; margin-top:-10px; font-family:montserrat;">Belum punya akun? <a href="register">Daftar yuk!</a> </h4>
 
 
         <form action="postlogin" style="margin-top: -10px;" method="POST">

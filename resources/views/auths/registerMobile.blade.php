@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="assets/img/logo/logo2.png" rel="icon">
     <link href="assets/img/logo/logo2.png" rel="assets/img/logo/logo2.png">
-
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     <style>
@@ -447,8 +448,10 @@
                 <div class="card my-4">
                     <div class="card-body">
                         <form id="registration-form" method="POST" action="{{ route('registration.submit') }}">
-                            <h1 class="card-title" style="font-size: 2rem;  color:#000; margin-top: 15px;"><strong> Daftar Akun <br> Class Program</strong></h1>
-                            <h4 class="card-subtitle mb-3" style="font-size: 25px; margin-top:-10px;">Sudah punya akun? <br> <a href="login">Masuk, yuk!</a></h4>
+                            <h1 class="card-title" style="font-size: 2rem; font-family:montserrat;
+ color:#000; margin-top: 15px;"><strong> Daftar Akun <br> Class Program</strong></h1>
+                            <h4 class="card-subtitle mb-3" style="font-family:montserrat;
+ font-size: 25px; margin-top:-10px;">Sudah punya akun? <br> <a href="login">Masuk, yuk!</a></h4>
                             @csrf
 
                             <!-- Email Input -->

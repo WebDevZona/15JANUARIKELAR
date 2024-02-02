@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="assets/img/logo/logo2.png" rel="icon">
     <link href="assets/img/logo/logo2.png" rel="assets/img/logo/logo2.png">
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
@@ -427,9 +429,9 @@
 
 
         <form id="registration-form" method="POST" action="{{ route('registration.submit') }}">
-            <h1 style="font-size: 45px; color:#000; margin-top: 15px;"><strong> Daftar <br> Akun Class Program</strong></h1>
+            <h1 style="font-size: 45px; color:#000; margin-top: 15px; font-family:montserrat; "><strong> Daftar <br> Akun Class Program</strong></h1>
 
-            <h4 style="font-size: 25px; margin-top:-10px;">Sudah punya akun?<a href="login">Masuk, yuk!</a> </h4>
+            <h4 style="font-size: 25px; margin-top:-10px; font-family:montserrat; ">Sudah punya akun?<a href="login">Masuk, yuk!</a> </h4>
 
             <!-- <hr style="margin-right:10%;margin-left:10%; border: 1px solid grey;"> -->
             @csrf

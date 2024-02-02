@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+
+use App\User;
 use App\Produk;
 use Closure;
 use App\Payment;
@@ -44,7 +46,12 @@ class PaymentController extends Controller
         $productIds = Produk::pluck('id');
         $products = Produk::whereIn('id', $productIds)->get();
 
-        return view('bukti', ['idpayment' => $payment->id, 'products' => $products]);
+        $UserIds = User::pluck('id');
+        // $User = User::whereIn('id', $UserIds)->get();
+        $User = \App\User::where('id', $UserIds)->get();
+        $Users = $User->first();
+
+        return view('bukti', ['idpayment' => $payment->id, 'products' => $products, 'Users' => $Users]);
 
         // $productIds = Produk::pluck('id');
         // return view('bukti', ['idpayment' => $payment->id, 'productIds' => $productIds]);

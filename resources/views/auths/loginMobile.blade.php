@@ -7,7 +7,8 @@
     <title>Class Program</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Favicons -->
@@ -334,8 +335,10 @@
                 @endif
                 <div class="card my-4">
                     <div class="card-body">
-                        <h1 class="card-title" style="font-size: 2rem; color: #000; margin-top: 15px;"><strong>Selamat Datang di Class Program</strong></h1>
-                        <h4 class="card-subtitle mb-3" style="font-size: 1.25rem; margin-top: -10px;">Belum punya akun? <a href="register">Daftar yuk!</a></h4>
+                        <h1 class="card-title" style="font-family:montserrat;
+ font-size: 2rem; color: #000; margin-top: 15px;"><strong>Selamat Datang di Class Program</strong></h1>
+                        <h4 class="card-subtitle mb-3" style="font-size: 1.25rem; margin-top: -10px; font-family:montserrat;
+">Belum punya akun? <a href="register">Daftar yuk!</a></h4>
 
                         <form action="postlogin" method="POST">
                             @csrf
