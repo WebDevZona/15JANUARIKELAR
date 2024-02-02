@@ -34,6 +34,8 @@
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/nunito" rel="stylesheet">
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 </head>
@@ -113,9 +115,9 @@
             <div class="d-flex" style="margin-left: 400px; margin-top:-20px ">
                 <a href="#pricing" class="btn-get-started scrollto" style="display: flex;
           width: 280px;
-          height: 50px;
+          height: 40px;
           margin-left: 200 ;
-          padding: 15.455px 15.455px 15.455px 15.455px;
+          padding: 10px;
           justify-content: center;
           border-radius: 77.273px;
           align-items: center;
@@ -126,56 +128,58 @@
           font-style: normal;
           font-weight: 800 !important;
           line-height: 125%; /* 61.818px */
-          letter-spacing: 1px;">CLASS PROGRAM</a>
+          letter-spacing: 1px;
+          font-size:20px !important;
+          margin-bottom:-10px;">CLASS PROGRAM</a>
             </div>
 
             <div class="section-title">
-                <h3>Apa Yang Akan Kamu Dapatkan</h3>
-                <h4 style="margin-bottom: 35px !important; margin-top:10px;">Kelas Pelatihan Skripsi Class Program </h4>
+                <h3 style="font-size:35px !important;">Apa Yang Akan Kamu Dapatkan</h3>
+                <h4 style="margin-bottom: 20px !important; margin-top:10px; font-size:20px !important;">Kelas Pelatihan Skripsi Class Program </h4>
             </div>
 
             <div class="card-containerr">
                 <div class="roww ">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px; border: 2px solid #020202;">
-                            <strong class="btn-get-started3 scrollto" style="font-family: Montserrat;">Video Materi</strong>
+                        <div class="custom-box" style=" height: 360px; border-radius: 20px; margin-left:25px; border: 2px solid #020202;">
+                            <strong class="btn-get-started3 scrollto" style="font-family: Montserrat; font-size:15px !important;">Video Materi</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
                                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                                    <img src="assets/img/logo/video.png" class="img-fluid" style="width: 250px;" alt="">
+                                    <img src="assets/img/logo/video.png" class="img-fluid" style="width: 180px;" alt="">
                                 </div>
-                                <div class="member-infoo">
-                                    <p>Sobat Insans akan mendapatkan resume materi berupa video dari Mentor kelas pelatihan skripsi.</p>
+                                <div class="member-infoo" style="margin-top: -10px;">
+                                    <p  style="font-size: 15px !important;">Sobat Insans akan mendapatkan resume materi berupa video dari Mentor kelas pelatihan skripsi</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
-                            <strong href="#pricing" class="btn-get-started3 scrollto">Grup Sharing</strong>
+                        <div class="custom-box" style="height: 360px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
+                            <strong href="#pricing" class="btn-get-started3 scrollto" style="font-family: Montserrat; font-size:15px !important;" >Grup Sharing</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
                                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                                    <img src="assets/img/logo/group-chat.png" class="img-fluid" style="width: 235px;" alt="">
+                                    <img src="assets/img/logo/group-chat.png" class="img-fluid" style="width: 180px;" alt="">
                                 </div>
-                                <div class="member-infoo">
-                                    <p>Sobat Insans akan mendapatkan fasilitas bergabung di grup WhatsApp untuk konsultasi bersama Mentor.</p>
+                                <div class="member-infoo" style="margin-top: -10px;">
+                                    <p style="font-size: 15px !important;">Sobat Insans akan mendapatkan fasilitas bergabung di grup WhatsApp untuk konsultasi bersama Mentor</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
-                            <strong href="#pricing" class="btn-get-started3 scrollto">PPT Materi</strong>
+                        <div class="custom-box" style="height: 360px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
+                            <strong href="#pricing" class="btn-get-started3 scrollto" style="font-family: Montserrat; font-size:15px !important;">PPT Materi</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
                                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                                    <img src="assets/img/logo/web-devices.png" class="img-fluid" style="width: 250px;" alt="">
+                                    <img src="assets/img/logo/web-devices.png" class="img-fluid" style="width: 180px;" alt="">
                                 </div>
-                                <div class="member-infoo">
-                                    <p>Sobat Insans akan mendapatkan PPT materi pelatihan skripsi. </p>
+                                <div class="member-infoo" style="margin-top: -10px;">
+                                    <p style="font-size: 15px !important;">Sobat Insans akan mendapatkan PPT materi pelatihan skripsi </p>
                                 </div>
                             </div>
                         </div>
@@ -184,48 +188,48 @@
 
                 <div class="row" style="margin-top: 50px;">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
-                            <strong href="#pricing" class="btn-get-started3 scrollto">Networking</strong>
+                        <div class="custom-box" style="height: 360px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
+                            <strong href="#pricing" class="btn-get-started3 scrollto" style="font-family: Montserrat; font-size:15px !important;">Networking</strong>
 
                             <div class="konsultasi-content">
                                 <div class="member-img">
                                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                                    <img src="assets/img/logo/connect.png" class="img-fluid" style="width: 240px;" alt="">
+                                    <img src="assets/img/logo/connect.png" class="img-fluid" style="width: 180px;" alt="">
                                 </div>
-                                <div class="member-infoo">
-                                    <p>Sobat Insans dapat membangun relasi bersama Mentor dan peserta lainnya melalui grup WhatsApp.</p>
+                                <div class="member-infoo" style="margin-top: -10px;">
+                                    <p style="font-size: 15px !important;">Sobat Insans dapat membangun relasi bersama Mentor dan peserta lainnya melalui grup WhatsApp</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
-                            <strong href="#pricing" class="btn-get-started3 scrollto">Penghargaan</strong>
+                        <div class="custom-box" style="height: 360px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
+                            <strong href="#pricing" class="btn-get-started3 scrollto" style="font-family: Montserrat; font-size:15px !important;">Penghargaan</strong>
 
                             <div class="konsultasi-content">
                                 <div class="member-img">
                                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
-                                    <img src="assets/img/logo/digital-presentation.png" class="img-fluid" style="width: 250px;" alt="">
+                                    <img src="assets/img/logo/digital-presentation.png" class="img-fluid" style="width: 180px;" alt="">
                                 </div>
-                                <div class="member-infoo">
-                                    <p>Sobat Insans akan mendapatkan penghargaan yang diberikan kepada peserta terbaik.</p>
+                                <div class="member-infoo" style="margin-top: -10px;">
+                                    <p style="font-size: 15px !important;">Sobat Insans akan mendapatkan penghargaan yang diberikan kepada peserta terbaik</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                        <div class="custom-box" style="height: 450px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
-                            <strong href="#pricing" class="btn-get-started3 scrollto">E-Sertifikat</strong>
+                        <div class="custom-box" style="height: 360px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
+                            <strong href="#pricing" class="btn-get-started3 scrollto" style="font-family: Montserrat; font-size:15px !important;">E-Sertifikat</strong>
 
                             <div class="konsultasi-content">
                                 <div class="member-img">
                                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
                                     <img src="assets/img/logo/certification.png" class="img-fluid" style="width: 150px;" alt="">
                                 </div>
-                                <div class="member-infoo">
-                                    <p>Sobat Insans akan mendapatkan e-sertifikat dari kelas pelatihan skripsi.</p>
+                                <div class="member-infoo" style="margin-top: -10px;">
+                                    <p style="font-size: 15px !important;">Sobat Insans akan mendapatkan e-sertifikat dari kelas pelatihan skripsi</p>
                                 </div>
                             </div>
                         </div>
@@ -237,10 +241,10 @@
     <!-- ======= End Benefit Section ======= -->
 
     <!-- ======= Mentor Section ======= -->
-    <section id="mentor-skripsi" class="mentor-skripsi" style="margin-top:-50px;">
+    <section id="mentor-skripsi" class="mentor-skripsi" style="margin-top:-70px;">
         <div class="container">
             <div class="section-title">
-                <h3 style="color:rgb(0,29,73); font-size: 45px;  margin-top:0px  !important;">Mentor Yang Berpengalaman</h3>
+                <h3 style="color:rgb(0,29,73); font-size: 40px;  margin-top:10px  !important;">Mentor Yang Berpengalaman</h3>
                 <h4 style="color:rgb(0,29,73); margin-top:10px !important; ">Kelas Pelatihan Skripsi Class Program </h4>
             </div>
 
@@ -250,8 +254,8 @@
                         <img src="assets/img/team/team-1.jpg" style=" width: 300px;" alt="Image 1">
                     </div>
                     <div class="name">
-                        <h3>Jonathan Cristie</h3>
-                        <h4>Mentor</h4>
+                        <h3  style="margin-top:-10px;">Jonathan Cristie</h3>
+                        <h4 style="margin-top:-10px;">Mentor</h4>
                     </div>
                 </div>
 
@@ -260,8 +264,8 @@
                         <img src="assets/img/team/team-1.jpg" style="  width: 300px; " alt="Image 2">
                     </div>
                     <div class="name">
-                        <h3>Antonius Padua</h3>
-                        <h4>Real Estate Developer</h4>
+                        <h3 style="margin-top:-10px;">Antonius Padua</h3>
+                        <h4 style="margin-top:-10px;">Real Estate Developer</h4>
                     </div>
                 </div>
 
@@ -270,8 +274,8 @@
                         <img src="assets/img/team/team-4.jpg" style="width: 300px; " alt="Image 3">
                     </div>
                     <div class="name">
-                        <h3>Justin S. Meza</h3>
-                        <h4>Listing Agent</h4>
+                        <h3 style="margin-top:-10px;">Justin S. Meza</h3>
+                        <h4 style="margin-top:-10px;">Listing Agent</h4>
                     </div>
                 </div>
 
@@ -280,8 +284,8 @@
                         <img src="assets/img/team/(2).jpg" style="width: 300px;" alt="Image 4">
                     </div>
                     <div class="name">
-                        <h3>Susan T. Smith</h3>
-                        <h4>Buyer's Agent</h4>
+                        <h3 style="margin-top:-10px;">Susan T. Smith</h3>
+                        <h4 style="margin-top:-10px;">Buyer's Agent</h4>
                     </div>
                 </div>
             </div>
@@ -399,112 +403,163 @@
         <img src="assets/img/bg/kananatasfaq.png" style="position: absolute; top: 0; right: 0; width: 200px; height: 250px;" alt="">
         <img src="assets/img/bg/kirifaq.png.png" style="position: absolute; bottom: 0; left: 0; width: 200px; height: 250px;" alt="">
         <div class="background-faq"></div>
-        <div class="container kontener aos-init aos-animate" style="text-align:center;" data-aos="fade-up">
+        <div class="container kontener aos-init aos-animate"  data-aos="fade-up">
             <div class="col-xl-12"> <!-- Gunakan kolom penuh lebar untuk memastikan accordion berada di tengah -->
                 <div class="section-title" style="margin-top:150px;margin-bottom: 20px;
             ">
-                    <h3 style="color:rgb(0,29,73); margin-bottom:50px;">Frequently Asked Questions</h3>
+                    <h3 style="color:rgb(0,29,73); margin-bottom:50px; font-size:35px !important; font-family: 'Nunito', sans-serif !important;">Frequently Asked Questions</h3>
                 </div>
                 <style>
+                    .accordion {
+                        max-width: 610px;
+                        margin: 20px auto;
+                    }
+
                     .accordion-item {
+                        border: 1px solid #ddd;
+                        margin-bottom: 10px;
                         border-radius: 8px;
-                        /* Menentukan radius sudut untuk membuat tampilan lonjong */
                         overflow: hidden;
-                        /* Menyembunyikan overflow untuk mendukung tampilan lonjong */
-                        margin-bottom: 0px;
-                        /* Atur margin bawah agar terlihat terpisah dengan accordion lainnya */
+                        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                        background-color: #fff;
+                        transition: box-shadow 0.3s ease, background-color 0.3s ease;
                     }
 
-                    .accordion-button {
-                        border-radius: 8px;
-                        /* Menentukan radius sudut untuk membuat tampilan lonjong */
+                    .accordion-header {
+                        padding: 15px;
+                        background-color: #f5f5f5;
+                        cursor: pointer;
+                        user-select: none;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        transition: background-color 0.3s ease;
                     }
 
-                    /* .accordion-button::after {
-                        content: none;
-                    } */
+                    .icon-container {
+                        background-color: #007bff;
+                        border-radius: 50%;
+                        padding: 10px;
+                        transition: background-color 0.3s ease;
+                        margin-left: 5px;
+                    }
 
-                    .accordion-body {
-                        border-top-left-radius: 0;
-                        /* Mereset radius sudut atas kiri untuk tampilan lonjong */
-                        border-top-right-radius: 0;
-                        /* Mereset radius sudut atas kanan untuk tampilan lonjong */
-                        border-bottom-left-radius: 8px;
-                        /* Menentukan radius sudut bawah kiri untuk tampilan lonjong */
-                        border-bottom-right-radius: 8px;
-                        /* Menentukan radius sudut bawah kanan untuk tampilan lonjong */
+                    .icon {
+                        font-size: 18px;
+                        font-weight: bold;
+                        color: #0056b3;
+                        transition: color 0.3s ease;
+                    }
+
+                    .accordion-content {
+                        padding: 15px;
+                        display: none;
+                        margin: 0;
+                    }
+
+                    .icon:hover {
+                        color: #ececec;
+                    }
+
+                    .accordion-item:hover .accordion-header {
+                        background-color: #e0e0e0;
+                    }
+
+                    .accordion-item:hover .icon-container {
+                        background-color: #0056b3;
+                    }
+
+                    .accordion-item:hover {
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                        background-color: #f0f0f0;
                     }
                 </style>
 
-                <div class="accordion" id="accordionFlushExample">
-                    <div class="accordion" id="accordionFlushExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">01</div> <b>Siapa pemateri workshop skripsi?</b>
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
-                                <div class="accordion-body" style="text-align: left">Pemateri yang mengisi workshop berasal dari Mentor terbaik dari Bimbingan Skripsi Online Class Program.</div>
-                            </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(1)">
+                            <div style="color: #000000; font-size: 18px; font-family: font-family: 'Nunito', sans-serif !important;  font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
+                                1.</div><b style="    margin-left: -300px; font-family: 'Nunito', sans-serif !important; 
+                                "> Siapa pemateri workshop skripsi?</b>
+                            <div class="icon">+</div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">02</div> <b>Bagaimana cara daftarnya?</b>
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
-                                <div class="accordion-body" style="text-align: left">Sobat Insans cukup klik link registrasi yang tercantum di website, linktree Instagram Class Program dan linktree Zona Mahasiswa. Ikuti syarat dan ketentuan untuk mengikuti workshop skripsi dan konfirmasikan bukti mengikuti persyaratan dan bukti pembayaran pada Minma.
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingthree">
-                                    <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
-                                        <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">03</div><b>Apa saja persyaratan ikut workshop skripsi?</b>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
-                                    <div class="accordion-body" style="text-align: left">Sobat Insans memiliki beberapa persyaratan untuk mengikuti workshop skripsi dari Class Program yaitu wajib follow Instagram <code>@zonamahasiswa.id</code> dan <code>@classprogram.id</code>, mention atau tag 5 orang teman di postingan pamflet workshop lalu menyerahkan bukti screenshoot-nya kepada Minma.</div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingfour">
-                                    <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
-                                        <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">04</div><b>Apa saja isi workshopnya?</b>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-parent="#accordionFlushExample">
-                                    <div class="accordion-body" style="text-align: left">Workshop skripsi akan membahas masalah-masalah seputar dunia skripsi mulai dari penentuan judul sampai kiat-kiat sidang skripsi. Hanya saja di setiap workshop memiliki tema yang berbeda-beda dan setiap workshop lebih spesifik mengusung tema perbagian skripsi mana yang akan dibahas.</div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="flush-headingfive">
-                                    <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
-                                        <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">05</div><b>Fasilitas apa saja yang akan didapatkan?</b>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
-                                    <div class="accordion-body" style="text-align: left">Sobat Insans akan mendapatkan E-sertifikat dan hadiah E-wallet bagi Sobat Insans yang memenangkan mini challenge yang sedang diadakan. </div>
-                                </div>
-                            </div>
-
+                        <div class="accordion-content">
+                            <p style="font-family: 'Nunito', sans-serif !important;  font-size:12px; margin-left:30px;">Pemateri yang mengisi workshop berasal dari Mentor terbaik dari Bimbingan Skripsi Online Class Program.
+                            </p>
                         </div>
                     </div>
-                    <!--  <a href="#pricing" style="width: 100%; margin-top: 25px; height: auto; position: relative; display: flex; align-items: center; justify-content: center; text-decoration: none;">
-                <div style="width: 200px; height: 50px; position: relative; background: #0849B2; border-radius: 20.32px;">
-                    <div style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); color: white; font-size: 20px; font-family: Raleway; font-weight: 700; word-wrap: break-word">
-                        Baca selengkapnya
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(2)">
+                            <div style="color: #000000; font-size: 18px; font-family: 'Nunito', sans-serif !important;  font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
+                                2.</div><b style="    margin-left: -348px;font-family: 'Nunito', sans-serif !important; ">Bagaimana cara daftarnya?</b>
+                            <div class="icon">+</div>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="font-family: 'Nunito', sans-serif !important;  font-size:12px; margin-left:30px;">Sobat Insans cukup klik link registrasi yang tercantum di website, linktree Instagram Class Program dan linktree Zona Mahasiswa. Ikuti syarat dan ketentuan untuk mengikuti workshop skripsi dan konfirmasikan bukti mengikuti persyaratan dan bukti pembayaran pada Minma.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(3)">
+                            <div style="color: #000000; font-size: 18px;font-family: 'Nunito', sans-serif !important;  font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
+                                3.</div><b style="    margin-left: -220px; font-family: 'Nunito', sans-serif !important; 
+                                "> Apa saja persyaratan ikut workshop skripsi?</b>
+                            <div class="icon">+</div>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="font-family: 'Nunito', sans-serif !important;  font-size:12px; margin-left:30px;">Sobat Insans memiliki beberapa persyaratan untuk mengikuti workshop skripsi dari Class Program yaitu wajib follow Instagram <code>@zonamahasiswa.id</code> dan <code>@classprogram.id</code>, mention atau tag 5 orang teman di postingan pamflet workshop lalu menyerahkan bukti screenshoot-nya kepada Minma.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(4)">
+                            <div style="color: #000000; font-size: 18px; font-family: 'Nunito', sans-serif !important;  font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
+                                4.</div><b style="    margin-left: -350px; font-family: 'Nunito', sans-serif !important; 
+                                "> Apa saja isi workshopnya?</b>
+                            <div class="icon">+</div>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="font-family: 'Nunito', sans-serif !important;  font-size:12px; margin-left:30px;">Workshop skripsi akan membahas masalah-masalah seputar dunia skripsi mulai dari penentuan judul sampai kiat-kiat sidang skripsi. Hanya saja di setiap workshop memiliki tema yang berbeda-beda dan setiap workshop lebih spesifik mengusung tema perbagian skripsi mana yang akan dibahas.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <div class="accordion-header" onclick="toggleAccordion(5)">
+                            <div style="color: #000000; font-size: 18px; font-family: 'Nunito', sans-serif !important;  font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
+                                5.</div><b style="    margin-left: -250px; font-family: 'Nunito', sans-serif !important; 
+                                "> Fasilitas apa saja yang akan didapatkan?</b>
+
+                            <div class="icon">+</div>
+                        </div>
+                        <div class="accordion-content">
+                            <p style="font-family: 'Nunito', sans-serif !important;  font-size:12px; margin-left:30px;">Class
+                                Sobat Insans akan mendapatkan E-sertifikat dan hadiah E-wallet bagi Sobat Insans yang memenangkan mini challenge yang sedang diadakan</p>
+                        </div>
                     </div>
                 </div>
-            </a> -->
+
+                <script src="script.js"></script>
+
+                <script>
+                    function toggleAccordion(index) {
+                        var content = document.getElementsByClassName('accordion-content')[index - 1];
+
+                        if (content.style.display === 'block') {
+                            content.style.display = 'none';
+                            document.getElementsByClassName('icon')[index - 1].innerText = '+';
+                        } else {
+                            content.style.display = 'block';
+                            document.getElementsByClassName('icon')[index - 1].innerText = '-';
+                        }
+                    }
+                </script>
                 </div>
             </div>
     </section>
 
+  
 
 
     <!--   <section id="qna" class="qna" style="color:#e4ebf7;">

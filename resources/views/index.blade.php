@@ -378,11 +378,11 @@
 
                         <div class="modal-body">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-primary" style="border-radius: 50px;">Satu dan
+                                <button  onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button"  class="btn btn-primary" style="border-radius: 50px;">Satu dan
                                     Dua</button>
-                                <button type="button" class="btn btn-primary" style="border-radius: 50px;">Tiga dan
+                                <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-primary" style="border-radius: 50px;">Tiga dan
                                     Empat</button>
-                                <button type="button" class="btn btn-primary" style="border-radius: 50px;">Lima dan
+                                <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-primary" style="border-radius: 50px;">Lima dan
                                     Enam</button>
                                 <!-- Tambahkan tombol-tombol produk lainnya sesuai kebutuhan -->
                             </div>
@@ -390,7 +390,7 @@
                             <br>
                             <p>Pilihan paket hemat bimbingan skripsi</p>
                             <div class="btn-group" style="">
-                                <button type="button" class="btn btn-list"
+                                <button onclick="window.location.href='bimbangan-mata-kuliah-jurusan#pricing'"   type="button" class="btn btn-list"
                                     style="background: #3E87F8; border-radius: 25px;"><span class="icon">
                                         <img src="assets/img/bg/bookmark.png" alt="Deskripsi Gambar"
                                             style="width: 75px;position:center; margin-top: 10px;">
@@ -862,7 +862,7 @@
                             </div>
                             <div class="video-description" style="margin-top: -80px!important;">
                                 <p>Dapatkan Materi Menarik Lainnya</p>
-                                <a href="register" class="join-button">Daftar Sekarang</a>
+                                <a href="nonaktif" class="join-button">Daftar Sekarang</a>
                             </div>
                         </div>
                         <!-- Right image -->
@@ -1299,7 +1299,7 @@
                         <h4 class="article-popular">Artikel Populer</h4>
                         <div class="single_cat_right_content" style="    margin-top: 40px !important;">
                             @if ($berita->isNotEmpty())
-                                @foreach ($berita->sortByDesc('created_at')->take(3) as $item)
+                                @foreach ($berita->sortByDesc('created_at')->take(4) as $item)
                                     <div class="content_wrapper">
                                         <div class="left_content" >
                                             <h3>
@@ -1475,7 +1475,7 @@
         </section>
 
 
-        <section id="galeri" class="galeri" style="margin-top: -50px; margin-bottom:-50px;">
+        <section id="galeri" class="galeri" style="margin-top: -80px; margin-bottom:-50px;">
             <div class="section-title "
                 style=" font-family: 'Roboto', sans-serif;
                                     text-transform: uppercase;
@@ -1487,7 +1487,7 @@
                 <!-- <h2>About</h2> -->
                 <div class="left-align" style=" text-align: left;">
                     <h3
-                        style="font-size:40px; color:#000; font-weight: 800;color:black; margin-left: 120px; font-family: 'Manrope'; ">
+                        style="font-size:40px; color:#000; font-weight: 800;color:black; margin-left: 120px; font-family: 'Manrope'; margin-top:-30px; ">
                         Janji Mentor untuk <br> Sobat Insans
                         Insans...</h3>
                     <!-- Isi konten lainnya dapat ditambahkan di sini -->
@@ -1504,7 +1504,7 @@
                         class="gambar-ukuran-tetap">
                 </div>
                 <div class="caption-container"
-                    style="font-family: 'Manrope', sans-serif; background: url(assets/img/bg/amplop.png);background-size: cover;  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    style="font-family: 'Manrope', sans-serif; background: url(assets/img/bg/amplop.png);background-size: cover;  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);">
                     <ul>
                         <li>
                             <div class="caption caption-1" onclick="changeImage(0)">Menjadi pendengar setiamu</div>
@@ -1532,13 +1532,13 @@
 
         <section id="testibaru" class="testibaru section-bg">
             <div class="profile-container">
-                <p style="margin-left: 10px;">Cerita Sobat Insans</p>
+                <p style="margin-left: 10px; font-size:40px;">Cerita Sobat Insans</p>
                 <p1 style="margin-left: 10px;">Selama Bergabung di Class Program</p1>
                 <br>
                 <div class="profile-slider" style="margin-left: 10px; height:40% !important;">
                     <div class="profile" style="margin-right: 0% !important">
                         <div class="gabung">
-                            <img class="profile-image" src="assets/img/team/team-2.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto;">
+                            <img class="profile-image" src="assets/img/team/team-2.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
                             <div class="profile-info">
                                 <h1 style="font-size:20px; margin-top:40px">Yohanes Hernandes SYohan</h1>
                                 <p style="font-size: 15px;">" Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
@@ -1547,71 +1547,71 @@
                         </div>
                     </div>
 
-                    {{-- <div class="profile">
-                        <div class="gabung">
-                            <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil">
+                    <div class="profile" style="margin-right: 0% !important">
+                        <div class="gabung" >
+                            <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
-                                <h1 style="font-size:20px;">ELouis Patric</h1>
+                                <h1 style="font-size:20px; margin-top:40px;">ELouis Patric</h1>
                                 <p style="font-size: 15px;">" Gan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
                                     gitu aja banyak ide muncul."
                                 </p>
                             </div>
                             <!-- Tambahkan elemen tambahan di sini -->
                         </div>
-                    </div> --}}
+                    </div>
 
-                    {{-- <div class="profile">
+                    <div class="profile" style="margin-right: 0% !important">
                         <div class="gabung">
-                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
+                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
-                                <h1 style="font-size:20px;">Adinda Cahayani Supriyanto</h1>
+                                <h1 style="font-size:20px; margin-top:40px;">Adinda Cahayani Supriyanto</h1>
                                 <p style="font-size: 15px;">" Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan
                                     skripsi online yang berkualitas dan juga ramah dikantong."</p>
                             </div>
                         </div>
-                    </div> --}}
+                    </div>
 
                     <!-- lanjutan -->
-                    {{-- <div class="profile">
+                    <div class="profile" style="margin-right: 0% !important">
                         <div class="gabung">
-                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
+                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
-                                <h1 style="font-size:20px;">Yola</h1>
+                                <h1 style="font-size:20px; margin-top:40px;">Yola</h1>
                                 <p style="font-size: 15px;">"Saya merasa puas dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya
                                     selalu
                                     dikoreksi positif secara baik oleh kaka Mentor. BSO bagus sekali dan recommended
                                     untuk Mahasiswa."</p>
                             </div>
                         </div>
-                    </div> --}}
-                    {{-- <div class="profile">
+                    </div>
+                    <div class="profile" style="margin-right: 0% !important">
                         <div class="gabung">
-                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
+                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
-                                <h1 style="font-size:20px;">Hildan Ramdani</h1>
+                                <h1 style="font-size:20px; margin-top:40px;">Hildan Ramdani</h1>
                                 <p style="font-size: 15px;">"Halo Kak Dewi. Saya rutin ikut bimbingan, seminggu 3 kali. Dalam proses bimbingan, jujur
                                     saya
                                     sangat terbantu. Banyak hal yang saya tanyakan dan dapat terjawab oleh Mentor saya."</p>
                             </div>
                         </div>
-                    </div> --}}
-                    {{-- <div class="profile">
+                    </div>
+                    <div class="profile" style="margin-right: 0% !important">
                         <div class="gabung">
-                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil">
+                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
-                                <h1 style="font-size:20px;">Azizah Nurul</h1>
+                                <h1 style="font-size:20px; margin-top:40px;">Azizah Nurul</h1>
                                         <p style="font-size: 15px;">"Saya puas dengan bimbingannya kak. Awalnya saya tidak mengerti tahapan skripsi,
                                             ketika mulai
                                             bimbingan, saya jadi mengerti hal-hal penting dan tahapan dalam pembuatan judul
                                             serta penentuan variabel. Terima kasih banyak."</p>
                             </div>
                         </div>
-                    </div> --}}
+                    </div>
                 </div>
                 <div class="profile-navigation">
                     <button id="prevProfile">
@@ -1722,9 +1722,9 @@
                         <div class="section-title">
                             <h3 style="font-size: 30px; margin-left:-100px;">Paling Sering Ditanyakan</h3>
                         </div>
-                        <div id="accordion" class="myaccordion">
-                            <div class="card">
-                                <div class="card-header" id="headingOne">
+                        <div id="accordion" class="myaccordion" style="">
+                            <div class="card" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
+                                <div class="card-header" id="headingOne" >
                                     <h2 class="mb-0">
                                         <button
                                             class="d-flex align-items-center justify-content-between btn btn-link collapsed"
@@ -1732,7 +1732,7 @@
                                             aria-controls="collapseOne">
                                             <p style="color: #000;">Apa yang dimaksud dengan Sobat Insans?</p>
                                             <span class="fa-stack fa-sm">
-                                                <i class="fas fa-circle fa-stack-2x"></i>
+                                                <i class="fas fa-circle fa-stack-2x" style="color: rgb(9,50,111) !important;"></i>
                                                 <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                             </span>
                                         </button>
@@ -1746,7 +1746,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
                                 <div class="card-header" id="headingTwo">
                                     <h2 class="mb-0">
                                         <button
@@ -1755,7 +1755,7 @@
                                             aria-controls="collapseTwo">
                                             <p style="color: #000;">Siapa saja yang bisa belajar di Class Program?</p>
                                             <span class="fa-stack fa-2x">
-                                                <i class="fas fa-circle fa-stack-2x"></i>
+                                                <i class="fas fa-circle fa-stack-2x" style="color: rgb(9,50,111) !important;"></i>
                                                 <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                             </span>
                                         </button>
@@ -1771,7 +1771,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
                                 <div class="card-header" id="headingThree">
                                     <h2 class="mb-0">
                                         <button
@@ -1780,7 +1780,7 @@
                                             aria-controls="collapseThree">
                                             <p style="color: #000;">Siapa Mentor yang ada di Class Program?</p>
                                             <span class="fa-stack fa-2x">
-                                                <i class="fas fa-circle fa-stack-2x"></i>
+                                                <i class="fas fa-circle fa-stack-2x" style="color: rgb(9,50,111) !important;"></i>
                                                 <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                             </span>
                                         </button>
@@ -1794,7 +1794,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
                                 <div class="card-header" id="heading4">
                                     <h2 class="mb-0">
                                         <button
@@ -1803,7 +1803,7 @@
                                             aria-controls="collapse4">
                                             <p style="color: #000;">Bagaimana jadwal bimbingan di Class Program?</p>
                                             <span class="fa-stack fa-2x">
-                                                <i class="fas fa-circle fa-stack-2x"></i>
+                                                <i class="fas fa-circle fa-stack-2x" style="color: rgb(9,50,111) !important;"></i>
                                                 <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                             </span>
                                         </button>
@@ -1819,7 +1819,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
                                 <div class="card-header" id="heading5">
                                     <h2 class="mb-0">
                                         <button
@@ -1828,7 +1828,7 @@
                                             aria-controls="collapse5">
                                             <p style="color: #000;">Apakah di Class Program bisa ganti Mentor?</p>
                                             <span class="fa-stack fa-2x">
-                                                <i class="fas fa-circle fa-stack-2x"></i>
+                                                <i class="fas fa-circle fa-stack-2x" style="color: rgb(9,50,111) !important;"></i>
                                                 <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                             </span>
                                         </button>
@@ -1859,34 +1859,39 @@
             </div>
         </section>
 
+        <style>
+            #gambarkampus .container img:hover {
+    transform: scale(1.1); /* Efek zoom pada hover */
+}
+        </style>
         <section id="gambarkampus" class="gambarkampus" style="margin-top:-100px;">
             <div class="section-title">
                 <h3 style="font-size: 35px;">Kami telah membimbing<br> mahasiswa dari berbagai kampus</h3>
             </div>
             <div class="container" style="margin-top: 50px;">
                 <div class="row">
-                    <img src="assets/img/kampus/ui.png" alt="Gambar 1" class="image">
-                    <img src="assets/img/kampus/um.png" alt="Gambar 2" class="image">
-                    <img src="assets/img/kampus/unnes.png" alt="Gambar 3" class="image">
-                    <img src="assets/img/kampus/uny.png" alt="Gambar 4" class="image">
+                    <img src="assets/img/kampus/ui.png" alt="Gambar 1" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/um.png" alt="Gambar 2" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/unnes.png" alt="Gambar 3" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/uny.png" alt="Gambar 4" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
                 </div>
                 <div class="row">
-                    <img src="assets/img/kampus/unj.png" alt="Gambar 7" class="image">
-                    <img src="assets/img/kampus/ub.png" alt="Gambar 8" class="image">
-                    <img src="assets/img/kampus/ugm.png" alt="Gambar 5" class="image">
-                    <img src="assets/img/kampus/itb.png" alt="Gambar 6" class="image">
+                    <img src="assets/img/kampus/unj.png" alt="Gambar 7" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/ub.png" alt="Gambar 8" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/ugm.png" alt="Gambar 5" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/itb.png" alt="Gambar 6" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
                 </div>
                 <div class="row">
-                    <img src="assets/img/kampus/uns.png" alt="Gambar 10" class="image">
-                    <img src="assets/img/kampus/ut.png" alt="Gambar 11" class="image">
-                    <img src="assets/img/kampus/unm.png" alt="Gambar 12" class="image">
-                    <img src="assets/img/kampus/unesa.png" alt="Gambar 9" class="image">
+                    <img src="assets/img/kampus/uns.png" alt="Gambar 10" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/ut.png" alt="Gambar 11" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/unm.png" alt="Gambar 12" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/unesa.png" alt="Gambar 9" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
                 </div>
                 <div class="row">
-                    <img src="assets/img/kampus/pajajaran.png" alt="Gambar 10" class="image">
-                    <img src="assets/img/kampus/undip.png" alt="Gambar 11" class="image">
-                    <img src="assets/img/kampus/unsri.png" alt="Gambar 12" class="image">
-                    <img src="assets/img/kampus/akhir.png" alt="Gambar 9" class="image">
+                    <img src="assets/img/kampus/pajajaran.png" alt="Gambar 10" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/undip.png" alt="Gambar 11" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/unsri.png" alt="Gambar 12" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/akhir.png" alt="Gambar 9" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
                 </div>
             </div>
         </section>

@@ -1054,7 +1054,7 @@
                                                         Bulan</strong>
                                                 </div>
                                                 <hr style=" border: 2px solid #000; border-width: 1px;">
-                                                <ul style="max-height: 150px; overflow-y: auto; ">
+                                                <ul class="deskripsi" style="max-height: 150px; overflow-y: auto; ">
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
@@ -1073,7 +1073,7 @@
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Waktu bimbingan 12 kali pertemuan</span>
+                                                        <span class="text-bso" style="font-size: 10px">Waktu bimbingan 12 kali<br> pertemuan</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
@@ -1083,7 +1083,7 @@
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
+                                                        <span class="text-bso" style="font-size: 10px">Durasi pertemuan minimal 2<br> jam dan maksimal 4 jam</span>
                                                     </li>
                                                 </ul>
                                                 <div class="custom-btn-wrap" style="margin-top:-10%">
@@ -1123,7 +1123,7 @@
                                                         Bulan</strong>
                                                 </div>
                                                 <hr style=" border: 2px solid #000; border-width: 1px;">
-                                                <ul style="max-height: 150px; overflow-y: auto; ">
+                                                <ul class="deskripsi" style="max-height: 150px; overflow-y: auto; ">
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
@@ -1142,7 +1142,7 @@
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Waktu bimbingan 24 kali pertemuan</span>
+                                                        <span class="text-bso" style="font-size: 10px">Waktu bimbingan 24 kali<br> pertemuan</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
@@ -1193,7 +1193,7 @@
                                                         Bulan</strong>
                                                 </div>
                                                 <hr style=" border: 2px solid #000; border-width: 1px;">
-                                                <ul style="max-height: 150px; overflow-y: auto; ">
+                                                <ul class="deskripsi" style="max-height: 150px; overflow-y: auto; ">
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
@@ -1212,7 +1212,7 @@
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Waktu bimbingan 24 kali pertemuan</span>
+                                                        <span class="text-bso" style="font-size: 10px">Waktu bimbingan 24 kali<br> pertemuan</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"

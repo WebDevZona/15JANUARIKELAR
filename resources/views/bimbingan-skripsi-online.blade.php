@@ -178,7 +178,7 @@
 
                         </div>
 
-                        <div class="content-box" style="margin-top:50px; box-shadow: 0 0 10px rgba(0, 0, 0, 1);">
+                        <div class="content-box" style="margin-top:30px; box-shadow: 0 0 10px rgba(0, 0, 0, 1);">
                             <span class="veryikasi">
                                 <img src="assets/img/bg/veryikasi.png" alt="veryikasi">
                             </span>
@@ -347,7 +347,7 @@
                                         <img style="margin-top:15px;margin-left:15px " src="assets/img/bg/ps1.png" alt="">
                                         <div style="margin-top: -80px; margin-left:100px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">
                                             24+</div>
-                                        <div style="margin-top: -50px; margin-left:100px;  opacity: 0.50; color: #000000 !important; font-size: 15px; font-family: Inter; font-weight: 600; letter-spacing: 1px; word-wrap: break-word">
+                                        <div style="margin-top: -50px; margin-left:100px;   color: #000000 !important; font-size: 12px; font-family: Inter; font-weight: 600; letter-spacing: 1px; word-wrap: break-word">
                                             Kampus</div>
                                     </div>
                                 </div>
@@ -358,7 +358,7 @@
                                         <img style="margin-top:15px;" src="assets/img/bg/ps2.png" alt="">
                                         <div style="margin-top: -76px; margin-left:90px; color: #101828; font-size: 25px; font-family: Inter; font-weight: 700; letter-spacing: 1px; word-wrap: break-word">
                                             78+</div>
-                                        <div style="margin-top: -50px; margin-left:90px;  opacity: 0.50; color: #000000 !important; font-size: 15px; font-family: Inter; font-weight: 600; letter-spacing: 1px; word-wrap: break-word">
+                                        <div style="margin-top: -50px; margin-left:90px;  color: #000000 !important; font-size: 12px; font-family: Inter; font-weight: 600; letter-spacing: 1px; word-wrap: break-word">
                                             Mentor</div>
                                     </div>
                                 </div>
