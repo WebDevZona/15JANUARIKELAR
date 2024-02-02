@@ -154,7 +154,7 @@ class ProdukController extends Controller
         // $data->save();
 
 
-        // // alert()->success('Berhasil.','Data telah diubah!');
+        alert()->success('Berhasil.','Data telah diubah!');
         return redirect()->to('produk/index')->with('sukses', 'Data Produk Berhasil Diubah');;
     }
 

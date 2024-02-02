@@ -51,7 +51,7 @@ class PenggunaController extends Controller
 
         return redirect()->route('pengguna.index')->with('sukses', 'Data administrator berhasil ditambahkan');
     }
-  
+
 
     /**
      * Display the specified resource.

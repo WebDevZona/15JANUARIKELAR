@@ -101,6 +101,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
 
     Route::get('/produk/index', 'ProdukController@index')->name('produk');
     Route::post('/produk/{id}/publish', 'ProdukController@updatePublishStatus')->name('produk.publish');
+    Route::post('/penguna/{id}/status', 'PenggunaController@updatePublishStatus')->name('pengguna.status');
     Route::get('/produk/create', 'ProdukController@create');
     Route::post('/produk/store', 'ProdukController@store');
     // Route::get('/produk/{id}/show', 'ProdukController@show');
@@ -460,6 +461,7 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     // Route::get('/', function () {
     //     return view('/dashboard');
     // });
+    Route::post('/pengumumancp/{id}/publish', 'PengumumancpController@updatePublishStatus')->name('pengumumancp.publish');
 
     Route::get('/dashboard', 'DashboardController@index');
 

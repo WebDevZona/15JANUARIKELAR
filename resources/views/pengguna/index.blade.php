@@ -53,6 +53,7 @@
                             <th>No.</th>
                             <th>Nama</th>
                             <th>Email</th>
+                            <th>Status</th>
                             <th>Level</th>
                             <th>Aksi</th>
                         </tr>
@@ -65,6 +66,16 @@
                             <td>{{$no}}</td>
                             <td>{{$pengguna->name}}</td>
                             <td>{{$pengguna->email}}</td>
+                            <td>
+                                <form action="{{ route('pengumumancp.publish', $pengguna->id) }}" method="POST">
+                                    @csrf
+                                    <input type="hidden" name="status" value="{{ $pengguna->publish }}">
+                                    <button type="submit" class="btn {{ $pengguna->status === 'aktif' ? 'btn-success' : 'btn-danger' }} btn-xs" onclick="return confirm('Anda yakin data ini akan di{{ $pengguna->status === 'aktif' ? 'un' : '' }} ?')">
+                                        {{ $pengguna->status === 'aktif' ? 'Aktif' : 'Non Aktif' }}
+                                    </button>
+                                </form>
+
+                            </td>
                             <td>{{$pengguna->role}}</td>
                             <td>
                                 <form action="{{ route('pengguna.destroy', $pengguna->id) }}" method="post">
