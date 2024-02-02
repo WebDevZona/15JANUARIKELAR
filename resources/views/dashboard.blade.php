@@ -92,7 +92,7 @@
         </div>
         <h5>Pengguan</h5>
         <div class="row">
-            <div class="flex-fill col-md-4" style="padding: 4px 4px 4px 4px">
+            <div class="flex-fill col-md-3" style="padding: 4px 4px 4px 4px">
                 <div class="info-box md-3">
                     <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-user"></i></span>
 
@@ -100,11 +100,11 @@
                         <span class="info-box-text"><b>Pengguna Aktif</b></span>
                         <!-- <span class="info-box-number">{{DB::table('payment')->count()}}</span> -->
                         <!-- berdasarkan hari -->
-                        <span class="info-box-number"> {{ DB::table('users')->where('status', 'aktif')->count() }}</span>
+                        <span class="info-box-number"> {{ DB::table('users')->where('role', '!=', 'admin')->where('status', 'aktif')->count() }}</span>
                     </div>
                 </div>
             </div>
-            <div class="flex-fill col-md-4" style="padding: 4px 4px 4px 4px">
+            <div class="flex-fill col-md-3" style="padding: 4px 4px 4px 4px">
                 <div class="info-box md-3">
                     <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-user"></i></span>
 
@@ -112,16 +112,28 @@
                         <span class="info-box-text"><b>Pengguna Non Aktif</b></span>
                         <!-- <span class="info-box-number">{{DB::table('payment')->count()}}</span> -->
                         <!-- berdasarkan minggu -->
-                        <span class="info-box-number"> {{ DB::table('users')->where('status', 'nonaktif')->count() }}</span>
+                        <span class="info-box-number"> {{ DB::table('users')->where('role', '!=', 'admin')->where('status', 'nonaktif')->count() }}</span>
                     </div>
                 </div>
             </div>
-            <div class=" flex-fill col-md-4" style="padding: 4px 4px 4px 4px">
+            <div class="flex-fill col-md-3" style="padding: 4px 4px 4px 4px">
+                <div class="info-box md-3">
+                    <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-user"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"><b>Validasi Admin</b></span>
+                        <!-- <span class="info-box-number">{{DB::table('payment')->count()}}</span> -->
+                        <!-- berdasarkan minggu -->
+                        <span class="info-box-number">{{ DB::table('users')->where('role', '!=', 'admin')->where(function($query) {$query->where('status', '')->orWhereNull('status');})->count() }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class=" flex-fill col-md-3" style="padding: 4px 4px 4px 4px">
                 <div class="info-box md-3">
                     <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-user"></i></span>
                     <div class="info-box-content">
-                        <span class="info-box-text"><b>Totalengguna</b></span>
-                        <span class="info-box-number">{{DB::table('users')->count()}}</span>
+                        <span class="info-box-text"><b>Total Pengguna</b></span>
+                        <span class="info-box-number">{{DB::table('users')->where('role', '!=', 'admin')->count()}}</span>
                     </div>
                 </div>
             </div>

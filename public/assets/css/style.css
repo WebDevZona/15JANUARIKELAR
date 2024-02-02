@@ -3375,15 +3375,15 @@ position: absolute; */
     color: #ff9900;
 }
 
-#footer .footer-top .social-links img {
+#footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    /* background: white; */
+    background: white;
     color: red;
     margin-top: 8px;
-    /* line-height: 1; */
-    /* padding: 8px 0;
-    margin-right: 4px; */
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
     border-radius: 100%;
     text-align: center;
     /* width: 36px;

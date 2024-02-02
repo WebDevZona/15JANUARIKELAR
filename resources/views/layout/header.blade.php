@@ -58,14 +58,6 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-3">
-                                            <h6><label for="nama">Level User </label></h6>
-                                        </div>
-                                        <div class="col-md-9">
-                                            <h6><label for="nama"> : {{auth()->user()->role}}</label></h6>
-                                        </div>
-                                    </div>
-                                    <div class="row">
                                         <!-- <div class="col-md-3">
                                                 <h6><label for="nama">Keluar </label></h6>
                                             </div> -->

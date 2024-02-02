@@ -69,14 +69,23 @@
                 <!-- Right Section with Social Media Links -->
 
                 <div class="col-lg-4 col-md-3 ml-auto">
-                    <div class="social-links" style="text-align: right;">
-                        <!-- <a href="assets/img/logo/yt.jpg" class="youtube rounded-circle" style=" padding: 10px;"></a><img src="assets/img/logo/yt.png" style="border-radius: 50%;" alt=""> -->
+                    <!-- <div class="social-links" style="text-align: right;">
                         <img src="assets/img/logo/yt.png" class="youtube rounded-circle" style="border-radius: 100%;  width: 50px;" alt="">
                         <img src="assets/img/logo/instagram.webp" class="youtube rounded-circle" style="border-radius: 100%; width: 50px;" alt="">
                         <img src="assets/img/logo/tiktok.png" class="youtube rounded-circle" style="border-radius: 100%; width: 50px;  " alt="">
-                        <!-- <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle" style=" padding: 10px;"></a>
-                        <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle" style=" padding: 10px;"></a> -->
+                    </div> -->
+                    <div class="social-links" style="margin-left: 180px;">
+                        <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style="padding: 10px;">
+                            <i class="bx bxl-youtube" style="font-size: 30px;"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle" style="padding: 10px;">
+                            <i class="bx bxl-tiktok" style=" color:black; font-size: 28px;"></i>
+                        </a>
+                        <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle" style="padding: 10px;">
+                            <i class="bx bxl-instagram" style="font-size: 30px; background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); background-clip: text; -webkit-background-clip: text;   color: transparent;"></i>
+                        </a>
                     </div>
+
                 </div>
                 <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1" style=" stroke: #003EB5;
         position: absolute;

@@ -62,6 +62,7 @@
                         <?php $no = 0; ?>
                         @foreach($data_pengguna as $pengguna)
                         <?php $no++; ?>
+                        @if($no >= 2)
                         <tr>
                             <td>{{$no}}</td>
                             <td>{{$pengguna->name}}</td>
@@ -70,11 +71,10 @@
                                 <form action="{{ route('pengumumancp.publish', $pengguna->id) }}" method="POST">
                                     @csrf
                                     <input type="hidden" name="status" value="{{ $pengguna->publish }}">
-                                    <button type="submit" class="btn {{ $pengguna->status === 'aktif' ? 'btn-success' : 'btn-danger' }} btn-xs" onclick="return confirm('Anda yakin data ini akan di{{ $pengguna->status === 'aktif' ? 'un' : '' }} ?')">
+                                    <button type="submit" class="btn {{ $pengguna->status === 'nonaktif' ? 'btn-danger' : ($pengguna->status === 'aktif' ? 'btn-success' : 'btn-warning') }} btn-xs" onclick="return confirm('Anda yakin user {{ $pengguna->status === 'nonaktif' ? 'Aktif' : ($pengguna->status === 'aktif' ?'Non Aktif' : 'Aktif') }} ?')">
                                         {{ $pengguna->status === 'aktif' ? 'Aktif' : 'Non Aktif' }}
                                     </button>
                                 </form>
-
                             </td>
                             <td>{{$pengguna->role}}</td>
                             <td>
@@ -82,13 +82,14 @@
                                     @csrf
                                     @method('delete')
                                     <a href="{{ route('pengguna.edit', $pengguna->id) }}" class="btn btn-primary btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-pencil-alt"></i> Edit</a>
-                                    <button type="submit" class="btn btn-danger btn-sm my-1 mr-sm-1" onclick="return confirm('Hapus Data ?')"><i class="nav-icon fas fa-trash"></i>
-                                        Hapus</button>
+                                    <button type="submit" class="btn btn-danger btn-sm my-1 mr-sm-1" onclick="return confirm('Hapus Data ?')"><i class="nav-icon fas fa-trash"></i> Hapus</button>
                                 </form>
                             </td>
                         </tr>
+                        @endif
                         @endforeach
                     </tbody>
+
                 </table>
             </div>
         </div>

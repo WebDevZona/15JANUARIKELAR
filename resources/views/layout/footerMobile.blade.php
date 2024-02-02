@@ -43,8 +43,7 @@
             <div class="row">
                 <!-- Left Section with Logo and Text -->
                 <div class="col-2">
-                    <a href="index.php"><img src="{{ asset('assets/img/logo/logo3.png') }}" style="width:90px !important; margin-left:-150px!important; margin-top:5px !important;"
-                            alt=""></a>
+                    <a href="index.php"><img src="{{ asset('assets/img/logo/logo3.png') }}" style="width:90px !important; margin-left:-150px!important; margin-top:5px !important;" alt=""></a>
                 </div>
 
                 <div class="col-lg-4 col-md-3">
@@ -56,9 +55,8 @@
 
                 <!-- Right Section with Social Media Links -->
 
-               
-                <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1"
-                    style=" stroke: #003EB5;
+
+                <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1" style=" stroke: #003EB5;
         position: absolute;
                width: 1100px;
                margin-inline-start: -130px;
@@ -69,16 +67,19 @@
               ">
             </div>
         </div>
-        <div class="col-lg-4 col-md-3 ml-auto">
-            <div class="social-links" style=" margin-left:140px;">
-                <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ"
-                    class="youtube rounded-circle" style=" padding: 10px;"><i class="bx bxl-youtube"></i></a>
-                <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle"
-                    style=" padding: 10px;"><i class="bx bxl-tiktok"></i></a>
-                <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle"
-                    style=" padding: 10px;"><i class="bx bxl-instagram"></i></a>
-            </div>
+
+        <div class="social-links" style=" margin-left:140px;">
+            <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style="padding: 10px;">
+                <i class="bx bxl-youtube" style="font-size: 30px;"></i>
+            </a>
+            <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle" style="padding: 10px;">
+                <i class="bx bxl-tiktok" style=" color:black; font-size: 28px;"></i>
+            </a>
+            <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle" style="padding: 10px;">
+                <i class="bx bxl-instagram" style="font-size: 30px; background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); background-clip: text; -webkit-background-clip: text;   color: transparent;"></i>
+            </a>
         </div>
+
 
         <div class="container" style="margin-top: 30px;">
             <div class="row">
@@ -127,19 +128,19 @@
                         <li><a href="#">Daftar</a></li>
                         <li><a href="#">Masuk</a></li>
                     </ul>
-                    
+
                 </div>
-               
+
                 {{-- <div class="link-container">
                     <a href="https://www.instagram.com/reel/C1eDXOAPKPI/?igsh=NTc4MTIwNjQ2YQ=="
                         style="text-decoration: none; color: black;">
                         <img src="{{ asset('assets/img/bg/hp.png') }}" alt="Workshop Image">
-                    </a>
-                </div> --}}
+                </a>
+            </div> --}}
 
 
 
-                <!-- <div class="col-lg-3 col-md-3 footer-links">
+            <!-- <div class="col-lg-3 col-md-3 footer-links">
                     <h4>Daftar Sekarang</h4>
                     <ul>
                         <li><a href="#">Daftar</a></li>
@@ -148,29 +149,28 @@
                     </ul>
                 </div> -->
 
-                <!-- Download App Section -->
-                <div class="col-lg-2     col-md-3 footer-links">
-                    {{-- <h4>Download aplikasinya</h4> --}}
+            <!-- Download App Section -->
+            <div class="col-lg-2     col-md-3 footer-links">
+                {{-- <h4>Download aplikasinya</h4> --}}
 
-                </div>
             </div>
         </div>
+    </div>
 
 
-        <div class="container" style="">
-            <hr
-                style="   border: none;
+    <div class="container" style="">
+        <hr style="   border: none;
                 height: 2px; /* Default height */
                 background-color: white; ">
-        </div>
-        <div class="container py-4">
-            <div class="copyright">
-                <strong><span></span></strong>Copyright © 2020-2023 Class Program
+    </div>
+    <div class="container py-4">
+        <div class="copyright">
+            <strong><span></span></strong>Copyright © 2020-2023 Class Program
 
-            </div>
-           
         </div>
-        
+
+    </div>
+
     </div>
 
     <div id="whatsapp-button" onclick="openWhatsApp()">
@@ -180,8 +180,7 @@
 
     <div class="popup-bro" id="popup-bro">
         <p>
-            <strong
-                style="color: black;
+            <strong style="color: black;
         font-family: Manrope;
         font-size: 16px;
         font-style: normal;
@@ -208,7 +207,6 @@
     <script src="script.js"></script>
 
     <script>
-
         function openWhatsApp() {
             var message =
                 "Hallo Minma. Saya mau tanya-tanya nih mengenai Program Kelas di Class Program."; // Pesan yang ingin Anda kirim

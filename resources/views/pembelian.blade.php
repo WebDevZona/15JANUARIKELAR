@@ -230,7 +230,6 @@
             {{-- <p>Pilih yang sesuai kebutuhan kamu</p> --}}
             <div class="package">
                 <div class="package-details">
-                    <!-- <h3>Paket: {{ $id_pesdik_login->id_produk }} </h3> -->
                     <h3> Paket: {{ $Produk->nama_produk }}</h3>
 
                     {{-- <p>Waktu: 75 Menit</p>
@@ -289,7 +288,7 @@
                 <!-- Kode voucher akan ditampilkan di sini setelah validasi -->
             </div>
             <!-- Kode JavaScript yang telah dimodifikasi -->
-      
+
 </body>
 
 </html>

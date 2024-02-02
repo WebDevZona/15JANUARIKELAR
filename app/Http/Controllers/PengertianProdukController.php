@@ -115,31 +115,22 @@ class PengertianProdukController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $PengertianProduk = PengertianProduk::where('id', $id)->first();
-        $PengertianProduk->judul             = $request->input('judul');
-        $PengertianProduk->isi             = $request->input('isi');
-        // $PengertianProduk->foto          = $request->input('foto');
-        $PengertianProduk->ket         = $request->input('ket');
-        // $PengertianProduk->id_produk         = $request->input('id_produk');
-        // $PengertianProduk->publish   = $request->input('publish');
-        // if ($request->file('foto') == "") {
-        //     $PengertianProduk->foto = $PengertianProduk->foto;
-        // } else {
+        // Retrieve the PengertianProduk record by ID
+        $PengertianProduk = PengertianProduk::findOrFail($id);
 
-        //     $file       = $request->file('foto');
-        //     $fileName   = $file->getClientOriginalName();
-        //     $request->file('foto')->move("foto_pengetrian/", $fileName);
-        //     $Produk->foto = $fileName;
-        // }
-        $PengertianProduk->update();
+        // Update the attributes of the model
+        $PengertianProduk->judul = $request->input('judul');
+        $PengertianProduk->isi = $request->input('isi');
+        $PengertianProduk->ket = $request->input('ket');
+        $PengertianProduk->id_produk = $request->input('id_produk');
 
-        // $data->cover = $cover;
-        // $data->save();
+        // Save the changes to the database
+        $PengertianProduk->save();
 
-
-        // // alert()->success('Berhasil.','Data telah diubah!');
-        return redirect()->to('pengertianProduk/index')->with('sukses', 'Data PengertianProduk Berhasil Diubah');;
+        // Redirect with a success message
+        return redirect()->to('pengertianProduk/index')->with('sukses', 'Data PengertianProduk Berhasil Diubah');
     }
+
 
     /**
      * Remove the specified resource from storage.

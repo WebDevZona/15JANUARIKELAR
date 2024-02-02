@@ -431,7 +431,7 @@
         <form id="registration-form" method="POST" action="{{ route('registration.submit') }}">
             <h1 style="font-size: 45px; color:#000; margin-top: 15px; font-family:montserrat; "><strong> Daftar <br> Akun Class Program</strong></h1>
 
-            <h4 style="font-size: 25px; margin-top:-10px; font-family:montserrat; ">Sudah punya akun?<a href="login">Masuk, yuk!</a> </h4>
+            <h4 style="font-size: 25px; margin-top:-10px; font-family:montserrat; ">Sudah punya akun? <a href="login">Masuk yuk!</a> </h4>
 
             <!-- <hr style="margin-right:10%;margin-left:10%; border: 1px solid grey;"> -->
             @csrf
