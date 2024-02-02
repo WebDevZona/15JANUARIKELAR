@@ -59,10 +59,11 @@
     <section id="hero-skripsi" class="d-flex align-items-center">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
             <div class="d-flex" style="margin-top:-100px;">
-                <strong class="btn-get-started-skripsi1 scrollto" style="background: #3E87F8">CLASS PROGRAM</strong>
+                <strong class="btn-get-started-skripsi1 scrollto" style="background: #3E87F8; font-size:20px;">CLASS PROGRAM</strong>
             </div>
             <div class="judulketiga-skripsi">
-                <h3 style="font-size: 40px; color:#FFF;">Pelatihan Skripsi</h3>
+                <h3 style="font-size: 45px; color:#FFF;letter-spacing: 1px; font-weight:bold;
+                ">Pelatihan Skripsi</h3>
             </div>
             <h2 style="font-family: Montserrat;">Kelas Pelatihan Skripsi Class Program bertujuan untuk membantu Sobat Insans dalam memahami sistematika dan penyusunan skripsi yang akan dibimbing langsung oleh Mentor</h2>
         </div>

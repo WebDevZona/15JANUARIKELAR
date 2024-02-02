@@ -378,11 +378,14 @@
 
                         <div class="modal-body">
                             <div class="btn-group">
-                                <button  onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button"  class="btn btn-primary" style="border-radius: 50px;">Satu dan
+                                <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button"
+                                    class="btn btn-primary" style="border-radius: 50px;">Satu dan
                                     Dua</button>
-                                <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-primary" style="border-radius: 50px;">Tiga dan
+                                <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button"
+                                    class="btn btn-primary" style="border-radius: 50px;">Tiga dan
                                     Empat</button>
-                                <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-primary" style="border-radius: 50px;">Lima dan
+                                <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button"
+                                    class="btn btn-primary" style="border-radius: 50px;">Lima dan
                                     Enam</button>
                                 <!-- Tambahkan tombol-tombol produk lainnya sesuai kebutuhan -->
                             </div>
@@ -390,7 +393,8 @@
                             <br>
                             <p>Pilihan paket hemat bimbingan skripsi</p>
                             <div class="btn-group" style="">
-                                <button onclick="window.location.href='bimbangan-mata-kuliah-jurusan#pricing'"   type="button" class="btn btn-list"
+                                <button onclick="window.location.href='bimbangan-mata-kuliah-jurusan#pricing'"
+                                    type="button" class="btn btn-list"
                                     style="background: #3E87F8; border-radius: 25px;"><span class="icon">
                                         <img src="assets/img/bg/bookmark.png" alt="Deskripsi Gambar"
                                             style="width: 75px;position:center; margin-top: 10px;">
@@ -488,7 +492,8 @@
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 25px;">
-                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary"
+                                    style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -577,7 +582,8 @@
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 25px;">
-                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary"
+                                    style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -639,7 +645,8 @@
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 25px;">
-                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary"
+                                    style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -694,7 +701,8 @@
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 25px;">
-                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary"
+                                    style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -712,10 +720,11 @@
                         <div class="box featured">
                             <!-- <h3>Bimbingan Mata Kuliah Jurusan (BMJ)</h3> -->
                             <h4><img src="assets/img/bg/program1.png" class="img-fluid" alt=""
-                                    style="margin-bottom: -20px;"></h4>
+                                    style="margin-bottom: -50px;"></h4>
                             <ul>
                                 <li><strong style="">Bimbingan Skripsi Online (BSO)</strong></li>
-                                <li style="color:black; ">Bimbingan Skripsi Online (BSO) Class Program disediakan secara
+                                <li style="color:black; margin-top:-10px; ">Bimbingan Skripsi Online (BSO) Class Program
+                                    disediakan secara
                                     khusus untuk membantu Sobat Insans dalam memahami cara penyusunan dan pengerjaan skripsi
                                     dengan sistem mentoring atau pendampingan secara intensif dan privat.
                                 </li>
@@ -736,10 +745,11 @@
                         <div class="box featured">
                             <!-- <h3>Bimbingan Mata Kuliah Jurusan (BMJ)</h3> -->
                             <h4><img src="assets/img/bg/program2.png" class="img-fluid" alt=""
-                                    style="margin-bottom: -20px;"></h4>
+                                    style="margin-bottom: -50px;"></h4>
                             <ul>
                                 <li><strong style="">Bimbingan Mata Kuliah Jurusan (BMJ)</strong></li>
-                                <li style="color:black;">Bimbingan Mata Kuliah Jurusan (BMJ) Class Program disediakan
+                                <li style="color:black; margin-top:-10px;">Bimbingan Mata Kuliah Jurusan (BMJ) Class
+                                    Program disediakan
                                     secara
                                     khusus untuk membantu Sobat Insans dalam memahami materi
                                     mata kuliah jurusan dengan sistem mentoring atau pendampingan secara intensif dan
@@ -760,7 +770,7 @@
                         <div class="box">
                             <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
                             <h4><img src="assets/img/bg/program3.png" class="img-fluid" alt=""
-                                    style="margin-bottom: -20px;"></h4>
+                                    style="margin-bottom: -50px; margin-top:-10px;"></h4>
                             <ul>
                                 <li><strong style=""> Kelas Tugas Kuliah (KTK)</strong></li>
                                 <li style="color:black;">Kelas Tugas Kuliah (KTK) Class Program disediakan secara khusus
@@ -783,7 +793,7 @@
                         <div class="box">
                             <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
                             <h4><img src="assets/img/bg/program4.png" class="img-fluid" alt=""
-                                    style="margin-bottom: -20px;"></h4>
+                                    style="margin-bottom: -50px; margin-top:-10px;"></h4>
                             <ul>
                                 <li><strong style="">Kelas Persiapan Karir (KPK)</strong></li>
                                 <li style="color:black;">Kelas Persiapan Karir (KPK) Class Program disediakan secara khusus
@@ -805,7 +815,7 @@
                         <div class="box">
                             <!-- <h3>Bimbingan Skripsi Online <br> (BSO)</h3> -->
                             <h4><img src="assets/img/bg/program5.png" class="img-fluid" alt=""
-                                    style="margin-bottom: -20px;"></h4>
+                                    style="margin-bottom: -50px; margin-top:-10px;"></h4>
                             <ul>
                                 <li><strong style="">Creative Class</strong></li>
                                 <br>
@@ -872,13 +882,13 @@
             <div class="container" style="margin-top: 0px">
                 <div class="content" id="content1">
                     <div class="row blok">
-                        <div class="col-lg-6 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up"
+                        <div class="col-lg-6 pt-4 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up"
                             data-aos-delay="100">
                             <h3
                                 style="color: #2A2A2A;
                                 font-family: Manrope;
                                 font-size: 50px;
-                                margin-top:50px;
+                                margin-top:34px;
                                 font-style: normal;
                                 font-weight: 800;
                                 /* line-spacing: 2px; */
@@ -938,14 +948,14 @@
                 </div>
 
                 <div class="content" id="content2">
-                    <div class="row">
+                    <div class="row blok">
                         <div class="col-lg-6 pt-4 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up"
                             data-aos-delay="100">
                             <h3
                                 style="color: #2A2A2A;
                             font-family: Manrope;
                             font-size: 50px;
-                            /* margin-top:50px; */
+                            margin-top:50px;
                             font-style: normal;
                             font-weight: 800;
                             /* line-spacing: 2px; */
@@ -1030,40 +1040,38 @@
                         transition: transform 0.3s ease-in-out;
                     }
 
-                    .video-link:hover .thumbnail {
-                        transform: translateX(-10px);
-                        /* Efek geser */
-                    }
-
-
-                    .video-link:hover .play-icon {
-                        opacity: 1;
-                    }
+                  
                 </style>
                 <div class="main_content floatleft">
                     <div class="left_coloum floatleft">
                         <h4 style="margin-bottom: 20px; font-size:18px">Rekomendasi video untukmu</h4>
-                        <div class="single_left_coloum_wrapper" id="scrollableColumn" >
+                        <div class="single_left_coloum_wrapper" id="scrollableColumn">
                             <div class="scrollable_left_coloum">
                                 @if ($berita->isNotEmpty())
                                     @foreach ($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
-                                        <div class="single_left_coloum" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
+                                        <div class="single_left_coloum"
+                                            style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
                                             <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link">
-                                                <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" class="thumbnail" />
-                                                <svg class="play-icon" style="top: 55% !important;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}"
+                                                    alt="Youtube Thumbnail" class="thumbnail" />
+                                                <svg class="play-icon" style="top: 55% !important;"
+                                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                                     <path d="M8 5v14l11-7z" />
                                                 </svg>
                                             </a>
-                                            <p style="color: black; font-size: 12px !important;">Video: <span style="color: black; font-size: 12px !important;">{{ $penegnbalikcuk->judul }}</span></p>
-                                            <p id="duration_{{ $penegnbalikcuk->id }}" style="color: black; font-size: 12px !important;"></p>
+                                            <p style="color: black; font-size: 12px !important;">Video: <span
+                                                    style="color: black; font-size: 12px !important;">{{ $penegnbalikcuk->judul }}</span>
+                                            </p>
+                                            <p id="duration_{{ $penegnbalikcuk->id }}"
+                                                style="color: black; font-size: 12px !important;"></p>
                                         </div>
-                            
+
                                         <script>
                                             // Fetch and display YouTube video duration
                                             function fetchVideoDuration(videoId, elementId) {
                                                 var apiKey = 'AIzaSyA51N396Cy-PFqNBYqnbnfSu2ax9eGS-P0';
                                                 var apiUrl = 'https://www.googleapis.com/youtube/v3/videos';
-                            
+
                                                 // Make a request to YouTube Data API
                                                 fetch(apiUrl + '?id=' + videoId + '&key=' + apiKey + '&part=contentDetails')
                                                     .then(response => response.json())
@@ -1074,25 +1082,26 @@
                                                     })
                                                     .catch(error => console.error('Error fetching video duration:', error));
                                             }
-                            
+
                                             // Function to parse ISO 8601 duration format
                                             function parseISO8601Duration(duration) {
                                                 var match = duration.match(/PT(\d+H)?(\d+M)?(\d+S)?/);
-                            
+
                                                 var hours = (parseInt(match[1]) || 0);
                                                 var minutes = (parseInt(match[2]) || 0);
                                                 var seconds = (parseInt(match[3]) || 0);
-                            
-                                                return (hours > 0 ? hours + 'h ' : '') + (minutes > 0 ? minutes + 'm ' : '') + (seconds > 0 ? seconds + 's' : '');
+
+                                                return (hours > 0 ? hours + 'h ' : '') + (minutes > 0 ? minutes + 'm ' : '') + (seconds > 0 ? seconds + 's' :
+                                                    '');
                                             }
-                            
+
                                             // Call the fetchVideoDuration function for each video
                                             fetchVideoDuration('{{ $penegnbalikcuk->youtube_video_id }}', 'duration_{{ $penegnbalikcuk->id }}');
                                         </script>
                                     @endforeach
                                 @endif
                             </div>
-                                                     
+
                         </div>
                         <span class="left-scroll-button" onclick="customScrollLeft()">
                             <svg xmlns="http://www.w3.org/2000/svg" width="35"
@@ -1141,7 +1150,7 @@
                                 </defs>
                             </svg>
                         </span>
-                        <hr style="border: 2px solid rgba(0, 0, 0, 0.48);  margin-top:-5px;">
+                        <hr style="border: 2px solid black;  margin-top: 3px;">
 
                         <style>
                             .single_left_coloum {
@@ -1180,7 +1189,8 @@
                             @if ($berita->isNotEmpty())
                                 @foreach ($data->sortByDesc('created_at')->take(10) as $video)
                                     <a href="{{ $video->tampilan }}" style="text-decoration: none; color: black;">
-                                        <div class="single_left_coloum"  style="    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Bayangan dengan warna biru lebih gelap */
+                                        <div class="single_left_coloum"
+                                            style="    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Bayangan dengan warna biru lebih gelap */
                                         ">
                                             <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail"
                                                 style="width: 100% !important; height:200px !important;" />
@@ -1297,7 +1307,7 @@
                             @if ($berita->isNotEmpty())
                                 @foreach ($berita->sortByDesc('created_at')->take(4) as $item)
                                     <div class="content_wrapper">
-                                        <div class="left_content" >
+                                        <div class="left_content">
                                             <h3>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23"
                                                     viewBox="0 0 18 23" fill="none"
@@ -1329,7 +1339,8 @@
                                                 {{ $item->waktu }}
                                             </p>
                                         </div>
-                                        <div class="right_content"  style="    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Bayangan dengan warna biru lebih gelap */
+                                        <div class="right_content"
+                                            style="    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Bayangan dengan warna biru lebih gelap */
                                         ">
                                             <img src="{{ asset('foto_upload/' . $item->foto) }}"
                                                 style="    border-radius: 10px;" alt="Youtube Thumbnail" />
@@ -1375,68 +1386,70 @@
             </div>
         </section>
 
-<style>
-    #testibaru {
-    position: relative;
-    z-index: 1;
-}
+        <style>
+            #testibaru {
+                position: relative;
+                z-index: 1;
+            }
 
-#background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-}
+            #background-image {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 0;
+            }
 
-.testibaru .pyoutube {
-    position: relative;
-    z-index: 2;
-    width: 80%;
-}
+            .testibaru .pyoutube {
+                position: relative;
+                z-index: 2;
+                width: 80%;
+            }
 
-.yutup{
-    background: url('assets/img/bg/yutup.png'); /* Replace 'your-image-url.jpg' with the actual URL of your image */
-    background-size: cover; /* Adjust this property based on your needs */
-    width: 80%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    transition: transform 0.5s ease;
-    /* min-height: 280px; */
-    color: #fff;
-    font-family: Manrope;
-    font-size: 38px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    justify-content: center;
-    margin-left: 100px;
-
-   
-}
-.yutup:hover {
-    transform: scale(1.1); /* Efek zoom pada hover */
-}
+            .yutup {
+                background: url('assets/img/bg/yutup.png');
+                /* Replace 'your-image-url.jpg' with the actual URL of your image */
+                background-size: cover;
+                /* Adjust this property based on your needs */
+                width: 80%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 20px;
+                transition: transform 0.5s ease;
+                /* min-height: 280px; */
+                color: #fff;
+                font-family: Manrope;
+                font-size: 38px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: normal;
+                justify-content: center;
+                margin-left: 100px;
 
 
-</style>
+            }
+
+            .yutup:hover {
+                transform: scale(1.1);
+                /* Efek zoom pada hover */
+            }
+        </style>
 
 
 
-        <section id="testibaru" class="testibaru section-bg " style="margin-bottom:-100px;">
+        <section id="testibaru" class="testibaru section-bg " style="margin-bottom:-110px;">
             <div id="background-image">
-                <img src="assets/img/bg/bg_biru_setengah.png" alt="" style="height: 40vh; width: 100%; object-fit: cover;    margin-top: 150px;
+                <img src="assets/img/bg/bg_biru_setengah.png" alt=""
+                    style="height: 40vh; width: 100%; object-fit: cover;    margin-top: 150px;
                 ">
             </div>
             <div class="pyoutube" style="margin-top: -200px;, ">
                 <br>
                 <div class="yutup">
-                    <div class="gabung"
-                        {{-- style="background: url(assets/img/bg/bgyou.png); position: absolute;  width: 1100px; height: 300px; margin-top:-40px; margin-left:-30px;  border-radius: 25px;"--}}>
+                    <div class="gabung" {{-- style="background: url(assets/img/bg/bgyou.png); position: absolute;  width: 1100px; height: 300px; margin-top:-40px; margin-left:-30px;  border-radius: 25px;" --}}>
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="info">
                             <h1
@@ -1453,8 +1466,7 @@
                             </style>
 
                             <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt">
-                                <div
-                                    style="display: inline-block; position: relative; margin-left: 380px; ">
+                                <div style="display: inline-block; position: relative; margin-left: 380px; ">
                                     <div class="yt" style="text-align: center;">
                                         <div
                                             style=" width: 60px; height: 60px; margin-left: 35px;  border-radius: 50%; background-color: white; position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);">
@@ -1534,22 +1546,26 @@
                 <div class="profile-slider" style="margin-left: 10px; height:40% !important;">
                     <div class="profile" style="margin-right: 0% !important">
                         <div class="gabung">
-                            <img class="profile-image" src="assets/img/team/team-2.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
+                            <img class="profile-image" src="assets/img/team/team-2.jpg" alt="Gambar Profil"
+                                style="width: 80px !important; height:auto; margin-top:70px;">
                             <div class="profile-info">
                                 <h1 style="font-size:20px; margin-top:40px">Yohanes Hernandes SYohan</h1>
-                                <p style="font-size: 15px;">" Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
+                                <p style="font-size: 15px;">" Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke
+                                    dosen pembimbing jadi ngalir
                                     gitu aja banyak ide muncul."</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="profile" style="margin-right: 0% !important">
-                        <div class="gabung" >
-                            <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
+                        <div class="gabung">
+                            <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil"
+                                style="width: 80px !important; height:auto; margin-top:70px;">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
                                 <h1 style="font-size:20px; margin-top:40px;">ELouis Patric</h1>
-                                <p style="font-size: 15px;">" Gan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
+                                <p style="font-size: 15px;">" Gan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen
+                                    pembimbing jadi ngalir
                                     gitu aja banyak ide muncul."
                                 </p>
                             </div>
@@ -1559,11 +1575,13 @@
 
                     <div class="profile" style="margin-right: 0% !important">
                         <div class="gabung">
-                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
+                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil"
+                                style="width: 80px !important; height:auto; margin-top:70px;">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
                                 <h1 style="font-size:20px; margin-top:40px;">Adinda Cahayani Supriyanto</h1>
-                                <p style="font-size: 15px;">" Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan
+                                <p style="font-size: 15px;">" Saya sangat berterima kasih pada BSO karena sudah menyediakan
+                                    program bimbingan
                                     skripsi online yang berkualitas dan juga ramah dikantong."</p>
                             </div>
                         </div>
@@ -1572,11 +1590,13 @@
                     <!-- lanjutan -->
                     <div class="profile" style="margin-right: 0% !important">
                         <div class="gabung">
-                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
+                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil"
+                                style="width: 80px !important; height:auto; margin-top:70px;">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
                                 <h1 style="font-size:20px; margin-top:40px;">Yola</h1>
-                                <p style="font-size: 15px;">"Saya merasa puas dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya
+                                <p style="font-size: 15px;">"Saya merasa puas dan cocok dengan BSO Class Program. Kaka
+                                    Mentornya baik dan tegas. Saya
                                     selalu
                                     dikoreksi positif secara baik oleh kaka Mentor. BSO bagus sekali dan recommended
                                     untuk Mahasiswa."</p>
@@ -1585,11 +1605,13 @@
                     </div>
                     <div class="profile" style="margin-right: 0% !important">
                         <div class="gabung">
-                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
+                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil"
+                                style="width: 80px !important; height:auto; margin-top:70px;">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
                                 <h1 style="font-size:20px; margin-top:40px;">Hildan Ramdani</h1>
-                                <p style="font-size: 15px;">"Halo Kak Dewi. Saya rutin ikut bimbingan, seminggu 3 kali. Dalam proses bimbingan, jujur
+                                <p style="font-size: 15px;">"Halo Kak Dewi. Saya rutin ikut bimbingan, seminggu 3 kali.
+                                    Dalam proses bimbingan, jujur
                                     saya
                                     sangat terbantu. Banyak hal yang saya tanyakan dan dapat terjawab oleh Mentor saya."</p>
                             </div>
@@ -1597,14 +1619,16 @@
                     </div>
                     <div class="profile" style="margin-right: 0% !important">
                         <div class="gabung">
-                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
+                            <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil"
+                                style="width: 80px !important; height:auto; margin-top:70px;">
                             <!-- Ganti dengan path gambar profil Anda -->
                             <div class="profile-info">
                                 <h1 style="font-size:20px; margin-top:40px;">Azizah Nurul</h1>
-                                        <p style="font-size: 15px;">"Saya puas dengan bimbingannya kak. Awalnya saya tidak mengerti tahapan skripsi,
-                                            ketika mulai
-                                            bimbingan, saya jadi mengerti hal-hal penting dan tahapan dalam pembuatan judul
-                                            serta penentuan variabel. Terima kasih banyak."</p>
+                                <p style="font-size: 15px;">"Saya puas dengan bimbingannya kak. Awalnya saya tidak
+                                    mengerti tahapan skripsi,
+                                    ketika mulai
+                                    bimbingan, saya jadi mengerti hal-hal penting dan tahapan dalam pembuatan judul
+                                    serta penentuan variabel. Terima kasih banyak."</p>
                             </div>
                         </div>
                     </div>
@@ -1618,8 +1642,8 @@
         </section>
 
         <section id="konsultasi" class="konsultasi section-bg"
-            style="font-family: 'Manrope', sans-serif;margin-top: -100px;
-            margin-top: -100px;  margin-bottom:50px;  background: url(assets/img/bg/alurin.png);background-size: cover;">
+            style="font-family: 'Manrope', sans-serif;margin-top: -150px;
+              margin-bottom:50px;  background: url(assets/img/bg/alurin.png);background-size: cover;">
             <div class="container" data-aos="fade-up">
                 <div class="section-title">
                     {{-- <h2>Team</h2> --}}
@@ -1716,11 +1740,11 @@
                 <div class="row">
                     <div class="col-xl-7">
                         <div class="section-title">
-                            <h3 style="font-size: 30px; margin-left:-100px;">Paling Sering Ditanyakan</h3>
+                            <h3 style="font-size: 30px; margin-left:-190px; margin-bottom:-30px;">Paling Sering Ditanyakan</h3>
                         </div>
                         <div id="accordion" class="myaccordion" style="">
                             <div class="card" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
-                                <div class="card-header" id="headingOne" >
+                                <div class="card-header" id="headingOne">
                                     <h2 class="mb-0">
                                         <button
                                             class="d-flex align-items-center justify-content-between btn btn-link collapsed"
@@ -1728,7 +1752,8 @@
                                             aria-controls="collapseOne">
                                             <p style="color: #000;">Apa yang dimaksud dengan Sobat Insans?</p>
                                             <span class="fa-stack fa-sm">
-                                                <i class="fas fa-circle fa-stack-2x" style="color: rgb(9,50,111) !important;"></i>
+                                                <i class="fas fa-circle fa-stack-2x"
+                                                    style="color: rgb(9,50,111) !important;"></i>
                                                 <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                             </span>
                                         </button>
@@ -1751,7 +1776,8 @@
                                             aria-controls="collapseTwo">
                                             <p style="color: #000;">Siapa saja yang bisa belajar di Class Program?</p>
                                             <span class="fa-stack fa-2x">
-                                                <i class="fas fa-circle fa-stack-2x" style="color: rgb(9,50,111) !important;"></i>
+                                                <i class="fas fa-circle fa-stack-2x"
+                                                    style="color: rgb(9,50,111) !important;"></i>
                                                 <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                             </span>
                                         </button>
@@ -1776,7 +1802,8 @@
                                             aria-controls="collapseThree">
                                             <p style="color: #000;">Siapa Mentor yang ada di Class Program?</p>
                                             <span class="fa-stack fa-2x">
-                                                <i class="fas fa-circle fa-stack-2x" style="color: rgb(9,50,111) !important;"></i>
+                                                <i class="fas fa-circle fa-stack-2x"
+                                                    style="color: rgb(9,50,111) !important;"></i>
                                                 <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                             </span>
                                         </button>
@@ -1799,7 +1826,8 @@
                                             aria-controls="collapse4">
                                             <p style="color: #000;">Bagaimana jadwal bimbingan di Class Program?</p>
                                             <span class="fa-stack fa-2x">
-                                                <i class="fas fa-circle fa-stack-2x" style="color: rgb(9,50,111) !important;"></i>
+                                                <i class="fas fa-circle fa-stack-2x"
+                                                    style="color: rgb(9,50,111) !important;"></i>
                                                 <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                             </span>
                                         </button>
@@ -1824,7 +1852,8 @@
                                             aria-controls="collapse5">
                                             <p style="color: #000;">Apakah di Class Program bisa ganti Mentor?</p>
                                             <span class="fa-stack fa-2x">
-                                                <i class="fas fa-circle fa-stack-2x" style="color: rgb(9,50,111) !important;"></i>
+                                                <i class="fas fa-circle fa-stack-2x"
+                                                    style="color: rgb(9,50,111) !important;"></i>
                                                 <i class="fas fa-plus fa-stack-1x fa-inverse"></i>
                                             </span>
                                         </button>
@@ -1839,9 +1868,9 @@
                                 </div>
                             </div>
                             <!--          <a href="#pricing" style="width: 100%; height: auto; position: relative; display: inline-block; text-decoration: none;">
-                                            <div style="margin-left:10px; width: 200px; height: 50px; left: 0px; top: 0px; position: absolute; background: #0849B2;  rgba(0, 0, 0, 0.20); border-radius: 20.32px"></div>
-                                            <div style="left: 30.48px; margin-top:-5px; top: 13.21px; position: absolute; color: white; font-size: 20px; font-family: Raleway; font-weight: 700; word-wrap: break-word">Baca selengkapnya</div>
-                                        </a> -->
+                                                <div style="margin-left:10px; width: 200px; height: 50px; left: 0px; top: 0px; position: absolute; background: #0849B2;  rgba(0, 0, 0, 0.20); border-radius: 20.32px"></div>
+                                                <div style="left: 30.48px; margin-top:-5px; top: 13.21px; position: absolute; color: white; font-size: 20px; font-family: Raleway; font-weight: 700; word-wrap: break-word">Baca selengkapnya</div>
+                                            </a> -->
                         </div>
                     </div>
                     <div class="col-xl-5" style=" posison: absolute;">
@@ -1857,14 +1886,78 @@
 
         <style>
             #gambarkampus .container img:hover {
-    transform: scale(1.1); /* Efek zoom pada hover */
-}
+                transform: translateY(-20px);
+                /* Sesuaikan nilai untuk efek memantul ke atas */
+            }
+
+            @keyframes marqueeLeft {
+                0% {
+                    transform: translateX(100%);
+                }
+
+                100% {
+                    transform: translateX(-100%);
+                }
+            }
+
+            @keyframes marqueeRight {
+                0% {
+                    transform: translateX(-100%);
+                }
+
+                100% {
+                    transform: translateX(100%);
+                }
+            }
         </style>
-        <section id="gambarkampus" class="gambarkampus" style="margin-top:-100px;">
+        <section id="gambarkampus" class="gambarkampus" style="margin-top:-150px;">
             <div class="section-title">
-                <h3 style="font-size: 35px;">Kami telah membimbing<br> mahasiswa dari berbagai kampus</h3>
+                <h3 style="font-size: 30px;">Kami Telah Membimbing</h3>
+                <h3 style="font-size: 30px; margin-top:-5px; margin-bottom:5px;"> Mahasiswa dari Berbagai Kampus</h3>
             </div>
-            <div class="container" style="margin-top: 50px;">
+            <div class="row" style="display: flex; animation: marqueeLeft 20s linear infinite;"> <img
+                    src="assets/img/kampus/ui.png" alt="Gambar 1" class="image"
+                    style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
+                <img src="assets/img/kampus/um.png" alt="Gambar 2" class="image"
+                    style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
+                <img src="assets/img/kampus/unnes.png" alt="Gambar 3" class="image"
+                    style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
+                <img src="assets/img/kampus/uny.png" alt="Gambar 4" class="image"
+                    style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                <img src="assets/img/kampus/unj.png" alt="Gambar 7" class="image"
+                    style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+
+
+            </div>
+            <div>
+
+                <div class="row" style="display: flex; animation: marqueeRight 20s linear infinite;">
+                    <img src="assets/img/kampus/ub.png" alt="Gambar 8" class="image"
+                        style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/ugm.png" alt="Gambar 5" class="image"
+                        style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/itb.png" alt="Gambar 6" class="image"
+                        style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/uns.png" alt="Gambar 10" class="image"
+                        style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/ut.png" alt="Gambar 11" class="image"
+                        style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+
+                </div>
+                <div class="row" style="display: flex; animation: marqueeLeft 20s linear infinite;">
+                    <img src="assets/img/kampus/unm.png" alt="Gambar 12" class="image"
+                        style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/unesa.png" alt="Gambar 9" class="image"
+                        style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/pajajaran.png" alt="Gambar 10" class="image"
+                        style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/undip.png" alt="Gambar 11" class="image"
+                        style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    <img src="assets/img/kampus/unsri.png" alt="Gambar 12" class="image"
+                        style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
+                    {{-- <img src="assets/img/kampus/akhir.png" alt="Gambar 9" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); "> --}}
+                </div>
+                {{-- <div class="container" style="margin-top: 50px;">
                 <div class="row">
                     <img src="assets/img/kampus/ui.png" alt="Gambar 1" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
                     <img src="assets/img/kampus/um.png" alt="Gambar 2" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
@@ -1889,7 +1982,7 @@
                     <img src="assets/img/kampus/unsri.png" alt="Gambar 12" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
                     <img src="assets/img/kampus/akhir.png" alt="Gambar 9" class="image" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); ">
                 </div>
-            </div>
+            </div> --}}
         </section>
 
         {{-- <div id="preloader"></div> --}}
