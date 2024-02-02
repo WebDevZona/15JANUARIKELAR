@@ -624,6 +624,7 @@
 
                 <div id="packageCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -40px; margin-left:50px;">
                     <div class="carousel-inner">
+                        
                         <div class="carousel-item active">
                             <div class="container">
                                 <div class="row">
@@ -684,9 +685,29 @@
                                                         maksimal 4 jam</span>
                                                 </li>
                                             </ul>
-                                            <div class="custom-btn-wrap" style="margin-top:-10%">
-                                                <a href="/pembelian/bso" class="custom-btn-buy" style="width:80%;font-size:12px">Daftar Sekarang</a>
-                                            </div>
+                                            <div class="custom-btn-wrap" style="margin-top: -10%">
+                                                <a id="custom-btn" class="custom-btn-buy" style="width: 80%; font-size: 12px; cursor: pointer;">Daftar Sekarang</a>
+                                              </div>
+                                              
+                                              <script>
+                                                document.getElementById('custom-btn').addEventListener('click', function() {
+                                                  // Menggunakan Laravel's Blade untuk mendapatkan status login
+                                                  var isLoggedIn = @auth
+                                                                      true
+                                                                    @else
+                                                                      false
+                                                                    @endauth;
+                                              
+                                                  if (isLoggedIn) {
+                                                    window.location.href = "/pembelian/bso"; // Arahkan ke halaman pembelian jika sudah login
+                                                  } else {
+                                                    window.location.href = "/register"; // Arahkan ke halaman registrasi jika belum login
+                                                  }
+                                                });
+                                              </script>
+                                              
+                                              
+                                              
                                         </div>
                                     </div>
 
@@ -746,8 +767,8 @@
                                                         maksimal 4 jam</span>
                                                 </li>
                                             </ul>
-                                            <div class="custom-btn-wrap" style="margin-top:-10%">
-                                                <a href="/pembelian/bso" class="custom-btn-buy" style="width:80%;font-size:12px">Daftar Sekarang</a>
+                                            <div class="custom-btn-wrap" style="margin-top: -10%">
+                                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
                                             </div>
                                         </div>
                                     </div>
@@ -859,8 +880,8 @@
                                                         2 jam maksimal 4 jam</span>
                                                 </li>
                                             </ul>
-                                            <div class="custom-btn-wrap" style="margin-top:-10%">
-                                                <a href="/pembelian/bso" class="custom-btn-buy" style="width:80%;font-size:12px">Daftar Sekarang</a>
+                                            <div class="custom-btn-wrap" style="margin-top: -10%">
+                                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
                                             </div>
                                         </div>
                                     </div>
@@ -987,8 +1008,8 @@
                                                     <span class="text-bso" style="font-size: 10px">Sertifikat</span>
                                                 </li>
                                             </ul>
-                                            <div class="custom-btn-wrap" style="margin-top:-10%">
-                                                <a href="/pembelian/bso" class="custom-btn-buy" style="width:80%;font-size:12px">Daftar Sekarang</a>
+                                            <div class="custom-btn-wrap" style="margin-top: -10%">
+                                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
                                             </div>
                                         </div>
                                     </div>
@@ -1057,9 +1078,11 @@
                                                     <span class="text-bso" style="font-size: 10px">Waktu bimbingan 30x pertemuan</span>
                                                 </li>
                                             </ul>
-                                            <div class="custom-btn-wrap" style="margin-top:-10%">
-                                                <a href="/pembelian/bso" class="custom-btn-buy" style="width:80%;font-size:12px">Daftar Sekarang</a>
-                                            </div>
+                                            <div class="custom-btn-wrap" style="margin-top: -10%">
+                                                <a id="custom-btn" class="custom-btn-buy" style="width: 80%; font-size: 12px; cursor: pointer;">Daftar Sekarang</a>
+                                              </div>
+                                              
+                                             
                                         </div>
                                     </div>
 
@@ -1238,7 +1261,7 @@
                             <span class="sr-only">Previous</span>
                         </a>
                         <a class="carousel-control-next" href="#packageCarousel" role="button" data-slide="next">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-left: 50px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-left: -50px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
                                 <g filter="url(#filter0_b_229_15)">
                                     <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                                     <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
@@ -2075,9 +2098,8 @@
                                             </ul>
                                             </p>
                                         </div>
-                                        <div class="card-footer text-center" style="border-radius: 20px;height: 45px; ">
-                                            <a href="#" class="btn btn-primary" style="border-radius: 10px; align-content: center;margin-top: -10px; font-size:12px;">Daftar
-                                                Sekarang</a>
+                                        <div class="card-footer text-center" style="border-radius: 20px; height: 45px;">
+                                            <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 10px; align-content: center; margin-top: -10px; font-size: 12px;">Daftar Sekarang</a>
                                         </div>
                                     </div>
                                 </div>
@@ -2260,9 +2282,8 @@
                                             </ul>
                                             </p>
                                         </div>
-                                        <div class="card-footer text-center" style="border-radius: 20px;height: 45px; ">
-                                            <a href="#" class="btn btn-primary" style="border-radius: 10px; align-content: center;margin-top: -10px; font-size:12px;">Daftar
-                                                Sekarang</a>
+                                        <div class="card-footer text-center" style="border-radius: 20px; height: 45px;">
+                                            <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 10px; align-content: center; margin-top: -10px; font-size: 12px;">Daftar Sekarang</a>
                                         </div>
                                     </div>
                                 </div>

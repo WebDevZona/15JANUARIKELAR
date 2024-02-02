@@ -1087,9 +1087,8 @@
                                                         <span class="text-bso" style="font-size: 10px">Durasi pertemuan minimal 2<br> jam dan maksimal 4 jam</span>
                                                     </li>
                                                 </ul>
-                                                <div class="custom-btn-wrap" style="margin-top:-10%">
-                                                    <a href="/pembelian/bso" class="custom-btn-buy"
-                                                        style="width:80%;font-size:12px">Daftar Sekarang</a>
+                                                <div class="custom-btn-wrap" style="margin-top: -10%">
+                                                    <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1156,9 +1155,8 @@
                                                         <span class="text-bso" style="font-size: 10px"> Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
                                                     </li>
                                                 </ul>
-                                                <div class="custom-btn-wrap" style="margin-top:-10%">
-                                                    <a href="/pembelian/bso" class="custom-btn-buy"
-                                                        style="width:80%;font-size:12px">Daftar Sekarang</a>
+                                                <div class="custom-btn-wrap" style="margin-top: -10%">
+                                                    <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1226,9 +1224,8 @@
                                                         <span class="text-bso" style="font-size: 10px">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
                                                     </li>
                                                 </ul>
-                                                <div class="custom-btn-wrap" style="margin-top:-10%">
-                                                    <a href="/pembelian/bso" class="custom-btn-buy"
-                                                        style="width:80%;font-size:12px">Daftar Sekarang</a>
+                                                <div class="custom-btn-wrap" style="margin-top: -10%">
+                                                    <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
                                                 </div>
                                             </div>
                                         </div>

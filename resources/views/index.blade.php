@@ -488,8 +488,7 @@
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 25px;">
-                                <a href="login" class="btn btn-primary"
-                                    style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -578,8 +577,7 @@
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 25px;">
-                                <a href="#" class="btn btn-primary"
-                                    style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -641,8 +639,7 @@
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 25px;">
-                                <a href="#" class="btn btn-primary"
-                                    style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -697,8 +694,7 @@
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 25px;">
-                                <a href="#" class="btn btn-primary"
-                                    style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
