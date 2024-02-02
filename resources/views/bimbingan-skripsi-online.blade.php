@@ -588,17 +588,17 @@
 
         <style>
             #pricing {
-           
-           background-image: url('assets/img/bg/bso-background.png');
-           background-color: #09326f;
-           background-size: cover;
-           height: 140vh;
-           background-repeat: no-repeat;
-           background-position: center;
-           margin-bottom: 100px;
-           /* Add other styles as needed */
-       }
-       </style>
+
+                background-image: url('assets/img/bg/bso-background.png');
+                background-color: #09326f;
+                background-size: cover;
+                height: 140vh;
+                background-repeat: no-repeat;
+                background-position: center;
+                margin-bottom: 100px;
+                /* Add other styles as needed */
+            }
+        </style>
 
 
         <!-- ======= Pricing Section ======= -->
@@ -624,7 +624,7 @@
 
                 <div id="packageCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -40px; margin-left:50px;">
                     <div class="carousel-inner">
-                        
+
                         <div class="carousel-item active">
                             <div class="container">
                                 <div class="row">
@@ -687,27 +687,27 @@
                                             </ul>
                                             <div class="custom-btn-wrap" style="margin-top: -10%">
                                                 <a id="custom-btn" class="custom-btn-buy" style="width: 80%; font-size: 12px; cursor: pointer;">Daftar Sekarang</a>
-                                              </div>
-                                              
-                                              <script>
+                                            </div>
+
+                                            <script>
                                                 document.getElementById('custom-btn').addEventListener('click', function() {
-                                                  // Menggunakan Laravel's Blade untuk mendapatkan status login
-                                                  var isLoggedIn = @auth
-                                                                      true
-                                                                    @else
-                                                                      false
-                                                                    @endauth;
-                                              
-                                                  if (isLoggedIn) {
-                                                    window.location.href = "/pembelian/bso"; // Arahkan ke halaman pembelian jika sudah login
-                                                  } else {
-                                                    window.location.href = "/register"; // Arahkan ke halaman registrasi jika belum login
-                                                  }
+                                                    // Menggunakan Laravel's Blade untuk mendapatkan status login
+                                                    var isLoggedIn = @auth
+                                                    true
+                                                    @else
+                                                    false
+                                                    @endauth;
+
+                                                    if (isLoggedIn) {
+                                                        window.location.href = "pembelian/BSO%20Silver"; // Arahkan ke halaman pembelian jika sudah login
+                                                    } else {
+                                                        window.location.href = "/register"; // Arahkan ke halaman registrasi jika belum login
+                                                    }
                                                 });
-                                              </script>
-                                              
-                                              
-                                              
+                                            </script>
+
+
+
                                         </div>
                                     </div>
 
@@ -768,60 +768,10 @@
                                                 </li>
                                             </ul>
                                             <div class="custom-btn-wrap" style="margin-top: -10%">
-                                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ? 'pembelian/BSO%20Gold' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
                                             </div>
                                         </div>
                                     </div>
-
-                                    {{-- Paket Gold --}}
-                                    {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                        <div class="custom-box" style="height: 550px; border-radius: 15px;">
-                                            <h4 class="custom-package" style="color: #FFF;
-                                                font-family: Montserrat;
-                                                font-size: 18px;
-                                                font-style: normal;
-                                                font-weight: 700;
-                                                line-height: 125%; /* 40px */
-                                                ">
-                                                PAKET GOLD</h4>
-                                            <div class="rupiah-display" style="position: relative;">
-                                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                                    <strong class="rp" style="margin-left: 10px;">Rp</strong>
-                                                </h4>
-                                                <h4 style="color: #1E1E1E">450.000</h4>
-                                            </div>
-                                            <div class="custom-pricee" style="margin-right: 115px;"><strong>2
-                                                    Bulan</strong></div>
-                                            <hr style=" border: 2px solid #000; border-width: 1px;">
-                                            <ul >
-                                                <li class="left-aligned">
-                                                    <span class="checkmark">&#10003;</span>
-                                                    <span class="text-bso"> Bimbingan intensif pembuatan <br> bab
-                                                        1-3</span>
-                                                </li>
-                                                <li class="left-aligned">
-                                                    <span class="checkmark">&#10003;</span>
-                                                    <span class="text-bso"> Bimbingan dalam pembuatan outline</span>
-                                                </li>
-                                                <li class="left-aligned">
-                                                    <span class="checkmark">&#10003;</span>
-                                                    <span class="text-bso">Bimbingan metode penelitian</span>
-                                                </li>
-                                                <li class="left-aligned">
-                                                    <span class="checkmark">&#10003;</span>
-                                                    <span class="text-bso">Waktu bimbingan 24x pertemuan</span>
-                                                </li>
-                                                <li class="left-aligned">
-                                                    <span class="checkmark">&#10003;</span>
-                                                    <span class="text-bso">Durasi bimbingan per pertemuan <br> minimal
-                                                        2 jam maksimal 4 jam.</span>
-                                                </li>
-                                            </ul>
-                                            <div class="custom-btn-wrap" style="margin-top:-2%">
-                                                <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
-                                            </div>
-                                        </div>
-                                    </div> --}}
 
                                     {{-- Platinum --}}
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -881,71 +831,18 @@
                                                 </li>
                                             </ul>
                                             <div class="custom-btn-wrap" style="margin-top: -10%">
-                                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ? 'pembelian/BSO%20Platinum' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
                                             </div>
                                         </div>
                                     </div>
-                                    {{-- Platinum --}}
-                                    {{-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                        <div class="custom-box" style="height: 550px; border-radius: 15px;">
-                                            <h4 class="custom-package" style="color: #FFF;
-                                                font-family: Montserrat;
-                                                font-size: 18px;
-                                                font-style: normal;
-                                                font-weight: 700;
-                                                line-height: 125%; /* 40px */
-                                                ">
-                                                PAKET PLATINUM</h4>
-                                            <div class="rupiah-display" style="position: relative;">
-                                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                                    <strong class="rp" style="margin-left: 10px;">Rp</strong>
-                                                </h4>
-                                                <h4 style="color: #1E1E1E">410.000</h4>
-                                            </div>
-                                            <div class="custom-pricee" style="margin-right: 115px;"><strong>2
-                                                    Bulan</strong></div>
-                                            <hr style=" border: 2px solid #000; border-width: 1px;">
-                                            <ul>
-                                                <li class="left-aligned">
-                                                    <span class="checkmark">&#10003;</span>
-                                                    <span class="text-bso"> Bimbingan intensif pembuatan <br> bab 4
-                                                        sampai selesai</span>
-                                                </li>
-                                                <li class="left-aligned">
-                                                    <span class="checkmark">&#10003;</span>
-                                                    <span class="text-bso"> Bimbingan hasil dan pembahasan <br>
-                                                        penelitian</span>
-                                                </li>
-                                                <li class="left-aligned">
-                                                    <span class="checkmark">&#10003;</span>
-                                                    <span class="text-bso">Bimbingan pembuatan abstrak</span>
-                                                </li>
-                                                <li class="left-aligned">
-                                                    <span class="checkmark">&#10003;</span>
-                                                    <span class="text-bso">Waktu bimbingan 24x pertemuan</span>
-                                                </li>
-                                                <li class="left-aligned">
-                                                    <span class="checkmark">&#10003;</span>
-                                                    <span class="text-bso">Durasi bimbingan per pertemuan <br> minimal
-                                                        2 jam maksimal 4 jam</span>
-                                                </li>
-                                            </ul>
-                                            <div class="custom-btn-wrap" style="margin-top:-5%">
-                                                <a href="/pembelian/bso" class="custom-btn-buy">Daftar Sekarang</a>
-                                            </div>
-                                        </div>
-                                    </div> --}}
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="carousel-item">
-                            <div class="container">
-                                <div class="row">
-                                    {{-- DIAMOND --}}
-                                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                        <div class="custom-box" style="height: 380px; border-radius: 15px; width:280px;">
-                                            <h4 class="custom-package" style="color: #FFF;
+                                    <div class="carousel-item">
+                                        <div class="container">
+                                            <div class="row">
+                                                {{-- DIAMOND --}}
+                                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                                    <div class="custom-box" style="height: 380px; border-radius: 15px; width:280px;">
+                                                        <h4 class="custom-package" style="color: #FFF;
                                                 font-family: Montserrat;
                                                 font-size: 15px;
                                                 font-style: normal;
@@ -956,68 +853,68 @@
                                                 margin-left: 28px;
                                                 background: linear-gradient(0deg, #09326F 0%, #3E87F8 100%), #3E87F8;
                                                 ">
-                                                DIAMOND</h4>
-                                            <div class="rupiah-display" style="position: relative;">
-                                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                                    <strong class="rp" style="margin-left: 30px;">Rp</strong>
-                                                </h4>
-                                                <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px">
-                                                    200.000</h4>
-                                            </div>
-                                            <div class="custom-pricee" style="margin-right:14px; margin-top:-10px;">
-                                                <strong>14
-                                                    Hari</strong>
-                                            </div>
-                                            <hr style=" border: 2px solid #000; border-width: 1px;">
-                                            <ul class="deskripsi" style="list-style: none;">
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Bimbingan intensif pembuatan <br>
-                                                        powerpoint proposal dan skripsi</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Bimbingan presentasi proposal <br>dan
-                                                        skripsi</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Bimbingan simulasi seminar <br> proposal
-                                                        dan skripsi</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Konsultasi proposal dan skripsi <br> yang
-                                                        telah dibuat</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Waktu bimbingan 7x pertemuan</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Durasi bimbingan per pertemuan <br> minimal
-                                                        2 jam maksimal 4 jam</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Template powerpoint</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Sertifikat</span>
-                                                </li>
-                                            </ul>
-                                            <div class="custom-btn-wrap" style="margin-top: -10%">
-                                                <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
-                                            </div>
-                                        </div>
-                                    </div>
+                                                            DIAMOND</h4>
+                                                        <div class="rupiah-display" style="position: relative;">
+                                                            <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
+                                                                <strong class="rp" style="margin-left: 30px;">Rp</strong>
+                                                            </h4>
+                                                            <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px">
+                                                                200.000</h4>
+                                                        </div>
+                                                        <div class="custom-pricee" style="margin-right:14px; margin-top:-10px;">
+                                                            <strong>14
+                                                                Hari</strong>
+                                                        </div>
+                                                        <hr style=" border: 2px solid #000; border-width: 1px;">
+                                                        <ul class="deskripsi" style="list-style: none;">
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px">Bimbingan intensif pembuatan <br>
+                                                                    powerpoint proposal dan skripsi</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px">Bimbingan presentasi proposal <br>dan
+                                                                    skripsi</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px">Bimbingan simulasi seminar <br> proposal
+                                                                    dan skripsi</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px">Konsultasi proposal dan skripsi <br> yang
+                                                                    telah dibuat</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px"> Waktu bimbingan 7x pertemuan</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px"> Durasi bimbingan per pertemuan <br> minimal
+                                                                    2 jam maksimal 4 jam</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px"> Template powerpoint</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px">Sertifikat</span>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="custom-btn-wrap" style="margin-top: -10%">
+                                                            <a href="{{ Auth::check() ? 'pembelian/BSO%20Diamond ' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
 
-                                    {{-- COMPLATE --}}
-                                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                        <div class="custom-box" style="height: 380px; border-radius: 15px; width:280px;">
-                                            <h4 class="custom-package" style="color: #FFF;
+                                                {{-- COMPLATE --}}
+                                                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                                    <div class="custom-box" style="height: 380px; border-radius: 15px; width:280px;">
+                                                        <h4 class="custom-package" style="color: #FFF;
                                                 font-family: Montserrat;
                                                 font-size: 15px;
                                                 font-style: normal;
@@ -1028,69 +925,67 @@
                                                 margin-left: 28px;
                                                 background: linear-gradient(0deg, #09326F 0%, #3E87F8 100%), #3E87F8;
                                                 ">
-                                                COMPLATE</h4>
-                                            <div class="rupiah-display" style="position: relative;">
-                                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                                    <strong class="rp" style="margin-left: 30px;">Rp</strong>
-                                                </h4>
-                                                <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px">
-                                                    1.010.000</h4>
+                                                            COMPLATE</h4>
+                                                        <div class="rupiah-display" style="position: relative;">
+                                                            <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
+                                                                <strong class="rp" style="margin-left: 30px;">Rp</strong>
+                                                            </h4>
+                                                            <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px">
+                                                                1.010.000</h4>
+                                                        </div>
+                                                        <div class="custom-pricee" style="margin-right:14px; margin-top:-10px;">
+                                                            <strong>3
+                                                                Bulan</strong>
+                                                        </div>
+                                                        <hr style=" border: 2px solid #000; border-width: 1px;">
+                                                        <ul class="deskripsi" style="list-style: none;">
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px"> Bimbingan intensif
+                                                                    pembuatan <br> judul
+                                                                    skripsi</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px"> Bimbingan intensif pembuatan <br> bab
+                                                                    1-3</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px">Bimbingan intensif pembuatan <br> bab 4
+                                                                    sampai selesai</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px"> Bimbingan penyusunan ppt <br>proposal dan
+                                                                    skripsi</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px"> Bimbingan presentasi proposal <br>dan
+                                                                    skripsi</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px"> Bimbingan simulasi seminar <br>proposal dan
+                                                                    sidang skripsi</span>
+                                                            </li>
+                                                            <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                                <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                                <span class="text-bso" style="font-size: 10px">Waktu bimbingan 30x pertemuan</span>
+                                                            </li>
+                                                        </ul>
+                                                        <div class="custom-btn-wrap" style="margin-top: -10%">
+                                                            <a id="custom-btn" class="custom-btn-buy" style="width: 80%; font-size: 12px; cursor: pointer;">Daftar Sekarang</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
                                             </div>
-                                            <div class="custom-pricee" style="margin-right:14px; margin-top:-10px;">
-                                                <strong>3
-                                                    Bulan</strong>
-                                            </div>
-                                            <hr style=" border: 2px solid #000; border-width: 1px;">
-                                            <ul class="deskripsi" style="list-style: none;">
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan intensif
-                                                        pembuatan <br> judul
-                                                        skripsi</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan intensif pembuatan <br> bab
-                                                        1-3</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Bimbingan intensif pembuatan <br> bab 4
-                                                        sampai selesai</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan penyusunan ppt <br>proposal dan
-                                                        skripsi</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan presentasi proposal <br>dan
-                                                        skripsi</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan simulasi seminar <br>proposal dan
-                                                        sidang skripsi</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Waktu bimbingan 30x pertemuan</span>
-                                                </li>
-                                            </ul>
-                                            <div class="custom-btn-wrap" style="margin-top: -10%">
-                                                <a id="custom-btn" class="custom-btn-buy" style="width: 80%; font-size: 12px; cursor: pointer;">Daftar Sekarang</a>
-                                              </div>
-                                              
-                                             
                                         </div>
                                     </div>
 
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- <div class="carousel-item">
+                                    {{-- <div class="carousel-item">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -1220,60 +1115,60 @@
                                 </div>
                             </div>
                         </div> --}}
-                        <style>
-                            .carousel-control-prev,
-                            .carousel-control-next {
-                                width: 20%;
-                                background: none;
-                                border: none;
-                                font-size: 2rem;
-                                margin-left: -70px;
-                                margin-right: -70px;
-                                color: #fff;
-                                outline: none;
-                            }
+                                    <style>
+                                        .carousel-control-prev,
+                                        .carousel-control-next {
+                                            width: 20%;
+                                            background: none;
+                                            border: none;
+                                            font-size: 2rem;
+                                            margin-left: -70px;
+                                            margin-right: -70px;
+                                            color: #fff;
+                                            outline: none;
+                                        }
 
-                            .carousel-control-prev-icon,
-                            .carousel-control-next-icon {
-                                /* background-color: #17a2b8; */
-                                background-color: blue;
-                                border-radius: 50%;
-                                margin-left: -52px;
-                                margin-right: -53px;
-                                padding: 15px;
-                                color: #fff;
-                            }
+                                        .carousel-control-prev-icon,
+                                        .carousel-control-next-icon {
+                                            /* background-color: #17a2b8; */
+                                            background-color: blue;
+                                            border-radius: 50%;
+                                            margin-left: -52px;
+                                            margin-right: -53px;
+                                            padding: 15px;
+                                            color: #fff;
+                                        }
 
-                            .carousel-control-prev:hover,
-                            .carousel-control-next:hover {
-                                /* background: rgba(23, 162, 184, 0.8); */
-                            }
-                        </style>
-                        <!-- Navigation arrows -->
-                        <a class="carousel-control-prev" href="#packageCarousel" role="button" data-slide="prev">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 30px; margin-top: 50px;" viewBox="0 0 35" fill="none">
-                                <g filter="url(#filter0_b_229_15)">
-                                    <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
-                                    <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="white" />
-                                </g>
-                                <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
-                            </svg>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#packageCarousel" role="button" data-slide="next">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-left: -50px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
-                                <g filter="url(#filter0_b_229_15)">
-                                    <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
-                                    <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
-                                </g>
-                                <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="none" stroke="white" stroke-width="3" />
-                            </svg>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
+                                        .carousel-control-prev:hover,
+                                        .carousel-control-next:hover {
+                                            /* background: rgba(23, 162, 184, 0.8); */
+                                        }
+                                    </style>
+                                    <!-- Navigation arrows -->
+                                    <a class="carousel-control-prev" href="#packageCarousel" role="button" data-slide="prev">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 30px; margin-top: 50px;" viewBox="0 0 35" fill="none">
+                                            <g filter="url(#filter0_b_229_15)">
+                                                <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                                                <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="white" />
+                                            </g>
+                                            <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+                                        </svg>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#packageCarousel" role="button" data-slide="next">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-left: -50px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
+                                            <g filter="url(#filter0_b_229_15)">
+                                                <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
+                                                <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
+                                            </g>
+                                            <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="none" stroke="white" stroke-width="3" />
+                                        </svg>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
 
-                </div>
-                {{-- <div class="row align-items-center justify-content-center ">
+                            </div>
+                            {{-- <div class="row align-items-center justify-content-center ">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="custom-box" style="height: 550px; border-radius: 15px;">
                             <h4 class="custom-package" style="color: #FFF;
@@ -1544,7 +1439,7 @@
 
 
                 </div> --}}
-            </div>
+                        </div>
         </section>
 
 
@@ -2641,7 +2536,7 @@
                 </div>
                 <div class="profile-slider" style="    display: block; ">
                     <div class="profile">
-                        <img class="pro" src="assets/img/team/team-2.jpg" alt="Gambar Profil"style=" border: 7px solid #ffffff !important;width: 100px; margin-top:-30px;     margin-left: -40px;">
+                        <img class="pro" src="assets/img/team/team-2.jpg" alt="Gambar Profil" style=" border: 7px solid #ffffff !important;width: 100px; margin-top:-30px;     margin-left: -40px;">
                         <div class="gabung" style=" margin-top:-50px;   margin-right: 100px;">
                             <div class="profile-info" style="height: 250px;">
                                 <div style="text-align:center;  margin-top: 50px;">
