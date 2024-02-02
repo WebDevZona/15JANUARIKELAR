@@ -882,13 +882,13 @@
             <div class="container" style="margin-top: 0px">
                 <div class="content" id="content1">
                     <div class="row blok">
-                        <div class="col-lg-6 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up"
+                        <div class="col-lg-6 pt-4 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up"
                             data-aos-delay="100">
                             <h3
                                 style="color: #2A2A2A;
                                 font-family: Manrope;
                                 font-size: 50px;
-                                margin-top:50px;
+                                margin-top:34px;
                                 font-style: normal;
                                 font-weight: 800;
                                 /* line-spacing: 2px; */
@@ -948,14 +948,14 @@
                 </div>
 
                 <div class="content" id="content2">
-                    <div class="row">
+                    <div class="row blok">
                         <div class="col-lg-6 pt-4 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up"
                             data-aos-delay="100">
                             <h3
                                 style="color: #2A2A2A;
                             font-family: Manrope;
                             font-size: 50px;
-                            /* margin-top:50px; */
+                            margin-top:50px;
                             font-style: normal;
                             font-weight: 800;
                             /* line-spacing: 2px; */
@@ -1150,7 +1150,7 @@
                                 </defs>
                             </svg>
                         </span>
-                        <hr style="border: 2px solid rgba(0, 0, 0, 0.48);  margin-top:-5px;">
+                        <hr style="border: 2px solid black;  margin-top: 3px;">
 
                         <style>
                             .single_left_coloum {
