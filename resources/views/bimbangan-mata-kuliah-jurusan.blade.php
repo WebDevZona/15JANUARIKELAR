@@ -93,7 +93,7 @@
             <section id="hero" class="d-flex align-items-center"
                 style="background: url(assets/img/bg/bmj.png); background-size: cover; margin-top: -18px; position: relative;">
 
-                <img style="height: 580px; margin-top: -30px; position: absolute; left:0px;  top: 0;"
+                <img style="height: 580px; margin-top: -30px; position: absolute; left:10px;  top: 0;"
                     src="assets/img/bg/bmjriska.png" alt="" />
 
                 <div class="container" data-aos="zoom-out" data-aos-delay="100"
@@ -112,10 +112,10 @@
                         Bimbingan Mata<br />Kuliah Jurusan (BMJ)</div>
 
                     <div
-                        style="width: 600px; margin-left: 50px; height: 100%; margin-top: 5px; text-align: center; color: #202020; font-size: 20px; font-family: Montserrat; font-weight: 500; line-height: 20px; word-wrap: break-word; margin: 0 auto;">
+                        style="width: 600px; margin-left: 50px; height: 100%; margin-top: px; text-align: center; color: #202020; font-size: 20px; font-family: Montserrat; font-weight: 500; line-height: 20px; word-wrap: break-word; margin: 0 auto;">
                     </div>
                     <p
-                        style="margin-left: 65px; margin-top: 2px; text-align: center; color: #202020; font-size: 19px; font-family: Montserrat; font-weight: 500;  ">
+                        style="margin-left: 65px; margin-top: 5px; text-align: center; color: #202020; font-size: 19px; font-family: Montserrat; font-weight: 500;  ">
                         Bimbingan Mata kuliah Jurusan (BMJ) Class Program <br> disediakan secara khusus untuk membantu
                         mahasiswa <br> dalam memahami materi-materi mata kuliah yang ada <br> di jurusan dengan sistem
                         mentoring/pendampingan.
@@ -505,7 +505,7 @@
                 </div>
             </section>
 
-            <section id="aboutbmj" style="margin-top:-40px;">
+            <section id="aboutbmj" style="margin-top:-100px; margin-bottom:-250px;">
                 <div class="container" data-aos="fade-up">
                     <div class="row align-items-center justify-content-between" style=" margin-top: -80px;">
 
@@ -513,7 +513,7 @@
                             <!-- <h2>About</h2> -->
                             <span class="gariss">
                                 <h3
-                                    style="color: black; margin-top: 100px; text-align: center; font-size: 35px; padding-bottom: 15px; font-family:Montserrat; ">
+                                    style="color: black; margin-top: 50px; text-align: center; font-size: 35px; padding-bottom: 15px; font-family:Montserrat; ">
                                     Kenali Paket yang Tersedia<br />di Bimbingan Mata Kuliah Jurusan</h3>
                             </span>
                         </div>
@@ -1006,7 +1006,8 @@
             <section id="pricing" class="pricing" style="background-color:#09326f;  margin-bottom: 100px;">
 
                 <div class="container" data-aos="fade-up">
-                    <div style="width: 100%; text-align: center;">
+                    <div style="width: 100%; text-align: center;     margin-top: -30px;
+                    ">
                         <div
                             style="width: 100px; height: 30px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
                             <div
@@ -1460,7 +1461,7 @@
 
 
 
-            <section id="testimonials" class="testimonials" style="margin-top: -100px ;margin-bottom:30px;">
+            <section id="testimonials" class="testimonials" style="margin-top: -100px ;margin-bottom:px;">
 
                 {{-- <div class="section-title">
                 <h3 style="margin-top: 150px;">Mentor Profesional</h3>
@@ -1468,7 +1469,7 @@
 
             </div> --}}
                 <div class="section-title" style="margin-top: 100px; color:#000;">
-                    <h3 style=" font-size: 45px;  margin-top:0px  !important; font-family:Montserrat !important; font-weight:700 !important;">Mantor Profesional</h3>
+                    <h3 style=" font-size: 45px;  margin-top:-40px  !important; font-family:Montserrat !important; font-weight:700 !important;">Mantor Profesional</h3>
                     <h4 style=" margin-top:-10px !important; font-family:Montserrat!important; font-size: 45px;  ">Bimbingan Mata Kuliah Jurusan</h4>
                 </div>
                 <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">

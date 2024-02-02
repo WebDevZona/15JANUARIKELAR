@@ -1753,7 +1753,7 @@
 
         <section id="paketmentor" class="paketmentor" style="background-color: #ffff; margin-top: -50px; ">
             <div class="paketmentorbg mb-5" style="margin-top: 300px;">
-                <div style="margin-top: -300px; display: flex; justify-content: center; align-items: center; height: 100vh;">
+                <div style="margin-top: -340px; display: flex; justify-content: center; align-items: center; height: 100vh;">
                     <div style="width: 350px; padding: 2px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; display: flex; flex-direction: column; align-items: center; gap: 10px;">
                         <div style="color: white; font-size: 15px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word;">
                             BIMBINGAN SKRIPSI ONLINE (BSO)</div>
