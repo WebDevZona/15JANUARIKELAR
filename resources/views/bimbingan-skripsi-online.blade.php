@@ -2566,8 +2566,7 @@
                 <br>
                 <div class="profile-slider" style="    display: block; ">
                     <div class="profile">
-                        <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style=" border: 7px solid #ffffff !important;width: 100px; margin-top:-30px;     margin-left: -40px;
-                        ">
+                        <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style=" border: 7px solid #ffffff !important;width: 100px; margin-top:-30px;     margin-left: -40px;">
                         <div class="gabung" style=" margin-top:-50px;   margin-right: 100px;
                         ">
                             <div class="profile-info" style="height: 250px;">
@@ -2592,102 +2591,102 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="profile-slider">
+                <div class="profile-slider" style="    display: block; ">
                     <div class="profile">
-                        <img class="pro" src="assets/img/team/team-1.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
-                        <div class="gabung">
-                            <div class="profile-info" style="height: 300px;">
+                        <img class="pro" src="assets/img/team/team-1.jpg" alt="Gambar Profil" style=" border: 7px solid #ffffff !important;width: 100px; margin-top:-30px;     margin-left: -40px;">
+                        <div class="gabung" style=" margin-top:-50px;   margin-right: 100px;">
+                            <div class="profile-info" style="height: 250px;">
                                 <div style="text-align:center;  margin-top: 50px;">
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
                                 </div>
-                                <p style="margin-top:30px; margin-bottom: 50px;text-align:center;">“Ikut BSO ternyata
+                                <p style="margin-top:30px; margin-bottom: 50px; text-align:center; font-size:15px;">“Ikut BSO ternyata
                                     sangat menginspirasi dan insightful. Mentor sangat responsif, memberikan panduan dan
                                     feedback konstruktif yang membantu saya untuk memahami pembuatan judul skripsi.
                                     Meskipun belajarnya online, tapi sangat happy dan enjoy”.</p>
 
-                                <h1 style="text-align:center; margin-top: -20px;">Adinda</h1>
-                                <p style="text-align:center; margin-top: -20px; ">Pendidikan Bahasa Inggris -<a style="font-style: italic !important;"> Universitas Negeri Surabaya</a></p>
+                                <h1 style="text-align:center; margin-top: -20px; font-size:15px;">Adinda</h1>
+                                <p style="text-align:center; margin-top: -20px; font-size:15px;">Pendidikan Bahasa Inggris -<a style="font-style: italic !important;"> Universitas Negeri Surabaya</a></p>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="profile-slider">
+                <div class="profile-slider" style="    display: block; ">
                     <div class="profile">
-                        <img class="pro" src="assets/img/team/team-4.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
-                        <div class="gabung">
-                            <div class="profile-info" style="height: 300px;">
+                        <img class="pro" src="assets/img/team/team-4.jpg" alt="Gambar Profil" style=" border: 7px solid #ffffff !important;width: 100px; margin-top:-30px;     margin-left: -40px;">
+                        <div class="gabung" style=" margin-top:-50px;   margin-right: 100px;">
+                            <div class="profile-info" style="height: 250px;">
                                 <div style="text-align:center;  margin-top: 50px;">
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
                                 </div>
-                                <p style="margin-top:30px; margin-bottom: 50px; text-align:center;">“Saya merasa puas
+                                <p style="margin-top:30px; margin-bottom: 50px; text-align:center; font-size:15px;">“Saya merasa puas
                                     dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya selalu
                                     dikoreksi positif secara baik oleh kaka Mentor. BSO bagus sekali dan recommended
                                     untuk Mahasiswa.”</p>
 
-                                <h1 style="text-align:center; margin-top: -20px;">Yola</h1>
-                                <p style="text-align:center; margin-top: -20px; ">Pariwisata Bisnis - <a style="font-style: italic !important;">Universitas Brawijaya</a></p>
+                                <h1 style="text-align:center; margin-top: -20px; font-size:15px;">Yola</h1>
+                                <p style="text-align:center; margin-top: -20px; font-size:15px;">Pariwisata Bisnis - <a style="font-style: italic !important;">Universitas Brawijaya</a></p>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="profile-slider">
+                <div class="profile-slider" style="    display: block; ">
                     <div class="profile">
-                        <img class="pro" src="assets/img/team/team-2.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
-                        <div class="gabung">
-                            <div class="profile-info" style="height: 300px;">
+                        <img class="pro" src="assets/img/team/team-2.jpg" alt="Gambar Profil"style=" border: 7px solid #ffffff !important;width: 100px; margin-top:-30px;     margin-left: -40px;">
+                        <div class="gabung" style=" margin-top:-50px;   margin-right: 100px;">
+                            <div class="profile-info" style="height: 250px;">
                                 <div style="text-align:center;  margin-top: 50px;">
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
                                 </div>
-                                <p style="margin-top:30px; margin-bottom: 50px; text-align:center;">“Halo Kak Dewi.
+                                <p style="margin-top:30px; margin-bottom: 50px; text-align:center; font-size:15px;">“Halo Kak Dewi.
                                     Saya rutin ikut bimbingan, seminggu 3 kali. Dalam proses bimbingan, jujur saya
                                     sangat terbantu. Banyak hal yang saya tanyakan dan dapat terjawab oleh Mentor saya.”
                                 </p>
 
-                                <h1 style="text-align:center; margin-top: -20px;">Hildan Ramdani</h1>
-                                <p style="text-align:center; margin-top: -20px; ">Ilmu Komunikasi -<a style="font-style: italic !important;"> Universitas Garut</a></p>
+                                <h1 style="text-align:center; margin-top: -20px; font-size:15px;">Hildan Ramdani</h1>
+                                <p style="text-align:center; margin-top: -20px; font-size:15px;">Ilmu Komunikasi -<a style="font-style: italic !important;"> Universitas Garut</a></p>
                             </div>
 
                         </div>
                     </div>
                 </div>
-                <div class="profile-slider">
+                <div class="profile-slider" style="    display: block; ">
                     <div class="profile">
-                        <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style=" border: 8px solid #ffffff !important;">
-                        <div class="gabung">
-                            <div class="profile-info" style="height: 300px;">
+                        <img class="pro" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style=" border: 7px solid #ffffff !important;width: 100px; margin-top:-30px;     margin-left: -40px;">
+                        <div class="gabung" style=" margin-top:-50px;   margin-right: 100px;">
+                            <div class="profile-info" style="height: 250px;">
                                 <div style="text-align:center;  margin-top: 50px;">
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
-                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 30px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
+                                    <i class="fa-solid fa-star" style="color: #f1d209; font-size: 20px !important;"></i>
                                 </div>
-                                <p style="margin-top:30px; margin-bottom: 50px; text-align:center;">“Saya puas dengan
+                                <p style="margin-top:30px; margin-bottom: 50px; text-align:center; font-size:15px;">“Saya puas dengan
                                     bimbingannya kak. Awalnya saya tidak mengerti tahapan skripsi, ketika mulai
                                     bimbingan, saya jadi mengerti hal-hal penting dan tahapan dalam pembuatan judul
                                     serta penentuan variabel. Terima kasih banyak.”</p>
 
-                                <h1 style="text-align:center; margin-top: -20px;">Azizah Nurul</h1>
-                                <p style="text-align:center; margin-top: -20px; ">Pendidikan Tata Busana -<a style="font-style: italic !important;"> Universitas Negeri Malang</a></p>
+                                <h1 style="text-align:center; margin-top: -20px; font-size:15px;">Azizah Nurul</h1>
+                                <p style="text-align:center; margin-top: -20px; font-size:15px;">Pendidikan Tata Busana -<a style="font-style: italic !important;"> Universitas Negeri Malang</a></p>
                             </div>
 
                         </div>
                     </div>
-                </div> --}}
+                </div>
             </div>
             <div class="centered-content">
                 <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="">
