@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+use App\PengertianProduk;
 use App\User;
 use App\Produk;
 use Closure;
