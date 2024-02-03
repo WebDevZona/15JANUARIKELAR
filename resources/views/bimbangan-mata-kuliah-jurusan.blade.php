@@ -388,7 +388,7 @@
         <section id="hero2" class="d-flex align-items-center" style="margin-top:-260px; margin-butoon:30px;">
             <div class="container" data-aos="zoom-out" data-aos-delay="100">
                 <div class="juduldua">
-                    <h3 style="letter-spacing: 1px; !important">
+                    <h3 style="letter-spacing: 1px !important;">
                         <br>
                         <br>
                         <span style="color: #3E87F8; font-family: Montserrat; font-weight: 800;

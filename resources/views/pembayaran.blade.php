@@ -646,7 +646,7 @@
 
                     <div class=" card col-12">
                         <h3 style="color: #333; margin-top:30px;">Details Pembayaran</h3>
-                        <b> <span>Program: {{$Produk->produk}}</span> <br>
+                        <b> <span>Program: {{$Produk->nama_produk}}</span> <br>
                             <span>Paket: {{ $pengertian->first()->judul }}</span> <br>
 
                             <span>Harga: {{ number_format($Produk->harga) }}</span></b>

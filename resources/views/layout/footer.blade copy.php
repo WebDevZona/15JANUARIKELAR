@@ -83,7 +83,7 @@
                         </a>
                         <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle" style="padding: 10px;">
                             <i class="bx bxl-instagram" style="font-size: 30px; background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); background-clip: text; -webkit-background-clip: text;   color: transparent;"></i>
-                        </a>
+                        </a>a
                     </div>
 
                 </div>
@@ -315,51 +315,43 @@
         const currentDate = new Date();
         const currentMonth = months[currentDate.getMonth()];
         const currentDay = currentDate.getDate();
-        // Mendefinisikan fungsi untuk mengganti teks saat turun
-        const generateMessage = (name, packageType, category) => {
-            return messageTemplate.replace("{name}", name).replace("{package}", packageType).replace("{category}", category);
-        };
         const popupMessages = [{
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Yohanes Hernandes</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
-                },
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insan<br><strong>Yohanes Hernandes</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+            },
 
-                {
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Dimas wildan </strong> <br>Mendaftar di Konsultasi Reguler Platinum",
-                },
-                {
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Fandi Ahmad Joansyah</strong> <br>Mendaftar di Paket Silver Bimbingan Skripsi Online",
-                },
-                {
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Haldian Refgi</strong> <br>Mendaftar di Konsultasi Reguler Gold ",
-                },
-            ],
-            const popupMessages = [{
-
-
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Putra Andika </strong> <br>Mendaftar di Paket Gold Bimbingan Skripsi Online",
-                },
-                {
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Zahra Nurlaili</strong> <br>endaftar di Paket Gold Bimbingan Mata Kuliah",
-                },
-                {
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Fadil Ainuddin</strong> <br>endaftar di Paket Emerald Bimbingan Skripsi Online",
-                },
-            ];
-
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insan<br><strong>Dimas wildan </strong> <br>Mendaftar di Konsultasi Reguler Platinum",
+            },
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insan<br><strong>Fandi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+            },
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insan<br><strong>Aldi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+            },
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insan<br><strong>Putra </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+            },
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insan<br><strong>Zahra</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+            },
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insan<br><strong>Fadil</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+            },
+        ];
 
         const popupbro = document.getElementById('popup-bro');
         const popupDate = document.getElementById('popup-date');
@@ -381,19 +373,6 @@
 
         // Set interval to showPopup every 5 seconds
         setInterval(showPopup, 9000);
-
-        // Mendapatkan elemen kontainer popup
-        const popupContainer = document.getElementById('popup-container');
-
-        // Iterasi melalui setiap pesan dan buat elemen popup untuk masing-masingnya
-        popupMessages.forEach(message => {
-            const popupElement = document.createElement('div');
-            popupElement.className = 'popup-bro';
-            popupElement.innerHTML = message.text;
-
-            // Tambahkan elemen popup ke dalam kontainer
-            popupContainer.appendChild(popupElement);
-        });
     </script>
     {{-- Animasi angka --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
