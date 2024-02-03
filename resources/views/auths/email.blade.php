@@ -131,6 +131,7 @@
         <p>Periksa Inbox email kamu, karena kami telah mengirimkan link untuk mengganti password akun-mu.</p>
 
         <p>Belum mendapatkan email?</p>
+        
         <form action="{{ route('proses-kirim-ulang-email') }}" method="POST">
             @csrf
             <input type="hidden" name="email" value="{{ $emailSebelumnya }}">

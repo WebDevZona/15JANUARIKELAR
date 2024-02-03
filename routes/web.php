@@ -25,8 +25,9 @@ Route::get('/kti', 'tampilanController@kti')->name('kti');
 Route::get('/skripsi', 'tampilanController@skripsi')->name('skripsi');
 Route::get('/nonaktif', 'tampilanController@nonaktif')->name('nonaktif');
 Route::get('/artikel', 'tampilanController@artikel')->name('artikel');
-
-
+Route::post('/proses-kirim-ulang-email', 'AuthController@prosesKirimUlangEmail')->name('proses-kirim-ulang-email');
+Route::get('/forgot-password', 'AuthController@loginn')->name('loginn');
+Route::post('/forgot-password', 'AuthController@postemail');
 Route::post('/pembelian', 'tampilanController@validateVoucher')->name('validateVoucher');
 
 // Route::get('/', function () {
@@ -44,11 +45,12 @@ Route::post('/postlogin', 'AuthController@postlogin');
 Route::get('/register', 'AuthController@daftar')->name('daftar');
 Route::post('/registration.submit', 'AuthController@pendaftaran')->name('registration.submit');
 Route::get('/logout', 'AuthController@logout');
-Route::get('/auths/gantipassword/{id}', 'AuthController@gantipassword')->name('auths.gantipassword');
+Route::get('/auths/gantipassword/{name}/{remember_token}/{id}', 'AuthController@gantipassword')->name('auths.gantipassword');
 Route::post('/auths/{id}/simpanpassword', 'AuthController@simpanpassword');
+Route::post('/postemail', 'AuthController@postemail');
 
 Route::get('auth/google', 'AuthController@redirectToGoogle');
-Route::get('auth/google/callback', 'AuthController@handleGoogleCallback');
+Route::get('login/google/callback', 'AuthController@handleGoogleCallback');
 // Route::get('/dashboard', 'DashboardController@index')->name('dashboard');
 // Route::resource('/pengguna', 'PenggunaController');
 
@@ -422,8 +424,8 @@ Route::group(['middleware' => ['auth', 'checkRole:Siswa']], function () {
 
 //Route untuk user Admin, Petugas Administrasi Surat, Petugas Administrasi Keuangan dan Siswa
 Route::group(['middleware' => ['auth', 'checkRole:admin,PetugasAdministrasiKeuangan,PetugasAdministrasiSurat,Siswa']], function () {
-    Route::get('/auths/{id}/gantipassword', 'AuthController@gantipassword');
-    Route::post('/auths/{id}/simpanpassword', 'AuthController@simpanpassword');
+    // Route::get('/auths/{id}/gantipassword', 'AuthController@gantipassword');
+    // Route::post('/auths/{id}/simpanpassword', 'AuthController@simpanpassword');
 });
 
 Route::get('/ok', function () {
@@ -479,12 +481,4 @@ Route::group(['middleware' => ['auth', 'checkRole:user']], function () {
 
     Route::get('/pengumuman/index', 'PengumumanController@index');
     Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
-
-    Route::get('/auths/gantipassword/{id}', 'AuthController@gantipassword')->name('auths.gantipassword');
-    Route::post('/auths/{id}/simpanpassword', 'AuthController@simpanpassword');
-    Route::post('/postemail', 'AuthController@postemail');
-
-    Route::post('/proses-kirim-ulang-email', 'AuthController@prosesKirimUlangEmail')->name('proses-kirim-ulang-email');
-    Route::get('/forgot-password', 'AuthController@loginn')->name('loginn');
-    Route::post('/forgot-password', 'AuthController@postemail');
 });

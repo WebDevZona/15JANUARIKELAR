@@ -442,7 +442,7 @@
 
         <footer class="main-footer bg-info">
 
-            Copyright &copy; 2023 - 2024 | by : Dimas Wildan & Aldi
+            Copyright &copy; 2023 - 2024 Class Program
         </footer>
 
 

@@ -94,7 +94,7 @@
                                                             <td>
                                                                 <div style="color:#393d47;font-size:14px;font-family:Arial, Helvetica Neue, Helvetica, sans-serif;font-weight:400;line-height:120%;text-align:left;direction:ltr;letter-spacing:0px;">
                                                                     <p style="margin: 0;">Permintaan mengubah kata sandi akun Class Program kamu akan segera di proses. Untuk merubah paswordnya silahkan klik link</p>
-                                                                    <a href="http://localhost:8000/auths/<?= $user['id'] ?>/gantipassword">di sini</a>
+                                                                    <a href="http://localhost:8000/auths/gantipassword/<?= $user['name'] ?>/<?= $user['remember_token'] ?>/<?= $user['id'] ?>">di sini</a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -103,7 +103,7 @@
                                                         <tr>
                                                             <td>
                                                                 <div align="center">
-                                                                    
+
                                                                     <!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:32px;width:169px;v-text-anchor:middle;" arcsize="13%" stroke="false" fillcolor="#3680ec"><w:anchorlock/><v:textbox inset="0px,0px,0px,0px"><center style="color:#ffffff; font-family:Arial, sans-serif; font-size:14px"><![endif]-->
                                                                     {{-- <a href="" style="text-decoration: none;">
                                                                         <div

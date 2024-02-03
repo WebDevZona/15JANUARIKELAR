@@ -8,6 +8,7 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <!-- Favicons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="assets/img/logo/logo2.png" rel="icon">
@@ -444,103 +445,11 @@
             </button>
         </div>
         @endif
-        <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="errorModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="error-container">
-                            <h2 class="error-title">Pesan Error</h2>
-                            <div class="error-message">
-                                @if ($errors->any())
-                                @foreach ($errors->all() as $error)
-                                <p>{{ $error }}</p>
-                                @endforeach
-                                @endif
-                            </div>
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <form id="registration-form" method="POST" action="{{ route('registration.submit') }}">
-            <h1 style="font-size: 45px; color:#000; margin-top: 15px;"><strong> Daftar <br> Akun Class Program</strong></h1>
-
-            <h4 style="font-size: 25px; margin-top:-10px;">Sudah punya akun?<a href="login">Masuk, yuk!</a> </h4>
-
-            <!-- <hr style="margin-right:10%;margin-left:10%; border: 1px solid grey;"> -->
-            @csrf
-
-            <div class="form-group">
-                <div class="input-icon">
-                    <span class="input-icon__icon">
-                        <i class="fa fa-envelope"></i>
-                    </span>
-                    <label for="email" style="font-size:13px; display: inline-block; margin-left: 5px;">Email:</label>
-                </div>
-
-                <div class="input-icon">
-
-                    <input type="email" name="email" class="form-control bg-light" id="email-step-2" value="{{ $email ?? old('email') }}" readonly>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="input-icon">
-                    <span class="input-icon__icon">
-                        <i class="fa fa-user"></i>
-                    </span>
-                    <label for="name" style="font-size:13px; display: inline-block; margin-left: 5px;">Nama:</label>
-                </div>
-
-                <div class="input-icon">
-                    <input name="name" type="text" class="form-control bg-light" id="name" placeholder="Nama" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                </div>
-            </div>
-            <div id="overlay"></div>
-            <div id="popup">
-                <div id="popup-content">
-                    <span id="close-btn" onclick="closePopup()">&times;</span>
-                    <p>Password harus minimal 8 karakter. Mohon periksa kembali.</p>
-                </div>
-            </div>
-
-            <!-- Your existing form content goes here -->
-            <div class="form-group">
-                <div class="input-icon">
-                    <span class="input-icon__icon">
-                        <i class="fa fa-lock"></i>
-                    </span>
-                    <label for="password" style="font-size: 13px; display: inline-block; margin-left: 5px;">Password:</label>
-                </div>
-                <div class="input-group">
-                    <input id="password" type="password" name="password" class="form_login" placeholder="Password" required minlength="8" oninput="setCustomValidity('')">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-primary" type="button" id="togglePassword" style="background-color:#4169E1; height:45px; margin-left:430px; margin-top: -45px;">
-                            <i class="fas fa-eye" id="password-toggle-icon"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tambahkan ID next-button-step-1 pada tombol Selanjutnya berikut -->
-            <button type="button" id="next-button-step-1">
-                <span style="margin-right: 5px;"></span> <i class="fa fa-arrow-right"> Next </i>
-            </button>
-        </form>
-
-        <center style="margin-top: -40px;">
-            <div class="form-groupz">
-                <button type="submit">
-                    <span><img src="assets/img/logo/gogle.png"></span> Masuk dengan Google
-                </button>
-            </div>
-        </center>
-
-        <!-- Step 2: Name Input (Initially hidden) -->
-        <div id="step-2" style="display: none;">
-            <form id="registration-form-2" method="POST" action="{{ route('registration.submit') }}" novalidate>
+        <h1 style="font-size: 40px; color:#000; font-family:montserrat; margin-top: 5px;"><strong> Yuk lengkapi data diri<br> </strong></h1>
+        <!--
+        <h4 style="font-size: 25px; margin-top:-10px; font-family:montserrat;">Yuk lengkapi data diri untuk memenuhi administarasi</h4> -->
+        <div style="margin-left: 60px; margin-top:-20px;">
+            <form id="registration-form-2" method="POST" action="{{ route('google.callback') }}" novalidate>
                 @csrf
                 <div class="icon-label" style="margin-top: 40px;">
                     <i class="fas fa-calendar"></i>
@@ -584,10 +493,6 @@
                 <input type="hidden" name="email" id="email-step-2">
                 <input type="hidden" name="password" id="password-step-2">
                 <input type="hidden" name="name" id="name-step-2">
-                {{-- <button type="button" id="prev-button-step-2">
-                <
-            </button> --}}
-
 
                 <button type="submit" id="submit-button" class="icon-label">
                     <i class="fas fa-check"></i>
@@ -597,13 +502,11 @@
         </div>
     </div>
 
-
     <!-- Step 3: Address Input (Initially hidden) -->
 
 
 
     <div class="login-terbaru col-lg-6 col-md-0">
-
         <div class="back-to-home">
             <a href="/" style="color:white;"><i class="fa fa-arrow-left"> Kembali ke Homepage</i></i></a>
         </div>
@@ -623,116 +526,7 @@
     <script>
 
     </script>
-    <script>
-        // Mendapatkan referensi elemen-elemen yang dibutuhkan
-        const emailInputStep1 = document.getElementById('email-step-1');
-        const password = document.getElementById('password');
-        const nameInput = document.getElementById('name');
-        const nextButtonStep1 = document.getElementById('next-button-step-1');
-        const step2 = document.getElementById('step-2');
-        const ttlInput = document.getElementById('ttl');
-        const asalInput = document.getElementById('asal');
-        const nomerInput = document.getElementById('nomer');
-        const jeniskelaminInput = document.getElementById('jeniskelamin');
-        // const semesterInput = document.getElementById('semester');
-        const prevButtonStep2 = document.getElementById('prev-button-step-2');
-        const nextButtonStep2 = document.getElementById('next-button-step-2');
-        const step3 = document.getElementById('step-3');
 
-
-        // Menambahkan event listener ke tombol selanjutnya pada langkah 1
-        nextButtonStep1.addEventListener('click', () => {
-            // Validasi email, nama, dan password
-            if (emailInputStep1.checkValidity() &&
-                nameInput.checkValidity() &&
-                password.checkValidity()
-            ) {
-                // Sembunyikan langkah 1 dan tampilkan langkah 2
-                document.getElementById('registration-form').style.display = 'none';
-                step2.style.display = 'block';
-
-                // Transfer nilai ke langkah berikutnya
-                document.getElementById('email-step-2').value = emailInputStep1.value;
-                document.getElementById('password-step-2').value = password.value;
-                document.getElementById('name-step-2').value = nameInput.value;
-            } else {
-                // Tampilkan pesan kesalahan jika ada yang tidak valid
-                if (!emailInputStep1.checkValidity()) {
-                    alert('Email tidak valid. Mohon periksa kembali.');
-                }
-
-                if (!nameInput.checkValidity()) {
-                    alert('Nama tidak boleh kosong. Mohon periksa kembali.');
-                }
-
-                if (!password.checkValidity()) {
-                    alert('Password harus minimal 8 karakter. Mohon periksa kembali.');
-                }
-            }
-        });
-
-        // Menambahkan event listener ke tombol selanjutnya pada langkah 2
-        nextButtonStep2.addEventListener('click', () => {
-            // Validasi semua bidang sebelum beralih ke langkah berikutnya
-            // nextButtonStep2.addEventListener('click', () => {
-            // Validasi semua bidang sebelum beralih ke langkah berikutnya
-            if (
-                nameInput.checkValidity() &&
-                ttlInput.checkValidity() &&
-                asalInput.checkValidity() &&
-                nomerInput.checkValidity() &&
-                jeniskelaminInput.checkValidity()
-            ) {
-                // Semua bidang telah valid, lanjutkan ke langkah berikutnya
-                step2.style.display = 'none';
-                step3.style.display = 'block';
-                // Transfer email input value ke langkah berikutnya
-                document.getElementById('email-step-3').value = emailInputStep1.value;
-                // Transfer nilai password input ke langkah berikutnya
-                document.getElementById('password-step-3').value = password.value;
-                document.getElementById('name-step-3').value = nameInput.value;
-            }
-        });
-
-
-        // Menambahkan event listener ke tombol kembali pada langkah 2
-        prevButtonStep2.addEventListener('click', () => {
-            // Sembunyikan langkah 2 dan tampilkan langkah 1
-            step2.style.display = 'none';
-            document.getElementById('registration-form').style.display = 'block';
-        });
-
-        // ... tambahkan event listener lainnya untuk langkah-langkah lainnya ...
-    </script>
-
-
-    <script>
-        // Menggunakan nama variabel yang berbeda untuk password input
-        var passwordInputToggle = document.getElementById("password");
-        var togglePasswordButton = document.getElementById("togglePassword");
-
-        togglePasswordButton.addEventListener("click", function() {
-            if (passwordInputToggle.type === "password") {
-                passwordInputToggle.type = "text";
-                togglePasswordButton.classList.add("show-password");
-            } else {
-                passwordInputToggle.type = "password";
-                togglePasswordButton.classList.remove("show-password");
-            }
-        });
-    </script>
-
-    <script>
-        function openPopup() {
-            document.getElementById('overlay').style.display = 'block';
-            document.getElementById('popup').style.display = 'block';
-        }
-
-        function closePopup() {
-            document.getElementById('overlay').style.display = 'none';
-            document.getElementById('popup').style.display = 'none';
-        }
-    </script>
 </body>
 
 </html>

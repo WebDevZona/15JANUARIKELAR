@@ -16,7 +16,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'role','ttl','asal','nomer','kampus','jurusan','semester','jeniskelamin',
+        'name', 'email', 'password', 'role', 'ttl', 'asal', 'nomer', 'kampus', 'jurusan', 'semester', 'jeniskelamin',
     ];
 
     /**
@@ -25,7 +25,16 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'remember_token','password'
+        'remember_token', 'password'
+    ];
+
+    /**
+     * The attributes that should be cast.
+     *
+     * @var array<string, string>
+     */
+    protected $casts = [
+        'email_verified_at' => 'datetime',
     ];
 
     // public function pengumuman()
