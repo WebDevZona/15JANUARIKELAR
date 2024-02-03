@@ -1039,8 +1039,6 @@
                         height: auto;
                         transition: transform 0.3s ease-in-out;
                     }
-
-                  
                 </style>
                 <div class="main_content floatleft">
                     <div class="left_coloum floatleft">
@@ -1165,14 +1163,23 @@
 
                             .play-iconn {
                                 position: absolute;
-                                top: 50%;
+                                top: 10%;
                                 left: 50%;
                                 transform: translate(-50%, -50%);
-                                width: 60px;
-                                height: 60px;
+                                width: 50px;
+                                /* Adjust the size of the play icon */
+                                height: 50px;
+                                /* Adjust the size of the play icon */
                                 fill: #000000;
+                                /* Adjust the color of the play icon */
                                 transition: opacity 0.3s ease-in-out;
-                                opacity: 0;
+                                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+
+                            }
+
+                            .play-iconn:hover {
+                                fill: red !important;
                             }
 
                             .single_left_coloum:hover {
@@ -1180,7 +1187,7 @@
                             }
 
                             .single_left_coloum:hover .play-iconn {
-                                opacity: 1;
+                                color: #000000;
                             }
                         </style>
 
@@ -1194,8 +1201,8 @@
                                         ">
                                             <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail"
                                                 style="width: 100% !important; height:200px !important;" />
-                                            <svg class="play-iconn" xmlns="http://www.w3.org/2000/svg"
-                                                viewBox="0 0 24 24">
+                                            <svg class="play-iconn" style="top: 45% !important;"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                                 <path d="M8 5v14l11-7z" />
                                             </svg>
                                         </div>
@@ -1740,7 +1747,8 @@
                 <div class="row">
                     <div class="col-xl-7">
                         <div class="section-title">
-                            <h3 style="font-size: 30px; margin-left:-190px; margin-bottom:-30px;">Paling Sering Ditanyakan</h3>
+                            <h3 style="font-size: 30px; margin-left:-190px; margin-bottom:-30px;">Paling Sering Ditanyakan
+                            </h3>
                         </div>
                         <div id="accordion" class="myaccordion" style="">
                             <div class="card" style="box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);">
@@ -1868,9 +1876,9 @@
                                 </div>
                             </div>
                             <!--          <a href="#pricing" style="width: 100%; height: auto; position: relative; display: inline-block; text-decoration: none;">
-                                                <div style="margin-left:10px; width: 200px; height: 50px; left: 0px; top: 0px; position: absolute; background: #0849B2;  rgba(0, 0, 0, 0.20); border-radius: 20.32px"></div>
-                                                <div style="left: 30.48px; margin-top:-5px; top: 13.21px; position: absolute; color: white; font-size: 20px; font-family: Raleway; font-weight: 700; word-wrap: break-word">Baca selengkapnya</div>
-                                            </a> -->
+                                                    <div style="margin-left:10px; width: 200px; height: 50px; left: 0px; top: 0px; position: absolute; background: #0849B2;  rgba(0, 0, 0, 0.20); border-radius: 20.32px"></div>
+                                                    <div style="left: 30.48px; margin-top:-5px; top: 13.21px; position: absolute; color: white; font-size: 20px; font-family: Raleway; font-weight: 700; word-wrap: break-word">Baca selengkapnya</div>
+                                                </a> -->
                         </div>
                     </div>
                     <div class="col-xl-5" style=" posison: absolute;">

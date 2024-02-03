@@ -55,8 +55,8 @@
         }
 
         .form-group {
-            margin-right: 10%;
-            margin-left: 10%;
+            /* margin-right: 10%;
+            margin-left: 10%; */
             padding: 1%;
         }
 
@@ -78,14 +78,14 @@
         }
 
         .form-group button {
-            width: 100%;
+            width: 60%;
             padding: 12px;
             background-color: #4CAF50;
             color: #ffffff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 12px;
             transition: background-color 0.3s ease;
         }
 
@@ -353,7 +353,7 @@
         }
 
         #next-button-step-1 {
-            margin-left: 70px;
+            /* margin-left: 70px; */
             border: none;
             background-color: #007bff;
             color: #ffffff;
@@ -394,37 +394,40 @@
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-12">
                 <!-- Alert for Success -->
-                @if(session('sukses'))
-                <div class="card my-4">
-                    <div class="card-body">
-                        <div class="callout callout-success alert alert-success alert-dismissible fade show" role="alert">
-                            <h5><i class="fas fa-check"></i> Sukses :</h5>
-                            {{ session('sukses') }}
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                @if (session('sukses'))
+                    <div class="card my-4">
+                        <div class="card-body">
+                            <div class="callout callout-success alert alert-success alert-dismissible fade show"
+                                role="alert">
+                                <h5><i class="fas fa-check"></i> Sukses :</h5>
+                                {{ session('sukses') }}
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
                 @endif
 
                 <!-- Alert for Error -->
-                @if(session('error'))
-                <div class="card my-4">
-                    <div class="card-body">
-                        <div class="callout callout-danger alert alert-danger alert-dismissible fade show" role="alert">
-                            <h5><i class="fas fa-info"></i> Peringatan :</h5>
-                            {{ session('error') }}
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
+                @if (session('error'))
+                    <div class="card my-4">
+                        <div class="card-body">
+                            <div class="callout callout-danger alert alert-danger alert-dismissible fade show"
+                                role="alert">
+                                <h5><i class="fas fa-info"></i> Peringatan :</h5>
+                                {{ session('error') }}
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
                         </div>
                     </div>
-                </div>
                 @endif
 
                 <!-- Error Modal -->
-                <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="errorModalLabel" aria-hidden="true">
+                <div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="errorModalLabel"
+                    aria-hidden="true">
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-body">
@@ -432,9 +435,9 @@
                                     <h2 class="error-title">Pesan Error</h2>
                                     <div class="error-message">
                                         @if ($errors->any())
-                                        @foreach ($errors->all() as $error)
-                                        <p>{{ $error }}</p>
-                                        @endforeach
+                                            @foreach ($errors->all() as $error)
+                                                <p>{{ $error }}</p>
+                                            @endforeach
                                         @endif
                                     </div>
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
@@ -448,10 +451,14 @@
                 <div class="card my-4">
                     <div class="card-body">
                         <form id="registration-form" method="POST" action="{{ route('registration.submit') }}">
-                            <h1 class="card-title" style="font-size: 2rem; font-family:montserrat;
- color:#000; margin-top: 15px;"><strong> Daftar Akun <br> Class Program</strong></h1>
-                            <h4 class="card-subtitle mb-3" style="font-family:montserrat;
- font-size: 25px; margin-top:-10px;">Sudah punya akun? <br> <a href="login">Masuk, yuk!</a></h4>
+                            <h1 class="card-title"
+                                style="font-size: 2rem; font-family:montserrat;
+ color:#000; margin-top: 15px;"><strong>
+                                    Daftar Akun <br> Class Program</strong></h1>
+                            <h4 class="card-subtitle mb-3"
+                                style="font-family:montserrat;
+ font-size: 20px; margin-top:-10px;">Sudah punya akun?
+                                <br> <a href="login">Masuk yuk!</a></h4>
                             @csrf
 
                             <!-- Email Input -->
@@ -460,10 +467,14 @@
                                     <span class="input-icon__icon">
                                         <i class="fa fa-envelope"></i>
                                     </span>
-                                    <label for="email" style="font-size:13px; display: inline-block; margin-left: 5px;">Email:</label>
+                                    <label for="email"
+                                        style="font-size:13px; display: inline-block; margin-left: 5px;">Email:</label>
                                 </div>
                                 <div class="input-icon">
-                                    <input type="email" name="email" class="form-control bg-light" id="email-step-1" placeholder="Email" required oninvalid="this.setCustomValidity('Pastikan anda sudah mengisikan email dengan format yang benar !')" oninput="setCustomValidity('')">
+                                    <input type="email" name="email" class="form-control bg-light" id="email-step-1"
+                                        placeholder="Email" required
+                                        oninvalid="this.setCustomValidity('Pastikan anda sudah mengisikan email dengan format yang benar !')"
+                                        oninput="setCustomValidity('')">
                                 </div>
                             </div>
 
@@ -473,10 +484,14 @@
                                     <span class="input-icon__icon">
                                         <i class="fa fa-user"></i>
                                     </span>
-                                    <label for="name" style="font-size:13px; display: inline-block; margin-left: 5px;">Nama:</label>
+                                    <label for="name"
+                                        style="font-size:13px; display: inline-block; margin-left: 5px;">Nama:</label>
                                 </div>
                                 <div class="input-icon">
-                                    <input name="name" type="text" class="form-control bg-light" id="name" placeholder="Nama" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                                    <input name="name" type="text" class="form-control bg-light" id="name"
+                                        placeholder="Nama" required
+                                        oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')"
+                                        oninput="setCustomValidity('')">
                                 </div>
                             </div>
 
@@ -486,12 +501,17 @@
                                     <span class="input-icon__icon">
                                         <i class="fa fa-lock"></i>
                                     </span>
-                                    <label for="password" style="font-size:13px; display: inline-block; margin-left: 5px;">Password:</label>
+                                    <label for="password"
+                                        style="font-size:13px; display: inline-block; margin-left: 5px;">Password:</label>
                                 </div>
                                 <div class="input-group">
-                                    <input id="password" type="password" name="password" class="form_login" placeholder="Password" required oninvalid="this.setCustomValidity('Harap masukkan password !')" oninput="setCustomValidity('')">
+                                    <input id="password" type="password" name="password" class="form_login"
+                                        placeholder="Password" required
+                                        oninvalid="this.setCustomValidity('Harap masukkan password !')"
+                                        oninput="setCustomValidity('')">
                                     <div class="input-group-append">
-                                        <button class="btn btn-outline-primary" type="button" id="togglePassword" style="background-color:#4169E1;  height:45px; margin-left:206px; margin-top: -45px;">
+                                        <button class="btn btn-outline-primary" type="button" id="togglePassword"
+                                            style="background-color:#4169E1;  height:45px; margin-left:245px; margin-top: -45px;">
                                             <i class="fas fa-eye" id="password-toggle-icon"></i>
                                         </button>
                                     </div>
@@ -499,7 +519,7 @@
                             </div>
 
                             <!-- Next Button -->
-                            <button type="button" id="next-button-step-1">
+                            <button type="button" id="ynext-button-step-1">
                                 <span style="margin-right: 5px;"></span> <i class="fa fa-arrow-right"> Next </i>
                             </button>
                         </form>
@@ -515,27 +535,37 @@
 
                         <!-- Step 2: Name Input (Initially hidden) -->
                         <div id="step-2" style="display: none;">
-                            <form id="registration-form-2" method="POST" action="{{ route('registration.submit') }}" novalidate>
+                            <form id="registration-form-2" method="POST" action="{{ route('registration.submit') }}"
+                                novalidate>
                                 @csrf
                                 <div class="icon-label" style="margin-top: 40px; text-align: start;">
                                     <i class="fas fa-calendar"></i>
                                     Tanggal Lahir
-                                    <input name="ttl" type="date" class="form-control bg-light" id="ttl" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                                    <input name="ttl" type="date" class="form-control bg-light"
+                                        id="ttl" required
+                                        oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')"
+                                        oninput="setCustomValidity('')">
                                 </div>
                                 <div class="icon-label" style="text-align: start;">
                                     <i class="fas fa-map-marker-alt"></i>
                                     Alamat
-                                    <input name="asal" type="text" class="form-control bg-light" id="asal" placeholder="Alamat" required>
+                                    <input name="asal" type="text" class="form-control bg-light"
+                                        id="asal" placeholder="Alamat" required>
                                 </div>
                                 <div class="icon-label" style="text-align: start;">
                                     <i class="fas fa-phone-alt"></i>
                                     Nomor HP
-                                    <input name="nomer" type="text" class="form-control bg-light" id="nomer" placeholder="Nomor HP" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                                    <input name="nomer" type="text" class="form-control bg-light"
+                                        id="nomer" placeholder="Nomor HP" required
+                                        oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')"
+                                        oninput="setCustomValidity('')">
                                 </div>
                                 <div class="icon-label" style="text-align: start;">
                                     <i class="fas fa-venus-mars"></i>
                                     Jenis Kelamin
-                                    <select name="jeniskelamin" id="jeniskelamin" class="form-control bg-light" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                                    <select name="jeniskelamin" id="jeniskelamin" class="form-control bg-light"
+                                        required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')"
+                                        oninput="setCustomValidity('')">
                                         <option value="laki">Laki-laki</option>
                                         <option value="perempuan">Perempuan</option>
                                     </select>
@@ -543,17 +573,26 @@
                                 <div class="icon-label" style="text-align: start;">
                                     <i class="fas fa-university"></i>
                                     Kampus
-                                    <input name="kampus" type="text" class="form-control bg-light" id="kampus" placeholder="Kampus" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                                    <input name="kampus" type="text" class="form-control bg-light"
+                                        id="kampus" placeholder="Kampus" required
+                                        oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')"
+                                        oninput="setCustomValidity('')">
                                 </div>
                                 <div class="icon-label" style="text-align: start;">
                                     <i class="fas fa-book"></i>
                                     Jurusan
-                                    <input name="jurusan" type="text" class="form-control bg-light" id="jurusan" placeholder="jurusan" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                                    <input name="jurusan" type="text" class="form-control bg-light"
+                                        id="jurusan" placeholder="jurusan" required
+                                        oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')"
+                                        oninput="setCustomValidity('')">
                                 </div>
                                 <div class="icon-label" style="text-align: start;">
                                     <i class="fas fa-calendar-alt"></i>
                                     Semester
-                                    <input name="semester" type="number" class="form-control bg-light" id="semester" placeholder="Semester" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                                    <input name="semester" type="number" class="form-control bg-light"
+                                        id="semester" placeholder="Semester" required
+                                        oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')"
+                                        oninput="setCustomValidity('')">
                                 </div>
 
                                 <input type="hidden" name="email" id="email-step-2">
@@ -590,9 +629,7 @@
     </div> -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-        <script>
-
-        </script>
+        <script></script>
         <script>
             // Mendapatkan referensi elemen-elemen yang dibutuhkan
             const emailInputStep1 = document.getElementById('email-step-1');
@@ -679,6 +716,10 @@
                 }
             });
         </script>
+        <div id="whatsapp-button" onclick="openWhatsApp()">
+            <img style="width: 80px;" src="{{ asset('assets/img/bg/cs.png') }}" alt="WhatsApp" />
+            <span id="whatsapp-text">Ada Pertanyaan? <br> Hubungi Minma</span>
+        </div>
 </body>
 
 </html>

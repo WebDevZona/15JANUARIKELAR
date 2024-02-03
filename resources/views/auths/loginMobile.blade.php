@@ -71,8 +71,8 @@
 
         .form-group {
             /* margin-bottom: 20px; */
-            margin-right: 10%;
-            margin-left: 10%;
+            /* margin-right: 10%;
+            margin-left: 10%; */
             padding: 1%;
         }
 
@@ -96,14 +96,14 @@
         }
 
         .form-group button {
-            width: 100%;
+            width: 60%;
             padding: 12px;
             background-color: #162d3a;
             color: #ffffff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            font-size: 16px;
+            font-size: 12px;
             transition: background-color 0.3s ease;
 
         }
@@ -338,7 +338,7 @@
                         <h1 class="card-title" style="font-family:montserrat;
  font-size: 2rem; color: #000; margin-top: 15px;"><strong>Selamat Datang di Class Program</strong></h1>
                         <h4 class="card-subtitle mb-3" style="font-size: 1.25rem; margin-top: -10px; font-family:montserrat;
-">Belum punya akun? <a href="register">Daftar yuk!</a></h4>
+">Belum punya akun?<br> <a href="register">Daftar yuk!</a></h4>
 
                         <form action="postlogin" method="POST">
                             @csrf
@@ -384,22 +384,22 @@
 
 
 
-    <!-- <div class="login-terbaru col-lg-6 col-md-0">
+    <div class="">
 
-        <div class="back-to-home">
+        {{-- <div class="back-to-home">
             <a href="/" style="color:white;"><i class="fa fa-arrow-left"> Kembali ke Homepage</i></i></a>
         </div>
         <p></p>
         <center>
             <img style="width: 580px; margin-right: 90px; margin-left:-100px;" src="assets/img/bg/login.png" alt="">
-        </center>
+        </center> --}}
 
         <div id="whatsapp-button" onclick="openWhatsApp()">
-            <img style="width: 100px;" src="{{ asset('assets/img/bg/cs.png') }}" alt="WhatsApp" />
+            <img style="width: 80px;" src="{{ asset('assets/img/bg/cs.png') }}" alt="WhatsApp" />
             <span id="whatsapp-text">Ada Pertanyaan? <br> Hubungi Minma</span>
         </div>
 
-    </div> -->
+    </div>
 </body>
 <script>
     function openWhatsApp() {
