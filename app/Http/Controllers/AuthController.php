@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Str; // Add this line
-use App\Http\Controllers\Rule;
 use App\Video;
 use App\Youtube;
 use App\Berita;
@@ -163,42 +161,14 @@ class AuthController extends Controller
         return redirect('/index');
     }
 
-    // public function gantipassword($name, $remember_token, $id)
-    // {
-    //     $data_pengguna = User::where('name', $name)
-    //         ->where('remember_token', $remember_token)
-    //         ->findOrFail($id);
-
-    //     return view('auths.gantipassword', compact('data_pengguna'));
-    // }
-
-    public function gantipassword($name, $remember_token, $id)
+    public function gantipassword($id)
     {
-        $data_pengguna = User::where('name', $name)
-            ->where('remember_token', $remember_token)
-            ->findOrFail($id);
-
+        $data_pengguna = User::findorfail($id);
         return view('auths.gantipassword', compact('data_pengguna'));
     }
 
-    public function updatePassword(Request $request, $id)
-    {
-        $request->validate([
-            'password' => 'required|string|min:8|confirmed',
-        ]);
-
-        $user = User::findOrFail($id);
-        $user->password = bcrypt($request->password);
-        $user->remember_token = null; // Clear the remember_token
-        $user->save();
-
-        return redirect('/login')->with('success', 'Password has been reset successfully. Please log in with your new password.');
-    }
-
-
     public function simpanpassword(Request $request, $id)
     {
-        // dd($id);
         $pengguna = User::findorfail($id);
         $password_baru = $request->input('password_baru');
         $konfirmasi_password_baru = $request->input('konfirmasi_password_baru');
@@ -210,40 +180,17 @@ class AuthController extends Controller
                 'role' => $pengguna->role,
             ];
             $pengguna->update($data_pengguna);
+
             return redirect('/login')->with('sukses', 'Password anda telah diperbarui.');
         }
         return redirect()->back()->with('error', 'Harap Masukkan Konfirmasi Password Dengan Benar !!');
     }
 
-    // public function register(Request $request)
-    // {
-    //     $this->validate($request, [
-    //         'name' => 'required|unique:users|min:5',
-    //         'email' => 'required|unique:users|email',
-    //     ]);
-
-    //     $pengguna = User::create([
-    //         'name' => $request->name,
-    //         'email' => $request->email,
-    //         'password' => Hash::make($request->input('password')),
-    //         'role' => $request->role,
-    //     ]);
-
-    //     return redirect()->route('pengguna.index')->with('sukses', 'Data administrator berhasil ditambahkan');
-    // }
-
     public function register(Request $request)
     {
         $this->validate($request, [
             'name' => 'required|unique:users|min:5',
-            'email' => [
-                'required',
-                'email',
-                'unique:users',
-                // Rule::notIn(['rumahweb.com', 'hostinger.com', 'qwords.com', 'dewaweb.com', 'hostnet.co.id', 'idcloudhost.com']),
-                // Ganti dengan domain yang ingin Anda larang
-            ],
-            'password' => 'required|min:8',
+            'email' => 'required|unique:users|email',
         ]);
 
         $pengguna = User::create([
@@ -255,7 +202,6 @@ class AuthController extends Controller
 
         return redirect()->route('pengguna.index')->with('sukses', 'Data administrator berhasil ditambahkan');
     }
-
 
 
     public function redirectToGoogle()
@@ -278,70 +224,37 @@ class AuthController extends Controller
         // $existingUser = User::where('email', $user->email)->first();
 
         if ($existingUser) {
-
             // Pengguna sudah terdaftar, login atau redirect ke halaman yang sesuai
             auth()->login($existingUser); // Misalnya, login langsung
             $data_admin = \App\User::where('role', 'user')->get();
             session(['data_admin' => $data_admin]);
-            $useremail =  User::where('email', $user->email)->first();
-            if ($useremail->jurusan == null) {
-                // dd(
-                //     'akun terdaftar jurusan kosong'
-                // );
-            }
             return redirect('/index');
         } else {
             // Pengguna baru, simpan informasi pengguna ke database
             $newUser = new User();
-            // $useremail = new User();
             $newUser->name = $user->name;
             $newUser->email = $user->email;
             $newUser->role = 'user';
             $newUser->save();
-            // penguna baru
-            $useremail =  User::where('email', $user->email)->first();
-            if ($useremail->jurusan == null) {
-                return redirect('/index');
-            }
 
             // Login pengguna baru dan arahkan ke halaman dashboard
             auth()->login($newUser);
-
             // $data_admin = \App\User::where('role', "admin")->get();
             return redirect('/index');
         }
     }
 
 
-    // public function prosesKirimEmail(Request $request)
-    // {
-    //     $inputEmail = $request->input('email');
-    //     $user = User::where('email', $inputEmail)->first();
-    //     // $hallo=$user->email;
-    //     // dd($hallo);
-    //     if ($user) {
-    //         session(['email_sebelumnya' => $user->email]);
-
-    //         Mail::to($user->email)->send(new lupapasword($user));
-    //         return redirect()->route('email');
-    //     } else {
-    //         return redirect()->back()->with('error', 'Email tidak ditemukan.');
-    //     }
-    // }
     public function prosesKirimEmail(Request $request)
     {
         $inputEmail = $request->input('email');
         $user = User::where('email', $inputEmail)->first();
-
+        // $hallo=$user->email;
+        // dd($hallo);
         if ($user) {
             session(['email_sebelumnya' => $user->email]);
 
             Mail::to($user->email)->send(new lupapasword($user));
-
-            // Generate and save remember_token
-            $user->setRememberToken(Str::random(60));
-            $user->save();
-
             return redirect()->route('email');
         } else {
             return redirect()->back()->with('error', 'Email tidak ditemukan.');
