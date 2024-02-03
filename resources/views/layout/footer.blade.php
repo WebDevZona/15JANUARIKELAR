@@ -320,46 +320,42 @@
             return messageTemplate.replace("{name}", name).replace("{package}", packageType).replace("{category}", category);
         };
         const popupMessages = [{
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Yohanes Hernandes</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
-                },
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insans<br><strong>Yohanes Hernandes</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+            },
 
-                {
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Dimas wildan </strong> <br>Mendaftar di Konsultasi Reguler Platinum",
-                },
-                {
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Fandi Ahmad Joansyah</strong> <br>Mendaftar di Paket Silver Bimbingan Skripsi Online",
-                },
-                {
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Haldian Refgi</strong> <br>Mendaftar di Konsultasi Reguler Gold ",
-                },
-            ],
-            const popupMessages = [{
-
-
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Putra Andika </strong> <br>Mendaftar di Paket Gold Bimbingan Skripsi Online",
-                },
-                {
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Zahra Nurlaili</strong> <br>endaftar di Paket Gold Bimbingan Mata Kuliah",
-                },
-                {
-                    date: currentDay,
-                    month: currentMonth,
-                    text: "Sobat Insans<br><strong>Fadil Ainuddin</strong> <br>endaftar di Paket Emerald Bimbingan Skripsi Online",
-                },
-            ];
-
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insans<br><strong>Dimas wildan </strong> <br>Mendaftar di Konsultasi Reguler Platinum",
+            },
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insans<br><strong>Fandi Ahmad Joansyah</strong> <br>Mendaftar di Paket Silver Bimbingan Skripsi Online",
+            },
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insans<br><strong>Haldian Refgi</strong> <br>Mendaftar di Konsultasi Reguler Gold ",
+            },
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insans<br><strong>Putra Andika </strong> <br>Mendaftar di Paket Gold Bimbingan Skripsi Online",
+            },
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insans<br><strong>Zahra Nurlaili</strong> <br>endaftar di Paket Gold Bimbingan Mata Kuliah",
+            },
+            {
+                date: currentDay,
+                month: currentMonth,
+                text: "Sobat Insans<br><strong>Fadil Ainuddin</strong> <br>endaftar di Paket Emerald Bimbingan Skripsi Online",
+            },
+        ];
 
         const popupbro = document.getElementById('popup-bro');
         const popupDate = document.getElementById('popup-date');
