@@ -1875,7 +1875,7 @@
                     </div>
                     <div class="col-xl-5" style=" posison: absolute;">
                         <div class="image-container" style="margin-top: -550px; posison: relative;">
-                            <img src="assets/img/bg/faq2.png" alt="Deskripsi gambar" class="img-fluid-bos"
+                            <img src="assets/img/bg/faq3gbr.png" alt="Deskripsi gambar" class="img-fluid-bos"
                                 style=" margin-top: -550px;  width: 400px; height: auto;">
                         </div>
                     </div>
