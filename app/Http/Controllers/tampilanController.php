@@ -145,42 +145,39 @@ class tampilanController extends Controller
             return view('nonaktif');
         }
     }
-    public function pembelian()
-    {
-        // Memeriksa apakah pengguna menggunakan perangkat mobile
-        if (Agent::isMobile()) {
-            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
-            return view('mobile/pembelianMobile');
-        } else {
-            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
-            return view('pembelian');
-        }
+   public function pembelian()
+{
+    // Memeriksa apakah pengguna menggunakan perangkat mobile
+    if (Agent::isMobile()) {
+        // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+        return view('mobile/pembelianMobile');
+    } else {
+        // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+        return view('pembelian');
     }
-    public function checkout(Request $request, $id_produk, $id, $nama_voucher = null, $judulskripsi, $problem, $jurusan)
-    {
-        dd("Checkpoint");
-        $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
-        $User = \App\User::where('id', $id)->get();
-        $Users = $User->first();
-        $Produk = \App\Produk::where('produk', $id_produk)->first();
-        $datas = \App\jurusan::get();
-        // $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
-        $id_pesdik_login = $pengertian->first();
+}
 
-        $Produks = \App\Produk::where('produk', $id_produk)->first();
-        $voucher = \App\voucher::get();
-        // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
-        $namaVoucher = $request->input('nama_voucher', '');
+public function checkout(Request $request, $id_produk, $id, $nama_voucher = null, $judulskripsi, $problem, $jurusan)
+{
+    // Menggunakan first() langsung pada query untuk mendapatkan objek tunggal
+    $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->first();
+    $User = \App\User::where('id', $id)->first();
+    $Users = $User;
+    $Produk = \App\Produk::where('produk', $id_produk)->first();
+    $datas = \App\jurusan::get();
+    $id_pesdik_login = $pengertian; // Menghilangkan first() karena sudah digunakan pada query
+    $Produks = \App\Produk::where('produk', $id_produk)->first();
+    $voucher = \App\voucher::get();
+    
+    // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
+    $namaVoucher = $request->input('nama_voucher', '');
 
-        // Cari voucher berdasarkan nama yang telah diterima
-        $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
+    // Cari voucher berdasarkan nama yang telah diterima
+    $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
 
+    return view('pembayaran', compact('id_produk', 'Users', 'pengertian', 'User', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login', 'response'));
+}
 
-
-        return view('pembayaran', compact('id_produk', 'Users', 'pengertian', 'User', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login', 'response'));
-
-        // return view('checkout');
-    }
 
     public function okk()
     {

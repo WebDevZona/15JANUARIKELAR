@@ -52,8 +52,10 @@
                         <tr class="bg-light">
                             <th>No.</th>
                             <th>Nama</th>
+                            <!-- <th>No Hp</th> -->
                             <th>Email</th>
                             <th>Status</th>
+                            <!-- <th>Follup</th> -->
                             <th>Level</th>
                             <th>Aksi</th>
                         </tr>
@@ -66,6 +68,7 @@
                         <tr>
                             <td>{{$no}}</td>
                             <td>{{$pengguna->name}}</td>
+                            <!-- <td>{{$pengguna->nomer}}</td> -->
                             <td>{{$pengguna->email}}</td>
                             <td>
                                 <form action="{{ route('pengumumancp.publish', $pengguna->id) }}" method="POST">
@@ -76,9 +79,18 @@
                                     </button>
                                 </form>
                             </td>
+                            <!-- <td>
+                                <form action="{{ route('pengumumancp.publish', $pengguna->id) }}" method="POST">
+                                    @csrf
+                                    <input type="hidden" name="status" value="{{ $pengguna->publish }}">
+                                    <button type="submit" class="btn {{ $pengguna->status === 'nonaktif' ? 'btn-danger' : ($pengguna->status === 'aktif' ? 'btn-success' : 'btn-warning') }} btn-xs" onclick="return confirm('Anda yakin user {{ $pengguna->status === 'nonaktif' ? 'Aktif' : ($pengguna->status === 'aktif' ?'Non Aktif' : 'Aktif') }} ?')">
+                                        {{ $pengguna->status === 'aktif' ? 'Aktif' : 'Follup' }}
+                                    </button>
+                                </form>
+                            </td> -->
                             <td>{{$pengguna->role}}</td>
                             <td>
-                                <form action="{{ route('pengguna.destroy', $pengguna->id) }}" method="post">
+                                <form action="{{ route('pengguna.destroy', $pengguna->id) }}" method="post  ">
                                     @csrf
                                     @method('delete')
                                     <a href="{{ route('pengguna.edit', $pengguna->id) }}" class="btn btn-primary btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-pencil-alt"></i> Edit</a>

@@ -181,19 +181,21 @@ class AuthController extends Controller
         return view('auths.gantipassword', compact('data_pengguna'));
     }
 
+    // AuthController.php
     public function updatePassword(Request $request, $id)
     {
         $request->validate([
-            'password' => 'required|string|min:8|confirmed',
+            'password_baru' => 'required|string|min:8|confirmed',
         ]);
 
         $user = User::findOrFail($id);
-        $user->password = bcrypt($request->password);
+        $user->password = bcrypt($request->password_baru);
         $user->remember_token = null; // Clear the remember_token
         $user->save();
 
         return redirect('/login')->with('success', 'Password has been reset successfully. Please log in with your new password.');
     }
+
 
 
     public function simpanpassword(Request $request, $id)

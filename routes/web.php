@@ -46,6 +46,7 @@ Route::get('/register', 'AuthController@daftar')->name('daftar');
 Route::post('/registration.submit', 'AuthController@pendaftaran')->name('registration.submit');
 Route::get('/logout', 'AuthController@logout');
 Route::get('/auths/gantipassword/{name}/{remember_token}/{id}', 'AuthController@gantipassword')->name('auths.gantipassword');
+Route::post('/auths/updatePassword/{id}', 'AuthController@updatePassword')->name('auths.updatePassword');
 Route::post('/auths/{id}/simpanpassword', 'AuthController@simpanpassword');
 Route::post('/postemail', 'AuthController@postemail');
 
@@ -473,12 +474,16 @@ Route::group(['middleware' => ['auth', 'checkRole:user']], function () {
 
     // Route::get('/dashboard', 'DashboardController@index');
     Route::get('/checkout/{id_produk}/{id}/{nama_voucher?}/{judulskripsi}/{problem}/{jurusan}', 'tampilanController@checkout')->name('checkout');
-    Route::get('/pembelian/{id_produk}', 'tampilanController@Pengertian')->name('pembelian');
-    Route::post('/pembayaran', 'PaymentController@submitPayment')->name('submit.payment');
+
     Route::post('/bukti', 'PaymentController@foto')->name('submit.bukti');
     Route::get('/mima', 'PaymentController@mima')->name('mima');
-    Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
+
 
     Route::get('/pengumuman/index', 'PengumumanController@index');
     Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
+
+    Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
+
+    Route::get('/pembelian/{id_produk}', 'tampilanController@Pengertian')->name('pembelian');
+    Route::post('/pembayaran', 'PaymentController@submitPayment')->name('submit.payment');
 });
