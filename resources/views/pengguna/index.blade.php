@@ -94,7 +94,7 @@
                                     @csrf
                                     @method('delete')
                                     <a href="{{ route('pengguna.edit', $pengguna->id) }}" class="btn btn-primary btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-pencil-alt"></i> Edit</a>
-                                    <button type="submit" class="btn btn-danger btn-sm my-1 mr-sm-1" onclick="return confirm('Hapus Data ?')"><i class="nav-icon fas fa-trash"></i> Hapus</button>
+                                    <!-- <button type="submit" class="btn btn-danger btn-sm my-1 mr-sm-1" onclick="return confirm('Hapus Data ?')"><i class="nav-icon fas fa-trash"></i> Hapus</button> -->
                                 </form>
                             </td>
                         </tr>

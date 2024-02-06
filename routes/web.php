@@ -132,7 +132,8 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
 
     Route::get('/jurusan/index', 'jurusanController@index')->name('jurusan');
     // Route::post('/jurusan/{id}/publish', [jurusanController::class, 'updatePublishStatus'])->name('jurusan.publish');
-    Route::post('/jurusan/{id}/publish', 'jurusanController@updatePublishStatus')->name('jurusan.publish');
+    Route::post('/jurusan/{id}/publish', 'JurusanController@updatePublishStatus')->name('jurusan.publish');
+
     Route::get('/jurusan/create', 'jurusanController@create');
     Route::post('/jurusan/store', 'jurusanController@store');
     // Route::get('/jurusan/{id}/show', 'jurusanController@show');
@@ -142,7 +143,8 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
 
     Route::get('/SobatInsan/index', 'SobatInsanController@index')->name('SobatInsan');
     // Route::post('/SobatInsan/{id}/publish', [SobatInsanController::class, 'updatePublishStatus'])->name('SobatInsan.publish');
-    Route::post('/SobatInsan/{id}/publish', 'SobatInsanController@updatePublishStatus')->name('SobatInsan.publish');
+    // Route::post('/SobatInsan/{id}/publish', 'SobatInsanController@updatePublishStatus')->name('SobatInsan.publish');
+    Route::post('/SobatInsan/{id}/publish',  'SobatInsanController@updatePublishStatus')->name('SobatInsan.publish');
     Route::get('/SobatInsan/create', 'SobatInsanController@create');
     Route::post('/SobatInsan/store', 'SobatInsanController@store');
     // Route::get('/SobatInsan/{id}/show', 'SobatInsanController@show');

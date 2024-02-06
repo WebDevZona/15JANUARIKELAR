@@ -37,7 +37,7 @@
         @endif
         <div class="row">
             <div class="col">
-                <h4><i class="nav-icon fas fa-child my-0 btn-sm-1"></i>Jurusan</h3>
+                <h4><i class="nav-icon fas fa-child my-0 btn-sm-1"></i>Jurusan yang tersedia</h3>
                     <hr>
             </div>
         </div>
@@ -54,10 +54,13 @@
                         <thead>
                             <tr class="bg-light">
                                 <th>No.</th>
-                                {{-- <th>NIS</th> --}}
+
                                 <th>
-                                    <div style="width:110px;">Nama</div>
+                                    <div style="width:110px;">Jurusan Mentor</div>
                                 </th>
+                                <!-- <th>
+                                    <div style="width:110px;">Jurusan Mentor</div>
+                                </th> -->
                                 <th>
                                     <div style="width:110px;">Publish</div>
                                 </th>
@@ -68,41 +71,42 @@
                         </thead>
                         <tbody>
                             <?php $no = 0; ?>
-                            @foreach($datas as $SobatInsans)
+                            @foreach( $jurusans as $jurusan)
                             <?php $no++; ?>
                             <tr>
                                 <td>{{$no}}</td>
-                                <td>{{$SobatInsans->nama}}</td>
-                                {{-- <td>{{$SobatInsans->kelas}}</td> --}}
-                                {{-- <td>{{$SobatInsans->foto}}</td> --}}
+                                <td>{{$jurusan->nama}}</td>
+                                {{-- <td>{{$jurusan->kelas}}</td> --}}
+                                {{-- <td>{{$jurusan->foto}}</td> --}}
                                 <!-- <td>
-                                    @if($SobatInsans->foto)
-                                    {{-- @if( in_array(pathinfo($SobatInsans->foto, PATHINFO_EXTENSION), ['png', 'jpg', 'JPEG'])) --}}
-                                    <img src="{{ asset('foto_upload/'.$SobatInsans->foto) }}" alt="" title="" style="height: 150px;width:100px;">
+                                    @if($jurusan->foto)
+                                    {{-- @if( in_array(pathinfo($jurusan->foto, PATHINFO_EXTENSION), ['png', 'jpg', 'JPEG'])) --}}
+                                    <img src="{{ asset('foto_upload/'.$jurusan->foto) }}" alt="" title="" style="height: 150px;width:100px;">
                                     @else
                                     <p>Tidak ada foto.</p>
                                     @endif
                                 </td> -->
-                                {{-- <td>{{$SobatInsans->publish}}</td> --}}
+                                {{-- <td>{{$jurusan->publish}}</td> --}}
                                 {{-- <section class="content card" style="padding: 10px 10px 20px 20px;"> --}}
                                 <!-- ... kode lainnya ... -->
                                 <td>
-                                    <form action="{{ route('SobatInsan.publish', $SobatInsans->id) }}" method="POST">
+                                    <form action="{{ route('jurusan.publish', $jurusan->id) }}" method="POST">
                                         @csrf
-                                        <input type="hidden" name="publish" value="{{ $SobatInsans->publish }}">
-                                        <button type="submit" class="btn {{ $SobatInsans->publish === 'ya' ? 'btn-success' : 'btn-danger' }} btn-xs" onclick="return confirm('Anda yakin data ini akan di{{ $SobatInsans->publish === 'ya' ? 'un' : '' }} ?')">
-                                            {{ $SobatInsans->publish === 'ya' ? 'Publish' : 'Unpublish' }}
+                                        <input type="hidden" name="publish" value="{{ $jurusan->publish }}">
+                                        <button type="submit" class="btn {{ $jurusan->publish === 'ya' ? 'btn-success' : 'btn-danger' }} btn-xs" onclick="return confirm('Anda yakin data ini akan di{{ $jurusan->publish === 'ya' ? 'un' : '' }} ?')">
+                                            {{ $jurusan->publish === 'ya' ? 'Publish' : 'Unpublish' }}
                                         </button>
                                     </form>
+
                                 </td>
                                 <!-- ... kode lainnya ... -->
                                 {{-- </section> --}}
                                 <td>
                                     <center>
                                         <div class="ok" style="width:220px;">
-                                            <a href="/jurusan/{{$SobatInsans->id}}/edit" class="btn btn-primary btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-pencil-alt"></i> Edit</a>
+                                            <a href="/jurusan/{{$jurusan->id}}/edit" class="btn btn-primary btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-pencil-alt"></i> Edit</a>
                                             @if (auth()->user()->role == 'admin')
-                                            <a href="/jurusan/{{$SobatInsans->id}}/delete" class="btn btn-danger btn-sm my-1 mr-sm-1" onclick="return confirm('Hapus Data ?')"><i class="nav-icon fas fa-trash"></i>
+                                            <a href="/jurusan/{{$jurusan->id}}/delete" class="btn btn-danger btn-sm my-1 mr-sm-1" onclick="return confirm('Hapus Data ?')"><i class="nav-icon fas fa-trash"></i>
                                                 Hapus</a>
                                             {{-- <a href="/produk/{{$produk->id}}/show" class="btn btn-success btn-sm my-1 mr-sm-1"><i class="nav-icon fas fa-child"></i> Detail</a> --}}
                                             @endif

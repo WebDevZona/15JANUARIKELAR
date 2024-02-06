@@ -35,6 +35,7 @@
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
     <style>
         /* body {
@@ -630,11 +631,11 @@
                     </div>
 
                     <div class="col-md-4">
-                        <label for="id_jurusan">Jurasan yang akan dipilih</label>
+                        <label for="id_jurusan">Pilih Jurusan</label>
                         <select id="jurasanSelect" name="id_jurusan">
-                            <option value="">-- Pilih Jurasan --</option>
-                            @foreach($datas as $ibui)
-                            <option value="{{$ibui->nama}}" data-publish="{{$ibui->publish}}" data-nama="{{$ibui->nama}}">{{$ibui->nama}}</option>
+                            <option value="">-- Pilih Jurusan --</option>
+                            @foreach($datas as $mentor)
+                            <option value="{{$mentor->nama}}" data-publish="{{$mentor->publish}}" data-nama="{{$mentor->nama}}">{{$mentor->nama}}</option>
                             @endforeach
                         </select>
                     </div>
@@ -655,69 +656,56 @@
                             <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
                             <div class="text-right" style="margin-left: 80%; marin-top:-20px">
                                 <button type="submit" class="btn btn-primary" style="width: 150px;">
-                                    Checkout
+                                    Bayar
                                 </button>
                             </div>
 
                         </div>
                     </div>
-                    <!-- Tombol Submit -->
-                    <!-- <div class="col-12">
-                        <div class="col-12">
-                            <button type="submit" class="btn btn-primary" onclick="showDetailPesanan()">
-                                Submit <i class="fa fa-arrow-right"></i>
-                            </button>
-                        </div>
-                    </div> -->
-
                 </form>
             </div>
-            <!-- <div id="detailPesananContainer" style="display: none;">
-                <div class="pesanan-checkout" style="display: none;">
-                    <div class="order-header">
-                        <h3 style="color: #333;">Detail Pesanan</h3>
-                    </div>
-                    <div class="order-details">
-                        <div class="item">
-                            <span>Program: {{$Produk->produk}}</span>
-                            <span>Paket: {{$Produk->produk}}</span>
-                            <span>Harga: ${{ number_format($Produk->harga, 2) }}</span>
-                            <div class="order-summary">
-                                @if ($voucher->discount ??'')
-                                <span>Discount: {{ $voucher->discount }}%</span>
-                                <span class="total">Total: ${{ number_format($Produk->harga - ($Produk->harga * ($voucher->discount / 100)), 2) }}</span>
-                            </div>
 
-                        </div>
-                        <div class="order-total">
-                            <span>Total Harga: ${{ number_format($Produk->harga - ($Produk->harga * ($voucher->discount / 100)), 2) }}</span>
+            <!-- Include the necessary libraries -->
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
-                            <a style="margin-bottom: 20px;" href="/rekening" id="checkoutButton" onclick="showRekening()">Checkout</a>
-
-                        </div>
-                        @else
-                        <span style="margin-bottom: 20px;" class="total">Total: ${{ number_format($Produk->harga, 2) }}</span>
-                    </div>
-                </div>
-                <div class="order-total">
-                    <span style="margin-bottom: 20px; margin-top:-50px;">Total Harga: ${{ number_format($Produk->harga, 2) }}</span>
-
-                    <a style="margin-bottom: 20px;" href="/rekening" id="checkoutButton" onclick="showRekening()">Checkout</a>
-
-
-                </div>
-                @endif
-            </div> -->
-
-
-            <!-- JavaScript Section -->
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <!-- Your JavaScript code -->
             <script>
-                function showDetailPesanan() {
-                    // Mengubah display dari kontainer "Detail Pesanan" menjadi 'block' untuk menampilkannya
-                    document.getElementById('detailPesananContainer').style.display = 'block';
-                }
+                $(document).ready(function() {
+                    // Attach a submit event handler to the form
+                    $("form").submit(function(event) {
+                        // Prevent the form from submitting
+                        event.preventDefault();
+
+                        // Check if a major is selected
+                        var selectedMajor = $("#jurasanSelect").val();
+                        if (!selectedMajor) {
+                            // If no major is selected, show a SweetAlert popup
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Oops...',
+                                text: 'Silakan pilih jurusan!',
+                            });
+                        } else if ($('#jurasanSelect').find(':selected').data('publish') !== 'ya') {
+                            // Show the SweetAlert popup for non-published major
+                            Swal.fire({
+                                icon: 'warning',
+                                title: 'Jurusan Tidak Tersedia',
+                                text: 'Yuk pilih jurusan lain.....................',
+                                confirmButtonText: 'OK'
+                            });
+                        } else {
+                            // If a major is selected and it is published, proceed with form submission
+                            // Add your code here to continue with the form submission and payment process
+                            // For example, you can redirect to a payment page or trigger another function
+                            console.log("Jurusan dipilih dan tersedia. Lanjutkan proses pembayaran.");
+                            // Uncomment the line below if you want to submit the form after validation
+                            $(this).unbind("submit").submit();
+                        }
+                    });
+                });
             </script>
+
 
 
         </div>

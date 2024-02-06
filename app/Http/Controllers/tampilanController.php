@@ -74,7 +74,7 @@ class tampilanController extends Controller
     public function bso()
     {
         // $datas = Produk::get();
-            $productIds = Produk::pluck('id');
+        $productIds = Produk::pluck('id');
 
         if (Agent::isMobile()) {
             // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
@@ -145,38 +145,40 @@ class tampilanController extends Controller
             return view('nonaktif');
         }
     }
-   public function pembelian()
-{
-    // Memeriksa apakah pengguna menggunakan perangkat mobile
-    if (Agent::isMobile()) {
-        // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
-        return view('mobile/pembelianMobile');
-    } else {
-        // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
-        return view('pembelian');
+    public function pembelian()
+    {
+        // Memeriksa apakah pengguna menggunakan perangkat mobile
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('mobile/pembelianMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('pembelian');
+        }
     }
-}
 
-public function checkout(Request $request, $id_produk, $id, $nama_voucher = null, $judulskripsi, $problem, $jurusan)
-{
-    // Menggunakan first() langsung pada query untuk mendapatkan objek tunggal
-    $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->first();
-    $User = \App\User::where('id', $id)->first();
-    $Users = $User;
-    $Produk = \App\Produk::where('produk', $id_produk)->first();
-    $datas = \App\jurusan::get();
-    $id_pesdik_login = $pengertian; // Menghilangkan first() karena sudah digunakan pada query
-    $Produks = \App\Produk::where('produk', $id_produk)->first();
-    $voucher = \App\voucher::get();
-    
-    // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
-    $namaVoucher = $request->input('nama_voucher', '');
 
-    // Cari voucher berdasarkan nama yang telah diterima
-    $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
+    public function checkout(Request $request, $id_produk, $id, $nama_voucher = null, $judulskripsi, $problem, $jurusan)
+    {
+        // ... your existing code ...
+        $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->first();
+        $User = \App\User::where('id', $id)->first();
+        $Users = $User;
+        $Produk = \App\Produk::where('produk', $id_produk)->first();
+        $datas = \App\jurusan::get();
+        $mentors = \App\Mentor::get(); // Ensure $mentor is defined
+        $id_pesdik_login = $pengertian; // Menghilangkan first() karena sudah digunakan pada query
+        $Produks = \App\Produk::where('produk', $id_produk)->first();
+        $voucher = \App\voucher::get();
 
-    return view('pembayaran', compact('id_produk', 'Users', 'pengertian', 'User', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login', 'response'));
-}
+        // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
+        $namaVoucher = $request->input('nama_voucher', '');
+
+        // Cari voucher berdasarkan nama yang telah diterima
+        $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
+
+        return view('pembayaran', compact('id_produk', 'Users', 'pengertian', 'User', 'datas', 'mentors', 'Produk', 'voucher', 'Produks', 'id_pesdik_login', 'response'));
+    }
 
 
     public function okk()
@@ -207,7 +209,7 @@ public function checkout(Request $request, $id_produk, $id, $nama_voucher = null
         $datas = \App\jurusan::get();
         // $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
         $id_pesdik_login = $pengertian->first();
-
+        $mentors = \App\Mentor::get();
         $Produks = \App\Produk::where('produk', $id_produk)->first();
         $voucher = \App\voucher::get();
         // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
@@ -216,7 +218,7 @@ public function checkout(Request $request, $id_produk, $id, $nama_voucher = null
         // Cari voucher berdasarkan nama yang telah diterima
         $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
 
-        return view('/pembayaran', compact('Users', 'pengertian', 'User', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login'));
+        return view('/pembayaran', compact('Users', 'mentors', 'pengertian', 'User', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login'));
     }
 
     public function Pengertian($id_produk, Request $request)

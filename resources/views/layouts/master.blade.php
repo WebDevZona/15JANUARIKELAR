@@ -316,7 +316,7 @@
                         <a href="/mentor/index" class="nav-link">
                             <i class="nav-icon fas 	fa fa-file"></i>
                             <p>
-                                Mentor
+                                Data Mentor
                             </p>
                         </a>
                     </li>

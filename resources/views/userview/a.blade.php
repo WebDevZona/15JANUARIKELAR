@@ -1,4 +1,5 @@
-<!-- /Dashbord cp hosting -->
+<!-- Dashboard FIX -->
+
 @extends('layouts.master')
 @section('content')
 @if(session('warning'))
@@ -13,99 +14,80 @@
 <div class="row">
     <div class="container-fluid">
         <!-- Info boxes -->
-        @if (auth()->user()->role == 'admin' || auth()->user()->role == 'PetugasAdministrasiSurat' || auth()->user()->role == 'user')
+        @if (auth()->user()->role == 'user')
+        <!-- <div class="row">
+      <div class="flex-fill col-md-3" style="padding: 4px 4px 4px 4px">
+        <div class="info-box md-3">
+          <span class="info-box-icon bg-info elevation-1"><i class="fas fa-envelope"></i></span>
+
+          <div class="info-box-content">
+            <span class="info-box-text">Mentor</span>
+            <span class="info-box-number">
+              {{DB::table('mentor')->count()}}
+            </span>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class=" flex-fill col-md-3" style="padding: 4px 4px 4px 4px">
+        <div class="info-box md-3">
+          <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-envelope-open"></i></span>
+
+          <div class="info-box-content">
+            <span class="info-box-text">Produk</span>
+            <span class="info-box-number">{{DB::table('produk')->count()}}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-fill col-md-3" style="padding: 4px 4px 4px 4px">
+        <div class="info-box md-3">
+          <span class="info-box-icon bg-success elevation-1"><i class="fas fa-user"></i></span>
+
+          <div class="info-box-content">
+            <span class="info-box-text">Pembelian</span>
+            <span class="info-box-number">{{DB::table('beli')->count()}}</span>
+          </div>
+        </div>
+      </div>
+      <div class=" flex-fill" style="padding: 4px 4px 4px 4px">
+        <div class="info-box md-3">
+          <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-user"></i></span>
+          <div class="info-box-content">
+            <span class="info-box-text">Pengguna</span>
+            <span class="info-box-number">{{DB::table('users')->count()}}</span>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+        <h4 class="modal-title">Selamat datang di Class Program!</h4>
+        <h5></i> &nbsp;<span>{{auth()->user()->name}}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i></h5>
+        @endif
+        @if (auth()->user()->role == 'admin' )
+        <h3>Dashboard &nbsp;<span>{{auth()->user()->name}}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i></h3>
         <div class="row">
-            <div class="flex-fill col-md-" style="padding: 4px 4px 4px 4px">
-                <div class="info-box md-6">
+            <div class="flex-fill col-md-6" style="padding: 4px 4px 4px 4px">
+                <div class="info-box md-3">
                     <span class="info-box-icon bg-info elevation-1"><i class="fas fa-envelope"></i></span>
 
                     <div class="info-box-content">
-                        <span class="info-box-text">Mentor</span>
+                        <span class="info-box-text"><b>Mentor</b></span>
                         <span class="info-box-number">
                             {{DB::table('mentor')->count()}}
                         </span>
                     </div>
-                    <!-- /.info-box-content -->
                 </div>
-                <!-- /.info-box -->
             </div>
-            <!-- /.col -->
             <div class=" flex-fill col-md-6" style="padding: 4px 4px 4px 4px">
                 <div class="info-box md-3">
                     <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-envelope-open"></i></span>
 
                     <div class="info-box-content">
-                        <span class="info-box-text">Produk</span>
+                        <span class="info-box-text"><b>Produk</b></span>
                         <span class="info-box-number">{{DB::table('produk')->count()}}</span>
-                    </div>
-                    <!-- /.info-box-content -->
-                </div>
-                <!-- /.info-box -->
-            </div>
-            <!-- /.col -->
-
-            <!-- fix for small devices only -->
-            <!--<div class="flex-fill col-md-4" style="padding: 4px 4px 4px 4px">-->
-            <!--  <div class="info-box md-3">-->
-            <!--    <span class="info-box-icon bg-success elevation-1"><i class="fas fa-user"></i></span>-->
-
-            <!--    <div class="info-box-content">-->
-            <!--      <span class="info-box-text">Pembelian</span>-->
-            <!--      <span class="info-box-number">{{DB::table('beli')->count()}}</span>-->
-            <!--    </div>-->
-            <!-- /.info-box-content -->
-            <!--  </div>-->
-            <!-- /.info-box -->
-            <!--</div>-->
-            <!-- /.col -->
-            <!--<div class=" flex-fill" style="padding: 4px 4px 4px 4px">-->
-            <!--  <div class="info-box md-3">-->
-            <!--    <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-user"></i></span>-->
-            <!--    <div class="info-box-content">-->
-            <!--      <span class="info-box-text">Pengguna</span>-->
-            <!--      <span class="info-box-number">{{DB::table('users')->count()}}</span>-->
-            <!--    </div>-->
-            <!-- /.info-box-content -->
-            <!--  </div>-->
-            <!-- /.info-box -->
-            <!--</div>-->
-            <!-- /.col -->
-        </div>
-        <h5>Rekap Pembelian</h5>
-        <div class="row">
-            <div class="flex-fill col-md-4" style="padding: 4px 4px 4px 4px">
-                <div class="info-box md-3">
-                    <span class="info-box-icon bg-success elevation-1"><i class="fas fa-user"></i></span>
-
-                    <div class="info-box-content">
-                        <span class="info-box-text"><b>Pembelian 1 Hari</b></span>
-                        <!-- <span class="info-box-number">{{DB::table('payment')->count()}}</span> -->
-                        <!-- berdasarkan hari -->
-                        <span class="info-box-number">{{ DB::table('payment')->whereDate('created_at', today())->count() }}</span>
-                    </div>
-                </div>
-            </div>
-            <div class="flex-fill col-md-4" style="padding: 4px 4px 4px 4px">
-                <div class="info-box md-3">
-                    <span class="info-box-icon bg-success elevation-1"><i class="fas fa-user"></i></span>
-
-                    <div class="info-box-content">
-                        <span class="info-box-text"><b>Pembelian 1 Minggu</b></span>
-                        <!-- <span class="info-box-number">{{DB::table('payment')->count()}}</span> -->
-                        <!-- berdasarkan minggu -->
-                        <span class="info-box-number">{{ DB::table('payment')->whereBetween('created_at', [now()->startOfWeek(), now()->endOfWeek()])->count() }}</span>
-                    </div>
-                </div>
-            </div>
-            <div class="flex-fill col-md-4" style="padding: 4px 4px 4px 4px">
-                <div class="info-box md-3">
-                    <span class="info-box-icon bg-success elevation-1"><i class="fas fa-user"></i></span>
-
-                    <div class="info-box-content">
-                        <span class="info-box-text"><b>Pembelian 1 Bulan</b></span>
-                        <!-- <span class="info-box-number">{{DB::table('payment')->count()}}</span> -->
-                        <!-- berdasrkan bulan -->
-                        <span class="info-box-number">{{ DB::table('payment')->whereMonth('created_at', now()->month)->count() }}</span>
                     </div>
                 </div>
             </div>
@@ -158,9 +140,47 @@
                 </div>
             </div>
         </div>
+        <h5>Rekap Pembelian</h5>
+        <div class="row">
+            <div class="flex-fill col-md-4" style="padding: 4px 4px 4px 4px">
+                <div class="info-box md-3">
+                    <span class="info-box-icon bg-success elevation-1"><i class="fas fa-user"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"><b>Pembelian 1 Hari</b></span>
+                        <!-- <span class="info-box-number">{{DB::table('payment')->count()}}</span> -->
+                        <!-- berdasarkan hari -->
+                        <span class="info-box-number">{{ DB::table('payment')->whereDate('created_at', today())->count() }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-fill col-md-4" style="padding: 4px 4px 4px 4px">
+                <div class="info-box md-3">
+                    <span class="info-box-icon bg-success elevation-1"><i class="fas fa-user"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"><b>Pembelian 1 Minggu</b></span>
+                        <!-- <span class="info-box-number">{{DB::table('payment')->count()}}</span> -->
+                        <!-- berdasarkan minggu -->
+                        <span class="info-box-number">{{ DB::table('payment')->whereBetween('created_at', [now()->startOfWeek(), now()->endOfWeek()])->count() }}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-fill col-md-4" style="padding: 4px 4px 4px 4px">
+                <div class="info-box md-3">
+                    <span class="info-box-icon bg-success elevation-1"><i class="fas fa-user"></i></span>
+
+                    <div class="info-box-content">
+                        <span class="info-box-text"><b>Pembelian 1 Bulan</b></span>
+                        <!-- <span class="info-box-number">{{DB::table('payment')->count()}}</span> -->
+                        <!-- berdasrkan bulan -->
+                        <span class="info-box-number">{{ DB::table('payment')->whereMonth('created_at', now()->month)->count() }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         @endif
-        <!-- /.row -->
     </div>
     @if (auth()->user()->role == 'admin' || auth()->user()->role == 'PetugasAdministrasiKeuangan')
     <div class="col-md-9">

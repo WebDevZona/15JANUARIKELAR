@@ -11,7 +11,7 @@
             </button>
         </div>
         @endif
-        testinglurrrrr
+
         @if(session('warning'))
         <div class="callout callout-warning alert alert-warning alert-dismissible fade show" role="alert">
             <h5><i class="fas fa-info"></i> Informasi :</h5>
@@ -67,9 +67,9 @@
                                 <th>
                                     <div style="width:110px;">Foto</div>
                                 </th>
-                                <th>
+                                <!-- <th>
                                     <div style="width:110px;">Publish</div>
-                                </th>
+                                </th> -->
 
                                 <th>
                                     <center> Aksi</center>
@@ -102,7 +102,7 @@
                                 {{-- <td>{{$mentor->publish}}</td> --}}
                                 {{-- <section class="content card" style="padding: 10px 10px 20px 20px;"> --}}
                                 <!-- ... kode lainnya ... -->
-                                <td>
+                                <!-- <td>
                                     <form action="{{ route('mentor.publish', $mentor->id) }}" method="POST">
                                         @csrf
                                         <input type="hidden" name="publish" value="{{ $mentor->publish }}">
@@ -110,7 +110,7 @@
                                             {{ $mentor->publish === 'ya' ? 'Publish' : 'Unpublish' }}
                                         </button>
                                     </form>
-                                </td>
+                                </td> -->
                                 <!-- ... kode lainnya ... -->
                                 {{-- </section> --}}
                                 <td>
