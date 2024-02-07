@@ -911,7 +911,7 @@
                         jenis paket dengan rincian dan biaya sebagai berikut:</h4>
                 </div>
 
-                <div id="packageCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -40px">
+                <div id="packageCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -40px margin-left:50px;">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="container">
@@ -968,9 +968,11 @@
                                                     <span class="text-bso" style="font-size: 10px">Durasi pertemuan minimal 2<br> jam dan maksimal 4 jam</span>
                                                 </li>
                                             </ul>
-                                            <div class="custom-btn-wrap" style="margin-top: -10%">
-                                                <a href="{{ Auth::check() ? '/pembelian/BMJ%20Bronze' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
+                                            <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Bronze' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+
                                             </div>
+
                                         </div>
                                     </div>
 
@@ -1027,8 +1029,9 @@
                                                     <span class="text-bso" style="font-size: 10px"> Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
                                                 </li>
                                             </ul>
-                                            <div class="custom-btn-wrap" style="margin-top: -10%">
-                                                <a href="{{ Auth::check() ? '/pembelian/BMJ%20Emerald' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
+                                            <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Emerland' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -1087,9 +1090,12 @@
                                                     <span class="text-bso" style="font-size: 10px">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
                                                 </li>
                                             </ul>
-                                            <div class="custom-btn-wrap" style="margin-top: -10%">
-                                                <a href="{{ Auth::check() ? 'pembelian/BMJ%20Diamond' : '/register' }}" class="custom-btn-buy" style="width: 80%; font-size: 12px">Daftar Sekarang</a>
+                                            <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Diamond' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+
                                             </div>
+
+
                                         </div>
                                     </div>
                                 </div>
