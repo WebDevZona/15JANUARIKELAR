@@ -74,7 +74,7 @@ class tampilanController extends Controller
     public function bso()
     {
         // $datas = Produk::get();
-            $productIds = Produk::pluck('id');
+        $productIds = Produk::pluck('id');
 
         if (Agent::isMobile()) {
             // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
@@ -156,31 +156,30 @@ class tampilanController extends Controller
             return view('pembelian');
         }
     }
+
+
     public function checkout(Request $request, $id_produk, $id, $nama_voucher = null, $judulskripsi, $problem, $jurusan)
     {
-        dd("Checkpoint");
-        $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
-        $User = \App\User::where('id', $id)->get();
-        $Users = $User->first();
+        // ... your existing code ...
+        $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->first();
+        $User = \App\User::where('id', $id)->first();
+        $Users = $User;
         $Produk = \App\Produk::where('produk', $id_produk)->first();
         $datas = \App\jurusan::get();
-        // $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
-        $id_pesdik_login = $pengertian->first();
-
+        $mentors = \App\Mentor::get(); // Ensure $mentor is defined
+        $id_pesdik_login = $pengertian; // Menghilangkan first() karena sudah digunakan pada query
         $Produks = \App\Produk::where('produk', $id_produk)->first();
         $voucher = \App\voucher::get();
+
         // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
         $namaVoucher = $request->input('nama_voucher', '');
 
         // Cari voucher berdasarkan nama yang telah diterima
         $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
 
-
-
-        return view('pembayaran', compact('id_produk', 'Users', 'pengertian', 'User', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login', 'response'));
-
-        // return view('checkout');
+        return view('pembayaran', compact('id_produk', 'Users', 'pengertian', 'User', 'datas', 'mentors', 'Produk', 'voucher', 'Produks', 'id_pesdik_login', 'response'));
     }
+
 
     public function okk()
     {
@@ -210,7 +209,7 @@ class tampilanController extends Controller
         $datas = \App\jurusan::get();
         // $pengertian = \App\PengertianProduk::where('id_produk', $id_produk)->get();
         $id_pesdik_login = $pengertian->first();
-
+        $mentors = \App\Mentor::get();
         $Produks = \App\Produk::where('produk', $id_produk)->first();
         $voucher = \App\voucher::get();
         // Ambil nama voucher dari request atau set default ke kosong jika tidak ada
@@ -219,7 +218,7 @@ class tampilanController extends Controller
         // Cari voucher berdasarkan nama yang telah diterima
         $voucher = \App\voucher::where('nama', $namaVoucher)->where('publish', 'ya')->first();
 
-        return view('/pembayaran', compact('Users', 'pengertian', 'User', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login'));
+        return view('/pembayaran', compact('Users', 'mentors', 'pengertian', 'User', 'datas', 'Produk', 'voucher', 'Produks', 'id_pesdik_login'));
     }
 
     public function Pengertian($id_produk, Request $request)

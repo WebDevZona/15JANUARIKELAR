@@ -320,4 +320,13 @@ class AuthController extends Controller
             return redirect()->back()->with('error', 'Email tidak ditemukan.');
         }
     }
+// tampilanController.php
+
+public function Pengertian($id_produk)
+{
+    $id_pesdik_login = // Ambil data dari database berdasarkan $id_produk
+
+    return view('pembelian', compact('id_pesdik_login'));
+}
+
 }

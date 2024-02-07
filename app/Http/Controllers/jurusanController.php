@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
+use App\Mentor;
 use Illuminate\Support\Facades\Hash;
 
 class jurusanController extends Controller
@@ -19,29 +20,29 @@ class jurusanController extends Controller
 
     public function index()
     {
-
         if (Auth::user()->level == 'admin') {
             Alert::info('Oopss..', 'Anda dilarang masuk ke area ini.');
             return redirect()->to('/');
         }
 
-        $datas = jurusan::get();
-        // $datas = jurusan::orderBy('publish', 'asc')->get();
-        return view('jurusan.index', compact('datas'));
+        $mentor = Mentor::all();
+        $jurusans = Jurusan::all();
+        return view('jurusan.index', compact('jurusans', 'mentor'));
     }
+
     public function updatePublishStatus(Request $request)
     {
         $id = $request->id;
-        $jurusans = jurusan::findOrFail($id);
+        $jurusans = Jurusan::findOrFail($id);
 
         // Toggle the publish status
         $jurusans->publish = $jurusans->publish === 'ya' ? 'tidak' : 'ya';
 
         $jurusans->save();
-        // dd($jurusan);
 
         return redirect()->back()->with('sukses', 'Status publish berhasil diubah.');
     }
+
 
     /**
      * Show the form for creating a new resource.

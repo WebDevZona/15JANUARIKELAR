@@ -35,179 +35,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
 
-        .containerr {
-            max-width: 950px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border: 1px solid #ddd;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-        }
-
-        h1,
-        h2 {
-            text-align: center;
-            color: #007bff;
-        }
-
-        .step-containerr {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 20px;
-        }
-
-        .step {
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            background-color: #007bff;
-            color: #fff;
-            text-align: center;
-            line-height: 30px;
-            margin: 0 5px;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-        }
-
-        .separator {
-            flex-grow: 1;
-            height: 1px;
-            background-color: #999;
-        }
-
-        .left {
-            margin-left: 0;
-        }
-
-        .center {
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .right {
-            margin-right: 0;
-        }
-
-        .package {
-            background-color: #f9f9f9;
-            padding: 20px;
-            border: 1px solid #ddd;
-            margin-top: 20px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-radius: 5px;
-        }
-
-        .package-details {
-            flex: 1;
-            padding: 20px;
-        }
-
-        .package h3 {
-            color: #007bff;
-            margin-bottom: 10px;
-        }
-
-        .features {
-            list-style: none;
-            padding: 0;
-        }
-
-        .features li {
-            padding: 5px;
-        }
-
-        .price {
-            text-align: right;
-            padding: 20px;
-            background-color: #f9f9f9;
-            color: #007bff;
-            border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;
-            font-size: 18px;
-        }
-
-        .price del {
-            color: #999;
-        }
-
-        .select-button {
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-            border-radius: 5px;
-            display: block;
-            width: 100%;
-        }
-
-        .select-button:hover {
-            background-color: #0056b3;
-        }
-
-        .wokewoke {
-            justify-content: center;
-            align-items: center;
-
-            padding: 20px;
-            /* Add padding for spacing around the content */
-
-        }
-
-        #loginPopup {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: #ffffff;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            z-index: 999;
-            width: 300px;
-            /* Adjust the width as needed */
-            text-align: center;
-        }
-
-        #loginPopup p {
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
-
-        #loginPopup a {
-            text-decoration: none;
-            color: #007BFF;
-            font-weight: bold;
-            margin-right: 10px;
-        }
-
-        #loginPopup button {
-            background-color: #007BFF;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-        }
-
-        #loginPopup button:hover {
-            background-color: #0056b3;
-        }
-    </style>
 
 </head>
 
@@ -216,78 +44,186 @@
 
 
 <body>
-    <div class="wokewoke">
-        <div class="containerr">
-            <h1>Pesan </h1>
-            <div class="step-containerr">
-                <div class="step left">1</div>
-                <div class="separator"></div>
-                <div class="step center">2</div>
-                <div class="separator"></div>
-                <div class="step right">3</div>
-            </div>
-            {{-- <h2>Pilih Daftar Paket</h2> --}}
-            {{-- <p>Pilih yang sesuai kebutuhan kamu</p> --}}
-            <div class="package">
-                <div class="package-details">
-                    <h3> Paket: {{ $Produk->nama_produk }}</h3>
+    <style>
+        .cardd {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            width: 60rem;
+            /* margin-left: -330px; */
+            background: white;
+            position: center;
+            align-self: center;
 
-                    {{-- <p>Waktu: 75 Menit</p>
+            border-radius: 1.5rem;
+            box-shadow: 3px 3px 6px #3498db;
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .leftside {
+            background: linear-gradient(135deg, #3498db 0%, #1f618d 100%);
+            width: 25rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-top-left-radius: 1.5rem;
+            border-bottom-left-radius: 1.5rem;
+        }
+
+        .product {
+            object-fit: cover;
+            width: 50em;
+            height: 20em;
+            background: linear-gradient(135deg, #3498db 0%, #1f618d 100%);
+        }
+
+        .rightside {
+            background-color: #ffffff;
+            width: 35rem;
+            border-bottom-right-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            padding: 1rem 2rem 3rem 3rem;
+        }
+
+        p {
+            display: block;
+            font-size: 1.1rem;
+            font-weight: 400;
+            margin: .8rem 0;
+        }
+
+        .inputbox {
+            color: #030303;
+            width: 100%;
+            padding: 0.5rem;
+            border: none;
+            border-bottom: 1.5px solid #ccc;
+            margin-bottom: 1rem;
+            border-radius: 0.3rem;
+            font-family: 'Roboto', sans-serif;
+            color: #615a5a;
+            font-size: 1.1rem;
+            font-weight: 500;
+            outline: none;
+        }
+
+        .expcvv {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 0.6rem;
+        }
+
+        .expcvv_text {
+            padding-right: 1rem;
+        }
+
+        .expcvv_text2 {
+            padding: 0 1rem;
+        }
+
+        .button {
+            background: linear-gradient(135deg, #3498db 0%, #1f618d 100%);
+            padding: 15px;
+            border: none;
+            border-radius: 50px;
+            color: white;
+            font-weight: 400;
+            font-size: 1.2rem;
+            margin-top: 10px;
+            width: 100%;
+            letter-spacing: .11rem;
+            outline: none;
+        }
+
+
+        .button:hover {
+            transform: scale(1.05) translateY(-3px);
+            box-shadow: 3px 3px 6px #38373785;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .card {
+                flex-direction: column;
+                width: auto;
+
+            }
+
+            /* .leftside {
+                width: 100%;
+                border-top-right-radius: 0;
+                border-bottom-left-radius: 0;
+                border-top-right-radius: 0;
+                border-radius: 0;
+            } */
+
+            /* .rightside {
+                width: auto;
+                border-bottom-left-radius: 1.5rem;
+                padding: 0.5rem 3rem 3rem 2rem;
+                border-radius: 0;
+            } */
+        }
+    </style>
+    <div class="mainscreen">
+        <!-- <img src="https://image.freepik.com/free-vector/purple-background-with-neon-frame_52683-34124.jpg"  class="bgimg " alt="">-->
+        <div class="card">
+            <div class="cardd">
+                <div class="leftside">
+                    <img src="/assets/img/bg/yt2.png" class="product" alt="Shoes" />
+                </div>
+                <div class="rightside">
+                    <div class="package">
+                        <div class="package-details" style="margin-top: 50px;">
+                            <h3> Paket: {{ $Produk->nama_produk }}</h3>
+
+                            {{-- <p>Waktu: 75 Menit</p>
                         <p>Metode: Via Voice Call/Chat</p> --}}
-                    <ul class="features">
-                        <li>{!! $id_pesdik_login->isi !!}</li>
-                        <!-- <p>untuk mendapatkan potongan 50%,gunakan kupon-></p>
+
+                            {!! $id_pesdik_login->isi !!}</li>
+                            <!-- <p>untuk mendapatkan potongan 50%,gunakan kupon-></p>
                             <p>hanya berlaku untuk pembelian kelas/ transaksi</p> -->
-                        {{-- <li>✔ Tes Minat Karier</li>
-                    <li>✔ PDF Interpretasi Hasil Tes</li>
-                    <li>✔ Lembar Kerja (Worksheet) yang didesain khusus untuk membantu permasalahanmu</li> --}}
-                    </ul>
-                    {{-- <p>*pilih  </p> --}}
+                            {{-- <li>✔ Tes Minat Karier</li>
+                            ✔ PDF Interpretasi Hasil Tes</li>
+                            ✔ Lembar Kerja (Worksheet) yang didesain khusus untuk membantu permasalahanmu</li> --}}
+
+                            {{-- <p>*pilih  </p> --}}
+                        </div>
+                        <div class="price">
+                            <p>
+                                @if(isset($Produk) && is_object($Produk))
+                                <del style="color: #999;">Rp{{ $Produk->harga1 }}</del>
+                            <div style="font-size: 22px; color: #000; font-weight: bold;">Rp{{ $Produk->harga }}</div>
+                            @else
+                            <!-- Handle case where $Produk is not set or not an object -->
+                            <span style="color: red;">Error: Invalid Product Data</span>
+                            @endif
+                            </p>
+
+                            @if(isset($id_pesdik_login) && is_object($id_pesdik_login))
+                            <a id="paket-link" href="{{ route('pembayaran', [
+                                        'id_produk' => $id_pesdik_login->id_produk,
+                                        'id' => auth()->id(),
+                                        'nama_voucher' => isset($response->voucher) ? $response->voucher->nama : ''
+                                    ]) }}">
+                                <button type="submit" class="button">CheckOut</button>
+                            </a>
+                            @else
+                            <!-- Handle case where $id_pesdik_login is not set or not an object -->
+                            <span style="color: red;">Error: Invalid id_pesdik_login Data</span>
+                            <a href="#" onclick="showLoginPopup()"><button class="select-button">PILIH PAKET</button></a>
+                            @endif
+                        </div>
+                    </div><br>
+
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <p></p>
+
+                    </form>
                 </div>
-                <div class="price">
-                    <p>
-                        @if(isset($Produk) && is_object($Produk))
-                        <del style="color: #999;">Rp{{ $Produk->harga1 }}</del>
-                    <div style="font-size: 22px; color: #000; font-weight: bold;">Rp{{ $Produk->harga }}</div>
-                    @else
-                    <!-- Handle case where $Produk is not set or not an object -->
-                    <span style="color: red;">Error: Invalid Product Data</span>
-                    @endif
-                    </p>
-
-                    @if(isset($id_pesdik_login) && is_object($id_pesdik_login))
-                    <a id="paket-link" href="{{ route('pembayaran', [
-            'id_produk' => $id_pesdik_login->id_produk,
-            'id' => auth()->id(),
-            'nama_voucher' => isset($response->voucher) ? $response->voucher->nama : ''
-        ]) }}">
-                        <button class="select-button">PILIH PAKET</button>
-                    </a>
-                    @else
-                    <!-- Handle case where $id_pesdik_login is not set or not an object -->
-                    <span style="color: red;">Error: Invalid id_pesdik_login Data</span>
-                    <a href="#" onclick="showLoginPopup()"><button class="select-button">PILIH PAKET</button></a>
-                    @endif
-                </div>
-            </div><br>
-
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-            <!-- untuk vocer -->
-
-            <!-- <form method="post" action="{{ route('validateVoucher') }}" id="voucher-form">
-                    @csrf
-                    <p>Pakai voucher lebih hemat loh!</p>
-                    <input type="text" name="voucher_code" id="voucher_code" placeholder="Kode Voucher">
-                    <input type="submit" value="Submit">
-                </form> -->
-            <div id="voucher-result">
-                <!-- Hasil validasi atau pesan kesalahan akan ditampilkan di sini -->
             </div>
-            <div id="voucher-code-display">
-                <!-- Kode voucher akan ditampilkan di sini setelah validasi -->
-            </div>
-            <!-- Kode JavaScript yang telah dimodifikasi -->
+        </div>
+    </div>
 
 </body>
 

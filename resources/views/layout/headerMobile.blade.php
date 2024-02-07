@@ -22,10 +22,44 @@
                         <i class="bi bi-chevron-down"></i>
                     </a>    
                     <ul>
-                        <li><a href="nonaktif" class="nav-link scrollto">Kelas Tugas Kuliah (KTK)</a></li>
-                        <li><a href="bimbangan-mata-kuliah-jurusan" class="nav-link scrollto">Bimbingan Mata Kuliah Jurusan (BMJ)</a></li>
-                        <li><a href="bimbingan-skripsi-online" class="nav-link scrollto">Bimbingan Skripsi Online (BSO)</a></li>
-                        <li><a href="kelas-persiapan-karir" class="nav-link scrollto">Kelas Persiapan Karir (KPK)</a></li>
+                        <li><a href="/" class="nav-link scrollto">Home</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="nav-link scrollto">
+                                <span>Produk</span>
+                                <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul>
+                                <li><a href="nonaktif" class="nav-link scrollto">Kelas Tugas Kuliah (KTK)</a></li>
+                                <li><a href="bimbangan-mata-kuliah-jurusan" class="nav-link scrollto">Bimbingan Mata Kuliah Jurusan (BMJ)</a></li>
+                                <li><a href="bimbingan-skripsi-online" class="nav-link scrollto">Bimbingan Skripsi Online (BSO)</a></li>
+                                <li><a href="kelas-persiapan-karir" class="nav-link scrollto">Kelas Persiapan Karir (KPK)</a></li>
+                            </ul>
+                        </li>
+                        <!-- Tambahkan Menu Lainnya -->
+                        <li class="dropdown">
+                            <a href="#" class="nav-link scrollto">
+                                <span>Workshop</span>
+                                <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul>
+                                <li><a href="nonaktif" class="nav-link scrollto">KTI</a></li>
+                                <li><a href="skripsi" class="nav-link scrollto">Skripsi</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="nav-link scrollto">
+                                <span>Creative Class</span>
+                                <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul>
+                                <li><a href="nonaktif" class="nav-link scrollto">Kelas Adobe Photoshop</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#konsultasi" class="nav-link scrollto">Alur bimbingan</a></li>
+                        <li><a href="#testimonials" class="nav-link scrollto">Mentor</a></li>
+                        <li><a href="#testibaru" class="nav-link scrollto">Testimoni</a></li>
+                        <li><a href="#faq" class="nav-link scrollto">FAQ</a></li>
+                        <li><a href="/login" class="nav-link scrollto">Masuk</a></li>
                     </ul>
                 </li>
                 <!-- Tambahkan Menu Lainnya -->
@@ -65,7 +99,7 @@
             <div class="close-nav"></div>
         </nav>
     </div>
-</header>
+</nav>
 
 <!-- Marquee Section -->
 <header id="marquee-container">
