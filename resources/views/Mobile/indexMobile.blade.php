@@ -33,13 +33,14 @@
     <link href="assets/css/styleMobile.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 
     <!-- Tambahkan stylesheet untuk Slick -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    rel="stylesheet">
+
     <!-- Tambahkan script untuk jQuery (diperlukan oleh Slick) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -67,14 +68,13 @@
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/dekstopindex.png);background-size: cover; margin-top: -50px; height: 78vh;">
-        <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: 150px;display: flex;
-        flex-direction: column;">
+        <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: 200px">
             <div class="judulawal" style="margin-top:15px; align-items: center; margin-left:48px;">
-                <a href="#about" class="btn-get-awaaal awaaal" style=" margin-top:14px !important; font-family:'Manrope';"><strong>Bersama Class
+                <a href="#about" class="btn-get-awaaal awaaal" style=" margin-top:15px; font-family:'Manrope';"><strong>Bersama Class
                         Program</strong> </a>
             </div>
             <div class="judulkedua" style="font-family:'Manrope'; text-align: center; margin-top: 30px;  margin-left:0px;">
-                <h3 style=" margin-left:-5px; font-size: 24px;">Semua Bisa Lulus Kuliah</h3>
+                <h3 style=" margin-left:-5px; font-size: 30px;">Semua Bisa Lulus Kuliah</h3>
                 <!-- <h3 style=" margin-left:-5px;"></h3> -->
                 <p style="letter-spacing:1px; margin-left:-10px; font-family: Manrope; font-size: 13px; text-align: center; margin-top:25px; width:auto;">Bimbingan belajar online perkuliahan
                     <br> dan persiapan karir dengan
@@ -83,7 +83,7 @@
                 </p>
             </div>
             <div class="d-flex" style="margin-bottom: -35px; margin-left:75px;">
-                <a href="#pricing" class="btn-get-started scrollto"><strong style="font-size: 10px !important;">Daftar Sekarang</strong> </a>
+                <a href="#pricing" class="btn-get-started scrollto"><strong>Daftar Sekarang</strong> </a>
             </div>
 
             <div id="counts" class="counts">
