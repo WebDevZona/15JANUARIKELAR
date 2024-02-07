@@ -1,6 +1,18 @@
 <!-- Header Section -->
+<style>
+     .logo,
+    .mobile-nav-toggle,
+    .material-icons {
+        position: absolute;
+        left: 20px; /* Sesuaikan jarak dari sisi kiri sesuai kebutuhan */
+    }
+  
+</style>
 <header id="header" class="d-flex align-items-center" style="margin-top: -5px;">
     <div class="container d-flex align-items-center justify-content-between">
+        <div class="logo">
+            <a href="/"><img src="/assets/img/logo/logo1.png" alt="Your Logo" style="width: 100px;"></a>
+        </div>
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a href="/" class="nav-link scrollto">Home</a></li>
@@ -8,7 +20,7 @@
                     <a href="#" class="nav-link scrollto">
                         <span>Produk</span>
                         <i class="bi bi-chevron-down"></i>
-                    </a>
+                    </a>    
                     <ul>
                         <li><a href="nonaktif" class="nav-link scrollto">Kelas Tugas Kuliah (KTK)</a></li>
                         <li><a href="bimbangan-mata-kuliah-jurusan" class="nav-link scrollto">Bimbingan Mata Kuliah Jurusan (BMJ)</a></li>
@@ -41,8 +53,15 @@
                 <li><a href="#testibaru" class="nav-link scrollto">Testimoni</a></li>
                 <li><a href="#faq" class="nav-link scrollto">FAQ</a></li>
                 <li><a href="/login" class="nav-link scrollto">Masuk</a></li>
+                
+                
+                
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
+            
+            {{-- <span class="material-icons" id="searchIcon"  style="margin-left: 250px;">
+                search
+                </span> --}}
+            <i class="bi bi-list mobile-nav-toggle" style="margin-left: 280px;"></i>
             <div class="close-nav"></div>
         </nav>
     </div>

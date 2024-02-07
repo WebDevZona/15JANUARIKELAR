@@ -29,6 +29,10 @@
 
     <!-- Template Main CSS File -->
     <link href="{{ asset('assets/css/styleMobile.css') }}" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+
+
 
     <!-- =======================================================
   * Template Name: BizLand
@@ -65,6 +69,60 @@
             transform: translate(-50%, -50%);
 
         }
+
+        .gambar {
+            width: 35% !important;
+            height: auto;
+            position: fixed;
+            top: 66%;
+            left: 80%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .text {
+            font-size: 20px !important;
+            font-family: 'Montserrat' !important;
+            position: fixed;
+            top: 45%;
+            left: 10%;
+            color: #09326F;
+            text-align: center !important;
+            justify-content: center;
+            font-weight: 800 !important;
+
+        }
+
+        .text1 {
+            font-size: 10px !important;
+            font-family: 'Montserrat' !important;
+            position: fixed;
+            top: 50%;
+            color: #0F469A;
+            text-align: center !important;
+            justify-content: center;
+            font-weight: 800 !important;
+            padding: 10px;
+
+        }
+        .text2 {
+            font-size: 10px !important;
+            font-family: 'Roboto', sans-serif !important;
+            position: fixed;
+            top: 50%;
+            color: #0F469A;
+
+        }
+        .dashed-line {
+            border-top: 2px dashed #000; /* Mengatur garis putus-putus dengan ketebalan 2px dan warna hitam (#000) */
+            width: 80%; /* Mengatur lebar garis sesuai kebutuhan */
+            color: gray;
+            position: fixed;
+            top: 58%;
+            left: 10%;
+        }
+        
+        
     </style>
 
     <title>Your Title Here</title>
@@ -73,6 +131,15 @@
 <body>
     <div class="container">
         <img class="backgroud-2" src="assets/img/bg/checkout2.png" alt="Background Image">
+        <img class="gambar" src="assets/img/bg/checkout3.png" alt="Background Image">
+
+        <h3 class="text">Unggah Bukti Pembayaran</h3>
+        <h4 class="text1">Silahkan lakukan pembayaran untuk paket BSO Silver dengan total harga Rp.241.234 ke nomor
+            rekening di samping</h4>
+            <div class="dashed-line"></div>  
+            <div class="dashed-line" style="top: 75% !important"></div>  
+            <img class="gambar" src="assets/img/bg/checkout4.png" alt="Background Image">
+       
     </div>
 </body>
 

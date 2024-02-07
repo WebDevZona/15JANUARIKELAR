@@ -44,7 +44,7 @@ Route::post('/postlogin', 'AuthController@postlogin');
 Route::get('/register', 'AuthController@daftar')->name('daftar');
 Route::post('/registration.submit', 'AuthController@pendaftaran')->name('registration.submit');
 Route::get('/logout', 'AuthController@logout');
-Route::get('/auths/gantipassword/{id}', 'AuthController@gantipassword')->name('auths.gantipassword');
+Route::get('/auths/gantipassword/{name}/{remember_token}/{id}', 'AuthController@gantipassword')->name('auths.gantipassword');
 Route::post('/auths/{id}/simpanpassword', 'AuthController@simpanpassword');
 
 Route::get('auth/google', 'AuthController@redirectToGoogle');
@@ -129,7 +129,8 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
 
     Route::get('/jurusan/index', 'jurusanController@index')->name('jurusan');
     // Route::post('/jurusan/{id}/publish', [jurusanController::class, 'updatePublishStatus'])->name('jurusan.publish');
-    Route::post('/jurusan/{id}/publish', 'jurusanController@updatePublishStatus')->name('jurusan.publish');
+    Route::post('/jurusan/{id}/publish', 'JurusanController@updatePublishStatus')->name('jurusan.publish');
+
     Route::get('/jurusan/create', 'jurusanController@create');
     Route::post('/jurusan/store', 'jurusanController@store');
     // Route::get('/jurusan/{id}/show', 'jurusanController@show');
@@ -139,7 +140,8 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
 
     Route::get('/SobatInsan/index', 'SobatInsanController@index')->name('SobatInsan');
     // Route::post('/SobatInsan/{id}/publish', [SobatInsanController::class, 'updatePublishStatus'])->name('SobatInsan.publish');
-    Route::post('/SobatInsan/{id}/publish', 'SobatInsanController@updatePublishStatus')->name('SobatInsan.publish');
+    // Route::post('/SobatInsan/{id}/publish', 'SobatInsanController@updatePublishStatus')->name('SobatInsan.publish');
+    Route::post('/SobatInsan/{id}/publish',  'SobatInsanController@updatePublishStatus')->name('SobatInsan.publish');
     Route::get('/SobatInsan/create', 'SobatInsanController@create');
     Route::post('/SobatInsan/store', 'SobatInsanController@store');
     // Route::get('/SobatInsan/{id}/show', 'SobatInsanController@show');
@@ -471,20 +473,11 @@ Route::group(['middleware' => ['auth', 'checkRole:user']], function () {
 
     // Route::get('/dashboard', 'DashboardController@index');
     Route::get('/checkout/{id_produk}/{id}/{nama_voucher?}/{judulskripsi}/{problem}/{jurusan}', 'tampilanController@checkout')->name('checkout');
-    Route::get('/pembelian/{id_produk}', 'tampilanController@Pengertian')->name('pembelian');
-    Route::post('/pembayaran', 'PaymentController@submitPayment')->name('submit.payment');
+
     Route::post('/bukti', 'PaymentController@foto')->name('submit.bukti');
     Route::get('/mima', 'PaymentController@mima')->name('mima');
-    Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
+
 
     Route::get('/pengumuman/index', 'PengumumanController@index');
     Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
-
-    Route::get('/auths/gantipassword/{id}', 'AuthController@gantipassword')->name('auths.gantipassword');
-    Route::post('/auths/{id}/simpanpassword', 'AuthController@simpanpassword');
-    Route::post('/postemail', 'AuthController@postemail');
-
-    Route::post('/proses-kirim-ulang-email', 'AuthController@prosesKirimUlangEmail')->name('proses-kirim-ulang-email');
-    Route::get('/forgot-password', 'AuthController@loginn')->name('loginn');
-    Route::post('/forgot-password', 'AuthController@postemail');
 });

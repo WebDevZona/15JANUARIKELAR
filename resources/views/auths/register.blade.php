@@ -382,45 +382,6 @@
         #submit-button:hover {
             background-color: #0056b3;
         }
-
-        /* testing alret css*/
-        #overlay {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            z-index: 9999;
-        }
-
-        #popup {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background-color: #fff;
-            padding: 20px;
-            border: 1px solid #ddd;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 5px;
-            z-index: 10000;
-        }
-
-        #popup-content {
-            text-align: center;
-        }
-
-        #close-btn {
-            cursor: pointer;
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            font-size: 18px;
-            color: #555;
-        }
     </style>
 </head>
 
@@ -483,7 +444,7 @@
 
                 <div class="input-icon">
 
-                    <input type="email" name="email" class="form-control bg-light" id="email-step-2" value="{{ $email ?? old('email') }}" readonly>
+                    <input type="email" name="email" class="form-control bg-light" id="email-step-1" placeholder="email" required oninvalid="this.setCustomValidity('Pastikan anda sudah mengisikan email dengan format yang benar !')" oninput="setCustomValidity('')">
                 </div>
             </div>
             <div class="form-group">
@@ -498,26 +459,17 @@
                     <input name="name" type="text" class="form-control bg-light" id="name" placeholder="Nama" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                 </div>
             </div>
-            <div id="overlay"></div>
-            <div id="popup">
-                <div id="popup-content">
-                    <span id="close-btn" onclick="closePopup()">&times;</span>
-                    <p>Password harus minimal 8 karakter. Mohon periksa kembali.</p>
-                </div>
-            </div>
-
-            <!-- Your existing form content goes here -->
             <div class="form-group">
                 <div class="input-icon">
                     <span class="input-icon__icon">
                         <i class="fa fa-lock"></i>
                     </span>
-                    <label for="password" style="font-size: 13px; display: inline-block; margin-left: 5px;">Password:</label>
+                    <label for="password" style="font-size:13px; display: inline-block; margin-left: 5px;">Password:</label>
                 </div>
                 <div class="input-group">
-                    <input id="password" type="password" name="password" class="form_login" placeholder="Password" required minlength="8" oninput="setCustomValidity('')">
+                    <input id="password" type="password" name="password" class="form_login" placeholder="Password" required oninvalid="this.setCustomValidity('Harap masukkan password !')" oninput="setCustomValidity('')">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-primary" type="button" id="togglePassword" style="background-color:#4169E1; height:45px; margin-left:430px; margin-top: -45px;">
+                        <button class="btn btn-outline-primary" type="button" id="togglePassword" style="background-color:#4169E1;  height:45px; margin-left:430px; margin-top: -45px;">
                             <i class="fas fa-eye" id="password-toggle-icon"></i>
                         </button>
                     </div>
@@ -530,16 +482,19 @@
             </button>
         </form>
 
-        <center style="margin-top: -40px;">
-            <div class="form-groupz">
-                <button type="submit">
-                    <span><img src="assets/img/logo/gogle.png"></span> Masuk dengan Google
-                </button>
-            </div>
-        </center>
+        <div>
+            <center style="margin-top: -40px;">
+                <div class="form-groupz">
+                    <button type="submit">
+                        <span><img src="assets/img/logo/gogle.png"></span> Masuk dengan Google
+                    </button>
+                </div>
+            </center>
+        </div>
+
 
         <!-- Step 2: Name Input (Initially hidden) -->
-        <div id="step-2" style="display: none;">
+        <div id="step-2" style="display: none; margin-top:-50px;">
             <form id="registration-form-2" method="POST" action="{{ route('registration.submit') }}" novalidate>
                 @csrf
                 <div class="icon-label" style="margin-top: 40px;">
@@ -642,32 +597,20 @@
 
         // Menambahkan event listener ke tombol selanjutnya pada langkah 1
         nextButtonStep1.addEventListener('click', () => {
-            // Validasi email, nama, dan password
+            // Validasi email (Anda dapat menambahkan validasi lainnya di sini)
             if (emailInputStep1.checkValidity() &&
-                nameInput.checkValidity() &&
                 password.checkValidity()
             ) {
                 // Sembunyikan langkah 1 dan tampilkan langkah 2
                 document.getElementById('registration-form').style.display = 'none';
                 step2.style.display = 'block';
-
-                // Transfer nilai ke langkah berikutnya
+                // Transfer nilai email ke langkah berikutnya
                 document.getElementById('email-step-2').value = emailInputStep1.value;
                 document.getElementById('password-step-2').value = password.value;
                 document.getElementById('name-step-2').value = nameInput.value;
             } else {
-                // Tampilkan pesan kesalahan jika ada yang tidak valid
-                if (!emailInputStep1.checkValidity()) {
-                    alert('Email tidak valid. Mohon periksa kembali.');
-                }
-
-                if (!nameInput.checkValidity()) {
-                    alert('Nama tidak boleh kosong. Mohon periksa kembali.');
-                }
-
-                if (!password.checkValidity()) {
-                    alert('Password harus minimal 8 karakter. Mohon periksa kembali.');
-                }
+                // Tampilkan pesan kesalahan jika email tidak valid
+                alert('Email tidak valid. Mohon periksa kembali.');
             }
         });
 
@@ -720,18 +663,6 @@
                 togglePasswordButton.classList.remove("show-password");
             }
         });
-    </script>
-
-    <script>
-        function openPopup() {
-            document.getElementById('overlay').style.display = 'block';
-            document.getElementById('popup').style.display = 'block';
-        }
-
-        function closePopup() {
-            document.getElementById('overlay').style.display = 'none';
-            document.getElementById('popup').style.display = 'none';
-        }
     </script>
 </body>
 

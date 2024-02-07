@@ -32,13 +32,14 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/styleMobile.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
-
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 
     <!-- Tambahkan stylesheet untuk Slick -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
     <!-- Tambahkan script untuk jQuery (diperlukan oleh Slick) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -65,14 +66,15 @@
     </script>
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/dekstop2.png);background-size: cover; margin-top: -50px; height: 78vh;">
-        <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: 200px">
+    <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/dekstopindex.png);background-size: cover; margin-top: -50px; height: 78vh;">
+        <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: 150px;display: flex;
+        flex-direction: column;">
             <div class="judulawal" style="margin-top:15px; align-items: center; margin-left:48px;">
-                <a href="#about" class="btn-get-awaaal awaaal" style=" margin-top:15px; font-family:'Manrope';"><strong>Bersama Class
+                <a href="#about" class="btn-get-awaaal awaaal" style=" margin-top:14px !important; font-family:'Manrope';"><strong>Bersama Class
                         Program</strong> </a>
             </div>
             <div class="judulkedua" style="font-family:'Manrope'; text-align: center; margin-top: 30px;  margin-left:0px;">
-                <h3 style=" margin-left:-5px; font-size: 30px;">Semua Bisa Lulus Kuliah</h3>
+                <h3 style=" margin-left:-5px; font-size: 24px;">Semua Bisa Lulus Kuliah</h3>
                 <!-- <h3 style=" margin-left:-5px;"></h3> -->
                 <p style="letter-spacing:1px; margin-left:-10px; font-family: Manrope; font-size: 13px; text-align: center; margin-top:25px; width:auto;">Bimbingan belajar online perkuliahan
                     <br> dan persiapan karir dengan
@@ -81,7 +83,7 @@
                 </p>
             </div>
             <div class="d-flex" style="margin-bottom: -35px; margin-left:75px;">
-                <a href="#pricing" class="btn-get-started scrollto"><strong>Daftar Sekarang</strong> </a>
+                <a href="#pricing" class="btn-get-started scrollto"><strong style="font-size: 10px !important;">Daftar Sekarang</strong> </a>
             </div>
 
             <div id="counts" class="counts">
@@ -988,17 +990,38 @@ margin-left:-10px;
                     /* Add more responsive styles as needed */
                 }
             </style>
+            
+            <style>
+                .video-link {
+                    display: block;
+                    position: relative;
+                    overflow: hidden;
+                    transition: transform 0.3s ease-in-out;
+                }
+
+                .video-link:hover {
+                    transform: scale(1.1);
+                    /* Efek zoom */
+                }
+
+                .thumbnail {
+                    width: 100%;
+                    height: auto;
+                    transition: transform 0.3s ease-in-out;
+                }
+            </style>
 
             <div class="main_content floatleft">
                 <div class="left_coloum floatleft">
-                    <h4 style="margin-bottom: 30px">Rekomendasi untukmu</h4>
+                    <h4 style="margin-bottom: 30px; font-size:18px;">Rekomendasi video untukmu
+                    </h4>
                     <div class="single_left_coloum_wrapper" id="scrollableColumn">
                         <div class="scrollable_left_coloum">
                             @if($berita->isNotEmpty())
                             @foreach($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
                             <div class="single_left_coloum">
-                                <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank">
-                                    <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" />
+                                <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link">
+                                    <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" class="thumbnail" />
                                     <svg class="play-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                         <path d="M8 5v14l11-7z" />
                                     </svg>
@@ -1039,7 +1062,47 @@ margin-left:-10px;
                         </svg>
                     </span>
                     <hr style="border: 1px solid rgba(0, 0, 0, 0.48); margin-top:-50px;">
-                    <h4 style="margin-bottom: 20px">Tips Menarik</h4>
+                    <style>
+                        .single_left_coloum {
+                            position: relative;
+                            overflow: hidden;
+                            border-radius: 8px;
+                            margin-bottom: 15px;
+                            transition: transform 0.3s ease-in-out;
+                        }
+
+
+
+                        .play-iconn {
+                            position: absolute;
+                            top: 55%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 50px;
+                            /* Adjust the size of the play icon */
+                            height: 50px;
+                            /* Adjust the size of the play icon */
+                            fill: #000000;
+                            /* Adjust the color of the play icon */
+                            transition: opacity 0.3s ease-in-out;
+                            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+
+                        }
+
+                        .play-iconn:hover {
+                            fill: red !important;
+                        }
+
+                        .single_left_coloum:hover {
+                            transform: scale(1.1);
+                        }
+
+                        .single_left_coloum:hover .play-iconn {
+                            color: #000000;
+                        }
+                    </style>
+                    <h4 style="margin-bottom: 20px;font-size:18px;">Tips Menarik</h4>
                     <div class="single_left_coloum_wrapper" id="scrollableColumn1">
                         @if($berita->isNotEmpty())
                         @foreach($data->sortByDesc('created_at')->take(10) as $video)
@@ -1087,14 +1150,19 @@ margin-left:-10px;
                     </span>
                     {{-- </div> --}}
                 </div>
+                
                 <div class="right_coloum floatright mt-4" style="margin-top: 10px;">
                     <hr style="border: 1px solid rgba(0, 0, 0, 0.48); margin-top:-10px;">
                     <h4 style="margin-bottom: 20px">Artikel</h4>
-                    <div class="scrollable-container" style="width: 100%; overflow-x: auto; white-space: nowrap;">
-                        <div class="single_cat_right_content">
+                    <div class="scrollable-container" style="width: 100%; ">
+                        <div class="single_cat_right_content"   style="overflow-x: auto !important;
+                        white-space: nowrap !important;
+                        display: flex !important;
+                        gap: 20px !important; ">
                             @if($berita->isNotEmpty())
-                            @foreach($berita->sortByDesc('created_at')->take(3) as $item)
-                            <div class="left_content" style="display: inline-block; margin-right: 20px; white-space: normal;">
+                            @foreach($berita->sortByDesc('created_at') as $item)
+                            <div class="left_content" style="flex: 0 0 auto !important;
+                            ">
                                 <h3>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="23" viewBox="0 0 18 23" fill="none" style="float: left; margin-right: 5px; width: 14px; height: 19px;">
                                         <path d="M17 22L9 16.1667L1 22V3.33333C1 2.71449 1.24082 2.121 1.66947 1.68342C2.09812 1.24583 2.67951 1 3.28571 1H14.7143C15.3205 1 15.9019 1.24583 16.3305 1.68342C16.7592 2.121 17 2.71449 17 3.33333V22Z" stroke="#696969" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -1156,8 +1224,63 @@ margin-left:-10px;
         </div>
         <div></div>
     </section>
+    <style>
+        #testibaru {
+            position: relative;
+            z-index: 1;
+        }
 
+        #background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+
+        .testibaru .pyoutube {
+            position: relative;
+            z-index: 2;
+            width: 80%;
+        }
+
+        .yutup {
+            background: url('assets/img/bg/yutup.png');
+            /* Replace 'your-image-url.jpg' with the actual URL of your image */
+            background-size: cover;
+            /* Adjust this property based on your needs */
+            width: 80%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 20px;
+            transition: transform 0.5s ease;
+            /* min-height: 280px; */
+            color: #fff;
+            font-family: Manrope;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+            justify-content: center;
+            margin-left: 100px;
+
+
+        }
+
+        .yutup:hover {
+            transform: scale(1.1);
+            /* Efek zoom pada hover */
+        }
+    </style>
     <section id="testibaru" class="testibaru section-bg " style="margin-top: -280px;">
+        <div id="background-image">
+            <img src="assets/img/bg/bg_biru_setengah.png" alt=""
+                style="height: 20vh; width: 100%; object-fit: cover;    margin-top: 300px;
+            ">
+        </div>
         <div class="pyoutube">
             <br>
             <div class="youtubeeeeeee">
@@ -1176,11 +1299,11 @@ margin-left:-10px;
                             }
                         </style>
                         <!-- <h3 style="font-size:20px; color:#000; font-weight: 800;color:black;text-align: center; font-family: 'Manrope'; ">Janji Mentor untuk <br> Insans...</h3> -->
-                        <h1 style="font-size:25px; font-weight: 800; font-family: 'Manrope'; text-align: center; margin-left:-180px; margin-top:30px; margin-bottom:50px;">Lebih Dekat <br> dengan Class Program</h1>
+                        <h1 style="font-size:18px; font-weight: 800; font-family: 'Manrope'; text-align: center; margin-left:-180px; margin-top:30px; margin-bottom:50px;">Lebih Dekat <br> dengan Class Program</h1>
                         <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt">
                             <div style="display: inline-block; position: relative; margin-left: 450px; margin-top: -800px;">
                                 <div class="yt" style="text-align: center;">
-                                    <div style="margin-top:20px; width: 80px; height: 80px; margin-left: -320px;  border-radius: 50%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+                                    <div style="margin-top:20px; width: 50px; height: 50px; margin-left: -320px;  border-radius: 50%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
                                     <i style="text-align: center; margin-top:20px; position: absolute; top: 35%;  margin-left: -320px; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;" class="bx bxl-youtube"></i>
                                 </div>
                             </div>
@@ -1653,7 +1776,7 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="gambarkampus" class="gambarkampus" style="margin-top:-150px;">
+   x <section id="gambarkampus" class="gambarkampus" style="margin-top:-150px;">
         <div class="section-title">
             <h3>Kami telah membimbing<br> mahasiswa dari berbagai kampus</h3>
         </div>

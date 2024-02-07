@@ -951,12 +951,12 @@ font-weight: 500; */
     margin-top: 20px;
     color: #fff;
     font-family: "Manrope";
-    font-size: 25px;
+    font-size: 12px;
     font-style: normal;
     letter-spacing: 1.5px;
     font-weight: 500;
     line-height: 100%;
-    padding: 14px 40px;
+    padding: 12px 30px;
     border-radius: 23.203px 23.203px 23.203px 0px;
     background: #09326f;
 }
@@ -4429,7 +4429,7 @@ li.left-aligned .text {
     /* Elemen input akan mengambil sebagian besar ruang tersedia */
     border-radius: 50px;
     height: 35px;
-    width: 450px;
+    width: 100px !important;
     padding: 10px;
     border: 1px solid #ccc;
     margin-left: -280px;
@@ -7822,7 +7822,7 @@ button {
         /* Elemen input akan mengambil sebagian besar ruang tersedia */
         border-radius: 50px;
         height: 35px;
-        width: 200px;
+        width: 100px !important;
         padding: 10px;
         border: 1px solid #ccc;
         margin-left: -280px;
@@ -7979,20 +7979,19 @@ button {
         margin-top: 100px;
         color: #fff;
         font-family: "Manrope";
-        font-size: 18px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
         border-radius: 26.104px 26.104px 26.104px 0px;
         background: #09326f;
-        letter-spacing: 1.5px;
+        letter-spacing: 2px;
         background-size: cover;
         width: 500;
         height: 89.8;
-        padding: 14px 15px;
+        padding: 10px 15px;
         border-radius: 26.104px 26.104px 26.104px 0px;
         background: #09326f;
-        margin-left: -10px;
         color: #ffffff;
     }
 
@@ -8013,7 +8012,7 @@ button {
         font-weight: 800;
         line-height: 100%;
         /* 88.277px */
-        letter-spacing: -0.414px;
+        letter-spacing: 1.5px;
     }
 
     #hero .container .judulkedua p {
