@@ -138,12 +138,10 @@
                 <span class="brand-text font-weight-white">Class Program</span>
             </a>
             @endif
-            <div class="sidebar">
+            <!-- <div class="sidebar">
                 @if (auth()->user()->role == 'user')
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                    <!-- Sidebar Menu -->
-                    <!-- Add icons to the links using the .nav-icon class
-                        with font-awesome or any other icon font library -->
+
                     <li class="nav-item">
                         <a href="/userview/konsultasi" class="nav-link">
                             <i class="nav-icon fas fa-layer-group"></i>
@@ -173,7 +171,7 @@
                 </ul>
 
             </div>
-            @endif
+            @endif -->
             <!-- Sidebar -->
             <div class="sidebar" style="margin-top: 10px;">
                 @if (auth()->user()->role == 'admin')

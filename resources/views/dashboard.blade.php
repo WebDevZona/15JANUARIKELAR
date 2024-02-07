@@ -13,13 +13,13 @@
 @endif
 <div class="row">
     <div class="container-fluid">
-        <!-- Info boxes -->
+        <!-- Info boxes
         @if (auth()->user()->role == 'user')
 
 
         <h4 class="modal-title">Selamat datang di Class Program!</h4>
         <h5></i> &nbsp;<span>{{auth()->user()->name}}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i></h5>
-        @endif
+        @endif -->
         @if (auth()->user()->role == 'admin' )
         <h3>Dashboard &nbsp;<span>{{auth()->user()->name}}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i></h3>
         <div class="row">
