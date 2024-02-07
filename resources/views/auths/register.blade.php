@@ -8,6 +8,8 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <!-- Favicons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="assets/img/logo/logo2.png" rel="icon">
@@ -427,9 +429,9 @@
 
 
         <form id="registration-form" method="POST" action="{{ route('registration.submit') }}">
-            <h1 style="font-size: 45px; color:#000; margin-top: 15px;"><strong> Daftar <br> Akun Class Program</strong></h1>
+            <h1 style="font-size: 45px; color:#000; margin-top: 15px; font-family:montserrat; "><strong> Daftar Akun <br> Class Program</strong></h1>
 
-            <h4 style="font-size: 25px; margin-top:-10px;">Sudah punya akun?<a href="login">Masuk, yuk!</a> </h4>
+            <h4 style="font-size: 25px; margin-top:-10px; font-family:montserrat; ">Sudah punya akun? <a href="login">Masuk yuk!</a> </h4>
 
             <!-- <hr style="margin-right:10%;margin-left:10%; border: 1px solid grey;"> -->
             @csrf
@@ -459,22 +461,26 @@
                     <input name="name" type="text" class="form-control bg-light" id="name" placeholder="Nama" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                 </div>
             </div>
+
             <div class="form-group">
                 <div class="input-icon">
                     <span class="input-icon__icon">
                         <i class="fa fa-lock"></i>
                     </span>
-                    <label for="password" style="font-size:13px; display: inline-block; margin-left: 5px;">Password:</label>
+                    <label for="password" style="font-size: 13px; display: inline-block; margin-left: 5px;">Password:</label>
                 </div>
                 <div class="input-group">
-                    <input id="password" type="password" name="password" class="form_login" placeholder="Password" required oninvalid="this.setCustomValidity('Harap masukkan password !')" oninput="setCustomValidity('')">
+                    <input id="password" type="password" name="password" class="form-control" placeholder="Password" required oninvalid="this.setCustomValidity('Harap masukkan password !')" oninput="setCustomValidity('')">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-primary" type="button" id="togglePassword" style="background-color:#4169E1;  height:45px; margin-left:430px; margin-top: -45px;">
-                            <i class="fas fa-eye" id="password-toggle-icon"></i>
+                        <button class="btn btn-outline-primary" type="button" id="togglePassword" style="background-color: #4169E1; height: 40px; line-height: 40px;">
+                            <i class="fas fa-eye" id="password-toggle-icon" style="vertical-align: middle; margin-top:-20px"></i>
                         </button>
+
                     </div>
                 </div>
             </div>
+
+
 
             <!-- Tambahkan ID next-button-step-1 pada tombol Selanjutnya berikut -->
             <button type="button" id="next-button-step-1">
@@ -650,20 +656,21 @@
 
 
     <script>
-        // Menggunakan nama variabel yang berbeda untuk password input
-        var passwordInputToggle = document.getElementById("password");
-        var togglePasswordButton = document.getElementById("togglePassword");
+        document.addEventListener("DOMContentLoaded", function() {
+            const passwordInputToggle = document.getElementById("password");
+            const togglePasswordButton = document.getElementById("togglePassword");
+            const passwordToggleIcon = document.getElementById("password-toggle-icon");
 
-        togglePasswordButton.addEventListener("click", function() {
-            if (passwordInputToggle.type === "password") {
-                passwordInputToggle.type = "text";
-                togglePasswordButton.classList.add("show-password");
-            } else {
-                passwordInputToggle.type = "password";
-                togglePasswordButton.classList.remove("show-password");
-            }
+            togglePasswordButton.addEventListener("click", function() {
+                const type = passwordInputToggle.getAttribute("type") === "password" ? "text" : "password";
+                passwordInputToggle.setAttribute("type", type);
+
+                // Change eye icon based on password visibility
+                passwordToggleIcon.className = type === "password" ? "fas fa-eye" : "fas fa-eye-slash";
+            });
         });
     </script>
+
 </body>
 
 </html>

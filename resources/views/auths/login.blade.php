@@ -362,7 +362,12 @@
 
                 </div>
             </div>
-            <a href="/forgot-password" class="dropdown-item" style="margin-left:380px; color: blue;">Lupa password ?</a>
+            <div style="text-align: end; margin-right:60px;">
+
+                <a href="/forgot-password" class="dropdown-item" style="color: blue; text-decoration: none;">Lupa password?</a>
+
+            </div>
+
             <center>
                 <div class="form-group">
                     <button style="border-radius: 25px; " type="submit">Login</button>
@@ -383,6 +388,7 @@
                 </button>
             </div>
         </center>
+
     </div>
 
 
