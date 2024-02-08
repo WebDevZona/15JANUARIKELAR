@@ -64,6 +64,7 @@ class AuthController extends Controller
         $this->validate($request, [
             'name' => 'required',
             'email' => 'required|unique:users|email',
+            'nomer' => 'required|string|max:255',
             // 'password' => 'required|min:8',
         ], [
             'name.required' => 'Nama harus diisi.',
@@ -78,7 +79,7 @@ class AuthController extends Controller
 
         $user = User::create([
             'email' => $request->email,
-            'name' => $request->name,
+            'name' => ucwords($request->name), // Menggunakan ucwords pada nama
             'jeniskelamin' => $request->jeniskelamin,
             'ttl' => $request->ttl,
             'asal' => $request->asal,
@@ -88,9 +89,7 @@ class AuthController extends Controller
             'semester' => $request->semester,
             'role' => 'user',
             'password' => Hash::make($request->input('password')),
-            // 'password' =>  $request->password,
         ]);
-        // dd($user);
 
         return redirect()->route('login')->with('sukses', 'Data pengguna berhasil ditambahkan');
     }

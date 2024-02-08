@@ -5,19 +5,6 @@
 
 <footer id="footer">
 
-    <!-- <div class="footer-newsletter">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div> -->
     <style>
         .tombol_contact_us {
             position: fixed;
@@ -66,14 +53,8 @@
                     </div>
                 </div>
 
-                <!-- Right Section with Social Media Links -->
-
                 <div class="col-lg-4 col-md-3 ml-auto">
-                    <!-- <div class="social-links" style="text-align: right;">
-                        <img src="assets/img/logo/yt.png" class="youtube rounded-circle" style="border-radius: 100%;  width: 50px;" alt="">
-                        <img src="assets/img/logo/instagram.webp" class="youtube rounded-circle" style="border-radius: 100%; width: 50px;" alt="">
-                        <img src="assets/img/logo/tiktok.png" class="youtube rounded-circle" style="border-radius: 100%; width: 50px;  " alt="">
-                    </div> -->
+
                     <div class="social-links" style="margin-left: 180px;">
                         <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style="padding: 10px;">
                             <i class="bx bxl-youtube" style="font-size: 30px;"></i>
@@ -167,18 +148,6 @@
                     </a>
                 </div>
 
-
-
-                <!-- <div class="col-lg-3 col-md-3 footer-links">
-                    <h4>Daftar Sekarang</h4>
-                    <ul>
-                        <li><a href="#">Daftar</a></li>
-                        <li><a href="#">Masuk</a></li>
-                        <img src="{{ asset('assets/img/bg/hp.png') }}" alt="Workshop Image">
-                    </ul>
-                </div> -->
-
-                <!-- Download App Section -->
                 <div class="col-lg-2     col-md-3 footer-links">
                     {{-- <h4>Download aplikasinya</h4> --}}
 
@@ -208,17 +177,10 @@
             </div> --}}
         </div>
     </div>
-    <!-- <div style="position:fixed;left:20px;bottom:20px;">
-      <a href="https://api.whatsapp.com/send?phone=+628123456789&text=Halo">
-      <button style="background:#32C03C;vertical-align:center;height:36px;border-radius:5px">
-      <img src="https://web.whatsapp.com/img/favicon/1x/favicon.png"> Whatsapp Kami</button></a>
-    </div> -->
-    <!-- <button id="whatsapp-button">Hubungi Kami melalui WhatsApp</button> -->
-    <!--<div id="whatsapp-button" onclick="togglePopup();">
-      <img src="assets/img/logo/wa3.png" alt="WhatsApp" />
-    </div>-->
-    {{-- <div id="whatsapp-button" onclick="togglePopupp();">
-      <img src="{{ asset('assets/img/logo/wa3.png') }}" alt="WhatsApp" />
+
+
+    <div id="whatsapp-button" onclick="togglePopup();">
+        <img src="{{ asset('assets/img/logo/wa3.png') }}" alt="WhatsApp" />
     </div>
     <div id="message-popup" onclick="preventPopupClose(event);">
         <div id="popup-header">
@@ -227,13 +189,12 @@
         </div>
         <div class="message-container">
             <div class="message">Selamat datang di Class Program. Jika ada yang ingin di tanyakan, silakan hubungi Minma di sini</div>
-            <!-- <div class="user-message">Baik, terima kasih!</div> -->
         </div>
         <button id="send-message-button" onclick="sendMessage();">
             <img id="send-icon" src="assets/img/logo/kirim.png" alt="Kirim Pesan" />
             Kirim Pesan
         </button>
-    </div> --}}
+    </div>
 
     <div id="whatsapp-button" onclick="openWhatsApp()">
         <img src="{{ asset('assets/img/bg/cs.png') }}" alt="WhatsApp" />
@@ -269,38 +230,20 @@
     <script src="script.js"></script>
 
     <script>
-        // var popupActive = false;
+        function togglePopup() {
+            var popup = document.getElementById("message-popup");
+            popup.classList.toggle("show-popup");
+        }
 
-        // function togglePopupp() {
-        //   var whatsappButton = document.getElementById('whatsapp-button');
-        //   var messagePopup = document.getElementById('message-popup');
-        //   popupActive = !popupActive;
-
-        //   if (popupActive) {
-        //     whatsappButton.classList.add('active');
-        //     messagePopup.style.display = 'block';
-        //   } else {
-        //     whatsappButton.classList.remove('active');
-        //     messagePopup.style.display = 'none';
-        //   }
-        // }
-
-        // function closePopup() {
-        //   var whatsappButton = document.getElementById('whatsapp-button');
-        //   var messagePopup = document.getElementById('message-popup');
-        //   popupActive = false;
-        //   whatsappButton.classList.remove('active');
-        //   messagePopup.style.display = 'none';
-        // }
-
-        // function preventPopupClose(event) {
-        //   event.stopPropagation();
-        // }
+        function closePopup() {
+            var popup = document.getElementById("message-popup");
+            popup.classList.remove("show-popup");
+        }
 
         function openWhatsApp() {
             var message =
                 "Hallo Minma. Saya mau tanya-tanya nih mengenai Program Kelas di Class Program."; // Pesan yang ingin Anda kirim
-            var phoneNumber = "6281234361959"; // Nomor WhatsApp yang dituju (tanpa tanda '+')
+            var phoneNumber = "6282141549373"; // Nomor WhatsApp yang dituju (tanpa tanda '+')
 
             // Membuat URL untuk mengarahkan pengguna ke halaman WhatsApp
             var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
