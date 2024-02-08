@@ -5,6 +5,19 @@
 
 <footer id="footer">
 
+    <!-- <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> -->
     <style>
         .tombol_contact_us {
             position: fixed;
@@ -53,8 +66,14 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-3 ml-auto">
+                <!-- Right Section with Social Media Links -->
 
+                <div class="col-lg-4 col-md-3 ml-auto">
+                    <!-- <div class="social-links" style="text-align: right;">
+                        <img src="assets/img/logo/yt.png" class="youtube rounded-circle" style="border-radius: 100%;  width: 50px;" alt="">
+                        <img src="assets/img/logo/instagram.webp" class="youtube rounded-circle" style="border-radius: 100%; width: 50px;" alt="">
+                        <img src="assets/img/logo/tiktok.png" class="youtube rounded-circle" style="border-radius: 100%; width: 50px;  " alt="">
+                    </div> -->
                     <div class="social-links" style="margin-left: 180px;">
                         <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style="padding: 10px;">
                             <i class="bx bxl-youtube" style="font-size: 30px;"></i>
@@ -64,15 +83,16 @@
                         </a>
                         <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle" style="padding: 10px;">
                             <i class="bx bxl-instagram" style="font-size: 30px; background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); background-clip: text; -webkit-background-clip: text;   color: transparent;"></i>
-                        </a>a
+                        </a>
                     </div>
 
                 </div>
-                <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1" style=" stroke: #003EB5;
-        position: absolute;
+                <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1" style="
+                stroke: #003EB5;
+               position: absolute;
                width: 1100px;
                margin-inline-start: -130px;
-               margin-top: -100px;
+               margin-top: -30px;
                left:0;
                height: 400px;
                display: block;
@@ -148,6 +168,18 @@
                     </a>
                 </div>
 
+
+
+                <!-- <div class="col-lg-3 col-md-3 footer-links">
+                    <h4>Daftar Sekarang</h4>
+                    <ul>
+                        <li><a href="#">Daftar</a></li>
+                        <li><a href="#">Masuk</a></li>
+                        <img src="{{ asset('assets/img/bg/hp.png') }}" alt="Workshop Image">
+                    </ul>
+                </div> -->
+
+                <!-- Download App Section -->
                 <div class="col-lg-2     col-md-3 footer-links">
                     {{-- <h4>Download aplikasinya</h4> --}}
 
@@ -177,8 +209,6 @@
             </div> --}}
         </div>
     </div>
-
-
     <div id="whatsapp-button" onclick="togglePopup();">
         <img src="{{ asset('assets/img/logo/wa3.png') }}" alt="WhatsApp" />
     </div>
