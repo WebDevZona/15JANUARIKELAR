@@ -642,8 +642,12 @@
 
                     <div class="col-md-4">
                         <label for="semester">Semester</label>
-                        <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="Semester">
+                        <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="semester">
                     </div>
+
+
+                    <!-- untuk ngasih id waktu mau pembayaran -->
+                    <input type="hidden" value="CP008{{ $Users->id }}" id="token_transaksi" name="token_transaksi" placeholder="token_transaksi">
 
                     <div class=" card col-12">
                         <h3 style="color: #333; margin-top:30px;">Details Pembayaran</h3>

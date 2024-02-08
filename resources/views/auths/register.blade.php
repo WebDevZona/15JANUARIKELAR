@@ -458,7 +458,9 @@
                 </div>
 
                 <div class="input-icon">
-                    <input name="name" type="text" class="form-control bg-light" id="name" placeholder="Nama" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    <input name="name" id="name-step-1" type="text" class="form-control bg-light" placeholder="Nama" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')" oninput="capitalizeName()">
+
+                    <!-- <input name="name" type="text" class="form-control bg-light" id="name" placeholder="Nama" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')"> -->
                 </div>
             </div>
 
@@ -511,12 +513,12 @@
                 <div class="icon-label">
                     <i class="fas fa-map-marker-alt"></i>
                     Alamat
-                    <input name="asal" type="text" class="form-control bg-light" id="asal" placeholder="Alamat" required>
+                    <input name="asal" id="name-step-2" type="text" class="form-control bg-light" id="asal" placeholder="Alamat" required>
                 </div>
                 <div class="icon-label">
                     <i class="fas fa-phone-alt"></i>
-                    Nomor HP
-                    <input name="nomer" type="number" class="form-control bg-light" id="nomer" placeholder="Nomor HP" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    Nomor Hand Phone
+                    <input name="nomer" type="text" class="form-control bg-light" id="nomer" placeholder="Nomor Hand Phone" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                 </div>
                 <div class="icon-label">
                     <i class="fas fa-venus-mars"></i>
@@ -529,12 +531,12 @@
                 <div class="icon-label">
                     <i class="fas fa-university"></i>
                     Kampus
-                    <input name="kampus" type="text" class="form-control bg-light" id="kampus" placeholder="Kampus" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    <input name="kampus" id="name-step-3" type="text" class="form-control bg-light" id="kampus" placeholder="Kampus" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                 </div>
                 <div class="icon-label">
                     <i class="fas fa-book"></i>
                     Jurusan
-                    <input name="jurusan" type="text" class="form-control bg-light" id="jurusan" placeholder="jurusan" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    <input name="jurusan" id="name-step-4" type="text" class="form-control bg-light" id="jurusan" placeholder="Jurusan" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
                 </div>
                 <div class="icon-label">
                     <i class="fas fa-calendar-alt"></i>
@@ -584,6 +586,34 @@
     <script>
 
     </script>
+ <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Jumlah elemen input yang akan ditangani
+        var numInputs = 4;
+
+        // Loop untuk menangani setiap elemen input
+        for (var i = 1; i <= numInputs; i++) {
+            var inputElement = document.getElementById('name-step-' + i);
+
+            // Menambahkan event listener pada setiap elemen input
+            inputElement.addEventListener('input', function(event) {
+                var inputText = event.target.value;
+                event.target.value = capitalizeFirstLetter(inputText);
+            });
+        }
+
+        // Fungsi untuk membuat huruf pertama dari setiap kata menjadi huruf besar
+        function capitalizeFirstLetter(text) {
+            return text.replace(/\b\w/g, function(char) {
+                return char.toUpperCase();
+            });
+        }
+    });
+</script>
+
+
+
+
     <script>
         // Mendapatkan referensi elemen-elemen yang dibutuhkan
         const emailInputStep1 = document.getElementById('email-step-1');

@@ -25,6 +25,7 @@ class PaymentController extends Controller
             'kampus' => 'required|string',
             'id_jurusan' => 'required|string',
             'semester' => 'required|string',
+            'token_transaksi' => 'required|string',
         ]);
 
         // Save the form data to the 'payments' table
@@ -37,6 +38,7 @@ class PaymentController extends Controller
             'kampus' => $request->kampus,
             'id_jurusan' => $request->id_jurusan,
             'semester' => $request->semester,
+            'token_transaksi' => $request->token_transaksi,
             // Add other fields as needed
         ]);
 

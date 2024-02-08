@@ -63,7 +63,7 @@
             </div>
         </div>
         <script>
-            function openWhatsApp() {
+            function openWhatsApp() { 
                 var message =
                     "Hallo Minma. Saya mau tanya-tanya nih mengenai Program Kelas di Class Program."; // Pesan yang ingin Anda kirim
                 var phoneNumber = "6281234361959"; // Nomor WhatsApp yang dituju (tanpa tanda '+')
