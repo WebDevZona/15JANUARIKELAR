@@ -409,22 +409,25 @@
                             .border-radius {
                                 border-radius: 50%;
                             }
+                            #silver-package:hover {
+        color: black; /* Change this to your desired hover color */
+    }
                         </style>
                         <ul class="nav nav-pills card-header-pills d-flex justify-content-between align-items-center m-0 p-0" id="buttonGroup">
                             <li class="nav-item" style="border-radius: 50%; flex: 1;">
-                                <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content1')"><b>PAKET SILVER</b></button>
+                                <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content1')"><b id="silver-package">PAKET SILVER</b></button>
                             </li>
                             <li class="nav-item" style="border-radius: 50%; flex: 1;">
-                                <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content2')"><b>PAKET GOLD</b></button>
+                                <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content2')"><b id="silver-package">PAKET GOLD</b></button>
                             </li>
                             <li class="nav-item" style="border-radius: 50%; flex: 1;">
-                                <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content3')"><b>PAKET PLATINUM</b></button>
+                                <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content3')"><b id="silver-package">PAKET PLATINUM</b></button>
                             </li>
                             <li class="nav-item" style="border-radius: 50%; flex: 1;">
-                                <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content4')"><b>PAKET DIAMOND</b></button>
+                                <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content4')"><b id="silver-package">PAKET DIAMOND</b></button>
                             </li>
                             <li class="nav-item" style="border-radius: 50%; flex: 1;">
-                                <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content5')"><b>PAKET COMPLETE</b></button>
+                                <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content5')"><b id="silver-package">PAKET COMPLETE</b></button>
                             </li>
                         </ul>
 
@@ -2499,11 +2502,11 @@
                     <div class="swiper-slide">
                         <div class="centered-content">
                             <img src="assets/img/team/Mentor_ali.png" class="img-fluid" alt="" style="border: none !important;
-                            outline: none !important; width: 200px; height: auto;">
+                            outline: none !important; width: 280px; height: auto;">
                             <img src="assets/img/team/Mentor_Faidatul.png" class="img-fluid" alt="" style="border: none !important;
-                            outline: none !important; width: 200px; height: auto;">
+                            outline: none !important; width: 280px; height: auto;">
                             <img src="assets/img/team/Mentor_Denny.png" class="img-fluid" alt="" style="border: none !important;
-                            outline: none !important; width: 200px; height: auto;">
+                            outline: none !important; width: 280px; height: auto;">
                         </div>
                         {{-- <div class="centered-content">
                             <img src="assets/img/team/a.png" width="50px" height="auto" class="img-fluid" alt="" style="border: none !important;
@@ -2822,9 +2825,9 @@
                                     <div class="icon">+</div>
                                 </div>
                                 <div class="accordion-content">
-                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Sobat Insans
-                                        boleh menyampaikan keinginannya untuk dibimbing oleh mentor perempuan atau
-                                        laki-laki, namun ini bersifat kondisional selama pilihan mentor masih tersedia
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;"><strong style="color: #000">Sobat Insans</strong>
+                                        boleh menyampaikan keinginannya untuk dibimbing oleh Mentor perempuan atau
+                                        laki-laki, namun ini bersifat kondisional selama pilihan Mentor masih tersedia
                                     </p>
                                 </div>
                             </div>
@@ -2836,9 +2839,9 @@
                                     <div class="icon">+</div>
                                 </div>
                                 <div class="accordion-content">
-                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Sobat Insans
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;"><strong style="color: #000">Sobat Insans</strong>
                                         bisa mengambil bimbingan di malam hari, selama masih berada dalam batas waktu
-                                        yang telah ditetapkan menurut ketentuan Class Program</p>
+                                        yang telah ditetapkan menurut ketentuan <strong style="color: #000">Class Program</strong></p>
                                 </div>
                             </div>
 
@@ -2852,8 +2855,8 @@
                                 </div>
                                 <div class="accordion-content">
                                     <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Jika
-                                        tertarik mengambil paket lanjutan, Sobat Insans bisa melakukan konfirmasi dan
-                                        menghubungi Customer Experience Class Program yaitu Kak Dewi (+62 821-4154-9373)
+                                        tertarik mengambil paket lanjutan, <strong style="color: #000">Sobat Insans</strong> bisa melakukan konfirmasi dan
+                                        menghubungi Customer Experience <strong style="color: #000">Class Program</strong> yaitu Kak Dewi (+62 821-4154-9373)
                                     </p>
                                 </div>
                             </div>
@@ -2867,10 +2870,10 @@
                                     <div class="icon">+</div>
                                 </div>
                                 <div class="accordion-content">
-                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Sobat Insans
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;"><strong style="color: #000">Sobat Insans</strong>
                                         bisa langsung menghubungi Kak Dewi selaku Customer Experience untuk menyampaikan
                                         segala jenis kendala. Kak Dewi selalu siap membantu, memastikan dan membuat
-                                        Sobat Insans mendapatkan pengalaman terbaik</p>
+                                        <strong style="color: #000">Sobat Insans</strong> mendapatkan pengalaman terbaik</p>
                                 </div>
                             </div>
 
@@ -2884,8 +2887,7 @@
                                     <div class="icon">+</div>
                                 </div>
                                 <div class="accordion-content">
-                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Class
-                                        Program belum menyediakan metode pembayaran dengan sistem cicil untuk pilihan
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;"><strong style="color: #000">Class Program</strong> belum menyediakan metode pembayaran dengan sistem cicil untuk pilihan
                                         paket</p>
                                 </div>
                             </div>

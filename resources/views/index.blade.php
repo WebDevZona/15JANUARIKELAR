@@ -389,11 +389,11 @@
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <th scope="col" style="border-top: none; border-bottom: none; text-align: left;">Complete
+                                            <th scope="col" style="border-top: none; border-bottom: none; text-align: left;font-size: 18px !important;">Complete
                                                 <br><span class="green-text">(BSO)</span>
                                             </th>
-                                            <th scope="col" style="border-top: none; border-bottom: none;">Harga
-                                                <br><span class="blue-text">Rp 1.010.000</span>
+                                            <th scope="col" style="border-top: none; border-bottom: none; font-size: 18px !important;">Harga
+                                                <br><span class="blue-text" style="font-size: 18px !important;">Rp 1.010.000</span>
                                             </th>
                                         </tr>
                                     </thead>
@@ -440,11 +440,11 @@
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <th scope="col" style="border-top: none; border-bottom: none; text-align: left;">Gold
-                                                <br><span class="green-text">(BSO)</span>
+                                            <th scope="col" style="border-top: none; border-bottom: none; text-align: left; font-size: 18px !important;">Gold
+                                                <br><span class="green-text" >(BSO)</span>
                                             </th>
-                                            <th scope="col" style="border-top: none; border-bottom: none;">Harga
-                                                <br><span class="blue-text">Rp. 499.000</span>
+                                            <th scope="col" style="border-top: none; border-bottom: none; font-size: 18px !important;">Harga
+                                                <br><span class="blue-text" style="font-size: 18px !important;">Rp 499.000</span>
                                             </th>
                                         </tr>
                                     </thead>
@@ -485,11 +485,11 @@
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <th scope="col" style="border-top: none; border-bottom: none;text-align: left;">Diamond
+                                            <th scope="col" style="border-top: none; border-bottom: none;text-align: left; font-size: 18px !important;">Diamond
                                                 <br><span class="green-text">(BMJ)</span>
                                             </th>
-                                            <th scope="col" style="border-top: none; border-bottom: none;">Harga
-                                                <br><span class="blue-text">Rp. 650.000</span>
+                                            <th scope="col" style="border-top: none; border-bottom: none; font-size: 18px !important;">Harga
+                                                <br><span class="blue-text" style="font-size: 18px !important;">Rp 650.000</span>
                                             </th>
                                         </tr>
                                     </thead>
@@ -533,11 +533,11 @@
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                            <th scope="col" style="border-top: none; border-bottom: none;text-align: left;">Emerald
+                                            <th scope="col" style="border-top: none; border-bottom: none;text-align: left; font-size: 18px !important;">Emerald
                                                 <br><span class="green-text">(BMJ)</span>
                                             </th>
-                                            <th scope="col" style="border-top: none; border-bottom: none;">Harga
-                                                <br><span class="blue-text">Rp. 565.000</span>
+                                            <th scope="col" style="border-top: none; border-bottom: none; font-size: 18px !important;">Harga
+                                                <br><span class="blue-text" style="font-size: 18px !important;">Rp 565.000</span>
                                             </th>
                                         </tr>
                                     </thead>
@@ -786,7 +786,7 @@
                                 </li>
                             </ul>
                             <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-primary btn-get-started scrolltolo" style="margin-top:15px;margin-bottom:15px">
+                                <button type="button" class="btn btn-primary btn-get-started scrolltolo" style="margin-top:15px;margin-bottom:15px; background-color:#0C63D5;">
                                     <a href="skripsi" style="color: white;">Lihat Selengkapnya</a>
                                 </button>
                             </div>
@@ -845,7 +845,7 @@
                                 </li>
                             </ul>
                             <div class="d-flex justify-content-center">
-                                <button type="button" class="btn btn-primary btn-get-started scrolltolo" style="margin-top:15px;margin-bottom:15px">
+                                <button type="button" class="btn btn-primary btn-get-started scrolltolo" style="margin-top:15px;margin-bottom:15px;background-color:#0C63D5;">
                                     <a href="kti" style="color: white;">Lihat Selengkapnya</a>
                                 </button>
                             </div>
@@ -944,7 +944,7 @@
 
                     </div>
                     <span class="left-scroll-button" onclick="customScrollLeft()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px; margin-top: 50px;" viewBox="0 0 35" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px; margin-top: 20px;" viewBox="0 0 35" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                                 <!-- Mengubah path panah ke kiri -->
@@ -956,7 +956,7 @@
 
 
                     <span class="right-scroll-button" onclick="scrollRight()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -40px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -40px; margin-top: 20px;" viewBox="0 0 35" style="float: right;" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                                 <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
@@ -1083,7 +1083,7 @@
                     }
 
                     .right_content img {
-                        width: 160px;
+                        width: 130px;
                         /* Sesuaikan lebar gambar sesuai kebutuhan */
                         height: auto;
                         /* margin-right: 10px; */
@@ -1128,9 +1128,9 @@
                                     </a>
                                 </h3>
 
-                                <p style="    margin-top: -5px;">
+                                <p style="    margin-top: -5px; line-height: 0.1 !important;">
                                     <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
-                                        <a href="{{ asset($item->tampilan) }}" style="text-decoration: none; color: black; font-size:12px !important; ">Video
+                                        <a href="{{ asset($item->tampilan) }}" style="text-decoration: none; color: black; font-size:12px !important;  ">Video
                                             :
                                             {{ str_limit($item->judul, 36, '. . .') }}
                                         </a>
@@ -1141,9 +1141,9 @@
                                     {{ $item->waktu }}
                                 </p>
                             </div>
-                            <div class="right_content" style="    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Bayangan dengan warna biru lebih gelap */
+                            <div class="right_content" style="  border-radius: 10px;   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); margin-top:-20px;
                                         ">
-                                <img src="{{ asset('foto_upload/' . $item->foto) }}" style="    border-radius: 10px;" alt="Youtube Thumbnail" />
+                                <img src="{{ asset('foto_upload/' . $item->foto) }}" style=" border-radius: 10px;  " alt="Youtube Thumbnail" />
                             </div>
                         </div>
                         @endforeach
@@ -1299,10 +1299,10 @@
 
         <div class="galeri-container">
             <div class="image-container">
-                <div class="thought-bubble">
+                {{-- <div class="thought-bubble">
                     <div class="arrow-down"></div>
                     <p id="thought-bubble-text">Thought bubble content</p>
-                </div>
+                </div> --}}
                 <img src="assets/img/clients/client-1.png" alt="Gambar 1" id="gambar" class="gambar-ukuran-tetap">
             </div>
             <div class="caption-container" style="font-family: 'Manrope', sans-serif; background: url(assets/img/bg/amplop.png);background-size: cover;  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);">
@@ -1527,7 +1527,7 @@
                                     <img src="assets/img/bg/bro.png" class="img-fluid" style="width: 100%;" alt="">
                                 </div>
                                 <div class="member-info" style="text-align: center;">
-                                    <h4 style="margin-bottom: -10px;">2. Lakukan Pembayaran </h4>
+                                    <h4 style="margin-bottom: -10px;">2. Lakukan Pendaftaran </h4>
                                     <p style="width: 100%; margin-top:1px; line-height: 1.5;">Mengisi dan melengkapi data diri secara lengkap dan benar</p>
                                 </div>
                             </div>
