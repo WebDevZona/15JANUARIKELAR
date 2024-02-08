@@ -446,7 +446,7 @@
 
                 <div class="input-icon">
 
-                    <input type="email" name="email" class="form-control bg-light" id="email-step-1" placeholder="email" required oninvalid="this.setCustomValidity('Pastikan anda sudah mengisikan email dengan format yang benar !')" oninput="setCustomValidity('')">
+                    <input type="email" name="email" class="form-control bg-light" id="email-step-1" placeholder="Email" required oninvalid="this.setCustomValidity('Pastikan anda sudah mengisikan email dengan format yang benar !')" oninput="setCustomValidity('')">
                 </div>
             </div>
             <div class="form-group">
@@ -586,30 +586,30 @@
     <script>
 
     </script>
- <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Jumlah elemen input yang akan ditangani
-        var numInputs = 4;
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Jumlah elemen input yang akan ditangani
+            var numInputs = 4;
 
-        // Loop untuk menangani setiap elemen input
-        for (var i = 1; i <= numInputs; i++) {
-            var inputElement = document.getElementById('name-step-' + i);
+            // Loop untuk menangani setiap elemen input
+            for (var i = 1; i <= numInputs; i++) {
+                var inputElement = document.getElementById('name-step-' + i);
 
-            // Menambahkan event listener pada setiap elemen input
-            inputElement.addEventListener('input', function(event) {
-                var inputText = event.target.value;
-                event.target.value = capitalizeFirstLetter(inputText);
-            });
-        }
+                // Menambahkan event listener pada setiap elemen input
+                inputElement.addEventListener('input', function(event) {
+                    var inputText = event.target.value;
+                    event.target.value = capitalizeFirstLetter(inputText);
+                });
+            }
 
-        // Fungsi untuk membuat huruf pertama dari setiap kata menjadi huruf besar
-        function capitalizeFirstLetter(text) {
-            return text.replace(/\b\w/g, function(char) {
-                return char.toUpperCase();
-            });
-        }
-    });
-</script>
+            // Fungsi untuk membuat huruf pertama dari setiap kata menjadi huruf besar
+            function capitalizeFirstLetter(text) {
+                return text.replace(/\b\w/g, function(char) {
+                    return char.toUpperCase();
+                });
+            }
+        });
+    </script>
 
 
 

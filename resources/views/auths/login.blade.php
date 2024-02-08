@@ -346,7 +346,7 @@
 
                 <div class="input-icon">
                     {{-- <input type="text" id="username" name="username" placeholder="Masukkan Email" required> --}}
-                    <input type="email" name="email" class="form_login" placeholder="email" required email oninvalid="this.setCustomValidity('Pastikan anda sudah mengisikan email dengan benar !')" oninput="setCustomValidity('')">
+                    <input type="email" name="email" class="form_login" placeholder="Email" required email oninvalid="this.setCustomValidity('Pastikan anda sudah mengisikan email dengan benar !')" oninput="setCustomValidity('')">
                 </div>
             </div>
             <div class="form-group">
@@ -358,7 +358,7 @@
                 </div>
                 <div class="input-icon">
                     {{-- <input type="password" id="password" name="password" placeholder="Masukkan password" required> --}}
-                    <input id="password" type="password" name="password" class="form_login" placeholder="password" required oninvalid="this.setCustomValidity('Harap masukkan password !')" oninput="setCustomValidity('')">
+                    <input id="password" type="password" name="password" class="form_login" placeholder="Password" required oninvalid="this.setCustomValidity('Harap masukkan password !')" oninput="setCustomValidity('')">
 
                 </div>
             </div>
