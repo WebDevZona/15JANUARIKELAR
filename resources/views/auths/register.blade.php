@@ -501,47 +501,61 @@
         </div>
 
 
+
         <!-- Step 2: Name Input (Initially hidden) -->
-        <div id="step-2" style="display: none; margin-top:-50px;">
-            <form id="registration-form-2" method="POST" action="{{ route('registration.submit') }}" novalidate>
+        <div id="step-2" style="display: none;">
+
+
+            <form id="registration-form-2" class="needs-validation" novalidate method="POST" action="{{ route('registration.submit') }}" novalidate>
+                <center style="margin-top: 30px;">
+                    <h1 style="text-aligen:center; font-size: 45px; color:#000; margin-top: 15px; font-family:montserrat; "><strong>Lengkapi Data Diri</strong></h1>
+                    <h4 style="font-size: 25px; margin-top:-10px; font-family:montserrat; ">Sudah punya akun? <a href="login">Masuk yuk!</a> </h4>
+                </center>
                 @csrf
-                <div class="icon-label" style="margin-top: 40px;">
-                    <i class="fas fa-calendar"></i>
-                    Tanggal Lahir
-                    <input name="ttl" type="date" class="form-control bg-light" id="ttl" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col">
+                        <i class="fas fa-calendar"></i>
+                        Tanggal Lahir
+                        <input name="ttl" type="date" class="form-control bg-light" id="ttl" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Alamat
+                        <input name="asal" id="name-step-2" type="text" class="form-control bg-light" id="asal" placeholder="Alamat" required>
+                    </div>
                 </div>
-                <div class="icon-label">
-                    <i class="fas fa-map-marker-alt"></i>
-                    Alamat
-                    <input name="asal" id="name-step-2" type="text" class="form-control bg-light" id="asal" placeholder="Alamat" required>
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col">
+                        <i class="fas fa-phone-alt"></i>
+                        Nomor Hand Phone
+                        <input name="nomer" type="text" class="form-control bg-light" id="nomer" placeholder="Nomor Hand Phone" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-venus-mars"></i>
+                        Jenis Kelamin
+                        <select name="jeniskelamin" id="jeniskelamin" class="form-control bg-light" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                            <option value="laki">Laki-laki</option>
+                            <option value="perempuan">Perempuan</option>
+                        </select>
+                    </div>
+
                 </div>
-                <div class="icon-label">
-                    <i class="fas fa-phone-alt"></i>
-                    Nomor Hand Phone
-                    <input name="nomer" type="text" class="form-control bg-light" id="nomer" placeholder="Nomor Hand Phone" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                </div>
-                <div class="icon-label">
-                    <i class="fas fa-venus-mars"></i>
-                    Jenis Kelamin
-                    <select name="jeniskelamin" id="jeniskelamin" class="form-control bg-light" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                        <option value="laki">Laki-laki</option>
-                        <option value="perempuan">Perempuan</option>
-                    </select>
-                </div>
-                <div class="icon-label">
-                    <i class="fas fa-university"></i>
-                    Kampus
-                    <input name="kampus" id="name-step-3" type="text" class="form-control bg-light" id="kampus" placeholder="Kampus" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                </div>
-                <div class="icon-label">
-                    <i class="fas fa-book"></i>
-                    Jurusan
-                    <input name="jurusan" id="name-step-4" type="text" class="form-control bg-light" id="jurusan" placeholder="Jurusan" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                </div>
-                <div class="icon-label">
-                    <i class="fas fa-calendar-alt"></i>
-                    Semester
-                    <input name="semester" type="number" class="form-control bg-light" id="semester" placeholder="Semester" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col">
+                        <i class="fas fa-university"></i>
+                        Kampus
+                        <input name="kampus" id="name-step-3" type="text" class="form-control bg-light" id="kampus" placeholder="Kampus" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-book"></i>
+                        Jurusan
+                        <input name="jurusan" id="name-step-4" type="text" class="form-control bg-light" id="jurusan" placeholder="Jurusan" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-calendar-alt"></i>
+                        Semester
+                        <input name="semester" type="number" class="form-control bg-light" id="semester" placeholder="Semester" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    </div>
                 </div>
 
                 <input type="hidden" name="email" id="email-step-2">
