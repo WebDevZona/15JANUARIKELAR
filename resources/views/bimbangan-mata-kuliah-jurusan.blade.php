@@ -45,7 +45,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -82,8 +83,11 @@
 
         <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/bmj.png); background-size: cover; margin-top: -18px; position: relative;">
 
+           
             <img style="height: 580px; margin-top: -30px; position: absolute; left:10px;  top: 0;" src="assets/img/bg/bmjriska.png" alt="" />
+            <img style="height: 600px; margin-top: -50px;     margin-right: 15px;  position: absolute; right: 0; top: 0;" src="assets/img/bg/bmjandika.png" alt="">
 
+            
             <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: -50px; margin-bottom: 130px;">
                 <div style="width: 100%; display: flex; justify-content: center; margin-top: 50px;">
                     <div style="margin-left: 15px; width: 250px; height: 100%; padding: 6.40px; background: #3E87F8; box-shadow: 6.400178909301758px 6.400178909301758px 12.800357818603516px rgba(0, 0, 0, 0.15); border-radius: 32px; justify-content: center; align-items: center; gap: 6.40px; display: inline-flex; margin: 0 auto;">
@@ -103,84 +107,85 @@
                     mentoring/pendampingan.
                 </p>
 
-            </div>
-            <div id="counts" class="counts" style="margin-left: 115px; margin-top:450px;  z-index: 2 !important;">
-                <div class="container">
-                    <div class="count-boxes">
-                        <div class="count-box">
-                            <div class="left-content">
-                                <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img style="width:50px; margin-top: 30px;" src="assets/img/bg/bmjschedule.png" alt="">
+                <div id="counts" class="counts" style=" margin-top:80px;">
+                    <div class="container">
+                        <div class="count-boxes">
+                            <div class="count-box">
+                                <div class="left-content">
+                                    <div style="display: flex; align-items: center; justify-content: center;">
+                                        <img style="width:50px; margin-top: 30px;" src="assets/img/bg/bmjschedule.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="right-content" style="margin-left:0px">
+                                    {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
+                                    <p style="margin-left: 0px; color: #000; font-family: Manrope;"><b>Waktu bimbingan 24
+                                            kali pertemuan</b></p>
+    
                                 </div>
                             </div>
-                            <div class="right-content" style="margin-left:0px">
-                                {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
-                                <p style="margin-left: 0px; color: #000; font-family: Manrope;"><b>Waktu bimbingan 24
-                                        kali pertemuan</b></p>
-
-                            </div>
-                        </div>
-
-                        <div class="count-separator" style="margin-top: 15px;"></div> <!-- Garis vertikal -->
-                        <div class="count-box">
-                            <div class="left-content">
-                                <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img style="width:78px; margin-top: 30px;" src="assets/img/bg/durasibimbingan.png" alt="">
+    
+                            <div class="count-separator" style="margin-top: 15px;"></div> <!-- Garis vertikal -->
+                            <div class="count-box">
+                                <div class="left-content">
+                                    <div style="display: flex; align-items: center; justify-content: center;">
+                                        <img style="width:78px; margin-top: 30px;" src="assets/img/bg/durasibimbingan.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="right-content" style="margin-left:1px">
+                                    {{-- <p >Mentor Class Program</p> --}}
+                                    <p style="margin-left:0px; color: #000; font-family: Manrope;"><b>Durasi bimbingan <br>
+                                            2 hingga 4 jam</b></p>
                                 </div>
                             </div>
-                            <div class="right-content" style="margin-left:1px">
-                                {{-- <p >Mentor Class Program</p> --}}
-                                <p style="margin-left:0px; color: #000; font-family: Manrope;"><b>Durasi bimbingan <br>
-                                        2 hingga 4 jam</b></p>
-                            </div>
-                        </div>
-
-                        <div class="count-separator" style="margin-left:20px; margin-top: 15px;"></div>
-                        <div class="count-box">
-                            <div class="left-content">
-                                <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img style="width:100px; margin-top: 30px;" src="assets/img/bg/prosesbimbingan.png" alt="">
+    
+                            <div class="count-separator" style="margin-left:20px; margin-top: 15px;"></div>
+                            <div class="count-box">
+                                <div class="left-content">
+                                    <div style="display: flex; align-items: center; justify-content: center;">
+                                        <img style="width:100px; margin-top: 30px;" src="assets/img/bg/prosesbimbingan.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="right-content" style="margin-left:-1px">
+                                    <p style="margin-left:0px;margin-right:10px;  color: #000; font-family: Manrope;">
+                                        <b>Proses bimbingan hingga 2 bulan</b>
+                                    </p>
                                 </div>
                             </div>
-                            <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px;  color: #000; font-family: Manrope;">
-                                    <b>Proses bimbingan hingga 2 bulan</b>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="count-separator" style="margin-top: 15px;"></div>
-                        <div class="count-box">
-                            <div class="left-content">
-                                <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img style="width:78px; margin-top: 30px;" src="assets/img/bg/jadwalbimbingan.png" alt="">
+    
+                            <div class="count-separator" style="margin-top: 15px;"></div>
+                            <div class="count-box">
+                                <div class="left-content">
+                                    <div style="display: flex; align-items: center; justify-content: center;">
+                                        <img style="width:78px; margin-top: 30px;" src="assets/img/bg/jadwalbimbingan.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="right-content" style="margin-left:-1px">
+                                    <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;">
+                                        <b>Jadwal bimbingan 3 kali dalam seminggu</b>
+                                    </p>
                                 </div>
                             </div>
-                            <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;">
-                                    <b>Jadwal bimbingan 3 kali dalam seminggu</b>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="count-separator" style="margin-top: 15px;"></div>
-                        <div class="count-box">
-                            <div class="left-content">
-                                <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img style="width:50px; margin-top: 30px;" src="assets/img/bg/bmjgraduation.png" alt="">
+                            <div class="count-separator" style="margin-top: 15px;"></div>
+                            <div class="count-box">
+                                <div class="left-content">
+                                    <div style="display: flex; align-items: center; justify-content: center;">
+                                        <img style="width:50px; margin-top: 30px;" src="assets/img/bg/bmjgraduation.png" alt="">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="right-content" style="margin-left:-1px">
-                                <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;">
-                                    <b>Bimbingan sampai <br> 6 mata kuliah</b>
-                                </p>
+                                <div class="right-content" style="margin-left:-1px">
+                                    <p style="margin-left:0px;margin-right:10px; color: #000; font-family: Manrope;">
+                                        <b>Bimbingan sampai <br> 6 mata kuliah</b>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
+           
 
 
-            <img style="height: 600px; margin-top: -50px; margin-left: 00px; position: absolute; right: 0; top: 0;" src="assets/img/bg/bmjandika.png" alt="">
         </section>
 
         {{-- ok3 --}}
@@ -226,11 +231,11 @@
                             }
                         </style>
 
-                        <div style="margin-top:30px;">
+                        <div style="margin-top:30px; margin-left:30px;">
                             <!-- Card 1 -->
                             <div class="card">
                                 <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img src="assets/img/bg/bmjcourse.png" alt="">
+                                    <img src="assets/img/bg/bmjcourse1.png" alt="">
                                 </div>
                                 <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
                                     Pendampingan oleh Mentor profesional secara privat, online dan intensif
@@ -243,7 +248,7 @@
                             <!-- Card 2 -->
                             <div class="card">
                                 <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img src="assets/img/bg/bmjschedule.png" alt="">
+                                    <img src="assets/img/bg/bmjschedule1.png" alt="">
                                 </div>
                                 <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
                                     Jadwal bimbingan fleksibel, sesuai kesepakatan Sobat Insans dan Mentor
@@ -256,7 +261,7 @@
                             <!-- Card 3 -->
                             <div class="card">
                                 <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img src="assets/img/bg/bmjles.png" alt="">
+                                    <img src="assets/img/bg/bmjles1.png" alt="">
                                 </div>
                                 <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
                                     Bimbingan dilakukan secara online untuk memudahkan proses bimbingan
@@ -269,7 +274,7 @@
                             <!-- Card 4 -->
                             <div class="card">
                                 <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img src="assets/img/bg/bmjgraduation.png" alt="">
+                                    <img src="assets/img/bg/bmjgraduation1.png" alt="">
                                 </div>
                                 <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
                                     Terbuka untuk semua jurusan mulai dari semester 1 sampai 6
@@ -282,7 +287,7 @@
                             <!-- Card 5 -->
                             <div class="card">
                                 <div style="display: flex; align-items: center; justify-content: center;">
-                                    <img src="assets/img/bg/bmjkomunikasi.png" alt="">
+                                    <img src="assets/img/bg/bmjkomunikasi1.png" alt="">
                                 </div>
                                 <div style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
                                     Dapat konsultasi konsentrasi jurusan langsung bersama Mentor profesional
@@ -323,7 +328,7 @@
                                 border-radius: 100%;
                             }
                         </style>
-                        <video width="260" height="460" controls style="margin-top: 30px; margin-left: 10px; border-radius: 2%; box-shadow: 0px 0px 15px rgba(0, 0, 255, 0.2); " id="myVideo">
+                        <video width="260" height="460" controls style="margin-top: 50px; margin-left: 10px; border-radius: 28.99px; box-shadow: 0px 0px 15px rgba(0, 0, 255, 0.2);     border: 2px solid blue;" id="myVideo">
                             <source src="assets/video/1.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -332,49 +337,49 @@
 
                         <div class="section-title">
                             <span class="a">
-                                <h3 style="margin-top: 25px; margin-left: -100px; text-align: left; font-size: 40px; color: #ffff; font-family: Montserrat;">
+                                <h3 style="margin-top: 50px; margin-left: -100px; text-align: left; font-size: 38px; color: #ffff; font-family: Montserrat;">
                                     Nanti di BMJ bakal <br> ngapain aja sih?</h3>
                             </span>
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px; font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
-                                    Sobat Insans akan mendapatkan pemahaman mendalam terkait mata kuliah yang dipilih.
+                                <div style="width: 500px; margin-top:10px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px; font-family: Montserrat; font-weight: 600;  text-align: left;">
+                                    Sobat Insans akan mendapatkan pemahaman<br> mendalam terkait mata kuliah yang dipilih
                                 </div>
 
-                                <img style="width: 27px; height: 27px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
+                                <img style="width: 20px; height: 20px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
                             </div>
                             <!-- 2 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
-                                    Sobat Insans bisa mengkonsultasikan kendala-kendalanya terkait mata kuliah yang
-                                    sedang ditempuh.
+                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
+                                    Sobat Insans bisa mengkonsultasikan kendalanya<br> terkait mata kuliah yang
+                                    sedang ditempuh
                                 </div>
 
-                                <img style="width: 27px; height: 27px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
+                                <img style="width: 20px; height: 20px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
                             </div>
                             <!-- 3 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
-                                    Sobat Insans akan mendapatkan kisi-kisi UAS untuk latihan.
+                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
+                                    Sobat Insans akan mendapatkan kisi-kisi UAS<br> untuk latihan
                                 </div>
 
-                                <img style="width: 27px; height: 27px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
+                                <img style="width: 20px; height: 20px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
                             </div>
                             <!-- 4 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
-                                    Sobat Insans akan mendapatkan motivasi dan arahan seputar dunia perkuliahan.
+                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
+                                    Sobat Insans akan mendapatkan motivasi dan<br> arahan seputar dunia perkuliahan
                                 </div>
 
-                                <img style="width: 27px; height: 27px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
+                                <img style="width: 20px; height: 20px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
                             </div>
                             <!-- 5 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600; line-height: 30px; text-align: left;">
-                                    Sobat Insans bisa konsultasi terkait konsentrasi <br> jurusan dan Praktek Kerja
+                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
+                                    Sobat Insans bisa konsultasi terkait <br>konsentrasi  jurusan dan Praktek Kerja
                                     Lapangan.
                                 </div>
 
-                                <img style="width: 27px; height: 27px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
+                                <img style="width: 20px; height: 20px; left: 0px; top: 1px; position: absolute" src="assets/img/bg/ceklistbmj.png" />
                             </div>
                         </div>
                         <!-- Repeat the content-box structure for other points -->
@@ -447,7 +452,7 @@
                     <div class="section-title">
                         <!-- <h2>About</h2> -->
                         <span class="gariss">
-                            <h3 style="color: black; margin-top: 50px; text-align: center; font-size: 35px; padding-bottom: 15px; font-family:Montserrat; ">
+                            <h3 style="color: black; margin-top: 100px; text-align: center; font-size: 35px; padding-bottom: 15px; font-family:Montserrat; ">
                                 Kenali Paket yang Tersedia<br />di Bimbingan Mata Kuliah Jurusan</h3>
                         </span>
                     </div>
@@ -493,14 +498,14 @@
 
                                     <ul class="nav nav-pills card-header-pills" id="buttonGroup">
                                         <li class="nav-item" style="margin-left: -100px; margin-right: 80px;">
-                                            <button class="nav-link color-white border-radius" onclick="TampilKonten('kontenbmj1')"><b>PAKET BRONZE</b></button>
+                                            <button class="nav-link color-white border-radius" onclick="TampilKonten('kontenbmj1')"><b style="font-family: Montserrat !important;">PAKET BRONZE</b></button>
                                         </li>
                                         <li class="nav-item" style="margin-right: 80px;">
-                                            <button class="nav-link color-white2 border-radius" onclick="TampilKonten('kontenbmj2')" data-target="all"><b>PAKET
+                                            <button class="nav-link color-white2 border-radius" onclick="TampilKonten('kontenbmj2')" data-target="all"><b style="font-family: Montserrat !important;">PAKET
                                                     EMERALD</b></button>
                                         </li>
                                         <li class="nav-item" style="margin-right: -100px;">
-                                            <button class="nav-link color-white2 border-radius" onclick="TampilKonten('kontenbmj3')" data-target="ktk"><b>PAKET
+                                            <button class="nav-link color-white2 border-radius" onclick="TampilKonten('kontenbmj3')" data-target="ktk"><b style="font-family: Montserrat !important;">PAKET
                                                     DIAMOND</b></button>
                                         </li>
                                     </ul>
@@ -911,10 +916,10 @@
                         jenis paket dengan rincian dan biaya sebagai berikut:</h4>
                 </div>
 
-                <div id="packageCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -40px margin-left:50px;">
+                <div id="packageCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -40px margin-left:200px !important;">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <div class="container">
+                            <div class="container" style="margin-left: 30px !important;">
                                 <div class="row">
                                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                                         <div class="custom-box" style="height: 380px; border-radius: 15px; width:280px;">
@@ -931,41 +936,41 @@
                                                 ">
                                                 PAKET BRONZE</h4>
                                             <div class="rupiah-display" style="position: relative;">
-                                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                                    <strong class="rp" style="margin-left: 30px;">Rp</strong>
+                                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 18px;">
+                                                    <strong class="rp" style="margin-left: 30px; Montserrat !important;font-weight:bold;">Rp</strong>
                                                 </h4>
-                                                <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px">
+                                                <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px;font-family: Montserrat !important;font-weight:bold;">
                                                     400.000</h4>
                                             </div>
-                                            <div class="custom-pricee" style="margin-right:14px; margin-top:-10px;">
-                                                <strong>1
+                                            <div class="custom-pricee" style="margin-right:14px; margin-top:10px;font-family: Montserrat !important;">
+                                                <strong style="">1
                                                     Bulan</strong>
                                             </div>
                                             <hr style=" border: 2px solid #000; border-width: 1px;">
                                             <ul class="deskripsi" style="max-height: 150px; overflow-y: auto; ">
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Untuk mahasiswa semester 1 dan 2</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;"> Untuk mahasiswa semester 1 dan 2</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> 6 Mata Kuliah (umum dan khusus)</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;"> 6 Mata Kuliah (umum dan khusus)</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Konsultasi konsentrasi jurusan</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Konsultasi konsentrasi jurusan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Waktu bimbingan 12 kali<br> pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Waktu bimbingan 12 kali<br> pertemuan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Jadwal bimbingan 1 minggu,<br> 3x pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Jadwal bimbingan 1 minggu,<br> 3x pertemuan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Durasi pertemuan minimal 2<br> jam dan maksimal 4 jam</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Durasi pertemuan minimal 2<br> jam dan maksimal 4 jam</span>
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
@@ -992,13 +997,13 @@
                                                 ">
                                                 PAKET EMERALD</h4>
                                             <div class="rupiah-display" style="position: relative;">
-                                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                                    <strong class="rp" style="margin-left: 30px;">Rp</strong>
+                                                <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 18px;">
+                                                    <strong class="rp" style="margin-left: 30px;Montserrat !important;font-weight:bold;">Rp</strong>
                                                 </h4>
-                                                <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px">
+                                                <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px;Montserrat !important;font-weight:bold;">
                                                     565.000</h4>
                                             </div>
-                                            <div class="custom-pricee" style="margin-right:14px; margin-top:-10px;">
+                                            <div class="custom-pricee" style="margin-right:14px; margin-top:-10px;Montserrat !important;">
                                                 <strong>1
                                                     Bulan</strong>
                                             </div>
@@ -1006,27 +1011,27 @@
                                             <ul class="deskripsi" style="max-height: 150px; overflow-y: auto; ">
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Untuk mahasiswa semester 3 dan 4</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Untuk mahasiswa semester 3 dan 4</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">6 Mata Kuliah (umum dan khusus)</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">6 Mata Kuliah (umum dan khusus)</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Konsultasi konsentrasi jurusan</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Konsultasi konsentrasi jurusan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Waktu bimbingan 24 kali<br> pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Waktu bimbingan 24 kali<br> pertemuan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Jadwal bimbingan 1 minggu,<br> 3x pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;"> Jadwal bimbingan 1 minggu,<br> 3x pertemuan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;"> Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
@@ -1054,12 +1059,12 @@
                                                 PAKET DIAMOND</h4>
                                             <div class="rupiah-display" style="position: relative;">
                                                 <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                                    <strong class="rp" style="margin-left: 30px;">Rp</strong>
+                                                    <strong class="rp" style="margin-left: 30px;Montserrat !important;font-weight:bold;">Rp</strong>
                                                 </h4>
-                                                <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px">
+                                                <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px;Montserrat !important;font-weight:bold;">
                                                     650.000</h4>
                                             </div>
-                                            <div class="custom-pricee" style="margin-right:14px; margin-top:-10px;">
+                                            <div class="custom-pricee" style="margin-right:14px; margin-top:-10px; Montserrat !important;">
                                                 <strong>2
                                                     Bulan</strong>
                                             </div>
@@ -1067,27 +1072,27 @@
                                             <ul class="deskripsi" style="max-height: 150px; overflow-y: auto; ">
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Untuk mahasiswa semester 5 dan 6</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Untuk mahasiswa semester 5 dan 6</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> 6 Mata Kuliah (umum dan khusus)</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;"> 6 Mata Kuliah (umum dan khusus)</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Konsultasi konsentrasi jurusan</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Konsultasi konsentrasi jurusan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Waktu bimbingan 24 kali<br> pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Waktu bimbingan 24 kali<br> pertemuan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Jadwal bimbingan 1 minggu, <br>3x pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Jadwal bimbingan 1 minggu, <br>3x pertemuan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
+                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
@@ -1321,7 +1326,7 @@
 
 
 
-        <section id="testimonials" class="testimonials" style="margin-top: -100px ;margin-bottom:px;">
+        <section id="testimonials" class="testimonials" style="margin-top: -50px ;margin-bottom:px;">
 
             {{-- <div class="section-title">
                 <h3 style="margin-top: 150px;">Mentor Profesional</h3>
@@ -1371,9 +1376,9 @@
         <!-- ======= FAQ ======= -->
         <section id="about" style="background: url(assets/img/bg/bagroundbmj.png);
                 background-size: cover;
-                background-position: center; margin-top: -100px;">
+                background-position: center; ">
             <div class="container" data-aos="fade-up">
-                <div class="row align-items-center justify-content-between" style="margin-left: -140px; margin-top: -80px;">
+                <div class="row align-items-center justify-content-between" style="margin-left: -140px; ">
                     <div class="col-lg-6 text-centerr">
                         <div style="width: 100%; height: 100%; position: relative; text-align:left;font-family: Montserrat !important;">
 
@@ -1383,90 +1388,171 @@
                                 Ditanyakan </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-6 pt-8 pt-lg-0 content d-flex flex-column  " data-aos="fade-up" data-aos-delay="100">
 
-                        <!-- bismilah -->
-                        <div class="accordion" id="accordionFlushExample" style="margin-top: 150px;">
-                            <div class="accordion" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingOne">
-                                        <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                                            <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                                01</div> <b>Apakah boleh ambil bimbingan tapi tidak sampai 6 mata
-                                                kuliah?</b>
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-parent="#accordionFlushExample">
-                                        <div class="accordion-body" style="text-align: left">Sobat Insans boleh
-                                            memilih mata kuliah apa saja sesuai semester yang sedang Sobat Insans
-                                            tempuh. Sobat Insans bisa bimbingan maksimal 6 mata kuliah, baik dari mata
-                                            kuliah umum ataupun mata kuliah khusus.
-                                        </div>
-                                    </div>
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingTwo">
-                                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                                    02</div> <b>Apakah boleh request Mentor?</b>
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-parent="#accordionFlushExample">
-                                            <div class="accordion-body" style="text-align: left">Sobat Insans boleh
-                                                menyampaikan keinginannya untuk dibimbing oleh Mentor perempuan atau
-                                                laki-laki, namun ini bersifat kondisional selama pilihan Mentor masih
-                                                tersedia.</div>
-                                        </div>
-                                    </div>
+                        <style>
+                            
 
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingthree">
-                                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsethree" aria-expanded="false" aria-controls="flush-collapsethree">
-                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                                    03</div><b>Bagaimana caranya untuk ambil paket lanjutan?</b>
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapsethree" class="accordion-collapse collapse" aria-labelledby="flush-headingthree" data-parent="#accordionFlushExample">
-                                            <div class="accordion-body" style="text-align: left">Jika tertarik
-                                                mengambil paket lanjutan, Sobat Insans bisa melakukan konfirmasi dan
-                                                menghubungi Kak Dewi (+62 821-4154-9373).</div>
-                                        </div>
-                                    </div>
+                            .accordion-item {
+                                border: 1px solid #ddd;
+                                /* margin-bottom: 10px; */
+                                border-radius: 8px;
+                                overflow: hidden;
+                                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                                background-color: #fff;
+                                transition: box-shadow 0.3s ease, background-color 0.3s ease;
+                            }
 
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingfour">
-                                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefour" aria-expanded="false" aria-controls="flush-collapsefour">
-                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                                    04</div><b>Siapa yang harus dihubungi jika menemui masalah saat
-                                                    bimbingan?</b>
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapsefour" class="accordion-collapse collapse" aria-labelledby="flush-headingfour" data-parent="#accordionFlushExample">
-                                            <div class="accordion-body" style="text-align: left">Sobat Insans bisa
-                                                langsung menghubungi Kak Dewi selaku Customer Experience untuk
-                                                menyampaikan segala jenis kendala. Kak Dewi selalu siap membantu,
-                                                memastikan dan membuat Sobat Insans mendapatkan pengalaman terbaik.
-                                            </div>
-                                        </div>
-                                    </div>
+                            .accordion-header {
+                                padding: 15px;
+                                background-color: #f5f5f5;
+                                cursor: pointer;
+                                user-select: none;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                transition: background-color 0.3s ease;
+                            }
 
-                                    <div class="accordion-item">
-                                        <h2 class="accordion-header" id="flush-headingfive">
-                                            <button class="accordion-button collapsed" type="button" data-toggle="collapse" data-target="#flush-collapsefive" aria-expanded="false" aria-controls="flush-collapsefive">
-                                                <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700; line-height: 57.60px; letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                                    05</div><b>Apakah harga paket bisa dicicil?</b>
-                                            </button>
-                                        </h2>
-                                        <div id="flush-collapsefive" class="accordion-collapse collapse" aria-labelledby="flush-headingfive" data-parent="#accordionFlushExample">
-                                            <div class="accordion-body" style="text-align: left">Class Program belum
-                                                menyediakan metode pembayaran dengan sistem cicil untuk pilihan paket.
-                                            </div>
-                                        </div>
-                                    </div>
+                            .icon-container {
+                                background-color: #007bff;
+                                border-radius: 50%;
+                                padding: 10px;
+                                transition: background-color 0.3s ease;
+                                margin-left: 5px;
+                            }
 
+                            .icon {
+                                font-size: 18px;
+                                font-weight: bold;
+                                color: #0056b3;
+                                transition: color 0.3s ease;
+                            }
+
+                            .accordion-content {
+                                padding: 15px;
+                                display: none;
+                                margin: 0;
+                                text-align: left;
+
+                            }
+
+                            .icon:hover {
+                                color: #ececec;
+                            }
+
+                            .accordion-item:hover .accordion-header {
+                                background-color: #e0e0e0;
+                            }
+
+                            .accordion-item:hover .icon-container {
+                                background-color: #0056b3;
+                            }
+
+                            .accordion-item:hover {
+                                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                                background-color: #f0f0f0;
+                            }
+                        </style>
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <div class="accordion-header" onclick="toggleAccordion(1)">
+                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
+                                        01</div><b style="    margin-left: -300px;
+                                        ">Apakah
+                                        boleh request mentor?</b>
+                                    <div class="icon">+</div>
+                                </div>
+                                <div class="accordion-content">
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Sobat Insans
+                                        boleh menyampaikan keinginannya untuk dibimbing oleh mentor perempuan atau
+                                        laki-laki, namun ini bersifat kondisional selama pilihan mentor masih tersedia
+                                    </p>
+                                </div>
+                                <div class="accordion-header" onclick="toggleAccordion(2)">
+                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
+                                        02</div><b style="    margin-left: -300px;">Bisa bimbingan di malam hari?</b>
+                                    <div class="icon">+</div>
+                                </div>
+                                <div class="accordion-content">
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Sobat Insans
+                                        bisa mengambil bimbingan di malam hari, selama masih berada dalam batas waktu
+                                        yang telah ditetapkan menurut ketentuan Class Program</p>
+                                </div>
+                                <div class="accordion-header" onclick="toggleAccordion(3)">
+                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
+                                        03</div><b style="    margin-left: -180px;
+                                        ">Bagaimana
+                                        caranya untuk ambil paket lanjutan?</b>
+                                    <div class="icon">+</div>
+                                </div>
+                                <div class="accordion-content">
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Jika
+                                        tertarik mengambil paket lanjutan, Sobat Insans bisa melakukan konfirmasi dan
+                                        menghubungi Customer Experience Class Program yaitu Kak Dewi (+62 821-4154-9373)
+                                    </p>
+                                </div>
+                                <div class="accordion-header" onclick="toggleAccordion(4)">
+                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
+                                        04</div><b style="    margin-left: -180px;
+                                        ">Bagaimana
+                                        caranya untuk ambil paket lanjutan?</b>
+                                    <div class="icon">+</div>
+                                </div>
+                                <div class="accordion-content">
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Sobat Insans
+                                        bisa langsung menghubungi Kak Dewi selaku Customer Experience untuk menyampaikan
+                                        segala jenis kendala. Kak Dewi selalu siap membantu, memastikan dan membuat
+                                        Sobat Insans mendapatkan pengalaman terbaik</p>
+                                </div>
+                                <div class="accordion-header" onclick="toggleAccordion(5)">
+                                    <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
+                                        05</div><b style="    margin-left: -300px;
+                                        ">Apakah
+                                        harga paket bisa dicicil?</b>
+
+                                    <div class="icon">+</div>
+                                </div>
+                                <div class="accordion-content">
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Class
+                                        Program belum menyediakan metode pembayaran dengan sistem cicil untuk pilihan
+                                        paket</p>
                                 </div>
                             </div>
 
+                            <div class="accordion-item">
+                                
+                            </div>
+
+                            <div class="accordion-item">
+                               
+                            </div>
+
+                            <div class="accordion-item">
+                               
+                            </div>
+
+                            <div class="accordion-item">
+                                
+                            </div>
                         </div>
+
+                        <script src="script.js"></script>
+
+                        <script>
+                            function toggleAccordion(index) {
+                                var content = document.getElementsByClassName('accordion-content')[index - 1];
+
+                                if (content.style.display === 'block') {
+                                    content.style.display = 'none';
+                                    document.getElementsByClassName('icon')[index - 1].innerText = '+';
+                                } else {
+                                    content.style.display = 'block';
+                                    document.getElementsByClassName('icon')[index - 1].innerText = '-';
+                                }
+                            }
+                        </script>
                     </div>
         </section>
         <!-- End About Section -->
