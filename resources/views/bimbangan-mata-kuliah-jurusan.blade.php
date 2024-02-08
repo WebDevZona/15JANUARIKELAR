@@ -1297,6 +1297,34 @@
             </div>
         </section>
 
+        <style>
+            .switcher {
+             position: absolute;
+             left:37%;
+             margin-top: 80px;
+             transform: translateX(-50%);
+             display: flex;
+             justify-content: center;
+     
+         }
+     
+         .icon {
+             width: 10px;
+             height: 10px;
+             border-radius: 50%;
+             margin: 0 3px;
+             cursor: pointer;
+         }
+     
+         .nonaktip {
+             background-color: #454747; /* Warna biru muda untuk ikon tidak aktif */
+         }
+     
+         .aktip {
+             background-color: #1f3a68; /* Warna biru tua untuk ikon aktif */
+         }
+     
+         </style>
 
         <!-- ======= Sobat Insans ======= -->
         <section id="about" style="background: url(assets/img/bg/bso1.png);
@@ -1314,7 +1342,17 @@
                             </div>
                             <div style="text-align: left; width: 500px; left: px; margin-top: 50px; top: -110px; margin-left: 180px; position: absolute; color: black; font-size: 50px; font-family: Montserrat; font-weight: 700; line-height: 50px; word-wrap: break-word">
                                 Cerita Sobat<br />Insans</div>
+                                <div class="witcher" >
+                                    <div class="switcher" style="margin-top: px !importnat;">
+                                        <div class="icon aktip"></div>
+                                        <div class="icon nonaktip"></div>
+                                        <div class="icon nonaktip"></div>
+                                        <div class="icon nonaktip"></div>
+                                        <div class="icon nonaktip"></div>
+                                    </div>
+                                </div>
                         </div>
+                        
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
                         {{-- text --}}
@@ -1377,7 +1415,7 @@
         <section id="about" style="background: url(assets/img/bg/bagroundbmj.png);
                 background-size: cover;
                 background-position: center; ">
-            <div class="container" data-aos="fade-up">
+            <div class="container" data-aos="fade-up" id="faq" >
                 <div class="row align-items-center justify-content-between" style="margin-left: -140px; ">
                     <div class="col-lg-6 text-centerr">
                         <div style="width: 100%; height: 100%; position: relative; text-align:left;font-family: Montserrat !important;">
@@ -1412,9 +1450,10 @@
                                 justify-content: space-between;
                                 align-items: center;
                                 transition: background-color 0.3s ease;
+                                height: 70px;
                             }
 
-                            .icon-container {
+                            .icon3-container {
                                 background-color: #007bff;
                                 border-radius: 50%;
                                 padding: 10px;
@@ -1422,7 +1461,7 @@
                                 margin-left: 5px;
                             }
 
-                            .icon {
+                            .icon3 {
                                 font-size: 18px;
                                 font-weight: bold;
                                 color: #0056b3;
@@ -1437,7 +1476,7 @@
 
                             }
 
-                            .icon:hover {
+                            .icon3:hover {
                                 color: #ececec;
                             }
 
@@ -1445,7 +1484,7 @@
                                 background-color: #e0e0e0;
                             }
 
-                            .accordion-item:hover .icon-container {
+                            .accordion-item:hover .icon3-container {
                                 background-color: #0056b3;
                             }
 
@@ -1453,89 +1492,63 @@
                                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
                                 background-color: #f0f0f0;
                             }
+                            b:hover{
+                                color: #007bff;
+                            }
                         </style>
 
                         <div class="accordion" id="accordionExample">
                             <div class="accordion-item">
-                                <div class="accordion-header" onclick="toggleAccordion(1)">
+                                <div class="accordion-header" onclick="toggleAccordion(1)" style="background-color: white;">
                                     <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                        01</div><b style="    margin-left: -300px;
-                                        ">Apakah
-                                        boleh request mentor?</b>
-                                    <div class="icon">+</div>
+                                        </div><b style=" margin-left:-30px; font-family: Montserrat !important; font-size:14px;   
+                                        ">Apakah boleh ambil bimbingan tapi tidak sampai 6 mata kuliah?</b>
+                                    <div class="icon3" style="margin-top: -20px;">+</div>
                                 </div>
                                 <div class="accordion-content">
-                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Sobat Insans
-                                        boleh menyampaikan keinginannya untuk dibimbing oleh mentor perempuan atau
-                                        laki-laki, namun ini bersifat kondisional selama pilihan mentor masih tersedia
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;"><strong style="color: #000">Sobat Insans</strong> boleh memilih mata kuliah apa saja sesuai semester yang sedang <strong style="color: #000">Sobat Insans</strong> tempuh. <strong style="color: #000">Sobat Insans</strong> bisa bimbingan maksimal 6 mata kuliah, baik dari mata kuliah umum ataupun mata kuliah khusus
                                     </p>
                                 </div>
-                                <div class="accordion-header" onclick="toggleAccordion(2)">
+                                <div class="accordion-header" onclick="toggleAccordion(2)" style="background-color: white;">
                                     <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                        02</div><b style="    margin-left: -300px;">Bisa bimbingan di malam hari?</b>
-                                    <div class="icon">+</div>
+                                       </div><b style=" margin-left:-280px !important; font-family: Montserrat !important; font-size:14px;   
+                                       " >Apakah boleh request Mentor?</b>
+                                    <div class="icon3" style="margin-top: -20px;">+</div>
                                 </div>
                                 <div class="accordion-content">
-                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Sobat Insans
-                                        bisa mengambil bimbingan di malam hari, selama masih berada dalam batas waktu
-                                        yang telah ditetapkan menurut ketentuan Class Program</p>
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;"><strong style="color: #000">Sobat Insans</strong> boleh menyampaikan keinginannya untuk dibimbing oleh Mentor perempuan atau laki-laki, namun ini bersifat kondisional selama pilihan Mentor masih tersedia</p>
                                 </div>
-                                <div class="accordion-header" onclick="toggleAccordion(3)">
+                                <div class="accordion-header" onclick="toggleAccordion(3)" style="background-color: white;">
                                     <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                        03</div><b style="    margin-left: -180px;
-                                        ">Bagaimana
-                                        caranya untuk ambil paket lanjutan?</b>
-                                    <div class="icon">+</div>
+                                        </div><b  style=" margin-left:-150px !important; font-family: Montserrat !important; font-size:14px;    
+                                        "  >Bagaimana caranya untuk ambil paket lanjutan?</b>
+                                    <div class="icon3" style="margin-top: -20px;">+</div>
                                 </div>
                                 <div class="accordion-content">
-                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Jika
-                                        tertarik mengambil paket lanjutan, Sobat Insans bisa melakukan konfirmasi dan
-                                        menghubungi Customer Experience Class Program yaitu Kak Dewi (+62 821-4154-9373)
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Jika tertarik mengambil paket lanjutan, <strong style="color: #000">Sobat Insans</strong> bisa melakukan konfirmasi dan menghubungi <strong style="color: #000">Kak Dewi (+62 821-4154-9373)</strong>
                                     </p>
                                 </div>
-                                <div class="accordion-header" onclick="toggleAccordion(4)">
+                                <div class="accordion-header" onclick="toggleAccordion(4)" style="background-color: white;">
                                     <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                        04</div><b style="    margin-left: -180px;
-                                        ">Bagaimana
-                                        caranya untuk ambil paket lanjutan?</b>
-                                    <div class="icon">+</div>
+                                        </div><b  style=" margin-left:-px !important; font-family: Montserrat !important;  font-size:14px;  
+                                        " >Siapa yang harus dihubungi jika menemui masalah saat bimbingan?</b>
+                                    <div class="icon3" style="margin-top: -20px;">+</div>
                                 </div>
                                 <div class="accordion-content">
-                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Sobat Insans
-                                        bisa langsung menghubungi Kak Dewi selaku Customer Experience untuk menyampaikan
-                                        segala jenis kendala. Kak Dewi selalu siap membantu, memastikan dan membuat
-                                        Sobat Insans mendapatkan pengalaman terbaik</p>
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;"><strong style="color: #000">Sobat Insans</strong> bisa langsung menghubungi <strong style="color: #000">Kak Dewi</strong> selaku Customer Experience untuk menyampaikan segala jenis kendala. <strong style="color: #000">Kak Dewi</strong> selalu siap membantu, memastikan dan membuat <strong style="color: #000">Sobat Insans</strong> mendapatkan pengalaman terbaik</p>
                                 </div>
-                                <div class="accordion-header" onclick="toggleAccordion(5)">
+                                <div class="accordion-header" onclick="toggleAccordion(5)" style="background-color: white;">
                                     <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                        05</div><b style="    margin-left: -300px;
-                                        ">Apakah
-                                        harga paket bisa dicicil?</b>
+                                        </div><b  style=" margin-left:-260px !important; font-family: Montserrat !important; font-size:14px;   
+                                        " >Apakah harga paket bisa dicicil?</b>
 
-                                    <div class="icon">+</div>
+                                <div class="icon3" style="margin-top: -20px;">+</div>
                                 </div>
                                 <div class="accordion-content">
-                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;">Class
-                                        Program belum menyediakan metode pembayaran dengan sistem cicil untuk pilihan
-                                        paket</p>
+                                    <p style="font-family: Montserrat; font-size:12px; margin-left:30px;"><strong style="color: #000">Class Program</strong> belum menyediakan metode pembayaran dengan sistem cicil untuk pilihan paket</p>
                                 </div>
                             </div>
 
-                            <div class="accordion-item">
-                                
-                            </div>
-
-                            <div class="accordion-item">
-                               
-                            </div>
-
-                            <div class="accordion-item">
-                               
-                            </div>
-
-                            <div class="accordion-item">
-                                
-                            </div>
                         </div>
 
                         <script src="script.js"></script>
@@ -1546,10 +1559,10 @@
 
                                 if (content.style.display === 'block') {
                                     content.style.display = 'none';
-                                    document.getElementsByClassName('icon')[index - 1].innerText = '+';
+                                    document.getElementsByClassName('icon3')[index - 1].innerText = '+';
                                 } else {
                                     content.style.display = 'block';
-                                    document.getElementsByClassName('icon')[index - 1].innerText = '-';
+                                    document.getElementsByClassName('icon3')[index - 1].innerText = '-';
                                 }
                             }
                         </script>

@@ -566,15 +566,15 @@
                         <div style="display: flex; align-items: center;">
                             <i class="fas fa-circle-check" style=" margin-left: 50px; color: #1b5cc5; margin-top: -8px; margin-right: 10px; font-size:25px;"></i>
                             <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 18px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                Sobat Insans akan dibantu dalam merumuskan judul skripsi, memahami<br>penyusunan proposal
-                                penelitian skripsi, pembahasan hasil penelitian skripsi,<br> dan dibimbing dalam persiapan
+                                Sobat Insans akan dibantu dalam merumuskan judul skripsi, memahami penyusunan proposal<br>
+                                penelitian skripsi, pembahasan hasil penelitian skripsi,dan dibimbing dalam persiapan
                                 seminar proposal dan sidang skripsi </div>
                         </div>
 
-                        <div style="display: flex; align-items: center;">
+                        <div style="display: flex; align-items: center; margin-left:368px;">
                             <i class="fas fa-circle-check" style=" margin-left: 50px; color: #1b5cc5; margin-top: -8px; margin-right: 10px; font-size:25px;"></i>
                             <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 18px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                Sobat Insans dapat request pembahasan dengan Mentor mengikuti progres<br>pengerjaan
+                                Sobat Insans dapat request pembahasan dengan Mentor mengikuti progres pengerjaan
                                 skripsi </div>
                         </div>
 

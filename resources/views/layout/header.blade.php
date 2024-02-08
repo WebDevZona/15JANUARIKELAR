@@ -1,6 +1,17 @@
 <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
+            <style>
+                .search-button {
+                    /* Gaya tombol lainnya */
+                    cursor: pointer; /* Menambahkan efek kursor tangan saat diarahkan ke tombol */
+                    transition: background-color 0.3s ease; /* Efek transisi untuk perubahan warna latar belakang */
+                }
+            
+                .search-button:hover {
+                    background-color: black; /* Warna latar belakang saat kursor diarahkan ke tombol */
+                }
+            </style>
             <div class="masbro">
                 <a href="/index"><img src="{{ asset('assets/img/logo/logo1.png') }}" class="logo" alt="Deskripsi Gambar"></a>
             </div>

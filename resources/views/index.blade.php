@@ -746,7 +746,7 @@
                             <h3 style="color: #2A2A2A;
                                 font-family: Manrope;
                                 font-size: 50px;
-                                margin-top:34px;
+                                margin-top:20px;
                                 font-style: normal;
                                 font-weight: 800;
                                 /* line-spacing: 2px; */
@@ -887,20 +887,20 @@
             </style>
             <div class="main_content floatleft">
                 <div class="left_coloum floatleft">
-                    <h4 style="margin-bottom: 20px; font-size:18px">Rekomendasi video untukmu</h4>
+                    <h4 style="margin-bottom: 20px; font-size:16px">Rekomendasi video untukmu</h4>
                     <div class="single_left_coloum_wrapper" id="scrollableColumn">
                         <div class="scrollable_left_coloum">
                             @if ($berita->isNotEmpty())
                             @foreach ($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
                             <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link">
-                                <div class="single_left_coloum" target="_blank">
-                                    <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link">
-                                        <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" class="thumbnail" />
-                                        <svg class="play-icon" style="top: 55% !important;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <div class="single_left_coloum" target="_blank" style="    margin-right: -40px;">
+                                    <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link" >
+                                        <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" class="thumbnail" style="width: 80%;" />
+                                        <svg class="play-icon" style="top: 55% !important; left:40%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                             <path d="M8 5v14l11-7z" />
                                         </svg>
                                     </a>
-                                    <p style="color: black; font-size: 12px !important;">Video: <span style="color: black; font-size: 12px !important;">{{ $penegnbalikcuk->judul }}</span>
+                                    <p style="color: black; font-size: 12px !important; width:80% !important;text-align: left;">Video: <span style="color: black; font-size: 12px !important;">{{ str_limit($penegnbalikcuk->judul, 30, '. . .') }}</span>
                                     </p>
                                     <p id="duration_{{ $penegnbalikcuk->id }}" style="color: black; font-size: 12px !important;"></p>
                                 </div>
@@ -944,7 +944,7 @@
 
                     </div>
                     <span class="left-scroll-button" onclick="customScrollLeft()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px; margin-top: 80px;" viewBox="0 0 35" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" style="margin-left: 5px; margin-top: 50px;" viewBox="0 0 35" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                                 <!-- Mengubah path panah ke kiri -->
@@ -956,7 +956,7 @@
 
 
                     <span class="right-scroll-button" onclick="scrollRight()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -30px; margin-top: 80px;" viewBox="0 0 35" style="float: right;" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35px" style="margin-right: -40px; margin-top: 50px;" viewBox="0 0 35" style="float: right;" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                                 <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
@@ -972,7 +972,7 @@
                             </defs>
                         </svg>
                     </span>
-                    <hr style="border: 2px solid black;  margin-top: 3px;">
+                    <hr style="border: 2px solid black;  margin-top: -20px;">
 
                     <style>
                         .single_left_coloum {
@@ -1015,15 +1015,15 @@
                         }
                     </style>
 
-                    <h4 style="margin-bottom: 20px; font-size:18px">Tips Menarik</h4>
+                    <h4 style="margin-bottom: 20px; font-size:16px">Tips Menarik</h4>
                     <div class="single_left_coloum_wrapper" id="scrollableColumn1">
                         @if ($berita->isNotEmpty())
                         @foreach ($data->sortByDesc('created_at')->take(10) as $video)
                         <a href="{{ $video->tampilan }}" style="text-decoration: none; color: black;">
                             <div class="single_left_coloum" style="    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); /* Bayangan dengan warna biru lebih gelap */
                                         ">
-                                <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail" style="width: 100% !important; height:200px !important;" />
-                                <svg class="play-iconn" style="top: 45% !important;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <img src="{{ asset('foto_upload/' . $video->foto) }}" alt="Video Thumbnail" style="width: 100% !important; height:300px !important;" />
+                                <svg class="play-iconn" style="top: 50% !important;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                     <path d="M8 5v14l11-7z" />
                                 </svg>
                             </div>
@@ -1033,7 +1033,7 @@
                         <!-- Add more content here -->
                     </div>
 
-                    <span class="left-scroll-button1" onclick="scrollLeft1()" style="margin-top: 50px;">
+                    <span class="left-scroll-button1" onclick="scrollLeft1()" style="margin-top: 20px;">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-left: 5px;" viewBox="0 0 40" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
@@ -1043,7 +1043,7 @@
                             <path d="M21.6113 35.9506L13.2969 27.6738C12.672 27.051 12.672 25.9491 13.2969 25.3241L21.6113 17.0473C22.2605 16.4024 23.3095 16.4047 23.9543 17.0539C24.5992 17.7032 24.5992 18.7499 23.9499 19.3969L18.4799 24.8449H32.5138C33.4303 24.8449 34.1701 25.5869 34.1701 26.5012C34.1701 27.4154 33.4303 28.1574 32.5138 28.1574H18.4799L23.9499 33.6032C24.2745 33.9278 24.4357 34.3518 24.4357 34.778C24.4357 35.1998 24.2745 35.6238 23.9543 35.9462C23.3095 36.5932 22.2605 36.5954 21.6113 35.9506Z" fill="none" stroke="white" stroke-width="3" />
                         </svg>
                     </span>
-                    <span class="right-scroll-button1" onclick="scrollRight1()" style="margin-top: 50px;">
+                    <span class="right-scroll-button1" onclick="scrollRight1()" style="margin-top: 20px;">
                         <!-- Add right-scroll icon here -->
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-right: -42px;" viewBox="0 0 40" fill="none">
                             <g filter="url(#filter0_b_229_15)">
@@ -1113,10 +1113,10 @@
                     }
                 </style>
                 <div class="right_coloum floatright mt-4" style="margin-top: 10px;">
-                    <h4 class="article-popular">Artikel Populer</h4>
+                    <h4 class="article-popular" style="font-size: 16px !important;">Artikel Populer</h4>
                     <div class="single_cat_right_content" style="">
                         @if ($berita->isNotEmpty())
-                        @foreach ($berita->sortByDesc('created_at')->take(4) as $item)
+                        @foreach ($berita->sortByDesc('created_at')->take(5) as $item)
                         <div class="content_wrapper">
                             <div class="left_content" style="margin-bottom: 10px !important;">
                                 <h3>
@@ -1342,8 +1342,8 @@
     }
 
     .icon {
-        width: 15px;
-        height: 15px;
+        width: 10px;
+        height: 10px;
         border-radius: 50%;
         margin: 0 5px;
         cursor: pointer;
