@@ -1358,7 +1358,7 @@
     }
 
     </style>
-    
+
     <section id="testibaru" class="testibaru section-bg">
         <div class="profile-container">
             <p style="margin-left: 10px; font-size:40px;">Cerita Sobat Insans</p>
@@ -1449,7 +1449,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="profile-navigation">
                 <button id="prevProfile">
                     {{-- << /button> --}}
@@ -1460,10 +1460,10 @@
             document.addEventListener("DOMContentLoaded", function () {
                 // Ambil elemen-elemen ikon
                 var icons = document.querySelectorAll(".content-switcher .icon");
-        
+
                 // Ambil elemen-elemen profil
                 var profiles = document.querySelectorAll(".profile");
-        
+
                 // Tambahkan event listener untuk setiap ikon
                 icons.forEach(function (icon, index) {
                     icon.addEventListener("click", function () {
@@ -1471,22 +1471,22 @@
                         icons.forEach(function (i) {
                             i.classList.remove("active");
                         });
-        
+
                         // Tambahkan kelas aktif ke ikon yang diklik
                         icon.classList.add("active");
-        
+
                         // Sembunyikan semua profil
                         profiles.forEach(function (profile) {
                             profile.style.display = "none";
                         });
-        
+
                         // Tampilkan profil yang sesuai dengan ikon yang diklik
                         profiles[index].style.display = "block";
                     });
                 });
             });
         </script>
-        
+
     </section>
 
     <section id="konsultasi" class="konsultasi section-bg" style="font-family: 'Manrope', sans-serif; margin-top: -90px; margin-bottom: 50px; background: url(assets/img/bg/alurin.png); background-size: cover;">
