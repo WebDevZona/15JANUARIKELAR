@@ -59,13 +59,13 @@ class AuthController extends Controller
 
         return view('auths.register');
     }
+
     public function pendaftaran(Request $request)
     {
         $this->validate($request, [
             'name' => 'required',
             'email' => 'required|unique:users|email',
-            'nomer' => 'required|string|max:255',
-            // 'password' => 'required|min:8',
+            'password' => 'required|min:8',
         ], [
             'name.required' => 'Nama harus diisi.',
             'name.unique' => 'Nama sudah digunakan.',
@@ -73,13 +73,14 @@ class AuthController extends Controller
             'email.required' => 'Email harus diisi.',
             'email.unique' => 'Email sudah digunakan.',
             'email.email' => 'Email harus berformat valid.',
-            'password.required' => 'kepo harus diisi',
+            'password.required' => 'Password harus diisi',
             'password.min' => 'Password harus memiliki setidaknya :min karakter.',
         ]);
 
+
         $user = User::create([
             'email' => $request->email,
-            'name' => ucwords($request->name), // Menggunakan ucwords pada nama
+            'name' => $request->name,
             'jeniskelamin' => $request->jeniskelamin,
             'ttl' => $request->ttl,
             'asal' => $request->asal,
@@ -89,7 +90,9 @@ class AuthController extends Controller
             'semester' => $request->semester,
             'role' => 'user',
             'password' => Hash::make($request->input('password')),
+            // 'password' =>  $request->password,
         ]);
+        // dd($user);
 
         return redirect()->route('login')->with('sukses', 'Data pengguna berhasil ditambahkan');
     }

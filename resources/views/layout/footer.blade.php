@@ -406,7 +406,7 @@
             <img src="{{ asset('assets/img/bg/cs.png') }}" alt="WhatsApp" class="first-image" />
             <img src="{{ asset('assets/img/bg/cs.png') }}" alt="WhatsApp" class="second-image" />
             <!-- <img src="{{ asset('assets/img/bg/wa2.png') }}" alt="WhatsApp" class="second-image" /> -->
-            <span id="whatsapp-text">Ada Pertanyaan? <br> Hubungi Minma</span>
+            <span id="whatsapp-text">Ada Pertanyaan? <br> Hubungi Kak Dewi</span>
         </div>
 
         <div id="welcome-message">
@@ -417,16 +417,17 @@
             <div id="chat-dialog">
                 <div class="chat-bubble">
                     <p>Selamat datang di Class Program.</p>
-                    <p>Jika ada yang ingin ditanyakan, silakan <a id="contact" href="#">hubungi Minma di sini</a>.</p>
+                    <!-- <p>Jika ada yang ingin ditanyakan, silakan <a id="contact" onclick="openWhatsApp()">hubungi Minma di sini</a>.</p> -->
+                    <p>Jika ada yang ingin ditanyakan, silakan <b>hubungi Kak Dewi di sini</b>.</p>
                 </div>
 
-                <!-- <div class="send-logo">Class Program</div>
-                            User -->
+                <!-- <div class=" send-logo">Class Program
+                </div>
+                User -->
 
-                <div class="chat-bubblee">
+                <div class="chat-bubblee" onclick="openWhatsApp()">
                     <i class="fa-regular fa-paper-plane" style="font-size:30px; margin-left:8px; margin-right:10px;"></i>
                     <p style="margin-top:12px; font-size:20px;">Class Program</p>
-
                 </div>
 
             </div>
@@ -491,7 +492,7 @@
         font-weight: 800;
         line-height: normal;
         margin:bottom 50px">Selamat
-                    Sobat Insans Telah Mendaftar</strong>
+                    Sobat Insanss Telah Mendaftar</strong>
             </p>
             <div class="month-box" id="month-box">
                 <p id="popup-month">Oct</p>
@@ -542,38 +543,38 @@
             const popupMessages = [{
                     date: currentDay,
                     month: currentMonth,
-                    text: "Sobat Insan<br><strong>Yohanes Hernandes</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                    text: "Sobat Insans<br><strong>Yohanes Hernandes</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
                 },
 
                 {
                     date: currentDay,
                     month: currentMonth,
-                    text: "Sobat Insan<br><strong>Dimas wildan </strong> <br>Mendaftar di Konsultasi Reguler Platinum",
+                    text: "Sobat Insans<br><strong>Dimas wildan </strong> <br>Mendaftar di Konsultasi Reguler Platinum",
                 },
                 {
                     date: currentDay,
                     month: currentMonth,
-                    text: "Sobat Insan<br><strong>Fandi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                    text: "Sobat Insans<br><strong>Fandi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
                 },
                 {
                     date: currentDay,
                     month: currentMonth,
-                    text: "Sobat Insan<br><strong>Aldi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                    text: "Sobat Insans<br><strong>Aldi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
                 },
                 {
                     date: currentDay,
                     month: currentMonth,
-                    text: "Sobat Insan<br><strong>Putra </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                    text: "Sobat Insans<br><strong>Putra </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
                 },
                 {
                     date: currentDay,
                     month: currentMonth,
-                    text: "Sobat Insan<br><strong>Zahra</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                    text: "Sobat Insans<br><strong>Zahra</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
                 },
                 {
                     date: currentDay,
                     month: currentMonth,
-                    text: "Sobat Insan<br><strong>Fadil</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                    text: "Sobat Insans<br><strong>Fadil</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
                 },
             ];
 
