@@ -376,8 +376,8 @@
         </section>
 
 
-        <section id="berita" class="berita container">
-            <section id="pakethematbso" class="pakethematbso" style="z-index: auto;margin-left:100px;">
+        {{-- <section id="berita" class="berita container"> --}}
+            <section id="pakethematbso" class="pakethematbso" style="z-index: auto;">
                 <!--<img src="assets/img/bg/Ornament_kotak.jpg" alt="gambar sebelah kiri" style="transform: rotate(91deg); margin-top:-50px;">-->
                 <h3 style="text-align: center; color: #000;
                     margin-bottom: 50px;
@@ -387,7 +387,7 @@
                     margin-top: -50px;
                     font-weight: 700;
                     line-height: 125%; /* 100px */">
-                    Paket Hemat yang Tersedia di <br> Bimbingan Skripsi Online (BSO)
+                    Program Bimbingan Skripsi Online (BSO) <br> yang Tersedia di Class Program
                 </h3>
 
                 <div class="card text-center  ml-5 mr-5 " style="border-radius: 25px;">
@@ -410,8 +410,8 @@
                                 border-radius: 50%;
                             }
                             #silver-package:hover {
-        color: black; /* Change this to your desired hover color */
-    }
+                            color: black; /* Change this to your desired hover color */
+                        }
                         </style>
                         <ul class="nav nav-pills card-header-pills d-flex justify-content-between align-items-center m-0 p-0" id="buttonGroup">
                             <li class="nav-item" style="border-radius: 50%; flex: 1;">
@@ -428,6 +428,9 @@
                             </li>
                             <li class="nav-item" style="border-radius: 50%; flex: 1;">
                                 <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content5')"><b id="silver-package">PAKET COMPLETE</b></button>
+                            </li>
+                            <li class="nav-item" style="border-radius: 50%; flex: 1;">
+                                <button style="border-radius: 50px" class="nav-link color-white2 w-100" onclick="showContent('content6')"><b id="silver-package">KONSULTASI REGULER</b></button>
                             </li>
                         </ul>
 
@@ -569,8 +572,8 @@
                         <div style="display: flex; align-items: center;">
                             <i class="fas fa-circle-check" style=" margin-left: 50px; color: #1b5cc5; margin-top: -8px; margin-right: 10px; font-size:25px;"></i>
                             <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 18px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
-                                Sobat Insans akan dibantu dalam merumuskan judul skripsi, memahami penyusunan proposal<br>
-                                penelitian skripsi, pembahasan hasil penelitian skripsi,dan dibimbing dalam persiapan
+                                Sobat Insans akan dibantu dalam merumuskan judul skripsi, memahami penyusunan proposal
+                                penelitian skripsi, pembahasan hasil penelitian skripsi,dan dibimbing dalam<br> persiapan
                                 seminar proposal dan sidang skripsi </div>
                         </div>
 
@@ -579,6 +582,25 @@
                             <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 18px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
                                 Sobat Insans dapat request pembahasan dengan Mentor mengikuti progres pengerjaan
                                 skripsi </div>
+                        </div>
+                    </div>
+                    {{-- Konsultasi Reguler --}}
+                    <div id="content6" class="content ">
+                        <img class="ml-5" style="margin-bottom: px; float: left; width: 320px; margin-left: 100px; height: auto; padding-left:30px;" src="assets/img/bg/kotakk.png" alt="">
+                        <div style="font-family: Montserrat; text-align: left; margin-left: 420px; margin-top: -2px; color: black; font-size: 24px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                            Dikhususkan kepada Sobat Insans yang membutuhkan konsultasi skripsi dengan menentukan sendiri topik konsultasi (By Request) mulai dari perumusan judul hingga skripsi selesai
+                        </div>
+
+                        <div style="display: flex; align-items: center;">
+                            <i class="fas fa-circle-check" style=" margin-left: 50px; color: #1b5cc5; margin-top: -8px; margin-right: 10px; font-size:25px;"></i>
+                            <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 18px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                Sobat Insans akan dibantu dalam merumuskan judul skripsi, memahami penyusunan proposal penelitian skripsi, pembahasan hasil penelitian skripsi sampai selesai </div>
+                        </div>
+
+                        <div style="display: flex; align-items: center; margin-left:368px;">
+                            <i class="fas fa-circle-check" style=" margin-left: 50px; color: #1b5cc5; margin-top: -8px; margin-right: 10px; font-size:25px;"></i>
+                            <div style="font-family: Montserrat; text-align: left; margin-left: 10px; margin-top: 20px; color: black; font-size: 18px; font-weight: 400; line-height: 1.5; letter-spacing: -1px;">
+                                Sobat Insans dapat request pembahasan dengan Mentor mengikuti progress pengerjaan skripsi</div>
                         </div>
 
 
@@ -589,7 +611,7 @@
 
                 </div>
             </section>
-        </section>
+        {{-- </section> --}}
 
         <style>
             #pricing {
@@ -1818,7 +1840,7 @@
             </div>
         </section>
 
-        <section id="paketmentor" class="paketmentor" style="background-color: #ffff; margin-top: -330px; background: url(assets/img/bg/gelombang.png); background-size: cover; ">
+        {{-- <section id="paketmentor" class="paketmentor" style="background-color: #ffff; margin-top: -330px; background: url(assets/img/bg/gelombang.png); background-size: cover; ">
             <div class="paketmentorbg mb-5" style="margin-top: 300px;">
                 <div style="width: 100%; text-align: center;">
                     <div style="width: 300px; height: 40px; padding: 5px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
@@ -1867,7 +1889,6 @@
                                                 </thead>
                                             </table>
                                             <ul class="deskripsi" style="list-style: none;">
-                                                {{-- <i class="fa-solid fa-check"></i> --}}
                                                 <strong> Materi: </strong>
                                                 <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>
                                                     Topik penelitian </li>
@@ -1919,7 +1940,6 @@
                                                 </thead>
                                             </table>
                                             <ul class="deskripsi" style="list-style: none;">
-                                                {{-- <i class="fa-solid fa-check"></i> --}}
                                                 <strong> Materi: </strong>
                                                 <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>
                                                     Latar belakang</li>
@@ -1994,7 +2014,6 @@
                                                 </thead>
                                             </table>
                                             <ul class="deskripsi" style="list-style: none;">
-                                                {{-- <i class="fa-solid fa-check"></i> --}}
                                                 <strong> Materi: </strong>
                                                 <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>
                                                     Input data</li>
@@ -2051,7 +2070,6 @@
                                                 </thead>
                                             </table>
                                             <ul class="deskripsi" style="list-style: none;">
-                                                {{-- <i class="fa-solid fa-check"></i> --}}
                                                 <strong> Materi: </strong>
                                                 <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>
                                                     Review proposal skripsi <br> bab 1-3</li>
@@ -2075,7 +2093,7 @@
                                 </div>
                             </div>
                         </div>
-                        {{-- <div class="carousel-item">
+                        <div class="carousel-item">
                             <div class="row row-cols-1 row-cols-md-4 g-3 ml-2 mr-2 mt-5 ">
                                 <div class="col">
                                     <div class="card h-100" style="border-radius: 25px; border: 5px solid #1b5cc5;">
@@ -2312,14 +2330,14 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> --}}
+                        </div>
                     </div>
                 </div>
 
 
             </div>
             </div>
-        </section>
+        </section> --}}
 
         {{-- <section id="testimonials" class="testimonials"style="margin-top:-150px ;margin-bottom:30px;">
                     <div class="section-title">

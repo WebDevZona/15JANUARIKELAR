@@ -492,7 +492,7 @@
         font-weight: 800;
         line-height: normal;
         margin:bottom 50px">Selamat
-                    Sobat Insanss Telah Mendaftar</strong>
+                    Sobat Insans Telah Mendaftar</strong>
             </p>
             <div class="month-box" id="month-box">
                 <p id="popup-month">Oct</p>

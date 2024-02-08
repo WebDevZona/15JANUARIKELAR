@@ -794,7 +794,7 @@
 
                         <div class="gambareo col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100" style="margin-top: 10px;">
                             <br> <br>
-                            <img src="assets/img/bg/friskaindex.png" class="img-fluid" alt="" style="width: 100%;  margin-bottom: 0px;">
+                            <img src="assets/img/bg/friskaindex1.png" class="img-fluid" alt="" style="width: 100%;  margin-bottom: 0px;">
                         </div>
                     </div>
                 </div>
@@ -889,10 +889,10 @@
                 <div class="left_coloum floatleft">
                     <h4 style="margin-bottom: 20px; font-size:16px">Rekomendasi video untukmu</h4>
                     <div class="single_left_coloum_wrapper" id="scrollableColumn">
-                        <div class="scrollable_left_coloum">
+                        <div class="scrollable_left_coloum" >
                             @if ($berita->isNotEmpty())
                             @foreach ($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
-                            <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link">
+                            <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" >
                                 <div class="single_left_coloum" target="_blank" style="    margin-right: -40px;">
                                     <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link" >
                                         <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" class="thumbnail" style="width: 80%;" />
