@@ -108,7 +108,7 @@
                 <div class="container" data-aos="zoom-out" data-aos-delay="100">
                     <div class="d-flex" style="margin-top:-200px;">
                         <div
-                            style="margin-left:90px;margin-top:280px;width: 160px; height: 100%;  background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                            style="margin-left:90px;margin-top:200px;width: 160px; height: 100%;  background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                             <div
                                 style="color: white; font-size: 12px; font-family: Montserrat; font-weight: 700; line-height: 25px; word-wrap: break-word">
                                 CLASS PROGRAM</div>
@@ -123,7 +123,7 @@
                         font-weight: 600;
                         text-align:center;
                         line-height: 125%;
-                        font-size:20px !important;
+                        font-size:18px !important;
                         font-family:Montserrat !important; ">
                             Apa Itu Bimbingan Skripsi Online (BSO)?</h2>
                     </div>
@@ -136,7 +136,7 @@
                     flex-shrink: 0;
                     font-family: Montserrat !important;
                     color: #FFF;
-                    font-size: 14px;
+                    font-size: 12px;
                     font-style: normal;
                     text-align:center;
                     /* font-weight: 200; */
@@ -183,7 +183,7 @@
                                 <!-- <h2>About</h2> -->
                                 <span class="garis">
                                     <h3
-                                        style="margin-left:110px;margin-top: 120px; text-align: center; font-size: 25px; color: #000;
+                                        style="margin-left:110px;margin-top: 120px; text-align: center; font-size: 24px; color: #000;
                                 font-family: Montserrat; width:auto">
                                         Keunggulan Bimbingan<br>Skripsi Online (BSO)</h3>
                                 </span>
@@ -280,12 +280,13 @@
                     style="
                             text-align:center;
                             color: black;
-                            font-size: 25px;
+                            font-size: 24px;
                             font-family: Montserrat;
                             font-weight: 580;
                             /* font-weight: 700;
                             line-height: 100px; */
                             word-wrap: break-word;
+                            margin-bottom:-30px;
                         ">
                     Nanti di BSO bakalan <br> ngapain aja sih?</h2>
                 <div class="paketmentorbg mt-4">

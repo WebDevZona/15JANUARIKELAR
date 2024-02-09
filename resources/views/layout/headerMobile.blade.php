@@ -9,10 +9,10 @@
  
 </style>
 
-<header id="header" class="d-flex align-items-center" style="margin-top: -5px;">
+<header id="header" class="d-flex align-items-center" style="height:40px;">
     <div class="container d-flex align-items-center justify-content-between">
         <div class="logo">
-            <a href="/"><img src="/assets/img/logo/logo1.png" alt="Your Logo" style="width: 100px;"></a>
+            <a href="/"><img src="/assets/img/logo/logo1.png" alt="Your Logo" style="width: 90px; margin-top:-12px;"></a>
         </div>
         <nav id="navbar" class="navbar">
             <ul>
@@ -56,7 +56,7 @@
                 <li><a href="/login" class="nav-link scrollto">Masuk</a></li>
             </ul>
            
-            <i class="bi bi-list mobile-nav-toggle" style="margin-left: 280px;"></i>
+            <i class="bi bi-list mobile-nav-toggle" style="margin-left: 280px; margin-top:-12px;"></i>
             <div class="close-nav"></div>
         </nav>
     </div>
@@ -69,10 +69,13 @@
             <div class="stopp"><b>TESTIMONI </b></div>
         </div>
     </div>
-    <marquee id="marquee">
+    <marquee id="marquee" >
         <ul>
-            <li>Magdalena Melisa: Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir gitu aja banyak ide muncul.</li>
-
+            <li style="font-size:12px !important; margin-top:-3px;">Magdalena Melisa: Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir gitu aja banyak ide muncul.</li>
+            <li style="font-size:12px !important; margin-top:-3px;">Adinda Cahayani Supriyanto: Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan skripsi online yang berkualitas dan juga ramah dikantong.</li>
+            <li style="font-size:12px !important; margin-top:-3px;">Napa Lestari: Dengan mengikuti BSO skripsi saya selesai lebih cepat.</li>
+            <li style="font-size:12px !important; margin-top:-3px;">Hanifah Alya Mu'adzah: Mentornya baik-baik dan kalau jelasin materi rinci, bukan hanya mentor namun adminnya juga the best.</li>
+            <li style="font-size:12px !important; margin-top:-3px;">Puji: Menambah ilmu baru, wawasan, santai, disiplin, manajemen waktu baik.</li>
         </ul>
     </marquee>
 </header>

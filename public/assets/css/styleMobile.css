@@ -194,8 +194,9 @@ font-family: "Roboto", sans-serif;
     color: #fff;
     margin-top: -5px;
     padding: 2px 0;
-    font-size: 13px;
+    font-size: 12px;
     width: 100%;
+    height: 40px;
     white-space: nowrap;
     /* Hindari pemutusan teks */
     overflow: hidden;
@@ -220,8 +221,8 @@ border-bottom-right-radius: 10px; */
     /* margin-left: 15px; */
     /* margin-top: -4.5px; */
     /* margin-top: 2.8px; */
-    margin-top: 10px;
-    height: 25px;
+    margin-top: 7px;
+    height: 20px;
     position: absolute;
     left: 20px;
     background-color: #ffffff;
@@ -232,7 +233,7 @@ border-bottom-right-radius: 10px; */
 
 #marquee-container .stop .stopp {
     /* font-weight: bold; */
-    font-size: 14px;
+    font-size: 12px;
     color: #000000;
     margin-top: 2px;
     margin-left: 15px;
@@ -2879,10 +2880,11 @@ animation: gradientAnimation 4s ease infinite;
 .faq .section-title h3 {
     color: #000;
     font-family: "Poppins";
-    font-size: 25px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 00;
     line-height: normal;
+    margin-bottom:30px;
 }
 
 .faq .faq-list {
@@ -3381,7 +3383,7 @@ position: absolute; */
     background: white;
     color: red;
     line-height: 1;
-    padding: 8px 0;
+    padding-top: 5px;
     margin-right: 4px;
     border-radius: 4px;
     text-align: center;
@@ -3488,7 +3490,7 @@ text-align: center; */
 .galeri {
     margin-top: 5%;
     border-radius: 10px;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 
     /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1001%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(26%2c 78%2c 147%2c 1)'%3e%3c/rect%3e%3cpath d='M177.27 -19.19L256.95 26.81L256.95 118.81L177.27 164.81L97.6 118.81L97.6 26.81zM177.27 256.81L256.95 302.81L256.95 394.81L177.27 440.81L97.6 394.81L97.6 302.81zM416.3 118.81L495.98 164.81L495.98 256.81L416.3 302.81L336.63 256.81L336.63 164.81zM495.98 256.81L575.66 302.81L575.66 394.81L495.98 440.81L416.3 394.81L416.3 302.81zM735.01 394.81L814.69 440.81L814.69 532.81L735.01 578.81L655.33 532.81L655.33 440.81zM814.69 532.81L894.36 578.81L894.36 670.81L814.69 716.81L735.01 670.81L735.01 578.81zM1133.39 256.81L1213.07 302.81L1213.07 394.81L1133.39 440.81L1053.72 394.81L1053.72 302.81zM1292.75 256.81L1372.42 302.81L1372.42 394.81L1292.75 440.81L1213.07 394.81L1213.07 302.81zM1452.1 532.81L1531.78 578.81L1531.78 670.81L1452.1 716.81L1372.42 670.81L1372.42 578.81z' stroke='rgba(17%2c 66%2c 96%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M168.07 -19.19 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM247.75 26.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM247.75 118.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM168.07 164.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM88.4 118.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM88.4 26.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM168.07 256.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM247.75 302.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM247.75 394.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM168.07 440.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM88.4 394.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM88.4 302.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM407.1 118.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM486.78 164.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM486.78 256.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM407.1 302.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM327.43 256.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM327.43 164.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM566.46 302.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM566.46 394.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM486.78 440.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM407.1 394.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM725.81 394.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM805.49 440.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM805.49 532.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM725.81 578.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM646.13 532.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM646.13 440.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM885.16 578.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM885.16 670.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM805.49 716.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM725.81 670.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1124.19 256.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1203.87 302.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1203.87 394.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1124.19 440.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1044.52 394.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1044.52 302.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1283.55 256.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1363.22 302.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1363.22 394.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1283.55 440.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1442.9 532.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1522.58 578.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1522.58 670.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1442.9 716.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1363.22 670.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0zM1363.22 578.81 a9.2 9.2 0 1 0 18.4 0 a9.2 9.2 0 1 0 -18.4 0z' fill='rgba(17%2c 66%2c 96%2c 1)'%3e%3c/path%3e%3cpath d='M753.14 193.89L888.24 271.89L888.24 427.89L753.14 505.89L618.04 427.89L618.04 271.89zM618.04 427.89L753.14 505.89L753.14 661.89L618.04 739.89L482.93 661.89L482.93 505.89zM1158.45 -40.11L1293.55 37.89L1293.55 193.89L1158.45 271.89L1023.35 193.89L1023.35 37.89zM1293.55 193.89L1428.66 271.89L1428.66 427.89L1293.55 505.89L1158.45 427.89L1158.45 271.89zM1428.66 -40.11L1563.76 37.89L1563.76 193.89L1428.66 271.89L1293.55 193.89L1293.55 37.89z' stroke='rgba(18%2c 63%2c 91%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1001'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); */
 }
@@ -3501,7 +3503,7 @@ text-align: center; */
     /* Jarak antara elemen gambar dan tulisan */
     margin-top: 50px;
     /* Jarak bagian atas */
-    margin-bottom: 50px;
+    
     /* Jarak bagian bawah */
 }
 
@@ -3532,6 +3534,7 @@ text-align: center; */
     font-weight: normal;
     transition: all 0.3s ease;
     /* Efek transisi untuk tulisan */
+    font-size: 12px !important;
 }
 
 .caption:hover {
@@ -4134,7 +4137,6 @@ li.left-aligned .text {
 #whatsapp-button {
     position: fixed;
     bottom: 0px; /* Jarak dari bawah */
-    left: 20px; /* Jarak dari kiri */
     z-index: 999; /* Mengatur tingkat kedalaman */
     display: flex;
     align-items: center;
@@ -4167,6 +4169,8 @@ li.left-aligned .text {
     /* line-height: 26px; */
     margin-left: 0px; /* Jarak antara gambar dan teks */
     position: relative;
+    line-height: 15px;
+
 }
 #whatsapp-text.bordered::before {
     content: "";
@@ -4191,8 +4195,8 @@ li.left-aligned .text {
 
     #whatsapp-button img {
         margin-right: 10px;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         cursor: pointer;
@@ -5314,7 +5318,7 @@ iframe {
     border-radius: 27px;
     background: linear-gradient(269deg, #1c4cf2 0.4%, #4692eb 50.97%);
     width: 913px;
-    height: 159px;
+    height: 120px;
     flex-shrink: 0;
     z-index: -99;
     display: grid;
@@ -5332,7 +5336,7 @@ iframe {
     margin-top: 60px;
     color: #f7f7f7;
     font-family: "Manrope";
-    font-size: 15px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -5344,17 +5348,15 @@ iframe {
 
 .join-button {
     display: inline-block;
-    margin-right: 0px;
-    padding: 8px 8px;
+    padding: 5px;
     background-color: rgb(232, 230, 230);
     color: #100f0f;
     border-radius: 33.5px;
     text-decoration: none;
-    font-size: 8px;
+    font-size: 6px;
     align-self: flex-end;
-    margin-bottom: -11px;
     grid-column: 2;
-    border: 8px solid rgba(74, 143, 166, 0.5);
+    border: 6px solid rgba(74, 143, 166, 0.5);
     font-family: "Manrope";
     /* font-size: 22.076px; */
     font-style: normal;
@@ -5678,7 +5680,7 @@ border-bottom: 2px solid #ccc; */
 #paketmentor ul.deskripsi li {
     position: relative;
     /* Position relative to allow absolute positioning of the checkmark image */
-    padding-left: 25px;
+    /* padding-left: 25px; */
     /* Add left padding for the checkmark image */
     margin-bottom: 5px;
 }
@@ -5813,10 +5815,10 @@ margin-left: 10px;
     color: #09326f;
     text-align: center;
     font-family: Poppins;
-    font-size: 25px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 65px;
+    /* line-height: 65px; */
     /* 130% */
 }
 
@@ -5835,10 +5837,10 @@ margin-left: 10px;
     flex-direction: row;
     overflow: hidden;
     justify-content: center;
-    border-radius: 50px;
+    border-radius: 20px;
     align-items: center;
     width: 90%;
-    height: 20%px;
+    height: 20%;
     /* Agar selalu mengambil lebar penuh */
     transition: transform 0.5s ease-in-out;
 }
@@ -5910,7 +5912,7 @@ transform: translateX(100px);
     max-width: 120px; /* Sesuaikan lebar maksimum gambar sesuai kebutuhan */
     width: 120px; /* Sesuaikan lebar gambar */
     height: auto; /* Gunakan nilai 'auto' agar tinggi mengikuti aspek rasio gambar asli */
-    border-radius: 25px;
+    border-radius: 50%;
     border: 0px solid #333;
     position: center;
     margin-right: 10px; /* Sesuaikan jarak antara gambar dan teks sesuai kebutuhan */
@@ -5971,7 +5973,7 @@ transform: translateX(100px);
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
-    margin-bottom: 30px; /* Sesuaikan jarak antara judul dan paragraf sesuai kebutuhan */
+    margin-bottom: 20px; /* Sesuaikan jarak antara judul dan paragraf sesuai kebutuhan */
 }
 
 .profile-info p {
@@ -6439,7 +6441,7 @@ padding: 20px;
 }
 
 .single_cat_right_content p {
-    font-size: 14px;
+    font-size: 8px;
     /* Ubah ukuran sesuai kebutuhan */
 }
 
@@ -6882,7 +6884,7 @@ align-items: flex-start;
 
 .centered-content img {
     max-width: 100%;
-    height: 500px;
+    height: 300px;
     /* margin-left: -15px; */
     margin-top: 5px;
     margin-bottom: 10px; /* Sesuaikan nilai ini agar gambar tidak menumpuk */
@@ -6932,7 +6934,7 @@ align-items: flex-start;
     /* background-color: #fff;
   border-radius: 10px; */
     /* border-radius: 44px; */
-    border-radius: 50px;
+    border-radius: 20px;
     background: linear-gradient(
         180deg,
         #fe413e 0%,
@@ -6940,19 +6942,21 @@ align-items: flex-start;
         rgba(0, 0, 0, 0) 100%
     );
     width: 300px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     /* padding: 20px;
     margin-right: 20px; */
     transition: transform 0.5s ease;
-    min-height: 280px;
+    
     color: #fff;
     font-family: Manrope;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    height: 200px;
+    margin-top: -100px;
+  
 }
 
 .button-container {
@@ -7020,9 +7024,8 @@ svg {
 .myaccordion {
     max-width: 500px;
     margin: 50px auto;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Warna bayangan hitam */
 
-    margin-left: 30px;
 }
 .myaccordion .card,
 .myaccordion .card:last-child .card-header {
@@ -7033,10 +7036,11 @@ svg {
     background: transparent;
 }
 .myaccordion .fa-stack {
-    font-size: 18px;
+    font-size: 14px;
+    margin-top: -25px;
 }
 .myaccordion .btn {
-    width: 100%;
+    /* width: 100%; */
     font-weight: bold;
     color: #004987;
     padding: 0;
@@ -7332,7 +7336,7 @@ transform: translateX(100px);
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     /* Sesuaikan jarak antara judul dan paragraf sesuai kebutuhan */
 }
 

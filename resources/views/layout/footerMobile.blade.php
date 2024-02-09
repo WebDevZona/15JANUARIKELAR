@@ -69,13 +69,13 @@
         </div>
 
         <div class="social-links" style=" margin-left:140px;">
-            <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style="padding: 10px;">
+            <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style="padding: px;">
                 <i class="bx bxl-youtube" style="font-size: 30px;"></i>
             </a>
-            <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle" style="padding: 10px;">
+            <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle" style="">
                 <i class="bx bxl-tiktok" style=" color:black; font-size: 28px;"></i>
             </a>
-            <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle" style="padding: 10px;">
+            <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle" style="">
                 <i class="bx bxl-instagram" style="font-size: 30px; background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); background-clip: text; -webkit-background-clip: text;   color: transparent;"></i>
             </a>
         </div>
@@ -155,6 +155,38 @@
 
             </div>
         </div>
+
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                Column
+              </div>
+              <div class="col">
+                <h4>Workshop</h4>
+                    <ul>
+                        <li><a href="#">Skripsi<br></a></li>
+                        <li><a href="#"> Karya Tulis Ilmiah (KTI) <br></a></li>
+                    </ul>
+                    <br>
+                    <h4>Daftar Sekarang</h4>
+                    <ul>
+                        <li><a href="#">Daftar</a></li>
+                        <li><a href="#">Masuk</a></li>
+                    </ul>
+              </div>
+              <div class="col">
+                <h4>Program Kelas</h4>
+                    <ul>
+                        <li><a href="#">Kelas Tugas Kuliah (KTK) </a></li>
+                        <li> <a href="#">Bimbingan Mata Kuliah Jurusan (BMJ) </a></li>
+                        <li> <a href="#"> Bimbingan Skripsi Online (BSO)</a></li>
+                        <li> <a href="#">Kelas Persiapan Karir (KPK) </a></li>
+                        <li> <a href="#">Creative Class <br> </a></li>
+
+                    </ul>
+              </div>
+            </div>
+          </div>
     </div>
 
 
@@ -175,7 +207,7 @@
 
     <div id="whatsapp-button" onclick="openWhatsApp()">
         <img src="{{ asset('assets/img/bg/cs.png') }}" alt="WhatsApp" />
-        <span id="whatsapp-text">Ada Pertanyaan? <br> Hubungi Minma</span>
+        <span id="whatsapp-text">Ada Pertanyaan? <br> Hubungi Kak Dewi</span>
     </div>
 
     <div class="popup-bro" id="popup-bro">
