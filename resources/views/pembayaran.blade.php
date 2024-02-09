@@ -668,36 +668,33 @@
                         </div>
                     </div>
                 </form>
-            </div>
+                <!-- ... Your existing HTML code ... -->
 
-            <!-- Include the necessary libraries -->
-            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+                <!-- Include the necessary libraries -->
+                <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
-            <!-- Your JavaScript code -->
-            <script>
-                $(document).ready(function() {
-                    // Attach a submit event handler to the form
-                    $("form").submit(function(event) {
-                        // Prevent the form from submitting
-                        event.preventDefault();
+                <!-- Your JavaScript code -->
+                <script>
+                    $(document).ready(function() {
+                        // Attach a submit event handler to the form
+                        $("form").submit(function(event) {
+                            // Prevent the form from submitting
+                            event.preventDefault();
 
-                        // Check if a major is selected
-                        var selectedMajor = $("#jurasanSelect").val();
+                            // Check if a major is selected
+                            var selectedMajor = $("#jurasanSelect option:selected").val(); // Use :selected to get the selected option
+                            console.log("Selected Major:", selectedMajor); // Log the selected major for debugging
 
-                        if (!selectedMajor) {
-                            // If no major is selected, show an error SweetAlert popup
-                            Swal.fire({
-                                icon: 'error',
-                                title: 'Oops...',
-                                text: 'Silahkan pilih jurusan terlebih dahulu!',
-                            });
-                        } else {
-                            // Check if the selected major is published
-                            var isMajorPublished = $('#jurasanSelect').find(':selected').data('publish') === 'ya';
-
-                            if (!isMajorPublished) {
-                                // If selected major is not published, show a warning SweetAlert popup
+                            if (!selectedMajor || selectedMajor === '-- Pilih Jurusan --') {
+                                // If no major is selected or the default option is selected, show a SweetAlert popup
+                                Swal.fire({
+                                    icon: 'error',
+                                    title: 'Oops...',
+                                    text: 'Silahkan pilih jurusan terlebih dahulu!',
+                                });
+                            } else if ($('#jurasanSelect option:selected').data('publish') !== 'ya') {
+                                // If the selected major is not published
                                 Swal.fire({
                                     icon: 'warning',
                                     title: 'Sayang sekali',
@@ -714,20 +711,27 @@
                                 // Add your code here to continue with the form submission and payment process
                                 // For example, you can redirect to a payment page or trigger another function
                                 console.log("Jurusan dipilih dan tersedia. Lanjutkan proses pembayaran.");
-                                // Uncomment the line below if you want to submit the form after validation
+                                // You don't need the following line, as form submission is already prevented
                                 // $(this).unbind("submit").submit();
                             }
+                        });
+
+                        // Additional check to ensure jQuery and SweetAlert are loaded
+                        if (typeof jQuery === 'undefined') {
+                            console.error('jQuery is not loaded!');
+                        } else if (typeof Swal === 'undefined') {
+                            console.error('SweetAlert is not loaded!');
                         }
                     });
-                });
-            </script>
+                </script>
+
+
+                <!-- ... Your existing HTML code ... -->
 
 
 
-
-
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
