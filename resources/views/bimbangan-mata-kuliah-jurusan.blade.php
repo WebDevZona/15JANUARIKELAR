@@ -978,7 +978,7 @@
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
-                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Bronze' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Bronze' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
 
                                             </div>
 
@@ -1039,7 +1039,7 @@
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
-                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Emerland' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Emerland' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
 
                                             </div>
                                         </div>
@@ -1100,7 +1100,7 @@
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
-                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Diamond' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Diamond' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
 
                                             </div>
 

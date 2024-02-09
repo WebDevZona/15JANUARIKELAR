@@ -195,7 +195,7 @@
         </div>
         <div class="container py-4">
             <div class="copyright">
-                <strong><span></span></strong>Copyright © 2020-2023 Class Program
+                <strong><span></span></strong>Copyright © 2023-2024 Class Program
 
             </div>
             {{-- <div class="credits">

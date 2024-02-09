@@ -253,8 +253,7 @@
                             <img src="assets/img/bg/ico1.png" alt="Deskripsi Gambar" style="margin-top:-0px;width: 19px;margin-right:5px;  display:inline;">
                         </span>
                         <span class="label-text" style="font-family:'Manrope'; white-space: normal;word-wrap: break-word;
-                                font-size: 11px;   letter-spacing:2px; position:relative; bottom:1px; ">Fasilitas
-                            Bimbingan</span>
+                                font-size: 11px;   letter-spacing:1px; position:relative; bottom:1px; ">Fasilitas Bimbingan</span>
                     </div>
 
                     <h4 class="title">
@@ -324,7 +323,7 @@
                         <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body" style="margin-top: -50px; ">
-                        <p style="color: #09326f; font-weight: 500;">Ingin bimbingan mata kuliah untuk semester berapa?
+                        <p style="color: #10387; font-weight: 500;">Ingin bimbingan mata kuliah untuk semester berapa?
                         </p>
                         <!-- <p>Ingin cari produk untuk semester berapa?</p> -->
                     </div>
@@ -332,37 +331,37 @@
 
                     <div class="modal-body">
                         <div class="btn-group">
-                            <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-primary" style="border-radius: 50px;">Satu dan
+                            <button onclick="window.location.href='bimbangan-mata-kuliah-jurusan#pricing'" type="button" class="btn btn-primary" style="border-radius: 50px;">Satu dan
                                 Dua</button>
-                            <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-primary" style="border-radius: 50px;">Tiga dan
+                            <button onclick="window.location.href='bimbangan-mata-kuliah-jurusan#pricing'" type="button" class="btn btn-primary" style="border-radius: 50px;">Tiga dan
                                 Empat</button>
-                            <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-primary" style="border-radius: 50px;">Lima dan
+                            <button onclick="window.location.href='bimbangan-mata-kuliah-jurusan#pricing'" type="button" class="btn btn-primary" style="border-radius: 50px;">Lima dan
                                 Enam</button>
                             <!-- Tambahkan tombol-tombol produk lainnya sesuai kebutuhan -->
                         </div>
                         <!-- <hr> Garis pemisah -->
                         <br>
-                        <p>Pilihan paket hemat bimbingan skripsi</p>
+                        <p style="color: #103873 !important; font-weight:500 !important;">Pilihan paket hemat bimbingan skripsi</p>
                         <div class="btn-group" style="">
-                            <button onclick="window.location.href='bimbangan-mata-kuliah-jurusan#pricing'" type="button" class="btn btn-list" style="background: #3E87F8; border-radius: 25px;"><span class="icon">
+                            <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-list" style="background: #3E87F8; border-radius: 25px;"><span class="icon">
                                     <img src="assets/img/bg/bookmark.png" alt="Deskripsi Gambar" style="width: 75px;position:center; margin-top: 10px;">
                                 </span>
                                 <div style="margin-top: 13px;">Pembuatan <br>judul skripsi</div>
                             </button>
-                            <button type="button" class="btn btn-list" style="background: #6770E9; border-radius: 25px;"><span class="icon">
+                            <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-list" style="background: #6770E9; border-radius: 25px;"><span class="icon">
                                     <img src="assets/img/bg/edit.png" alt="Deskripsi Gambar" style="width:75px;position:center;  margin-top: 11px;">
                                 </span>
                                 <div style="margin-top: 12px;">Penyusunan
                                     <br> bab 1-bab 3
                                 </div>
                             </button>
-                            <button type="button" class="btn btn-list" style="background: #41BAAC; border-radius: 25px;"><span class="icon">
+                            <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-list" style="background: #41BAAC; border-radius: 25px;"><span class="icon">
                                     <img src="assets/img/bg/notes.png" alt="Deskripsi Gambar" style="width:75px;position:center; margin-top: 15px;"></span>
                                 <div style="margin-top: 10px;">Penyusunan
                                     <br> bab 4-bab 5
                                 </div>
                             </button>
-                            <button type="button" class="btn btn-list" style="background: #F7965A; border-radius: 25px;"><span class="icon">
+                            <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-list" style="background: #F7965A; border-radius: 25px;"><span class="icon">
                                     <img src="assets/img/bg/group.png" alt="Deskripsi Gambar" style="width: 75px;position:center; margin-top: 18px;">
                                 </span>
                                 <div style="margin-top: 8px;">Persiapan sempro <br> atau sidang skripsi</div>
@@ -429,7 +428,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="{{ Auth::check() ? '/pembelian/BSO%20Complete' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="{{ Auth::check() ? '/pembelian/BSO%20Complete' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;"><strong style="font-weight: 400 !important; margin-top:-2px;">Daftar Sekarang</strong></a>
                         </div>
                     </div>
                 </div>
@@ -555,11 +554,11 @@
                             <ul class="deskripsi" style="list-style: none;">
                                 {{-- <i class="fa-solid fa-check"></i> --}}
                                 <strong> Materi: </strong>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review
+                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>
                                     Mahasiswa semester 3 dan 4</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Review skripsi
+                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> skripsi
                                     Mata Kuliah Umum</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i> Review
+                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i>
                                     Mata Kuliah Khusus </li>
                                 <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Teknis
                                     Bimbingan sampai 6 Mata Kuliah</li>
@@ -852,7 +851,7 @@
                         </div>
                         <div class="gambareo col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100" style="margin-top: 10px;">
                             <br> <br>
-                            <img src="assets/img/bg/friskaindex2.png" class="img-fluid" alt="" style="width: 100%; ">
+                            <img src="assets/img/bg/friskaindex2.png" class="img-fluid" alt="" style="width: 100%;margin-bottom:auto; ">
                         </div>
                     </div>
                 </div>
@@ -896,9 +895,8 @@
                                 <div class="single_left_coloum" target="_blank" style="    margin-right: -40px;">
                                     <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link">
                                         <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" class="thumbnail" style="width: 80%;" />
-                                        <svg class="play-icon" style="top: 55% !important; left:40%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                            <path d="M8 5v14l11-7z" />
-                                        </svg>
+                                        <svg class="play-icon" style="top: 50% !important; left:40%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                            <image href="assets/img/bg/play-youtube.png" width="24" height="24" opacity="0.80"/>                                        </svg>
                                     </a>
                                     <p style="color: black; font-size: 12px !important; width:80% !important;text-align: left;">Video: <span style="color: black; font-size: 12px !important;">{{ str_limit($penegnbalikcuk->judul, 30, '. . .') }}</span>
                                     </p>
@@ -1034,7 +1032,7 @@
                     </div>
 
                     <span class="left-scroll-button1" onclick="scrollLeft1()" style="margin-top: 20px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-left: 5px;" viewBox="0 0 40" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-left: 15px;" viewBox="0 0 40" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                                 <!-- Mengubah path panah ke kiri -->
@@ -1045,7 +1043,7 @@
                     </span>
                     <span class="right-scroll-button1" onclick="scrollRight1()" style="margin-top: 20px;">
                         <!-- Add right-scroll icon here -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-right: -42px;" viewBox="0 0 40" fill="none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" style="margin-right: -30px;" viewBox="0 0 40" fill="none">
                             <g filter="url(#filter0_b_229_15)">
                                 <path opacity="0.4" d="M17.4812 48.5835H35.5189C43.3342 48.5835 48.5834 43.5573 48.5834 36.0733V16.927C48.5834 9.443 43.3342 4.41683 35.5189 4.41683H17.4812C9.66817 4.41683 4.41675 9.44521 4.41675 16.9292L4.41675 36.0733C4.41675 43.5573 9.66817 48.5835 17.4812 48.5835Z" fill="black" />
                                 <path d="M28.3891 35.9506L36.7035 27.6738C37.3284 27.051 37.3284 25.9491 36.7035 25.3241L28.3891 17.0473C27.7399 16.4024 26.6909 16.4047 26.0461 17.0539C25.4012 17.7032 25.4012 18.7499 26.0505 19.3969L31.5205 24.8449H17.4866C16.5701 24.8449 15.8303 25.5869 15.8303 26.5012C15.8303 27.4154 16.5701 28.1574 17.4866 28.1574H31.5205L26.0505 33.6032C25.7259 33.9278 25.5647 34.3518 25.5647 34.778C25.5647 35.1998 25.7259 35.6238 26.0461 35.9462C26.6909 36.5932 27.7399 36.5954 28.3891 35.9506Z" fill="white" />
@@ -1159,7 +1157,7 @@
 
     <section id="testimonials" class="testimonials" style="margin-top: -100px;  margin-bottom:px;  background: url(assets/img/bg/bgmentor.png);background-size: cover;">
         <div class="section-title">
-            <h3 style="margin-top: 10px; font-size:35px !important; color:#000;">Mentor Profesional <br> Class Program
+            <h3 style="margin-top: 10px; font-size:35px !important; color:#000; font-family: Montserrat !important;">Mentor Profesional <br> Class Program
             </h3>
         </div>
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -1515,10 +1513,10 @@
                 <div class="team-slider">
                     <div class="row" id="team-members">
                         <!-- Anggota Tim 1 -->
-                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
-                            <div class="konsultasi-content">
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200" style="margin-left:-10px !important;">
+                            <div class="konsultasi-content" >
                                 <div class="member-img">
-                                    <img src="assets/img/bg/cuate.png" class="img-fluid" style="width: 100%;" alt="">
+                                    <img src="assets/img/bg/cuate.png" class="img-fluid" style="width: 90%; margin-top:36px;" alt="">
                                 </div>
                                 <div class="member-info" style="margin-top:10px; text-align: center;">
                                     <h4 style="margin-bottom: -10px; margin-top:50px;">1. Pilih Program Bimbingan </h4>
@@ -1531,7 +1529,7 @@
                         <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
                             <div class="konsultasi-content">
                                 <div class="member-img">
-                                    <img src="assets/img/bg/bro.png" class="img-fluid" style="width: 100%;" alt="">
+                                    <img src="assets/img/bg/bro.png" class="img-fluid" style="width: 90%; margin-top:36px;" alt="">
                                 </div>
                                 <div class="member-info" style="text-align: center;">
                                     <h4 style="margin-bottom: -10px;">2. Lakukan Pendaftaran </h4>
@@ -1554,7 +1552,7 @@
                         </div>
 
                         <!-- Anggota Tim 4 -->
-                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300" style="margin-left:10px !important;">
                             <div class="konsultasi-content">
                                 <div class="member-img">
                                     <img src="assets/img/bg/rafiki.png" class="img-fluid" style="width: 100%;" alt="">

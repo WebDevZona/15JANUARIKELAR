@@ -157,7 +157,7 @@
                             }
 
                             .veryikasi {
-                                margin-left: -30px;
+                                margin-left: px;
                                 width: 30px;
 
                             }
@@ -718,7 +718,7 @@
                                                 <a id="custom-btn" class="custom-btn-buy" style="width: 80%; font-size: 12px; cursor: pointer;">Daftar Sekarang</a>
                                             </div> --}}
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
-                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Silver' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Silver' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top:1%; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
 
                                             </div>
 
@@ -805,7 +805,7 @@
                                             </div>
 
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
-                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Gold' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Gold' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
 
                                             </div>
                                         </div>
@@ -869,7 +869,7 @@
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
-                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Platinum' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Platinum' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
                                             </div>
 
                                         </div>
@@ -948,7 +948,7 @@
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
-                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Diamond' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Diamond' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
 
                                             </div>
                                         </div>
@@ -1019,7 +1019,7 @@
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
-                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Complete' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Complete' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
 
                                             </div>
 
@@ -1040,7 +1040,7 @@
                                                 margin-left: 28px;
                                                 background: linear-gradient(0deg, #09326F 0%, #3E87F8 100%), #3E87F8;
                                                 ">
-                                                COMPLATE</h4>
+                                                KONSULTASI REGULER</h4>
                                             <div class="rupiah-display" style="position: relative;">
                                                 <h4 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
                                                     <strong class="rp" style="margin-left: 30px;">Rp</strong>
@@ -1091,7 +1091,7 @@
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
-                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Complete' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top: 0; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Complete' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
 
                                             </div>
 
@@ -2458,8 +2458,8 @@
                                 </div>
                                 <p style="margin-top:30px; margin-bottom: 50px; text-align:center; font-size:15px;">“Ikut BSO ternyata
                                     sangat menginspirasi dan insightful. Mentor sangat responsif, memberikan panduan dan
-                                    feedback konstruktif yang membantu saya untuk memahami pembuatan judul skripsi.
-                                    Meskipun belajarnya online, tapi sangat happy dan enjoy”.</p>
+                                    feedback konstruktif membantu saya untuk memahami pembuatan judul skripsi.
+                                    Meskipun belajarnya ...”.</p>
 
                                 <h1 style="text-align:center; margin-top: -20px; font-size:15px;">Adinda</h1>
                                 <p style="text-align:center; margin-top: -20px; font-size:15px;">Pendidikan Bahasa Inggris -<a style="font-style: italic !important;"> Universitas Negeri Surabaya</a></p>
@@ -2560,8 +2560,8 @@
         <section id="testimonials" class="testimonials" style="margin-top: -20px; margin-bottom:30px; background: url(assets/img/bg/bgmentor.png);background-size: cover;">
 
             <div class="section-title">
-                <h3 style="margin-bottom: 0px; margin-top:-40px; color:#000; font-size:35px">Mentor Profesional</h3>
-                <h3 style="color:#000; font-size:35px; margin-top:-10px;">Class Program</h3>
+                <h3 style="margin-bottom: 0px; margin-top:-40px; color:#000; font-size:35px; font-family: Montserrat !important;">Mentor Profesional</h3>
+                <h3 style="color:#000; font-size:35px; margin-top:-10px; font-family: Montserrat !important;">Class Program</h3>
 
             </div>
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -2707,7 +2707,7 @@
             <div class="background-faq"></div>
             <div class="container kontener" data-aos="fade-up">
                 <div class="row">
-                    <div class="col-xl-8" style="margin-bottom: 50px;">
+                    <div class="col-xl-8" style="">
                         <div class="section-title" style="margin-bottom: 50px;">
                             <h3 style="margin-top:0px !important; font-size:35px;">Paling Sering Ditanyakan</h3>
                         </div>

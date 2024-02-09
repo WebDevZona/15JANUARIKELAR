@@ -4044,7 +4044,9 @@ right: 20px;
     display: inline-block;
     width: 100%;
     text-align: center;
-    padding: 10px 32px;
+    /* padding: 10px 32px; */
+    padding-top: 6px;
+    padding-bottom: 6px;
     border-radius: 10px;
     color: #fff;
     font-size: 16px;
@@ -8068,7 +8070,7 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50px; /* Adjust the size of the play icon */
+     /* Adjust the size of the play icon */
     height: 50px; /* Adjust the size of the play icon */
     fill: gray; /* Adjust the color of the play icon */
     transition: opacity 0.3s ease-in-out;
