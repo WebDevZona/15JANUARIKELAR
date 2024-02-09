@@ -49,7 +49,6 @@ class PaymentController extends Controller
         $products = Produk::whereIn('id', $productIds)->get();
 
 
-
         $UserIds = User::pluck('id');
         // $User = User::whereIn('id', $UserIds)->get();
         $User = \App\User::where('id', $UserIds)->get();

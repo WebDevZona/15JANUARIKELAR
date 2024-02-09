@@ -603,11 +603,13 @@
                     </div>
 
                     <div class="col-md-6">
-                        <label for="jeniskelamin">Jenis Kelamin</label>
+                        <!-- <label for="jeniskelamin">Jenis Kelamin</label>
                         <select id="jeniskelamin" name="jeniskelamin">
                             <option value="laki-laki">Laki-Laki</option>
                             <option value="perempuan">Perempuan</option>
-                        </select>
+                        </select> -->
+                        <label for="jeniskelamin">Jenis Kelamin</label>
+                        <input type="text" value="{{$Users->jeniskelamin}}" id="jeniskelamin" name="jeniskelamin" placeholder="jeniskelamin">
 
                     </div>
 
@@ -666,57 +668,48 @@
                         </div>
                     </div>
                 </form>
-            </div>
 
-            <!-- Include the necessary libraries -->
-            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-
-            <!-- Your JavaScript code -->
-            <script>
-                $(document).ready(function() {
-                    // Attach a submit event handler to the form
+                <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+                <script>
                     $("form").submit(function(event) {
-                        // Prevent the form from submitting
                         event.preventDefault();
 
                         var selectedMajorOption = $("#jurasanSelect option:selected");
-                        // Check if a major is selected
-                        var selectedMajor = $("#jurasanSelect").val();
+                        var selectedMajor = selectedMajorOption.val();
+                        var publishStatus = selectedMajorOption.data('publish');
+
+                        console.log("Selected Major:", selectedMajor);
+                        console.log("Publish Status:", publishStatus);
+
                         if (!selectedMajor || selectedMajor === '-- Pilih Jurusan --') {
                             Swal.fire({
                                 icon: 'error',
                                 title: 'Oops...',
                                 text: 'Silahkan pilih jurusan terlebih dahulu!',
                             });
-                        } else if ($('#jurasanSelect').find(':selected').data('publish') !== 'ya') {
-                            // Show the SweetAlert popup for non-published major
+                        } else if (publishStatus !== 'ya') {
                             Swal.fire({
                                 icon: 'warning',
                                 title: 'Sayang sekali',
                                 text: 'Mentor yang sesuai dengan jurusan kamu sedang full. Silahkan hubungi Minma, biar kamu segera dapat Mentor baru.',
-                                confirmButtonText: 'Hubungi Minma'
+                                confirmButtonText: 'Hubungi Minma',
                             }).then((result) => {
                                 if (result.isConfirmed) {
                                     window.location.href = "https://api.whatsapp.com/send?phone=6281234561959";
                                 }
                             });
                         } else {
-                            // If a major is selected and it is published, proceed with form submission
-                            // Add your code here to continue with the form submission and payment process
-                            // For example, you can redirect to a payment page or trigger another function
                             console.log("Jurusan dipilih dan tersedia. Lanjutkan proses pembayaran.");
-                            // Uncomment the line below if you want to submit the form after validation
-                            $(this).unbind("submit").submit();
                         }
+
+                        // Move the submit outside the else block
+                        $(this).unbind("submit").submit();
                     });
-                });
-            </script>
+                </script>
 
-
-
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
