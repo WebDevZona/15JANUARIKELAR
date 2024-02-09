@@ -4,24 +4,40 @@
             <style>
                 .search-button {
                     /* Gaya tombol lainnya */
-                    cursor: pointer; /* Menambahkan efek kursor tangan saat diarahkan ke tombol */
-                    transition: background-color 0.3s ease; /* Efek transisi untuk perubahan warna latar belakang */
+                    cursor: pointer;
+                    /* Menambahkan efek kursor tangan saat diarahkan ke tombol */
+                    transition: background-color 0.3s ease;
+                    /* Efek transisi untuk perubahan warna latar belakang */
                 }
-            
+
                 .search-button:hover {
-                    background-color: black; /* Warna latar belakang saat kursor diarahkan ke tombol */
+                    background-color: black;
+                    /* Warna latar belakang saat kursor diarahkan ke tombol */
                 }
             </style>
+
             <div class="masbro">
                 <a href="/index"><img src="{{ asset('assets/img/logo/logo1.png') }}" class="logo" alt="Deskripsi Gambar"></a>
             </div>
+            <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
             <form class="search-form" action="#" method="get">
-                {{-- <label class="form-label" for="query">Masukkan kata kunci:</label> --}}
                 <input class="search-input" type="text" id="query" name="query" placeholder="Apa yang sedang kamu cari?">
                 <button class="search-button" type="submit">CARI</button>
-                {{-- <button class="search-white" type="submit">MASUK</button> --}}
-                </ul>
             </form>
+            <script>
+                // jQuery code to handle form submission
+                $(document).ready(function() {
+                    $('#searchForm').submit(function(event) {
+                        event.preventDefault(); // Prevent the default form submission
+
+                        // Get the value from the input field
+                        var query = $('#query').val();
+
+                        // Perform your search logic here (replace this with your actual search functionality)
+                        alert('Performing search for: ' + query);
+                    });
+                });
+            </script>
             {{-- <a href="/tentang" class=""><i style="padding:10px;">Tentang</i>|</a>
             <a href="#" class="facebook"><i style="padding:10px;">FAQ</i> |</a>
             <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" target='_blank'><i class="bi bi-youtube"style="padding:10px;"></i></a>
@@ -35,15 +51,18 @@
             <ul class="navbar-nav ml-auto">
 
                 <!-- <a class="dropdown-toggle " href="javascript:void(0)" data-toggle="dropdown">
-                        <i class="fas fa-user mr-2"></i> &nbsp;<span>{{ auth()->user()->name }}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i>
-                    </a> -->
+                            <i class="fas fa-user mr-2"></i> &nbsp;<span>{{ auth()->user()->name }}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i>
+                        </a> -->
 
                 <a type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal" style="color:#09326f;">
                     <i class="fas fa-user mr-2"></i> &nbsp;<span>{{auth()->user()->name}}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i>
                 </a>
 
+
+                <!-- Add this style tag to your existing styles -->
+
                 <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 100px;">
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 100px; z-index: 1000;">
                     <div class="modal-dialog" style="color: #09326f;">
                         <div class="modal-content">
                             <div class="modal-body">
@@ -70,8 +89,8 @@
                                     </div>
                                     <div class="row">
                                         <!-- <div class="col-md-3">
-                                                <h6><label for="nama">Keluar </label></h6>
-                                            </div> -->
+                                                    <h6><label for="nama">Keluar </label></h6>
+                                                </div> -->
                                         <div class="col-md-12">
                                             <h6><label for="nama"> <a href="/logout" style="width: 100px; color: #09326f; margin-left:-1px; margin-top:-20px;" onclick="return confirm('Apakah anda yakin ingin keluar dari sistem ?')">
                                                         <i class="fas fa-sign-out-alt mr-2"></i> Keluar
@@ -82,7 +101,7 @@
                                 </div>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">TUTUP</button>
                             </div>
                         </div>
                     </div>
@@ -100,7 +119,6 @@
         </div>
     </div>
 </section>
-
 <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
         <!-- Uncomment below if you prefer to use an image logo -->
@@ -253,6 +271,42 @@
     </marquee>
 
 </header>
+
+<style>
+    #topbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+
+    .modal-backdrop {
+        z-index: 500;
+        /* Ensure a higher z-index than the modal */
+    }
+
+    .modal {
+        z-index: 1000;
+        /* Ensure a higher z-index than the modal backdrop */
+    }
+
+    #header {
+        position: fixed;
+        top: 60px;
+        /* Adjust this value based on the height of your #topbar */
+        z-index: 1000;
+        width: 100%;
+    }
+
+    #marquee-container {
+        position: fixed;
+        top: 120px;
+        width: 100%;
+        z-index: 2;
+    }
+</style>
 </div>
 
 <script>

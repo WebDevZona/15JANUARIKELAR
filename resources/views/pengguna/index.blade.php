@@ -52,10 +52,10 @@
                         <tr class="bg-light">
                             <th>No.</th>
                             <th>Nama</th>
-                            <!-- <th>No Hp</th> -->
+                            <th>No Hp</th>
                             <th>Email</th>
                             <th>Status</th>
-                            <!-- <th>Follup</th> -->
+                            <th>Follup</th>
                             <th>Level</th>
                             <th>Aksi</th>
                         </tr>
@@ -68,7 +68,7 @@
                         <tr>
                             <td>{{$no}}</td>
                             <td>{{$pengguna->name}}</td>
-                            <!-- <td>{{$pengguna->nomer}}</td> -->
+                            <td>{{$pengguna->nomer}}</td>
                             <td>{{$pengguna->email}}</td>
                             <td>
                                 <form action="{{ route('pengumumancp.publish', $pengguna->id) }}" method="POST">
@@ -79,15 +79,27 @@
                                     </button>
                                 </form>
                             </td>
-                            <!-- <td>
-                                <form action="{{ route('pengumumancp.publish', $pengguna->id) }}" method="POST">
-                                    @csrf
-                                    <input type="hidden" name="status" value="{{ $pengguna->publish }}">
-                                    <button type="submit" class="btn {{ $pengguna->status === 'nonaktif' ? 'btn-danger' : ($pengguna->status === 'aktif' ? 'btn-success' : 'btn-warning') }} btn-xs" onclick="return confirm('Anda yakin user {{ $pengguna->status === 'nonaktif' ? 'Aktif' : ($pengguna->status === 'aktif' ?'Non Aktif' : 'Aktif') }} ?')">
-                                        {{ $pengguna->status === 'aktif' ? 'Aktif' : 'Follup' }}
-                                    </button>
-                                </form>
-                            </td> -->
+                            <td>
+
+                                <button style="height: 30px; " type="submit" class="btn btn-primary" onclick="openWhatsApp()">
+                                    <p style="margin-top: -4px;">Follup</p>
+                                </button>
+                                <script>
+                                    function openWhatsApp() {
+                                        var message = "Hallo Minma. Saya mau tanya-tanya nih mengenai Program Kelas di Class Program."; // Pesan yang ingin Anda kirim
+                                        var nomer = "{{$pengguna->nomer}}"; // Ambil nilai nomer dari PHP
+
+                                        // Ubah nomer menjadi format yang diinginkan (contoh: 088269034982 menjadi 6288269034982)
+                                        var phoneNumber = "62" + nomer.substr(1);
+
+                                        // Membuat URL untuk mengarahkan pengguna ke halaman WhatsApp
+                                        var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
+
+                                        window.open(whatsappURL, "_blank");
+                                    }
+                                </script>
+                            </td>
+
                             <td>{{$pengguna->role}}</td>
                             <td>
                                 <form action="{{ route('pengguna.destroy', $pengguna->id) }}" method="post  ">

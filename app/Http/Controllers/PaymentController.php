@@ -53,12 +53,7 @@ class PaymentController extends Controller
         $User = \App\User::where('id', $UserIds)->get();
         $Users = $User->first();
 
-        return view('bukti', ['idpayment' => $payment->id, 'products' => $products, 'Users' => $Users]);
-
-        // $productIds = Produk::pluck('id');
-        // return view('bukti', ['idpayment' => $payment->id, 'productIds' => $productIds]);
-        // Return view with the payment ID
-        // return view('bukti', ['idpayment' => $payment->id], 'productIds');
+        return view('bukti', ['idpayment' => $payment->id, 'token_transaksi' => $payment->token_transaksi, 'products' => $products, 'Users' => $Users]);
     }
 
     public function foto(Request $request)
