@@ -538,8 +538,8 @@
                         <i class="fas fa-venus-mars"></i>
                         Jenis Kelamin
                         <select name="jeniskelamin" id="jeniskelamin" class="form-control bg-light">
-                            <option value="laki">Laki-laki</option>
-                            <option value="perempuan">Perempuan</option>
+                            <option value="Laki-laki">Laki-laki</option>
+                            <option value="Perempuan">Perempuan</option>
                         </select>
                     </div>
 
