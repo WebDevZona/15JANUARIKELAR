@@ -476,6 +476,7 @@ Route::group(['middleware' => ['auth', 'checkRole:user']], function () {
     Route::get('/checkout/{id_produk}/{id}/{nama_voucher?}/{judulskripsi}/{problem}/{jurusan}', 'tampilanController@checkout')->name('checkout');
     Route::get('/pembelian/{id_produk}', 'tampilanController@Pengertian')->name('pembelian');
     Route::post('/pembayaran', 'PaymentController@submitPayment')->name('submit.payment');
+    Route::post('/submit-payment/{nama_produk}', 'PaymentController@submitPaymentWithParam')->name('submitPayment');
     Route::post('/bukti', 'PaymentController@foto')->name('submit.bukti');
     Route::get('/mima', 'PaymentController@mima')->name('mima');
     Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');

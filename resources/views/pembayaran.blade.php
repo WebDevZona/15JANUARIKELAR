@@ -603,11 +603,13 @@
                     </div>
 
                     <div class="col-md-6">
-                        <label for="jeniskelamin">Jenis Kelamin</label>
+                        <!-- <label for="jeniskelamin">Jenis Kelamin</label>
                         <select id="jeniskelamin" name="jeniskelamin">
                             <option value="laki-laki">Laki-Laki</option>
                             <option value="perempuan">Perempuan</option>
-                        </select>
+                        </select> -->
+                        <label for="jeniskelamin">Jenis Kelamin</label>
+                        <input type="text" value="{{$Users->jeniskelamin}}" id="jeniskelamin" name="jeniskelamin" placeholder="jeniskelamin">
 
                     </div>
 
@@ -682,32 +684,45 @@
 
                         // Check if a major is selected
                         var selectedMajor = $("#jurasanSelect").val();
+
                         if (!selectedMajor) {
-                            // If no major is selected, show a SweetAlert popup
+                            // If no major is selected, show an error SweetAlert popup
                             Swal.fire({
                                 icon: 'error',
                                 title: 'Oops...',
                                 text: 'Silahkan pilih jurusan terlebih dahulu!',
                             });
-                        } else if ($('#jurasanSelect').find(':selected').data('publish') !== 'ya') {
-                            // Show the SweetAlert popup for non-published major
-                            Swal.fire({
-                                icon: 'warning',
-                                title: 'Sayang sekali',
-                                text: 'Mentor yang sesuai dengan jurusan kamu sedang full. Silahkan hubungi Minma, biar kamu segera dapat Mentor baru.',
-                                confirmButtonText: 'OK'
-                            });
                         } else {
-                            // If a major is selected and it is published, proceed with form submission
-                            // Add your code here to continue with the form submission and payment process
-                            // For example, you can redirect to a payment page or trigger another function
-                            console.log("Jurusan dipilih dan tersedia. Lanjutkan proses pembayaran.");
-                            // Uncomment the line below if you want to submit the form after validation
-                            $(this).unbind("submit").submit();
+                            // Check if the selected major is published
+                            var isMajorPublished = $('#jurasanSelect').find(':selected').data('publish') === 'ya';
+
+                            if (!isMajorPublished) {
+                                // If selected major is not published, show a warning SweetAlert popup
+                                Swal.fire({
+                                    icon: 'warning',
+                                    title: 'Sayang sekali',
+                                    text: 'Mentor yang sesuai dengan jurusan kamu sedang full. Silahkan hubungi Minma, biar kamu segera dapat Mentor baru.',
+                                    confirmButtonText: 'Hubungi Minma'
+                                }).then((result) => {
+                                    if (result.isConfirmed) {
+                                        // Redirect to WhatsApp link
+                                        window.location.href = "https://api.whatsapp.com/send?phone=6281234561959";
+                                    }
+                                });
+                            } else {
+                                // If a major is selected and it is published, proceed with form submission
+                                // Add your code here to continue with the form submission and payment process
+                                // For example, you can redirect to a payment page or trigger another function
+                                console.log("Jurusan dipilih dan tersedia. Lanjutkan proses pembayaran.");
+                                // Uncomment the line below if you want to submit the form after validation
+                                // $(this).unbind("submit").submit();
+                            }
                         }
                     });
                 });
             </script>
+
+
 
 
 

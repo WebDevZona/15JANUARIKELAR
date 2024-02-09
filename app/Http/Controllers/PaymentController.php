@@ -48,13 +48,20 @@ class PaymentController extends Controller
         $productIds = Produk::pluck('id');
         $products = Produk::whereIn('id', $productIds)->get();
 
+
+
         $UserIds = User::pluck('id');
         // $User = User::whereIn('id', $UserIds)->get();
         $User = \App\User::where('id', $UserIds)->get();
         $Users = $User->first();
 
-        return view('bukti', ['idpayment' => $payment->id, 'token_transaksi' => $payment->token_transaksi,   'products' => $products, 'Users' => $Users]);
+
+
+
+        return view('bukti',  ['idpayment' => $payment->id, 'token_transaksi' => $payment->token_transaksi,   'products' => $products, 'Users' => $Users]);
     }
+
+
 
     public function foto(Request $request)
     {

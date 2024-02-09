@@ -35,16 +35,6 @@
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
-
-    <script>
-        function getParameterValue(parameterName) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(parameterName);
-        }
-
-        const waktuPembayaran = getParameterValue('waktu_pembayaran');
-        console.log('Nilai waktu_pembayaran:', waktuPembayaran);
-    </script>
 </head>
 @extends('layout.header')
 @section('content')
@@ -164,6 +154,7 @@
                                                     border-radius: 5px;
                                                     cursor: pointer;
                                                     transition: background-color 0.3s;
+                                                    margin-left: 30px;
                                                 }
 
                                                 #copyButton:hover {
@@ -277,11 +268,19 @@
                     </button>
             </form>
         </div>
+
+
+
         </div>
+
+
+
+
         <img src="assets/img/bg/piyeh.png" style="width: 50%; margin-right:-30px;  margin-top: -5%;" alt="Payment Image" class="payment-image">
+
     </section>
 
-    <span>Harga: {{ number_format($Produk->harga) }}</span></b>
+
 </body>
 
 </html>
