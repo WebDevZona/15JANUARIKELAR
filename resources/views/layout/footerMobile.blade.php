@@ -57,7 +57,7 @@
 
 
                 <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1" style=" stroke: #003EB5;
-        position: absolute;
+                position: absolute;
                width: 1100px;
                margin-inline-start: -130px;
                margin-top: -30px;
@@ -80,6 +80,33 @@
             </a>
         </div>
 
+        {{-- <div class="container">
+            <div class="row">
+              <div class="col-6 col-sm-3 footer-links">
+                <h4 style="">Hubungi Kami</h4>
+                <ul>
+                    <li><a href="#"><b>Alamat:</b> Jalan Bandara
+                            Palmerah IV No. D-11B, <br> <br> Cemorokandang, Kedungkandang, Kota Malang, <br> <br>
+                            Jawa Timur <br> </a></li>
+                    <li><a href="#"><b>Email:classprogram.id@gmail.com<br></a></li>
+                    <li><a href="#"> <b>Whatsapp: </b> 0812-3436-1959 <br></a>
+                    </li>
+                    <li><a href="#"> <b>Partnership: </b>classprogram.id@gmailcom<br> </a></li>
+                    <li><a href="#"> <br> <br> </a>
+                    </li>
+
+                </ul>
+
+              </div>
+              <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+          
+              <!-- Force next columns to break to new line -->
+              <div class="w-100"></div>
+          
+              <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+              <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+            </div>
+          </div> --}}
 
         <div class="container" style="margin-top: 30px;">
             <div class="row">
