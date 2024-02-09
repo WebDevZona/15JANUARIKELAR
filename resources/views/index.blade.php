@@ -1132,7 +1132,7 @@
                                     <strong style="color: #f3b6b6; font-family: Manrope; font-style: normal; font-weight: 700; line-height: normal;">
                                         <a href="{{ asset($item->tampilan) }}" style="text-decoration: none; color: black; font-size:12px !important;  ">Video
                                             :
-                                            {{ str_limit($item->judul, 36, '. . .') }}
+                                            {{ str_limit($item->judul, 36, '...') }}
                                         </a>
                                     </strong>
                                 </p>
