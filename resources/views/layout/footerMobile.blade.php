@@ -155,38 +155,7 @@
 
             </div>
         </div>
-
-        <div class="container">
-            <div class="row">
-              <div class="col">
-                Column
-              </div>
-              <div class="col">
-                <h4>Workshop</h4>
-                    <ul>
-                        <li><a href="#">Skripsi<br></a></li>
-                        <li><a href="#"> Karya Tulis Ilmiah (KTI) <br></a></li>
-                    </ul>
-                    <br>
-                    <h4>Daftar Sekarang</h4>
-                    <ul>
-                        <li><a href="#">Daftar</a></li>
-                        <li><a href="#">Masuk</a></li>
-                    </ul>
-              </div>
-              <div class="col">
-                <h4>Program Kelas</h4>
-                    <ul>
-                        <li><a href="#">Kelas Tugas Kuliah (KTK) </a></li>
-                        <li> <a href="#">Bimbingan Mata Kuliah Jurusan (BMJ) </a></li>
-                        <li> <a href="#"> Bimbingan Skripsi Online (BSO)</a></li>
-                        <li> <a href="#">Kelas Persiapan Karir (KPK) </a></li>
-                        <li> <a href="#">Creative Class <br> </a></li>
-
-                    </ul>
-              </div>
-            </div>
-          </div>
+        
     </div>
 
 
