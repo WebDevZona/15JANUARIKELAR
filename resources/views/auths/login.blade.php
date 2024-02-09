@@ -7,8 +7,9 @@
     <title>Class Program</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-vi2eEQZjYqVQOvz3okDP72VMs5P4YuiFqAFO9fDShDAg0xwM4E1tC+t6WT50QOOl" crossorigin="anonymous">
     <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Favicons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -17,6 +18,15 @@
 
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS (including Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
     <style>
         body {
@@ -312,7 +322,7 @@
     <div class="login-container col-lg-6 col-md-12">
         @if(session('sukses'))
         <div class="callout callout-success alert alert-success alert-dismissible fade show" role="alert">
-            <h5><i class="fas fa-check"></i> Sukses :</h5>
+            <h5><i class="fa-solid fa-check"></i> Sukses :</h5>
             {{session('sukses')}}
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -321,7 +331,7 @@
         @endif
         @if(session('error'))
         <div class="callout callout-danger alert alert-danger alert-dismissible fade show" role="alert">
-            <h5><i class="fas fa-info"></i> Peringatan :</h5>
+            <h5><i class="fa-solid fa-info"></i> Peringatan :</h5>
             {{session('error')}}
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -395,16 +405,17 @@
     <div class="login-terbaru col-lg-6 col-md-0">
 
         <div class="back-to-home">
-            <a href="/" style="color:white;"><i class="fa fa-arrow-left"> Kembali ke Homepage</i></i></a>
+            <a href="/" style="color:white;"><i class="fa fa-arrow-left"></i> Kembali ke Homepage</a>
         </div>
         <p></p>
         <center>
             <img style="width: 580px; margin-right: 90px; margin-left:-100px;" src="assets/img/bg/login.png" alt="">
         </center>
 
+     
         <div id="whatsapp-button" onclick="openWhatsApp()">
             <img style="width: 100px;" src="{{ asset('assets/img/bg/cs.png') }}" alt="WhatsApp" />
-            <span id="whatsapp-text">Ada Pertanyaan? <br> Hubungi Minma</span>
+            <span id="whatsapp-text" style="font-family: montserrat;">Ada Pertanyaan? <br> Hubungi Minma</span>
         </div>
 
     </div>
@@ -420,6 +431,14 @@
 
         window.open(whatsappURL, "_blank");
     }
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('.alert .close').on('click', function() {
+            $(this).closest('.alert').fadeOut();
+        });
+    });
 </script>
 
 </html>

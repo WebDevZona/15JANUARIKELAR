@@ -165,7 +165,7 @@
             } */
         }
     </style>
-    <div class="mainscreen">
+    <div class="mainscreen" style="margin-top: 100px;">
         <!-- <img src="https://image.freepik.com/free-vector/purple-background-with-neon-frame_52683-34124.jpg"  class="bgimg " alt="">-->
         <div class="card">
             <div class="cardd">
@@ -192,14 +192,13 @@
                         <div class="price">
                             <p>
                                 @if(isset($Produk) && is_object($Produk))
-                                <del style="color: #999;">Rp{{ $Produk->harga1 }}</del>
-                            <div style="font-size: 22px; color: #000; font-weight: bold;">Rp{{ $Produk->harga }}</div>
+                                <del style=" color: #999;">Rp{{ $Produk->harga1 }}</del>
+                            <div style=" font-size: 22px; color: #000; font-weight: bold;">Rp{{ $Produk->harga }}</div>
                             @else
                             <!-- Handle case where $Produk is not set or not an object -->
                             <span style="color: red;">Error: Invalid Product Data</span>
                             @endif
                             </p>
-
                             @if(isset($id_pesdik_login) && is_object($id_pesdik_login))
                             <a id="paket-link" href="{{ route('pembayaran', [
                                         'id_produk' => $id_pesdik_login->id_produk,

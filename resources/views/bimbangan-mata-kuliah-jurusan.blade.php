@@ -9,6 +9,10 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-lY6/JB9Xa4kADl06IZ5FWYKTjnKiSiafwqz3VGssFSc8sPJwZP+DmGQ1TxI9Ld6D" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-9YET8/TniDXKOiij1Qe1eblgJFFfD4jlYn/+9T6oPe4eVBN5LME6wJWoJPlD/Z1k3wrPQF0Gv9m9IPqFGe56WpA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
     <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-rsfs3we9NBt+JIEkKuuaA2vFDGXahHIysWzy9kn6+koYOtsLoX2s16+a1kDPs1o9b8X6lCOpzATmtK7XQVG+tpw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -81,13 +85,13 @@
                 </div>
             </section> -->
 
-        <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/bmj.png); background-size: cover; margin-top: -18px; position: relative;">
+        <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/bmj.png); background-size: cover; margin-top: 100px; position: relative;">
 
-           
+
             <img style="height: 580px; margin-top: -30px; position: absolute; left:10px;  top: 0;" src="assets/img/bg/bmjriska.png" alt="" />
             <img style="height: 600px; margin-top: -50px;     margin-right: 15px;  position: absolute; right: 0; top: 0;" src="assets/img/bg/bmjandika.png" alt="">
 
-            
+
             <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: -50px; margin-bottom: 130px;">
                 <div style="width: 100%; display: flex; justify-content: center; margin-top: 50px;">
                     <div style="margin-left: 15px; width: 250px; height: 100%; padding: 6.40px; background: #3E87F8; box-shadow: 6.400178909301758px 6.400178909301758px 12.800357818603516px rgba(0, 0, 0, 0.15); border-radius: 32px; justify-content: center; align-items: center; gap: 6.40px; display: inline-flex; margin: 0 auto;">
@@ -120,10 +124,10 @@
                                     {{-- <p style="margin-left:0px">Peers to network and learn with</p> --}}
                                     <p style="margin-left: 0px; color: #000; font-family: Manrope;"><b>Waktu bimbingan 24
                                             kali pertemuan</b></p>
-    
+
                                 </div>
                             </div>
-    
+
                             <div class="count-separator" style="margin-top: 15px;"></div> <!-- Garis vertikal -->
                             <div class="count-box">
                                 <div class="left-content">
@@ -137,7 +141,7 @@
                                             2 hingga 4 jam</b></p>
                                 </div>
                             </div>
-    
+
                             <div class="count-separator" style="margin-left:20px; margin-top: 15px;"></div>
                             <div class="count-box">
                                 <div class="left-content">
@@ -151,7 +155,7 @@
                                     </p>
                                 </div>
                             </div>
-    
+
                             <div class="count-separator" style="margin-top: 15px;"></div>
                             <div class="count-box">
                                 <div class="left-content">
@@ -183,7 +187,7 @@
                 </div>
 
             </div>
-           
+
 
 
         </section>
@@ -375,7 +379,7 @@
                             <!-- 5 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
                                 <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
-                                    Sobat Insans bisa konsultasi terkait <br>konsentrasi  jurusan dan Praktek Kerja
+                                    Sobat Insans bisa konsultasi terkait <br>konsentrasi jurusan dan Praktek Kerja
                                     Lapangan.
                                 </div>
 
@@ -916,7 +920,7 @@
                         jenis paket dengan rincian dan biaya sebagai berikut:</h4>
                 </div>
 
-                <div id="packageCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -40px margin-left:200px !important;">
+                <div id="packageCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -40px;  !important;">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="container" style="margin-left: 30px !important;">
@@ -1299,35 +1303,36 @@
 
         <style>
             .switcher {
-             position: absolute;
-             left:37%;
-             margin-top: 80px;
-             transform: translateX(-50%);
-             display: flex;
-             justify-content: center;
-     
-         }
-     
-         .icon {
-             width: 10px;
-             height: 10px;
-             border-radius: 50%;
-             margin: 0 3px;
-             cursor: pointer;
-         }
-     
-         .nonaktip {
-             background-color: #454747; /* Warna biru muda untuk ikon tidak aktif */
-         }
-     
-         .aktip {
-             background-color: #1f3a68; /* Warna biru tua untuk ikon aktif */
-         }
-     
-         </style>
+                position: absolute;
+                left: 37%;
+                margin-top: 80px;
+                transform: translateX(-50%);
+                display: flex;
+                justify-content: center;
+
+            }
+
+            .icon {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                margin: 0 3px;
+                cursor: pointer;
+            }
+
+            .nonaktip {
+                background-color: #454747;
+                /* Warna biru muda untuk ikon tidak aktif */
+            }
+
+            .aktip {
+                background-color: #1f3a68;
+                /* Warna biru tua untuk ikon aktif */
+            }
+        </style>
 
         <!-- ======= Sobat Insans ======= -->
-        <section id="about" style="background: url(assets/img/bg/bso1.png);
+        <section id="testibaru" style="background: url(assets/img/bg/bso1.png);
                 background-size: cover;
                 background-position: center; margin-top: -100px;">
             <div class="container" data-aos="fade-up">
@@ -1342,17 +1347,17 @@
                             </div>
                             <div style="text-align: left; width: 500px; left: px; margin-top: 50px; top: -110px; margin-left: 180px; position: absolute; color: black; font-size: 50px; font-family: Montserrat; font-weight: 700; line-height: 50px; word-wrap: break-word">
                                 Cerita Sobat<br />Insans</div>
-                                <div class="witcher" >
-                                    <div class="switcher" style="margin-top: px !importnat;">
-                                        <div class="icon aktip"></div>
-                                        <div class="icon nonaktip"></div>
-                                        <div class="icon nonaktip"></div>
-                                        <div class="icon nonaktip"></div>
-                                        <div class="icon nonaktip"></div>
-                                    </div>
+                            <div class="witcher">
+                                <div class="switcher" style="margin-top: px !importnat;">
+                                    <div class="icon aktip"></div>
+                                    <div class="icon nonaktip"></div>
+                                    <div class="icon nonaktip"></div>
+                                    <div class="icon nonaktip"></div>
+                                    <div class="icon nonaktip"></div>
                                 </div>
+                            </div>
                         </div>
-                        
+
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
                         {{-- text --}}
@@ -1401,7 +1406,7 @@
 
 
 
-        <section id="testimonials" class="testimonials" style=" margin-top: -50px; background: url(assets/img/bg/bgalur.png); background-size: cover; position: relative; text-align: center;">
+        <section id="konsultasi" class="konsultasi section-bg" style=" margin-top: -50px; background: url(assets/img/bg/bgalur.png); background-size: cover; position: relative; text-align: center;">
             <div class="section-title" style="margin-top: px; color:#000;">
                 <h3 style=" font-size: 45px;  margin-top:-50px  !important;">Alur Bimbingan</h3>
             </div>
@@ -1411,11 +1416,12 @@
 
 
 
+
         <!-- ======= FAQ ======= -->
         <section id="about" style="background: url(assets/img/bg/bagroundbmj.png);
                 background-size: cover;
                 background-position: center; ">
-            <div class="container" data-aos="fade-up" id="faq" >
+            <div class="container" data-aos="fade-up" id="faq">
                 <div class="row align-items-center justify-content-between" style="margin-left: -140px; ">
                     <div class="col-lg-6 text-centerr">
                         <div style="width: 100%; height: 100%; position: relative; text-align:left;font-family: Montserrat !important;">
@@ -1429,8 +1435,6 @@
                     <div class="col-lg-6 pt-8 pt-lg-0 content d-flex flex-column  " data-aos="fade-up" data-aos-delay="100">
 
                         <style>
-                            
-
                             .accordion-item {
                                 border: 1px solid #ddd;
                                 /* margin-bottom: 10px; */
@@ -1492,7 +1496,8 @@
                                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
                                 background-color: #f0f0f0;
                             }
-                            b:hover{
+
+                            b:hover {
                                 color: #007bff;
                             }
                         </style>
@@ -1501,7 +1506,7 @@
                             <div class="accordion-item">
                                 <div class="accordion-header" onclick="toggleAccordion(1)" style="background-color: white;">
                                     <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                        </div><b style=" margin-left:-30px; font-family: Montserrat !important; font-size:14px;   
+                                    </div><b style=" margin-left:-30px; font-family: Montserrat !important; font-size:14px;
                                         ">Apakah boleh ambil bimbingan tapi tidak sampai 6 mata kuliah?</b>
                                     <div class="icon3" style="margin-top: -20px;">+</div>
                                 </div>
@@ -1511,8 +1516,8 @@
                                 </div>
                                 <div class="accordion-header" onclick="toggleAccordion(2)" style="background-color: white;">
                                     <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                       </div><b style=" margin-left:-280px !important; font-family: Montserrat !important; font-size:14px;   
-                                       " >Apakah boleh request Mentor?</b>
+                                    </div><b style=" margin-left:-280px !important; font-family: Montserrat !important; font-size:14px;
+                                       ">Apakah boleh request Mentor?</b>
                                     <div class="icon3" style="margin-top: -20px;">+</div>
                                 </div>
                                 <div class="accordion-content">
@@ -1520,8 +1525,8 @@
                                 </div>
                                 <div class="accordion-header" onclick="toggleAccordion(3)" style="background-color: white;">
                                     <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                        </div><b  style=" margin-left:-150px !important; font-family: Montserrat !important; font-size:14px;    
-                                        "  >Bagaimana caranya untuk ambil paket lanjutan?</b>
+                                    </div><b style=" margin-left:-150px !important; font-family: Montserrat !important; font-size:14px;
+                                        ">Bagaimana caranya untuk ambil paket lanjutan?</b>
                                     <div class="icon3" style="margin-top: -20px;">+</div>
                                 </div>
                                 <div class="accordion-content">
@@ -1530,8 +1535,8 @@
                                 </div>
                                 <div class="accordion-header" onclick="toggleAccordion(4)" style="background-color: white;">
                                     <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                        </div><b  style=" margin-left:-px !important; font-family: Montserrat !important;  font-size:14px;  
-                                        " >Siapa yang harus dihubungi jika menemui masalah saat bimbingan?</b>
+                                    </div><b style=" margin-left:-px !important; font-family: Montserrat !important;  font-size:14px;
+                                        ">Siapa yang harus dihubungi jika menemui masalah saat bimbingan?</b>
                                     <div class="icon3" style="margin-top: -20px;">+</div>
                                 </div>
                                 <div class="accordion-content">
@@ -1539,10 +1544,10 @@
                                 </div>
                                 <div class="accordion-header" onclick="toggleAccordion(5)" style="background-color: white;">
                                     <div style="color: #3E87F8; font-size: 20px; font-family: Montserrat; font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                        </div><b  style=" margin-left:-260px !important; font-family: Montserrat !important; font-size:14px;   
-                                        " >Apakah harga paket bisa dicicil?</b>
+                                    </div><b style=" margin-left:-260px !important; font-family: Montserrat !important; font-size:14px;
+                                        ">Apakah harga paket bisa dicicil?</b>
 
-                                <div class="icon3" style="margin-top: -20px;">+</div>
+                                    <div class="icon3" style="margin-top: -20px;">+</div>
                                 </div>
                                 <div class="accordion-content">
                                     <p style="font-family: Montserrat; font-size:12px; margin-left:30px;"><strong style="color: #000">Class Program</strong> belum menyediakan metode pembayaran dengan sistem cicil untuk pilihan paket</p>

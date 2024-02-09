@@ -58,7 +58,7 @@
 
 
     <!-- ======= index1 hero ======= -->
-    <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/dekstop2.png);background-size: cover; margin-top: -25px">
+    <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/dekstop2.png);background-size: cover; margin-top: 100px;">
         <div class="container" data-aos="zoom-out" data-aos-delay="100">
             <div class="judulawal">
                 <a href="#about" class="btn-get-awaaal awaaal" style="font-family:'Manrope';"><strong>Bersama Class
@@ -429,7 +429,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="{{ Auth::check() ? '/pembelian/BSO%20Complete' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -441,7 +441,7 @@
                                     <thead>
                                         <tr>
                                             <th scope="col" style="border-top: none; border-bottom: none; text-align: left; font-size: 18px !important;">Gold
-                                                <br><span class="green-text" >(BSO)</span>
+                                                <br><span class="green-text">(BSO)</span>
                                             </th>
                                             <th scope="col" style="border-top: none; border-bottom: none; font-size: 18px !important;">Harga
                                                 <br><span class="blue-text" style="font-size: 18px !important;">Rp 499.000</span>
@@ -474,7 +474,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="{{ Auth::check() ? '/pembelian/BSO%20Gold' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -522,7 +522,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="{{ Auth::check() ? '/pembelian/BMJ%20Diamond' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -571,7 +571,7 @@
                             </p>
                         </div>
                         <div class="card-footer text-center" style="border-radius: 25px;">
-                            <a href="{{ Auth::check() ? '/pembelian/bso' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
+                            <a href="{{ Auth::check() ? '/pembelian/BMJ%20Emerald' : '/register' }}" class="btn btn-primary" style="border-radius: 25px; align-content: center;">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -889,12 +889,12 @@
                 <div class="left_coloum floatleft">
                     <h4 style="margin-bottom: 20px; font-size:16px">Rekomendasi video untukmu</h4>
                     <div class="single_left_coloum_wrapper" id="scrollableColumn">
-                        <div class="scrollable_left_coloum" >
+                        <div class="scrollable_left_coloum">
                             @if ($berita->isNotEmpty())
                             @foreach ($youtube->sortByDesc('created_at')->take(10) as $penegnbalikcuk)
-                            <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" >
+                            <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank">
                                 <div class="single_left_coloum" target="_blank" style="    margin-right: -40px;">
-                                    <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link" >
+                                    <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link">
                                         <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" class="thumbnail" style="width: 80%;" />
                                         <svg class="play-icon" style="top: 55% !important; left:40%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                             <path d="M8 5v14l11-7z" />
@@ -1241,46 +1241,52 @@
 
 
 
-    <section id="testibaru" class="testibaru section-bg " style="margin-bottom:-110px;">
+    <section id="testibaru" class="testibaru section-bg" style="margin-bottom:-110px;">
         <div id="background-image">
             <img src="assets/img/bg/bg_biru_setengah.png" alt="" style="height: 40vh; width: 100%; object-fit: cover;    margin-top: 150px;
                 ">
         </div>
-        <div class="pyoutube" style="margin-top: -550px; ">
+        <div class="pyoutube" style="margin-top: -600px; ">
             <br>
-            <div class="yutup">
-                <div class="gabung" {{-- style="background: url(assets/img/bg/bgyou.png); position: absolute;  width: 1100px; height: 300px; margin-top:-40px; margin-left:-30px;  border-radius: 25px;" --}}>
-                    <!-- Ganti dengan path gambar profil Anda -->
-                    <div class="info">
-                        <h1 style="margin-left:150px; text-align: center; color: #FFF; font-family: Poppins; font-size: 30px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">
-                            Lebih Dekat dengan Class Program</h1>
-                        <style>
-                            .btnyt:hover .yt {
-                                background-color: blue;
-                            }
+            <center>
+                <div class="yutup">
+                    <div class="gabung" {{-- style="background: url(assets/img/bg/bgyou.png); position: absolute;  width: 1100px; height: 300px; margin-top:-40px; margin-left:-30px;  border-radius: 25px;" --}}>
+                        <!-- Ganti dengan path gambar profil Anda -->
 
-                            .bxl-youtube:hover {
-                                color: blue !important;
-                            }
-                        </style>
+                        <div class="info">
+                            <h1 style="margin-left:150px; text-align: center; color: #FFF; font-family: Poppins; font-size: 30px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">
 
-                        <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt">
-                            <div style="display: inline-block; position: relative; margin-left: 380px; ">
-                                <div class="yt" style="text-align: center;">
-                                    <div style=" width: 60px; height: 60px; margin-left: 35px;  border-radius: 50%; background-color: white; position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);">
+                                Lebih Dekat dengan Class Program
+
+                            </h1>
+                            <style>
+                                .btnyt:hover .yt {
+                                    background-color: blue;
+                                }
+
+                                .bxl-youtube:hover {
+                                    color: blue !important;
+                                }
+                            </style>
+
+                            <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt">
+                                <div style="display: inline-block; position: relative; margin-left: 150px; ">
+                                    <div class="yt" style="text-align: center;">
+                                        <div style=" width: 60px; height: 60px; margin-left: 35px;  border-radius: 50%; background-color: white; position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);">
+                                        </div>
+                                        <i style="text-align: center;  position: absolute; top: 20%;  margin-left: 35px; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 30px;" class="bx bxl-youtube"></i>
                                     </div>
-                                    <i style="text-align: center;  position: absolute; top: 20%;  margin-left: 35px; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 30px;" class="bx bxl-youtube"></i>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </center>
         </div>
     </section>
 
 
-    <section id="galeri" class="galeri" style="margin-top: -80px; margin-bottom:-50px;">
+    <section id="galeri" class="galeri" style="margin-top: -150px; margin-bottom:-50px;">
         <div class="section-title " style=" font-family: 'Roboto', sans-serif;
                                     text-transform: uppercase;
                                     font-size: 48px;
@@ -1290,9 +1296,9 @@
                                     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.1);">
             <!-- <h2>About</h2> -->
             <div class="left-align" style=" text-align: left;">
-                <h3 style="font-size:40px; color:#000; font-weight: 800;color:black; margin-left: 120px; font-family: 'Manrope'; margin-top:-30px; ">
-                    Janji Mentor untuk <br> Sobat Insans
-                    Insans...</h3>
+                <h3 style="font-size:40px; color:#000; font-weight: 900;color:black; margin-left: 150px; font-family: 'Manrope'; margin-top:30px; ">
+                    <b>Janji Mentor untuk <br> Sobat Insans</b>
+                </h3>
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
         </div>
@@ -1305,7 +1311,7 @@
                 </div> --}}
                 <img src="assets/img/clients/client-1.png" alt="Gambar 1" id="gambar" class="gambar-ukuran-tetap">
             </div>
-            <div class="caption-container" style="font-family: 'Manrope', sans-serif; background: url(assets/img/bg/amplop.png);background-size: cover;  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);">
+            <div class="caption-container" style="margin-left:-100px; border-radius: 25px;  margin-top:-20px; font-family: 'Manrope', sans-serif; background: url(assets/img/bg/amplop.png);background-size: cover;  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);">
                 <ul>
                     <li>
                         <div class="caption caption-1" onclick="changeImage(0)">Menjadi pendengar setiamu</div>
@@ -1331,38 +1337,39 @@
         </div>
     </section>
     <style>
-       .content-switcher {
-        position: absolute;
-        left: 50%;
-        margin-top: 80px;
-        transform: translateX(-50%);
-        display: flex;
-        justify-content: center;
+        .content-switcher {
+            position: absolute;
+            left: 50%;
+            margin-top: 80px;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
 
-    }
+        }
 
-    .icon {
-        width: 10px;
-        height: 10px;
-        border-radius: 50%;
-        margin: 0 5px;
-        cursor: pointer;
-    }
+        .icon {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin: 0 5px;
+            cursor: pointer;
+        }
 
-    .non {
-        background-color: #3498db; /* Warna biru muda untuk ikon tidak aktif */
-    }
+        .non {
+            background-color: #3498db;
+            /* Warna biru muda untuk ikon tidak aktif */
+        }
 
-    .aktif {
-        background-color: #1f3a68; /* Warna biru tua untuk ikon aktif */
-    }
-
+        .aktif {
+            background-color: #1f3a68;
+            /* Warna biru tua untuk ikon aktif */
+        }
     </style>
 
     <section id="testibaru" class="testibaru section-bg">
         <div class="profile-container">
             <p style="margin-left: 10px; font-size:40px;">Cerita Sobat Insans</p>
-            <p1 style="margin-left: 10px;">Yuk Menjadi  Bagian dari Sobat Insans </p1>
+            <p1 style="margin-left: 10px;">Yuk Menjadi Bagian dari Sobat Insans </p1>
             <br>
             <div class="profile-slider" style="margin-left: 10px; height:35% !important;">
                 <div id="profile1" class="profile" style="margin-right: 0% !important">
@@ -1377,7 +1384,7 @@
                     </div>
                 </div>
 
-                <div id="profile2"  class="profile" style="margin-right: 0% !important">
+                <div id="profile2" class="profile" style="margin-right: 0% !important">
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
                         <!-- Ganti dengan path gambar profil Anda -->
@@ -1392,7 +1399,7 @@
                     </div>
                 </div>
 
-                <div id="profile3"  class="profile" style="margin-right: 0% !important">
+                <div id="profile3" class="profile" style="margin-right: 0% !important">
                     <div class="gabung">
                         <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
                         <!-- Ganti dengan path gambar profil Anda -->
@@ -1441,7 +1448,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="content-switcher" >
+                <div class="content-switcher">
                     <div class="content-switcher" style="margin-top: px !importnat;">
                         <div class="icon non"></div>
                         <div class="icon aktif"></div>
@@ -1457,7 +1464,7 @@
             </div>
         </div>
         <script>
-            document.addEventListener("DOMContentLoaded", function () {
+            document.addEventListener("DOMContentLoaded", function() {
                 // Ambil elemen-elemen ikon
                 var icons = document.querySelectorAll(".content-switcher .icon");
 
@@ -1465,10 +1472,10 @@
                 var profiles = document.querySelectorAll(".profile");
 
                 // Tambahkan event listener untuk setiap ikon
-                icons.forEach(function (icon, index) {
-                    icon.addEventListener("click", function () {
+                icons.forEach(function(icon, index) {
+                    icon.addEventListener("click", function() {
                         // Hapus kelas aktif dari semua ikon
-                        icons.forEach(function (i) {
+                        icons.forEach(function(i) {
                             i.classList.remove("active");
                         });
 
@@ -1476,7 +1483,7 @@
                         icon.classList.add("active");
 
                         // Sembunyikan semua profil
-                        profiles.forEach(function (profile) {
+                        profiles.forEach(function(profile) {
                             profile.style.display = "none";
                         });
 
@@ -1503,7 +1510,7 @@
         </style>
         <div class="container" data-aos="fade-up">
             <div class="section-title">
-                <h3 style="text-align: center;">Alur Bimbingan</h3>
+                <h3 style="text-align: center; margin-top: -20px;">Alur Bimbingan</h3>
                 <br>
                 <div class="team-slider">
                     <div class="row" id="team-members">
@@ -1569,7 +1576,7 @@
     <!-- ======= Frequently Asked Questions Section ======= -->
 
 
-    <section id="faq" class="faq section-bg" >
+    <section id="faq" class="faq section-bg">
         <div class=" background-faq">
         </div>
         <div class="container" data-aos="fade-up">
@@ -1788,19 +1795,15 @@
 
         const images = [
             "assets/img/clients/client-1.png",
-            "assets/img/clients/client-2.png",
-            "assets/img/clients/client-3.png",
-            "assets/img/clients/client-4.png",
-            "assets/img/clients/client-5.png",
-            "assets/img/clients/client-6.png",
+
         ];
 
         const imagesElements = document.getElementsByClassName('gambar-ukuran-tetap');
 
         for (let i = 0; i < imagesElements.length; i++) {
-            imagesElements[i].style.width = '300px';
-            imagesElements[i].style.height = '200px';
-            imagesElements[i].style.marginTop = '50px';
+            imagesElements[i].style.width = '400px';
+            imagesElements[i].style.height = '300px';
+            imagesElements[i].style.marginTop = '10px';
         }
 
 

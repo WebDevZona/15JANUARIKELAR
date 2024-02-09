@@ -46,7 +46,7 @@
 
     <!-- ======= Hero Section ======= -->
     {{-- Header atas --}}
-    <section id="about" class="heada" style="background: url(assets/img/bg/utama.png);background-size: cover; ">
+    <section id="about" class="heada" style="background: url(assets/img/bg/utama.png);background-size: cover; margin-top:100px;">
         <div class="container" data-aos="fade-up">
             <div class="section-title">
                 <h3 style="font-size:40px !important; font-family:Manrope !important; font-weight:900;">Pelatihan Skripsi</h3>
@@ -150,7 +150,7 @@
                                     <img src="assets/img/logo/video.png" class="img-fluid" style="width: 180px;" alt="">
                                 </div>
                                 <div class="member-infoo" style="margin-top: -10px;">
-                                    <p  style="font-size: 15px !important;">Sobat Insans akan mendapatkan resume materi berupa video dari Mentor kelas pelatihan skripsi</p>
+                                    <p style="font-size: 15px !important;">Sobat Insans akan mendapatkan resume materi berupa video dari Mentor kelas pelatihan skripsi</p>
                                 </div>
                             </div>
                         </div>
@@ -158,7 +158,7 @@
 
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                         <div class="custom-box" style="height: 360px; border-radius: 20px; margin-left:25px;  border: 2px solid #020202;">
-                            <strong href="#pricing" class="btn-get-started3 scrollto" style="font-family: Montserrat; font-size:15px !important;" >Grup Sharing</strong>
+                            <strong href="#pricing" class="btn-get-started3 scrollto" style="font-family: Montserrat; font-size:15px !important;">Grup Sharing</strong>
                             <div class="konsultasi-content">
                                 <div class="member-img">
                                     <!-- Ganti sumber gambar dengan gambar PNG yang memiliki latar belakang transparan -->
@@ -255,7 +255,7 @@
                         <img src="assets/img/team/team-1.jpg" style=" width: 300px;" alt="Image 1">
                     </div>
                     <div class="name">
-                        <h3  style="margin-top:-10px;">Jonathan Cristie</h3>
+                        <h3 style="margin-top:-10px;">Jonathan Cristie</h3>
                         <h4 style="margin-top:-10px;">Mentor</h4>
                     </div>
                 </div>
@@ -404,7 +404,7 @@
         <img src="assets/img/bg/kananatasfaq.png" style="position: absolute; top: 0; right: 0; width: 200px; height: 250px;" alt="">
         <img src="assets/img/bg/kirifaq.png.png" style="position: absolute; bottom: 0; left: 0; width: 200px; height: 250px;" alt="">
         <div class="background-faq"></div>
-        <div class="container kontener aos-init aos-animate"  data-aos="fade-up">
+        <div class="container kontener aos-init aos-animate" data-aos="fade-up">
             <div class="col-xl-12"> <!-- Gunakan kolom penuh lebar untuk memastikan accordion berada di tengah -->
                 <div class="section-title" style="margin-top:150px;margin-bottom: 20px;
             ">
@@ -480,7 +480,7 @@
                     <div class="accordion-item">
                         <div class="accordion-header" onclick="toggleAccordion(1)">
                             <div style="color: #000000; font-size: 18px; font-family: font-family: 'Nunito', sans-serif !important;  font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                1.</div><b style="    margin-left: -300px; font-family: 'Nunito', sans-serif !important; 
+                                1.</div><b style="    margin-left: -300px; font-family: 'Nunito', sans-serif !important;
                                 "> Siapa pemateri workshop skripsi?</b>
                             <div class="icon">+</div>
                         </div>
@@ -504,7 +504,7 @@
                     <div class="accordion-item">
                         <div class="accordion-header" onclick="toggleAccordion(3)">
                             <div style="color: #000000; font-size: 18px;font-family: 'Nunito', sans-serif !important;  font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                3.</div><b style="    margin-left: -220px; font-family: 'Nunito', sans-serif !important; 
+                                3.</div><b style="    margin-left: -220px; font-family: 'Nunito', sans-serif !important;
                                 "> Apa saja persyaratan ikut workshop skripsi?</b>
                             <div class="icon">+</div>
                         </div>
@@ -517,7 +517,7 @@
                     <div class="accordion-item">
                         <div class="accordion-header" onclick="toggleAccordion(4)">
                             <div style="color: #000000; font-size: 18px; font-family: 'Nunito', sans-serif !important;  font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                4.</div><b style="    margin-left: -350px; font-family: 'Nunito', sans-serif !important; 
+                                4.</div><b style="    margin-left: -350px; font-family: 'Nunito', sans-serif !important;
                                 "> Apa saja isi workshopnya?</b>
                             <div class="icon">+</div>
                         </div>
@@ -529,7 +529,7 @@
                     <div class="accordion-item">
                         <div class="accordion-header" onclick="toggleAccordion(5)">
                             <div style="color: #000000; font-size: 18px; font-family: 'Nunito', sans-serif !important;  font-weight: 700;  letter-spacing: 0.25px; word-wrap: break-word; margin-right:10px;">
-                                5.</div><b style="    margin-left: -250px; font-family: 'Nunito', sans-serif !important; 
+                                5.</div><b style="    margin-left: -250px; font-family: 'Nunito', sans-serif !important;
                                 "> Fasilitas apa saja yang akan didapatkan?</b>
 
                             <div class="icon">+</div>
@@ -556,11 +556,11 @@
                         }
                     }
                 </script>
-                </div>
             </div>
+        </div>
     </section>
 
-  
+
 
 
     <!--   <section id="qna" class="qna" style="color:#e4ebf7;">

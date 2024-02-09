@@ -64,7 +64,7 @@
             margin-left: 20px;
             margin-right: 20px;
             width: 100rem;
-            height: 45rem;
+            height: 47rem;
             margin-top: -50px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 20px 0px 20px 0px;
@@ -106,13 +106,13 @@
             /* warna menarik lainnya */
         }
     </style>
-    <section class="d-flex align-items-center">
+    <section class="d-flex align-items-center" style="margin-top: 100px;">
         <div class="card">
             <div class="card-body">
                 <h1 class="card-title" style=" margin-top:px; color: var(--Midnight-Blue-950, #09326F); font-weight: 800; text-align: center;">Unggah Bukti Pembayaran</h1>
                 <h3 style="text-align: center; font-size:18px;"> Silakan lakukan pembayaran untuk paket <span class="product-name">{{ $products->first()->nama_produk }}</span>
-                    dengan total harga <span class="total-price">{{ number_format($products->first()->harga) }}</span>
-                    ke nomor rekening di samping.</h3>
+                    dengan total harga <span class="total-price">{{ number_format($products->first()->harga) }}, </span>
+                    ke nomor rekening di bawah ini. Mohon mencantumkan Transaction ID saat melakukan transaksi.</h3>
 
                 <div class="col-sm-12">
                     <div class="card-body" style="border-top: 2px dashed #1b5cc5; border-bottom: 2px dashed #1b5cc5;">
@@ -126,7 +126,7 @@
                                                     Recipient
                                                 </b>
                                             </td>
-                                            <td style="text-align: left;"><b>Arif Muhammad</b></td>
+                                            <td style="text-align: left;"><b>Agil Ma'mun Muhammad</b></td>
                                         </tr>
                                         <tr>
                                             <td style="text-align: left; font-weight: bold;">
@@ -142,7 +142,39 @@
                                                     Account Number</h6>
                                                 </b>
                                             </td>
-                                            <td style="text-align: left;"><b>8930462013</b></td>
+                                            <td id="accountNumber" style="text-align: left;"><b>3151268267</b>
+                                                <i style="margin-left:35px;" class=" far fa-copy" onclick="copyToClipboard('accountNumber', 'Text Copied!')"></i>
+                                            </td>
+                                            <style>
+                                                #copyButton {
+                                                    background-color: #4CAF50;
+                                                    color: white;
+                                                    padding: 10px 15px;
+                                                    border: none;
+                                                    border-radius: 5px;
+                                                    cursor: pointer;
+                                                    transition: background-color 0.3s;
+                                                }
+
+                                                #copyButton:hover {
+                                                    background-color: #45a049;
+                                                }
+                                            </style>
+
+                                            <script>
+                                                function copyToClipboard(elementId, successMessage) {
+                                                    var text = document.getElementById(elementId).innerText;
+                                                    navigator.clipboard.writeText(text)
+                                                        .then(() => {
+                                                            console.log('Copied to clipboard:', text);
+                                                            if (successMessage) {
+                                                                // Display a success message
+                                                                document.getElementById(elementId).innerHTML += ' (Copied)';
+                                                            }
+                                                        })
+                                                        .catch((err) => console.error('Unable to copy text', err));
+                                                }
+                                            </script>
                                         </tr>
                                         <tr>
                                             <td style="text-align: left; font-weight: bold;">
@@ -150,7 +182,42 @@
                                                     Transaction ID
                                                 </b>
                                             </td>
-                                            <td style="text-align: left;"><b>2435GASFD7523</b></td>
+                                            <td id="idTransaksi" style="text-align: left;"><b>
+
+                                                    {{ $token_transaksi }}
+                                                    <i style="margin-left:35px;" class=" far fa-copy" onclick="copyToClipboard('idTransaksi', 'Text Copied!')"></i>
+
+                                                </b></td>
+                                            <style>
+                                                #copyButton {
+                                                    background-color: #4CAF50;
+                                                    color: white;
+                                                    padding: 10px 15px;
+                                                    border: none;
+                                                    border-radius: 5px;
+                                                    cursor: pointer;
+                                                    transition: background-color 0.3s;
+                                                }
+
+                                                #copyButton:hover {
+                                                    background-color: #45a049;
+                                                }
+                                            </style>
+
+                                            <script>
+                                                function copyToClipboard(elementId, successMessage) {
+                                                    var text = document.getElementById(elementId).innerText;
+                                                    navigator.clipboard.writeText(text)
+                                                        .then(() => {
+                                                            console.log('Copied to clipboard:', text);
+                                                            if (successMessage) {
+                                                                // Display a success message
+                                                                document.getElementById(elementId).innerHTML += ' (Copied)';
+                                                            }
+                                                        })
+                                                        .catch((err) => console.error('Unable to copy text', err));
+                                                }
+                                            </script>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -186,7 +253,7 @@
                     <!-- Existing content container -->
                     <div class="card-container" ondragover="allowDrop(event)" ondrop="handleDrop(event)">
                         <div class="existing-content">
-                            <img src="assets/img/logo/Upload.png" style="margin-top: -150px; width: 80px;" alt="">
+                            <img src="assets/img/logo/Upload.png" style="width: 80px;" alt="">
                             <h5 class="card-title">Upload </h5>
                             <div class="input-group" style="margin-top: -2px;">
                                 <input type="file" class="form-control" name="foto" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">

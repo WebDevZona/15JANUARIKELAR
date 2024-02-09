@@ -38,12 +38,9 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
     <style>
-        /* body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        } */
+        body {
+            z-index: 0;
+        }
 
         .luar {
             max-width: 950px;
@@ -584,7 +581,7 @@
 <body>
     <!-- Your header section -->
 
-    <div class="luar">
+    <div class="luar" style="margin-top: 110px;">
         <div class="pembayaran">
             <!-- Formulir Pendaftaran -->
             <h3 style="color: #333;">Form Data Diri</h3>
@@ -611,6 +608,7 @@
                             <option value="laki-laki">Laki-Laki</option>
                             <option value="perempuan">Perempuan</option>
                         </select>
+
                     </div>
 
                     <div class="col-md-6">
@@ -633,11 +631,12 @@
                     <div class="col-md-4">
                         <label for="id_jurusan">Pilih Jurusan</label>
                         <select id="jurasanSelect" name="id_jurusan">
-                            <option value="">-- Pilih Jurusan --</option>
+                            <option>-- Pilih Jurusan -- </option>
                             @foreach($datas as $mentor)
                             <option value="{{$mentor->nama}}" data-publish="{{$mentor->publish}}" data-nama="{{$mentor->nama}}">{{$mentor->nama}}</option>
                             @endforeach
                         </select>
+
                     </div>
 
                     <div class="col-md-4">
@@ -647,7 +646,7 @@
 
 
                     <!-- untuk ngasih id waktu mau pembayaran -->
-                    <input type="hidden" value="CP008{{ $Users->id }}" id="token_transaksi" name="token_transaksi" placeholder="token_transaksi">
+                    <input type="hidden" value="CP024{{ date('md') }}{{ $Users->id }}" id="token_transaksi" name="token_transaksi" placeholder="token_transaksi">
 
                     <div class=" card col-12">
                         <h3 style="color: #333; margin-top:30px;">Details Pembayaran</h3>
@@ -688,14 +687,14 @@
                             Swal.fire({
                                 icon: 'error',
                                 title: 'Oops...',
-                                text: 'Silakan pilih jurusan!',
+                                text: 'Silahkan pilih jurusan terlebih dahulu!',
                             });
                         } else if ($('#jurasanSelect').find(':selected').data('publish') !== 'ya') {
                             // Show the SweetAlert popup for non-published major
                             Swal.fire({
                                 icon: 'warning',
-                                title: 'Jurusan Tidak Tersedia',
-                                text: 'Yuk pilih jurusan lain.....................',
+                                title: 'Sayang sekali',
+                                text: 'Mentor yang sesuai dengan jurusan kamu sedang full. Silahkan hubungi Minma, biar kamu segera dapat Mentor baru.',
                                 confirmButtonText: 'OK'
                             });
                         } else {

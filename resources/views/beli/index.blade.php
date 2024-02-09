@@ -81,6 +81,9 @@
                                     <div style="width:110px;">Foto Bukti Pembayaran</div>
                                 </th>
                                 <th>
+                                    <div style="width:110px;">ID Transaksi</div>
+                                </th>
+                                <th>
                                     <div style="width:110px;">Aksi</div>
                                 </th>
                             </tr>
@@ -106,6 +109,7 @@
                                     <p>Tidak ada foto profil.</p>
                                     @endif
                                 </td>
+                                <td>{{$beli->token_transaksi}}</td>
                                 <td>
                                     <!-- <a href="{{ route('beli.edit', $beli->id) }}" class="btn btn-warning">Edit</a> -->
                                     <form action="{{ route('beli.destroy', $beli->id) }}" method="POST" style="display: inline;">

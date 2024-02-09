@@ -43,17 +43,19 @@
 
 
 <body>
-    <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/Minma.png); background-size: cover; margin-top: -30px; margin-left: -10px; margin-right: 0.1px; height: 100vh;">
+    <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/Minma.png); background-size: cover; margin-top: 100px; margin-left: -10px; margin-right: 0.1px; height: 100vh;">
         <style>
             .wa {
                 color: #fff;
+
             }
         </style>
         <div class="wa" style="text-align: center; width: 100%; margin-top:-100px; color:FFF;">
             <div style="margin-left: 30%; margin-top: -70px; margin-bottom: -450px; transform: translateX(-50%);">
-                <p class="mt-4" style="font-size: 30px; margin-bottom: 0px; color:FFF;"><b>Silahkan Konfirmasi</b> <br> Pembayaran Melalui Minma </p>
-                <a href="javascript:void(0);" onclick="openWhatsApp()" style="text-decoration: none; margin-top:30px;">
-                    <div style="width: 400px; padding: 10px; margin-top:30px; background: #FFF; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+                <p class="mt-4" style="font-size: 30px; margin-bottom: 0px; color:FFF;"><b>Kamu siap untuk bimbingan nih!</b> </p>
+                <p style="font-size: 30px; margin-top:-15px;  margin-bottom: 0px; color:FFF;">Silahkan konfirmasi pembayaran terlebih dahulu melalui Minma</p>
+                <a href="" onclick="openMinma()" style="text-decoration: none; margin-top:20px;">
+                    <div style="width: 400px; padding: 10px; margin-top:20px; background: #FFF; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
                         <div style="letter-spacing: 1px; width: 500px; color: blue; font-size: 20px; font-family: Montserrat; font-weight: 600; line-height: 37.50px; word-wrap: break-word">
                             Admin Class Program
                             <img style="width: 50px;" src="assets/img/logo/wa2.png" alt="">
@@ -63,10 +65,10 @@
             </div>
         </div>
         <script>
-            function openWhatsApp() { 
+            function openMinma() {
                 var message =
-                    "Hallo Minma. Saya mau tanya-tanya nih mengenai Program Kelas di Class Program."; // Pesan yang ingin Anda kirim
-                var phoneNumber = "6281234361959"; // Nomor WhatsApp yang dituju (tanpa tanda '+')
+                    "Halo Sobat (Nama). Terimakasih sudah mendaftar, silahkan pilih paket bimbingan sesuai kebutuhanmu, ya."; // Pesan yang ingin Anda kirim
+                var phoneNumber = "6281234561959"; // Nomor WhatsApp yang dituju (tanpa tanda '+')
 
                 // Membuat URL untuk mengarahkan pengguna ke halaman WhatsApp
                 var whatsappURL = "https://api.whatsapp.com/send?phone=" + phoneNumber + "&text=" + encodeURIComponent(message);
@@ -74,24 +76,10 @@
                 window.open(whatsappURL, "_blank");
             }
         </script>
+
+
     </section>
 
-    <!-- <div class="row ml-5 mr-5 mt-5 mb-5">
-        <div class="col-sm-6">
-            <div class="">
-                <div class="card-body">
-                    <img src="assets/img/bg/uploadp.png" class="card-img-top" alt="...">
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-6">buktipembayaran.png
-            <div class="">
-                <div class="card-body">
-                    <img src="assets/img/bg/bcaaa.png" class="card-img-top" alt="...">
-                </div>
-            </div>
-        </div>
-    </div> -->
 </body>
 
 </html>

@@ -7,12 +7,14 @@
     <title>Class Program</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <!-- Favicons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="assets/img/logo/logo2.png" rel="icon">
     <link href="assets/img/logo/logo2.png" rel="assets/img/logo/logo2.png">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-vi2eEQZjYqVQOvz3okDP72VMs5P4YuiFqAFO9fDShDAg0xwM4E1tC+t6WT50QOOl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     <style>
@@ -386,10 +388,13 @@
 </head>
 
 <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
     <div class="login-container col-lg-6 col-md-12">
         @if(session('sukses'))
         <div class="callout callout-success alert alert-success alert-dismissible fade show" role="alert">
-            <h5><i class="fas fa-check"></i> Sukses :</h5>
+            <h5><i class="fa-solid fa-check"></i> Sukses :</h5>
             {{session('sukses')}}
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -398,7 +403,7 @@
         @endif
         @if(session('error'))
         <div class="callout callout-danger alert alert-danger alert-dismissible fade show" role="alert">
-            <h5><i class="fas fa-info"></i> Peringatan :</h5>
+            <h5><i class="fa-solid fa-info"></i>Peringatan :</h5>
             {{session('error')}}
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
@@ -427,9 +432,9 @@
 
 
         <form id="registration-form" method="POST" action="{{ route('registration.submit') }}">
-            <h1 style="font-size: 45px; color:#000; margin-top: 15px;"><strong> Daftar <br> Akun Class Program</strong></h1>
+            <h1 style="font-size: 45px; color:#000; margin-top: 15px; font-family:montserrat; "><strong> Daftar Akun <br> Class Program</strong></h1>
 
-            <h4 style="font-size: 25px; margin-top:-10px;">Sudah punya akun?<a href="login">Masuk, yuk!</a> </h4>
+            <h4 style="font-size: 25px; margin-top:-10px; font-family:montserrat; ">Sudah punya akun? <a href="login">Masuk yuk!</a> </h4>
 
             <!-- <hr style="margin-right:10%;margin-left:10%; border: 1px solid grey;"> -->
             @csrf
@@ -444,7 +449,7 @@
 
                 <div class="input-icon">
 
-                    <input type="email" name="email" class="form-control bg-light" id="email-step-1" placeholder="email" required oninvalid="this.setCustomValidity('Pastikan anda sudah mengisikan email dengan format yang benar !')" oninput="setCustomValidity('')">
+                    <input type="email" name="email" class="form-control bg-light" id="email-step-1" placeholder="Email">
                 </div>
             </div>
             <div class="form-group">
@@ -456,34 +461,41 @@
                 </div>
 
                 <div class="input-icon">
-                    <input name="name" type="text" class="form-control bg-light" id="name" placeholder="Nama" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                    <input name="name" id="name" type="text" class="form-control bg-light" placeholder="Nama">
+
+                    <!-- <input name="name" type="text" class="form-control bg-light" id="name" placeholder="Nama" > -->
                 </div>
             </div>
+
             <div class="form-group">
                 <div class="input-icon">
                     <span class="input-icon__icon">
                         <i class="fa fa-lock"></i>
                     </span>
-                    <label for="password" style="font-size:13px; display: inline-block; margin-left: 5px;">Password:</label>
+                    <label for="password" style="font-size: 13px; display: inline-block; margin-left: 5px;">Password:</label>
                 </div>
                 <div class="input-group">
-                    <input id="password" type="password" name="password" class="form_login" placeholder="Password" required oninvalid="this.setCustomValidity('Harap masukkan password !')" oninput="setCustomValidity('')">
+
+                    <input id="password" type="password" name="password" class="form-control" placeholder="Password">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-primary" type="button" id="togglePassword" style="background-color:#4169E1;  height:45px; margin-left:430px; margin-top: -45px;">
-                            <i class="fas fa-eye" id="password-toggle-icon"></i>
+                        <button class="btn btn-outline-primary" type="button" id="togglePassword" style="background-color: #4169E1; height: 40px; line-height: 40px;">
+                            <i class="fas fa-eye" id="password-toggle-icon" style="vertical-align: middle; margin-top:-20px"></i>
                         </button>
+
                     </div>
                 </div>
             </div>
 
+
+
             <!-- Tambahkan ID next-button-step-1 pada tombol Selanjutnya berikut -->
             <button type="button" id="next-button-step-1">
-                <span style="margin-right: 5px;"></span> <i class="fa fa-arrow-right"> Next </i>
+                <span style="margin-right: 5px;"></span> Lanjut <i class="fa fa-arrow-right"> </i>
             </button>
         </form>
 
         <div>
-            <center style="margin-top: -40px;">
+            <center style="margin-top: -40px; margin-left:-60px">
                 <div class="form-groupz">
                     <button type="submit">
                         <span><img src="assets/img/logo/gogle.png"></span> Masuk dengan Google
@@ -493,74 +505,84 @@
         </div>
 
 
+
         <!-- Step 2: Name Input (Initially hidden) -->
-        <div id="step-2" style="display: none; margin-top:-50px;">
+        <div id="step-2" style="display: none;">
+
+
             <form id="registration-form-2" method="POST" action="{{ route('registration.submit') }}" novalidate>
+                <center style="margin-top: 30px;">
+                    <h1 style="text-aligen:center; font-size: 45px; color:#000; margin-top: 15px; font-family:montserrat; "><strong>Lengkapi Data Diri</strong></h1>
+                    <h4 style="font-size: 25px; margin-top:-10px; font-family:montserrat; ">Sudah punya akun? <a href="login">Masuk yuk!</a> </h4>
+                </center>
                 @csrf
-                <div class="icon-label" style="margin-top: 40px;">
-                    <i class="fas fa-calendar"></i>
-                    Tanggal Lahir
-                    <input name="ttl" type="date" class="form-control bg-light" id="ttl" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col">
+                        <i class="fas fa-calendar"></i>
+                        Tanggal Lahir
+                        <input name="ttl" type="date" class="form-control bg-light" id="ttl">
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Alamat
+                        <input name="asal" id="asal" type="text" class="form-control bg-light" id="asal" placeholder="Alamat" required>
+                    </div>
                 </div>
-                <div class="icon-label">
-                    <i class="fas fa-map-marker-alt"></i>
-                    Alamat
-                    <input name="asal" type="text" class="form-control bg-light" id="asal" placeholder="Alamat" required>
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col">
+                        <i class="fas fa-phone-alt"></i>
+                        Nomor Hand Phone
+                        <input name="nomer" type="text" class="form-control bg-light" id="nomer" placeholder="Nomor Hand Phone">
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-venus-mars"></i>
+                        Jenis Kelamin
+                        <select name="jeniskelamin" id="jeniskelamin" class="form-control bg-light">
+                            <option value="laki">Laki-laki</option>
+                            <option value="perempuan">Perempuan</option>
+                        </select>
+                    </div>
+
                 </div>
-                <div class="icon-label">
-                    <i class="fas fa-phone-alt"></i>
-                    Nomor HP
-                    <input name="nomer" type="number" class="form-control bg-light" id="nomer" placeholder="Nomor HP" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                </div>
-                <div class="icon-label">
-                    <i class="fas fa-venus-mars"></i>
-                    Jenis Kelamin
-                    <select name="jeniskelamin" id="jeniskelamin" class="form-control bg-light" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                        <option value="laki">Laki-laki</option>
-                        <option value="perempuan">Perempuan</option>
-                    </select>
-                </div>
-                <div class="icon-label">
-                    <i class="fas fa-university"></i>
-                    Kampus
-                    <input name="kampus" type="text" class="form-control bg-light" id="kampus" placeholder="Kampus" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                </div>
-                <div class="icon-label">
-                    <i class="fas fa-book"></i>
-                    Jurusan
-                    <input name="jurusan" type="text" class="form-control bg-light" id="jurusan" placeholder="jurusan" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
-                </div>
-                <div class="icon-label">
-                    <i class="fas fa-calendar-alt"></i>
-                    Semester
-                    <input name="semester" type="number" class="form-control bg-light" id="semester" placeholder="Semester" required oninvalid="this.setCustomValidity('Isian ini tidak boleh kosong !')" oninput="setCustomValidity('')">
+                <div class="row" style="margin-top: 50px;">
+                    <div class="col">
+                        <i class="fas fa-university"></i>
+                        Kampus
+                        <input name="kampus" id="kampus" type="text" class="form-control bg-light" id="kampus" placeholder="Kampus">
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-book"></i>
+                        Jurusan
+                        <input name="jurusan" id="jurusan" type="text" class="form-control bg-light" id="jurusan" placeholder="Jurusan">
+                    </div>
+                    <div class="col">
+                        <i class="fas fa-calendar-alt"></i>
+                        Semester
+                        <input name="semester" type="number" class="form-control bg-light" id="semester" placeholder="Semester">
+                    </div>
                 </div>
 
                 <input type="hidden" name="email" id="email-step-2">
                 <input type="hidden" name="password" id="password-step-2">
                 <input type="hidden" name="name" id="name-step-2">
                 {{-- <button type="button" id="prev-button-step-2">
-                <
-            </button> --}}
+                    <
+                </button> --}}
 
 
                 <button type="submit" id="submit-button" class="icon-label">
+                    Daftar
                     <i class="fas fa-check"></i>
-                    Submit
                 </button>
             </form>
         </div>
     </div>
 
-
     <!-- Step 3: Address Input (Initially hidden) -->
-
-
-
     <div class="login-terbaru col-lg-6 col-md-0">
 
         <div class="back-to-home">
-            <a href="/" style="color:white;"><i class="fa fa-arrow-left"> Kembali ke Homepage</i></i></a>
+            <a href="/" style="color:white;"><i class="fa fa-arrow-left"></i> Kembali ke Homepage</i></a>
         </div>
         <p></p>
         <center>
@@ -573,11 +595,35 @@
         </div>
 
     </div>
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-    <script>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Jumlah elemen input yang akan ditangani
+            var numInputs = 4;
+
+            // Loop untuk menangani setiap elemen input
+            for (var i = 1; i <= numInputs; i++) {
+                var inputElement = document.getElementById('name-step-' + i);
+
+                // Menambahkan event listener pada setiap elemen input
+                inputElement.addEventListener('input', function(event) {
+                    var inputText = event.target.value;
+                    event.target.value = capitalizeFirstLetter(inputText);
+                });
+            }
+
+            // Fungsi untuk membuat huruf pertama dari setiap kata menjadi huruf besar
+            function capitalizeFirstLetter(text) {
+                return text.replace(/\b\w/g, function(char) {
+                    return char.toUpperCase();
+                });
+            }
+        });
     </script>
+
     <script>
         // Mendapatkan referensi elemen-elemen yang dibutuhkan
         const emailInputStep1 = document.getElementById('email-step-1');
@@ -648,22 +694,30 @@
         // ... tambahkan event listener lainnya untuk langkah-langkah lainnya ...
     </script>
 
-
     <script>
-        // Menggunakan nama variabel yang berbeda untuk password input
-        var passwordInputToggle = document.getElementById("password");
-        var togglePasswordButton = document.getElementById("togglePassword");
+        document.addEventListener("DOMContentLoaded", function() {
+            const passwordInputToggle = document.getElementById("password");
+            const togglePasswordButton = document.getElementById("togglePassword");
+            const passwordToggleIcon = document.getElementById("password-toggle-icon");
 
-        togglePasswordButton.addEventListener("click", function() {
-            if (passwordInputToggle.type === "password") {
-                passwordInputToggle.type = "text";
-                togglePasswordButton.classList.add("show-password");
-            } else {
-                passwordInputToggle.type = "password";
-                togglePasswordButton.classList.remove("show-password");
-            }
+            togglePasswordButton.addEventListener("click", function() {
+                const type = passwordInputToggle.getAttribute("type") === "password" ? "text" : "password";
+                passwordInputToggle.setAttribute("type", type);
+
+                // Change eye icon based on password visibility
+                passwordToggleIcon.className = type === "password" ? "fas fa-eye" : "fas fa-eye-slash";
+            });
         });
     </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.alert .close').on('click', function() {
+                $(this).closest('.alert').fadeOut();
+            });
+        });
+    </script>
+
 </body>
 
 </html>
