@@ -19,25 +19,114 @@
             <div class="masbro">
                 <a href="/index"><img src="{{ asset('assets/img/logo/logo1.png') }}" class="logo" alt="Deskripsi Gambar"></a>
             </div>
+            <!-- header.blade.php -->
+            <!-- header.blade.php -->
             <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-            <form class="search-form" action="#" method="get">
-                <input class="search-input" type="text" id="query" name="query" placeholder="Apa yang sedang kamu cari?">
-                <button class="search-button" type="submit">CARI</button>
-            </form>
             <script>
-                // jQuery code to handle form submission
-                $(document).ready(function() {
+                document.addEventListener("DOMContentLoaded", function() {
+                    const searchInput = document.getElementById("searchInput");
+                    const searchResults = document.getElementById("searchResults");
+
+                    // Fungsi untuk melakukan pencarian di dalam hero section
+                    function searchInHeroSection() {
+                        const searchTerm = searchInput.value.toLowerCase();
+                        const heroSection = document.getElementById("hero");
+                        const heroOffset = heroSection.offsetTop + heroSection.offsetHeight;
+
+                        // Membersihkan hasil pencarian sebelumnya
+                        searchResults.innerHTML = "";
+
+                        let hasResults = false;
+
+                        const text = heroSection.textContent.toLowerCase();
+                        if (text.includes(searchTerm)) {
+                            const clone = heroSection.cloneNode(true);
+                            searchResults.appendChild(clone);
+                            hasResults = true;
+                        }
+
+                        if (!hasResults) {
+                            // Tambahkan logika untuk menampilkan pesan "tidak ada hasil" jika diperlukan
+                        }
+
+                        // Gulir ke bawah section content
+                        window.scrollTo({
+                            top: heroOffset,
+                            behavior: 'smooth'
+                        });
+                    }
+
+                    // Fungsi untuk melakukan pencarian di seluruh konten
+                    function search() {
+                        const searchTerm = searchInput.value.toLowerCase();
+                        const contentSections = document.querySelectorAll("[data-section='index']");
+                        const firstSection = contentSections[0];
+                        const firstSectionOffset = firstSection.offsetTop;
+
+                        // Membersihkan hasil pencarian sebelumnya
+                        searchResults.innerHTML = "";
+
+                        let hasResults = false;
+
+                        contentSections.forEach(section => {
+                            const text = section.textContent.toLowerCase();
+                            if (text.includes(searchTerm)) {
+                                const clone = section.cloneNode(true);
+                                searchResults.appendChild(clone);
+                                hasResults = true;
+                            }
+                        });
+
+                        if (!hasResults) {
+                            searchInHeroSection();
+                        }
+
+                        // Gulir ke bawah section content jika tidak ada hasil di section index
+                        if (!hasResults) {
+                            window.scrollTo({
+                                top: firstSectionOffset,
+                                behavior: 'smooth'
+                            });
+                        }
+                    }
+
+                    // Menjalankan fungsi pencarian setiap kali nilai input berubah
+                    searchInput.addEventListener("input", search);
+
+                    // Check if there's a query parameter in the URL
+                    const urlParams = new URLSearchParams(window.location.search);
+                    const queryFromURL = urlParams.get('query');
+                    if (queryFromURL) {
+                        // Set the search input value to the query parameter
+                        searchInput.value = decodeURIComponent(queryFromURL);
+                        // Perform search on page load
+                        search();
+                    }
+
+                    // jQuery code to handle form submission
                     $('#searchForm').submit(function(event) {
-                        event.preventDefault(); // Prevent the default form submission
+                        event.preventDefault();
 
                         // Get the value from the input field
-                        var query = $('#query').val();
+                        var query = $('#searchInput').val();
 
-                        // Perform your search logic here (replace this with your actual search functionality)
-                        alert('Performing search for: ' + query);
+                        // Update the URL with the new query parameter
+                        history.pushState(null, null, '/index?query=' + encodeURIComponent(query));
+
+                        // Perform search
+                        search();
                     });
                 });
             </script>
+
+
+            <!-- Form for search -->
+            <form class="search-form" id="searchForm" action="#" method="get">
+                <input class="search-input" type="text" id="searchInput" name="query" placeholder="Apa yang sedang kamu cari?">
+                <button class="search-button" type="submit">CARI</button>
+            </form>
+
+            <!-- Your header content goes here -->
             {{-- <a href="/tentang" class=""><i style="padding:10px;">Tentang</i>|</a>
             <a href="#" class="facebook"><i style="padding:10px;">FAQ</i> |</a>
             <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" target='_blank'><i class="bi bi-youtube"style="padding:10px;"></i></a>
@@ -273,6 +362,26 @@
 </header>
 
 <style>
+    /* Gaya tambahan untuk elemen hasil pencarian */
+    #searchResults {
+        position: absolute;
+        top: 80px;
+        /* Sesuaikan dengan tinggi elemen #topbar dan elemen header Anda */
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        z-index: 1001;
+        /* Lebih tinggi dari z-index elemen #header */
+        display: none;
+        /* Sembunyikan secara default */
+    }
+
+    #searchResults.active {
+        display: block;
+        /* Tampilkan ketika memiliki kelas "active" */
+    }
+
     #topbar {
         position: fixed;
         top: 0;

@@ -36,9 +36,10 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
 </head>
-@extends('layout.header')
-@section('content')
 
+@extends('layout.header')
+
+@section('content')
 
 <body>
 
@@ -896,7 +897,8 @@
                                     <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link">
                                         <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" class="thumbnail" style="width: 80%;" />
                                         <svg class="play-icon" style="top: 50% !important; left:40%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                            <image href="assets/img/bg/play-youtube.png" width="24" height="24" opacity="0.80"/>                                        </svg>
+                                            <image href="assets/img/bg/play-youtube.png" width="24" height="24" opacity="0.80" />
+                                        </svg>
                                     </a>
                                     <p style="color: black; font-size: 12px !important; width:80% !important;text-align: left;">Video: <span style="color: black; font-size: 12px !important;">{{ str_limit($penegnbalikcuk->judul, 30, '. . .') }}</span>
                                     </p>
@@ -1514,7 +1516,7 @@
                     <div class="row" id="team-members">
                         <!-- Anggota Tim 1 -->
                         <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200" style="margin-left:-10px !important;">
-                            <div class="konsultasi-content" >
+                            <div class="konsultasi-content">
                                 <div class="member-img">
                                     <img src="assets/img/bg/cuate.png" class="img-fluid" style="width: 90%; margin-top:36px;" alt="">
                                 </div>

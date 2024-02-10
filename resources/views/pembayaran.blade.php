@@ -647,18 +647,24 @@
 
                     <!-- untuk ngasih id waktu mau pembayaran -->
                     <input type="hidden" value="CP024{{ date('md') }}{{ $Users->id }}" id="token_transaksi" name="token_transaksi" placeholder="token_transaksi">
+                    <!-- di dalam file pembayaran.blade.php -->
+
+                    <input type="hidden" value="{{ $Produk->harga }}" id="harga" name="harga" placeholder="harga">
+
 
                     <div class=" card col-12">
-                        <h3 style="color: #333; margin-top:30px;">Details Pembayaran</h3>
+                        <h3 style="color: #333; margin-top:30px;">Detail Pesanan</h3>
                         <b> <span>Program: {{$Produk->nama_produk}}</span> <br>
                             <span>Paket: {{ $pengertian->first()->judul }}</span> <br>
 
                             <span>Harga: {{ number_format($Produk->harga) }}</span></b>
                         <div class="order-total">
-                            <span>Total Harga: {{ number_format($Produk->harga )}}</span> <br>
+                            <!-- di dalam file pembayaran.blade.php -->
+                            <span id="hargaSpan">Harga: {{ number_format($Produk->harga) }}</span></b>
+
                             <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
                             <div class="text-right" style="margin-left: 80%; marin-top:-20px">
-                                <button type="submit" class="btn btn-primary" style="width: 150px;">
+                                <button id="btnBayar" type="submit" class="btn btn-primary" style="width: 150px;">
                                     Bayar
                                 </button>
                             </div>
