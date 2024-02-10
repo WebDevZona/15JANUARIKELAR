@@ -212,16 +212,18 @@
                                 <!-- <h2>About</h2> -->
                                 <span class="gariss">
                                     <h3
-                                        style="color: black; margin-top: 70px; text-align: center; font-size: 20px; font-family: Montserrat; margin-left:20px;">
+                                        style="color: black; margin-top: 70px; text-align: center; font-size: 20px; font-family: Montserrat; margin-left:20px;  display: flex;
+                                        justify-content: center;
+                                        align-items: center;">
                                         Keunggulan Bimbingan <br> Mata Kuliah Jurusan</h3>
                                 </span>
                             </div>
                             <style>
                                 /* CSS untuk card */
                                 .card {
-                                    width: 90%;
+                                    width: 60%;
                                     /* Adjust the width to fit 5 cards in a row */
-                                    height: 305px;
+                                    height: 180px;
                                     background: linear-gradient(180deg, white 0%, #F1F4F8 100%);
                                     box-shadow: 5px 15px 35px rgba(0, 0, 0, 0.10);
                                     border-radius: 20px;
@@ -239,8 +241,8 @@
                                 .card img {
                                     margin-top: 30px;
                                     margin-bottom: 30px;
-                                    width: 80px;
-                                    height: 80px;
+                                    width: 60px;
+                                    height: 60px;
                                 }
 
                                 .verification-icon {
@@ -287,7 +289,7 @@
                                         <img src="assets/img/bg/bmjcourse.png" alt="">
                                     </div>
                                     <div
-                                        style="width: 100%; height: 100%; color: black; font-size: 15px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
+                                        style="width: 100%; height: 100%; color: black; font-size: 14px; font-family: Montserrat; font-weight: 550; line-height: 20px; word-wrap: break-word; padding: 10px;">
                                         Pendampingan oleh Mentor profesional secara privat, online dan intensif
                                     </div>
                                     <div style="display: flex; align-items: center; justify-content: center;">

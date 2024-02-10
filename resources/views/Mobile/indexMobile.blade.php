@@ -69,8 +69,10 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center" style="background: url(assets/img/bg/dekstopindex.png);background-size: cover; margin-top: -30px; height: 78vh;">
         <div class="container" data-aos="zoom-out" data-aos-delay="100" style="margin-top: 110px">
-            <div class="judulawal" style="margin-top:15px; align-items: center; margin-left:48px;">
-                <a href="#about" class="btn-get-awaaal awaaal" style=" margin-top:15px; font-family:'Manrope';"><strong>Bersama Class
+            <div class="judulawal" style="margin-top:15px; align-items: center; display: flex;
+            justify-content: center;
+            align-items: center;">
+                <a href="#about" class="btn-get-awaaal awaaal" style=" margin-top:15px; font-family:'Manrope';"><strong style="font-size: 18px;">Bersama Class
                         Program</strong> </a>
             </div>
             <div class="judulkedua" style="font-family:'Manrope'; text-align: center; margin-top: 30px;  margin-left:0px;">
@@ -82,7 +84,9 @@
                     macam program kelas serta akan <br> dibimbing langsung oleh Mentor yang ahli <br> di bidangnya
                 </p>
             </div>
-            <div class="d-flex" style="margin-bottom: -35px; margin-left:75px;">
+            <div class="d-flex" style="margin-bottom: -35px; display: flex;
+            justify-content: center;
+            align-items: center;">
                 <a href="#pricing" class="btn-get-started scrollto"><strong>Daftar Sekarang</strong> </a>
             </div>
 
@@ -471,24 +475,24 @@ margin-left:-10px;
                 <!-- Zahra -->
                 <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                     <div class="box">
-                        <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
+                        <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5; height:370px;">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <table class="table">
                                         <thead>
                                             <tr>
-                                                <th scope="col" style="border-top: none; border-bottom: none; text-align: left;font-size: 18px !important;">Complete
+                                                <th scope="col" style="border-top: none; border-bottom: none; text-align: left;font-size: 16px !important;">Complete
                                                     <br><span class="green-text">(BSO)</span>
                                                 </th>
-                                                <th scope="col" style="border-top: none; border-bottom: none; font-size: 18px !important;">Harga
-                                                    <br><span class="blue-text" style="font-size: 18px !important;">Rp 1.010.000</span>
+                                                <th scope="col" style="border-top: none; border-bottom: none; font-size: 16px !important;">Harga
+                                                    <br><span class="blue-text" style="font-size: 16px !important;">Rp 1.010.000</span>
                                                 </th>
                                             </tr>
                                         </thead>
                                     </table>
                                 </h5>
                                 <p class="card-text">
-                                    <table class="table table-no-border">
+                                    <table class="table table-no-border" style="font-size: 14px !important;">
                                         <thead>
                                             <tr>
                                                 <th scope="col">3 Bulan</th>
@@ -496,7 +500,7 @@ margin-left:-10px;
                                             </tr>
                                         </thead>
                                     </table>
-                                <ul class="deskripsi list-unstyled">
+                                <ul class="deskripsi list-unstyled" style="font-size: 12px !important;">
                                     <strong> Materi: </strong>
                                     <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i> Bimbingan intensif pembuatan judul skripsi </li>
                                     <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i> Bimbingan intensif pembuatan Bab 1-3</li>
@@ -510,7 +514,7 @@ margin-left:-10px;
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 0 0 25px 25px;">
-                                <a href="#" class="btn btn-primary" style="border-radius: 25px;">Daftar Sekarang</a>
+                                <a href="#" class="btn btn-primary" style="border-radius: 25px; font-size:12px !important">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -518,24 +522,24 @@ margin-left:-10px;
 
                 <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                     <div class="box">
-                        <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
+                        <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5; height:370px;">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <table class="table">
                                         <thead>
                                             <tr>
-                                                <th scope="col" style="border-top: none; border-bottom: none; text-align: left; font-size: 18px !important;">Gold
+                                                <th scope="col" style="border-top: none; border-bottom: none; text-align: left; font-size: 16px !important;">Gold
                                                     <br><span class="green-text" >(BSO)</span>
                                                 </th>
-                                                <th scope="col" style="border-top: none; border-bottom: none; font-size: 18px !important;">Harga
-                                                    <br><span class="blue-text" style="font-size: 18px !important;">Rp 499.000</span>
+                                                <th scope="col" style="border-top: none; border-bottom: none; font-size: 16px !important;">Harga
+                                                    <br><span class="blue-text" style="font-size: 16px !important;">Rp 499.000</span>
                                                 </th>
                                             </tr>
                                         </thead>
                                     </table>
                                 </h5>
                                 <p class="card-text">
-                                <table class="table table-no-border">
+                                <table class="table table-no-border" style="font-size: 14px !important;">
                                     <thead>
                                         <tr>
                                             <th scope="col">2 Bulan</th>
@@ -543,7 +547,7 @@ margin-left:-10px;
                                         </tr>
                                     </thead>
                                 </table>
-                                <ul class="deskripsi list-unstyled">
+                                <ul class="deskripsi list-unstyled" style="font-size: 12px !important;">
                                     <strong> Materi: </strong>
                                     <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i> Latar
                                         Bimbingan intensif pembuatan bab 1-3</li>
@@ -556,7 +560,7 @@ margin-left:-10px;
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 0 0 25px 25px;">
-                                <a href="#" class="btn btn-primary" style="border-radius: 25px;">Daftar Sekarang</a>
+                                <a href="#" class="btn btn-primary" style="border-radius: 25px; font-size:12px !important">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -564,24 +568,24 @@ margin-left:-10px;
 
                 <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                     <div class="box">
-                        <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
+                        <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5; height:370px;">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <table class="table">
                                         <thead>
                                             <tr>
-                                                <th scope="col" style="border-top: none; border-bottom: none;text-align: left; font-size: 18px !important;">Diamond
+                                                <th scope="col" style="border-top: none; border-bottom: none;text-align: left; font-size: 16px !important;">Diamond
                                                     <br><span class="green-text">(BMJ)</span>
                                                 </th>
-                                                <th scope="col" style="border-top: none; border-bottom: none; font-size: 18px !important;">Harga
-                                                    <br><span class="blue-text" style="font-size: 18px !important;">Rp 650.000</span>
+                                                <th scope="col" style="border-top: none; border-bottom: none; font-size: 16px !important;">Harga
+                                                    <br><span class="blue-text" style="font-size: 16px !important;">Rp 650.000</span>
                                                 </th>
                                             </tr>
                                         </thead>
                                     </table>
                                 </h5>
                                 <p class="card-text">
-                                <table class="table table-no-border">
+                                <table class="table table-no-border" style="font-size: 14px !important;">
                                     <thead>
                                         <tr>
                                             <th scope="col">2 Bulan </th>
@@ -589,7 +593,7 @@ margin-left:-10px;
                                         </tr>
                                     </thead>
                                 </table>
-                                <ul class="deskripsi" style="list-style: none;">
+                                <ul class="deskripsi" style="list-style: none; font-size: 12px !important;">
                                     {{-- <i class="fa-solid fa-check"></i> --}}
                                     <strong> Materi: </strong>
                                     <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i> Mahasiswa semester 5 dan 6</li>
@@ -603,7 +607,7 @@ margin-left:-10px;
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 0 0 25px 25px;">
-                                <a href="#" class="btn btn-primary" style="border-radius: 25px;">Daftar Sekarang</a>
+                                <a href="#" class="btn btn-primary" style="border-radius: 25px; font-size:12px !important">Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -611,24 +615,24 @@ margin-left:-10px;
 
                 <div class="pricingan1 col-lg-2 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
                     <div class="box">
-                        <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5;">
+                        <div class="card" style="width: 300px; border-radius: 25px; border: 5px solid #1b5cc5; height:370px;">
                             <div class="card-body">
                                 <h5 class="card-title">
                                     <table class="table">
                                         <thead>
                                             <tr>
-                                                <th scope="col" style="border-top: none; border-bottom: none;text-align: left; font-size: 18px !important;">Emerald
+                                                <th scope="col" style="border-top: none; border-bottom: none;text-align: left; font-size: 16px !important;">Emerald
                                                     <br><span class="green-text">(BMJ)</span>
                                                 </th>
-                                                <th scope="col" style="border-top: none; border-bottom: none; font-size: 18px !important;">Harga
-                                                    <br><span class="blue-text" style="font-size: 18px !important;">Rp 565.000</span>
+                                                <th scope="col" style="border-top: none; border-bottom: none; font-size: 16px !important;">Harga
+                                                    <br><span class="blue-text" style="font-size: 16px !important;">Rp 565.000</span>
                                                 </th>
                                             </tr>
                                         </thead>
                                     </table>
                                 </h5>
                                 <p class="card-text">
-                                <table class="table table-no-border">
+                                <table class="table table-no-border" style="font-size: 14px !important;">
                                     <thead>
                                         <tr>
                                             <th scope="col">2 Bulan </th>
@@ -636,26 +640,20 @@ margin-left:-10px;
                                         </tr>
                                     </thead>
                                 </table>
-                                <ul class="deskripsi" style="list-style: none;">
+                                <ul class="deskripsi" style="list-style: none; font-size: 12px !important;">
                                     {{-- <i class="fa-solid fa-check"></i> --}}
                                     <strong> Materi: </strong>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i> Review
-                                        Mahasiswa semester 3 dan 4</li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i>Review skripsi
-                                        Mata Kuliah Umum</li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i> Review
-                                        Mata Kuliah Khusus </li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i>Teknis
-                                        Bimbingan sampai 6 Mata Kuliah</li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i> Teknis
-                                        Konsultasi konsentrasi jurusan</li>
-                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i>  Saran dan
-                                        Durasi bimbingan per pertemuan minimal 2 jam maksimal 4 jam</li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i>Mahasiswa semester 3 dan 4</li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i>Skripsi Mata Kuliah Umum</li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i>Mata Kuliah Khusus </li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i>Teknis Bimbingan sampai 6 Mata Kuliah</li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i> Teknis Konsultasi konsentrasi jurusan</li>
+                                    <li><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px !important;"></i> Saran dan Durasi bimbingan per pertemuan minimal 2 jam maksimal 4 jam</li>
                                 </ul>
                                 </p>
                             </div>
                             <div class="card-footer text-center" style="border-radius: 0 0 25px 25px;">
-                                <a href="#" class="btn btn-primary" style="border-radius: 25px;">Daftar Sekarang</a>
+                                <a href="#" class="btn btn-primary" style="border-radius: 25px; font-size:12px !important" >Daftar Sekarang</a>
                             </div>
                         </div>
                     </div>
@@ -826,7 +824,7 @@ margin-left:-10px;
                     <div class="col-lg-6 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
                         <h3 style="color: #2A2A2A;
                                 font-family: Manrope;
-                                font-size: 32px;
+                                font-size: 28px;
                  margin-top:10px;
                                 margin-bottom:20px;
                                 font-style: normal;
@@ -841,15 +839,15 @@ margin-left:-10px;
                             WORKSHOP CLASS PROGRAM</h3>
                         <!-- style="border-radius: 25px; border: 5px solid #1b5cc5;" -->
                         <div class="content-selector" style="border-radius: 50px; border: 2.5px solid #000; margin-top:-2px; width: 200px; height: 50px; margin-left:50px; margin-bottom:5px;">
-                            <button id="content1Btn" class="btn btn-primary active" style="margin-top: 4px; margin-left:-2px; font-size:12px;"><b>Skripsi</b></button>
-                            <button id="content2Btn" style="margin-top: 4px; margin-right:-2px;font-size:12px;" class="btn btn-primary"><b>KTI</b></button>
+                            <button id="content1Btn" class="btn btn-primary active" style="margin-top: 2px; margin-left:-2px; font-size:12px;"><b>Skripsi</b></button>
+                            <button id="content2Btn" style="margin-top: 2px; margin-right:-2px;font-size:12px;" class="btn btn-primary"><b>KTI</b></button>
                         </div>
-                        <p style="font-size: 16px; text-align: left;">
+                        <p style="font-size: 14px; text-align: left;">
                             Workshop yang bertujuan untuk mendalami materi penyusunan skripsi dengan
                             sistematika yang baik dan benar. Berikut keuntungan yang bisa Sobat Insans dapatkan:
                         </p>
                         <ul>
-                            <li style="font-size: 14px; text-align: left;">
+                            <li style="font-size: 12px; text-align: left;">
                                 <span class="circle active">
                                     <span class="check">
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
@@ -858,7 +856,7 @@ margin-left:-10px;
                                 Mendapatkan pelatihan dalam penyusunan dan pembuatan skripsi oleh Mentor yang ahli di
                                 bidangnya.
                             </li>
-                            <li style="font-size: 14px; text-align: left;">
+                            <li style="font-size: 12px; text-align: left;">
                                 <span class="circle">
                                     <span class="check">
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
@@ -887,7 +885,7 @@ margin-left:-10px;
                     <div class="col-lg-6 pt-4 pt-lg-0 contentbolo d-flex flex-column" data-aos="fade-up" data-aos-delay="100">
                         <h3 style="color: #2A2A2A;
                             font-family: Manrope;
-                            font-size: 32px;
+                            font-size: 28px;
                                 margin-bottom:20px;
                                 margin-top: -14px;
                             font-style: normal;
@@ -901,15 +899,15 @@ margin-left:-10px;
                             WORKSHOP CLASS PROGRAM</h3>
 
                         <div class="content-selector" style="border-radius: 50px; border: 2.5px solid #000; margin-top:-2px; width: 200px; height: 50px; margin-left:50px; margin-bottom:5px;">
-                            <button id="content3Btn" class="btn btn-primary active" style="margin-top:4px; margin-left:-2px; font-size:12px;"><b>Skripsi</b></button>
-                            <button id="content4Btn" style="margin-top:4px; margin-right:-2px; font-size:12px;" class="btn btn-primary"><b>KTI</b></button>
+                            <button id="content3Btn" class="btn btn-primary active" style="margin-top:2px; margin-left:-2px; font-size:12px;"><b>Skripsi</b></button>
+                            <button id="content4Btn" style="margin-top:2px; margin-right:-2px; font-size:12px;" class="btn btn-primary"><b>KTI</b></button>
                         </div>
-                        <p style="font-size: 16px; text-align: left;">
+                        <p style="font-size: 14px; text-align: left;">
                             Workshop yang bertujuan untuk mendalami materi penyusunan serta pembuatan Karya Tulis Ilmiah
                             (KTI) dengan baik dan benar. Berikut keuntungan yang bisa Sobat Insans dapatkan:
                         </p>
                         <ul>
-                            <li style="font-size: 14px; text-align: left;">
+                            <li style="font-size: 12px; text-align: left;">
                                 <span class="circle">
                                     <span class="check">
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
@@ -918,7 +916,7 @@ margin-left:-10px;
                                 Mendapatkan pelatihan dalam penyusunan dan pembuatan Karya Tulis Ilmiah (KTI) oleh
                                 Mentor yang ahli di bidangnya.
                             </li>
-                            <li style="font-size: 14px; text-align: left;">
+                            <li style="font-size: 12px; text-align: left;">
                                 <span class="circle">
                                     <span class="check">
                                         <img src="assets/img/bg/centang.png" alt="Check Mark">
@@ -1021,8 +1019,8 @@ margin-left:-10px;
                                     <a href="{{ $penegnbalikcuk->tampilan }}" target="_blank" class="video-link" >
                                         <img src="{{ asset('foto_upload/' . $penegnbalikcuk->foto) }}" alt="Youtube Thumbnail" class="thumbnail" style="width: 80%;" />
                                         <svg class="play-icon" style="top: 55% !important; left:40%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                            <path d="M8 5v14l11-7z" />
-                                        </svg>
+                                            <image href="assets/img/bg/play-youtube.png" width="24" height="24" opacity="0.80"/>                                        </svg>
+                                        
                                     </a>
                                     <p style="color: black; font-size: 12px !important; width:80% !important;text-align: left;">Video: <span style="color: black; font-size: 12px !important;">{{ str_limit($penegnbalikcuk->judul, 30, '. . .') }}</span>
                                     </p>
@@ -1318,8 +1316,8 @@ margin-left:-10px;
             /* Efek zoom pada hover */
         }
     </style>
-    <section id="testibaru" class="testibaru section-bg " style="margin-top: -280px;">
-        <div id="background-image">
+    <section id="testibaru" class="testibaru section-bg " style="margin-top: -280px;  margin-bottom: -260px;">
+        <div id="background-image" style="margin-bottom: 20px;">
             <img src="assets/img/bg/bg_biru_setengah.png" alt=""
                 style="height: 10vh; width: 100%; object-fit: cover;    margin-top: 280px;
             ">
@@ -1359,7 +1357,7 @@ margin-left:-10px;
         </div>
     </section>
 
-    <section id="galeri" class="galeri" style="margin-top: -250px;">
+    <section id="galeri" class="galeri" style="">
         <div class="section-title " style=" font-family: 'Roboto', sans-serif;
                                     text-transform: uppercase;
                                     font-size: 36px;
@@ -1374,16 +1372,16 @@ margin-left:-10px;
                 <!-- Isi konten lainnya dapat ditambahkan di sini -->
             </div>
         </div>
-
-        <div class="card galeri-container">
+{{-- tadi dihilangkan cardnya --}}
+        <div class=" galeri-container">
             <div class="image-container">
                 {{-- <div class="thought-bubble">
                     <div class="arrow-down"></div>
                     <p id="thought-bubble-text">Thought bubble content</p>
                 </div> --}}
-                <img src="assets/img/clients/client-1.png" alt="Gambar 1" id="gambar" class="gambar-ukuran-tetap">
+                <img src="assets/img/clients/client-1.png" alt="Gambar 1" id="gambar" class="gambar-ukuran-tetap" style="">
             </div>
-            <div class="caption-container" style="font-family: 'Manrope', sans-serif; background: url(assets/img/bg/amplop.png);background-size: cover;  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);">
+            <div class="caption-container" style="font-family: 'Manrope', sans-serif; background: url(assets/img/bg/amplop.png);background-size: cover;  box-shadow: 0 4px 8px rgba(0, 0, 0, 1); margin-top:30px; margin-left:30px;border-radius:10px;">
                 <ul>
                     <li>
                         <div class="caption caption-1" onclick="changeImage(0)">Menjadi pendengar setiamu</div>
