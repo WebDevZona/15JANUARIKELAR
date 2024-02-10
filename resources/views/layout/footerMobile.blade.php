@@ -56,7 +56,7 @@
                 <!-- Right Section with Social Media Links -->
 
 
-                <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1" style=" stroke: #003EB5;
+                {{-- <img src="assets/img/bg/footergaris.png" alt="Background Image" class="garis1" style=" stroke: #003EB5;
                 position: absolute;
                width: 1100px;
                margin-inline-start: -130px;
@@ -64,63 +64,59 @@
                left:-10px;
                height: 400px;
                display: block;
-              ">
+              "> --}}
             </div>
+
+            <div class="row">
+                <div class="col-6 col-sm-3 footer-links" style="text-align: left;">
+                  <h4 style="">Hubungi Kami</h4>
+                  <ul>
+                      <li><a style="margin-bottom: -10px;" href="#"><b>Alamat:</b> Jalan Bandara<br> <br>
+                              Palmerah IV No. D-11B, <br> <br> Cemorokandang,<br> <br> Kedungkandang, Kota Malang, <br> <br>
+                              Jawa Timur <br> </a></li>
+                      <li><a style="margin-bottom: -10px;    text-align: left; " href="#"><b>Email: </b>classprogram.id@gmail.com</a></li>
+                      <li><a style="margin-bottom: -10px;" href="#"> <b>Whatsapp: </b> 0812-3436-1959 </a> </li>
+                      <li><a style="" href="#"> <b>Partnership:<br> <br> </b>classprogram.id@gmailcom<br> </a></li>
+                      <li><a href="#"> <br> <br> </a>
+                      </li>
+  
+                  </ul>
+  
+                </div>
+                <div class="col-6  col-sm-3 footer-links"><h4>Program Kelas</h4>
+                  <ul>
+                      <li><a style="margin-bottom: -10px;" href="#">Kelas Tugas Kuliah (KTK) </a></li>
+                      <li> <a style="margin-bottom: -10px;text-align: left;" href="#">Bimbingan Mata Kuliah Jurusan (BMJ) </a></li>
+                      <li> <a style="margin-bottom: -10px;" href="#"> Bimbingan Skripsi Online (BSO)</a></li>
+                      <li> <a style="margin-bottom: -10px;" href="#">Kelas Persiapan Karir (KPK) </a></li>
+                      <li> <a style="margin-bottom: 8px;" href="#">Creative Class <br> </a></li>
+  
+                      <h4 style="margin-bottom: -2px;">Workshop</h4>
+                      <ul>
+                          <li><a style="margin-bottom: -10px;" href="#">Skripsi<br></a></li>
+                          <li><a style="margin-bottom: -10px;" href="#"> Karya Tulis Ilmiah (KTI) <br></a></li>
+                      </ul>
+                  </ul>
+              </div>
         </div>
 
 
         <div class="container">
-            <div class="row">
-              <div class="col-6 col-sm-3 footer-links">
-                <h4 style="">Hubungi Kami</h4>
-                <ul>
-                    <li><a href="#"><b>Alamat:</b> Jalan Bandara<br> <br>
-                            Palmerah IV No. D-11B, <br> <br> Cemorokandang,<br> <br> Kedungkandang, Kota Malang, <br> <br>
-                            Jawa Timur <br> </a></li>
-                    <li><a href="#"><b>Email: </b>classprogram.id@gmail.com
-                            <br></a></li>
-                    <li><a href="#"> <b>Whatsapp: </b> 0812-3436-1959 <br></a>
-                    </li>
-                    <li><a href="#"> <b>Partnership:<br> <br> </b>classprogram.id@gmailcom<br> </a></li>
-                    <li><a href="#"> <br> <br> </a>
-                    </li>
-
-                </ul>
-
-              </div>
-              <div class="col-6  col-sm-3 footer-links"><h4>Program Kelas</h4>
-                <ul>
-                    <li><a href="#">Kelas Tugas Kuliah (KTK) </a></li>
-                    <li> <a href="#">Bimbingan Mata Kuliah Jurusan (BMJ) </a></li>
-                    <li> <a href="#"> Bimbingan Skripsi Online (BSO)</a></li>
-                    <li> <a href="#">Kelas Persiapan Karir (KPK) </a></li>
-                    <li> <a href="#">Creative Class <br> </a></li>
-
-                </ul>
-                <div class="col-lg-4 col-md-3 footer-links">
-                    <h4>Workshop</h4>
-                    <ul>
-                        <li><a href="#">Skripsi<br></a></li>
-                        <li><a href="#"> Karya Tulis Ilmiah (KTI) <br></a></li>
-                    </ul>
-                    <br>
-
-                </div>
-            </div>
+            
           
               
             </div>
           </div>
 
-          <div class="social-links" style=" margin-left:140px;">
+          <div class="social-links" style="margin-left:20px;">
             <a href="https://www.youtube.com/channel/UCjpX70gVQp0iUfHjrDxFhqQ" class="youtube rounded-circle" style="padding: px;">
-                <i class="bx bxl-youtube" style="font-size: 30px;"></i>
+                <i class="bx bxl-youtube" style=""></i>
             </a>
             <a href="https://www.tiktok.com/@classprogram" class="tiktok rounded-circle" style="">
-                <i class="bx bxl-tiktok" style=" color:black; font-size: 28px;"></i>
+                <i class="bx bxl-tiktok" style=" color:black; "></i>
             </a>
             <a href="https://www.instagram.com/classprogram.id/" class="instagram rounded-circle" style="">
-                <i class="bx bxl-instagram" style="font-size: 30px; background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); background-clip: text; -webkit-background-clip: text;   color: transparent;"></i>
+                <i class="bx bxl-instagram" style="background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80); background-clip: text; -webkit-background-clip: text;   color: transparent;"></i>
             </a>
         </div>
         

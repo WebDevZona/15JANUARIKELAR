@@ -3284,6 +3284,8 @@ height: 500px;
     /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1007%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(14%2c 188%2c 227%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c189 C 57.6%2c166 172.8%2c58.8 288%2c74 C 403.2%2c89.2 460.8%2c258.8 576%2c265 C 691.2%2c271.2 748.8%2c117.2 864%2c105 C 979.2%2c92.8 1036.8%2c198.6 1152%2c204 C 1267.2%2c209.4 1382.4%2c146.4 1440%2c132L1440 560L0 560z' fill='rgba(14%2c 175%2c 211%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c469 C 96%2c456.4 288%2c410.4 480%2c406 C 672%2c401.6 768%2c457.2 960%2c447 C 1152%2c436.8 1344%2c373.4 1440%2c355L1440 560L0 560z' fill='rgba(11%2c 141%2c 170%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1007'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e"); */
     /* background-image: url("/assets/img/bg/footer1.png"); */
     background-size: cover;
+    /* margin: 0 auto;  */
+
 }
 
 #footer .footer-top .footer-contact {
@@ -3311,13 +3313,11 @@ height: 500px;
 }
 
 #footer .footer-top h4 {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     color: #ffffff;
     position: relative;
-    padding-bottom: 12px;
-    margin-bottom: -10px;
-}
+     }
 
 #footer .footer-top .footer-links {
     margin-bottom: px;
@@ -3369,7 +3369,7 @@ position: absolute; */
     display: inline-block;
     line-height: 1;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -3387,8 +3387,8 @@ position: absolute; */
     margin-right: 4px;
     border-radius: 4px;
     text-align: center;
-    width: 36px;
-    height: 36px;
+    width: 26px;
+    height: 26px;
     transition: 0.3s;
 }
 
@@ -3496,7 +3496,7 @@ text-align: center; */
 }
 
 .galeri-container {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     gap: 20%;
@@ -3510,10 +3510,16 @@ text-align: center; */
 .image-container {
     max-width: 200%;
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start; */
     /* Elemen gambar berada di sisi kiri */
     align-items: center;
     /* Elemen gambar berada di tengah vertikal */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .caption-container {
@@ -3523,9 +3529,15 @@ text-align: center; */
     width: 300px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     justify-content: center;
     /* Tulisan berada di tengah vertikal */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .caption {
@@ -7983,7 +7995,7 @@ button {
         margin-top: 100px;
         color: #fff;
         font-family: "Manrope";
-        font-size: 14px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -7997,6 +8009,7 @@ button {
         border-radius: 26.104px 26.104px 26.104px 0px;
         background: #09326f;
         color: #ffffff;
+        
     }
 
     #hero .container .judulkedua {

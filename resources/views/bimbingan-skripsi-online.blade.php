@@ -1046,48 +1046,25 @@
                                                     <strong class="rp" style="margin-left: 30px;">Rp</strong>
                                                 </h4>
                                                 <h4 style="color: #1E1E1E;margin-left:60px; margin-bottom:-10px">
-                                                    1.010.000</h4>
+                                                    179.000</h4>
                                             </div>
                                             <div class="custom-pricee" style="margin-right:14px; margin-top:-10px;">
-                                                <strong>3
-                                                    Bulan</strong>
+                                                <strong>14
+                                                    Hari</strong>
                                             </div>
                                             <hr style=" border: 2px solid #000; border-width: 1px;">
                                             <ul class="deskripsi" style="list-style: none;">
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan intensif
-                                                        pembuatan <br> judul
-                                                        skripsi</span>
+                                                    <span class="text-bso" style="font-size: 10px"> Merumuskan judul skripsi</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan intensif pembuatan <br> bab
-                                                        1-3</span>
+                                                    <span class="text-bso" style="font-size: 10px"> Penyusunan bab 1 sampai bab 5 skripsi</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Bimbingan intensif pembuatan <br> bab 4
-                                                        sampai selesai</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan penyusunan ppt <br>proposal dan
-                                                        skripsi</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan presentasi proposal <br>dan
-                                                        skripsi</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px"> Bimbingan simulasi seminar <br>proposal dan
-                                                        sidang skripsi</span>
-                                                </li>
-                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
-                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px">Waktu bimbingan 30x pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 10px">Topik pembahasan by request</span>
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
