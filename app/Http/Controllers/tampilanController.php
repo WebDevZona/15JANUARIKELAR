@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+use Illuminate\Support\Collection;
 use App\Video;
 use App\Youtube;
 use App\Berita;
@@ -28,15 +28,18 @@ class tampilanController extends Controller
         $data = Video::get();
         $berita = Berita::get();
 
+
         // Memeriksa apakah pengguna menggunakan perangkat mobile
         if (Agent::isMobile()) {
             // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
             return view('mobile/indexMobile', compact('data', 'youtube', 'berita'));
         } else {
             // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
-            return view('index', compact('data', 'youtube', 'berita'));
+            return view('index', compact('data',  'youtube', 'berita'));
         }
     }
+
+
     public function ktk()
     {
         // Memeriksa apakah pengguna menggunakan perangkat mobile
@@ -270,4 +273,16 @@ class tampilanController extends Controller
             return response()->json(['message' => 'Kode voucher tidak valid.']);
         }
     }
+
+    // public function  search(Request $request)
+    // {
+    //     $query = $request->input('query');
+    //     $ok = PengertianProduk::when($query, function ($queryBuilder) use ($query) {
+    //         return $queryBuilder->where('isi', 'like', '%' . strtolower($query) . '%');
+    //     })->get();
+
+    //     dd($ok);
+
+    //     return view('index', compact('query', 'ok'));
+    // }
 }

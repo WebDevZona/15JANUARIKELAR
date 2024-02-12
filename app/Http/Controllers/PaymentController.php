@@ -26,6 +26,7 @@ class PaymentController extends Controller
             'id_jurusan' => 'required|string',
             'semester' => 'required|string',
             'token_transaksi' => 'required|string',
+            'harga' => 'required|integer'
         ]);
 
         // Save the form data to the 'payments' table
@@ -39,6 +40,7 @@ class PaymentController extends Controller
             'id_jurusan' => $request->id_jurusan,
             'semester' => $request->semester,
             'token_transaksi' => $request->token_transaksi,
+            'harga' => $request->harga,
             // Add other fields as needed
         ]);
 
@@ -57,7 +59,7 @@ class PaymentController extends Controller
 
 
 
-        return view('bukti',  ['idpayment' => $payment->id, 'token_transaksi' => $payment->token_transaksi,   'products' => $products, 'Users' => $Users]);
+        return view('bukti',  ['idpayment' => $payment->id, 'token_transaksi' => $payment->token_transaksi, 'harga' => $payment->harga,   'products' => $products, 'Users' => $Users]);
     }
 
 

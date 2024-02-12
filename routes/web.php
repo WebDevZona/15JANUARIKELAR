@@ -29,6 +29,7 @@ Route::post('/proses-kirim-ulang-email', 'AuthController@prosesKirimUlangEmail')
 Route::get('/forgot-password', 'AuthController@loginn')->name('loginn');
 Route::post('/forgot-password', 'AuthController@postemail');
 Route::post('/pembelian', 'tampilanController@validateVoucher')->name('validateVoucher');
+Route::get('/search', 'tampilanController@search');
 
 // Route::get('/', function () {
 //     return view('/dashboard');
@@ -483,4 +484,6 @@ Route::group(['middleware' => ['auth', 'checkRole:user']], function () {
 
     Route::get('/pengumuman/index', 'PengumumanController@index');
     Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
+
 });
+// web.php or routes/web.php

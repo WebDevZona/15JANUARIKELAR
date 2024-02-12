@@ -35,6 +35,9 @@
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+67F/mz5C5UmT7Bm4if5G5G2+IbbVYUew+OrCJ5t9n6E5DH" crossorigin="anonymous">
+    <!-- di dalam file bukti.blade.php -->
+
+
 </head>
 @extends('layout.header')
 @section('content')
@@ -111,7 +114,7 @@
             <div class="card-body">
                 <h1 class="card-title" style=" margin-top:px; color: var(--Midnight-Blue-950, #09326F); font-weight: 800; text-align: center;">Unggah Bukti Pembayaran</h1>
                 <h3 style="text-align: center; font-size:18px;"> Silakan lakukan pembayaran untuk paket <span class="product-name">{{ $products->first()->nama_produk }}</span>
-                    dengan total harga <span class="total-price">{{ number_format($products->first()->harga) }}, </span>
+                    dengan total harga <span class="total-price">{{ $harga }}, </span>
                     ke nomor rekening di bawah ini. Mohon mencantumkan Transaction ID saat melakukan transaksi.</h3>
 
                 <div class="col-sm-12">
@@ -263,11 +266,15 @@
                             <p style="margin-top: -8px;" class="card-text">Supported formats: JPEG, PNG, JPG</p>
                         </div>
                     </div>
+
                     <button type="submit" class="btn btn-primary" style="margin-top:10px; width: 100%;">
                         Upload Bukti
                     </button>
             </form>
         </div>
+
+        <!-- di dalam file bukti.blade.php -->
+
 
 
 
