@@ -1379,7 +1379,7 @@ margin-left:-10px;
                     <div class="arrow-down"></div>
                     <p id="thought-bubble-text">Thought bubble content</p>
                 </div> --}}
-                <img src="assets/img/clients/client-1.png" alt="Gambar 1" id="gambar" class="gambar-ukuran-tetap" style="">
+                <img src="assets/img/clients/cl1.png" alt="Gambar 1" id="gambar" class="gambar-ukuran-tetap" style="">
             </div>
             <div class="caption-container" style="font-family: 'Manrope', sans-serif; background: url(assets/img/bg/amplop.png);background-size: cover;  box-shadow: 0 4px 8px rgba(0, 0, 0, 1); margin-top:30px; margin-left:30px;border-radius:10px;">
                 <ul>
@@ -1468,22 +1468,18 @@ margin-left:-10px;
                         <img class="profile-image" src="assets/img/team/team-2.jpg" alt="Gambar Profil" style="width: 70px !important; height:auto; margin-top:84px;">
                         <div class="profile-info">
                             <h1 style="font-size:12px; margin-top:85px;">Yohanes Hernandes SYohan</h1>
-                            <p style="font-size: 10px;">" Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke
-                                dosen pembimbing jadi ngalir
-                                gitu aja banyak ide muncul."</p>
+                            <p style="font-size: 10px;">" Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir gitu aja banyak ide muncul."</p>
                         </div>
                     </div>
                 </div>
 
-                {{-- <div id="profile2"  class="profile" style="margin-right: 0% !important">
+                <div id="profile2"  class="profile" style="margin-right: 0% !important">
                     <div class="gabung">
-                        <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
+                        <img class="profile-image" src="assets/img/team/team-1.jpg" alt="Gambar Profil" style="width: 70px !important; height:auto; margin-top:84px;">
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="profile-info">
-                            <h1 style="font-size:20px; margin-top:50px;">ELouis Patric</h1>
-                            <p style="font-size: 15px;">" Gan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen
-                                pembimbing jadi ngalir
-                                gitu aja banyak ide muncul."
+                            <h1 style="font-size:12px; margin-top:85px;">ELouis Patric</h1>
+                            <p style="font-size: 10px;">" Gan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir gitu aja banyak ide muncul."
                             </p>
                         </div>
                         <!-- Tambahkan elemen tambahan di sini -->
@@ -1492,51 +1488,44 @@ margin-left:-10px;
 
                 <div id="profile3"  class="profile" style="margin-right: 0% !important">
                     <div class="gabung">
-                        <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
+                        <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 70px !important; height:auto; margin-top:84px;">
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="profile-info">
-                            <h1 style="font-size:20px; margin-top:50px;">Adinda Cahayani Supriyanto</h1>
-                            <p style="font-size: 15px;">" Saya sangat berterima kasih pada BSO karena sudah menyediakan
-                                program bimbingan
-                                skripsi online yang berkualitas dan juga ramah dikantong."</p>
+                            <h1 style="font-size:12px; margin-top:85px;">Adinda Cahayani Supriyanto</h1>
+                            <p style="font-size: 10px;">" Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan skripsi online yang berkualitas . . ."</p>
                         </div>
                     </div>
                 </div>
                 <div class="profile" style="margin-right: 0% !important">
                     <div class="gabung">
-                        <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
+                        <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 70px !important; height:auto; margin-top:84px;">
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="profile-info">
-                            <h1 style="font-size:20px; margin-top:50px;">Yola</h1>
-                            <p style="font-size: 15px;">"Saya merasa puas dan cocok dengan BSO Class Program. Kaka
-                                Mentornya baik dan tegas. Saya selalu dikoreksi positif secara baik oleh kaka Mentor. BSO bagus sekali dan recommended
-                                untuk Mahasiswa."</p>
+                            <h1 style="font-size:12px; margin-top:85px;">Yola</h1>
+                            <p style="font-size: 10px;">"Saya merasa puas dan cocok dengan BSO Class Program. Kaka Mentornya baik dan tegas. Saya selalu dikoreksi. . ."</p>
                         </div>
                     </div>
                 </div>
                 <div class="profile" style="margin-right: 0% !important">
                     <div class="gabung">
-                        <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
+                        <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 70px !important; height:auto; margin-top:84px;">
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="profile-info">
-                            <h1 style="font-size:20px; margin-top:50px;">Hildan Ramdani</h1>
-                            <p style="font-size: 15px;">"Halo Kak Dewi. Saya rutin ikut bimbingan, seminggu 3 kali.
-                                Dalam proses bimbingan, jujur saya sangat terbantu. Banyak hal yang saya tanyakan dan dapat terjawab oleh Mentor saya."</p>
+                            <h1 style="font-size:12px; margin-top:85px;">Hildan Ramdani</h1>
+                            <p style="font-size: 10px;">"Halo Kak Dewi. Saya rutin ikut bimbingan, seminggu 3 kali. Dalam proses bimbingan, jujur saya sangat terbantu. . ."</p>
                         </div>
                     </div>
                 </div>
                 <div class="profile" style="margin-right: 0% !important">
                     <div class="gabung">
-                        <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 80px !important; height:auto; margin-top:70px;">
+                        <img class="profile-image" src="assets/img/team/team-3.jpg" alt="Gambar Profil" style="width: 70px !important; height:auto; margin-top:84px;">
                         <!-- Ganti dengan path gambar profil Anda -->
                         <div class="profile-info">
-                            <h1 style="font-size:20px; margin-top:50px;">Azizah Nurul</h1>
-                            <p style="font-size: 15px;">"Saya puas dengan bimbingannya kak. Awalnya saya tidak
-                                mengerti tahapan skripsi, ketika mulai bimbingan, saya jadi mengerti hal-hal penting dan tahapan dalam pembuatan judul
-                                serta penentuan . . ."</p>
+                            <h1 style="font-size:12px; margin-top:85px;">Azizah Nurul</h1>
+                            <p style="font-size: 10px;">"Saya puas dengan bimbingannya kak. Awalnya saya tidak mengerti tahapan skripsi, ketika mulai bimbingan, saya . . ."</p>
                         </div>
                     </div>
-                </div> --}}
+                </div>
                 <div class="content-switcher" >
                     <div class="content-switcher" style="margin-top: px !importnat;">
                         <div class="icon non"></div>
@@ -1774,12 +1763,12 @@ margin-left:-10px;
         ];
 
         const images = [
-            "assets/img/clients/client-1.png",
-            "assets/img/clients/client-4.png",
-            "assets/img/clients/client-3.png",
-            "assets/img/clients/client-4.png",
-            "assets/img/clients/client-5.png",
-            "assets/img/clients/client-6.png",
+            "assets/img/clients/cl1.png",
+            "assets/img/clients/cl2.png",
+            "assets/img/clients/cl3.png",
+            "assets/img/clients/cl4.png",
+            "assets/img/clients/cl5.png",
+            "assets/img/clients/cl6.png",
         ];
 
         const imagesElements = document.getElementsByClassName('gambar-ukuran-tetap');

@@ -1084,7 +1084,7 @@ section {
 
 .section-title p {
     margin: 15px auto 0 auto;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 @media (min-width: 1024px) {
@@ -1433,7 +1433,7 @@ font-weight: 550;
     font-size: 24px;
     color: #fff;
     margin-top: -35px;
-    height: 120px;
+    height: 100px;
 }
 
 .heada .section-title {
@@ -2884,7 +2884,7 @@ animation: gradientAnimation 4s ease infinite;
     font-style: normal;
     font-weight: 00;
     line-height: normal;
-    margin-bottom:30px;
+    margin-bottom:-20x;
 }
 
 .faq .faq-list {
@@ -3875,12 +3875,12 @@ right: 20px;
     border-radius: 8px;
     padding: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 10px 0;
+    margin: 6px 0;
     color: #333;
     /* position: relative; */
     display: flex;
     align-items: flex-start;
-    margin-left: 170px;
+    margin-left: 150px;
     width: 260px;
 
 }
@@ -4003,7 +4003,6 @@ right: 20px;
     color: #106eea;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    margin-bottom: 20px;
 }
 
 .pricing .custom-boxa h4 {
@@ -4031,8 +4030,8 @@ right: 20px;
 
 .pricing .custom-box ul .checkmark {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: #4caf50;
     color: white;
@@ -4063,7 +4062,7 @@ right: 20px;
     padding: 10px 32px;
     border-radius: 10px;
     color: #fff;
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
     transition: 0.3s;
@@ -4101,7 +4100,7 @@ li.left-aligned .text {
     gap: 10px;
     flex-shrink: 0;
     color: white;
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .rupiah-display h4 {
@@ -4124,7 +4123,7 @@ li.left-aligned .text {
     font-weight: 500;
     line-height: normal;
     margin-top: -15px;
-    margin-left: -100px;
+    /* margin-left: -100px; */
 }
 
 .text {
@@ -4139,10 +4138,11 @@ li.left-aligned .text {
 .text-bso {
     color: #656565;
     font-family: Montserrat;
-    font-size: 13px;
+    font-size: 10px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
+    margin-bottom: -10px;
 }
 
 /* wa */
@@ -4404,7 +4404,7 @@ li.left-aligned .text {
     /* Warna centang */
     border-radius: 50%;
     text-align: center;
-    line-height: 18px;
+    line-height: 10px;
     margin-right: 10px;
 }
 
@@ -6810,7 +6810,7 @@ align-items: flex-start;
 }
 
 .deskripsi {
-    max-height: 150px;
+    max-height: 170px;
     overflow-y: scroll;
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
@@ -7093,7 +7093,7 @@ svg {
 .custom-btn-buy {
     display: inline-block;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 10px;
     text-decoration: none;
     background-color: #4caf50;
     border-radius: 5px;
@@ -8497,3 +8497,4 @@ width: 240px; */
 .contentpaket.active {
     display: block;
 }
+
