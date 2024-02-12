@@ -94,7 +94,7 @@
                         <div class="count-separator" style=""></div> <!-- Garis vertikal -->
                         <div class="count-box">
                             <div class="left-content">
-                                <span style="font-family: Manrope;"><b>101</b></span><span style="font-family: Manrope; font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
+                                <span style="font-family: Manrope;"><b>125</b></span><span style="font-family: Manrope; font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
                             </div>
                             <div class="right-content" style="margin-left:1px">
                                 {{-- <p >Mentor Class Program</p> --}}

@@ -1094,9 +1094,9 @@
                     {{-- Bmj --}}
                     <div>
                         <!-- <h3 class="bsa" style="color:white;">Bimbingan Skripsi Online (BSO)</h3> -->
-                        <h3 style="color:white; font-size: 25px; text-align:center; margin-top:20px;">Bimbingan Mata Kuliah
+                        <h3 style="color:white; font-size: 20px; text-align:center; margin-top:16px;font-family: Montserrat !important;">Bimbingan Mata Kuliah
                             Jurusan</h3>
-                        <h4 style="margin-bottom: 30px; text-align: center; color:white;     font-size: 15px;">Memiliki
+                        <h4 style="margin-bottom: 30px; text-align: center; color:white;     font-size: 8px;font-family: Montserrat !important;">Memiliki
                             Memiliki tiga jenis paket dengan rincian dan biaya sebagai berikut:</h4>
                     </div>
                     <style>
@@ -1116,13 +1116,33 @@
                             border-radius: 15px;
                             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
                         }
+                        .custom-btn-wrap {
+                            margin: 0px -20px -20px -20px;
+                            padding: 20px 15px;
+                            background: #ffffff;
+                            text-align: center;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font-family: Montserrat;
+                        }
                     </style>
-                    <div class="container">
+                     <style>
+                        .deskripsi {
+                            max-height: 190px;
+                            overflow-y: scroll;
+                            scrollbar-width: thin;
+                            scrollbar-color: transparent transparent;
+                            position: relative;
+                            padding-left: 25px;
+                        }
+                    </style>
+                     <div class="container">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="custom-carousel">
-                                    <!-- Paket Bronze -->
-                                    <div class="custom-box " style="height: 550px; border-radius: 15px;">
+                                    <!-- Paket Silver -->
+                                    <div class="custom-box " style="height: 380px; width:250px; border-radius: 15px;">
                                         <h4 class="custom-package"
                                             style="color: #FFF;
                                     font-family: Montserrat;
@@ -1134,22 +1154,25 @@
                                             PAKET BRONZE</h4>
                                         <div class="rupiah-display" style="position: relative;">
                                             <h4
-                                                style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 15px;">
-                                                <strong class="rp" style="margin-left:50px">Rp</strong>
+                                                style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 14px;">
+                                                <strong class="rp"
+                                                    style="margin-left:40px; font-size:18px !important;font-weight:800 !important;">Rp</strong>
                                             </h4>
-                                            <h4 style="color: #1E1E1E">400.000</h4>
+                                            <h4
+                                                style="color: #1E1E1E; font-size:24px; font-weight:800 !important;margin-left:20px;">
+                                                400.000</h4>
                                         </div>
-                                        <div class="custom-pricee"><strong>1
+                                        <div class="custom-pricee" style="0 !important;"><strong>1
                                                 Bulan</strong></div>
                                         <hr style=" border: 2px solid #000; border-width: 1px;">
-                                        <ul>
+                                        <ul class="deskripsi">
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
                                                 <span class="text-bso"> Untuk mahasiswa semester 1<br> dan 2</span>
                                             </li>
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
-                                                <span class="text-bso">  Konsultasi konsentrasi jurusan</span>
+                                                <span class="text-bso"> Konsultasi konsentrasi jurusan</span>
                                             </li>
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
@@ -1164,13 +1187,16 @@
                                                 <span class="text-bso"> Durasi pertemuan minimal<br> 2 jam dan maksimal 4 jam</span>
                                             </li>
                                         </ul>
-                                        <div class="custom-btn-wrap" style="margin-top:-6%">
-                                            <a href="/register" class="custom-btn-buy">Daftar Sekarang</a>
+                                        <div class="card-footer text-center"
+                                            style="border-radius: 25px; width: 400px !important;
+                                        margin-left: -40px;">
+                                            <a href="#" class="btn btn-primary"
+                                                style="border-radius: 10px; align-content: center; font-size:8px !important; margin-right:110px; margin-top:-20px;">Daftar
+                                                Sekarang</a>
                                         </div>
                                     </div>
-
-                                    <!-- Paket Emerald -->
-                                    <div class="custom-box" style="height: 550px; border-radius: 15px;">
+                                    {{-- Gold --}}
+                                    <div class="custom-box " style="height: 380px; width:250px; border-radius: 15px;">
                                         <h4 class="custom-package"
                                             style="color: #FFF;
                                     font-family: Montserrat;
@@ -1182,18 +1208,21 @@
                                             PAKET EMERALD</h4>
                                         <div class="rupiah-display" style="position: relative;">
                                             <h4
-                                                style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 15px;">
-                                                <strong class="rp" style="margin-left: 50px;">Rp</strong>
+                                                style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 14px;">
+                                                <strong class="rp"
+                                                    style="margin-left:40px; font-size:18px !important;font-weight:800 !important;">Rp</strong>
                                             </h4>
-                                            <h4 style="color: #1E1E1E">565.000</h4>
+                                            <h4
+                                                style="color: #1E1E1E; font-size:24px; font-weight:800 !important;margin-left:20px;">
+                                                565.000</h4>
                                         </div>
-                                        <div class="custom-pricee"><strong>2
+                                        <div class="custom-pricee" style="0 !important;"><strong>2
                                                 Bulan</strong></div>
                                         <hr style=" border: 2px solid #000; border-width: 1px;">
-                                        <ul>
+                                        <ul class="deskripsi">
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
-                                                <span class="text-bso"> Untuk mahasiswa semester<br>3 dan 4</span>
+                                                <span class="text-bso">Untuk mahasiswa semester<br>3 dan 4</span>
                                             </li>
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
@@ -1205,7 +1234,7 @@
                                             </li>
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
-                                                <span class="text-bso">Waktu bimbingan 24x <br>pertemuan</span>
+                                                <span class="text-bso"> Waktu bimbingan 24x<br> pertemuan</span>
                                             </li>
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
@@ -1216,12 +1245,16 @@
                                                 <span class="text-bso">Durasi pertemuan minimal 2<br> jam dan maksimal 4 jam</span>
                                             </li>
                                         </ul>
-                                        <div class="custom-btn-wrap" style="margin-top:-2%">
-                                            <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
+                                        <div class="card-footer text-center"
+                                            style="border-radius: 25px; width: 400px !important;
+                                        margin-left: -40px;">
+                                            <a href="#" class="btn btn-primary"
+                                                style="border-radius: 10px; align-content: center; font-size:8px !important; margin-right:110px; margin-top:-20px;">Daftar
+                                                Sekarang</a>
                                         </div>
                                     </div>
-                                    <!-- Paket Diamaond -->
-                                    <div class="custom-box " style="height: 550px; border-radius: 15px;">
+                                    {{-- Platinum --}}
+                                    <div class="custom-box " style="height: 380px; width:250px; border-radius: 15px;">
                                         <h4 class="custom-package"
                                             style="color: #FFF;
                                             font-family: Montserrat;
@@ -1230,29 +1263,32 @@
                                             font-weight: 700;
                                             line-height: 125%; /* 40px */
                                             ">
-                                            PAKET DIAMOND</h4>
+                                             PAKET DIAMOND</h4>
                                         <div class="rupiah-display" style="position: relative;">
                                             <h4
-                                                style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 15px;">
-                                                <strong class="rp" style="margin-left:50px">Rp</strong>
+                                                style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 14px;">
+                                                <strong class="rp"
+                                                    style="margin-left:40px; font-size:18px !important;font-weight:800 !important;">Rp</strong>
                                             </h4>
-                                            <h4 style="color: #1E1E1E">650.000</h4>
+                                            <h4
+                                                style="color: #1E1E1E; font-size:24px; font-weight:800 !important;margin-left:20px;">
+                                                650.000</h4>
                                         </div>
-                                        <div class="custom-pricee"><strong>2
+                                        <div class="custom-pricee" style="0 !important;"><strong>2
                                                 Bulan</strong></div>
                                         <hr style=" border: 2px solid #000; border-width: 1px;">
-                                        <ul>
+                                        <ul class="deskripsi">
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
-                                                <span class="text-bso"> Untuk mahasiswa semester<br> 5 dan 6</span>
+                                                <span class="text-bso">Untuk mahasiswa semester<br> 5 dan 6</span>
                                             </li>
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
-                                                <span class="text-bso"> 6 Mata Kuliah (umum <br>dan khusus)</span>
+                                                <span class="text-bso">6 Mata Kuliah (umum <br>dan khusus)</span>
                                             </li>
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
-                                                <span class="text-bso"> Konsultasi konsentrasi jurusan</span>
+                                                <span class="text-bso">Konsultasi konsentrasi jurusan</span>
                                             </li>
                                             <li class="left-aligned">
                                                 <span class="checkmark">&#10003;</span>
@@ -1267,15 +1303,20 @@
                                                 <span class="text-bso"> Durasi pertemuan minimal<br> 2 jam dan maksimal 4 jam</span>
                                             </li>
                                         </ul>
-                                        <div class="custom-btn-wrap" style="margin-top:-6%">
-                                            <a href="/register" class="custom-btn-buy">Daftar Sekarang</a>
+                                        <div class="card-footer text-center"
+                                            style="border-radius: 25px; width: 400px !important; margin-left: -40px;">
+                                            <a href="#" class="btn btn-primary"
+                                                style="border-radius: 10px; align-content: center; font-size:8px !important; margin-right:110px; margin-top:-20px;">Daftar
+                                                Sekarang</a>
                                         </div>
                                     </div>
+
                                     <!-- Add more carousel items as needed -->
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </section>
 
@@ -1323,8 +1364,8 @@
 
             </div> --}}
                 <div class="section-title" style="margin-top: 100px; color:#000;">
-                    <h3 style=" font-size: 20px;  margin-top:0px  !important;">Mantor Profesional</h3>
-                    <h4 style=" margin-top:10px !important; font-size:18px !important; ">Bimbingan Mata Kuliah Jurusan</h4>
+                    <h3 style=" font-size: 20px;  margin-top:0px  !important;font-family: Montserrat !important;">Mantor Profesional</h3>
+                    <h4 style=" margin-top:10px !important; font-size:18px !important;font-family: Montserrat !important; ">Bimbingan Mata Kuliah Jurusan</h4>
                 </div>
                 
                     <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">

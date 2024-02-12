@@ -635,9 +635,9 @@
 
             <div class="container" style="margin-top:200px;" data-aos="fade-up">
                 <div style="width: 100%; text-align: center;">
-                    <div style="width: 150px; height: 35px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
+                    <div style="width: 170px; height: 35px; padding: 10px; background: #3E87F8; box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15); border-radius: 50px; justify-content: center; align-items: center; gap: 10px; display: inline-flex; margin: 0 auto;">
                         <div style="width: 424px; text-align: center; color: white; font-size: 15px; font-family: Montserrat; font-weight: 700; line-height: 40px; word-wrap: break-word">
-                            PAKET HEMAT</div>
+                            JENIS PROGRAM</div>
                     </div>
                 </div>
 
@@ -647,8 +647,7 @@
                     <h3 style="color:white; font-size: 30px; text-align:center; margin-top:15px;">Bimbingan Skripsi
                         Online</h3>
                     <h4 style="margin-bottom: 50px; text-align: center; color:white; font-size:15px; font-weight:200;">
-                        Memiliki lima jenis paket hemat
-                        dengan rincian dan biaya sebagai berikut:</h4>
+                        Memiliki 6 jenis program bimbingan dengan rincian dan biaya sebagai berikut:</h4>
                 </div>
 
                 <div id="packageCarousel" class="carousel slide" data-ride="carousel" style="margin-top: -20px; margin-left:50px;">
@@ -1053,7 +1052,19 @@
                                                     Hari</strong>
                                             </div>
                                             <hr style=" border: 2px solid #000; border-width: 1px;">
-                                            <ul class="deskripsi" style="list-style: none;">
+                                            <ul class="deskripsi" style="list-style: none;max-height: px; ">
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px"> Merumuskan judul skripsi</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px"> Penyusunan bab 1 sampai bab 5 skripsi</span>
+                                                </li>
+                                                <li class="left-aligned" style="margin-bottom: 10px !important; ">
+                                                    <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
+                                                    <span class="text-bso" style="font-size: 10px">Topik pembahasan by request</span>
+                                                </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
                                                     <span class="text-bso" style="font-size: 10px"> Merumuskan judul skripsi</span>

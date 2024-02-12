@@ -144,7 +144,7 @@
                     text-align:center;
                     /* font-weight: 200; */
                     line-height: 125%;
-                    letter-spacing:1px;">
+                    letter-spacing:1.fpx;">
                         Bimbingan Skripsi Online (BSO) Class<br> Program disediakan
                         secara khusus<br> untuk membantu mahasiswa dalam<br> memahami langkah-langkah<br>
                         penyusunan dan pengerjaan skripsi<br> dengan sistem mentoring/<br>pendampingan secara
@@ -1052,7 +1052,7 @@
                                             <h4
                                                 style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 14px;">
                                                 <strong class="rp"
-                                                    style="margin-left:40px; font-size:18px !important;font-weight:800 !important;">Rp</strong>
+                                                    style="margin-left:35px; font-size:18px !important;font-weight:800 !important;">Rp</strong>
                                             </h4>
                                             <h4
                                                 style="color: #1E1E1E; font-size:24px; font-weight:800 !important;margin-left:20px;">
