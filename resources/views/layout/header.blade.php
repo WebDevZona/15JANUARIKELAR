@@ -128,10 +128,10 @@
 
 
             <!-- Form for search -->
-            <form class="search-form" id="searchForm" action="#" method="get">
+            {{-- <form class="search-form" id="searchForm" action="#" method="get">
                 <input class="search-input" type="text" id="searchInput" name="query" placeholder="Apa yang sedang kamu cari?">
                 <button class="search-button" type="submit">CARI</button>
-            </form>
+            </form> --}}
 
             <!-- Your header content goes here -->
             {{-- <a href="/tentang" class=""><i style="padding:10px;">Tentang</i>|</a>
@@ -147,8 +147,8 @@
                 <ul class="navbar-nav ml-auto">
 
                     <!-- <a class="dropdown-toggle " href="javascript:void(0)" data-toggle="dropdown">
-                                <i class="fas fa-user mr-2"></i> &nbsp;<span>{{ auth()->user()->name }}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i>
-                            </a> -->
+                                    <i class="fas fa-user mr-2"></i> &nbsp;<span>{{ auth()->user()->name }}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i>
+                                </a> -->
 
                     <a type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal"
                         style="color:#09326f;">
@@ -161,15 +161,15 @@
                     <!-- Add this style tag to your existing styles -->
 
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true" style="margin-top: 100px; z-index: 1000;">
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 100px; z-index: 1000;">
                         <div class="modal-dialog" style="color: #09326f;">
                             <div class="modal-content">
                                 <div class="modal-body">
                                     <div class="modal-header">
-                                        <h4 class="modal-title" id="exampleModalLabel"><i
-                                                class="nav-icon fas fa-user my-1 btn-sm-1"></i>
-                                            &nbsp;Profil Pengguna</h4>
+                                        <h4 class="modal-title" id="exampleModalLabel">
+                                            <i class="nav-icon fas fa-user my-1 btn-sm-1"></i>
+                                            &nbsp;Profil Pengguna
+                                        </h4>
                                     </div>
                                     <div class="modal-body">
                                         <div class="row">
@@ -189,18 +189,16 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <!-- <div class="col-md-3">
-                                                        <h6><label for="nama">Keluar </label></h6>
-                                                    </div> -->
                                             <div class="col-md-12">
-                                                <h6><label for="nama"> <a href="/logout"
-                                                            style="width: 100px; color: #09326f; margin-left:-1px; margin-top:-20px;"
-                                                            onclick="return confirm('Apakah anda yakin ingin keluar dari sistem ?')">
+                                                <h6>
+                                                    <label for="nama">
+                                                        <a href="#" style="width: 100px; color: #09326f; margin-left:-1px; margin-top:-20px;" onclick="showLogoutConfirmation()">
                                                             <i class="fas fa-sign-out-alt mr-2"></i> Keluar
-                                                        </a></label></h6>
+                                                        </a>
+                                                    </label>
+                                                </h6>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -208,27 +206,65 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
+                    
+                    <!-- Modal Konfirmasi Keluar -->
+                    <div class="modal fade" id="konfirmasiModal" tabindex="-1" role="dialog" aria-labelledby="konfirmasiModalLabel" aria-hidden="true" style="margin-top:100px;">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="konfirmasiModalLabel">Konfirmasi Keluar</h5>
+            
+                                </div>
+                                <div class="modal-body text-center">
+                                    <i class="bi bi-escape" style="font-size: 50px; margin-bottom: 10px;"></i>
+                                    <p>Apakah Anda yakin ingin keluar dari sistem?</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                                    <a href="/logout" class="btn btn-danger" style="height: 38px; display: flex; align-items: center; justify-content: center;">
+                                        Keluar
+                                    </a>                              
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Memuat jQuery -->
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    
+                    <!-- Memuat Bootstrap JavaScript -->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+                    
+                    <script>
+                        function showLogoutConfirmation() {
+                            // Menutup model utama
+                            $('#exampleModal').modal('hide');
+                            
+                            // Menampilkan model konfirmasi keluar
+                            $('#konfirmasiModal').modal('show');
+                        }
+                    </script>
+                    
 
 
                 </ul>
 
-
                 <!-- Button trigger modal -->
                 <button class="bi bi-bell-fill" data-bs-toggle="modal" data-bs-target="#notif"
-                style="color: #09326f; margin-left:30px; font-size:21px; margin-top:15px; background-color:#fff; border-inline: none; border-block:none; position: relative;">
-          <!-- Ikon lonceng notifikasi -->
-          <span class="iconify" data-icon="bi:bell-fill" style="margin-right: 5px;"></span>
-        
-          <!-- Nomor checkout -->
-          <span class="checkout-number" style="position: absolute; top: -5px; right: -5px; background-color: red; color: white; border-radius: 50%; padding: 3px 6px; font-size: 12px;">
-            3 <!-- Gantilah angka ini dengan nomer checkout aktual -->
-          </span>
-        </button>
+                    style="color: #09326f; margin-left:30px; font-size:21px; margin-top:15px; background-color:#fff; border-inline: none; border-block:none; position: relative;">
+                    <!-- Ikon lonceng notifikasi -->
+                    <span class="iconify" data-icon="bi:bell-fill" style="margin-right: 5px;"></span>
+
+                    <!-- Nomor checkout -->
+                    <span class="checkout-number"
+                        style="position: absolute; top: -5px; right: -5px; background-color: red; color: white; border-radius: 50%; padding: 3px 6px; font-size: 12px;">
+                        3 <!-- Gantilah angka ini dengan nomer checkout aktual -->
+                    </span>
+                </button>
 
                 <!-- Modal -->
-                <div class="modal fade" id="notif"  aria-labelledby="notif" style="margin-top:100px;"
+                <div class="modal fade" id="notif" aria-labelledby="notif" style="margin-top:100px;"
                     aria-hidden="true">
                     <div class="modal-dialog">
                         <div class="modal-content">
@@ -238,7 +274,7 @@
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                               Ktlll
+                                Ktlll
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -728,7 +764,7 @@
         marquee.style.transform = "translateX(100%)";
         setTimeout(function() {
             var transitionDuration =
-            "10s"; // Ganti dengan durasi yang diinginkan (misalnya, "30s" untuk 30 detik)
+                "10s"; // Ganti dengan durasi yang diinginkan (misalnya, "30s" untuk 30 detik)
             marquee.style.transition = "transform " + transitionDuration;
             marquee.style.transform = "translateX(0)";
             void marquee.offsetWidth; // Trigger reflow

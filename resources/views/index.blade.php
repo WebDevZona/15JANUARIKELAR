@@ -342,7 +342,7 @@
                         </div>
                         <!-- <hr> Garis pemisah -->
                         <br>
-                        <p style="color: #103873 !important; font-weight:500 !important;">Pilihan paket hemat bimbingan skripsi</p>
+                        <p style="color: #103873 !important; font-weight:500 !important;">Pilihan paket hemat bimbingan skripsi online</p>
                         <div class="btn-group" style="">
                             <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-list" style="background: #3E87F8; border-radius: 25px;"><span class="icon">
                                     <img src="assets/img/bg/bookmark.png" alt="Deskripsi Gambar" style="width: 75px;position:center; margin-top: 10px;">
@@ -884,6 +884,7 @@
                     height: auto;
                     transition: transform 0.3s ease-in-out;
                 }
+             
             </style>
             <div class="main_content floatleft">
                 <div class="left_coloum floatleft">
@@ -994,10 +995,11 @@
                             /* Adjust the size of the play icon */
                             height: 50px;
                             /* Adjust the size of the play icon */
-                            fill: #000000;
+                            fill: #ffffff;
                             /* Adjust the color of the play icon */
                             transition: opacity 0.3s ease-in-out;
                             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                            border-radius: 20%;
 
 
                         }
