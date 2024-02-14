@@ -29,7 +29,8 @@ Route::post('/proses-kirim-ulang-email', 'AuthController@prosesKirimUlangEmail')
 Route::get('/forgot-password', 'AuthController@loginn')->name('loginn');
 Route::post('/forgot-password', 'AuthController@postemail');
 Route::post('/pembelian', 'tampilanController@validateVoucher')->name('validateVoucher');
-Route::get('/search', 'tampilanController@search');
+Route::get('/search', 'SearchController@index')->name('search');
+
 
 // Route::get('/', function () {
 //     return view('/dashboard');
@@ -461,29 +462,43 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function () {
     Route::put('/beli/update/{id}', 'BeliController@update')->name('beli.update');
     // Menghapus data pembayaran
     Route::delete('/beli/destroy/{id}', 'BeliController@destroy')->name('beli.destroy');
+
+    Route::get('/auths/gantipasswordadmin/{name}/{remember_token}/{id}', 'AuthController@gantipasswordadmin')->name('auths.gantipasswordadmin');
+    Route::post('/auths/updatePasswordadmin/{id}', 'AuthController@updatePasswordadmin')->name('auths.updatePasswordadmin');
+    Route::post('/auths/{id}/simpanpasswordadmin', 'AuthController@simpanpasswordadmin');
 });
 
 
 //Route untuk user
 Route::group(['middleware' => ['auth', 'checkRole:user']], function () {
     Route::get('/', function () {
-        return view('/dashboard');
+        if (auth()->user()->role == 'user') {
+            return redirect()->route('index'); // Replace 'user.index' with the actual route name for the user's index page
+        }
+
+        return view('dashboard');
     });
-    // Route::get('/', function () {
-    //     return view('/dashboard');
-    // });
+
 
     // Route::get('/dashboard', 'DashboardController@index');
     Route::get('/checkout/{id_produk}/{id}/{nama_voucher?}/{judulskripsi}/{problem}/{jurusan}', 'tampilanController@checkout')->name('checkout');
     Route::get('/pembelian/{id_produk}', 'tampilanController@Pengertian')->name('pembelian');
-    Route::post('/pembayaran', 'PaymentController@submitPayment')->name('submit.payment');
-    // Route::post('/submit-payment/{nama_produk}', 'PaymentController@submitPaymentWithParam')->name('submitPayment');
+    Route::post('/bukti', 'BuktiController@submitBukti')->name('submit.bukti');
     Route::post('/bukti', 'PaymentController@foto')->name('submit.bukti');
-    Route::get('/mima', 'PaymentController@mima')->name('mima');
-    Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
 
+    Route::post('/pembayaran', 'PaymentController@submitPayment')->name('submit.payment');
+
+    // ngambil bukti berdasrkan id
+
+    Route::get('/bukti/{id}', 'BuktiController@showBuktiPage');
+
+
+
+
+    Route::get('/mima', 'PaymentController@mima')->name('mima');
+    // ini yang ada Form Data Diri
+    Route::get('/pembayaran/{id_produk}/{id}/{nama_voucher?}', 'tampilanController@pembayaran')->name('pembayaran');
+    // akhir yang ada Form Data Diri
     Route::get('/pengumuman/index', 'PengumumanController@index');
     Route::post('/pengumuman/tambah', 'PengumumanController@tambah');
-
 });
-// web.php or routes/web.php

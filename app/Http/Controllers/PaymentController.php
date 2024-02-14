@@ -15,7 +15,6 @@ class PaymentController extends Controller
 {
     public function submitPayment(Request $request)
     {
-
         // Validation (add more as needed)
         $request->validate([
             'name' => 'required|string',
@@ -26,8 +25,16 @@ class PaymentController extends Controller
             'id_jurusan' => 'required|string',
             'semester' => 'required|string',
             'token_transaksi' => 'required|string',
-            'harga' => 'required|integer'
+            'harga' => 'required|integer',
         ]);
+
+        // Check if the user has already uploaded the payment proof
+        $user = auth()->user();
+
+        if ($user && $user->payment && $user->payment->foto) {
+            // User has already uploaded the payment proof, redirect to 'mima' page
+            return redirect()->route('mima')->with('info', 'You have already uploaded the payment proof.');
+        }
 
         // Save the form data to the 'payments' table
         $payment = Payment::create([
@@ -50,17 +57,11 @@ class PaymentController extends Controller
         $productIds = Produk::pluck('id');
         $products = Produk::whereIn('id', $productIds)->get();
 
+        $Users = $user;
 
-        $UserIds = User::pluck('id');
-        // $User = User::whereIn('id', $UserIds)->get();
-        $User = \App\User::where('id', $UserIds)->get();
-        $Users = $User->first();
-
-
-
-
-        return view('bukti',  ['idpayment' => $payment->id, 'token_transaksi' => $payment->token_transaksi, 'harga' => $payment->harga,   'products' => $products, 'Users' => $Users]);
+        return view('bukti',  ['idpayment' => $payment->id, 'token_transaksi' => $payment->token_transaksi, 'harga' => $payment->harga, 'products' => $products, 'Users' => $Users]);
     }
+
 
 
 
@@ -94,12 +95,6 @@ class PaymentController extends Controller
         return view('mima');
     }
 
-    // public function handle($request, Closure $next)
-    // {
-    //     if (auth()->user() && auth()->user()->hasRole('user')) {
-    //         return $next($request);
-    //     }
 
-    //     return redirect('/');  // Make sure this redirection makes sense
-    // }
+
 }

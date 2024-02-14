@@ -165,20 +165,46 @@
                                                 }
                                             </style>
 
+
                                             <script>
                                                 function copyToClipboard(elementId, successMessage) {
-                                                    var text = document.getElementById(elementId).innerText;
-                                                    navigator.clipboard.writeText(text)
-                                                        .then(() => {
-                                                            console.log('Copied to clipboard:', text);
-                                                            if (successMessage) {
+                                                    var textElement = document.getElementById(elementId);
+                                                    var text = textElement.innerText;
+
+                                                    // Check if the element has already been copied
+                                                    if (!textElement.hasAttribute('data-copied')) {
+                                                        navigator.clipboard.writeText(text)
+                                                            .then(() => {
+                                                                console.log('Copied to clipboard:', text);
+
                                                                 // Display a success message
-                                                                document.getElementById(elementId).innerHTML += ' (Copied)';
-                                                            }
-                                                        })
-                                                        .catch((err) => console.error('Unable to copy text', err));
+                                                                if (successMessage) {
+                                                                    textElement.innerHTML += ' (Copied)';
+                                                                    // Create a new element to show success message
+                                                                    var successDiv = document.createElement('div');
+                                                                    successDiv.className = 'success-message';
+                                                                    successDiv.textContent = successMessage;
+
+                                                                    // Append the success message element to the body
+                                                                    document.body.appendChild(successDiv);
+
+                                                                    // Set attribute to mark as copied
+                                                                    textElement.setAttribute('data-copied', 'true');
+
+                                                                    // Remove the success message after a delay (e.g., 2 seconds)
+                                                                    setTimeout(function() {
+                                                                        document.body.removeChild(successDiv);
+                                                                    }, 2000);
+                                                                }
+                                                            })
+                                                            .catch((err) => console.error('Unable to copy text', err));
+                                                    } else {
+                                                        // Display a message if the element has already been copied
+                                                        alert('Kamu sudah melakukan copy!');
+                                                    }
                                                 }
                                             </script>
+
                                         </tr>
                                         <tr>
                                             <td style="text-align: left; font-weight: bold;">
@@ -210,18 +236,43 @@
 
                                             <script>
                                                 function copyToClipboard(elementId, successMessage) {
-                                                    var text = document.getElementById(elementId).innerText;
-                                                    navigator.clipboard.writeText(text)
-                                                        .then(() => {
-                                                            console.log('Copied to clipboard:', text);
-                                                            if (successMessage) {
+                                                    var textElement = document.getElementById(elementId);
+                                                    var text = textElement.innerText;
+
+                                                    // Check if the element has already been copied
+                                                    if (!textElement.hasAttribute('data-copied')) {
+                                                        navigator.clipboard.writeText(text)
+                                                            .then(() => {
+                                                                console.log('Copied to clipboard:', text);
+
                                                                 // Display a success message
-                                                                document.getElementById(elementId).innerHTML += ' (Copied)';
-                                                            }
-                                                        })
-                                                        .catch((err) => console.error('Unable to copy text', err));
+                                                                if (successMessage) {
+                                                                    textElement.innerHTML += ' (Copied)';
+                                                                    // Create a new element to show success message
+                                                                    var successDiv = document.createElement('div');
+                                                                    successDiv.className = 'success-message';
+                                                                    successDiv.textContent = successMessage;
+
+                                                                    // Append the success message element to the body
+                                                                    document.body.appendChild(successDiv);
+
+                                                                    // Set attribute to mark as copied
+                                                                    textElement.setAttribute('data-copied', 'true');
+
+                                                                    // Remove the success message after a delay (e.g., 2 seconds)
+                                                                    setTimeout(function() {
+                                                                        document.body.removeChild(successDiv);
+                                                                    }, 2000);
+                                                                }
+                                                            })
+                                                            .catch((err) => console.error('Unable to copy text', err));
+                                                    } else {
+                                                        // Display a message if the element has already been copied
+                                                        alert('Kamu sudah melakukan copy!');
+                                                    }
                                                 }
                                             </script>
+
                                         </tr>
                                     </tbody>
                                 </table>
@@ -234,12 +285,9 @@
                     </div>
                 </div>
             </div>
-
-
             <!-- upload -->
             <form class="row g-3" method="POST" action="{{ route('submit.bukti') }}" enctype="multipart/form-data">
                 @csrf
-
                 <style>
                     .form-control {}
 
@@ -250,9 +298,6 @@
                         justify-content: center;
                     }
                 </style>
-
-
-
                 <div class="card-body">
                     <!-- Existing content container -->
                     <div class="card-container" ondragover="allowDrop(event)" ondrop="handleDrop(event)">
@@ -266,27 +311,15 @@
                             <p style="margin-top: -8px;" class="card-text">Supported formats: JPEG, PNG, JPG</p>
                         </div>
                     </div>
-
                     <button type="submit" class="btn btn-primary" style="margin-top:10px; width: 100%;">
                         Upload Bukti
                     </button>
             </form>
         </div>
-
         <!-- di dalam file bukti.blade.php -->
-
-
-
-
         </div>
-
-
-
-
         <img src="assets/img/bg/piyeh.png" style="width: 50%; margin-right:-30px;  margin-top: -5%;" alt="Payment Image" class="payment-image">
-
     </section>
-
 
 </body>
 

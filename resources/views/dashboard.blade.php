@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-        <!-- <h5>Pengguan</h5>
+        <h5>Pengguan</h5>
         <div class="row">
             <div class="flex-fill col-md-3" style="padding: 4px 4px 4px 4px">
                 <div class="info-box md-3">
@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <h5>Rekap Pembelian</h5>
         <div class="row">
             <div class="flex-fill col-md-4" style="padding: 4px 4px 4px 4px">

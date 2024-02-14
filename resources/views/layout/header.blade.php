@@ -120,11 +120,29 @@
             </script>
 
 
-            <!-- Form for search -->
-            <form class="search-form" id="searchForm" action="#" method="get">
-                <input class="search-input" type="text" id="searchInput" name="query" placeholder="Apa yang sedang kamu cari?">
+            <form class="search-form" action="/search" method="get">
+                <input class="search-input" type="text" id="query" name="query" placeholder="Apa yang sedang kamu cari?">
                 <button class="search-button" type="submit">CARI</button>
             </form>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    const searchForm = document.getElementById('searchForm');
+                    const searchInput = document.getElementById('query');
+
+                    searchForm.addEventListener('submit', function(event) {
+                        event.preventDefault(); // Prevent the default form submission
+
+                        const query = searchInput.value.trim();
+
+                        if (query !== '') {
+                            // Redirect to the search endpoint with the query parameter
+                            window.location.href = `/search?query=${query}`;
+                        }
+                    });
+                });
+            </script>
+
 
             <!-- Your header content goes here -->
             {{-- <a href="/tentang" class=""><i style="padding:10px;">Tentang</i>|</a>

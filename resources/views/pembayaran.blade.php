@@ -594,12 +594,18 @@
             </div>
 
             <div class="registration-form">
-                <form class="row g-3" method="post" action="{{ route('submit.payment') }}">
+                <form class="row g-3 needs-validation" novalidate method="post" action="{{ route('submit.payment') }}">
                     @csrf
                     <!-- Informasi Pengguna -->
                     <div class="col-md-6">
                         <label for="name">Nama Lengkap</label>
-                        <input value="{{$Users->name}}" class="form-control" name="name" type="text" id="name" placeholder="Nama">
+                        <input value="{{$Users->name}}" class="form-control" name="name" type="text" id="name" placeholder="Nama" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Masukkan nama lengkap kamu!
+                        </div>
                     </div>
 
                     <div class="col-md-6">
@@ -608,24 +614,47 @@
                             <option value="laki-laki">Laki-Laki</option>
                             <option value="perempuan">Perempuan</option>
                         </select>
-
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Pilih jenis kelamin kamu!
+                        </div>
                     </div>
 
                     <div class="col-md-6">
                         <label for="email">Email</label>
-                        <input value="{{$Users->email}}" type="email" id="email" name="email" placeholder="Email">
-                        <div class="info">*Pastikan email kamu sudah benar</div>
+                        <input value="{{$Users->email}}" type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                        <!--<div class="info">*Pastikan email kamu sudah benar</div>-->
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Masukkan email valid kamu!
+                        </div>
                     </div>
 
                     <div class="col-md-6">
                         <label for="nomer">Nomor Telepon</label>
-                        <input type="text" value="{{$Users->nomer}}" id="nomer" name="nomer" placeholder="Nomor Telepon">
+                        <input type="text" value="{{$Users->nomer}}" class="form-control" id="nomer" name="nomer" placeholder="Nomor Telepon" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Masukkan nomor telepon kamu!
+                        </div>
                     </div>
 
                     <!-- Informasi Akademik -->
                     <div class="col-md-4">
                         <label for="kampus">Kampus</label>
-                        <input type="text" value="{{$Users->kampus}}" id="kampus" name="kampus" placeholder="Kampus">
+                        <input type="text" value="{{$Users->kampus}}" class="form-control" id="kampus" name="kampus" placeholder="Kampus" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Masukkan kampus kamu!
+                        </div>
                     </div>
 
                     <div class="col-md-4">
@@ -636,12 +665,23 @@
                             <option value="{{$mentor->nama}}" data-publish="{{$mentor->publish}}" data-nama="{{$mentor->nama}}">{{$mentor->nama}}</option>
                             @endforeach
                         </select>
-
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Pilih jurusan kamu!
+                        </div>
                     </div>
 
                     <div class="col-md-4">
                         <label for="semester">Semester</label>
-                        <input type="text" value="{{$Users->semester}}" id="semester" name="semester" placeholder="semester">
+                        <input type="text" value="{{$Users->semester}}" class="form-control" id="semester" name="semester" placeholder="semester" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Masukkan semester kamu!
+                        </div>
                     </div>
 
 
@@ -651,16 +691,19 @@
 
                     <input type="hidden" value="{{ $Produk->harga }}" id="harga" name="harga" placeholder="harga">
 
+                    <input type="hidden" id="currentUrl" name="currentUrl" value="{{ request()->url() }}">
+
+
 
                     <div class=" card col-12">
                         <h3 style="color: #333; margin-top:30px;">Detail Pesanan</h3>
                         <b> <span>Program: {{$Produk->nama_produk}}</span> <br>
                             <span>Paket: {{ $pengertian->first()->judul }}</span> <br>
 
-                            <span>Harga: {{ number_format($Produk->harga) }}</span></b>
+                            <span>Harga: Rp {{ number_format($Produk->harga, 0, ',', '.') }}</span></b>
                         <div class="order-total">
                             <!-- di dalam file pembayaran.blade.php -->
-                            <span id="hargaSpan">Harga: {{ number_format($Produk->harga) }}</span></b>
+                            <span id="hargaSpan">Total Harga: Rp {{ number_format($Produk->harga, 0, ',', '.') }}</span></b>
 
                             <!-- <button id="checkoutButton" onclick="showRekening()">Checkout</button> -->
                             <div class="text-right" style="margin-left: 80%; marin-top:-20px">
@@ -720,7 +763,62 @@
             </script>
 
 
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    // Fetch all forms with class 'needs-validation'
+                    var forms = document.querySelectorAll('.needs-validation');
 
+                    // Loop over each form
+                    forms.forEach(function(form) {
+                        // Add submit event listener to the form
+                        form.addEventListener('submit', function(event) {
+                            // Prevent form submission if it is not valid
+                            if (!form.checkValidity()) {
+                                event.preventDefault();
+                                event.stopPropagation();
+                            }
+
+                            // Add 'was-validated' class to show validation styles
+                            form.classList.add('was-validated');
+
+                            // Iterate through input fields and apply validation
+                            form.querySelectorAll('.form-control').forEach(function(inputField) {
+                                var validFeedback = inputField.nextElementSibling.querySelector('.valid-feedback');
+                                var invalidFeedback = inputField.nextElementSibling.querySelector('.invalid-feedback');
+
+                                if (inputField.value.trim() !== '') {
+                                    // User has entered data
+                                    validFeedback.style.display = 'block';
+                                    invalidFeedback.style.display = 'none';
+                                } else {
+                                    // User has not entered data
+                                    validFeedback.style.display = 'none';
+                                    invalidFeedback.style.display = 'block';
+                                }
+                            });
+                        }, false);
+
+                        // Add event listeners for real-time feedback
+                        form.addEventListener('input', function(event) {
+                            if (event.target.classList.contains('form-control')) {
+                                var validFeedback = event.target.nextElementSibling.querySelector('.valid-feedback');
+                                var invalidFeedback = event.target.nextElementSibling.querySelector('.invalid-feedback');
+
+                                if (event.target.value.trim() !== '') {
+                                    // User has entered data
+                                    validFeedback.style.display = 'block';
+                                    invalidFeedback.style.display = 'none';
+                                } else {
+                                    // User has not entered data
+                                    validFeedback.style.display = 'none';
+                                    invalidFeedback.style.display = 'block';
+                                }
+                            }
+                        });
+                    });
+                });
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
         </div>
     </div>
 </body>

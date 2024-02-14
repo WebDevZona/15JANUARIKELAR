@@ -12,8 +12,9 @@ use App\Login;
 use Illuminate\Http\Request;
 use Laravel\Socialite\Facades\Socialite;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Auth;
+use Jenssegers\Agent\Facades\Agent;
 
 class AuthController extends Controller
 {
@@ -33,7 +34,13 @@ class AuthController extends Controller
                 return redirect('/dashboard')->with('warning', 'Maaf tindakan anda tidak dibenarkan, tidak usah macem-macem lah !');
             }
         }
-        return view('auths.login');
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('auths.loginMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('auths.login');
+        }
     }
     public function loginn()
     {
@@ -51,13 +58,23 @@ class AuthController extends Controller
                 return redirect('/dashboard')->with('warning', 'Maaf tindakan anda tidak dibenarkan, tidak usah macem-macem lah !');
             }
         }
-        return view('auths.forgot-password');
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('auths.forgot-password');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('auths.forgot-password');
+        }
     }
     public function daftar()
     {
-        // return view('auths.login');
-
-        return view('auths.register');
+        if (Agent::isMobile()) {
+            // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+            return view('auths.registerMobile');
+        } else {
+            // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+            return view('auths.register');
+        }
     }
 
     public function pendaftaran(Request $request)
@@ -108,7 +125,13 @@ class AuthController extends Controller
                 $youtube = Youtube::get();
                 $data = Video::get();
                 $berita = Berita::get();
-                return view('index', compact('data', 'youtube', 'berita'));
+                if (Agent::isMobile()) {
+                    // Jika pengguna menggunakan perangkat mobile, tampilkan tampilan mobile
+                    return view('mobile/indexMobile', compact('data', 'youtube', 'berita'));
+                } else {
+                    // Jika pengguna menggunakan perangkat desktop, tampilkan tampilan desktop
+                    return view('index', compact('data',  'youtube', 'berita'));
+                }
             } elseif ($role == 'admin') {
                 $dataAdmin = User::where('role', 'admin')->get();
                 $youtube = Youtube::get();
@@ -161,13 +184,13 @@ class AuthController extends Controller
         return redirect('/index');
     }
 
+
     public function gantipassword($id)
     {
         $data_pengguna = User::findorfail($id);
         return view('auths.gantipassword', compact('data_pengguna'));
     }
 
-    // AuthController.php
     public function updatePassword(Request $request, $id)
     {
         $request->validate([
@@ -199,9 +222,60 @@ class AuthController extends Controller
             $pengguna->update($data_pengguna);
 
             return redirect('/login')->with('sukses', 'Password anda telah diperbarui.');
+        } else if ($pengguna->role == 'admin') {
         }
         return redirect()->back()->with('error', 'Harap Masukkan Konfirmasi Password Dengan Benar !!');
     }
+
+    // admin
+    public function gantipasswordadmin($name, $remember_token, $id)
+    {
+        $data_pengguna = User::findorfail($id);
+        return view('auths.gantipasswordadmin', compact('data_pengguna'));
+    }
+
+
+    public function updatePasswordadmin(Request $request, $id)
+    {
+        $request->validate([
+            'password_baru' => 'required|string|min:8|confirmed',
+        ]);
+
+        $user = User::findOrFail($id);
+        $user->password = bcrypt($request->password_baru);
+        $user->remember_token = null; // Clear the remember_token
+        $user->save();
+
+        return redirect('/login')->with('success', 'Password has been reset successfully. Please log in with your new password.');
+    }
+
+
+
+    public function simpanpasswordadmin(Request $request, $id)
+    {
+        $pengguna = User::findorfail($id);
+        $password_baru = $request->input('password_baru');
+        $konfirmasi_password_baru = $request->input('konfirmasi_password_baru');
+        if ($password_baru == $konfirmasi_password_baru) {
+            $data_pengguna = [
+                'name' => $pengguna->name,
+                'email' => $pengguna->email,
+                'password' => Hash::make($request->input('password_baru')),
+                'role' => $pengguna->role,
+            ];
+            $pengguna->update($data_pengguna);
+
+            return redirect('/login')->with('sukses', 'Password anda telah diperbarui.');
+        } else if ($pengguna->role == 'admin') {
+        }
+        return redirect()->back()->with('error', 'Harap Masukkan Konfirmasi Password Dengan Benar !!');
+    }
+
+
+
+
+
+
 
     public function register(Request $request)
     {

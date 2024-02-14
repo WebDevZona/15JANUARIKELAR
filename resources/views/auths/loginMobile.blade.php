@@ -11,6 +11,9 @@
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <!-- font awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Favicons -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="assets/img/logo/logo2.png" rel="icon">
@@ -309,15 +312,15 @@
 <body>
 
     <div class="back-to-home">
-        <a href="/" style="color:white;"><i class="fa fa-arrow-left"> Kembali ke Homepage</i></i></a>
+        <a href="/" style="color:white;"><i class="fa fa-arrow-left"></i> Kembali ke Homepage</a>
     </div>
     <!-- <div class=""> -->
     <div class="container" style="margin-top: 60px;">
         <div class="row justify-content-center">
             <div class="col-lg-6 col-md-12">
                 @if(session('sukses'))
-                <div class="alert alert-success alert-dismissible fade show" role="alert">
-                    <h5><i class="fas fa-check"></i> Sukses :</h5>
+                <div class="callout callout-success alert alert-success alert-dismissible fade show" role="alert">
+                    <h5><i class="fa-solid fa-check"></i> Sukses :</h5>
                     {{session('sukses')}}
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -412,6 +415,13 @@
 
         window.open(whatsappURL, "_blank");
     }
+</script>
+<script>
+    $(document).ready(function() {
+        $('.alert .close').on('click', function() {
+            $(this).closest('.alert').fadeOut();
+        });
+    });
 </script>
 
 </html>

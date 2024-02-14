@@ -374,11 +374,10 @@
                             <!-- <span class="dropdown-item dropdown-header">Profil</span> -->
                             <div class="dropdown-divider"></div>
                             Administrator
-
-                            <div class="dropdown-divider"></div>
-                            <a href="/auths/{{auth()->user()->id}}/gantipassword" class="dropdown-item">
+                            <a href="{{ route('auths.gantipasswordadmin', ['name' => auth()->user()->name, 'remember_token' => auth()->user()->remember_token, 'id' => auth()->user()->id]) }}" class="dropdown-item">
                                 <i class="fas fa-user-cog mr-2"></i> Ganti Password
                             </a>
+
                             <div class="dropdown-divider"></div>
 
                         </div>
