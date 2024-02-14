@@ -66,7 +66,7 @@
         @if($results->isEmpty())
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="okmodalsad" tabindex="-1" aria-labelledby="okmodalsadLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content bg-light">
                     <div class="modal-header bg-primary text-white">
@@ -84,7 +84,7 @@
         <!-- Script to trigger the modal on page load -->
         <script>
             document.addEventListener('DOMContentLoaded', function() {
-                var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+                var myModal = new bootstrap.Modal(document.getElementById('okmodalsad'));
                 myModal.show();
             });
         </script>
