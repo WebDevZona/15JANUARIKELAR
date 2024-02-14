@@ -3219,7 +3219,7 @@ height: 500px;
 }
 
 .footer-links a:hover {
-    color: #ff9900;
+    color: #ff9900 !important;
     /* background-color: #ff9900;
       border-radius: 50%; */
 }
@@ -4376,8 +4376,8 @@ li.left-aligned .text {
 
 .checkmark {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     /* background-color: #2ecc71; Warna latar belakang centang */
     border-style: solid;
     font-family: Montserrat;
@@ -8458,4 +8458,16 @@ width: 240px; */
     margin: 15px 0 0 0;
     font-size: 50px;
     font-weight: 700;
+}
+
+/* efek jedag jedug */
+span:hover {
+    color: #106eea !important;  /* Change to your desired hover color */    cursor: pointer;  /* Optional: Change cursor on hover */
+}
+p:hover {
+    color: #106eea !important;
+}
+a:hover{
+    color: #106eea !important;
+
 }

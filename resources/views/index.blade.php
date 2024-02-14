@@ -95,7 +95,7 @@
                         <div class="count-separator"></div> <!-- Garis vertikal -->
                         <div class="count-box">
                             <div class="left-content">
-                                <span style="font-family: Manrope;"><b>101</b></span><span style="font-family: Manrope; font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
+                                <span style="font-family: Manrope;"><b>125</b></span><span style="font-family: Manrope; font-size: 25px;margin-top: 23.5px;position:absolute;margin-left:1px ">+</span>
                             </div>
                             <div class="right-content" style="margin-left:1px">
                                 {{-- <p >Mentor Class Program</p> --}}
@@ -342,7 +342,7 @@
                         </div>
                         <!-- <hr> Garis pemisah -->
                         <br>
-                        <p style="color: #103873 !important; font-weight:500 !important;">Pilihan paket hemat bimbingan skripsi</p>
+                        <p style="color: #103873 !important; font-weight:500 !important;">Pilihan paket hemat bimbingan skripsi online</p>
                         <div class="btn-group" style="">
                             <button onclick="window.location.href='bimbingan-skripsi-online#pricing'" type="button" class="btn btn-list" style="background: #3E87F8; border-radius: 25px;"><span class="icon">
                                     <img src="assets/img/bg/bookmark.png" alt="Deskripsi Gambar" style="width: 75px;position:center; margin-top: 10px;">
@@ -557,7 +557,7 @@
                                 <strong> Materi: </strong>
                                 <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i>
                                     Mahasiswa semester 3 dan 4</li>
-                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> skripsi
+                                <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px;"></i> Skripsi
                                     Mata Kuliah Umum</li>
                                 <li style="align-items:flex-start;"><i class="fa-solid fa-circle-check" style="color: #1b5cc5; margin-top:5px; margin-left: -22px; "></i>
                                     Mata Kuliah Khusus </li>
@@ -794,7 +794,7 @@
 
                         <div class="gambareo col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100" style="margin-top: 10px;">
                             <br> <br>
-                            <img src="assets/img/bg/friskaindex1.png" class="img-fluid" alt="" style="width: 100%;  margin-bottom: 0px;">
+                            <img src="assets/img/bg/friska13.png" class="img-fluid" alt="" style="width: 100%;  margin-bottom: 0px;">
                         </div>
                     </div>
                 </div>
@@ -852,7 +852,7 @@
                         </div>
                         <div class="gambareo col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100" style="margin-top: 10px;">
                             <br> <br>
-                            <img src="assets/img/bg/friskaindex2.png" class="img-fluid" alt="" style="width: 100%;margin-bottom:auto; ">
+                            <img src="assets/img/bg/friska12.png" class="img-fluid" alt="" style="width: 100%;margin-bottom:auto; ">
                         </div>
                     </div>
                 </div>
@@ -884,6 +884,7 @@
                     height: auto;
                     transition: transform 0.3s ease-in-out;
                 }
+             
             </style>
             <div class="main_content floatleft">
                 <div class="left_coloum floatleft">
@@ -994,10 +995,11 @@
                             /* Adjust the size of the play icon */
                             height: 50px;
                             /* Adjust the size of the play icon */
-                            fill: #000000;
+                            fill: #ffffff;
                             /* Adjust the color of the play icon */
                             transition: opacity 0.3s ease-in-out;
                             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                            border-radius: 20%;
 
 
                         }
@@ -1203,7 +1205,6 @@
 
         .testibaru .pyoutube {
             position: relative;
-            z-index: 2;
             width: 80%;
         }
 
@@ -1237,6 +1238,11 @@
             transform: scale(1.1);
             /* Efek zoom pada hover */
         }
+        
+        .gabung:hover{
+            transform: scale(1.1);
+ 
+        }
     </style>
 
 
@@ -1249,37 +1255,39 @@
         <div class="pyoutube" style="margin-top: -600px; ">
             <br>
             <center>
-                <div class="yutup">
-                    <div class="gabung" {{-- style="background: url(assets/img/bg/bgyou.png); position: absolute;  width: 1100px; height: 300px; margin-top:-40px; margin-left:-30px;  border-radius: 25px;" --}}>
+                <div class="">
+                    <div class="gabung" style="background: url(assets/img/bg/yutup.png); background-size: cover; position: relative; width: 100%; height: 260px; margin-top: 350px; border-radius: 25px; text-align: center;">
+
                         <!-- Ganti dengan path gambar profil Anda -->
-
-                        <div class="info">
-                            <h1 style="margin-left:150px; text-align: center; color: #FFF; font-family: Poppins; font-size: 30px; font-style: normal; font-weight: 700; line-height: 65px; margin-bottom: 20px;">
-
+                        <div class="info" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    
+                            <h1 style="margin-top: -50px; margin-bottom: 50px; color: #FFF; font-family: Poppins; font-size: 32px; font-style: normal; font-weight: 700; line-height: 65px;">
                                 Lebih Dekat dengan Class Program
-
                             </h1>
+                    
                             <style>
                                 .btnyt:hover .yt {
                                     background-color: blue;
                                 }
-
+                    
                                 .bxl-youtube:hover {
                                     color: blue !important;
                                 }
                             </style>
-
+                    
                             <a href="https://www.youtube.com/@classprogram" target="_blank" class="btnyt">
-                                <div style="display: inline-block; position: relative; margin-left: 150px; ">
-                                    <div class="yt" style="text-align: center;">
-                                        <div style=" width: 60px; height: 60px; margin-left: 35px;  border-radius: 50%; background-color: white; position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);">
+                                <div style="display: inline-block; position: relative;">
+                                    <div class="yt">
+                                        <div style="width: 80px; height: 80px; border-radius: 50%; background-color: white; position: absolute; top: 30%; left: 50%; transform: translate(-50%, -50%);">
                                         </div>
-                                        <i style="text-align: center;  position: absolute; top: 20%;  margin-left: 35px; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 30px;" class="bx bxl-youtube"></i>
+                                        <i style="position: absolute; top: 20%; left: 50%; transform: translate(-50%, -50%); color: red; font-size: 50px;" class="bx bxl-youtube"></i>
                                     </div>
                                 </div>
                             </a>
+                    
                         </div>
                     </div>
+                     
                 </div>
             </center>
         </div>
@@ -1309,7 +1317,7 @@
                     <div class="arrow-down"></div>
                     <p id="thought-bubble-text">Thought bubble content</p>
                 </div> --}}
-                <img src="assets/img/clients/client-1.png" alt="Gambar 1" id="gambar" class="gambar-ukuran-tetap">
+                <img src="assets/img/clients/cl1.png" alt="Gambar 1" id="gambar" class="gambar-ukuran-tetap">
             </div>
             <div class="caption-container" style="margin-left:-100px; border-radius: 25px;  margin-top:-20px; font-family: 'Manrope', sans-serif; background: url(assets/img/bg/amplop.png);background-size: cover;  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);">
                 <ul>
@@ -1778,7 +1786,6 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-
     <script>
         const thoughtBubbleText = document.getElementById("thought-bubble-text");
         const imageElement = document.getElementById("gambar");
@@ -1794,15 +1801,19 @@
         ];
 
         const images = [
-            "assets/img/clients/client-1.png",
-
+            "assets/img/clients/cl1.png",
+            "assets/img/clients/cl2.png",
+            "assets/img/clients/cl3.png",
+            "assets/img/clients/cl4.png",
+            "assets/img/clients/cl5.png",
+            "assets/img/clients/cl6.png",
         ];
 
         const imagesElements = document.getElementsByClassName('gambar-ukuran-tetap');
 
         for (let i = 0; i < imagesElements.length; i++) {
-            imagesElements[i].style.width = '400px';
-            imagesElements[i].style.height = '300px';
+            imagesElements[i].style.width = '200px';
+            imagesElements[i].style.height = '170px';
             imagesElements[i].style.marginTop = '10px';
         }
 
@@ -1942,7 +1953,7 @@
             },
             {
                 question: "Bagaimana cara memilih program kelas yang sesuai di Class Program?",
-                answer: "Kelas Tugas Kuliah (KTK) diperuntukkan bagi sobat yang memerlukan bimbingan seputar tugas umum perkuliahan dengan sistem kenaikan kelas. Paket basic cocok untuk sobat yang ingin memahami tugas seputar penyusunan makalah, footnote dan endnote, jurnal, esai hingga materi karya tulis ilmiah yang umumnya ditemui pada semester 1-4. Sedangkan paket excellent diperuntukkan bagi sobat yang ingin memahami materi seputar metodologi penelitian dan skripsi yang umumnya ditemui pada semester 5 keatas. Bimbingan Mata Kuliah Jurusan (BMJ) cocok untuk sobat yang ingin mendalami materi mata kuliah yang ada di jurusan masing-masing dengan sistem pendampingan. Paket Bronze untuk semester 1-2, Paket emerald untuk semester 3-4 dan paket diamond untuk semester 5-6.Bimbingan Skripsi Online (BSO) diperuntukkan bagi sobat yang sedang menyusun tugas akhir atau skripsi dengan sistem mentoring. Paket Silver membimbing dalam pembuatan judul skripsi, paket gold membimbing dalam pembuatan proposal skripsi, paket platinum membimbing hasil dan pembahasan skripsi, dan paket diamond membimbing simulasi sempro atau sidang skripsi.Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft skill dan hard skill untuk terjun di dunia kerja."
+                answer: "Kelas Tugas Kuliah (KTK) diperuntukkan bagi sobat yang memerlukan bimbingan seputar tugas umum perkuliahan dengan sistem kenaikan kelas. Paket basic cocok untuk sobat yang ingin memahami tugas seputar penyusunan makalah, footnote dan endnote, jurnal, esai hingga materi karya tulis ilmiah yang umumnya ditemui pada semester 1-4. Sedangkan paket excellent diperuntukkan bagi sobat yang ingin memahami materi seputar metodologi penelitian dan skripsi yang umumnya ditemui pada semester 5 keatas. Bimbingan Mata Kuliah Jurusan (BMJ) cocok untuk sobat yang ingin mendalami materi mata kuliah yang ada di jurusan masing-masing dengan sistem pendampingan. Paket Bronze untuk semester 1-2, Paket emerald untuk semester 3-4 dan paket diamond untuk semester 5-6.Bimbingan Skripsi Online (BSO) diperuntukkan bagi sobat yang sedang menyusun tugas akhir atau skripsi dengan sistem Mentoring. Paket Silver membimbing dalam pembuatan judul skripsi, paket gold membimbing dalam pembuatan proposal skripsi, paket platinum membimbing hasil dan pembahasan skripsi, dan paket diamond membimbing simulasi sempro atau sidang skripsi.Kelas Persiapan Karir (KPK) diperuntukkan bagi sobat yang ingin mengasah soft skill dan hard skill untuk terjun di dunia kerja."
             },
             {
                 question: "Bagaimana cara bimbingan di Class Program?",
@@ -2104,7 +2115,7 @@
     </script>
 
     {{-- Animasi angka --}}
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+    {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script> --}}
 </body>
 
 </html>

@@ -51,6 +51,15 @@
             height: auto;
             display: block;
         }
+        .youtube:hover {
+    transform: translateY(-8px); /* Adjust the bouncing distance as needed */
+  }
+  .tiktok:hover {
+    transform: translateY(-8px); /* Adjust the bouncing distance as needed */
+  }
+  .instagram:hover {
+    transform: translateY(-8px); /* Adjust the bouncing distance as needed */
+  }
     </style>
     <div class="footer-top">
         <div class="container">
@@ -111,11 +120,11 @@
                     <ul>
                         <li><a href="#"><b>Alamat:</b> Jalan Bandara
                                 Palmerah IV No. D-11B, <br> <br> Cemorokandang, Kedungkandang, Kota Malang, <br> <br> Jawa Timur <br> </a></li>
-                        <li><a href="#"><b>Email: </b>classprogram.id@gmail.com
+                        <li><a href="#"><b>Email: </b>info@classprogram.id
                                 <br></a></li>
                         <li><a href="#"> <b>Whatsapp: </b> 0812-3436-1959 <br></a>
                         </li>
-                        <li><a href="#"> <b>Partnership: </b>classprogram.id@gmailcom<br> </a></li>
+                        <li><a href="#"> <b>Partnership: </b>info@classprogram.id<br> </a></li>
                         <li><a href="#"> <br> <br> </a>
                         </li>
 
@@ -217,11 +226,10 @@
             bottom: 80px;
             left: 20px;
             margin-top: -10%;
-            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
             max-width: 300px;
             width: 100%;
             height: 30%;
-
+            border-radius: 20%;
             z-index: 1000;
         }
 
@@ -229,8 +237,9 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 15px;
             background-color: #23bdee;
+            margin-top: 45px;
+
         }
 
         #popup-header h3 {
@@ -249,7 +258,7 @@
         #chat-dialog {
             display: flex;
             flex-direction: column;
-            margin-top: -15px;
+           
             background-color: white;
             border-radius: 0 0 10px 10px;
 
@@ -264,6 +273,8 @@
             padding: 10px;
             margin-bottom: 10px;
             max-width: 80%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 1); /* Added box shadow */
+            transition: box-shadow 0.3s ease, background-color 0.3s ease;
         }
 
 
@@ -280,6 +291,7 @@
 
             text-decoration: none;
             font-weight: bold;
+           
         }
 
         .send-logo {
@@ -305,8 +317,16 @@
             margin-right: 8px;
             padding: 0.1px;
             margin-bottom: 10px;
-            width: 200px;
-            height: auto;
+            width: 170px;
+            height: 40px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 1); /* Added box shadow */
+            transition: box-shadow 0.3s ease, background-color 0.3s ease;
+
+
+        }
+
+        .chat-bubblee:hover{
+            color: #000000;
         }
 
         .joinchat__button__send {
@@ -396,12 +416,21 @@
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             transition: opacity 0.5s ease-in-out;
         }
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        } 
+        .tombol:hover{
+            color:#003EB5;
+        }  
     </style>
 
     </head>
 
     <body>
-        <div id="help-message">Butuh bantuan?</div>
+        <div id="help-message" style="font-family:'Manrope';box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); margin-top:50px;
+        ">Butuh bantuan?</div>
         <div id="whatsapp-button" onclick="showWelcomeMessage();">
             <img src="{{ asset('assets/img/bg/cs.png') }}" alt="WhatsApp" class="first-image" />
             <img src="{{ asset('assets/img/bg/cs.png') }}" alt="WhatsApp" class="second-image" />
@@ -409,16 +438,15 @@
             <span id="whatsapp-text">Ada Pertanyaan? <br> Hubungi Kak Dewi</span>
         </div>
 
-        <div id="welcome-message">
-            <div id="popup-header">
-                <h3>Class Program</h3>
-                <button id="close-popup-button" onclick="closeWelcomeMessage()">×</button>
+        <div id="welcome-message" style="">
+            <div id="popup-header" class="header-container">
+                <h3 style="font-family:'Manrope';">Class Program</h3>
+                <button style="font-size: 25px; color: #ffffff; background-color: transparent; border: none; margin-bottom:0px !important;" class="bi bi-x-circle tombol" onclick="closeWelcomeMessage()"></button>
             </div>
             <div id="chat-dialog">
                 <div class="chat-bubble">
-                    <p>Selamat datang di Class Program.</p>
                     <!-- <p>Jika ada yang ingin ditanyakan, silakan <a id="contact" onclick="openWhatsApp()">hubungi Minma di sini</a>.</p> -->
-                    <p>Jika ada yang ingin ditanyakan, silakan <b>hubungi Kak Dewi di sini</b>.</p>
+                    <p style="font-family:'Manrope';">Selamat datang di Class Program. <br>Jika ada yang ingin ditanyakan, silahkan hubungi Kak Dewi <a href="javascript:void(0);" onclick="openWhatsApp()">di sini</a>.</p>
                 </div>
 
                 <!-- <div class=" send-logo">Class Program
@@ -426,8 +454,8 @@
                 User -->
 
                 <div class="chat-bubblee" onclick="openWhatsApp()">
-                    <i class="fa-regular fa-paper-plane" style="font-size:30px; margin-left:8px; margin-right:10px;"></i>
-                    <p style="margin-top:12px; font-size:20px;">Class Program</p>
+                    <i class="fa-regular fa-paper-plane" style="font-size:20px; margin-left:8px; margin-right:10px;"></i>
+                    <p style="margin-top:12px; font-size:18px; font-weight:700; font-family:'Manrope';pointer-events: none; ">Class Program</p>
                 </div>
 
             </div>
@@ -554,27 +582,27 @@
                 {
                     date: currentDay,
                     month: currentMonth,
-                    text: "Sobat Insans<br><strong>Fandi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                    text: "Sobat Insans<br><strong>Fandi Ahmad </strong> <br>Mendaftar di Paket Emerald Bimbingan Skripsi Online",
                 },
                 {
                     date: currentDay,
                     month: currentMonth,
-                    text: "Sobat Insans<br><strong>Aldi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                    text: "Sobat Insans<br><strong>Aldi </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah. . .",
                 },
                 {
                     date: currentDay,
                     month: currentMonth,
-                    text: "Sobat Insans<br><strong>Putra </strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                    text: "Sobat Insans<br><strong>Putra Andika</strong> <br>Mendaftar di Paket Gold Bimbingan Skripsi Online",
                 },
                 {
                     date: currentDay,
                     month: currentMonth,
-                    text: "Sobat Insans<br><strong>Zahra</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                    text: "Sobat Insans<br><strong>Zahra</strong> <br>Mendaftar di Silver Emerald Bimbingan Mata Kuliah. . .",
                 },
                 {
                     date: currentDay,
                     month: currentMonth,
-                    text: "Sobat Insans<br><strong>Fadil</strong> <br>Mendaftar di Paket Emerald Bimbingan Mata Kuliah",
+                    text: "Sobat Insans<br><strong>Fadil Ainuddin</strong> <br>Mendaftar di Paket Emerald Bimbingan Skrpsi Online",
                 },
             ];
 
@@ -601,4 +629,5 @@
         </script>
         {{-- Animasi angka --}}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
 </footer>

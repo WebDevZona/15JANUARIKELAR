@@ -17,11 +17,18 @@
             </style>
 
             <div class="masbro">
-                <a href="/index"><img src="{{ asset('assets/img/logo/logo1.png') }}" class="logo" alt="Deskripsi Gambar"></a>
+                <a href="/index"><img src="{{ asset('assets/img/logo/logo1.png') }}" class="logo"
+                        alt="Deskripsi Gambar"></a>
             </div>
             <!-- header.blade.php -->
             <!-- header.blade.php -->
             <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+            <form class="search-form" action="#" method="get">
+                <input class="search-input" type="text" id="query" name="query"
+                    placeholder="Apa yang sedang kamu cari?">
+                <button class="search-button" type="submit">CARI</button>
+            </form>
+
             <script>
                 document.addEventListener("DOMContentLoaded", function() {
                     const searchInput = document.getElementById("searchInput");
@@ -120,29 +127,11 @@
             </script>
 
 
-            <form class="search-form" action="/search" method="get">
-                <input class="search-input" type="text" id="query" name="query" placeholder="Apa yang sedang kamu cari?">
+            <!-- Form for search -->
+            <form class="search-form" id="searchForm" action="#" method="get">
+                <input class="search-input" type="text" id="searchInput" name="query" placeholder="Apa yang sedang kamu cari?">
                 <button class="search-button" type="submit">CARI</button>
             </form>
-
-            <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                    const searchForm = document.getElementById('searchForm');
-                    const searchInput = document.getElementById('query');
-
-                    searchForm.addEventListener('submit', function(event) {
-                        event.preventDefault(); // Prevent the default form submission
-
-                        const query = searchInput.value.trim();
-
-                        if (query !== '') {
-                            // Redirect to the search endpoint with the query parameter
-                            window.location.href = `/search?query=${query}`;
-                        }
-                    });
-                });
-            </script>
-
 
             <!-- Your header content goes here -->
             {{-- <a href="/tentang" class=""><i style="padding:10px;">Tentang</i>|</a>
@@ -154,74 +143,162 @@
         </div>
         <div class="social-links d-none d-md-flex align-items-center" style="color: blue;">
             @auth
-            <!-- Right navbar links -->
-            <ul class="navbar-nav ml-auto">
+                <!-- Right navbar links -->
+                <ul class="navbar-nav ml-auto">
 
-                <!-- <a class="dropdown-toggle " href="javascript:void(0)" data-toggle="dropdown">
-                            <i class="fas fa-user mr-2"></i> &nbsp;<span>{{ auth()->user()->name }}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i>
-                        </a> -->
+                    <!-- <a class="dropdown-toggle " href="javascript:void(0)" data-toggle="dropdown">
+                                    <i class="fas fa-user mr-2"></i> &nbsp;<span>{{ auth()->user()->name }}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i>
+                                </a> -->
 
-                <a type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal" style="color:#09326f;">
-                    <i class="fas fa-user mr-2"></i> &nbsp;<span>{{auth()->user()->name}}</span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i>
-                </a>
+                    <a type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        style="color:#09326f;">
+                        <i class="fas fa-user mr-2"></i> &nbsp;<span>{{ str_limit(auth()->user()->name, 11, '...') }}
+                        </span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i>
+
+                    </a>
 
 
-                <!-- Add this style tag to your existing styles -->
+                    <!-- Add this style tag to your existing styles -->
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 100px; z-index: 1000;">
-                    <div class="modal-dialog" style="color: #09326f;">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <div class="modal-header">
-                                    <h4 class="modal-title" id="exampleModalLabel"><i class="nav-icon fas fa-user my-1 btn-sm-1"></i>
-                                        &nbsp;Profil Pengguna</h4>
-                                </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 100px; z-index: 1000;">
+                        <div class="modal-dialog" style="color: #09326f;">
+                            <div class="modal-content">
                                 <div class="modal-body">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <h6><label for="nama">Nama </label></h6>
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="exampleModalLabel">
+                                            <i class="nav-icon fas fa-user my-1 btn-sm-1"></i>
+                                            &nbsp;Profil Pengguna
+                                        </h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <h6><label for="nama">Nama </label></h6>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h6><label for="nama"> : {{ auth()->user()->name }}</label></h6>
+                                            </div>
                                         </div>
-                                        <div class="col-md-9">
-                                            <h6><label for="nama"> : {{auth()->user()->name}}</label></h6>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <h6><label for="nama">Email </label></h6>
+                                            </div>
+                                            <div class="col-md-9">
+                                                <h6><label for="nama"> : {{ auth()->user()->email }}</label></h6>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h6>
+                                                    <label for="nama">
+                                                        <a href="#" style="width: 100px; color: #09326f; margin-left:-1px; margin-top:-20px;" onclick="showLogoutConfirmation()">
+                                                            <i class="fas fa-sign-out-alt mr-2"></i> Keluar
+                                                        </a>
+                                                    </label>
+                                                </h6>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <h6><label for="nama">Email </label></h6>
-                                        </div>
-                                        <div class="col-md-9">
-                                            <h6><label for="nama"> : {{auth()->user()->email}}</label></h6>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <!-- <div class="col-md-3">
-                                                    <h6><label for="nama">Keluar </label></h6>
-                                                </div> -->
-                                        <div class="col-md-12">
-                                            <h6><label for="nama"> <a href="/logout" style="width: 100px; color: #09326f; margin-left:-1px; margin-top:-20px;" onclick="return confirm('Apakah anda yakin ingin keluar dari sistem ?')">
-                                                        <i class="fas fa-sign-out-alt mr-2"></i> Keluar
-                                                    </a></label></h6>
-                                        </div>
-                                    </div>
-
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">TUTUP</button>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal Konfirmasi Keluar -->
+                    <div class="modal fade" id="konfirmasiModal" tabindex="-1" role="dialog" aria-labelledby="konfirmasiModalLabel" aria-hidden="true" style="margin-top:100px;">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="konfirmasiModalLabel">Konfirmasi Keluar</h5>
+
+                                </div>
+                                <div class="modal-body text-center">
+                                    <i class="bi bi-escape" style="font-size: 50px; margin-bottom: 10px;"></i>
+                                    <p>Apakah Anda yakin ingin keluar dari sistem?</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                                    <a href="/logout" class="btn btn-danger" style="height: 38px; display: flex; align-items: center; justify-content: center;">
+                                        Keluar
+                                    </a>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Memuat jQuery -->
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+                    <!-- Memuat Bootstrap JavaScript -->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+
+                    <script>
+                        function showLogoutConfirmation() {
+                            // Menutup model utama
+                            $('#exampleModal').modal('hide');
+
+                            // Menampilkan model konfirmasi keluar
+                            $('#konfirmasiModal').modal('show');
+                        }
+                    </script>
+
+
+
+                </ul>
+
+                <!-- Button trigger modal -->
+                <button class="bi bi-bell-fill" data-bs-toggle="modal" data-bs-target="#notif"
+                    style="color: #09326f; margin-left:30px; font-size:21px; margin-top:15px; background-color:#fff; border-inline: none; border-block:none; position: relative;">
+                    <!-- Ikon lonceng notifikasi -->
+                    <span class="iconify" data-icon="bi:bell-fill" style="margin-right: 5px;"></span>
+
+                    <!-- Nomor checkout -->
+                    <span class="checkout-number"
+                        style="position: absolute; top: -5px; right: -5px; background-color: red; color: white; border-radius: 50%; padding: 3px 6px; font-size: 12px;">
+                        3 <!-- Gantilah angka ini dengan nomer checkout aktual -->
+                    </span>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="notif" aria-labelledby="notif" style="margin-top:100px;"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="notif">Paket yang Anda Pilih</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="card" style="height: 100px;">
+                                    {{-- <img src="path/to/image1.jpg" class="card-img-top" alt="Card Image 1"> --}}
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="margin-top: -10px; margin-bottom:0 !important;">Bimbingan Skripsi Online</h5>
+                                        <p class="card-text" style="font-size:12px;margin-bottom: 10px; ">Jangan nyicil</p>
+                                        <button type="button" class="btn btn-primary" style="font-size:10px">Bayar sekarang</button>
+                                    </div>
+                                </div>
+
+                            </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">TUTUP</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                                {{-- <button type="button" class="btn btn-primary">Save changes</button> --}}
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-            </ul>
             @else
-            <ul class="navbar-nav ml-auto">
-                <li class="login-button">
-                    <div class="login-btn" style="margin-bottom:12px;margin-left:10px;"><a href="/login">Masuk</a></div>
-                </li>
-            </ul>
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="login-button">
+                        <div class="login-btn" style="margin-bottom:12px;margin-left:10px;"><a href="/login">Masuk</a>
+                        </div>
+                    </li>
+                </ul>
             @endauth
         </div>
     </div>
@@ -236,22 +313,27 @@
         <nav id="navbar" class="navbar">
             <ul>
                 <li><a class="nav-link scrollto" href="/index" style="margin-right:30px">Home</a></li>
-                <li class="dropdown"><a style="cursor: pointer;"><span>Produk</span> <i class="bi bi-chevron-down nav-link scrollto active" style="margin-left:-10px;"></i></a>
+                <li class="dropdown"><a style="cursor: pointer;"><span>Produk</span> <i
+                            class="bi bi-chevron-down nav-link scrollto active" style="margin-left:-10px;"></i></a>
                     <ul style="border-radius: 15px;">
                         <li><a class="nav-link scrollto" href="nonaktif">Kelas Tugas Kuliah (KTK)</a></li>
-                        <li><a class="nav-link scrollto" href="bimbangan-mata-kuliah-jurusan">Bimbingan Mata Kuliah Jurusan (BMJ)</a></li>
-                        <li><a class="nav-link scrollto" href="bimbingan-skripsi-online">Bimbingan Skripsi Online (BSO)</a></li>
+                        <li><a class="nav-link scrollto" href="bimbangan-mata-kuliah-jurusan">Bimbingan Mata Kuliah
+                                Jurusan (BMJ)</a></li>
+                        <li><a class="nav-link scrollto" href="bimbingan-skripsi-online">Bimbingan Skripsi Online
+                                (BSO)</a></li>
                         <li><a class="nav-link scrollto" href="nonaktif">Kelas Persiapan Karir (KPK)</a></li>
                         <!-- href="kelas-persiapan-karir" -->
                     </ul>
                 </li>
-                <li class="dropdown"><a style="cursor: pointer;"><span>Workshop</span> <i class="bi bi-chevron-down nav-link scrollto active" style="margin-left:-10px;"></i></a>
+                <li class="dropdown"><a style="cursor: pointer;"><span>Workshop</span> <i
+                            class="bi bi-chevron-down nav-link scrollto active" style="margin-left:-10px;"></i></a>
                     <ul style="border-radius: 15px;">
                         <li><a class="nav-link scrollto" href="nonaktif">KTI</a></li>
                         <li><a class="nav-link scrollto" href="skripsi">Skripsi</a></li>
                     </ul>
                 </li>
-                <li class="dropdown"><a style="cursor: pointer;"><span>Creative Class</span> <i class="bi bi-chevron-down nav-link scrollto active" style="margin-left:-10px;"></i></a>
+                <li class="dropdown"><a style="cursor: pointer;"><span>Creative Class</span> <i
+                            class="bi bi-chevron-down nav-link scrollto active" style="margin-left:-10px;"></i></a>
                     <ul style="border-radius: 15px;">
                         <li><a class="nav-link scrollto" href="nonaktif">Kelas Adobe Photoshop</a></li>
                     </ul>
@@ -285,10 +367,10 @@
                             <img src="{{ asset('assets/img/logo/cari.png') }}" alt="Search" style="width: 20px;">
                         </button>
                     </div> --}}
-                    <!--<ul id="search-results" class="search-results">
+                <!--<ul id="search-results" class="search-results">
                             Hasil pencarian akan ditampilkan di sini
                         </ul>-->
-                </div>
+    </div>
     </div>
     </li>
 
@@ -369,10 +451,13 @@
     </div>
     <marquee id="marquee">
         <ul>
-            <li>Magdalena Melisa: Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir gitu aja banyak ide muncul.</li>
-            <li>Adinda Cahayani Supriyanto: Saya sangat berterima kasih pada BSO karena sudah menyediakan program bimbingan skripsi online yang berkualitas dan juga ramah dikantong.</li>
+            <li>Magdalena Melisa: Dengan adanya Mentor, hal-hal yang tidak tersampaikan ke dosen pembimbing jadi ngalir
+                gitu aja banyak ide muncul.</li>
+            <li>Adinda Cahayani Supriyanto: Saya sangat berterima kasih pada BSO karena sudah menyediakan program
+                bimbingan skripsi online yang berkualitas dan juga ramah dikantong.</li>
             <li>Napa Lestari: Dengan mengikuti BSO skripsi saya selesai lebih cepat.</li>
-            <li>Hanifah Alya Mu'adzah: Mentornya baik-baik dan kalau jelasin materi rinci, bukan hanya mentor namun adminnya juga the best.</li>
+            <li>Hanifah Alya Mu'adzah: Mentornya baik-baik dan kalau jelasin materi rinci, bukan hanya mentor namun
+                adminnya juga the best.</li>
             <li>Puji: Menambah ilmu baru, wawasan, santai, disiplin, manajemen waktu baik.</li>
         </ul>
     </marquee>
@@ -686,7 +771,8 @@
     function resetMarqueePosition() {
         marquee.style.transform = "translateX(100%)";
         setTimeout(function() {
-            var transitionDuration = "10s"; // Ganti dengan durasi yang diinginkan (misalnya, "30s" untuk 30 detik)
+            var transitionDuration =
+                "10s"; // Ganti dengan durasi yang diinginkan (misalnya, "30s" untuk 30 detik)
             marquee.style.transition = "transform " + transitionDuration;
             marquee.style.transform = "translateX(0)";
             void marquee.offsetWidth; // Trigger reflow

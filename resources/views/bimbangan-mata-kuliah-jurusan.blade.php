@@ -103,9 +103,9 @@
                 <div style="width: 100%; text-align: center; color: #09326F; font-size: 60px; font-family: Montserrat; font-weight: 800; line-height: 60px; word-wrap: break-word; margin-top: 20px; margin-left: 20px;">
                     Bimbingan Mata<br />Kuliah Jurusan (BMJ)</div>
 
-                <div style="width: 600px; margin-left: 50px; height: 100%; margin-top: px; text-align: center; color: #202020; font-size: 20px; font-family: Montserrat; font-weight: 500; line-height: 20px; word-wrap: break-word; margin: 0 auto;">
+                <div style="width: 600px;  height: 100%; margin-top: px; text-align: center; color: #202020; font-size: 20px; font-family: Montserrat; font-weight: 500; line-height: 20px; word-wrap: break-word; margin: 0 auto;">
                 </div>
-                <p style="margin-left: 65px; margin-top: 5px; text-align: center; color: #202020; font-size: 19px; font-family: Montserrat; font-weight: 500;  ">
+                <p style=" margin-top: 5px; text-align: center; color: #202020; font-size: 19px; font-family: Montserrat; font-weight: 500;  ">
                     Bimbingan Mata kuliah Jurusan (BMJ) Class Program <br> disediakan secara khusus untuk membantu
                     mahasiswa <br> dalam memahami materi-materi mata kuliah yang ada <br> di jurusan dengan sistem
                     mentoring/pendampingan.
@@ -353,7 +353,7 @@
                             </div>
                             <!-- 2 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
+                                <div style="width: 500px; margin-top:8px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
                                     Sobat Insans bisa mengkonsultasikan kendalanya<br> terkait mata kuliah yang
                                     sedang ditempuh
                                 </div>
@@ -362,7 +362,7 @@
                             </div>
                             <!-- 3 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
+                                <div style="width: 500px; margin-top:8px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
                                     Sobat Insans akan mendapatkan kisi-kisi UAS<br> untuk latihan
                                 </div>
 
@@ -370,7 +370,7 @@
                             </div>
                             <!-- 4 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
+                                <div style="width: 500px; margin-top:8px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
                                     Sobat Insans akan mendapatkan motivasi dan<br> arahan seputar dunia perkuliahan
                                 </div>
 
@@ -378,7 +378,7 @@
                             </div>
                             <!-- 5 -->
                             <div style="width: 100%; margin-left: -100px; height: 100%; position: relative">
-                                <div style="width: 500px; margin-top:20px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
+                                <div style="width: 500px; margin-top:8px; left: 20px; margin-left: 40px; top: 0px; color: white; font-size: 16px;font-family: Montserrat; font-weight: 600;  text-align: left;">
                                     Sobat Insans bisa konsultasi terkait <br>konsentrasi jurusan dan Praktek Kerja
                                     Lapangan.
                                 </div>
@@ -954,31 +954,31 @@
                                             <ul class="deskripsi" style="max-height: 150px; overflow-y: auto; ">
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;"> Untuk mahasiswa semester 1 dan 2</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;"> Untuk mahasiswa semester<br> 1 dan 2</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;"> 6 Mata Kuliah (umum dan khusus)</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;"> 6 Mata Kuliah (umum dan<br>khusus)</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Konsultasi konsentrasi jurusan</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">Konsultasi konsentrasi<br> jurusan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Waktu bimbingan 12 kali<br> pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">Waktu bimbingan 12 kali<br> pertemuan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Jadwal bimbingan 1 minggu,<br> 3x pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">Jadwal bimbingan 1 minggu,<br> 3x pertemuan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Durasi pertemuan minimal 2<br> jam dan maksimal 4 jam</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">Durasi pertemuan minimal 2<br> jam dan maksimal 4 jam</span>
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
-                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Bronze' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Bronze' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 12px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%); padding:4x;">Daftar Sekarang</a>
 
                                             </div>
 
@@ -1015,31 +1015,31 @@
                                             <ul class="deskripsi" style="max-height: 150px; overflow-y: auto; ">
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Untuk mahasiswa semester 3 dan 4</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">Untuk mahasiswa semester<br> 3 dan 4</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">6 Mata Kuliah (umum dan khusus)</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">6 Mata Kuliah (umum dan<br> khusus)</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Konsultasi konsentrasi jurusan</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">Konsultasi konsentrasi<br> jurusan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Waktu bimbingan 24 kali<br> pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">Waktu bimbingan 24 kali<br> pertemuan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;"> Jadwal bimbingan 1 minggu,<br> 3x pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;"> Jadwal bimbingan 1 minggu,<br> 3x pertemuan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;"> Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;"> Durasi pertemuan minimal<br> 2 jam dan maksimal 4 jam</span>
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
-                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Emerland' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Emerland' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 12px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);padding:4x;">Daftar Sekarang</a>
 
                                             </div>
                                         </div>
@@ -1076,31 +1076,31 @@
                                             <ul class="deskripsi" style="max-height: 150px; overflow-y: auto; ">
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Untuk mahasiswa semester 5 dan 6</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">Untuk mahasiswa semester<br> 5 dan 6</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;"> 6 Mata Kuliah (umum dan khusus)</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;"> 6 Mata Kuliah (umum dan<br> khusus)</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Konsultasi konsentrasi jurusan</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">Konsultasi konsentrasi<br> jurusan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Waktu bimbingan 24 kali<br> pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">Waktu bimbingan 24 kali<br> pertemuan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Jadwal bimbingan 1 minggu, <br>3x pertemuan</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">Jadwal bimbingan 1 minggu, <br>3x pertemuan</span>
                                                 </li>
                                                 <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                     <span class="checkmark" style="width: 18px; height:18px; ">&#10003;</span>
-                                                    <span class="text-bso" style="font-size: 10px;font-family: Montserrat !important; font-weight:500;">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
+                                                    <span class="text-bso" style="font-size: 12px;font-family: Montserrat !important; font-weight:500;">Durasi pertemuan minimal 2<br> jam dan maksimal 4 jam</span>
                                                 </li>
                                             </ul>
                                             <div class="card-footer text-center" style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
-                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Diamond' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar Sekarang</a>
+                                                <a href="{{ Auth::check() ?  'pembelian/BSO%20Diamond' : '/register' }}" class="custom-btn-buy" style="margin-top:5px; width: 45%; font-size: 12px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);padding:4x;">Daftar Sekarang</a>
 
                                             </div>
 
@@ -1143,161 +1143,6 @@
                     </div>
 
                 </div>
-                {{-- <div class="row align-items-center justify-content-center">
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                            <div class="custom-box" style="height: 540px; border-radius: 15px;">
-                                <h4 class="custom-package"
-                                    style="color: #FFF;
-                                font-family: Montserrat;
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 600;                                line-height: 125%; /* 40px */
-                                letter-spacing: -1.6px;">
-                                    PAKET BRONZE</h4>
-                                <div class="rupiah-display" style="position: relative;">
-                                    <h4
-                                        style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                        <strong class="rp" style="margin-left: 10px;">Rp</strong></h4>
-                                    <h4><strong>400.000</strong></h4>
-                                </div>
-                                <div class="custom-pricee" style="margin-right: 120px;"><strong>1 Bulan</strong></div>
-                                <hr>
-                                <ul>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text"> Untuk mahasiswa semester 1 dan 2</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text"> 6 Mata Kuliah (umum dan khusus)</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text"> Konsultasi konsentrasi jurusan</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text"> Waktu bimbingan 12 kali pertemuan</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text"> Jadwal bimbingan 1 minggu,<br> 3x pertemuan</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
-
-                                    </li>
-
-                                </ul>
-                                <div class="custom-btn-wrap" style="margin-top:-10%">
-                                    <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                            <div class="custom-box" style="height: 540px; border-radius: 15px;">
-                                <h4 class="custom-package"
-                                    style="color: #FFF;
-                                font-family: Montserrat;
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 700;
-                                line-height: 125%; /* 40px */
-                                letter-spacing: -1.6px;">
-                                    PAKET EMERALD</h4>
-                                <div class="rupiah-display" style="position: relative;">
-                                    <h4
-                                        style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                        <strong class="rp" style="margin-left: 10px;">Rp</strong></h4>
-                                    <h4><strong>565.000</strong></h4>
-                                </div>
-                                <div class="custom-pricee" style="margin-right: 120px;"><strong>2 Bulan</strong></div>
-                                <hr>
-                                <ul>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text">Untuk mahasiswa semester 3 dan 4</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text"> 6 Mata Kuliah (umum dan khusus)</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text"> Konsultasi konsentrasi jurusan </span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text">Waktu bimbingan 24 kali pertemuan</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text">Jadwal bimbingan 1 minggu,<br> 3x pertemuan</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
-                                    </li>
-                                </ul>
-                                <div class="custom-btn-wrap" style="margin-top:-10%">
-                                    <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                            <div class="custom-box" style="height: 540px; border-radius: 15px;">
-                                <h4 class="custom-package"
-                                    style="color: #FFF;
-                                font-family: Montserrat;
-                                font-size: 18px;
-                                font-style: normal;
-                                font-weight: 700;
-                                line-height: 125%; /* 40px */
-                                letter-spacing: -1.6px;">
-                                    PAKET DIAMOND</h4>
-                                <div class="rupiah-display" style="position: relative;">
-                                    <h4
-                                        style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
-                                        <strong class="rp" style="margin-left: 10px;">Rp</strong></h4>
-                                    <h4><strong>650.000</strong></h4>
-                                </div>
-                                <div class="custom-pricee" style="margin-right: 120px;"><strong>2 Bulan</strong></div>
-                                <hr>
-                                <ul>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text">Untuk mahasiswa semester 5 dan 6</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text"> 6 Mata Kuliah (umum dan khusus)</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text"> Konsultasi konsentrasi jurusan </span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text">Waktu bimbingan 24 kali pertemuan</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text">Jadwal bimbingan 1 minggu, <br>3x pertemuan</span>
-                                    </li>
-                                    <li class="left-aligned">
-                                        <span class="checkmark">&#10003;</span>
-                                        <span class="text">Durasi pertemuan minimal 2 jam dan<br> maksimal 4 jam</span>
-                                    </li>
-
-                                </ul>
-                                <div class="custom-btn-wrap" style="margin-top:-10%">
-                                    <a href="#" class="custom-btn-buy">Daftar Sekarang</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> --}}
             </div>
         </section>
 
