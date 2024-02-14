@@ -10,19 +10,21 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/logo/logo2.png" rel="icon">
-    <link href="assets/img/logo/logo2.png" rel="assets/img/logo/logo2.png">
+    <link href="{{ asset('assets/img/logo/logo2.png') }}" rel="icon">
+    <link href="{{ asset('assets/img/logo/logo2.png') }}" rel="assets/img/logo/logo2.png">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+    
+
     <!-- Include Bootstrap CSS and JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -30,7 +32,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Slenco:wght@400&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
 
@@ -278,7 +280,8 @@
                                 </table>
                             </div>
                             <div class="col-sm-6">
-                                <img style="width: 180px; height: 180px; margin-left:50px; margin-top:20px;" src="assets/img/bg/abuki.png" alt="">
+                                <img style="width: 180px; height: 180px; margin-left:50px; margin-top:20px;" src="{{ asset('assets/img/bg/abuki.png') }}" alt="Abuki Background">
+
                             </div>
                         </div>
 
@@ -302,7 +305,7 @@
                     <!-- Existing content container -->
                     <div class="card-container" ondragover="allowDrop(event)" ondrop="handleDrop(event)">
                         <div class="existing-content">
-                            <img src="assets/img/logo/Upload.png" style="width: 80px;" alt="">
+                            <img src="{{ asset('assets/img/logo/Upload.png') }}" style="width: 80px;" alt="">
                             <h5 class="card-title">Upload </h5>
                             <div class="input-group" style="margin-top: -2px;">
                                 <input type="file" class="form-control" name="foto" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
@@ -318,7 +321,7 @@
         </div>
         <!-- di dalam file bukti.blade.php -->
         </div>
-        <img src="assets/img/bg/piyeh.png" style="width: 50%; margin-right:-30px;  margin-top: -5%;" alt="Payment Image" class="payment-image">
+        <img src="{{ asset('assets/img/bg/piyeh.png') }}" style="width: 50%; margin-right: -30px; margin-top: -5%;" alt="Payment Image" class="payment-image">
     </section>
 
 </body>
