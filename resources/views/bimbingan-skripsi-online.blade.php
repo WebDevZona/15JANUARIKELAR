@@ -779,7 +779,7 @@
                                                 margin-left: 28px;
                                                 background: linear-gradient(0deg, #09326F 0%, #3E87F8 100%), #3E87F8;
                                                 ">
-                                                    PAKET SILVER</h4>
+                                                   SILVER</h4>
                                                 <div class="rupiah-display" style="position: relative;">
                                                     <h4
                                                         style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
@@ -797,68 +797,44 @@
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Bimbingan intensif
-                                                            pembuatan <br> judul
-                                                            skripsi</span>
+                                                        <span class="text-bso" style="font-size: 12px"> Bimbingan intensif<br>
+                                                            pembuatan judul skripsi</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Bimbingan rumusan
+                                                        <span class="text-bso" style="font-size: 12px"> Bimbingan rumusan<br>
                                                             masalah</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Penentuan dasar
-                                                            <br> teori berdasarkan
+                                                        <span class="text-bso" style="font-size: 12px">Penentuan dasar
+                                                            teori<br> berdasarkan
                                                             variabel</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Waktu bimbingan
+                                                        <span class="text-bso" style="font-size: 12px"> Waktu bimbingan<br>
                                                             12x pertemuan</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Durasi bimbingan
+                                                        <span class="text-bso" style="font-size: 12px"> Durasi bimbingan
                                                             minimal <br> 2 jam
                                                             maksimal 4 jam</span>
                                                     </li>
                                                 </ul>
-                                                {{-- <div class="custom-btn-wrap" style="margin-top: -10%">
-                                                <a id="custom-btn" class="custom-btn-buy" style="width: 80%; font-size: 12px; cursor: pointer;">Daftar Sekarang</a>
-                                            </div> --}}
                                                 <div class="card-footer text-center"
                                                     style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
                                                     <a href="{{ Auth::check() ? 'pembelian/BSO%20Silver' : '/register' }}"
                                                         class="custom-btn-buy"
-                                                        style="margin-top:5px; width: 45%; font-size: 10px; position: absolute; top:1%; left: 50%; transform: translateX(-50%);">Daftar
+                                                        style="margin-top:5px; width: 45%; font-size: 12px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%); padding:4x;">Daftar
                                                         Sekarang</a>
 
                                                 </div>
-
-                                                {{-- <script>
-                                                document.getElementById('custom-btn').addEventListener('click', function() {
-                                                    // Menggunakan Laravel's Blade untuk mendapatkan status login
-                                                    var isLoggedIn = @auth
-                                                    true
-                                                    @else
-                                                    false
-                                                    @endauth;
-
-                                                    if (isLoggedIn) {
-                                                        window.location.href = "pembelian/BSO%20Silver"; // Arahkan ke halaman pembelian jika sudah login
-                                                    } else {
-                                                        window.location.href = "/register"; // Arahkan ke halaman registrasi jika belum login
-                                                    }
-                                                });
-                                            </script> --}}
-
-
-
                                             </div>
                                         </div>
 
@@ -878,7 +854,7 @@
                                                 margin-left: 28px;
                                                 background: linear-gradient(0deg, #09326F 0%, #3E87F8 100%), #3E87F8;
                                                 ">
-                                                    PAKET GOLD</h4>
+                                                    GOLD</h4>
                                                 <div class="rupiah-display" style="position: relative;">
                                                     <h4
                                                         style="position: absolute; top: 0; left: 0; color: #1E1E1E; margin-right: 24px; font-size: 20px;">
@@ -896,33 +872,33 @@
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Bimbingan intensif
-                                                            pembuatan <br> bab
+                                                        <span class="text-bso" style="font-size: 12px">Bimbingan intensif<br>
+                                                            pembuatan bab
                                                             1-3</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Bimbingan dalam
+                                                        <span class="text-bso" style="font-size: 12px">Bimbingan dalam<br>
                                                             pembuatan outline</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Bimbingan metode
+                                                        <span class="text-bso" style="font-size: 12px">Bimbingan metode<br>
                                                             penelitian</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Waktu bimbingan 24x
+                                                        <span class="text-bso" style="font-size: 12px">Waktu bimbingan<br> 24x
                                                             pertemuan</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Durasi bimbingan
-                                                            minimal <br> 2 jam
+                                                        <span class="text-bso" style="font-size: 12px"> Durasi bimbingan<br>
+                                                            minimal 2 jam
                                                             maksimal 4 jam</span>
                                                     </li>
                                                 </ul>
@@ -934,7 +910,7 @@
                                                     style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
                                                     <a href="{{ Auth::check() ? 'pembelian/BSO%20Gold' : '/register' }}"
                                                         class="custom-btn-buy"
-                                                        style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar
+                                                        style="margin-top:5px; width: 45%; font-size: 12px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%); padding:4x;">Daftar
                                                         Sekarang</a>
 
                                                 </div>
@@ -975,34 +951,34 @@
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Bimbingan intensif
-                                                            pembuatan <br> bab 4
+                                                        <span class="text-bso" style="font-size: 12px">Bimbingan intensif<br>
+                                                            pembuatan bab 4
                                                             sampai selesai</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Bimbingan hasil dan
+                                                        <span class="text-bso" style="font-size: 12px">Bimbingan hasil dan<br>
                                                             pembahasan <br>
                                                             penelitian</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Bimbingan pembuatan
+                                                        <span class="text-bso" style="font-size: 12px">Bimbingan pembuatan<br>
                                                             abstrak</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Waktu bimbingan 24x
+                                                        <span class="text-bso" style="font-size: 12px">Waktu bimbingan<br> 24x
                                                             pertemuan</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Durasi bimbingan
-                                                            per pertemuan <br> minimal
+                                                        <span class="text-bso" style="font-size: 12px">Durasi bimbingan<br>
+                                                            per pertemuan minimal
                                                             2 jam maksimal 4 jam</span>
                                                     </li>
                                                 </ul>
@@ -1010,7 +986,7 @@
                                                     style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
                                                     <a href="{{ Auth::check() ? 'pembelian/BSO%20Platinum' : '/register' }}"
                                                         class="custom-btn-buy"
-                                                        style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar
+                                                        style="margin-top:5px; width: 45%; font-size: 12px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%); padding:4x;">Daftar
                                                         Sekarang</a>
                                                 </div>
 
@@ -1057,61 +1033,61 @@
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Bimbingan intensif
-                                                            pembuatan <br>
+                                                        <span class="text-bso" style="font-size: 12px">Bimbingan intensif<br>
+                                                            pembuatan
                                                             powerpoint proposal dan skripsi</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Bimbingan
-                                                            presentasi proposal <br>dan
+                                                        <span class="text-bso" style="font-size: 12px">Bimbingan
+                                                            presentasi<br> proposal dan
                                                             skripsi</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Bimbingan simulasi
-                                                            seminar <br> proposal
+                                                        <span class="text-bso" style="font-size: 12px">Bimbingan simulasi<br>
+                                                            seminar proposal
                                                             dan skripsi</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Konsultasi proposal
-                                                            dan skripsi <br> yang
+                                                        <span class="text-bso" style="font-size: 12px">Konsultasi proposal<br>
+                                                            dan skripsi yang
                                                             telah dibuat</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Waktu bimbingan 7x
+                                                        <span class="text-bso" style="font-size: 12px"> Waktu bimbingan<br> 7x
                                                             pertemuan</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Durasi bimbingan
-                                                            per pertemuan <br> minimal
+                                                        <span class="text-bso" style="font-size: 12px"> Durasi bimbingan<br>
+                                                            per pertemuan minimal
                                                             2 jam maksimal 4 jam</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Template
+                                                        <span class="text-bso" style="font-size: 12px"> Template
                                                             powerpoint</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Sertifikat</span>
+                                                        <span class="text-bso" style="font-size: 12px">Sertifikat</span>
                                                     </li>
                                                 </ul>
                                                 <div class="card-footer text-center"
                                                     style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
                                                     <a href="{{ Auth::check() ? 'pembelian/BSO%20Diamond' : '/register' }}"
                                                         class="custom-btn-buy"
-                                                        style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar
+                                                        style="margin-top:5px; width: 45%; font-size: 12px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%); padding:4x;">Daftar
                                                         Sekarang</a>
 
                                                 </div>
@@ -1152,49 +1128,49 @@
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Bimbingan intensif
-                                                            pembuatan <br> judul
+                                                        <span class="text-bso" style="font-size: 12px"> Bimbingan intensif<br>
+                                                            pembuatan judul
                                                             skripsi</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Bimbingan intensif
-                                                            pembuatan <br> bab
+                                                        <span class="text-bso" style="font-size: 12px"> Bimbingan intensif<br>
+                                                            pembuatan bab
                                                             1-3</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Bimbingan intensif
-                                                            pembuatan <br> bab 4
+                                                        <span class="text-bso" style="font-size: 12px">Bimbingan intensif<br>
+                                                            pembuatan bab 4
                                                             sampai selesai</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Bimbingan
-                                                            penyusunan ppt <br>proposal dan
+                                                        <span class="text-bso" style="font-size: 12px"> Bimbingan
+                                                            penyusunan<br> ppt proposal dan
                                                             skripsi</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Bimbingan
-                                                            presentasi proposal <br>dan
+                                                        <span class="text-bso" style="font-size: 12px"> Bimbingan
+                                                            presentasi<br> proposal dan
                                                             skripsi</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Bimbingan simulasi
-                                                            seminar <br>proposal dan
+                                                        <span class="text-bso" style="font-size: 12px"> Bimbingan simulasi<br>
+                                                            seminarproposal dan
                                                             sidang skripsi</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Waktu bimbingan 30x
+                                                        <span class="text-bso" style="font-size: 12px">Waktu bimbingan<br> 30x
                                                             pertemuan</span>
                                                     </li>
                                                 </ul>
@@ -1202,7 +1178,7 @@
                                                     style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
                                                     <a href="{{ Auth::check() ? 'pembelian/BSO%20Complete' : '/register' }}"
                                                         class="custom-btn-buy"
-                                                        style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar
+                                                        style="margin-top:5px; width: 45%; font-size: 12px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%); padding:4x;">Daftar
                                                         Sekarang</a>
 
                                                 </div>
@@ -1244,37 +1220,37 @@
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Merumuskan judul
+                                                        <span class="text-bso" style="font-size: 12px"> Merumuskan judul<br>
                                                             skripsi</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Penyusunan bab 1
+                                                        <span class="text-bso" style="font-size: 12px"> Penyusunan bab 1<br>
                                                             sampai bab 5 skripsi</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Topik pembahasan by
+                                                        <span class="text-bso" style="font-size: 12px">Topik pembahasan by<br>
                                                             request</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Merumuskan judul
+                                                        <span class="text-bso" style="font-size: 12px"> Merumuskan judul<br>
                                                             skripsi</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px"> Penyusunan bab 1
+                                                        <span class="text-bso" style="font-size: 12px"> Penyusunan bab 1<br>
                                                             sampai bab 5 skripsi</span>
                                                     </li>
                                                     <li class="left-aligned" style="margin-bottom: 10px !important; ">
                                                         <span class="checkmark"
                                                             style="width: 18px; height:18px; ">&#10003;</span>
-                                                        <span class="text-bso" style="font-size: 10px">Topik pembahasan by
+                                                        <span class="text-bso" style="font-size: 12px">Topik pembahasan by<br>
                                                             request</span>
                                                     </li>
                                                 </ul>
@@ -1282,7 +1258,7 @@
                                                     style="border-radius: 25px; width:350px; height:100%; margin-left:-50px; position: relative;">
                                                     <a href="{{ Auth::check() ? 'pembelian/BSO%20Complete' : '/register' }}"
                                                         class="custom-btn-buy"
-                                                        style="margin-top:5px; width: 45%; font-size: 10px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%);">Daftar
+                                                        style="margin-top:5px; width: 45%; font-size: 12px; position: absolute;  top:1%; left: 50%; transform: translateX(-50%); padding:4x;">Daftar
                                                         Sekarang</a>
 
                                                 </div>

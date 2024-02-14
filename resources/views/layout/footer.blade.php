@@ -51,6 +51,15 @@
             height: auto;
             display: block;
         }
+        .youtube:hover {
+    transform: translateY(-8px); /* Adjust the bouncing distance as needed */
+  }
+  .tiktok:hover {
+    transform: translateY(-8px); /* Adjust the bouncing distance as needed */
+  }
+  .instagram:hover {
+    transform: translateY(-8px); /* Adjust the bouncing distance as needed */
+  }
     </style>
     <div class="footer-top">
         <div class="container">
@@ -111,11 +120,11 @@
                     <ul>
                         <li><a href="#"><b>Alamat:</b> Jalan Bandara
                                 Palmerah IV No. D-11B, <br> <br> Cemorokandang, Kedungkandang, Kota Malang, <br> <br> Jawa Timur <br> </a></li>
-                        <li><a href="#"><b>Email: </b>classprogram.id@gmail.com
+                        <li><a href="#"><b>Email: </b>info@classprogram.id
                                 <br></a></li>
                         <li><a href="#"> <b>Whatsapp: </b> 0812-3436-1959 <br></a>
                         </li>
-                        <li><a href="#"> <b>Partnership: </b>classprogram.id@gmailcom<br> </a></li>
+                        <li><a href="#"> <b>Partnership: </b>info@classprogram.id<br> </a></li>
                         <li><a href="#"> <br> <br> </a>
                         </li>
 
@@ -437,7 +446,7 @@
             <div id="chat-dialog">
                 <div class="chat-bubble">
                     <!-- <p>Jika ada yang ingin ditanyakan, silakan <a id="contact" onclick="openWhatsApp()">hubungi Minma di sini</a>.</p> -->
-                    <p style="font-family:'Manrope';">Selamat datang di Class Program. <br>Jika ada yang ingin ditanyakan, silakan hubungi Kak Dewi <a href="javascript:void(0);" onclick="openWhatsApp()">di sini</a>.</p>
+                    <p style="font-family:'Manrope';">Selamat datang di Class Program. <br>Jika ada yang ingin ditanyakan, silahkan hubungi Kak Dewi <a href="javascript:void(0);" onclick="openWhatsApp()">di sini</a>.</p>
                 </div>
 
                 <!-- <div class=" send-logo">Class Program
@@ -620,4 +629,5 @@
         </script>
         {{-- Animasi angka --}}
         <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+    </body>
 </footer>

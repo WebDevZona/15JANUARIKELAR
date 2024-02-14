@@ -152,8 +152,8 @@
 
                     <a type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal"
                         style="color:#09326f;">
-                        <i class="fas fa-user mr-2"></i> &nbsp;<span>{{ auth()->user()->name }}</span> &nbsp;<i
-                            class="icon-submenu lnr lnr-chevron-down"></i>
+                        <i class="fas fa-user mr-2"></i> &nbsp;<span>{{ str_limit(auth()->user()->name, 11, '...') }}
+                        </span> &nbsp;<i class="icon-submenu lnr lnr-chevron-down"></i>
 
                     </a>
 
@@ -269,16 +269,24 @@
                     <div class="modal-dialog">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h1 class="modal-title fs-5" id="notif">Modal title</h1>
+                                <h1 class="modal-title fs-5" id="notif">Paket yang Anda Pilih</h1>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                Ktlll
+                                <div class="card" style="height: 100px;">
+                                    {{-- <img src="path/to/image1.jpg" class="card-img-top" alt="Card Image 1"> --}}
+                                    <div class="card-body">
+                                        <h5 class="card-title" style="margin-top: -10px; margin-bottom:0 !important;">Bimbingan Skripsi Online</h5>
+                                        <p class="card-text" style="font-size:12px;margin-bottom: 10px; ">Jangan nyicil</p>
+                                        <button type="button" class="btn btn-primary" style="font-size:10px">Bayar sekarang</button>
+                                    </div>
+                                </div>
+                            
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                                {{-- <button type="button" class="btn btn-primary">Save changes</button> --}}
                             </div>
                         </div>
                     </div>

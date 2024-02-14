@@ -4376,8 +4376,8 @@ li.left-aligned .text {
 
 .checkmark {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     /* background-color: #2ecc71; Warna latar belakang centang */
     border-style: solid;
     font-family: Montserrat;
